@@ -151,7 +151,7 @@ if page=="Gıda Fiyat Endeksi":
         endeksler = endeksler[sira]
         
         excel_data1 = to_excel(endeksler.drop("Gıda",axis=0))
-  
+        excel_data2 = to_excel(gfe)
 
 
         st.download_button(
@@ -165,6 +165,13 @@ if page=="Gıda Fiyat Endeksi":
             label="Madde Endekslerini İndir",
             data=excel_data1,
             file_name='endeksler.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="Web-Gıda Fiyat Endeksi İndir",
+            data=excel_data2,
+            file_name='gfe.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
         
