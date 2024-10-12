@@ -145,6 +145,10 @@ if page=="Gıda Fiyat Endeksi":
         # Excel dosyasını indirme düğmesi ekleme
         excel_data = to_excel(data)
         endeksler["Madde"]=endeksler.index
+        sira = ['Madde'] + [col for col in endeksler.columns if col != 'Madde']
+
+
+        endeksler = endeksler[sira]
         excel_data1 = to_excel(endeksler)
   
 
