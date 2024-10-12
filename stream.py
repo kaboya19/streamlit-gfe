@@ -145,6 +145,9 @@ if page=="Gıda Fiyat Endeksi":
 
         # Excel dosyasını indirme düğmesi ekleme
         excel_data = to_excel(data)
+        endeksler=pd.read_csv("endeksler.csv")
+        endeksler=endeksler.set_index(endeksler["Ürün"])
+        endeksler=endeksler.drop("Ürün",axis=1)
         excel_data1 = to_excel(endeksler)
 
 
