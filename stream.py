@@ -5,6 +5,7 @@ import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+from io import BytesIO
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
 tabs=["Gıda Fiyat Endeksi"]
 page=st.sidebar.radio("Sekmeler",tabs)
@@ -133,7 +134,23 @@ if page=="Gıda Fiyat Endeksi":
 
     
     if selected_group == "Gıda":
+        def to_excel(df):
+            output = BytesIO()
+            writer = pd.ExcelWriter(output, engine='xlsxwriter')
+            df.to_excel(writer, index=False, sheet_name='Sheet1')
+            writer.save()
+            processed_data = output.getvalue()
+            return processed_data
 
+        # Excel dosyasını indirme düğmesi ekleme
+        excel_data = to_excel(data)
+
+        st.download_button(
+            label="Excel dosyasını indir",
+            data=excel_data,
+            file_name='ornek_dosya.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
         if fiyat.dropna().empty:
             pass
         else:
