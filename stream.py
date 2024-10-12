@@ -145,9 +145,18 @@ if page=="Gıda Fiyat Endeksi":
 
         # Excel dosyasını indirme düğmesi ekleme
         excel_data = to_excel(data)
+        excel_data1 = to_excel(endeksler)
+
 
         st.download_button(
             label="Fiyat Listesini İndir",
+            data=excel_data,
+            file_name='fiyatlar.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="Madde Endekslerini İndir",
             data=excel_data,
             file_name='fiyatlar.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
