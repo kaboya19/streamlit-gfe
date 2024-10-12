@@ -151,7 +151,7 @@ if page=="Gıda Fiyat Endeksi":
         endeksler = endeksler[sira]
         
         excel_data1 = to_excel(endeksler.drop("Gıda",axis=0))
-        gfe["Tarih"]=gfe.index
+        gfe["Tarih"]=pd.to_datetime(gfe.index)
         sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
         gfe = gfe[sira]
         excel_data2 = to_excel(gfe)
