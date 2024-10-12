@@ -15,7 +15,7 @@ if page=="Bülten Aboneliği":
         st.write("Bülten aboneliği için abone olun!")
 
        
-        st.write("https://docs.google.com/forms/d/e/1FAIpQLSfVzfKAciSujzbEkBON2HIUSFBchiSKlEpCqRbbvglhQ58dxw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link")
+        st.write("https://docs.google.com/forms/d/e/1FAIpQLSegOdm2XZ-4bZ3i1zXzmyv4Ejsbculmp0XX7Vj785yBQb3Bag/viewform?vc=0&c=0&w=1&flr=0")
 
 
 if page=="Gıda Fiyat Endeksi":
