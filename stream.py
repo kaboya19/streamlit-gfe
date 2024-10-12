@@ -144,8 +144,9 @@ if page=="Gıda Fiyat Endeksi":
 
         # Excel dosyasını indirme düğmesi ekleme
         excel_data = to_excel(data)
+        endeksler["Madde"]=endeksler.index
         excel_data1 = to_excel(endeksler)
-        st.dataframe(endeksler)
+  
 
 
         st.download_button(
@@ -161,10 +162,11 @@ if page=="Gıda Fiyat Endeksi":
             file_name='endeksler.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
+        
         if fiyat.dropna().empty:
             pass
         else:
-            st.dataframe(endeksler)
+            st.dataframe(endeksler.drop("Madde",axis=1))
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
         st.dataframe(fiyat)
