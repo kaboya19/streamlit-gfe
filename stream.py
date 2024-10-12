@@ -7,8 +7,15 @@ import matplotlib.pyplot as plt
 import os
 from io import BytesIO
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
-tabs=["Gıda Fiyat Endeksi"]
+tabs=["Gıda Fiyat Endeksi","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
+
+if page=="Bülten Aboneliği":
+        st.title("E-posta Aboneliği")
+        st.write("Bülten aboneliği için abone olun!")
+
+       
+        st.write("https://docs.google.com/forms/d/e/1FAIpQLSfVzfKAciSujzbEkBON2HIUSFBchiSKlEpCqRbbvglhQ58dxw/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link")
 
 
 if page=="Gıda Fiyat Endeksi":
