@@ -157,8 +157,8 @@ if page=="Gıda Fiyat Endeksi":
 
         st.download_button(
             label="Madde Endekslerini İndir",
-            data=excel_data,
-            file_name='fiyatlar.xlsx',
+            data=excel_data1,
+            file_name='endeksler.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
         if fiyat.dropna().empty:
