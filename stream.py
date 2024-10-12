@@ -136,10 +136,11 @@ if page=="Gıda Fiyat Endeksi":
     if selected_group == "Gıda":
         def to_excel(df):
             output = BytesIO()
-            writer = pd.ExcelWriter(output, engine='xlsxwriter')
-            df.to_excel(writer, index=False, sheet_name='Sheet1')
-            writer.save()
-            processed_data = output.getvalue()
+            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+                df.to_excel(writer, index=False, sheet_name='Sheet1')
+                writer.close()  # writer.save() yerine close() kullanmalıyız.
+            processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
 
         # Excel dosyasını indirme düğmesi ekleme
