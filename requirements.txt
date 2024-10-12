@@ -4,4 +4,4 @@ ipywidgets>=7.0.0
 matplotlib==3.9.0
 quantstats==0.0.62
 pandas==2.2.2
-xls-writer
+XlsxWriter
