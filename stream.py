@@ -145,6 +145,7 @@ if page=="Gıda Fiyat Endeksi":
         # Excel dosyasını indirme düğmesi ekleme
         excel_data = to_excel(data)
         excel_data1 = to_excel(endeksler)
+        st.dataframe(endeksler)
 
 
         st.download_button(
