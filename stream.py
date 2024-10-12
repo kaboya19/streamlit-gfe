@@ -149,7 +149,8 @@ if page=="Gıda Fiyat Endeksi":
 
 
         endeksler = endeksler[sira]
-        excel_data1 = to_excel(endeksler)
+        
+        excel_data1 = to_excel(endeksler.drop("Gıda",axis=0))
   
 
 
