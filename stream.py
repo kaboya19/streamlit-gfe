@@ -147,9 +147,9 @@ if page=="Gıda Fiyat Endeksi":
         excel_data = to_excel(data)
 
         st.download_button(
-            label="Excel dosyasını indir",
+            label="Fiyat Listesini İndir",
             data=excel_data,
-            file_name='ornek_dosya.xlsx',
+            file_name='fiyatlar.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
         if fiyat.dropna().empty:
