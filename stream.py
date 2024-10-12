@@ -138,14 +138,12 @@ if page=="Gıda Fiyat Endeksi":
             output = BytesIO()
             # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
             with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-                df.to_excel(writer, index=False, sheet_name='Sheet1')
-                writer.close()  # writer.save() yerine close() kullanmalıyız.
+                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
 
         # Excel dosyasını indirme düğmesi ekleme
         excel_data = to_excel(data)
-        endeksler=pd.read_csv("endeksler.csv")
         excel_data1 = to_excel(endeksler)
 
 
