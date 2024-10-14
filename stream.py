@@ -102,12 +102,12 @@ if page=="Gıda Fiyat Endeksi":
             font=dict(family="Arial", size=14, color="black")
         )
     tarih=pd.read_csv("tarih.csv")
-    tarih=tarih.iloc[0]
+    tarih=tarih.iloc[0,1]
 
     st.markdown(f"""
         <h3 style='text-align:left; color:black;'>
             {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span>
-            
+
             Güncelleme Tarihi:{tarih}
         </h3>
         """, unsafe_allow_html=True)
