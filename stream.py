@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 from io import BytesIO
+from datetime import datetime
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
 tabs=["Gıda Fiyat Endeksi","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
@@ -100,11 +101,13 @@ if page=="Gıda Fiyat Endeksi":
             ),
             font=dict(family="Arial", size=14, color="black")
         )
-
+    tarih=pd.read_csv("tarih.csv")
+    tarih=tarih.iloc[0,0]
 
     st.markdown(f"""
         <h3 style='text-align:left; color:black;'>
             {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span>
+            Güncelleme Tarihi:{tarih}
         </h3>
         """, unsafe_allow_html=True)
         # Grafik Streamlit'te gösteriliyor
