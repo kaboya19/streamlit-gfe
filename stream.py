@@ -20,7 +20,7 @@ if page=="Bülten Aboneliği":
 
 
 if page=="Metodoloji Notu":
-     uploaded_file = "Metodoloji.pdf"
+     uploaded_file = st.file_uploader("Bir PDF dosyası yükleyin", type="pdf")
 
      if uploaded_file is not None:
         # PDF dosyasını bir iframe olarak göstermek
