@@ -8,7 +8,7 @@ import os
 from io import BytesIO
 from datetime import datetime
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
-tabs=["Gıda Fiyat Endeksi","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Metodoloji Notu","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
 
 if page=="Bülten Aboneliği":
@@ -17,6 +17,15 @@ if page=="Bülten Aboneliği":
 
        
         st.write("https://docs.google.com/forms/d/e/1FAIpQLSegOdm2XZ-4bZ3i1zXzmyv4Ejsbculmp0XX7Vj785yBQb3Bag/viewform?vc=0&c=0&w=1&flr=0")
+
+
+if page=="Metodoloji Notu":
+     uploaded_file = "Metodoloji.pdf"
+
+     if uploaded_file is not None:
+        # PDF dosyasını bir iframe olarak göstermek
+        pdf_display = f'<iframe src="data:application/pdf;base64,{uploaded_file.getvalue().decode("latin1")}" width="700" height="1000" type="application/pdf"></iframe>'
+        st.markdown(pdf_display, unsafe_allow_html=True)
 
 
 if page=="Gıda Fiyat Endeksi":
