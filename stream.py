@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import os
 from io import BytesIO
 from datetime import datetime
+import base64
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
 tabs=["Gıda Fiyat Endeksi","Metodoloji Notu","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
