@@ -21,12 +21,59 @@ if page=="Bülten Aboneliği":
 
 
 if page=="Metodoloji Notu":
-     uploaded_file = "Metodoloji.pdf"
+     
 
-     if uploaded_file is not None:
-        # PDF dosyasını bir iframe olarak göstermek
-        pdf_display = f'<iframe src="data:application/pdf;base64,{uploaded_file.getvalue().decode("latin1")}" width="700" height="1000" type="application/pdf"></iframe>'
-        st.markdown(pdf_display, unsafe_allow_html=True)
+    # Başlık
+    st.title("Web Gıda Fiyat Endeksi (W-GFE) Metodoloji Açıklaması")
+
+    # Analitik Çerçeve ve Kapsam
+    st.subheader("Analitik Çerçeve ve Kapsam")
+    st.write("""
+    Web Gıda Fiyat Endeksinin amacı, TÜFE’deki Gıda ve Alkolsüz İçecekler grubunda yer alan gıda ürünlerinin günlük değişimini ölçerek enflasyon oranını hesaplamaktır. 
+    Bu çerçevede, 11 Ekim 2024 endeksi baz olarak "100" seçilmiştir.
+
+    Endeksin kapsamı, TÜİK’in yayınlamış olduğu Aralık 2022 tarihli madde sepetinde yer alan 128 gıda ürünü ile sınırlıdır. Madde ağırlıkları ise bu tarihteki madde ağırlıklarının 2023 ve 2024'te yayınlanan değişikliklerle güncellenmiş halidir.
+    """)
+
+    # Hesaplama Kuralları
+    st.subheader("Hesaplama Kuralları")
+    st.write("""
+    Endeks hesaplanırken, öncelikle her bir madde için günlük olarak fiyatlar toplanmakta, her gün sonunda önceki güne göre yüzde değişimi alınarak, bu değişimlerin o ürün bazında ortalaması alınıp üründe yaşanan ortalama günlük fiyat değişimi belirlenmektedir. 
+    Sonrasında bu değişim önceki günün endeksine eklenerek yeni endeks seviyesi hesaplanmaktadır. (Örneğin, bir üründe baz endeks 100 seçildiğinde, ertesi günde ortalama değişim %2 olursa yeni endeks 102 olmaktadır.)
+
+    Her bir madde için endeks seviyeleri hesaplandıktan sonra bu endeksler madde ağırlıklarıyla çarpılarak ağırlıklı endeks oluşturulur ve bunlar toplanarak Web Gıda Fiyat Endeksi’nin değeri hesaplanır.
+
+    Günlük olarak elde edilen W-GFE’nin ay içindeki ortalaması alınarak, önceki ayın ortalamasıyla kıyaslanır ve aylık enflasyon bulunur.
+    """)
+
+    # Mevsimsel Düzeltme
+    st.subheader("Mevsimsel Düzeltme")
+    st.write("""
+    İlk aşamada verilerde mevsimsel düzeltme yapılmayacaktır. Ancak verilerin birikmesiyle ilerleyen dönemlerde, TÜİK’in açıklamış olduğu metodolojiye uygun olarak mevsimsel düzeltme yapılacaktır. 
+    Bu sonuçlar web sitesinde ve e-posta aboneliği olan kullanıcılara ayrıca yeni bir endeks olarak bildirilecektir.
+    """)
+
+    # Veri Derleme
+    st.subheader("Veri Derleme")
+    st.write("""
+    Toplanan veriler web scraping yöntemiyle Python üzerinden derlenmektedir. Şu an itibariyle her gün 7000'e yakın fiyat toplanmaktadır. 
+    Kullanılan kaynaklar, Türkiye genelinde şubeleri bulunan ve online sipariş imkânı olan süpermarket zincirlerinin internet siteleridir.
+    """)
+
+    # Sonuçların Açıklanması
+    st.subheader("Sonuçların Açıklanması")
+    st.write("""
+    Her gün toplanan verilerle hesaplanan W-GFE ve madde endeksleri günlük olarak internet sitemizde yayınlanmaktadır. 
+    Her ayın 1'inde ise aylık enflasyon oranları duyurulacaktır. Aynı zamanda her bir ürün için kullanılan fiyatlar tablo olarak yayınlanmaktadır. 
+    Bu sayede şeffaf bir şekilde yaşanan fiyat değişimleri izlenebilmektedir.
+    """)
+
+    # İmza
+    st.write("""
+    ---
+    Bora Kaya  
+    HSBC Asset Management Intern
+    """)
 
 
 if page=="Gıda Fiyat Endeksi":
