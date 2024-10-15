@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import os
 from io import BytesIO
 from datetime import datetime
+import base64
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
 tabs=["Gıda Fiyat Endeksi","Metodoloji Notu","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
@@ -26,10 +27,12 @@ if page=="Metodoloji Notu":
      with open(pdf_file_path, "rb") as f:
         pdf_data = f.read()
 
-    # PDF'yi iframede gösterme
-     pdf_display = f'<iframe src="data:application/pdf;base64,{pdf_data.encode("base64").decode("utf-8")}" width="700" height="1000" type="application/pdf"></iframe>'
-     st.markdown(pdf_display, unsafe_allow_html=True)
+# PDF dosyasını base64'e çevirme
+     base64_pdf = base64.b64encode(pdf_data).decode('utf-8')
 
+# PDF'yi iframede gösterme
+     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
+     st.markdown(pdf_display, unsafe_allow_html=True)
 
 if page=="Gıda Fiyat Endeksi":
     
