@@ -20,12 +20,15 @@ if page=="Bülten Aboneliği":
 
 
 if page=="Metodoloji Notu":
-     uploaded_file = st.file_uploader("Bir PDF dosyası yükleyin", type="pdf")
+     pdf_file_path = "Metodoloji.pdf"  # Buraya kendi PDF dosyanızın yolunu yazın
 
-     if uploaded_file is not None:
-        # PDF dosyasını bir iframe olarak göstermek
-        pdf_display = f'<iframe src="data:application/pdf;base64,{uploaded_file.getvalue().decode("latin1")}" width="700" height="1000" type="application/pdf"></iframe>'
-        st.markdown(pdf_display, unsafe_allow_html=True)
+    # PDF dosyasını okuma
+     with open(pdf_file_path, "rb") as f:
+        pdf_data = f.read()
+
+    # PDF'yi iframede gösterme
+     pdf_display = f'<iframe src="data:application/pdf;base64,{pdf_data.encode("base64").decode("utf-8")}" width="700" height="1000" type="application/pdf"></iframe>'
+     st.markdown(pdf_display, unsafe_allow_html=True)
 
 
 if page=="Gıda Fiyat Endeksi":
