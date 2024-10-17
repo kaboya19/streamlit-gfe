@@ -452,7 +452,7 @@ Bal,Kooparatif Balı Süzme Çiçek Balı 325 G,86.95,86.95,86.95,86.95,86.95,86
 Bal,Balparmak Yayla Çiçek Balı 225 Gr,154.9,154.9,154.9,154.9,154.9,154.9,154.9
 Bal,Anavarza Süzme Çiçek Balı 450 G,169.9,169.0,169.0,169.0,169.0,169.0,169.0
 Bal,Anavarza Kral Şakir Tüp Bal 40 g,29.33,29.33,29.33,29.33,34.5,34.5,34.5
-Bal,Balparmak Yayla Çiçek Balı 460 G,260.91,260.91,260.91,260.91,260.91,260.91,260.90999999999997
+Bal,Balparmak Yayla Çiçek Balı 460 G,260.91,260.91,260.91,260.91,260.91,260.91,260.91
 Bal,Balparmak Çiçek Balı Tüp 40 G,37.9,37.9,37.9,37.9,37.9,37.9,37.9
 Bal,Balparmak Yüksek Yayla Çiçek Balı 850 G,543.9,543.9,543.9,543.9,543.9,543.9,543.9
 Bal,Balparmak Yayla Çiçek Balı 850 G,454.9,454.9,454.9,454.9,454.9,454.9,454.9
@@ -522,7 +522,7 @@ Bal,Beeo Propolis Kara Münver Çocuk Shot 500 Ml,59.9,59.9,59.9,59.9,59.9,59.9,
 Bal,Anavarza Keven&kekik Süzme Çiçek Balı 450 G,249.9,249.9,249.9,249.9,249.9,249.9,249.9
 Bal,Balparmak Yayla Ve Ova Çiçek Balı 225 Gr,129.9,129.9,129.9,129.9,129.9,129.9,129.9
 Bal,Anavarza Çiçek Balı 450 Gr,193.72,193.72,193.72,193.72,193.72,193.72,227.9
-Bal,Balparmak Kekik Balı 460 G,449.91,449.91,449.91,449.91,449.91,449.91,449.90999999999997
+Bal,Balparmak Kekik Balı 460 G,449.91,449.91,449.91,449.91,449.91,449.91,449.91
 Bal,Balparmak Kestane Balı 460 G,978.9,978.9,978.9,978.9,978.9,978.9,978.9
 Bal,Balparmak Yayla ve Ova Çiçek Balı 460 G,209.0,209.0,209.0,209.0,209.0,209.0,209.0
 Bal,Balparmak Çıt Kapak Yayla Çiçek Balı 350 G,239.9,239.9,239.9,239.9,239.9,239.9,239.9
@@ -2815,7 +2815,6 @@ Kabak,Erüst Kabak Minyatür 250 G Paket Adet,139.9,139.9,139.9,139.9,139.9,139.
 Kabak,Kabak Midi Adet,39.95,39.95,39.95,39.95,39.95,39.95,39.95
 Kabak,Kabak Sakız Kg,64.95,64.95,64.95,64.95,64.95,64.95,64.95
 Kabak,Kabak Dolmalık kg,75.95,75.95,75.95,75.95,75.95,75.95,75.95
-Kabak Çekirdeği,Olitalia Üzüm Çekirdeği Yağı 500 ml,390.9,390.9,390.9,390.9,390.9,390.9,390.9
 Kabartma Maddeleri,Altın Hamur Kabartma Tozu 10'lu 100 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0
 Kabartma Maddeleri,Dr Oetker Kabartma Tozu 5li,12.25,12.25,12.25,12.25,12.25,12.25,12.25
 Kabartma Maddeleri,Bağdat Karbonat 150 G,28.9,28.9,28.9,28.9,28.9,28.9,28.9
@@ -3581,7 +3580,7 @@ Konserveler,Migros Garnitür 560G,27.95,27.95,27.95,27.95,27.95,27.95,27.95
 Konserveler,Tat Mısır Konserve Cam Kavanoz 320 G,49.9,49.9,49.9,49.9,49.9,49.9,49.9
 Konserveler,Yayla Haşlanmış Fasulye 700 G,40.95,40.95,40.95,40.95,40.95,40.95,40.95
 Konserveler,Tamek Bezelye 670 G ( Cam ),47.95,47.95,47.95,47.95,47.95,47.95,47.95
-Konserveler,Kühne Közlenmiş Patlıcan 640 G,122.425,122.425,122.425,122.425,122.425,122.425,122.42500000000001
+Konserveler,Kühne Közlenmiş Patlıcan 640 G,122.425,122.425,122.425,122.425,122.425,122.425,122.425
 Konserveler,Duru Haşlanmış Mısır 400 Gr,32.25,32.25,32.25,32.25,32.25,32.25,32.25
 Konserveler,Tamek Haşlanmış Nohut 800 G,52.95,52.95,52.95,52.95,52.95,52.95,52.95
 Konserveler,Gurme212 Izgara İstiridye Mantarı 290 G,127.95,127.95,127.95,127.95,127.95,127.95,127.95
@@ -3597,7 +3596,7 @@ Konserveler,Carrefour Selection Güneşte Kurutulmuş Domates Marineli 285 g,49.
 Konserveler,Kühne Acı Közlenmiş Biber 670 Gr,119.9,119.9,119.9,119.9,119.9,119.9,119.9
 Konserveler,Penguen Bezelye Konservesi 680 G,56.95,56.95,56.95,56.95,56.95,56.95,56.95
 Konserveler,Yayla Haşlanmış Suyu Süzülmüş Nohut 150 G,23.95,23.95,23.95,23.95,23.95,23.95,23.95
-Konserveler,Tat Közlenmiş Biber 670 G,99.925,99.925,99.925,99.925,99.925,99.925,99.92500000000001
+Konserveler,Tat Közlenmiş Biber 670 G,99.925,99.925,99.925,99.925,99.925,99.925,99.925
 Konserveler,Tukaş Mısır 340 G,44.95,44.95,44.95,44.95,44.95,44.95,44.95
 Konserveler,Gurme212 Güneşte Kuru Kapya Biber 290 G,61.95,61.95,61.95,61.95,61.95,61.95,61.95
 Konserveler,TepTip Soya Filizi 425 g,142.9,142.9,142.9,142.9,142.9,142.9,142.9
@@ -3938,28 +3937,6 @@ Kuru Fasulye,Tat Meksika Fasulyesi 410 G,51.9,51.9,51.9,51.9,51.9,51.9,51.9
 Kuru Fasulye,Reis Royal Maş Fasulyesi 500 Gr,88.95,88.95,88.95,88.95,88.95,88.95,88.95
 Kuru Fasulye,S.S Tire Organik Kuru Fasulye 1 Kg,124.95,124.95,124.95,124.95,124.95,124.95,124.95
 Kuru Fasulye,Carrefour İri Kuru Fasulye 1 Kg,65.0,65.0,65.0,65.0,65.0,65.0,65.0
-Kuru Kayısı,Sarı Kuru Kayısı Jumbo Promosyon 400 G,239.95,239.95,239.95,239.95,239.95,239.95,239.95
-Kuru Kayısı,Peyman Bahçeden Kuru Kayısı 140G,66.95,66.95,66.95,66.95,66.95,66.95,66.95
-Kuru Kayısı,Bahçeden Kuru Kayısı 140 G,66.95,66.95,66.95,66.95,66.95,66.95,66.95
-Kuru Kayısı,Gün Kurusu Lux 200 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Kuru Kayısı,Bahçeden Kuru Erik 140 g,52.95,52.95,52.95,52.95,52.95,52.95,52.95
-Kuru Kayısı,Tadım Kuru Erik 125 Gr,43.0,43.0,43.0,43.0,43.0,43.0,43.0
-Kuru Kayısı,Kayısı Lux 200 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Kuru Kayısı,Bahçeden Kuru Üzüm 200 Gr,74.95,74.95,74.95,74.95,74.95,74.95,74.95
-Kuru Kayısı,Master Farm Kuru Kayısı 140 G,61.975,61.975,61.975,61.975,61.975,61.975,61.975
-Kuru Kayısı,Dovido Kuru Üzüm 200 g,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Kuru Kayısı,Dovido Gün Kurusu Kayısı 140 G,77.95,77.95,77.95,77.95,77.95,77.95,77.95
-Kuru Kayısı,Master Farm Günkurusu Kayısı 140G,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Kuru Kayısı,Sarı Kayısı Jumbo Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95
-Kuru Kayısı,Master Farm Kuru Üzüm 175 Gr,55.0,55.0,55.0,55.0,55.0,55.0,55.0
-Kuru Kayısı,Dovido Dovido Kuru İncir 150 G,77.95,77.95,77.95,77.95,77.95,77.95,77.95
-Kuru Kayısı,Perfect Delights Soft Kuru Kayısı 200 Gr,67.9,67.9,67.9,67.9,67.9,67.9,67.9
-Kuru Kayısı,Migros Gün Kurusu Malatya Kayısısı Jumbo 200 G,88.9,88.9,88.9,88.9,88.9,88.9,88.9
-Kuru Kayısı,Tadım Kuru Kayısı 140 G,63.975,63.975,63.975,64.0,64.0,63.975,63.975
-Kuru Kayısı,Tadım Güneşte Kurutulmuş Kayısı 140 G,69.95,69.95,69.95,69.95,69.95,69.95,69.95
-Kuru Kayısı,Peyman Bahçeden Gün Kurusu 140G,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Kuru Kayısı,Gün Kurusu Kayısı Jumbo Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95
-Kuru Kayısı,Perfect Delights Soft Gün Kurusu Kayısı 200 G,67.9,67.9,67.9,67.9,67.9,67.9,67.9
 Kuru Soğan,Soğan Kuru kg,12.9,12.9,12.9,12.9,11.9,11.9,11.9
 Kuru Soğan,Soğan Arpacık Kg,84.95,84.95,84.95,84.95,84.95,84.95,84.95
 Kuru Soğan,Mor Soğan kg,19.9,19.9,19.9,19.9,19.9,19.9,19.9
@@ -4834,9 +4811,6 @@ Muz,Yerli Muz kg,39.9,49.9,49.9,49.9,49.9,54.9,54.9
 Muz,Muz İthal Kg,99.95,99.95,99.95,99.95,99.95,99.95,99.95
 Muz,Muz Yerli Kg,54.95,54.95,54.95,54.95,54.95,54.95,69.95
 Nane,Nane Adet,19.95,19.95,19.95,19.95,19.95,19.95,19.95
-Nar,Nar Kg,37.95,37.95,37.95,37.95,37.95,49.95,49.95
-Nar,Gurme212 Tokat Erbaa Narince Bağ Yaprağı 455 G,119.95,119.95,119.95,119.95,119.95,119.95,119.95
-Nar,Nar kg,29.9,29.9,29.9,29.9,29.9,29.9,29.9
 Nohut,Reis Nohut 1000 Gr,110.21,110.21,110.21,146.95,146.95,146.95,146.95
 Nohut,Migros Koçbaşı Nohut 5 Kg,256.95,256.95,256.95,256.95,256.95,256.95,256.95
 Nohut,Carrefour Beyaz Nohut 1 Kg,79.5,79.5,79.5,79.5,79.5,79.5,79.5
@@ -5536,16 +5510,6 @@ Sirke,Carrefour Beyaz Sirke 2 L,29.9,29.9,29.9,29.9,29.9,29.9,29.9
 Sirke,Tariş Üzüm Sirkesi 1 L,89.95,89.95,89.95,89.95,89.95,89.95,89.95
 Sirke,Acetum Aceto Balsamik Sirkesi 500 ml,182.9,182.9,182.9,182.9,182.9,182.9,182.9
 Sirke,Kühne Elma Sirkesi Cam 500 Ml,84.95,84.95,84.95,84.95,84.95,84.95,84.95
-Sivri Biber,Biber Sivri Kıl Kg,99.95,99.95,99.95,99.95,99.95,99.95,99.95
-Sivri Biber,Çarliston Biber kg,96.0,96.0,96.0,96.0,96.0,96.0,96.0
-Sivri Biber,Erust Taze Baharat Rozmarin Kekik Adaçayı ,104.95,104.95,104.95,104.95,104.95,104.95,104.95
-Sivri Biber,Kıl Biber kg,105.9,105.9,105.9,105.9,105.9,105.9,105.9
-Sivri Biber,Kapya Biber kg,72.9,72.9,72.9,72.9,72.9,72.9,72.9
-Sivri Biber,Köy Biberi kg,85.9,85.9,85.9,85.9,85.9,85.9,85.9
-Sivri Biber,Biber Sivri Kg,72.9,72.9,72.9,72.9,72.9,74.95,74.95
-Sivri Biber,Sivri Biber Kg,72.9,76.9,76.9,76.9,76.9,76.9,76.9
-Sivri Biber,Jalepon Biber kg,59.95,59.95,59.95,59.95,59.95,59.95,59.95
-Sivri Biber,Dolma Biber Kg,82.9,82.9,82.9,82.9,82.9,82.9,82.9
 Sosis,Pınar Uzun Hindi Sosis 430 G,145.25,145.25,145.25,145.25,145.25,145.25,145.25
 Sosis,Maret 10lu Soyulmuş Sosis 432 G,229.9,229.9,229.9,229.9,229.9,229.9,229.9
 Sosis,Namet Hindi Sosis 7/24 140 G,55.75,55.75,55.75,55.75,55.75,55.75,55.75
@@ -7625,3 +7589,22 @@ Zeytinyağı,Yudum Egemden Sızma Zeytinyağı Yumuşaklezzet 1L,424.95,424.95,4
 Şehriye,Pastavilla Tel Şehriye 500 Gr,27.9,27.9,27.9,27.9,27.9,27.9,27.9
 Şehriye,Carrefour Tel Şehriye 500 g,10.75,10.75,10.75,10.75,10.75,10.75,10.75
 Şehriye,Real Thai Rice Vermicelli Pirinç Şehriye 375 g,156.9,156.9,156.9,156.9,156.9,156.9,156.9
+Nar,Nar Kg,37.95,37.95,37.95,37.95,37.95,49.95,49.95
+Nar,Nar kg,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Kuru Kayısı,Sarı Kuru Kayısı Jumbo Promosyon 400 G,239.95,239.95,239.95,239.95,239.95,239.95,239.95
+Kuru Kayısı,Peyman Bahçeden Kuru Kayısı 140G,66.95,66.95,66.95,66.95,66.95,66.95,66.95
+Kuru Kayısı,Bahçeden Kuru Kayısı 140 G,66.95,66.95,66.95,66.95,66.95,66.95,66.95
+Kuru Kayısı,Kayısı Lux 200 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95
+Kuru Kayısı,Master Farm Kuru Kayısı 140 G,61.975,61.975,61.975,61.975,61.975,61.975,61.975
+Kuru Kayısı,Dovido Gün Kurusu Kayısı 140 G,77.95,77.95,77.95,77.95,77.95,77.95,77.95
+Kuru Kayısı,Master Farm Günkurusu Kayısı 140G,79.95,79.95,79.95,79.95,79.95,79.95,79.95
+Kuru Kayısı,Sarı Kayısı Jumbo Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95
+Kuru Kayısı,Perfect Delights Soft Kuru Kayısı 200 Gr,67.9,67.9,67.9,67.9,67.9,67.9,67.9
+Kuru Kayısı,Migros Gün Kurusu Malatya Kayısısı Jumbo 200 G,88.9,88.9,88.9,88.9,88.9,88.9,88.9
+Kuru Kayısı,Tadım Kuru Kayısı 140 G,63.975,63.975,63.975,64.0,64.0,63.975,63.975
+Kuru Kayısı,Tadım Güneşte Kurutulmuş Kayısı 140 G,69.95,69.95,69.95,69.95,69.95,69.95,69.95
+Kuru Kayısı,Gün Kurusu Kayısı Jumbo Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95
+Kuru Kayısı,Perfect Delights Soft Gün Kurusu Kayısı 200 G,67.9,67.9,67.9,67.9,67.9,67.9,67.9
+Sivri Biber,Biber Sivri Kıl Kg,99.95,99.95,99.95,99.95,99.95,99.95,99.95
+Sivri Biber,Biber Sivri Kg,72.9,72.9,72.9,72.9,72.9,74.95,74.95
+Sivri Biber,Sivri Biber Kg,72.9,76.9,76.9,76.9,76.9,76.9,76.9
