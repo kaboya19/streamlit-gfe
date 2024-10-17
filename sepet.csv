@@ -452,7 +452,7 @@ Bal,Kooparatif Balı Süzme Çiçek Balı 325 G,86.95,86.95,86.95,86.95,86.95,86
 Bal,Balparmak Yayla Çiçek Balı 225 Gr,154.9,154.9,154.9,154.9,154.9,154.9,154.9
 Bal,Anavarza Süzme Çiçek Balı 450 G,169.9,169.0,169.0,169.0,169.0,169.0,169.0
 Bal,Anavarza Kral Şakir Tüp Bal 40 g,29.33,29.33,29.33,29.33,34.5,34.5,34.5
-Bal,Balparmak Yayla Çiçek Balı 460 G,260.91,260.91,260.91,260.91,260.91,260.91,260.90999999999997
+Bal,Balparmak Yayla Çiçek Balı 460 G,260.91,260.91,260.91,260.91,260.91,260.91,260.91
 Bal,Balparmak Çiçek Balı Tüp 40 G,37.9,37.9,37.9,37.9,37.9,37.9,37.9
 Bal,Balparmak Yüksek Yayla Çiçek Balı 850 G,543.9,543.9,543.9,543.9,543.9,543.9,543.9
 Bal,Balparmak Yayla Çiçek Balı 850 G,454.9,454.9,454.9,454.9,454.9,454.9,454.9
@@ -522,7 +522,7 @@ Bal,Beeo Propolis Kara Münver Çocuk Shot 500 Ml,59.9,59.9,59.9,59.9,59.9,59.9,
 Bal,Anavarza Keven&kekik Süzme Çiçek Balı 450 G,249.9,249.9,249.9,249.9,249.9,249.9,249.9
 Bal,Balparmak Yayla Ve Ova Çiçek Balı 225 Gr,129.9,129.9,129.9,129.9,129.9,129.9,129.9
 Bal,Anavarza Çiçek Balı 450 Gr,193.72,193.72,193.72,193.72,193.72,193.72,227.9
-Bal,Balparmak Kekik Balı 460 G,449.91,449.91,449.91,449.91,449.91,449.91,449.90999999999997
+Bal,Balparmak Kekik Balı 460 G,449.91,449.91,449.91,449.91,449.91,449.91,449.91
 Bal,Balparmak Kestane Balı 460 G,978.9,978.9,978.9,978.9,978.9,978.9,978.9
 Bal,Balparmak Yayla ve Ova Çiçek Balı 460 G,209.0,209.0,209.0,209.0,209.0,209.0,209.0
 Bal,Balparmak Çıt Kapak Yayla Çiçek Balı 350 G,239.9,239.9,239.9,239.9,239.9,239.9,239.9
@@ -3618,7 +3618,7 @@ Konserveler,Yayla Haşlanmış Maş Fasulyesi 400 G,24.95,24.95,24.95,24.95,24.9
 Konserveler,Gurme212 Çiçek Bamya 530 G,139.95,139.95,139.95,139.95,139.95,139.95,139.95
 Konserveler,Kühne Patlıcan Salatası 640 G,119.9,119.9,119.9,119.9,119.9,119.9,119.9
 Konserveler,Tat Garnitür 340 G ( Cam ),34.95,34.95,34.95,34.95,34.95,34.95,34.95
-Konserveler,Kühne Közlenmiş Patlıcan 640 G,122.425,122.425,122.425,122.425,122.425,122.425,122.42500000000001
+Konserveler,Kühne Közlenmiş Patlıcan 640 G,122.425,122.425,122.425,122.425,122.425,122.425,122.425
 Konserveler,Burcu Bezelye 570 G,40.95,40.95,40.95,40.95,40.95,40.95,40.95
 Konserveler,Gurme212 Acı Köfte Sosu 280G,30.95,30.95,30.95,30.95,30.95,30.95,30.95
 Konserveler,Superfresh Mısır 200 G,33.95,33.95,33.95,33.95,33.95,33.95,33.95
@@ -3634,7 +3634,7 @@ Konserveler,Carrefour Bezelye Konservesi 540 g,27.5,27.5,27.5,27.5,27.5,27.5,27.
 Konserveler,Tat Mantar 340 G,86.95,86.95,86.95,86.95,86.95,86.95,86.95
 Konserveler,Penguen Garnitür 540 G,51.9,51.9,51.9,51.9,51.9,51.9,51.9
 Konserveler,Fide Közlenmiş Patlıcan 650 G,41.95,41.95,41.95,41.95,41.95,41.95,41.95
-Konserveler,Tat Közlenmiş Biber 670 G,99.925,99.925,99.925,99.925,99.925,99.925,99.92500000000001
+Konserveler,Tat Közlenmiş Biber 670 G,99.925,99.925,99.925,99.925,99.925,99.925,99.925
 Konserveler,Penguen Bezelye Konservesi 680 G,56.95,56.95,56.95,56.95,56.95,56.95,56.95
 Konserveler,Tat Haşlanmış Kuru Fasulye 800 Gr,55.9,55.9,55.9,55.9,55.9,55.9,55.9
 Konserveler,Yayla Haşlanmış Suyu Süzülmüş Börülce 150 G,24.95,24.95,24.95,24.95,24.95,24.95,24.95
@@ -4839,9 +4839,6 @@ Muz,Muz Yerli Kg,54.95,54.95,54.95,54.95,54.95,54.95,69.95
 Muz,Yerli Muz kg,39.9,49.9,49.9,49.9,49.9,54.9,54.9
 Muz,Muz İthal Kg,99.95,99.95,99.95,99.95,99.95,99.95,99.95
 Nane,Nane Adet,19.95,19.95,19.95,19.95,19.95,19.95,19.95
-Nar,Nar kg,29.9,29.9,29.9,29.9,29.9,29.9,29.9
-Nar,Gurme212 Tokat Erbaa Narince Bağ Yaprağı 455 G,119.95,119.95,119.95,119.95,119.95,119.95,119.95
-Nar,Nar Kg,37.95,37.95,37.95,37.95,37.95,49.95,49.95
 Nohut,Carrefour Beyaz Nohut 1 Kg,79.5,79.5,79.5,79.5,79.5,79.5,79.5
 Nohut,Migros Nohut 5 Kg,256.95,256.95,256.95,256.95,256.95,256.95,256.95
 Nohut,Yayla Koçbaşı Nohut (İri Boy) 1 Kg,89.95,89.95,89.95,89.95,89.95,89.95,89.95
@@ -7623,3 +7620,5 @@ Zeytinyağı,Yudum Egemden Natural Sızma Zeytinyağı Yumuşak Lezzet 2 Lt,784.
 Şehriye,Mutlu Arpa Şehriye 500 g,17.95,17.95,17.95,17.95,17.95,17.95,17.95
 Şehriye,Pastavilla Arpa Şehriye 500 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95
 Şehriye,Pastavilla Tel Şehriye 500 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95
+Nar,Nar kg,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Nar,Nar Kg,37.95,37.95,37.95,37.95,37.95,49.95,49.95
