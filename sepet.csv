@@ -47,7 +47,7 @@ Ayran,Arslan Ayran 1 L,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.
 Ayran,İçim Orman Meyveli Kefir 250 Ml,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95
 Ayran,İçim Orman Meyveli Kefir 1 Litre,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95
 Ayran,İçim Kefir Çilekli 1 Litre,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95
-Ayran,İçim Ayran 2 L,55.725,55.725,55.725,55.725,53.5,53.5,53.5,53.5,53.5,53.5,53.5
+Ayran,İçim Ayran 2 L,55.725,55.725,55.725,55.725,53.5,53.5,53.5,53.5,53.5,53.5,49.5
 Ayran,İçim Probiyotik İçecek AhududuHibiskus 250 ml,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95
 Ayran,İçim Probiyotik İçecek Kara MürverYaban Mersini 250 ml,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95,23.95
 Ayran,İçim Kefir Sade 250 Ml,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95
@@ -865,22 +865,22 @@ Bisküvi,Lotus Caramelised Bisküvi 124 Gr,112.5,112.5,112.5,112.5,112.5,112.5,1
 Bisküvi,Oreo Klasik Bisküvi 44 g,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
 Bisküvi,Eti Burçak Kakao Kremalı Bisküvi 82 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Ülker Rondo Ülker Canpare Çikolatalı Kremalı Bisküvi 81 Gr,13.0,13.0,13.0,13.0,13.0,15.0,15.0,15.0,15.0,15.0,15.0
-Bisküvi,Hellema Pastry Crisps Blueberry Yaban Mersini Dolgulu Bisküvi 125 g,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94
-Bisküvi,Torku Tam Buğdaylı Bisküvi 131 G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Eti Burçak Tahıl Patlaklı Kakaolu Bisküvi 117G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Bisküvi,Halley Karadutlu Sandviç Bisküvi 236 G,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
 Bisküvi,Torku Klasik Fındık Kremalı Bisküvi 61 G,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9
 Bisküvi,Torku Tam Yulaflı Bisküvi 375 G,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5
 Bisküvi,Mc Vities Saklıköy Şeker İlavesiz Tam Tahıllı Bisküvi 73 G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
-Bisküvi,Hellema Sunbest Biscuits Raisin Apple Meyve Dolgulu Elmalı Bisküvi 218 g,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94
-Bisküvi,Ülker Hanımeller Çokodamla Poşet Bisküvi 150 G,26.0,26.0,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0
+Bisküvi,Ülker Halley Muzlu Pasta Tadında Sandviç Bisküvi 210 G,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
+Bisküvi,McVities Karamel  Tarçın Kremalı Bisküvi 88 Gr,22.0,22.0,22.0,22.0,22.0,24.0,24.0,24.0,24.0,24.0,24.0
 Bisküvi,Halley Çikolata Kaplamalı Bisküvi 30 G,7.0,7.0,7.0,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
 Bisküvi,Ülker Kakaolu Bisküvi 125 Gr,16.5,16.5,16.5,16.5,16.5,17.5,17.5,17.5,17.5,17.5,17.5
 Bisküvi,Eti Petit Beurre Petibör Bisküvi 800 gr,63.75,63.75,63.75,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0
 Bisküvi,Ülker Saklıköy Frambuazlı Beyaz Çikolatalı Bisküvi 100gr,19.0,19.0,19.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
-Bisküvi,Eti Benimo Lokmalık Çikolatalı Bisküvi 3 x 80 g,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7
-Bisküvi,Eti Form Bitter Çikolata Kaplı Lifli Bisküvi 50 g,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Bisküvi,İkram Kremalı Bisküvi Fındıklı 252 G,40.0,40.0,40.0,42.75,39.0,39.0,39.0,39.0,39.0,39.0,39.0
+Bisküvi,Torku Fındık Kremalı Bisküvi 4'lü Ekonomik Paket 244 G,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5
+Bisküvi,Biscolata Mood Çikolata Krema Dolgulu Bisküvi 40 G,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5
+Bisküvi,Ülker Çokomel Dev Marshmallow Bisküvi Sade 22 g,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0
 Bisküvi,Şölen Papita Party Çikolata Kaplı Sütlü Kremalı Bisküvi 63G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Bisküvi,Ülker İkram Fındıklı Kremalı Bisküvi 6'lı Paket 504G,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9
+Bisküvi,Eti Burçak Kakao Kremalı Bisküvi 100 g,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Bonheur Sütlü Çikolatalı Bisküvi 102 g,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5
 Bisküvi,Ülker Halley Karadut Dolgulu Bisküvi 236 G,55.0,55.0,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0
 Bisküvi,Ülker İkram Kremalı Bisküvi Fındıklı 84 Gr,14.0,14.0,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0
@@ -890,193 +890,193 @@ Bisküvi,Ozmo Hoppo Çikolatalı Krema Dolgulu Bisküvi 40G,18.5,18.5,18.5,18.5,
 Bisküvi,İkram Kremalı Bisküvi Çikolata 252 G,40.0,40.0,40.0,42.75,42.75,42.75,42.75,42.75,42.75,42.75,42.75
 Bisküvi,Ülker Pötibör Bisküvi 175 G,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
 Bisküvi,Migros Choco Beurre Sütlü Çikolata Kaplı Bisküvi 100G,44.9,44.9,44.9,44.9,44.9,44.9,44.9,44.9,44.9,44.9,44.9
-Bisküvi,Anna's Bademli Bisküvi 150 Gr,119.9,119.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
-Bisküvi,Torku Tam Kremalım Kakao Kremalı Bisküvi 83 G,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9
+Bisküvi,İkram Kremalı Bisküvi Fındıklı 84 G,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
+Bisküvi,Oreo Choco Dessert Bisküvi 154 g,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
 Bisküvi,Eti Form Limon Lifli Kepekli Bisküvi 50 g,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
 Bisküvi,Lotus Caramelised Bisküvi 156 Gr,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9
 Bisküvi,Lotus Biscoff Sandwich Lotus Cream Bisküvi 150 g,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Bisküvi,Eti Kakaolu Bisküvi 125 g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+Bisküvi,Torku Tam Kremalım Sütlü Kremalı Bisküvi 249 G,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5
 Bisküvi,Eti Kombo Çikolata Kaplı Bisküvi 56 Gr,13.13,13.13,13.13,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5
-Bisküvi,Ülker Biskrem Büyük Boy Rulo Bisküvi 50 Fazla 150 Gr,21.5,21.5,21.5,21.5,21.5,23.0,23.0,23.0,23.0,23.0,23.0
+Bisküvi,Eti Cin Portakallı Bisküvi 5 x 25 g,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
 Bisküvi,Eti Burçak Hindistan Cevizli Kremalı Bisküvi 100 g,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Ülker Halley Mini Granüllü Bisküvi 66 Gr,16.0,16.0,16.0,16.0,16.0,18.0,18.0,18.0,18.0,18.0,18.0
 Bisküvi,Ülker Halley Beyaz Çikolata Kaplamalı Sandviç Bisküvi 210g,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
 Bisküvi,Ikram Ülker İkram Çikolatalı Kremalı Bisküvi 3x84 Gr,40.0,40.0,40.0,40.0,40.0,42.75,42.75,42.75,42.75,42.75,42.75
-Bisküvi,Halley Çikolata Kaplamalı Sandviç Bisküvi 8'Li 240 G,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
+Bisküvi,Hellema Pastry Crisps Blueberry Yaban Mersini Dolgulu Bisküvi 125 g,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94
 Bisküvi,Eti Bumbo Bisküvi 42 G,7.5,7.5,7.5,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
 Bisküvi,Ülker Pötibör Bisküvi Kakaolu 450 G,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
 Bisküvi,Ülker Finger Bisküvi 5x150 Gr,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0
-Bisküvi,McVities Karamel  Tarçın Kremalı Bisküvi 88 Gr,22.0,22.0,22.0,22.0,22.0,24.0,24.0,24.0,24.0,24.0,24.0
+Bisküvi,Eti Burçak Sultani Üzümlü Kepekli Bisküvi 123 g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
 Bisküvi,Milka Lila Stix Bisküvi 144 gr,137.5,137.5,137.5,137.5,137.5,137.5,137.5,137.5,137.5,137.5,137.5
-Bisküvi,Eti Form Kakaolu Fındıklı Kepekli Bisküvi 40G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Bisküvi,Hellema Pastry Crisps Strawberry Çilek Dolgulu Bisküvi 125 g,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94
 Bisküvi,Eti Cin Lokmalık Çilekli Bisküvi 114 g,12.38,12.38,12.38,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
 Bisküvi,Ülker Kremalı Sandviç Bisküvi 488 Gr,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0
 Bisküvi,Eti Kremalı Bisküvi 244 G,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5
-Bisküvi,Ülker Kremalı Sandviç Bisküvi 8'li 488 G,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0
+Bisküvi,Torku Tam Kremalım Kakao Kremalı Bisküvi 249 G,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5
 Bisküvi,Ülker Rondo Muzlu Kremalı Bisküvi 4X61 g,31.0,31.0,31.0,31.0,31.0,31.0,31.0,23.25,23.25,23.25,23.25
-Bisküvi,Eti Cicibebe Bisküvi 800 G,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5
+Bisküvi,Anna's Bademli Bisküvi 150 Gr,119.9,119.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
 Bisküvi,Fiorella Sütlü Çikolatalı Bisküvi 102 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Bisküvi,Eti Petit Beurre Kakao Fındık Kremalı Bisküvi 270 g,33.75,33.75,33.75,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
-Bisküvi,Eti Burçak Tahıl Patlaklı Kakaolu Bisküvi 117G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
-Bisküvi,Ülker Biskrem Kakaolu Bisküvi 100 Gr,15.0,15.0,15.0,15.0,15.0,16.0,16.0,16.0,16.0,16.0,16.0
+Bisküvi,Ülker Kremalı Kakaolu Bisküvi 4x61 G,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
+Bisküvi,Eti Benimo Lokmalık Çikolatalı Bisküvi 3 x 80 g,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7,72.7
+Bisküvi,"Eti Form Mahlepli, Çiyalı ve Çörek Otlu Kepekli Bisküvi 40 g",9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
 Bisküvi,Eti Tutku Bold Kakao Kremalı Mozaik Bisküvi 138 G,24.65,24.65,24.65,24.65,24.65,24.65,24.65,24.65,24.65,24.65,24.65
-Bisküvi,Lotus Karamelli Bisküvi 125 G,74.9,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5
+Bisküvi,Eti Petit Beurre Kakaolu Bisküvi 370 G,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
 Bisküvi,Ülker Probis Atıştırmalık Sandviç Bisküvi 75 Gr,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,Migros Çikolata Kaplamalı Bisküvi 100 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
 Bisküvi,Saklıköy Sütlü Kremalı Bisküvi 264 G,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5
-Bisküvi,Eti Cin Portakallı Lokmalık Bisküvi 3 x 114 g,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5
-Bisküvi,Ülker Pötibör Bisküvi 450 Gr,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
+Bisküvi,Ülker Kremalı Kakaolu Bisküvi 61 g,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
+Bisküvi,Coco Star Atıştırmalık Sandviç Bisküvi 66 G,15.0,15.0,15.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
 Bisküvi,Milka Choco Sensations Bisküvi 156 G,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0
 Bisküvi,Aldiva Yemeli Çikolata Kaplamalı Marshmallowlu Sandviç Bisküvi 240 G,48.5,48.5,48.5,48.5,48.5,48.5,48.5,48.5,48.5,48.5,48.5
 Bisküvi,Oreo Sütlü Çikolata Kaplamalı Bisküvi 246 G,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0
-Bisküvi,Mcvitie's Karamelli Bisküvi 120 G,30.0,30.0,30.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0
+Bisküvi,Ülker Saklıköy Limonlu Beyaz Çikolatalı Bisküvi 100gr,19.0,19.0,19.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
 Bisküvi,Saklıköy Çikolatalı Kremalı Bisküvi 87 G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,Lotus Caramelised Bisküvi 250 Gr,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9
 Bisküvi,Ülker Pötibör Bisküvi Kakaolu 450 Gr,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
-Bisküvi,Eti Burçak Tam Buğday Unlu Bisküvi 3x131 g,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0
-Bisküvi,Eti Nero Kakaolu Bisküvi 110 g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+Bisküvi,Lotus Biscoff Sandwich Çikolatalı Bisküvi 150 g,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
+Bisküvi,Eti Petit Beurre Kakao Fındık Kremalı Bisküvi 270 g,33.75,33.75,33.75,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
 Bisküvi,Halley Mini Karadutlu Sandviç Bisküvi 74 G,16.0,16.0,16.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
 Bisküvi,Eti Kremalı Muzlu Bisküvi 61 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
 Bisküvi,Torku Tam Çikolatam Bisküvi 249 G,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0
 Bisküvi,Oreo Beyaz Çikolata Kaplamalı Bisküvi 246 G,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0,200.0
 Bisküvi,Mcvities Karamelli Tarçınlı Kremalı Bisküvi 88 G,22.0,22.0,22.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
-Bisküvi,Eti Burçak Sütlü Kremalı Yulaflı Bisküvi 100 g,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Bisküvi,Eti Kombo Hindistan Cevizi ve Çikolata Kaplamalı Bisküvi 56 g,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5
+Bisküvi,Torku Tam Buğdaylı Bisküvi 131 G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Ülker Çokomel Marshmallow Sade Bisküvi 12 G X 35 Gr,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
 Bisküvi,Ülker Pötibör Bisküvi Çifte Kavrulmuş 450 G,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
 Bisküvi,Aldiva Rotto Sütlü Çikolata & Karamel Kaplı Bisküvi 50G,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45
 Bisküvi,Eti Puf Renkli Bisküvi 18 g,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25
 Bisküvi,Oreo Çilek Cheesecake Aromalı Kakaolu Bisküvi 154 G,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
-Bisküvi,Torku Sade Kremalı Bisküvi 4'lü Ekonomik Paket 244 G,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5
+Bisküvi,Oreo Bisküvi Orijinal 220 G,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94
 Bisküvi,Lotus Bisküvi 125 Gr,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5
 Bisküvi,Eti Burçak Sütlü Çikolatalı Bisküvi 114 G,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0
 Bisküvi,McVities SütlüKakaolu Kremalı Bisküvi 90 Gr,22.0,22.0,22.0,22.0,22.0,24.0,24.0,24.0,24.0,24.0,24.0
 Bisküvi,Eti Petit Beurre Bisküvi 200 G,23.5,23.5,23.5,23.5,23.5,23.5,23.5,23.5,23.5,23.5,23.5
-Bisküvi,Ülker Bebe Bisküvisi 172G,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5
+Bisküvi,Eti Tutku Torba Kakao Kremalı Mozaik Bisküvi 210 g,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
 Bisküvi,MaxAlex Stroopwafels Sütlü Waffle Bisküvi 250 g,47.9,47.9,47.9,47.9,47.9,47.9,47.9,47.9,47.9,47.9,47.9
-Bisküvi,Torku Karamelce XL Karamel Kremalı Bisküvi 88 G,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5
+Bisküvi,Ülker Probis Kakaolu ve Muzlu Proteinli Bisküvi 75G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,Ülker Pötibör Bisküvi Çifte Kavrulmuş 175 Gr,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
-Bisküvi,Ülker Kremalı Rondo Çilekli Bisküvi 8X61 G,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0
+Bisküvi,Ülker Kremalı Sandviç Bisküvi 8'li 488 G,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0
 Bisküvi,Eti Nero Kakaolu Bisküvi 110 G,12.0,12.0,12.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Bisküvi,Ülker Biskrem Kakaolu Bisküvi Büyük Boy Poşet 200 Gr,29.0,29.0,29.0,29.0,29.0,31.0,31.0,31.0,31.0,31.0,31.0
-Bisküvi,Eti Kremalı Bisküvi 61 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Bisküvi,Eti Burçak Hindistan Cevizi Kremalı Yulaflı Bisküvi 4x100G,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0
+Bisküvi,Ülker Hanımeller Çokodamla Kakaolu Damla Bisküvi 150 G,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Bisküvi,Haylayf Bisküvi 64G,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75
+Bisküvi,Ülker Kremalı Sandviç Bisküvi 61 G,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
 Bisküvi,Eti Burçak Bitter Çikolatalı Yulaflı Bisküvi 114 g,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0
 Bisküvi,Ülker Pötibör Bisküvi 450 G,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
 Bisküvi,Ülker Finger Bisküvi 750 G,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0
-Bisküvi,Ülker Kremalı Kakaolu Bisküvi 4x61 G,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
+Bisküvi,Ülker Biskrem Extra Kakaolu Krema Dolgulu Bisküvi 184 G,32.0,32.0,32.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0
 Bisküvi,Milka Cookie Sensations Oreolu Bisküvi 156G,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0
-Bisküvi,Eti Finger Bisküvi 900 G,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0
+Bisküvi,Ülker İkram Çifte Tat Frambuaz  Vanilya Aromalı Bisküvi 87 g,14.0,14.0,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0
 Bisküvi,Ülker Bebe Sütlü Bisküvi 800 G,104.5,104.5,104.5,104.5,104.5,104.5,104.5,104.5,104.5,104.5,104.5
-Bisküvi,Migros Petit Beurre Bisküvi 1000 G,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5
+Bisküvi,Eti Form Hurma İncir ve Çiyalı Tam Buğday Unlu Bisküvi 50 g,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75
 Bisküvi,Biscolata Starz Sütlü Çikolata Kaplamalı Bisküvi 82G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Bisküvi,Haylayf Bisküvi 64G,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75
+Bisküvi,Eti Cicibebe Bebek Bisküvisi 700 G,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
 Bisküvi,Saklıköy Sütlü Kremalı Bisküvi 100 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Helbi Helvalı Sandviç Bisküvi 35 g,20.8,20.8,20.8,20.8,20.8,20.8,20.8,20.8,20.8,20.8,20.8
-Bisküvi,Ülker Probis Sandviç Bisküvi 10x28 Gr,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0
+Bisküvi,Torku Karamelce XL Karamel Kremalı Bisküvi 88 G,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5,20.5
 Bisküvi,Ülker Kakaolu Bisküvi 125 G,16.5,16.5,16.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5
 Bisküvi,Anna's Cappuccino Bisküvi 150 G,119.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
 Bisküvi,Torku Tam Keyfim Çikolata Kaplamalı Bisküvi 3'lü 84G,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0
 Bisküvi,Oreo Duble Vanilya Aromalı Dolgulu Kakaolu Bisküvi 170 G,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
 Bisküvi,Mcvities Sütlü Kakaolu Kremalı Bisküvi 90G,22.0,22.0,22.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
 Bisküvi,Eti Nero Kakaolu Bisküvi 3 x 110 g,35.9,35.9,35.9,35.9,35.9,35.9,35.9,46.75,46.75,46.75,46.75
-Bisküvi,Lotus Biscoff Sandwich Çikolatalı Bisküvi 150 g,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
+Bisküvi,Hellema Sunbest Biscuits Raisin Apple Meyve Dolgulu Elmalı Bisküvi 218 g,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94,89.94
 Bisküvi,Eti Burçak Sultani Üzümlü Kepekli Bisküvi 3x123 g,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0
-Bisküvi,Eti Cin Portakal Jöleli Bisküvi 325 Gr,31.2,31.2,31.2,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6
-Bisküvi,Eti Puf Hindistan Cevizli Bisküvi 16 g,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25
-Bisküvi,Eti Petit Beurre Kakaolu Bisküvi 370 G,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
+Bisküvi,Eti Cicibebe Bisküvi 172 G,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
+Bisküvi,Ülker Biskrem Büyük Boy Rulo Bisküvi 50 Fazla 150 Gr,21.5,21.5,21.5,21.5,21.5,23.0,23.0,23.0,23.0,23.0,23.0
+Bisküvi,Papita Çikolata Kaplı Drajeli Bisküvi 63 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
 Bisküvi,Ülker Çokoprens Bisküvi 30 Gr,5.5,5.5,5.5,5.5,5.5,5.5,5.5,5.5,5.5,5.5,5.5
-Bisküvi,Ülker Bebe Bisküvisi 400 G,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0
+Bisküvi,Eti Form Kakaolu Fındıklı Kepekli Bisküvi 40G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
 Bisküvi,Şölen Papita Party Kakaolu Draje Şekerli Bisküvi 63G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
 Bisküvi,Eti Form Tam Çavdarlı Ekşi Mayalı Kepekli Bisküvi 5 x 45 g,44.0,44.0,44.0,44.0,44.0,44.0,44.0,44.0,44.0,44.0,44.0
-Bisküvi,Eti Burçak Kakao Kremalı Bisküvi 100 g,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Bisküvi,Şölen Papıta Sütlü Çik Kaplı Karamelli Bisküvi 33G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
 Bisküvi,Eti Burçak Sütlü Kremalı Yulaflı Bisküvi 4x100 g,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0
 Bisküvi,İkram Kremalı Bisküvi Çikolatalı 84 G,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Bisküvi,Eti Burçak Tahıl Patlaklı Haşhaşlı Susamlı Bisküvi 117g,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Bisküvi,Mcvitie's Karamelli Bisküvi 120 G,30.0,30.0,30.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0
 Bisküvi,Gullon Moment 40 Çikolatalı Bisküvi 225 g,110.9,110.9,110.9,110.9,110.9,110.9,110.9,110.9,110.9,110.9,110.9
 Bisküvi,Ülker Biskrem Limonlu Krema Dolgulu  Beyaz Çikolatalı Bisküvi 945 g,15.0,15.0,15.0,15.0,15.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,Mcvitie's Saklıköy Kavılca Unlu Çikolata Kremalı Bisküvi 78.5g,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Bisküvi,Dore Sade Kremalı Çikolata Bisküvi 86 G,17.0,17.0,17.0,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5
-Bisküvi,Eti Burçak Kakao Kremalı Yulaflı Bisküvi 3 x 82 g,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0
+Bisküvi,Torku Klasik Sade Kremalı Bisküvi 61 G,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9
+Bisküvi,Eti Petit Beurre Bisküvi 400 G,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
 Bisküvi,Oreo Bisküvi 220 G,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Bisküvi,"Eti Form Mahlepli, Çiyalı ve Çörek Otlu Kepekli Bisküvi 40 g",9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
-Bisküvi,Ülker Pötibör Bisküvi Çifte Kavrulmuş 450 Gr,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
-Bisküvi,Eti Burçak Tuzlu Çörekotlu Bisküvi 91 G,11.63,11.63,11.63,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5
-Bisküvi,Eti Cicibebe Bebek Bisküvisi 700 G,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
-Bisküvi,Ülker Kremalı Sandviç Bisküvi 61 G,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
+Bisküvi,Eti Puf Hindistan Cevizli Bisküvi 16 g,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25,4.25
+Bisküvi,Ülker İkram Fındıklı Kremalı Bisküvi 6'lı Paket 504G,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9,71.9
+Bisküvi,İkram Kremalı Bisküvi Fındıklı 252 G,40.0,40.0,40.0,42.75,39.0,39.0,39.0,39.0,39.0,39.0,39.0
+Bisküvi,Ülker Hanımeller Asorti Poşet Bisküvi 150 G,26.0,26.0,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0
+Bisküvi,Ülker Bebe Bisküvisi 172G,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5
 Bisküvi,Eti Burçak Tam Buğday Unlu Bisküvi 131 g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
 Bisküvi,Ülker Rondo Çilekli Kremalı Bisküvi 61 Gr,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
-Bisküvi,Ülker Hanımeller Çokodamla Kakaolu Damla Bisküvi 150 G,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Bisküvi,Eti Burçak Hindistan Cevizi Kremalı Yulaflı Bisküvi 4x100G,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0
 Bisküvi,Eti Burçak Tuzlu Zeytinli Bisküvi 91 G,11.63,11.63,11.63,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5
 Bisküvi,Eti Petit Beurre Mini Bisküvi 175 G,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75
-Bisküvi,İkram Kremalı Bisküvi Fındıklı 84 G,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Bisküvi,Eti Tutku Torba Kakao Kremalı Mozaik Bisküvi 210 g,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
-Bisküvi,Papita Çikolata Kaplı Drajeli Kakaolu Bisküvi 63 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Bisküvi,Torku Tam Kremalım Kakao Kremalı Bisküvi 83 G,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9
+Bisküvi,Ülker Çokoprens Atıştırmalık Bisküvi 81 Gr,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5
+Bisküvi,Ülker Kremalı Rondo Çilekli Bisküvi 8X61 G,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0
 Bisküvi,Mcvities Bitter Çikolata Kaplamalı Bisküvi 98G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
 Bisküvi,Lotus Orjinal Karamelize Bisküvi 124 G,89.9,112.5,112.5,112.5,112.5,112.5,112.5,112.5,112.5,112.5,112.5
-Bisküvi,Ülker Kremalı Kakaolu Bisküvi 61 g,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
-Bisküvi,Oreo Klasik Bisküvi 44 G,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
+Bisküvi,Ülker Hanımeller Çokodamla Poşet Bisküvi 150 G,26.0,26.0,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0
+Bisküvi,Eti Burçak Sütlü Kremalı Yulaflı Bisküvi 100 g,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Torku Tam Yulaflı Bisküvi 125 G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
 Bisküvi,Ülker Kremalı Sandviç Bisküvi 61 Gr,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
 Bisküvi,Eti Tutku Kakao Kremalı Mozaik Bisküvi 100 g,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Mcvities Sütlü Çikolata Kaplamalı Bisküvi 98G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
 Bisküvi,Ülker Kremalı Sandviç Bisküvi 244 Gr,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
 Bisküvi,Migros Mini Petit Beurre Bisküvi 175 G,20.9,20.9,20.9,20.9,20.9,20.9,20.9,20.9,20.9,20.9,20.9
-Bisküvi,Ülker Çokomel Dev Marshmallow Bisküvi Sade 22 g,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0
+Bisküvi,Oreo Double Fun Tiramisu ve Vanilya Aromalı Bisküvi 157g,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
 Bisküvi,Eti Nero Kakaolu Bisküvi 330 G,35.06,35.06,35.06,46.75,46.75,46.75,46.75,46.75,46.75,46.75,46.75
-Bisküvi,Eti Cin Lokmalık Portakallı Bisküvi 114 g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Ülker Probis Sandviç Bisküvi 10x28 Gr,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0
 Bisküvi,Ülker Çokoprens Bisküvi Midi 160 G,28.0,28.0,28.0,28.0,28.0,28.0,28.0,28.0,28.0,28.0,28.0
-Bisküvi,Eti Form Kepekli Bisküvi 5 x 45 g,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5
+Bisküvi,Oreo Klasik Bisküvi 44 G,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
 Bisküvi,Aldiva Biscoday Kakaolu Kremalı Sandviç Bisküvi 300 G,37.9,37.9,37.9,37.9,37.9,37.9,37.9,37.9,37.9,37.9,37.9
 Bisküvi,Biscolata Starz Bitter Çikolata Kakaolu Bisküvi 82G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Bisküvi,Ülker Biskrem Extra Kakaolu Krema Dolgulu Bisküvi 184 G,32.0,32.0,32.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0
-Bisküvi,Eti Form Domatesli Zeytinli ve Kekikli Bisküvi 40 g,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
-Bisküvi,Eti Form Bisküvi Kepekli 45 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Bisküvi,Eti Burçak Yulaflı Bisküvi 125 G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Migros Petit Beurre Bisküvi 1000 G,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5
+Bisküvi,Eti Finger Bisküvi 900 G,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0
 Bisküvi,Eti Burçak Yulaflı Bisküvi 3x155 g,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0
 Bisküvi,Ülker Pötibör Bisküvi Kakaolu 175 G,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
-Bisküvi,Eti Puf Kırmızı Meyve Dolgulu Bisküvi 20 g,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9
-Bisküvi,Eti Form Hurma İncir ve Çiyalı Tam Buğday Unlu Bisküvi 50 g,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75,11.75
-Bisküvi,Ülker Haylayf Bisküvi 64 Gr,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75
+Bisküvi,Eti Burçak Tuzlu Çörekotlu Bisküvi 91 G,11.63,11.63,11.63,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5
+Bisküvi,Oreo Çilek Cheesecake Aromalı Kakaolu Bisküvi 154 g,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94
+Bisküvi,Eti Cin Portakal Jöleli Bisküvi 325 Gr,31.2,31.2,31.2,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6
 Bisküvi,Migros Kakaolu Damlalı Bisküvi 100 G,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75
 Bisküvi,Eti Kremalı Bisküvi Sade 61 g,6.38,6.38,6.38,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
 Bisküvi,Eti Burçak Limonlu Kremalı Yulaflı Bisküvi 100 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
 Bisküvi,Ülker Çokomel Dev Marshmallow Bisküvi Muzlu 22 g,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0
 Bisküvi,Ülker Hanımeller Fındıklı Rulo Bisküvi 82 Gr,13.0,13.0,13.0,13.0,13.0,14.5,14.5,14.5,14.5,14.5,14.5
-Bisküvi,Eti Burçak Fıstık Ezmeli Proteinli Bisküvi 158G,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0
+Bisküvi,Halley Çikolata Kaplamalı Sandviç Bisküvi 8'Li 240 G,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
 Bisküvi,Ülker İkram Çikolatalı Kremalı Bisküvi 84 Gr,14.0,14.0,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0
-Bisküvi,Milka Choco Sensations Kakaolu Bisküvi 156 G,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0
-Bisküvi,Şölen Papıta Sütlü Çik Kaplı Karamelli Bisküvi 33G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
-Bisküvi,Ülker Halley Mini Granüllü Bisküvi 3 X 66 Gr,47.0,47.0,47.0,47.0,47.0,53.0,53.0,53.0,53.0,53.0,53.0
+Bisküvi,Ülker Haylayf Haylayf Mini Bisküvi 150 G X 12,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
 Bisküvi,Torku Premio Banada Kremalı Bisküvi 86 G,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9,15.9
-Bisküvi,Oreo Çilek Cheesecake Aromalı Kakaolu Bisküvi 154 g,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94,59.94
-Bisküvi,Oreo Bisküvi Orijinal 220 G,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94,65.94
+Bisküvi,Ülker Halley Mini Granüllü Bisküvi 3 X 66 Gr,47.0,47.0,47.0,47.0,47.0,53.0,53.0,53.0,53.0,53.0,53.0
+Bisküvi,Eti Cin Portakallı Lokmalık Bisküvi 3 x 114 g,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5,49.5
+Bisküvi,Eti Burçak Tam Buğday Unlu Bisküvi 3x131 g,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0,48.0
+Bisküvi,Eti Kakaolu Bisküvi 125 g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,Eti Etibör Bisküvi 400 g,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
 Bisküvi,Ülker Pötibör Bisküvi 4x200 Gr,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0
-Bisküvi,Papita Çikolata Kaplı Drajeli Bisküvi 63 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Bisküvi,Ülker Biskrem Kakaolu Bisküvi Büyük Boy Poşet 200 Gr,29.0,29.0,29.0,29.0,29.0,31.0,31.0,31.0,31.0,31.0,31.0
 Bisküvi,Anna's Portakallı Bisküvi 150 G,119.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
-Bisküvi,Torku Tam Kremalım Sütlü Kremalı Bisküvi 249 G,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5
+Bisküvi,Eti Cicibebe Bisküvi 800 G,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5
 Bisküvi,Ülker Kremalı Rondo Muzlu Bisküvi 61 G,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
 Bisküvi,Oreo Pacman Bisküvi 154 g,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
-Bisküvi,Halley Karadutlu Sandviç Bisküvi 236 G,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
-Bisküvi,Eti Petit Beurre Bisküvi 400 G,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
-Bisküvi,Eti Cin Portakallı Bisküvi 325 G,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6
-Bisküvi,Torku Fındık Kremalı Bisküvi 4'lü Ekonomik Paket 244 G,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5
+Bisküvi,Eti Form Domatesli Zeytinli ve Kekikli Bisküvi 40 g,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
+Bisküvi,Eti Burçak Fıstık Ezmeli Proteinli Bisküvi 158G,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0
+Bisküvi,Eti Burçak Kakao Kremalı Yulaflı Bisküvi 3 x 82 g,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0
+Bisküvi,Eti Nero Kakaolu Bisküvi 110 g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,Eti Puf Kakaolu Bisküvi 18 g,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5
 Bisküvi,Ülker Biskrem Limon Krema Dolgulu & Beyaz Çikolata Bisküvi 94.5 G,15.0,15.0,15.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Bisküvi,Torku Klasik Sade Kremalı Bisküvi 61 G,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9,8.9
+Bisküvi,Eti Kombo Hindistan Cevizi ve Çikolata Kaplamalı Bisküvi 56 g,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5,17.5
 Bisküvi,Lotus Karamelli Bisküvi 156 G,129.0,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9,159.9
 Bisküvi,Ülker Pötibör Bisküvi 175 Gr,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
 Bisküvi,Ülker Kakaolu Bisküvi 175 gr,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
-Bisküvi,Ülker Çokomel Marshmallow Sade Bisküvi 12 G X 35 Gr,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Bisküvi,Ülker Rondo Kremalı Bisküvi Muzlu 61 Gr,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
+Bisküvi,Lotus Karamelli Bisküvi 250 G,140.5,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9
+Bisküvi,Eti Cicibebe Bisküvi 400 G,57.75,57.75,57.75,57.75,55.0,55.0,55.0,47.5,47.5,47.5,55.0
 Bisküvi,Çizmeci Time Up Sütlü Çikolata Karamel Kremalı Bisküvi 30 G,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
 Bisküvi,Eti Burçak Tuzlu Çörekotlu Bisküvi 273 G,33.75,33.75,33.75,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
 Bisküvi,Ülker Cocostar Atıştırmalık Bisküvi 7x22 G,43.0,43.0,43.0,43.0,43.0,48.0,48.0,48.0,48.0,48.0,48.0
 Bisküvi,Eti Petit Beurre Bisküvi 800 G,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0
-Bisküvi,Coco Star Atıştırmalık Sandviç Bisküvi 66 G,15.0,15.0,15.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Bisküvi,Oreo Choco Dessert Bisküvi 154 g,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5,46.5
+Bisküvi,Ülker Pötibör Bisküvi 450 Gr,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
+Bisküvi,Dore Sade Kremalı Çikolata Bisküvi 86 G,17.0,17.0,17.0,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5
 Bisküvi,Ülker Halley Karadut Dolgulu Bisküvi 74 G,16.0,16.0,16.0,16.0,16.0,18.0,18.0,18.0,18.0,18.0,18.0
-Bisküvi,Biscolata Mood Çikolata Krema Dolgulu Bisküvi 40 G,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5,18.5
-Bisküvi,Ülker İkram Çifte Tat Frambuaz  Vanilya Aromalı Bisküvi 87 g,14.0,14.0,14.0,14.0,14.0,15.0,15.0,15.0,15.0,15.0,15.0
+Bisküvi,Eti Form Kepekli Bisküvi 5 x 45 g,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5,41.5
+Bisküvi,Eti Form Bisküvi Kepekli 45 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
 Bisküvi,Eti Burçak Fındık Ezmeli Proteinli Bisküvi 158G,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0
 Bisküvi,Ülker Halley Çikolata Kaplamalı Bisküvi 30 Gr,7.0,7.0,7.0,7.0,7.0,8.5,8.5,8.5,8.5,8.5,8.5
 Bisküvi,Ülker Kremalı Sandviç Bisküvi 4'lü 244 G,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
@@ -1084,36 +1084,36 @@ Bisküvi,Çizmeci Tıme Up Sütlü Çikolatalı Sütlü Kremalı Bisküvi 30g,15
 Bisküvi,Eti Tutku Kakao Kremalı Mozaik Bisküvi 150 G,18.49,18.49,18.49,24.65,24.65,24.65,24.65,24.65,24.65,24.65,24.65
 Bisküvi,Ülker Haylayf Bisküvi 256 g,32.75,32.75,32.75,32.75,32.75,32.75,32.75,32.75,32.75,32.75,32.75
 Bisküvi,Bonheur Bitter Çikolatalı Bisküvi 102 g,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9
-Bisküvi,Hellema Pastry Crisps Strawberry Çilek Dolgulu Bisküvi 125 g,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94,77.94
+Bisküvi,Eti Form Bitter Çikolata Kaplı Lifli Bisküvi 50 g,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
 Bisküvi,Migros Fındıklı Bisküvi 100 G,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75,10.75
-Bisküvi,Ülker Hanımeller Asorti Poşet Bisküvi 150 G,26.0,26.0,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0
-Bisküvi,Eti Cin Portakallı Bisküvi 5 x 25 g,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
+Bisküvi,Eti Burçak Tuzlu Zeytinli Bisküvi 3 Parça Paket 273 G,33.75,33.75,33.75,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
+Bisküvi,Papita Çikolata Kaplı Drajeli Kakaolu Bisküvi 63 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
 Bisküvi,Eti Form Tam Çavdarlı Ekşi Mayalı Kepekli Bisküvi 45 g,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
 Bisküvi,Ülker Pötibör Bisküvi Çifte Kavrulmuş 175 G,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
-Bisküvi,Ülker Halley Muzlu Pasta Tadında Sandviç Bisküvi 210 G,55.0,55.0,55.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
+Bisküvi,Ülker Biskrem Kakaolu Bisküvi 100 Gr,15.0,15.0,15.0,15.0,15.0,16.0,16.0,16.0,16.0,16.0,16.0
 Bisküvi,McVitiesities Karamelli Bisküvi 120 G,30.0,30.0,30.0,30.0,30.0,32.0,32.0,32.0,32.0,32.0,32.0
-Bisküvi,Lotus Karamelli Bisküvi 250 G,140.5,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9
+Bisküvi,Ülker Haylayf Bisküvi 64 Gr,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75,8.75
 Bisküvi,Milka Moo Bisküvi 200 Gr,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
 Bisküvi,Torku Tam Buğdaylı Bisküvi 393 G,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5,47.5
 Bisküvi,Ülker Çokoprens Bisküvi 10lu,45.0,45.0,45.0,45.0,45.0,45.0,45.0,33.75,33.75,33.75,33.75
-Bisküvi,Ülker Haylayf Haylayf Mini Bisküvi 150 G X 12,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Bisküvi,Eti Burçak Tuzlu Zeytinli Bisküvi 3 Parça Paket 273 G,33.75,33.75,33.75,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
-Bisküvi,Oreo Double Fun Tiramisu ve Vanilya Aromalı Bisküvi 157g,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
-Bisküvi,Torku Tam Kremalım Kakao Kremalı Bisküvi 249 G,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5
+Bisküvi,Eti Kremalı Bisküvi 61 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Bisküvi,Lotus Karamelli Bisküvi 125 G,74.9,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5,93.5
+Bisküvi,Eti Burçak Tahıl Patlaklı Haşhaşlı Susamlı Bisküvi 117g,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Bisküvi,Ülker Pötibör Bisküvi Çifte Kavrulmuş 450 Gr,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75,49.75
 Bisküvi,AnnaS Almond Bisküvi 150 Gr,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
 Bisküvi,Ülker Hanımeller Tuzlu Karma Poşet Bisküvi 150 g,26.0,26.0,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0
 Bisküvi,Ülker Dore Sütlü Çikolatalı Kremalı Bisküvi 86 g,17.0,17.0,17.0,17.0,17.0,18.5,18.5,18.5,18.5,18.5,18.5
-Bisküvi,Torku Tam Çikolatam Bisküvi 83 G,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
-Bisküvi,Eti Cicibebe Bisküvi 172 G,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
-Bisküvi,Ülker Çokoprens Atıştırmalık Bisküvi 81 Gr,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5
-Bisküvi,Ülker Probis Kakaolu ve Muzlu Proteinli Bisküvi 75G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Bisküvi,Eti Cicibebe Bisküvi 400 G,57.75,57.75,57.75,57.75,55.0,55.0,55.0,47.5,47.5,47.5,55.0
+Bisküvi,Eti Puf Kırmızı Meyve Dolgulu Bisküvi 20 g,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9,4.9
+Bisküvi,Eti Cin Lokmalık Portakallı Bisküvi 114 g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Ülker Rondo Kremalı Bisküvi Muzlu 61 Gr,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
+Bisküvi,Eti Cin Portakallı Bisküvi 325 G,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6,41.6
+Bisküvi,Ülker Bebe Bisküvisi 400 G,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0,55.0
 Bisküvi,Eti Benimo Lokmalık Çikolatalı Bisküvi 80 g,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Bisküvi,Ülker Saklıköy Limonlu Beyaz Çikolatalı Bisküvi 100gr,19.0,19.0,19.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
+Bisküvi,Torku Tam Çikolatam Bisküvi 83 G,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
 Bisküvi,Ülker Pötibör Bisküvi 800 G,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0
-Bisküvi,Eti Burçak Sultani Üzümlü Kepekli Bisküvi 123 g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Milka Choco Sensations Kakaolu Bisküvi 156 G,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0
 Bisküvi,Ülker Biskrem Extra Bisküvi 184 Gr,32.0,32.0,32.0,32.0,32.0,34.0,34.0,34.0,34.0,34.0,34.0
-Bisküvi,Eti Burçak Yulaflı Bisküvi 125 G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Bisküvi,Torku Sade Kremalı Bisküvi 4'lü Ekonomik Paket 244 G,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5,32.5
 Bisküvi,Milka Çikolatalı Yulaflı Bisküvi 126 g,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
 Bitki ve Meyve Çayı (Poşet),Doğadan Rahat Hisset Çayı 18'li 24G,82.95,82.95,82.95,82.95,82.95,82.95,82.95,82.95,82.95,82.95,82.95
 Bitki ve Meyve Çayı (Poşet),Dünya Hayat Adaçayı 50 G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
@@ -1298,20 +1298,20 @@ Buğday Unu,Carrefour Buğday Unu 2 Kg,37.5,37.5,37.5,37.5,37.5,37.5,37.5,39.5,3
 Buğday Unu,Nustil Teff Tozu 250 g,222.9,222.9,222.9,222.9,222.9,222.9,222.9,222.9,222.9,222.9,222.9
 Buğday Unu,Sinangil Tam Buğday Unu 1 Kg,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95
 Buğday Unu,Carrefour Mısır Unu 250 G,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
-Ceviz İçi,Migros İç Ceviz 150 G,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
-Ceviz İçi,Emsal Ceviz İçi 150 G,79.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95
-Ceviz İçi,Malatya Pazarı Ceviz Lüks Gurme,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9
-Ceviz İçi,Tadım Ceviz İçi 150 G,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0
-Ceviz İçi,Carrefour Ceviz İçi 150 G,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5
-Ceviz İçi,By İzzet Ceviz İçi 150 G,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95
-Ceviz İçi,Peyman Bahçeden İç Ceviz 140 G,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95
+Ceviz İçi,Tadım Ceviz Içi 150 G,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0
+Ceviz İçi,Ceviz İçi Kg,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95
+Ceviz İçi,Yerli Ceviz (Çorum - Oğuzlar) Kg,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95
 Ceviz İçi,Ceviz kg,119.9,119.9,119.9,119.9,119.9,119.9,119.9,119.9,119.9,119.9,119.9
+Ceviz İçi,Carrefour Ceviz İçi 150 G,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5,78.5
+Ceviz İçi,Migros İç Ceviz 150 G,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
+Ceviz İçi,Peyman Bahçeden İç Ceviz 140 G,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95
 Ceviz İçi,Tadım Ceviz İçi 70 G,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0
+Ceviz İçi,Emsal Ceviz İçi 150 G,79.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95,85.95
 Ceviz İçi,Master Farm İç Ceviz 150 G,100.0,88.935,88.935,97.95,79.92,79.92,97.95,97.95,97.95,97.95,97.95
 Ceviz İçi,Carrefour Çiğ Ceviz İçi 70 G,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5
-Ceviz İçi,Tadım Ceviz Içi 150 G,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0,106.0
-Ceviz İçi,Yerli Ceviz (Çorum - Oğuzlar) Kg,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95,749.95
-Ceviz İçi,Ceviz İçi Kg,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95
+Ceviz İçi,Malatya Pazarı Ceviz Lüks Gurme,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9,679.9
+Ceviz İçi,By İzzet Ceviz İçi 150 G,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95
+Ceviz İçi,Tadım Ceviz İçi 150 G,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0,107.0
 Ceviz İçi,Ceviz Taze kg,149.95,149.95,149.95,149.95,149.95,149.95,149.95,149.95,149.95,149.95,149.95
 Cipsler,Doritos Extreme Maxicano Acı Baharatlı Mısır Cipsi Süper Boy 113 G,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
 Cipsler,Doritos Dippas Parti Boy Cips 140 g,29.9,42.95,42.95,42.95,42.95,42.95,42.95,34.5,34.5,34.5,34.5
@@ -1320,7 +1320,7 @@ Cipsler,Master Potato Orjinal Patates Cipsi 160 g,80.0,80.0,80.0,80.0,80.0,80.0,
 Cipsler,Poco Loco Tortilla Cips,229.9,229.9,229.9,229.9,229.9,229.9,229.9,229.9,229.9,229.9,229.9
 Cipsler,Züber Noutos Fırınlanmış Nohut Cips Kajun Baharatlı 55 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
 Cipsler,Chips Master Baharatlı Kabuklu Patates Cipsi 104 G,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Cipsler,Nutzz Popzz Soğan Aromalı Mısır Çerezi 90 g,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0
+Cipsler,Ruffles Ketçap Aroma Çeşnili Patates Cipsi Süper Boy 107 G,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
 Cipsler,Lays Baharatlı Patates Cipsi Parti Boy 150 Gr,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5
 Cipsler,Züber Noutos Fırınlanmış Nohut Cipsi Chili 75 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
 Cipsler,Vegeat's Fırınlanmış Sebzeli Mercimek Cipsi 50 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
@@ -1370,9 +1370,9 @@ Cipsler,Doritos Nacho Peynirli Mısır Cipsi Super Boy 113 G,35.5,35.5,35.5,35.5
 Cipsler,Master Potato Barbekü Çeşnili Patates Cipsi 160 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
 Cipsler,Lay's Sirkeli Patates Cipsi Süper Boy 95 G,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
 Cipsler,Ruffles Originals Sade Patates Cipsi Mega Boy Ekonomik Paket 193 G,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45
-Cipsler,Doritos Taco Mısır Cipsi Süper Boy 121 gr,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0
+Cipsler,Peyman Nutzz Popzz Süt Mısır Aromalı Mısır Çerezi 100 G,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95
 Cipsler,Cheetos 3'lü Paket Mısır Çerezi 60 G,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95
-Cipsler,Ruffles Doritos 2'li 319 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
+Cipsler,Master Potato Barbekü Çeşnili Patates Cipsi 160 g,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0
 Cipsler,Lays Klasik Sade Patates Cipsi Süper Boy 107 Gr,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
 Cipsler,Çerezza TV Süt Mısır Mısır Cipsi Süper Boy 117 gr,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95
 Cipsler,Züber Kajun Baharatlı Fırınlanmış Nohut Cipsi 75 g,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9
@@ -1381,7 +1381,7 @@ Cipsler,Züber Noutos Nohut Cipsi Ege Baharatlı 55 g,31.9,31.9,31.9,31.9,31.9,3
 Cipsler,Doritos Hotcorn Acı Biber Çeşnili Süper Boy 113 g,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
 Cipsler,Çerezza Sinema Peynir Ve Soğan Aroma Çeşnili Mısır Çerezi Süper Boy 117 G,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5
 Cipsler,Çerezza Tv Süt Mısırı Aroma Çeşnili Mısır Çerezi Süper Boy 117 G,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5
-Cipsler,Peyman Nutzz Popzz Süt Mısır Aromalı Mısır Çerezi 100 G,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95
+Cipsler,Peyman Nutzz Popcorn Acıbiber-Domatesli 85 G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Lay's Fırından Yoğurt Mevsim Yeşillikleri Patates Cipsi Parti Boy 134 gr,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
 Cipsler,Master Potato Sogan  Ekşi Kremalı Cips 160 g,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0
 Cipsler,Lay's Fırından Yoğurt Mevsim Yeşillikleri Patates Cipsi Süper Boy 96 gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
@@ -1391,7 +1391,7 @@ Cipsler,Chips Coin Baharat Çeşnili Patates Cipsi 135G,27.0,27.0,27.0,27.0,27.0
 Cipsler,Doritos Taco Baharat Çeşnili Mısır Cipsi Parti Boy 169 G,29.9,42.95,42.95,42.95,42.95,42.95,42.95,34.5,34.5,34.5,34.5
 Cipsler,Chips Coin Düz Sade Patates Cipsi 150G,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0
 Cipsler,Master Potato Acılı & Baharatlı Cips 160G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Cipsler,Züber Noutos Nohut Cipsi Kajun Baharatlı 55 g,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9
+Cipsler,Ülker Çizi Çıtır Tulum Peynirli Köz Biberli Süper Boy 120G,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0
 Cipsler,Ruffles Originals Patates Cipsi Süper Boy 107 gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
 Cipsler,Nutzz Popzz Fıstık Ezmeli Mısır Çerezi 90 g,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0
 Cipsler,Gong Pops Baharatlı Çeşnili 80 G,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0
@@ -1413,11 +1413,11 @@ Cipsler,Ruffles Originals Patates Cipsi Parti Boy 150 gr,44.95,44.95,44.95,44.95
 Cipsler,Nutzz Popzz Acı Baharat Aromalı Mısır Çerezi 90 g,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0
 Cipsler,Cheetos Flamin Hot Acı Biber & Peynirli Mısır Cipsi 102G,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95
 Cipsler,Çerezza Muhabbet Tuzlu 60 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Cipsler,Nutzz Bitter Çikolatalı Tuzlu Karamelli Popcorn,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Cipsler,Ruffles Doritos 2'li 319 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
 Cipsler,Çerezza 3'lü Çoklu Paket 103 g,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Ruffles Originals Sade Patates Cipsi Parti Boy 150 G,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5
 Cipsler,Çerezos Ultra Peynir Soğan Aromalı Mısır Çerezi 100G,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5
-Cipsler,Çerezza Sinema Peynir Soğan Mısır Cipsi Parti Boy 170 gr,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
+Cipsler,Çerezza Popcorn Süper Boy 80 gr,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
 Cipsler,Gong Pops Peynirli Acılı 80 G,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0
 Cipsler,Cheetos Fırından Biftek Mısır Cipsi Aile Boy 40 gr,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0
 Cipsler,Doritos Taco Mısır Cipsi Mega Boy 218 gr,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45
@@ -1434,21 +1434,21 @@ Cipsler,Peyman Nutzz Popcorn Klasik 105 Gr,29.95,29.95,29.95,29.95,29.95,29.95,2
 Cipsler,Peyman Nutzz Popcorn Acı Biber  Domates 85 Gr,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Ruffles Ketçaplı Patates Cipsi Parti Boy 150 gr,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
 Cipsler,Ruffles Ketçaplı Patates Cipsi Süper Boy 107 G,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Cipsler,Carrefour Vegie Kajun Baharatlı Nohut Cipsi 56 g,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
+Cipsler,Poco Loco Deniz Tuzlu Mısır Cips,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5
 Cipsler,Peyman Nutzz Popzz Peynir Aromalı Mısır Çerez 100 G,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95
 Cipsler,Rolling Pops Kajun Çeşnili Nohut Cipsi 56G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Patos Rolls Acılı Parti Boy 167 G,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Cipsler,Çerezza Muhabbet Biftek ve Soğan 60 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Cipsler,Peyman Nutzz Popzz Acı Baharat Aromalı Mısır Çerezi 100G,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95
+Cipsler,Carrefour Vegie Kajun Baharatlı Nohut Cipsi 56 g,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
 Cipsler,Lays Fırından Yoğurt Ve Mevsim Yeşillikleri Çeşnili Patates Cipsi Parti Boy 134 Gr,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95
 Cipsler,Züber Noutos Fırınlanmış Nohut Cipsi Chili 55 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
-Cipsler,Ruffles Original Süper Boy 107 G,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
+Cipsler,Peyman Nutzz Popcorn Karamelli 90 G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Ruffles Mangalda Et Tadında 107 g,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
 Cipsler,Patos Acı Baharat Aromalı Çeşnili Mısır Cipsi 109 G,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
 Cipsler,Çerezza Dev Yer Fıstıklı Mısır Çerezi 145 G,41.0,41.0,41.0,41.0,41.0,41.0,41.0,41.0,41.0,41.0,41.0
-Cipsler,Ülker Çizi Çıtır Tulum Peynirli Köz Biberli Süper Boy 120G,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0
+Cipsler,Çerezza Sinema Peynir Soğan Mısır Cipsi Parti Boy 170 gr,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Cipsler,Çerezza Acı Baharatlı Mısır Cipsi Süper Boy 117 g,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5,34.5
-Cipsler,Peyman Nutzz Popcorn Karamelli 90 G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
+Cipsler,Ruffles Originals Patates Cipsi Mega Boy 193 gr,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45
 Cipsler,Pop Buster Mikdodalgada Patlamış Mısır 3 X 100 Gr,108.9,108.9,108.9,108.9,108.9,108.9,108.9,108.9,108.9,108.9,108.9
 Cipsler,Cipso Ketçap Aromalı Patates Cipsi 104 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
 Cipsler,Cipso Max Original Parti Boy Patates Cipsi 145 G,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95
@@ -1463,7 +1463,7 @@ Cipsler,AyPop Bahçe Bitkileri Soslu Patlamış Mısır 65 g,26.75,26.75,26.75,2
 Cipsler,Peyman Nutzz Popcorn Mevsim Yeşillikli & Parmesanlı 85G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Lays Ruffles Doritos 2'li Avantaj Paket 176 G,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45
 Cipsler,Züber Noutos Kajun Baharatlı Nohut Cipsi 75G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Cipsler,Çerezza Sinema Peynir Ve Soğan Aroma Çeşnili Mısır Çerezi Parti Boy 161 G,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95
+Cipsler,Züber Noutos Nohut Cipsi Kajun Baharatlı 55 g,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9
 Cipsler,Lays Klasik Sade Patates Cipsi Parti Boy 150 Gr,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5
 Cipsler,Doritos Taco Mısır Cipsi Parti Boy 169 gr,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95,43.95
 Cipsler,Çerezza Muhabbet Tuzlu Mısır Çerezi 60 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
@@ -1492,30 +1492,30 @@ Cipsler,Cheetos Fırından Fıstıklı Mısır Çerezi 75 G,24.95,24.95,24.95,24
 Cipsler,Cipso Tırtıklı Sade Patates Cipsi 104 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
 Cipsler,Lay's Yoğurt Mevsim Yeşillikleri Patates Cipsi Süper Boy 107 gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
 Cipsler,Lay's Klasik Patates Cipsi Süper Boy 107 gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Cipsler,Peyman Nutzz Popcorn Acıbiber-Domatesli 85 G,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
+Cipsler,Nutzz Mevsim Yeşillikli  Parmesan Aromalı Popcorn 85 g,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Pol's Freeze Fresh Vişne 25 G,59.9,59.9,59.9,59.9,59.9,59.9,59.9,59.9,59.9,59.9,59.9
 Cipsler,Chips Coin Tırtıklı Patates Cipsi Sade 150 G,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0
 Cipsler,Eat Real Hummus Chips 45 Gr,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
-Cipsler,Master Potato Barbekü Çeşnili Patates Cipsi 160 g,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0,80.0
+Cipsler,Nutzz Bitter Çikolatalı Tuzlu Karamelli Popcorn,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
 Cipsler,Peyman Nutzz Popcorn Yer Fıstıklı  Bademli 85 Gr,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
 Cipsler,Cheetos Biftek Ve Soğan Aromalı Mısır Çerezi 40 g,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Cipsler,Ruffles Maksimum Peynir Soğan Parti Boy,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5
+Cipsler,Doritos Taco Mısır Cipsi Süper Boy 121 gr,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0
 Cipsler,Lay's Klasik Patates Cipsi Mega Boy 193 gr,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45
 Cipsler,Pol's Freeze Fresh Çilek 15 G,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
-Cipsler,Çerezza Popcorn Süper Boy 80 gr,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Cipsler,Çerezza Sinema Peynir Ve Soğan Aroma Çeşnili Mısır Çerezi Parti Boy 161 G,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95
 Cipsler,Cheetos Fırından Peynir Aromalı Mısır Çerezi 75 G,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95
 Cipsler,Doritos Nacho Mısır Cipsi Mega Boy 218 gr,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45,52.45
 Cipsler,Çerezos Süt Mısırı Aromalı Mısır Çerezi 115G,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5
 Cipsler,Eti Gong Pops Peynirli Acili Misir Patlaği 80 G,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0
 Cipsler,Patos Baharat Aromalı Cips Parti Boy 167 G,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
-Cipsler,Ruffles Ketçap Aroma Çeşnili Patates Cipsi Süper Boy 107 G,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
+Cipsler,Ruffles Original Süper Boy 107 G,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
 Cipsler,Lays Fırından 7 Baharat 96 G,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
-Cipsler,Poco Loco Deniz Tuzlu Mısır Cips,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5,167.5
+Cipsler,Peyman Nutzz Popzz Acı Baharat Aromalı Mısır Çerezi 100G,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95
 Cipsler,AyPop Ekonomik Boy Klasik Patlamış Mısır 85 g,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
 Cipsler,Züber Noutos Nohut Cipsi Chili 55 g,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9,31.9
 Cipsler,Çerezos Ultra Taco Baharatlı Mısır Çerezi 100G,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5
-Cipsler,Ruffles Originals Patates Cipsi Mega Boy 193 gr,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45,53.45
-Cipsler,Nutzz Mevsim Yeşillikli  Parmesan Aromalı Popcorn 85 g,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95,29.95
+Cipsler,Nutzz Popzz Soğan Aromalı Mısır Çerezi 90 g,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0,27.0
+Cipsler,Ruffles Maksimum Peynir Soğan Parti Boy,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5,39.5
 Cipsler,Carrefour Veggie Tatlı Acı Baharat Çeşnili Nohut Cipsi 56 g,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
 Cipsler,Peyman Nutzz Popzz Fıstık Ezmeli Mısır Çerezi 90G,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95,26.95
 Cipsler,Master Nut Fıstık Ezmeli Deniz Tuzlu Mısır Cipsi 165 G,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9
@@ -1527,54 +1527,54 @@ Cipsler,Çerezza Muhabbet BiftekSoğan Çeşnili Mısır Çerezi 60 g,20.0,20.0,
 Cipsler,Doritos Nacho Peynirli Mısır Cipsi Parti Boy 169 G,29.9,42.95,42.95,42.95,42.95,42.95,42.95,34.5,34.5,34.5,34.5
 Cipsler,Lays Fırından Yoğurt Ve Mevsim Yeşillikleri Çeşnili Patates Cipsi Süper Boy 96 Gr,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5,36.5
 Cipsler,Çerezos Peynir&Soğan Aromalı Mısır Çerezi 115G,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5,33.5
-Dana Eti,Acılı Kebap Kg,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9
+Dana Eti,Dana Şaşlık Kg,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95
 Dana Eti,Dana Haşlamalık Et Yöresel Kg,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95
 Dana Eti,Dilimli Dana Pirzola Kg,832.9,832.9,832.9,832.9,832.9,832.9,832.9,832.9,832.9,832.9,832.9
 Dana Eti,Dana Şişlik Et Kg,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9
 Dana Eti,Dana Tas Kebabı Kg,524.9,524.9,524.9,549.9,549.9,549.9,549.9,539.9,539.9,539.9,549.9
 Dana Eti,Dana Tranç Yöresel Kg,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95
-Dana Eti,Uzman Kasap Dana Newyork Steak Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95
-Dana Eti,Dana Gulaş Kg,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9
+Dana Eti,Dana Kıymalık Parça Kg,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9
+Dana Eti,Dana Rosto Kg,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9
 Dana Eti,Dana But Tas Kebaplık Et Yöresel Kg,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95
 Dana Eti,Kasap Köfte Kg,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9
 Dana Eti,Dana Kontrafile Yöresel Kg,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
-Dana Eti,Tire Süt Şiş Köfte 250 G,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0
+Dana Eti,Uzman Kasap Dana Kuzu Kıyma 400 G,139.0,139.0,139.0,139.0,169.0,169.0,169.0,139.0,139.0,139.0,139.0
 Dana Eti,Uzman Kasap Dana Taze Sosis Köfte Kg,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95
 Dana Eti,Dana Nuar (Fırınlık) Çiftlik Kg,589.95,589.95,589.95,589.95,589.95,589.95,589.95,589.95,589.95,589.95,589.95
 Dana Eti,Dana Stragonofluk Et Yöresel Kg,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95
 Dana Eti,Uzman Kasap Antrikot Burger Skinpack 320 G,225.95,225.95,225.95,225.95,225.95,225.95,225.95,225.95,225.95,225.95,225.95
 Dana Eti,Uzman Kasap Dağ Kekikli Dana Çoban Köfte 400 G,205.95,205.95,205.95,205.95,205.95,205.95,205.95,195.95,195.95,195.95,195.95
 Dana Eti,Dana Kıyma  7  14 Yağ  Kg,661.9,661.9,661.9,661.9,661.9,661.9,661.9,661.9,661.9,661.9,661.9
-Dana Eti,Dana Güngörmez Et Kg,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95
-Dana Eti,Uzman Kasap Tekirdağ Köfte 320 G,162.95,162.95,162.95,162.95,162.95,162.95,162.95,99.95,99.95,99.95,99.95
+Dana Eti,Dana Rostoluk Et Kg,529.95,529.95,529.95,589.95,589.95,589.95,589.95,589.95,499.95,499.95,499.95
+Dana Eti,Dana Haşlamalık Gerdan Kg,459.95,459.95,379.95,379.95,379.95,379.95,379.95,379.95,379.95,379.95,379.95
 Dana Eti,Dana Çiğ Köftelik Et Yöresel Kg,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
-Dana Eti,Dana Kıyma 1420 Yağ Kg,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9
+Dana Eti,Acılı Kebap Kg,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9
 Dana Eti,Urfa Kebap Kg,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9,562.9
 Dana Eti,Dana But Biftek Kg,524.9,524.9,524.9,549.9,549.9,549.9,549.9,539.9,539.9,539.9,549.9
 Dana Eti,Uzman Kasap İzmir Köfte 320 G,169.95,169.95,169.95,169.95,169.95,169.95,169.95,169.95,169.95,169.95,169.95
 Dana Eti,Dana Antrikot Yöresel Kg,999.95,999.95,999.95,999.95,999.95,999.95,999.95,999.95,999.95,999.95,999.95
-Dana Eti,Uzman Kasap Dana Kemikli Biftek (T-bone Steak) Kg,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95
+Dana Eti,Dana Saç Kavurma Kg,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9
 Dana Eti,Dana Nuar  Rosto Kg,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9
 Dana Eti,Dana Kaburga (Asado),499.95,499.95,399.95,399.95,399.95,399.95,399.95,399.95,399.95,399.95,399.95
-Dana Eti,Dana Kemikli Kontrfile Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95
+Dana Eti,Dana Bonfile Kg,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9
 Dana Eti,Uzman Kasap Klasik Köfte 320 G,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95
 Dana Eti,Dana Rostoluk Et Yöresel Kg,529.95,529.95,529.95,609.95,609.95,609.95,609.95,609.95,499.95,499.95,499.95
 Dana Eti,Dana Tandır (Brisket) Kg,589.95,589.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95
 Dana Eti,Dana Antrikot Kg,717.9,717.9,717.9,717.9,717.9,717.9,717.9,717.9,717.9,717.9,717.9
-Dana Eti,Dana Bonfile Kg,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9,895.9
+Dana Eti,Dana Döş Sarma Kg,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9
 Dana Eti,Dana Kıymalık Yöresel Kg,469.95,469.95,469.95,469.95,469.95,469.95,469.95,469.95,389.95,389.95,389.95
 Dana Eti,Dana Stragonof Kg (But Eti),619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
 Dana Eti,Dana Orta Yağlı Et Yöresel Kg,489.95,489.95,489.95,539.95,539.95,539.95,539.95,539.95,469.95,469.95,469.95
 Dana Eti,Uzman Kasap Dana Hellimli Sosis Köfte Kg,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95,539.95
 Dana Eti,Dana Kıyma 57 Yağ Kg,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9
 Dana Eti,Dana Sote Kg,524.9,524.9,524.9,549.9,549.9,549.9,549.9,539.9,539.9,539.9,549.9
-Dana Eti,Uzman Kasap Dana Kuzu Kıyma 400 G,139.0,139.0,139.0,139.0,169.0,169.0,169.0,139.0,139.0,139.0,139.0
-Dana Eti,Dana Gulaşlık Et Yöresel Kg,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95
+Dana Eti,Uzman Kasap Tekirdağ Köfte 320 G,162.95,162.95,162.95,162.95,162.95,162.95,162.95,99.95,99.95,99.95,99.95
+Dana Eti,Dana Biftek Yöresel Kg,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95
 Dana Eti,Dana Döş Rulo Yöresel Kg (Kıyma),479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95
 Dana Eti,Anket Pişmiş Dana Döner 250 g,119.9,119.9,119.9,119.9,119.9,119.9,119.9,129.9,129.9,129.9,129.9
 Dana Eti,Uzman Kasap Dana Yağsız Kıyma 400 G,239.95,239.95,239.95,239.95,239.95,239.95,239.95,239.95,239.95,239.95,239.95
-Dana Eti,Dana Nuar (Fırınlık) Yöresel Kg,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
-Dana Eti,Uzman Kasap Dana Pirzola Kg,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95
+Dana Eti,Tire Sucuk Döner 200 G,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5
+Dana Eti,Dana Güngörmez Et Kg,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95,519.95
 Dana Eti,Namet Pişmiş Döner 250 G,165.95,165.95,165.95,165.95,165.95,165.95,165.95,165.95,165.95,165.95,165.95
 Dana Eti,Uzman Kasap Dana Kıyma 400 G,149.0,149.0,149.0,149.0,179.0,179.0,179.0,159.0,159.0,159.0,159.0
 Dana Eti,Tire Döner 200 G,270.0,270.0,270.0,270.0,270.0,270.0,270.0,270.0,270.0,270.0,270.0
@@ -1582,29 +1582,29 @@ Dana Eti,Dana Tranç Kg (But Eti),619.95,619.95,619.95,619.95,619.95,619.95,619.
 Dana Eti,Dana But Tas Kebaplık Et Çiftlik Kg,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
 Dana Eti,Uzman Kasap Kuzu Dana Kebap 360 G,185.95,185.95,185.95,185.95,185.95,185.95,185.95,185.95,185.95,185.95,185.95
 Dana Eti,Dana But Sotelik Et Yöresel Kg,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95
-Dana Eti,Minikler İçin Dana Kıyma Yöresel Kg,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95
+Dana Eti,Uzman Kasap Taze Otlu Dana Antrikot Kg,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95
 Dana Eti,Dana Çoban Kavurma Kg,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9,684.9
 Dana Eti,Dana Antrikot Çiftlik Kg,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95
 Dana Eti,Taze Otlu Dana Antrikot Kg,969.95,969.95,969.95,969.95,969.95,969.95,969.95,969.95,969.95,969.95,969.95
 Dana Eti,Dana  Kuzu Karışım Kıyma Kg,577.9,577.9,577.9,577.9,577.9,577.9,577.9,577.9,577.9,577.9,577.9
 Dana Eti,Erşan Pişmiş Dana Döner 250 G,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95,159.95
-Dana Eti,Dana Haşlamalık Gerdan Kg,459.95,459.95,379.95,379.95,379.95,379.95,379.95,379.95,379.95,379.95,379.95
-Dana Eti,Uzman Kasap Dana Hamburger Köfte 330 G,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95
-Dana Eti,Dana Döş Sarma Kg,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9,429.9
+Dana Eti,Uzman Kasap Dana Pirzola Kg,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95,719.95
+Dana Eti,Uzman Kasap Dana Kemikli Biftek (T-bone Steak) Kg,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95
+Dana Eti,Tire Süt Şiş Köfte 250 G,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0,275.0
 Dana Eti,Dana Fırınlık Kaburga Kg,369.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95
 Dana Eti,Minikler İçin Dana Kıyma,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
 Dana Eti,Migros Dana Döner 250 G,115.75,115.75,115.75,115.75,115.75,115.75,115.75,115.75,115.75,115.75,115.75
-Dana Eti,Dana Rosto Kg,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9
-Dana Eti,Uzman Kasap Izgara Köfte 320 G,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95
+Dana Eti,Dana Gulaş Kg,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9,689.9
+Dana Eti,Dana Haşlamalık Et Kg,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95
 Dana Eti,Dana Kontrafile Kg,647.925,695.9,647.925,647.925,647.925,647.925,647.925,584.925,584.925,584.925,647.925
 Dana Eti,Dana Kuşbaşı Kg,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9,439.9
-Dana Eti,Dana Saç Kavurma Kg,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9,635.9
-Dana Eti,Dana Şaşlık Kg,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95,655.95
-Dana Eti,Dana Strogonof Kg,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9
-Dana Eti,Dana Biftek Yöresel Kg,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95,645.95
 Dana Eti,Uzman Kasap Misket Köfte 400 G,209.95,209.95,209.95,209.95,209.95,209.95,209.95,209.95,209.95,209.95,209.95
+Dana Eti,Dana Kıyma 1420 Yağ Kg,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9,409.9
+Dana Eti,Dana Strogonof Kg,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9,696.9
+Dana Eti,Dana Gulaşlık Et Yöresel Kg,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95,569.95
+Dana Eti,Uzman Kasap Dana Hamburger Köfte 330 G,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95
 Dana Eti,Dana Az Yağlı Et Yöresel Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95
-Dana Eti,Dana Kıymalık Parça Kg,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9,663.9
+Dana Eti,Minikler İçin Dana Kıyma Yöresel Kg,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95,649.95
 Dana Eti,Dana Kuzu Kıymalık Kg,419.95,419.95,419.95,419.95,419.95,419.95,419.95,419.95,389.95,389.95,389.95
 Dana Eti,Dana But Sotelik Et Çiftlik Kg,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95,549.95
 Dana Eti,Tire Şiş Sucuk 250 G,257.5,257.5,257.5,257.5,257.5,257.5,257.5,257.5,257.5,257.5,257.5
@@ -1613,11 +1613,11 @@ Dana Eti,Dana Kıymalık Kg,419.95,419.95,419.95,419.95,419.95,419.95,419.95,419
 Dana Eti,Dana Kuzu Kıymalık Kg Yöresel,469.95,469.95,469.95,469.95,469.95,469.95,469.95,469.95,389.95,389.95,389.95
 Dana Eti,Dana Yemeklik Kaburga Kg,459.95,459.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95,369.95
 Dana Eti,Dana Pirzola Antrikot Kg,679.95,679.95,629.95,629.95,629.95,629.95,629.95,629.95,629.95,629.95,629.95
-Dana Eti,Uzman Kasap Taze Otlu Dana Antrikot Kg,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95,899.95
-Dana Eti,Dana Rostoluk Et Kg,529.95,529.95,529.95,589.95,589.95,589.95,589.95,589.95,499.95,499.95,499.95
+Dana Eti,Uzman Kasap Dana Newyork Steak Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95
+Dana Eti,Dana Kemikli Kontrfile Kg,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95,499.95
 Dana Eti,Dana Döş Rulo Kg (Kıyma),429.95,429.95,429.95,429.95,429.95,429.95,429.95,429.95,429.95,429.95,429.95
-Dana Eti,Tire Sucuk Döner 200 G,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5,232.5
-Dana Eti,Dana Haşlamalık Et Kg,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95,479.95
+Dana Eti,Dana Nuar (Fırınlık) Yöresel Kg,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95,619.95
+Dana Eti,Uzman Kasap Izgara Köfte 320 G,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95
 Dereotu,Dereotu Adet,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95
 Dolmalık Biber,Biber Dolmalık Kg,84.95,79.95,79.95,79.95,79.95,64.95,64.95,64.95,64.95,64.95,64.95
 Dolmalık Biber,Dolma Biber Kg,79.9,82.9,82.9,82.9,82.9,82.9,82.9,65.9,65.9,65.9,65.9
@@ -1876,168 +1876,168 @@ Dondurma,Plombir Gold Vanilin Aromalı Waffle Kapta Dondurma 80 g,60.0,60.0,60.0
 Dondurma,Snickers White Bar 44.6ml,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0
 Dondurma,Migros Kaymaklı Dondurma 1000 Ml,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
 Dondurma,Max Twister Ocean 72 Ml,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
-Ekmek,İhe Organik Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
-Ekmek,Papatya Ekmek 500 g,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9
-Ekmek,İhe Çavdar Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
-Ekmek,İhe Tuzsuz Tam Buğday Ekmek 400 Gr,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
-Ekmek,İhe Light Tost Ekmeği 500 Gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Ekmek,Mayaköy Siyez Ekmeği 400 Gr,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0
-Ekmek,Katmer Adet,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
-Ekmek,Ekşi Mayalı Kepekli Artizan Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,Ekmek Dünyası Favori Ayçekirdekli Fırın Kurabiye 200 G,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95
-Ekmek,Tam Buğday Ekmek 10lu,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,Kanepe Atıştırmalık 200 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
-Ekmek,Uno Tost Ekmeği 350 g,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5
-Ekmek,Köy Ekmeği 1 Kg,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25
-Ekmek,Baget Ekmek Sade,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
-Ekmek,Untad Light Tost Ekmek 500 Gr,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5
-Ekmek,Ekşi Mayalı Ekmek 1 kg,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,69.25
-Ekmek,Yoğun Tahıllı Ekmek 1 kg,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,64.9
-Ekmek,Tam Buğday Unlu Ekmek Adet,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9
-Ekmek,Papatya Ekmek 300 G (Küçük) ( Yeni ),29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
-Ekmek,Kepekli Ekmek Adet,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
-Ekmek,Susamlı Ekmek 300 G,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
-Ekmek,Küçük Ekmek 10lu,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,Brandt Oral Ay Çekirdekli Ekmek 500 gr,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Ekmek,Geleneksel Fransız Baget Ekmek 350 g,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
-Ekmek,Ekşi Mayalı Ekmek 10lu,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,İhe Ruşeymi Ekmek,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
-Ekmek,Carrefour Dtc Siyez Unlu Organik Ekmek 750 G,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
-Ekmek,İhe Tam Buğday Sandviç 4x100 Gr,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Ekmek,Çavdarlı Ekmek 250 g,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9
-Ekmek,Susamlı Baget Ekmek 250 g,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9
-Ekmek,İhe Hamburger Sandviç,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
-Ekmek,Untad Sandviç Ekmeği Eko Paket 6lı,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
-Ekmek,Tahıllı Tost Ekmeği,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9
-Ekmek,Ekşi Mayalı Artizan Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,Katmer Küçük Ad 200 G (Yeni),79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9
-Ekmek,İhe Çok Tahıllı Ekmek Siyez Buğdaylı 500 Gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Ekmek,Gözleme Adet,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Ekmek,Tost Ekmeği Adet,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
-Ekmek,Kepekli Ekmek 250 g,10.0,10.0,10.0,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9
-Ekmek,Ekmek Dünyası Favori Açma 70 G,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95
-Ekmek,Untad Kepekli Tost Ekmeği 500 Gr,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75
-Ekmek,Kanepe Burger 200 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
-Ekmek,Ekşi Mayalı Ekmek Adet 500 G,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
-Ekmek,Uno Ekşi Mayalı Tam Buğday Ekmeği 450 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Ekmek,Galeta 150 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
-Ekmek,Uno Fırından Tam Çavdarlı Ekmek 450 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Ekmek,Untad Çavdar Ekmeği 500 Gr,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
-Ekmek,İhe Tam Buğday Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
-Ekmek,Ihe Altınçörek Fındıklı Ve Üzümlü Ekmek,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
-Ekmek,Normal Ekmek 200 g,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
-Ekmek,Unabella XL Tost Ekmeği 650 G,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,99.0
-Ekmek,İhe Sandviç Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
-Ekmek,Ekşi Mayalı Tam Buğday Baget Ekmek 300 g,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25
-Ekmek,Ekmek Dünyası Favori Kanepe Sandviç 200 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
-Ekmek,Ekmek Dünyası Favori Çıtır Susamlı Simit 150 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
-Ekmek,Brandt Oral Siyah Çavdar Ekmeği,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Ekmek,Uno Premium Çok Tahıllı Ve Siyez Buğdaylı Tost Ekmeği 350 G,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5
-Ekmek,Kepekli Ekşi Mayalı Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,İhe Zeytinli Ve Kekikli Ekmek 50 g,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
-Ekmek,İhe Ciabatta Sandviç Ekmeği 240 g 3lü,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Ekmek,Mini Bazlama 150 G,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95
-Ekmek,Sofra Ekmek Adet,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9
-Ekmek,Simit Ekmek 120 G (F),21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95
-Ekmek,Carrefour Dtc Organik Tam Buğday Unlu Ekmek 750 G,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9
-Ekmek,Mayaköy Bol Tahıllı Ekmek 400 Gr,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0
 Ekmek,Untad Büyük Tost Ekmeği 670 G,67.5,67.5,67.5,67.5,67.5,67.5,67.5,67.5,67.5,67.5,67.5
-Ekmek,Untad Dilimli Köy Ekmeği 450 G,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5
-Ekmek,Küçük Ekmek 4lü,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5
-Ekmek,Unabella Pane Bianco Sade Ekmek 500 G,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
-Ekmek,Carrefour Dtc Organik Kepekli Ekmek 750 G,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9
-Ekmek,Kepekli Ekşi Mayalı Ekmek 1 kg,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,69.25
-Ekmek,Ekşi Mayalı Tam Buğdaylı Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
-Ekmek,Uno Premium Çavdarlı Ekmek 350 G,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5
-Ekmek,Carrefour Dtc Organik Ekmek 750 G,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9
-Ekmek,Carrefour Dtc Organik Kavılca Buğdaylı Ekmek 750 G,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
-Ekmek,Baget Ekmek 250 g,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9
 Ekmek,Mayaköy Karabuğday Ekmeği 400 Gr,198.5,198.5,198.5,198.5,198.5,198.5,198.5,198.5,198.5,198.5,198.5
-Ekmek,Untad 12 Tahıllı Ekmek 480 g,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
-Ekmek,Untad Tandır Ekmek 276 g,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5
-Ekmek,İhe Tost Ekmeği 670 G,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
-Ekmek,Çapata Ekmeği kg,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
+Ekmek,Carrefour Dtc Organik Tam Buğday Unlu Ekmek 750 G,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9
+Ekmek,Ekşi Mayalı Artizan Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,Ekşi Mayalı Ekmek Adet 500 G,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
+Ekmek,Mini Bazlama 150 G,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95
 Ekmek,Brandt Oral Kepekli Çavdar Ekmeği 500 g,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
-Ekmek,Lavaş 200 G,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95
-Ekmek,Uno Denge Tam Buğdaylı Ve Çiya Tohumlu Tost Ekmek 350 G,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95
-Ekmek,Untad Hamburger Ekmeği Susamlı Büyük Boy 6lı,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5
-Ekmek,Alman Ekmeği Adet,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
-Ekmek,Uno Büyük Tost Ekmeği 550 g,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5
-Ekmek,Untad Premium Tam Buğdaylı Sandviç Ekmeği 375 g,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
-Ekmek,Uno Tam Buğday Ve Kavılca Unlu Ekmek 450 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Ekmek,Bazlama Adet,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9
+Ekmek,Untad Tandır Ekmek 276 g,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5
+Ekmek,Brandt Oral Ay Çekirdekli Ekmek 500 gr,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
+Ekmek,İhe Tost Ekmeği 670 G,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
+Ekmek,Papatya Ekmek 300 G (Küçük) ( Yeni ),29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Ekmek,Tost Ekmeği Adet,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
+Ekmek,İhe Ciabatta Sandviç Ekmeği 240 g 3lü,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Ekmek,İhe Sandviç Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
+Ekmek,Uno Fırından Tam Çavdarlı Ekmek 450 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
+Ekmek,Tam Buğday Unlu Ekmek Adet,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9
+Ekmek,Ekşi Mayalı Tam Buğdaylı Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,Çapata Ekmeği kg,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
+Ekmek,Kanepe Burger 200 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
+Ekmek,Baget Ekmek Sade,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Ekmek,Ekmek Dünyası Favori Çıtır Susamlı Simit 150 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
+Ekmek,Baget Ekmek 250 g,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9
 Ekmek,Minik Sandviç Ekmeği 6'lı,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9
-Ekmek,Ekşi Mayalı Tam Buğday Ekmeği 1 kg,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,69.25
+Ekmek,Lavaş 200 G,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95,34.95
+Ekmek,Tahıllı Tost Ekmeği,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9
+Ekmek,Uno Tam Buğday Ve Kavılca Unlu Ekmek 450 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
+Ekmek,Papatya Ekmek 500 g,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9
+Ekmek,Carrefour Dtc Organik Kavılca Buğdaylı Ekmek 750 G,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
+Ekmek,İhe Çok Tahıllı Ekmek Siyez Buğdaylı 500 Gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+Ekmek,Carrefour Dtc Organik Ekmek 750 G,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9
+Ekmek,Kepekli Ekşi Mayalı Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,Untad Light Tost Ekmek 500 Gr,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5,68.5
 Ekmek,Çavdarlı Ekmek 300 G,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9,34.9
-Ekmek Hamuru (Yufka),Dureldo Baklavalık Böreklik Yufka 800 G,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95
-Ekmek Hamuru (Yufka),Bereket Yufka 5 Yaprak 500 G,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95
+Ekmek,Ekşi Mayalı Ekmek 1 kg,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,69.25
+Ekmek,İhe Çavdar Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
+Ekmek,Yoğun Tahıllı Ekmek 1 kg,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,64.9
+Ekmek,Untad Sandviç Ekmeği Eko Paket 6lı,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
+Ekmek,Susamlı Baget Ekmek 250 g,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9,19.9
+Ekmek,Geleneksel Fransız Baget Ekmek 350 g,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
+Ekmek,İhe Organik Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
+Ekmek,İhe Hamburger Sandviç,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
+Ekmek,Gözleme Adet,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
+Ekmek,Küçük Ekmek 10lu,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,Kanepe Atıştırmalık 200 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
+Ekmek,Kepekli Ekmek 250 g,10.0,10.0,10.0,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9
+Ekmek,Untad Hamburger Ekmeği Susamlı Büyük Boy 6lı,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5
+Ekmek,Ihe Altınçörek Fındıklı Ve Üzümlü Ekmek,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
+Ekmek,Untad Dilimli Köy Ekmeği 450 G,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5,63.5
+Ekmek,Alman Ekmeği Adet,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
+Ekmek,Ekmek Dünyası Favori Açma 70 G,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95,14.95
+Ekmek,Katmer Küçük Ad 200 G (Yeni),79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9,79.9
+Ekmek,Köy Ekmeği 1 Kg,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25,69.25
+Ekmek,Unabella Pane Bianco Sade Ekmek 500 G,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+Ekmek,Mayaköy Siyez Ekmeği 400 Gr,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0,139.0
+Ekmek,Carrefour Dtc Siyez Unlu Organik Ekmek 750 G,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0,99.0
+Ekmek,Susamlı Ekmek 300 G,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Ekmek,Ekmek Dünyası Favori Kanepe Sandviç 200 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
+Ekmek,Bazlama Adet,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9,39.9
+Ekmek,Ekşi Mayalı Ekmek 10lu,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,İhe Zeytinli Ve Kekikli Ekmek 50 g,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
+Ekmek,Normal Ekmek 200 g,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
+Ekmek,Uno Tost Ekmeği 350 g,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5
+Ekmek,Unabella XL Tost Ekmeği 650 G,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,99.0
+Ekmek,Sofra Ekmek Adet,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9,9.9
+Ekmek,Ekşi Mayalı Tam Buğday Ekmeği 1 kg,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,69.25
+Ekmek,Çavdarlı Ekmek 250 g,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9,21.9
+Ekmek,Ekşi Mayalı Tam Buğday Baget Ekmek 300 g,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25,28.25
+Ekmek,Untad Çavdar Ekmeği 500 Gr,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
+Ekmek,İhe Tuzsuz Tam Buğday Ekmek 400 Gr,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
+Ekmek,Carrefour Dtc Organik Kepekli Ekmek 750 G,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9,72.9
+Ekmek,Uno Büyük Tost Ekmeği 550 g,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5,52.5
+Ekmek,Galeta 150 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
+Ekmek,Küçük Ekmek 4lü,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5,21.5
+Ekmek,Simit Ekmek 120 G (F),21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95,21.95
+Ekmek,Uno Denge Tam Buğdaylı Ve Çiya Tohumlu Tost Ekmek 350 G,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95,53.95
+Ekmek,Untad 12 Tahıllı Ekmek 480 g,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5,72.5
+Ekmek,İhe Tam Buğday Ekmek,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
+Ekmek,Ekşi Mayalı Kepekli Artizan Ekmek 500 g,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,Mayaköy Bol Tahıllı Ekmek 400 Gr,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0,144.0
+Ekmek,Untad Premium Tam Buğdaylı Sandviç Ekmeği 375 g,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
+Ekmek,Brandt Oral Siyah Çavdar Ekmeği,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9,109.9
+Ekmek,Untad Kepekli Tost Ekmeği 500 Gr,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75,59.75
+Ekmek,Uno Premium Çavdarlı Ekmek 350 G,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5
+Ekmek,İhe Tam Buğday Sandviç 4x100 Gr,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Ekmek,Ekmek Dünyası Favori Ayçekirdekli Fırın Kurabiye 200 G,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95
+Ekmek,Katmer Adet,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
+Ekmek,İhe Light Tost Ekmeği 500 Gr,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+Ekmek,Uno Ekşi Mayalı Tam Buğday Ekmeği 450 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
+Ekmek,Tam Buğday Ekmek 10lu,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25,39.25
+Ekmek,İhe Ruşeymi Ekmek,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
+Ekmek,Kepekli Ekmek Adet,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Ekmek,Kepekli Ekşi Mayalı Ekmek 1 kg,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,61.9,69.25
+Ekmek,Uno Premium Çok Tahıllı Ve Siyez Buğdaylı Tost Ekmeği 350 G,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5,44.5
 Ekmek Hamuru (Yufka),Günlük Yufka 1000 G,59.0,59.0,59.0,59.0,59.0,59.0,59.0,59.0,59.0,59.0,59.0
-Ekmek Hamuru (Yufka),Günlük Yufka El Açması 500 G,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95
-Ekmek Hamuru (Yufka),Bereket Üçgen Yufka 25 Yaprak 360 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Ekmek Hamuru (Yufka),Untad Baklavalık & Böreklik Yufka 800 G,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5
-Ekmek Hamuru (Yufka),Unİstanbul 3 Yapraklı Yufka 500 G,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95
 Ekmek Hamuru (Yufka),El Açması Yufka Kg,94.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9,104.9
+Ekmek Hamuru (Yufka),Unİstanbul 3 Yapraklı Yufka 500 G,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95
+Ekmek Hamuru (Yufka),Bereket Yufka 5 Yaprak 500 G,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95,74.95
 Ekmek Hamuru (Yufka),Unabella Kare Böreklik Yufka 24 Yaprak 800 G,171.95,171.95,171.95,171.95,171.95,171.95,171.95,171.95,171.95,171.95,171.95
-Elma,Starking Elma kg,41.31,41.31,41.31,41.31,45.9,45.9,45.9,49.9,49.9,49.9,49.9
-Elma,Amasya Elma kg,79.9,79.9,79.9,79.9,79.9,79.9,79.9,69.9,69.9,69.9,69.9
-Elma,Elma Golden Kg,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
-Elma,Elma Granny Smith Kg,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
+Ekmek Hamuru (Yufka),Untad Baklavalık & Böreklik Yufka 800 G,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5,114.5
+Ekmek Hamuru (Yufka),Dureldo Baklavalık Böreklik Yufka 800 G,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95
+Ekmek Hamuru (Yufka),Bereket Üçgen Yufka 25 Yaprak 360 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
+Ekmek Hamuru (Yufka),Günlük Yufka El Açması 500 G,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95,54.95
 Elma,Elma Starking Kg,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
 Elma,Elma Granny (Pazar) Kg,29.95,29.95,29.95,29.95,29.95,39.95,39.95,39.95,39.95,39.95,39.95
-Elma,Elma Gala Kg,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
+Elma,Amasya Elma kg,79.9,79.9,79.9,79.9,79.9,79.9,79.9,69.9,69.9,69.9,69.9
+Elma,Elma Granny Smith Kg,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
 Elma,Granny Smith Elma kg,49.41,49.41,49.41,49.41,54.9,54.9,54.9,54.9,54.9,54.9,54.9
-Elma,Arapkızı Elma kg,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95
+Elma,Starking Elma kg,41.31,41.31,41.31,41.31,45.9,45.9,45.9,49.9,49.9,49.9,49.9
+Elma,Elma Gala Kg,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
 Elma,Gala Elma Kg,29.88,29.88,29.88,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
+Elma,Arapkızı Elma kg,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95,75.95
+Elma,Elma Golden Kg,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
 Elma,Golden Elma kg,40.41,40.41,40.41,40.41,44.9,44.9,44.9,44.9,44.9,44.9,44.9
 Fındık Ezmesi,Fiskobirlik Fındık Ezmesi 300 G,169.95,169.95,169.95,169.95,169.95,173.5,173.5,173.5,173.5,173.5,173.5
-Fındık Ezmesi,Serenin Doğal Dünyası Tahin Pekmezli Fındık Ezmesi 250 g,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9
-Fındık Ezmesi,Fiskobirlik Şeker İlavesiz Fındık Ezmesi 300 G,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95
 Fındık Ezmesi,Sarelle Bitter Fındık Ezmesi 350 G,99.6,99.6,99.6,99.6,99.6,99.6,99.6,99.6,99.6,99.6,99.6
-Fındık Ezmesi,Migros Şekerli Fındık Ezmesi 300G,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25
-Fındık Ezmesi,Sarelle Fındık Ezmesi 350 Gr,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96
-Fındık Ezmesi,Sarelle Fındık Ezmesi 350 G,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45
-Fındık Ezmesi,Şenocak Fındık Ezmesi 300 G,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95
-Fındık Ezmesi,Sarelle Kakaolu Fındık Ezmesi 350 g,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92
-Fındık Ezmesi,Fiskobirlik Şekerli Fındık Ezmesi 300 Gr,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5
-Fındık Ezmesi,Torku Fındık Ezmesi 370 G,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9
-Fındık Ezmesi,Fiskobirlik Şeker İlavesiz Fındık Ezmesi 300 Gr,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9
-Fındık Ezmesi,Fiskobirlik Fındık Ezmesi 180 G,104.95,104.95,104.95,104.95,104.95,104.5,104.5,104.5,104.5,104.5,104.5
+Fındık Ezmesi,Fiskobirlik Şeker İlavesiz Fındık Ezmesi 300 G,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95,200.95
 Fındık Ezmesi,Sarelle Kakaolu Fındık Ezmesi 700 Gr,143.92,143.92,143.92,143.92,143.92,143.92,143.92,143.92,143.92,143.92,143.92
-Fındık Ezmesi,Fiskobirlik Fındık Ezmesi 180 g,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
+Fındık Ezmesi,Migros Şekerli Fındık Ezmesi 300G,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25,93.25
+Fındık Ezmesi,Fiskobirlik Fındık Ezmesi 180 G,104.95,104.95,104.95,104.95,104.95,104.5,104.5,104.5,104.5,104.5,104.5
+Fındık Ezmesi,Sarelle Kakaolu Fındık Ezmesi 350 g,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92,79.92
+Fındık Ezmesi,Serenin Doğal Dünyası Tahin Pekmezli Fındık Ezmesi 250 g,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9,174.9
 Fındık Ezmesi,Ülker Çokokrem Pet Fındık Ezmesi 350 G,144.95,144.95,144.95,144.95,144.95,144.95,144.95,144.95,144.95,144.95,144.95
+Fındık Ezmesi,Fiskobirlik Şeker İlavesiz Fındık Ezmesi 300 Gr,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9,206.9
+Fındık Ezmesi,Torku Fındık Ezmesi 370 G,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9,166.9
 Fındık Ezmesi,Fiskobirlik Nuga Ballı Fındık Ezmesi 250 G,158.95,158.95,158.95,158.95,158.95,183.95,183.95,183.95,183.95,183.95,183.95
-Fındık İçi,Çifte Kavrulmuş Fındık,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95
-Fındık İçi,Tadım Kavrulmuş Fındık İçi 180 G,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0
-Fındık İçi,Tadım Çiğ Fındık İçi 140 G,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45
-Fındık İçi,Kavrulmuş Fındık Kg,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95
-Fındık İçi,Master Nut Kavrulmuş Tuzlu Fındık İçi 140 G,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
-Fındık İçi,Fındık İçi Giresun,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9
-Fındık İçi,Kavrulmuş Fındık Promosyon 35 G,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95
-Fındık İçi,Peyman Bahçeden Çiğ Fındık 140 G,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45
-Fındık İçi,Çiğ İç Fındık Kg,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95
-Fındık İçi,Tadım Fındık İçi Çiğ 140 G,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
-Fındık İçi,Bahçeden Çiğ Fındık 140 g,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95
-Fındık İçi,Migros Çiğ İç Fındık 150 G,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5
-Fındık İçi,Şenocak Çiğ İç Fındık 200 G,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95
+Fındık Ezmesi,Sarelle Fındık Ezmesi 350 Gr,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96,142.96
+Fındık Ezmesi,Şenocak Fındık Ezmesi 300 G,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95,127.95
+Fındık Ezmesi,Fiskobirlik Şekerli Fındık Ezmesi 300 Gr,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5,173.5
+Fındık Ezmesi,Sarelle Fındık Ezmesi 350 G,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45,181.45
+Fındık Ezmesi,Fiskobirlik Fındık Ezmesi 180 g,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
 Fındık İçi,Master Nut Kavrulmuş Fındık İçi 130 G,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
-Fındık İçi,Şenocak Kavrulmuş Fındık 200 G,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95
-Fındık İçi,Carrefour Kavrulmuş Fındık İçi 150 G,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5
-Fındık İçi,Şenocak Çifte Kavrulmuş Fındık 200 G,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95
-Fındık İçi,Migros Kavrulmuş Fındık İçi 150G,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5
 Fındık İçi,Fındık İçi Çiğ,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9
-Fındık İçi,M Life Çiğ İç Fındık 200 G,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9
+Fındık İçi,Kabuklu Kavrulmuş Fındık Kg,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95
+Fındık İçi,Kavrulmuş Fındık Kg,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95,699.95
+Fındık İçi,Migros Çiğ İç Fındık 150 G,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5
+Fındık İçi,Çiğ İç Fındık Kg,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95
+Fındık İçi,Master Nut Kavrulmuş Tuzlu Fındık İçi 140 G,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
+Fındık İçi,Carrefour Susam Kaplamalı Fındık 80 G,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0
+Fındık İçi,Peyman Bahçeden Çiğ Fındık 140 G,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45,95.45
+Fındık İçi,Fındık İçi Giresun,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9,749.9
+Fındık İçi,Şenocak Kavrulmuş Fındık 200 G,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95
+Fındık İçi,Kavrulmuş Fındık Promosyon 35 G,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95
+Fındık İçi,Peyman Bahçeden Tuzlu Tombul Karadeniz Fındığı 130G,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45
+Fındık İçi,Tadım Kavrulmuş Fındık İçi 180 G,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0
+Fındık İçi,Şenocak Çifte Kavrulmuş Fındık 200 G,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95,135.95
+Fındık İçi,Bahçeden Çiğ Fındık 140 g,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95,94.95
+Fındık İçi,Şenocak Çiğ İç Fındık 200 G,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95
 Fındık İçi,B5 Çerez Fındık 40 Gr,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
 Fındık İçi,Carrefour Çiğ Fındık İçi 150 G,75.0,75.0,75.0,75.0,75.0,75.0,75.0,75.0,75.0,75.0,75.0
-Fındık İçi,Peyman Bahçeden Kavrulmuş Fındık 160 G,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95
-Fındık İçi,Kabuklu Kavrulmuş Fındık Kg,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95,289.95
-Fındık İçi,Peyman Bahçeden Tuzlu Tombul Karadeniz Fındığı 130G,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45
-Fındık İçi,Carrefour Susam Kaplamalı Fındık 80 G,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0,85.0
-Fındık İçi,Fındık İçi Dökme kg,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9
+Fındık İçi,M Life Çiğ İç Fındık 200 G,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9,88.9
 Fındık İçi,Master Farm Çiğ İç Fındık 180 G,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,110.0,115.0,115.0
-Fındık İçi,Tadım Kavrulmuş Fındık İçi 180G,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95
-Fındık İçi,Bahçeden Kavrulmuş Fındık 160 G,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95
 Fındık İçi,Tadım Fındık İçi 90 G,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0
+Fındık İçi,Tadım Fındık İçi Çiğ 140 G,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
+Fındık İçi,Peyman Bahçeden Kavrulmuş Fındık 160 G,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95,130.95
+Fındık İçi,Bahçeden Kavrulmuş Fındık 160 G,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95
+Fındık İçi,Çifte Kavrulmuş Fındık,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95,599.95
+Fındık İçi,Fındık İçi Dökme kg,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9,399.9
+Fındık İçi,Tadım Çiğ Fındık İçi 140 G,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45,90.45
+Fındık İçi,Migros Kavrulmuş Fındık İçi 150G,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5,74.5
+Fındık İçi,Tadım Kavrulmuş Fındık İçi 180G,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95,139.95
 Fındık İçi,Carrefour Kavrulmuş Fındık İçi 300 Gr,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0,165.0
+Fındık İçi,Carrefour Kavrulmuş Fındık İçi 150 G,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5,88.5
 Gazoz Meyveli,Mountain Dew Turunçgil Aromalı Gazoz Kutu 330 ml,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
 Gazoz Meyveli,Çamlıca Sade Gazoz Cam 200 ml Şişe,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
 Gazoz Meyveli, 7UP Gazoz 250 ml,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5
@@ -2153,238 +2153,238 @@ Gazoz Meyveli,Dydo Joozy Liçi Aromalı Gazlı İçecek 330 Ml,23.95,23.95,23.95
 Gazoz Meyveli,Beyoğlu Portakal Limon Meyveli Doğal Zengin Mineralli İçecek 6x250 Ml,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0
 Gazoz Meyveli,Beyoğlu Zencefilli Doğal Zengin Mineralli Gazlı İçecek 6x250 Ml,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0,159.0
 Gazoz Meyveli,Fruko Gazoz Karışık Meyve Aromalı Gazoz Pet 15 Lt,37.5,37.5,37.5,37.5,37.5,37.5,37.5,37.5,37.5,37.5,37.5
-Gofret,Sarelle Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Gofret,Nestlé 1927 Bitter Çikolatalı Gofret 28g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
-Gofret,Eti Hoşbeş Vişneli 66 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Ülker Rulokat 9 Kat Tat Fındıklı Rulo Gofret 42 G,13.5,13.5,13.5,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Gofret,Ülker 9 Kat Tat Küp Gofret Portakallı 200 G,40.0,40.0,40.0,43.0,43.0,43.0,43.0,43.0,43.0,43.0,43.0
-Gofret,Çizmeci Time Choco Master Çikolata Kaplamalı Gofret 21G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Gofret,Ülker Çokonat Baklava 30 G,17.0,17.0,17.0,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
-Gofret,Torku Karamelli Ve Fındıklı Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
-Gofret,Migros Kakaolu Fındık Kremalı Rulo Gofret 120 G,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
-Gofret,Çizmeci Time Wafer Master Slim Gofrette Çilek 128G,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
-Gofret,Schulte Çilekli Gofret 175 G,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94
-Gofret,Nestlé Classic Sütlü Çikolatalı Çıtır Gofret 27 gr,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
-Gofret,Time Çizmeci Wafer Master Rulo Gofret 400 g,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0
-Gofret,Dido Sütlü Çikolatalı Gofret 35 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Hans Freitag Rossini Kakao Ve Fındık Kremalı Gofret 167 g,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94
-Gofret,Tadelle Gofret Bıtter 35 Gr,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,14.5,14.5,14.5
-Gofret,Çizmeci Time Wafer Master Cubes Fındıklı Gofret 220 G,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0
-Gofret,Şölen Nutymax Antep Fıstıklı 44 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Gofret,Çizmeci Time Crepe Fındıklı Gofret 75 Gr,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
-Gofret,Eti Hoşbeş Kakaolu Gofret 70 Gr,15.0,15.0,15.0,15.0,15.0,15.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Çizmeci Time Wafer Master 120 G,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
-Gofret,Milka Gofree Kakaolu Gofret 285 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Eti Çikolatalı Gofret Gold 29 G,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,9 Kat Tat Rulokat Fındıklı Rulo Gofret 170G,50.0,50.0,50.0,56.0,56.0,56.0,56.0,56.0,56.0,56.0,56.0
-Gofret,Ülker Laviva Dolgulu ve Bisküvili Bar 3x35 G,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
-Gofret,Çizmeci Wafer Master Teneke Kutu Özel Tasarım 120 G,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
-Gofret,Kahve Dünyası Antep Fıstıklı Sütlü Gofrik 4x33G,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95
-Gofret,Torku Miniki Çikolatalı Gofret 18 G,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
-Gofret,Milka Gofree Gofret Çikolatalı 28.5 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Luxens Fındıklı Kremalı Küp Gofret 250 G,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5
-Gofret,Ülker Deluxe Vanilya Aromalı Kremalı Gofret  220 g,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0
-Gofret,Torku Portakal&Çikolata Kremal Kakaolu Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
-Gofret,Nesquik Beyaz Gofret 267 G,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
-Gofret,Ülker Kanky Muzlu Kremalı Tren Gofret 26G,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
-Gofret,Eti Karam Gurme Bitter Çikolatalı Gofret 50 g x 3 Adet,59.75,59.75,59.75,59.75,57.9,57.9,57.9,57.9,57.9,57.9,57.9
-Gofret,Balocca Wafers Fındıklı 250 G,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0
-Gofret,Ülker Çikolata Gofret Mini Çoklu Paket 82 G,34.0,34.0,34.0,34.0,34.0,37.5,37.5,37.5,37.5,37.5,37.5
-Gofret,Migros Tam Bi Çıtır Kakao Kremalı Gofret 4X20 G,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9
-Gofret,Nestlé 1927 Sütlü Çikolatalı Fındıklı Gofret 31g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Gofret,Ülker Deluxe Gofret Fındık Kremalı 220 G,34.0,34.0,34.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0
-Gofret,Dido Trio Beyaz-Sütlü-Bitter Çikolatalı Gofret 36.5G,16.5,16.5,16.5,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
-Gofret,Nesquik Sandwich Gofret 22 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,Patislove Fındık Aromalı Sütlü Çikolata Kaplı Gofret 36 G,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0
-Gofret,Çizmeci Time Fındıklı Wafer Master Teneke 250 G,99.9,99.9,99.9,99.9,99.9,99.9,99.9,69.9,69.9,69.9,69.9
-Gofret,Nestle Nesquik Gofret 267 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
-Gofret,"Ülker Dido Bitter Şeker İlavesiz Gofret 34,5 G",15.0,15.0,15.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
-Gofret,Eti Karam Gofret Bitter 50 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Nestle Beyaz Çikolata Kaplamalı Gofret 27 G,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
-Gofret,Sarelle Duo Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Gofret,Ülker Dido Xxl Duble Çikolatalı Gofret 272 G,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0
-Gofret,Ülker Çikolatalı Gofret Maxi 47 G,11.25,11.25,11.25,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Gofret,Ülker Dido Trio Colors Limonlu 36.5 G,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
-Gofret,Kinder Bueno Çikolata 43 gr,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
-Gofret,Bıscolata Minis Sütlü Çikolata Kaplı Fındıklı Gofret 32.5G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Gofret,Eti Canga Yerfıstığı Kaplı Fındık Kremalı Gofret 34 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Ülker 9 Kat Tat İnce Şekersiz Portakallı Gofret 118 g,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
-Gofret,Ülker Extra Sütlü Çikolata Kaplı Fındıklı Gofret 45 Gr,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Gofret,Nestle 1927 Sütlü Gofret 28 g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
-Gofret,Şölen Nutymax Ekstra Fındıklı Gofret 40 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Gofret,Eti Hoşbeş Hindistan Cevizi Kremalı Gofret 70 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Çizmeci Time Fındıklı Wafer Master Teneke 400 Gr,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
-Gofret,Sarelle Hindistan Cevizli Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Gofret,Nestlé 1927 Sütlü Çikolatalı Gofret 28g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
-Gofret,Eti Hoşbeş Fındıklı Gofret 142 Gr,26.25,26.25,26.25,35.0,35.0,35.0,24.5,24.5,24.5,24.5,35.0
 Gofret,Eti Hoşbeş Fındık Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Gofret,Nestle Kit Kat Chunky Gofret 38 G,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6
-Gofret,Eti Bidolu Fındık Kremalı Yer Fıstığı Parçacıklı Gofret 36 g,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Gofret,Ülker Çikolatalı Gofret Maxi 47 G,11.25,11.25,11.25,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
+Gofret,Dido Kare Çikolatalı Gofret 555 g,23.0,23.0,23.0,23.0,23.0,26.5,26.5,26.5,26.5,26.5,26.5
+Gofret,Eti Bidolu Kakao Kremalı Yer Fıstığı Parçacıklı Gofret 36 g,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Gofret,Şölen Biscolata Veni Fındıklı Gofret 110 Gr,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Gofret,Tadelle Beyaz Çikolatalı Gofret 35 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
+Gofret,Eti Çikolatalı Gofret Gold 29 G,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
+Gofret,Ülker 9 Kat Tat Portakallı Gofret 39 g,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,Ülker Laviva Dolgulu ve Bisküvili Bar 3x35 G,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
+Gofret,Eti Petito Bol Sütlü Gofret 26 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Gofret,Tadelle Gofret 35 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
+Gofret,Torku 1 Daha Fındık Kremalı Gofretli Sütlü Çikolatalı 32 G,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5
 Gofret,Ülker Dido Sütlü Çikolatalı Gofret 35 Gr,15.0,15.0,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Ülker Çikolatalı Gofret 4'lü Paket 144 G,36.0,36.0,36.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
-Gofret,Ülker 9 Kat Tat Portakallı Gofret 39G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,Boombastıc Fındıklı Sütlü Çikolatalı Bar Gofret 40g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
-Gofret,Torku Kakaolu-Sade Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
-Gofret,Ülker Deluxe Gofret Vanilya Aromalı Kremalı 220 G,34.0,34.0,34.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0
+Gofret,Ülker Deluxe Gofret Fındık Kremalı 220 G,34.0,34.0,34.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0
+Gofret,Nestle Beyaz Çikolata Kaplamalı Gofret 27 G,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
+Gofret,Ülker Dido Gold Süt Reçeli Tadında Çikolatalı Gofret 36 G,16.5,16.5,16.5,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
+Gofret,Eti Hoşbeş Hindistan Cevizi Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+Gofret,Kinder Bueno White Çikolata 39 gr,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
 Gofret,Eti Ahenk Gurme Çikolata Kaplı Fındık Kremalı Gofret 50 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Dido Bitter Şeker İlavesiz Gofret 345 g,18.0,18.0,18.0,18.0,18.0,18.0,21.0,21.0,21.0,21.0,21.0
-Gofret,Eti Ahenk Gurme Gofret 50 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Eti Bidolu Fındık Kremalı Ve Yer Fıstığ Parçacıklı Gofret 81 G,18.0,18.0,18.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
-Gofret,Myfırın Nostalji Gofret Kakaolu 500G,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5
-Gofret,Tadelle Çikolatalı Gofret 35 Gr,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,14.5,14.5,14.5
-Gofret,9 Kat Tat Muzlu Gofret 39 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,"Ülker Dido Kare Çikolatalı Gofret 55,5G",23.0,23.0,23.0,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5
-Gofret,Eti Hoşbeş Fındıklı Gofret 70 Gr,15.0,15.0,15.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Tadelle Maxiçıtır Pirinç Patlaklı Gofret 30 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Şölen Nutymax Gofret Çikolata Kaplı Fındıklı 44 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Eti Canga Yerfıstığı Kaplı Fındık Kremalı Gofret 34 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Eti Hoşbeş Misket Limonlu Kremalı Gofret 66 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Ülker Deluxe Vanilya Aromalı Kremalı Gofret  220 g,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0
 Gofret,Ülker Çikolatalı Gofret 7'li Paket 252 G,64.0,64.0,64.0,71.0,71.0,71.0,71.0,71.0,71.0,71.0,71.0
-Gofret,Çizmeci Time Master Hindistan Cevizli Gofret 20G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Gofret,Patiswiss %25 Antep Fıstıklı Gofret 33 G,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9
-Gofret,Eti Çikolatalı Gofret 34 G,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Nestlé Crunch Patt Sütlü Çikolatalı Pirinç Patlaklı Gofret 27g,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0
-Gofret,Biscolata Veni Çikolatalı Gofret 110 G,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
-Gofret,Sarelle Gold Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Gofret,Eti Hoşbeş Bitter Çikolata Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Gofret,Nestle Kit Kat Chunky Bol Sütlü Çikolatalı Gofret 38 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Nestle Damak Ala Gofret 30 G,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5
-Gofret,Alpella 3Gen Gofret Beyaz 28 G,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
-Gofret,Nestle Damak Ala Gofret 30 g,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5
-Gofret,Sarelle Duo Sütlü Çikolata Kaplı Fındık Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Gofret,Ülker 9 Kat Tat İnce Fındıklı Kremalı Şekersiz Gofret 118 G,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
-Gofret,Eti Bidolu Kakao Kremalı Yer Fıstığı Parçalı Gofret 29 g,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75
+Gofret,Ülker Çikolatalı Gofret 4'lü Paket 144 G,36.0,36.0,36.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
+Gofret,Ülker Alpella 3gen Beyaz Çikolatalı Gofret,9.0,9.0,9.0,9.0,9.0,10.0,10.0,10.0,10.0,10.0,10.0
+Gofret,Sarelle Duo Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Eti Bidolu Fındık Kremalı Gofret 36 Gr,9.0,9.0,9.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Gofret,Migros Kakaolu Fındık Kremalı Rulo Gofret 120 G,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
+Gofret,Biscolata Nirvana Fındıklı 26 G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
+Gofret,Tadelle Çikolatalı Gofret 35 Gr,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,14.5,14.5,14.5
+Gofret,Çizmeci Wafer Master Fındıklı 75 Gr.,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Ülker Rulokat 9 Kat Kat Fındık Kremalı 204 G,55.0,55.0,55.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0
+Gofret,Eti Hoşbeş Kakaolu Gofret 70 Gr,15.0,15.0,15.0,15.0,15.0,15.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Nestle 1927 Bitter Gofret 28 g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
+Gofret,Torku Miniki Çikolatalı Gofret 18 G,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
+Gofret,Eti Bidolu Kakao Kremalı Gofret 36 Gr,9.0,9.0,9.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Gofret,Ülker Extra Sütlü Çikolata Kaplı Fındıklı Gofret 45 Gr,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
+Gofret,9 Kat Tat Rulokat Fındıklı Rulo Gofret 170G,50.0,50.0,50.0,56.0,56.0,56.0,56.0,56.0,56.0,56.0,56.0
+Gofret,Torku No 1 Çikolatalı Gofret 35 G,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25
+Gofret,Ülker 9 Kat Tat Küp Gofret Portakallı 200 G,40.0,40.0,40.0,43.0,43.0,43.0,43.0,43.0,43.0,43.0,43.0
 Gofret,Eti Sütlü Çikolatalı Gofret 34 g,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Tadelle Maxinut Yer Fıstıklı Gofret 30 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Ülker Çikolata Gofret Mini Çoklu Paket 82 G,34.0,34.0,34.0,34.0,34.0,37.5,37.5,37.5,37.5,37.5,37.5
+Gofret,Çizmeci Time Crepe Kakao Fındık Kremalı Gofret 240 Gr,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
+Gofret,Çizmeci Time Fındıklı Wafer Master Teneke 400 Gr,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
+Gofret,Eti Aşk Tadında Sütlü Fındıklı Çikolata 37 g,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0
+Gofret,9 Kat Tat Muzlu Gofret 39 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,Ülker Rulokat 9 Kat Tat Fındıklı Rulo Gofret 42 G,13.5,13.5,13.5,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
+Gofret,Nestlé Crunch Patt Sütlü Çikolatalı Pirinç Patlaklı Gofret 27g,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0
+Gofret,Dido Sütlü Çikolatalı Gofret 35 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Ülker Dido Trio Colors Limonlu 36.5 G,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
 Gofret,Ülker Çikolatalı Gofret 36 G,9.5,9.5,9.5,9.5,10.0,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Çizmeci Time Fındıklı Kremalı Rulo Gofret 280 G,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2
+Gofret,Bıscolata Minis Bitter Çikolata Kaplamalı Fındıklı Gofret 32.5g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+Gofret,Dido Trio Beyaz-Sütlü-Bitter Çikolatalı Gofret 36.5G,16.5,16.5,16.5,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
+Gofret,Çizmeci Time Wafer Master Slim Gofrette Çilek 128G,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
+Gofret,Tadelle Maxiçıtır Pirinç Patlaklı Gofret 30 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Nestle Gofret Çıtır 27 G,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
 Gofret,Balocco Wafers Vanilyalı 250 G,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0
 Gofret,Fiorella Çikolatalı Fındık Kremalı Gofret 60 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Gofret,Ülker Alpella 3gen Beyaz Çikolatalı Gofret,9.0,9.0,9.0,9.0,9.0,10.0,10.0,10.0,10.0,10.0,10.0
-Gofret,Nestle Gofret Çıtır 27 G,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
-Gofret,9 Kat Tat Fındıklı Gofret 39 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,Ülker Dido Trio Colors Çilekli 36.5 G,16.5,16.5,16.5,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
-Gofret,Çizmeci Wafer Master Fındıklı 75 Gr.,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Gofret,Eti Bidolu Fındık Kremalı Yer Fıstığı Parçacıklı Gofret 81 g,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
-Gofret,Tadelle Beyaz Çikolatalı Gofret 35 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Gofret,Torku No:1 5'li Paket 175 G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
-Gofret,Nestle Kitkat Chunky Duo Çikolatalı Gofret 38 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,"Ülker Kanky Sütlü - Çilek Bulut Kornet Gofret 26,5G",13.0,13.0,13.0,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
-Gofret,Torku Orman Meyveli Kremalı Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
-Gofret,Eti Bidolu Kakao Kremalı Gofret 36 Gr,9.0,9.0,9.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
-Gofret,Çizmeci Wafer Master Teneke Kutu Özel Tasarım 400 G,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
-Gofret,Çizmeci Wafer Master Minis Fındıklı Gofret 120 G,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9
-Gofret,Ülker Rulokat 9 Kat Kat Fındık Kremalı 204 G,55.0,55.0,55.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0,61.0
-Gofret,Eti Aşk Tadında Sütlü Fındıklı Çikolata 37 g,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0,32.0
-Gofret,Ülker Çokonat Kaplamalı Gofret 33 G,15.0,15.0,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Şölen Biscolata Veni Fındıklı Gofret 110 Gr,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
-Gofret,Ülker Dido Sütlü Çikolatalı Gofret 3Lü Paket 105G,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
-Gofret,Ülker Rulokat Fındıklı Kremalı Gofret 42 g,13.5,13.5,13.5,13.5,13.5,15.0,15.0,15.0,15.0,15.0,15.0
-Gofret,Ülker Dido Gold Süt Reçeli Tadında Çikolatalı Gofret 36 G,16.5,16.5,16.5,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
-Gofret,Eti Karam Gurme Bitter Çikolatalı Gofret 50 g,20.0,20.0,20.0,20.0,19.5,19.5,19.5,19.5,19.5,19.5,19.5
-Gofret,Torku 1 Daha Fındık Kremalı Gofretli Sütlü Çikolatalı 32 G,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5,13.5
-Gofret,Zeyrek Vanilyalı Gofret 800G,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9
-Gofret,Şölen Nutymax Antep Fıstıklı Kremalı Gofret 3X44 G,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0
-Gofret,Boombastic Hindistan Cevizli Sütlü Çikolata Bar Gofret 40G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
-Gofret,Balocco Wafers Kakaolu 250 G,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0
-Gofret,Tadelle Küp Gofret Bitter Kremalı 200 G,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
-Gofret,Ülker 9 Kat Tat İnce İnce Fındıklı 114 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Gofret,Zeyrek Vanilyalı Gofret 200 G,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5
-Gofret,Myfırın Nostalji Gofret Vanilyalı 500G,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5
-Gofret,Tadelle Bitter Çikolatalı Gofret 35 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Gofret,9 Kat Tat İnce İnce Çilekli Gofret 114 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Gofret,Ülker Çikolatalı Gofret 4Lu Paket 144g,36.0,36.0,36.0,36.0,36.0,40.0,40.0,40.0,40.0,40.0,40.0
-Gofret,Ülker Çikolatalı Gofret Beyaz 35 Gr,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
-Gofret,Schar Snack Çikolatalı Gofret 3x35 Gr,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9
-Gofret,"Ülker Kanky Bulut Kornet Gofret 26,5G",13.0,13.0,13.0,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
-Gofret,Nestle 1927 Bitter Gofret 28 g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
-Gofret,Tadelle Gofret 35 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Gofret,Torku Fındıklı Bol Kremalı Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
-Gofret,Nestlé Nesquik Sütlü Çikolatalı Gofret 26.7 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
-Gofret,Luxens Çilek Kremalı Küp Gofret 250 G,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5
-Gofret,Tadelle Küp Gofret Kakao Kremalı 200 G,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
-Gofret,Eti Gold Çikolatalı Gofret 29 g,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Çokonat Kaplı Gofret 33 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Eti Hoşbeş Kakao Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Gofret,Bıscolata Nirvana Hindistan Cevizli Gofret 26G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
-Gofret,Eti Hoşbeş Kakaolu Gofret 142 Gr,26.25,26.25,26.25,35.0,35.0,35.0,35.0,24.5,24.5,24.5,35.0
-Gofret,Eti Bidolu Kakao Kremalı Ve Yer Fıstığ Parçacıklı Gofret 81 G,18.0,18.0,18.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
-Gofret,Ülker Dido Gold Kare Latte Keyfi 59G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Ülker Çıkolatalı Gofret Bitter 36 G,9.5,9.5,9.5,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Bıscolata Minis Bitter Çikolata Kaplamalı Fındıklı Gofret 32.5g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Gofret,Ülker Laviva Selection Bitter 45 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Eti Hoşbeş Kakao Kremalı Gofret 70 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Eti Bidolu Kakao Kremalı Yer Fıstığı Parçacıklı Gofret 36 g,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
 Gofret,Eti Hoşbeş Muz Kremalı Gofret 120 G,35.0,30.625,30.625,35.0,35.0,35.0,35.0,29.75,29.75,29.75,35.0
-Gofret,Ülker Çikolatalı Gofret Mini Çoklu Paket 82 G,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
-Gofret,Ülker 9 Kat Tat Fındıklı Gofret 39 Gr,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,Çizmeci Time Wafer Master Çikolatalı Rulo Gofret 280 G,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2
-Gofret,Eti Petito Bol Sütlü Kremalı Sade Kakaolu Gofret 26 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
-Gofret,Eti Hoşbeş Fındık Kremalı Gofret 70 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Ülker Bitter Çikolatalı Gofret 36 G,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Eti Hoşbeş Limonlu Gofret 66 Gr,15.0,15.0,15.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Schulte Limonlu Gofret 175 G,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94
-Gofret,Eti Hoşbeş Misket Limonlu Kremalı Gofret 66 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
-Gofret,Ülker Dido Trio Beyaz Sütlü Çikolatalı Gofret 365 Gr,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
-Gofret,Eti Petito Bol Sütlü Gofret 26 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
-Gofret,Ülker Laviva Selection 45 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
-Gofret,Ülker Ekstra Bitter Çikolatalı Gofret 45 G,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Gofret,Sarelle Hindistan Cevizli Gofret 33 g,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
-Gofret,Eti Hoşbeş Çilekli Gofret 142 Gr,26.25,26.25,26.25,35.0,35.0,35.0,35.0,24.5,24.5,24.5,35.0
-Gofret,Biscolata Nirvana Fındıklı 26 G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
-Gofret,Tadelle Küp Gofret Fındık Kremalı 200 G,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
-Gofret,Dido Kare Çikolatalı Gofret 555 g,23.0,23.0,23.0,23.0,23.0,26.5,26.5,26.5,26.5,26.5,26.5
-Gofret,Eti Hoşbeş Hindistan Cevizli Gofret 70 Gr,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Gofret,Ülker 9 Kattat Ülker Rulokat Fındıklı Gofret 170 G,50.0,50.0,50.0,50.0,50.0,56.0,56.0,56.0,56.0,56.0,56.0
-Gofret,Biscolata Veni Fındıklı Gofret 110 G,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
-Gofret,Ülker 9 Kat Tat Portakallı Gofret 39 g,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,Boombastıc Yer Fıstıklı Sütlü Çikoatalı Bar Gofret 40G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
-Gofret,9 Kat Tat İnce İnce Hindistan Cevizli 114 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
-Gofret,Ülker Çokonat 3'lü 99 G,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5
+Gofret,Tadelle Küp Gofret Kakao Kremalı 200 G,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
+Gofret,Eti Hoşbeş Vişneli 66 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Eti Bidolu Fındık Kremalı Yer Fıstığı Parçacıklı Gofret 81 g,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
+Gofret,Tadelle Küp Gofret Bitter Kremalı 200 G,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
+Gofret,Nestle Damak Ala Gofret 30 G,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5
+Gofret,Sarelle Hindistan Cevizli Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Ülker Dido Gold Kare Latte Keyfi 59G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
 Gofret,Ülker Kanky Muzlu Sütlü Tren Gofret 26 g,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
-Gofret,Nestl 1927 Fındıklı Sütlü Gofret 33 G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
-Gofret,Kinder Bueno White Çikolata 39 gr,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
 Gofret,Eti Bidolu Kakao Kremalı Yer Fıstığı Parçacıklı Gofret 81 g,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
-Gofret,Eti Hoşbeş Hindistan Cevizi Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Gofret,Eti Hoşbeş Çilek Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
-Gofret,Ülker 9 Kat Tat Muzlu Gofret 39 Gr,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
-Gofret,Torku No:1 Extra Çikolatalı Gofret 35G,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
-Gofret,Çizmeci Time Crepe Kakao Fındık Kremalı Gofret 240 Gr,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9,99.9
+Gofret,Hans Freitag Rossini Kakao Ve Fındık Kremalı Gofret 167 g,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94,86.94
+Gofret,Ülker 9 Kattat Ülker Rulokat Fındıklı Gofret 170 G,50.0,50.0,50.0,50.0,50.0,56.0,56.0,56.0,56.0,56.0,56.0
+Gofret,Eti Karam Gofret Bitter 50 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Milka Gofree Gofret Çikolatalı 28.5 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Ülker Çokonat Baklava 30 G,17.0,17.0,17.0,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
+Gofret,Nestle Kitkat Chunky Duo Çikolatalı Gofret 38 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Torku Orman Meyveli Kremalı Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
+Gofret,Torku Kakaolu-Sade Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
+Gofret,Nestl 1927 Fındıklı Sütlü Gofret 33 G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+Gofret,Nesquik Sandwich Gofret 22 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,"Ülker Kanky Bulut Kornet Gofret 26,5G",13.0,13.0,13.0,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
+Gofret,Eti Hoşbeş Fındık Kremalı Gofret 70 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Sarelle Hindistan Cevizli Gofret 33 g,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Alpella 3Gen Gofret Beyaz 28 G,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
+Gofret,Eti Hoşbeş Fındıklı Gofret 142 Gr,26.25,26.25,26.25,35.0,35.0,35.0,24.5,24.5,24.5,24.5,35.0
+Gofret,Ülker Çokonat 3'lü 99 G,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5,42.5
+Gofret,Ülker 9 Kat Tat Portakallı Gofret 39G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,Çizmeci Time Fındıklı Wafer Master Teneke 250 G,99.9,99.9,99.9,99.9,99.9,99.9,99.9,69.9,69.9,69.9,69.9
+Gofret,Eti Bidolu Fındık Kremalı Yer Fıstığı Parçacıklı Gofret 36 g,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Gofret,Biscolata Veni Çikolatalı Gofret 110 G,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Gofret,Çokonat Kaplı Gofret 33 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Tadelle Bitter Çikolatalı Gofret 35 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
+Gofret,Zeyrek Vanilyalı Gofret 800G,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9
+Gofret,Luxens Fındıklı Kremalı Küp Gofret 250 G,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5
+Gofret,Bıscolata Nirvana Hindistan Cevizli Gofret 26G,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
+Gofret,Ülker Çikolatalı Gofret Beyaz 35 Gr,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
+Gofret,Biscolata Veni Fındıklı Gofret 110 G,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Gofret,Nestlé Nesquik Sütlü Çikolatalı Gofret 26.7 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Gofret,Çizmeci Time Master Hindistan Cevizli Gofret 20G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
+Gofret,Milka Gofree Kakaolu Gofret 285 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Eti Hoşbeş Kakaolu Gofret 142 Gr,26.25,26.25,26.25,35.0,35.0,35.0,35.0,24.5,24.5,24.5,35.0
+Gofret,Kinder Bueno Çikolata 43 gr,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
+Gofret,Ülker 9 Kat Tat Fındıklı Gofret 39 Gr,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,Ülker Çikolatalı Gofret Mini Çoklu Paket 82 G,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0
+Gofret,Eti Bidolu Kakao Kremalı Ve Yer Fıstığ Parçacıklı Gofret 81 G,18.0,18.0,18.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
+Gofret,Nestle Kit Kat Chunky Gofret 38 G,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6,13.6
+Gofret,Ülker Çikolatalı Gofret 4Lu Paket 144g,36.0,36.0,36.0,36.0,36.0,40.0,40.0,40.0,40.0,40.0,40.0
+Gofret,Eti Hoşbeş Çilekli Gofret 142 Gr,26.25,26.25,26.25,35.0,35.0,35.0,35.0,24.5,24.5,24.5,35.0
+Gofret,Eti Bidolu Fındık Kremalı Ve Yer Fıstığ Parçacıklı Gofret 81 G,18.0,18.0,18.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0,24.0
+Gofret,Eti Hoşbeş Hindistan Cevizli Gofret 70 Gr,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
+Gofret,Ülker Çıkolatalı Gofret Bitter 36 G,9.5,9.5,9.5,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5
 Gofret,Kahve Dünyası Gofrik Antep Fıstıklı Sütlü 33 G,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5
+Gofret,Nestlé Classic Sütlü Çikolatalı Çıtır Gofret 27 gr,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
+Gofret,Çizmeci Time Fındıklı Kremalı Rulo Gofret 280 G,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2
+Gofret,Ülker 9 Kat Tat İnce Şekersiz Portakallı Gofret 118 g,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Gofret,Balocca Wafers Fındıklı 250 G,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0
+Gofret,Çizmeci Time Wafer Master Çikolatalı Rulo Gofret 280 G,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2,63.2
+Gofret,Ülker Dido Xxl Duble Çikolatalı Gofret 272 G,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0,97.0
+Gofret,Boombastıc Fındıklı Sütlü Çikolatalı Bar Gofret 40g,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Gofret,9 Kat Tat İnce İnce Hindistan Cevizli 114 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Boombastıc Yer Fıstıklı Sütlü Çikoatalı Bar Gofret 40G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Gofret,Ülker Çokonat Kaplamalı Gofret 33 G,15.0,15.0,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Nestle Damak Ala Gofret 30 g,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5,28.5
+Gofret,Nestle Kit Kat Chunky Bol Sütlü Çikolatalı Gofret 38 G,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Schulte Limonlu Gofret 175 G,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94
+Gofret,Eti Ahenk Gurme Gofret 50 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Ülker Deluxe Gofret Vanilya Aromalı Kremalı 220 G,34.0,34.0,34.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0,36.0
+Gofret,Eti Karam Gurme Bitter Çikolatalı Gofret 50 g,20.0,20.0,20.0,20.0,19.5,19.5,19.5,19.5,19.5,19.5,19.5
+Gofret,Torku Karamelli Ve Fındıklı Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
 Gofret,Ülker Çikolatalı Gofret Maxi,11.25,11.25,11.25,11.25,11.25,11.25,11.25,11.25,11.25,12.5,12.5
-Gofret,Torku No 1 Çikolatalı Gofret 35 G,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25,9.25
-Gofret,Nestle Crunch Patt Gofret 27 g,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0
-Gofret,Eti Bidolu Fındık Kremalı Gofret 36 Gr,9.0,9.0,9.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Gofret,Eti Petito Bol Sütlü Kremalı Sade Kakaolu Gofret 26 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Gofret,Ülker 9 Kat Tat İnce İnce Fındıklı 114 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Bıscolata Minis Sütlü Çikolata Kaplı Fındıklı Gofret 32.5G,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+Gofret,Torku No:1 Extra Çikolatalı Gofret 35G,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
+Gofret,Ülker 9 Kat Tat İnce Fındıklı Kremalı Şekersiz Gofret 118 G,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Gofret,9 Kat Tat Fındıklı Gofret 39 G,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,Migros Tam Bi Çıtır Kakao Kremalı Gofret 4X20 G,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9,17.9
 Gofret,Ülker Beyaz Çikolatalı Fındıklı Kremalı Gofret 35 G,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
-Gofret,Şölen Nutymax Gofret Çikolata Kaplı Fındıklı 44 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Ülker Rulokat Fındıklı Kremalı Gofret 42 g,13.5,13.5,13.5,13.5,13.5,15.0,15.0,15.0,15.0,15.0,15.0
+Gofret,Nestle Crunch Patt Gofret 27 g,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0
+Gofret,Patiswiss %25 Antep Fıstıklı Gofret 33 G,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9,14.9
+Gofret,Eti Hoşbeş Limonlu Gofret 66 Gr,15.0,15.0,15.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,"Ülker Dido Kare Çikolatalı Gofret 55,5G",23.0,23.0,23.0,26.5,26.5,26.5,26.5,26.5,26.5,26.5,26.5
+Gofret,Nesquik Beyaz Gofret 267 G,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
+Gofret,Nestle 1927 Sütlü Gofret 28 g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
+Gofret,Ülker Ekstra Bitter Çikolatalı Gofret 45 G,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
+Gofret,Ülker Dido Trio Colors Çilekli 36.5 G,16.5,16.5,16.5,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
+Gofret,Şölen Nutymax Antep Fıstıklı Kremalı Gofret 3X44 G,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0
+Gofret,Ülker 9 Kat Tat Muzlu Gofret 39 Gr,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Gofret,Nestlé 1927 Bitter Çikolatalı Gofret 28g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
+Gofret,Tadelle Küp Gofret Fındık Kremalı 200 G,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
+Gofret,Çizmeci Time Wafer Master 120 G,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
+Gofret,Luxens Çilek Kremalı Küp Gofret 250 G,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5,38.5
+Gofret,Schulte Çilekli Gofret 175 G,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94,119.94
+Gofret,Çizmeci Wafer Master Minis Fındıklı Gofret 120 G,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9,69.9
+Gofret,Şölen Nutymax Ekstra Fındıklı Gofret 40 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Time Çizmeci Wafer Master Rulo Gofret 400 g,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0,140.0
+Gofret,Eti Çikolatalı Gofret 34 G,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
+Gofret,Kahve Dünyası Antep Fıstıklı Sütlü Gofrik 4x33G,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95,104.95
+Gofret,Ülker Dido Trio Beyaz Sütlü Çikolatalı Gofret 365 Gr,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Gofret,Ülker Laviva Selection 45 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Sarelle Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Tadelle Gofret Bıtter 35 Gr,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,14.5,14.5,14.5
+Gofret,Çizmeci Wafer Master Teneke Kutu Özel Tasarım 120 G,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5,62.5
+Gofret,Dido Bitter Şeker İlavesiz Gofret 345 g,18.0,18.0,18.0,18.0,18.0,18.0,21.0,21.0,21.0,21.0,21.0
+Gofret,Eti Hoşbeş Kakao Kremalı Gofret 70 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Çizmeci Time Crepe Fındıklı Gofret 75 Gr,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9,24.9
+Gofret,Balocco Wafers Kakaolu 250 G,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0,138.0
+Gofret,9 Kat Tat İnce İnce Çilekli Gofret 114 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Nestle Nesquik Gofret 267 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Gofret,Eti Hoşbeş Fındıklı Gofret 70 Gr,15.0,15.0,15.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Eti Hoşbeş Bitter Çikolata Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+Gofret,Eti Hoşbeş Kakao Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+Gofret,Ülker Dido Sütlü Çikolatalı Gofret 3Lü Paket 105G,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5,35.5
+Gofret,Boombastic Hindistan Cevizli Sütlü Çikolata Bar Gofret 40G,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5,16.5
+Gofret,Şölen Nutymax Antep Fıstıklı 44 G,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0
+Gofret,Çizmeci Time Wafer Master Cubes Fındıklı Gofret 220 G,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0,115.0
+Gofret,Zeyrek Vanilyalı Gofret 200 G,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5,19.5
+Gofret,Torku Portakal&Çikolata Kremal Kakaolu Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
+Gofret,Nestlé 1927 Sütlü Çikolatalı Gofret 28g,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
+Gofret,Sarelle Gold Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,"Ülker Dido Bitter Şeker İlavesiz Gofret 34,5 G",15.0,15.0,15.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0,21.0
+Gofret,Eti Hoşbeş Çilek Kremalı Gofret 142 g,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+Gofret,Eti Gold Çikolatalı Gofret 29 g,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
+Gofret,Sarelle Duo Sütlü Çikolata Kaplı Fındık Gofret 33 G,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0
+Gofret,Myfırın Nostalji Gofret Vanilyalı 500G,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5
+Gofret,Çizmeci Wafer Master Teneke Kutu Özel Tasarım 400 G,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
+Gofret,Torku Fındıklı Bol Kremalı Gofret 142 G,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5,31.5
+Gofret,Eti Karam Gurme Bitter Çikolatalı Gofret 50 g x 3 Adet,59.75,59.75,59.75,59.75,57.9,57.9,57.9,57.9,57.9,57.9,57.9
+Gofret,"Ülker Kanky Sütlü - Çilek Bulut Kornet Gofret 26,5G",13.0,13.0,13.0,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
+Gofret,Myfırın Nostalji Gofret Kakaolu 500G,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5,59.5
+Gofret,Tadelle Maxinut Yer Fıstıklı Gofret 30 G,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Çizmeci Time Choco Master Çikolata Kaplamalı Gofret 21G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
+Gofret,Torku No:1 5'li Paket 175 G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
+Gofret,Nestlé 1927 Sütlü Çikolatalı Fındıklı Gofret 31g,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+Gofret,Eti Bidolu Kakao Kremalı Yer Fıstığı Parçalı Gofret 29 g,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75
+Gofret,Ülker Kanky Muzlu Kremalı Tren Gofret 26G,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
+Gofret,Patislove Fındık Aromalı Sütlü Çikolata Kaplı Gofret 36 G,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0
+Gofret,Ülker Bitter Çikolatalı Gofret 36 G,9.5,9.5,9.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5,10.5
+Gofret,Eti Hoşbeş Hindistan Cevizi Kremalı Gofret 70 g,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0,20.0
+Gofret,Ülker Laviva Selection Bitter 45 G,15.0,15.0,15.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0,17.0
+Gofret,Schar Snack Çikolatalı Gofret 3x35 Gr,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9,147.9
 Havuç,Havuç Çıtır 250 G Paket Adet,15.95,15.95,15.95,15.95,15.95,15.95,15.95,15.95,15.95,15.95,15.95
-Havuç,Havuç Minyatür Paket,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
 Havuç,Havuç kg,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
-Havuç,Havuç Siyah,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Havuç,Havuç Beypazarı Paket Kg,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
-Hazır Et Yemekleri,Tada Etli Nohut 250 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,85.95
-Hazır Et Yemekleri,Ant Bahar Hindi Islak Hamburger Köftesi 200 G,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95
-Hazır Et Yemekleri,Tat Etli Kuru Fasulye 200 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Hazır Et Yemekleri,Tada Etli Kuru Fasulye 250 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,85.95
-Hazır Et Yemekleri,Tat Hazır Yemek Etli Nohut 400 G,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
-Hazır Et Yemekleri,Yayla Sebzeli Tavuk Sote 200 G,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
-Hazır Et Yemekleri,Tada Hindili Bulgur Pilavı 200G,83.95,83.95,83.95,83.95,83.95,83.95,83.95,83.95,83.95,83.95,106.95
-Hazır Et Yemekleri,Tada Tavuk Eti Konservesi 2X135 G,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95
-Hazır Et Yemekleri,Tat Etli Nohut 200 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Hazır Et Yemekleri,Gurmepack Izgara Tavuk & Fırında Sebze 320 G,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9
-Hazır Et Yemekleri,Annemin Mutfağı Tavuk Etli Nohut 200G Pilav Hediye,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95
-Hazır Et Yemekleri,Ant Bahar Hindi Döner 160 G,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95
-Hazır Et Yemekleri,Gurmepack Barbekü Soslu Tavuk & Fusilli Makarna 360G,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9
-Hazır Et Yemekleri,Gurmepack Izgara Köfte & Fusilli Napolitan 300 G,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9
-Hazır Et Yemekleri,Yayla Etli Nohut 250 G,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95
-Hazır Et Yemekleri,Gurmepack Tavuk Şiş & Bulgur Pilavı 380 G,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9
-Hazır Et Yemekleri,Yayla Etli Kuru Fasulye 250 G,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95
+Havuç,Havuç Siyah,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
+Havuç,Havuç Minyatür Paket,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9,139.9
 Hazır Et Yemekleri,Tada Tavuk Fileto 2x135 G,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95
-Hazır Et Yemekleri,Tat Etli Kuru Fasulye 400 G,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
-Hazır Et Yemekleri,Yayla Etli Özbek Pilavı 200 G,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95
-Hazır Et Yemekleri,Zel Et Kavurma Konserve 2X80 G,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95
-Hazır Et Yemekleri,Tada Ankara Tava 220 G,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,154.95
+Hazır Et Yemekleri,Yayla Sebzeli Tavuk Sote 200 G,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
+Hazır Et Yemekleri,Gurmepack Izgara Tavuk & Fırında Sebze 320 G,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9
+Hazır Et Yemekleri,Gurmepack Tavuk Şiş & Bulgur Pilavı 380 G,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9,192.9
+Hazır Et Yemekleri,Tada Hindili Bulgur Pilavı 200G,83.95,83.95,83.95,83.95,83.95,83.95,83.95,83.95,83.95,83.95,106.95
+Hazır Et Yemekleri,Tada Etli Nohut 250 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,85.95
+Hazır Et Yemekleri,Yayla Etli Nohut 250 G,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95
+Hazır Et Yemekleri,Tat Hazır Yemek Etli Nohut 400 G,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
+Hazır Et Yemekleri,Ant Bahar Hindi Döner 160 G,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95
+Hazır Et Yemekleri,Ant Bahar Hindi Islak Hamburger Köftesi 200 G,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95,89.95
 Hazır Et Yemekleri,Yayla Tavuklu Pilav 200 G,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95
+Hazır Et Yemekleri,Tat Etli Kuru Fasulye 200 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
+Hazır Et Yemekleri,Tada Ankara Tava 220 G,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,129.95,154.95
+Hazır Et Yemekleri,Zel Et Kavurma Konserve 2X80 G,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95,212.95
+Hazır Et Yemekleri,Annemin Mutfağı Tavuk Etli Nohut 200G Pilav Hediye,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95
 Hazır Et Yemekleri,Tada! Salsa Soslu Patatesli Tavuk 250 G,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,90.95
 Hazır Et Yemekleri,Annemin Mutfağı Pastırmalı Kuru Fasulye 200 G Pilav Hediye,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
+Hazır Et Yemekleri,Yayla Etli Kuru Fasulye 250 G,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95,86.95
+Hazır Et Yemekleri,Tat Etli Nohut 200 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
+Hazır Et Yemekleri,Tada Etli Kuru Fasulye 250 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,85.95
+Hazır Et Yemekleri,Tat Etli Kuru Fasulye 400 G,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
+Hazır Et Yemekleri,Gurmepack Barbekü Soslu Tavuk & Fusilli Makarna 360G,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9
 Hazır Et Yemekleri,Gurmepack Köri Soslu Tavuk & Fusilli Makarna 360 G,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9,183.9
+Hazır Et Yemekleri,Yayla Etli Özbek Pilavı 200 G,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95,76.95
+Hazır Et Yemekleri,Tada Tavuk Eti Konservesi 2X135 G,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95,122.95
+Hazır Et Yemekleri,Gurmepack Izgara Köfte & Fusilli Napolitan 300 G,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9,232.9
 Hazır Kahve,Jacobs Cronat Gold Çözülebilir Kahve 100 G,162.5,162.5,162.5,162.5,162.5,162.5,162.5,162.5,162.5,162.5,162.5
 Hazır Kahve,Starbucks Caffe Mocha Premium Kahve Karışımı 22 G,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95,19.95
 Hazır Kahve,Jacobs Monarch Filtre Kahve 250 g,123.17,123.17,123.17,123.17,123.17,123.17,123.17,123.17,123.17,123.17,123.17
@@ -2739,7 +2739,7 @@ Hazır Sütlü Tatlılar,Eker Kazandibi 150 G,27.225,27.225,27.225,27.225,27.225
 Hazır Sütlü Tatlılar,Eti Browni Mousse 48 G,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
 Hazır Sütlü Tatlılar,Eker Profiterol 100 Gr,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95
 Hazır Sütlü Tatlılar,Ozmo Cool Bol Sütlü Ballı Krema Dolgulu Çikolata Kaplı Kek 30 G,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5,12.5
-Hazır Sütlü Tatlılar,Oreo Süt Dolgulu Kakao & Bisküvi Kaplamalı Kek 27 G,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95
+Hazır Sütlü Tatlılar,Dolcia Muzlu Puding 4x100 Gr,49.95,49.95,49.95,49.95,49.95,39.95,39.95,39.95,39.95,39.95,39.95
 Hazır Sütlü Tatlılar,Eker Tavuk Göğsü 150 G,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95,24.95
 Hazır Sütlü Tatlılar,BParfe FındıklıYaban Mersinli Vegan Tatlı 275 g,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9
 Hazır Sütlü Tatlılar,Migros Fırın Sütlaç 200 G,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
@@ -2760,7 +2760,7 @@ Hazır Sütlü Tatlılar,Danette Çikolatalı Puding 375 Gr,52.95,52.95,52.95,52
 Hazır Sütlü Tatlılar,Kinder Süt Dilimi 4 Adet x 28 gr,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95
 Hazır Sütlü Tatlılar,Kinder Sütlü Delice 39 g,22.95,22.95,22.95,22.95,22.95,22.95,22.95,22.95,22.95,22.95,22.95
 Hazır Sütlü Tatlılar,Eker Sütlaç 150 G,27.225,27.225,27.225,24.95,24.95,27.225,27.225,27.225,27.225,27.225,27.225
-Hazır Sütlü Tatlılar,Migros Kazandibi 180 G,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
+Hazır Sütlü Tatlılar,Oreo Süt Dolgulu Kakao & Bisküvi Kaplamalı Kek 27 G,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95
 Hazır Sütlü Tatlılar,Eker Fındıklı Karamelize Beyaz Çikolata Tatlı 125G,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5
 Hazır Sütlü Tatlılar,Vegan Milk B.Barfe Çilekli Fındıklı Parfe Tatlı 275 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
 Hazır Sütlü Tatlılar,Eti Süt Burger Sütlü Kakaolu Krema Dolgulu Ballı Kek 35 g,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
@@ -2775,7 +2775,7 @@ Hazır Sütlü Tatlılar,Milka Sütlü Çikolata Kaplamalı Kek 29 G,32.95,32.95
 Hazır Sütlü Tatlılar,Eti Süt Burger Çilekli Krema Dolgulu Ballı Kek 35 g,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
 Hazır Sütlü Tatlılar,Eker Portakal.Bademli Bitter Çikolatalı Tatlı 125G,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5,29.5
 Hazır Sütlü Tatlılar,BParfe FındıklıMuzlu Vegan Tatlı 275 Gr,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9,84.9
-Hazır Sütlü Tatlılar,Dolcia Muzlu Puding 4x100 Gr,49.95,49.95,49.95,49.95,49.95,39.95,39.95,39.95,39.95,39.95,39.95
+Hazır Sütlü Tatlılar,Migros Kazandibi 180 G,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
 Hazır Sütlü Tatlılar,Danette Muz 4100 Gr,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95,57.95
 Hazır Sütlü Tatlılar,Eker Sakızlı Muhallebi 150 G,27.225,27.225,27.225,27.225,27.225,24.95,24.95,24.95,24.95,29.5,29.5
 Hazır Sütlü Tatlılar,Eti Süt Burger Sütlü Ve Ballı 35 G,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
@@ -3810,7 +3810,7 @@ Kraker,Ülker Krispi Acılı Çubuk Kraker 43 Gr,7.0,7.0,7.0,7.0,7.0,7.5,7.5,7.5
 Kraker,Eti Balık Kraker 160 G,20.125,20.125,20.125,23.0,23.0,23.0,23.0,23.0,23.0,23.0,23.0
 Kraker,Ülker Taç Kraker 76G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
 Kraker,Ülker Susamlı Çubuk Kraker 70 Gr,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
-Kraker,Ülker Taç Kraker Susamlı Çörekotlu 76G,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
+Kraker,Migros Tuzlu Çubuk Kraker 150 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
 Kraker,Ülker Çizi Çıtır Atıştırmalık Peynir & Soğan 80 G,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0
 Kraker,Ülker Krispi Tırtıklı Kraker Baharatlı 48 G,11.0,11.0,11.0,11.0,11.0,12.0,12.0,12.0,12.0,12.0,12.0
 Kraker,McVities Flipz Tuzlu Karamelli Kraker 90 g,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0
@@ -3823,7 +3823,7 @@ Kraker,Ülker Çizi Kraker 4lü Paket 280 G,38.0,38.0,38.0,38.0,26.5,26.5,26.5,2
 Kraker,Eti Pizza Kraker 76 G,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
 Kraker,Eti Mini Mısırlı Balık Kraker 70 g,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0
 Kraker,Alka Elephant Karamelize Soğanlı Burgu Kraker 160 g,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34
-Kraker,Eti Burçak Tuzlu Çörek Otlu Bisküvi 3x91 g,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
+Kraker,Ülker Çiziviç Peynirli Kremalı Sandviç Kraker 82 G,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
 Kraker,Greta Zeytin Kekikli Mp 120G,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0
 Kraker,Ülker Susamlı Çubuk Kraker 45 Gr,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
 Kraker,Eti Burçak Tuzlu Zeytinli Bisküvi 3x91 g,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
@@ -3833,33 +3833,33 @@ Kraker,Alka Elephant Deniz Tuzlu Kraker 80 g,37.74,37.74,37.74,37.74,37.74,37.74
 Kraker,Ülker Çizi Çıtır Atıştırmalık Tulum Peynir & Köz Biber 80 G,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0,26.0
 Kraker,Eti Pizza Kraker Efsane Lezzet 63 g,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
 Kraker,Migros Peynirli Çubuk Kraker 45 G,4.3,4.3,4.3,4.3,4.3,4.3,4.3,4.3,4.3,4.3,4.3
-Kraker,Ülker Çiziviç Peynirli Kremalı Sandviç Kraker 82 G,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
+Kraker,Wefood Tahinli Kraker 40 g,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,49.9
 Kraker,Greta Mevsim Yeşilliği Çeşnili Kraker 4'lü 120 G,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0
 Kraker,Ülker Badem Kraker Sade 38 G,6.0,6.0,6.0,6.5,6.5,6.5,6.5,6.5,6.5,6.5,6.5
 Kraker,Mayalı Hane Glutensiz Domatesli Kekikli Kraker 150 g,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0
 Kraker,Ülker Çizi PeynirSoğan Aromalı Kraker 40 G,14.0,14.0,14.0,14.0,14.0,14.0,14.0,10.5,10.5,10.5,10.5
 Kraker,Jungle Ballı Muhabbet Kuşu Krakeri 3 Parça,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95
 Kraker,Torku Tam Kraker 120G,18.25,18.25,18.25,18.25,18.25,18.25,18.25,18.25,18.25,18.25,18.25
-Kraker,Eti Crax Çubuk Kraker 40 g,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5
+Kraker,Eti Burçak Tuzlu Çörek Otlu Bisküvi 3x91 g,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0,45.0
 Kraker,Hanımeller Zeytinli Biberiyeli Tuzlu Kurabiye 81 G,13.0,13.0,13.0,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
 Kraker,Ülker Badem Kraker Sade 38 g,6.0,6.0,6.0,6.0,6.0,6.5,6.5,6.5,6.5,6.5,6.5
 Kraker,Ülker Krispi Peynirli Çubuk Kraker 43 G,7.0,7.0,7.0,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5
 Kraker,Eti Burçak Tuzlu Zeytinli Bisküvi 91 g,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5
 Kraker,Ülker Krispi Baharatlı Çubuk Kraker 43 Gr,7.0,7.0,7.0,7.0,7.0,7.5,7.5,7.5,7.5,7.5,7.5
-Kraker,Wefood Fesleğenli Kraker 40 g,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,49.9
-Kraker,Jungle Muhabbet Kuşu BallıMeyveli Kraker,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95
+Kraker,Eti Crax Çubuk Kraker 85 g,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Kraker,Eti Crax Çubuk Kraker 40 g,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5
 Kraker,Eti Pizzaviç Peynirli Kraker 75 g,10.88,10.88,10.88,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
 Kraker,Gerber Organik Buğdaylı Yulaflı Kraker 35 Gr,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88
 Kraker,Ülker Krispi Tırtıklı Kraker Acılı 48 G,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
-Kraker,Ülker Krispi Tırtıklı Baharatlı 48 G,11.0,11.0,11.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
-Kraker,Eti Crax Çubuk Kraker 85 g,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5,8.5
+Kraker,Wefood Fesleğenli Kraker 40 g,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,49.9
+Kraker,Jungle Ballı Lüx Muhabbet Krakeri 2li,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
 Kraker,Gerber Organik Pirinçli Buğdaylı Kraker 35 Gr,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88,73.88
 Kraker,Eti Crax Baharatlı Çubuk Kraker 175 g,26.25,26.25,26.25,26.25,26.25,26.25,26.25,26.25,26.25,26.25,26.25
 Kraker,Şölen Geta ZeytinKekikli Kraker 120 Gr,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0,38.0
 Kraker,Eti Pizzavic Peynir Kremalı Kraker 75G,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
 Kraker,Eti Susamlı Çubuk Kraker 120 G,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0
 Kraker,Pet Bees Meyveli 3Lü Kraker,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95
-Kraker,Ülker Çubuk Kraker 80 G,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,8.5,8.5,8.5
+Kraker,Ülker Taç Kraker 76 Gr,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
 Kraker,Eti Crax Patlayan Lezzet Peynirli Soğanlı Çubuk Kraker 50 g,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
 Kraker,Pet Bees Meyveli 2Li Lüx Kraker,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
 Kraker,Eti Crax Patlayan Lezzet Chili Lime Çubuk Kraker 50 g,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
@@ -3874,23 +3874,23 @@ Kraker,Serenin Doğal Dünyası Tohumlu Kraker 80 g,63.92,63.92,63.92,63.92,63.9
 Kraker,Alka Elephant Domates Burgu Kraker 160 g,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34,71.34
 Kraker,Eti Burçak Tuzlu Çörek Otlu Bisküvi 91 g,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5,15.5
 Kraker,Ülker Tuzlu Çubuk Kraker 40 G,3.75,3.75,3.75,4.5,4.5,4.5,4.5,4.5,4.5,4.5,4.5
-Kraker,Taç Kraker 3X76 g,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
 Kraker,Ülker Hanımeller Karışık Tuzlu Kurabiye 150 G,26.0,26.0,26.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
+Kraker,Jungle Muhabbet Kuşu BallıMeyveli Kraker,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95,11.95
 Kraker,Ülker Çizi HaşhaşlıBaharatlı Kraker 70 g,10.0,10.0,10.0,10.0,10.0,10.0,10.0,7.5,7.5,7.5,7.5
 Kraker,Eti Susamlı Çubuk Kraker 56 G,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
 Kraker,Eti Balık Kraker Mini Mısırlı 40 g,6.75,6.75,6.75,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
 Kraker,Eti Pizza Kraker 38 G,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0
 Kraker,Eti Crax Baharatlı Çubuk Kraker 80 g,13.25,13.25,13.25,13.25,13.25,13.25,13.25,13.25,13.25,13.25,13.25
 Kraker,Ülker Susamlı Çubuk Kraker 70 G,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
-Kraker,Migros Tuzlu Çubuk Kraker 150 G,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Kraker,Ülker Çubuk Kraker 80 G,7.5,7.5,7.5,7.5,7.5,7.5,7.5,7.5,8.5,8.5,8.5
 Kraker,Ülker Çizi Peynirli Kraker 70 G,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75,9.75
 Kraker,Ülker Taç Kraker Susamlı Çörekotlu 228G,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
 Kraker,Ülker Çiziviç Zeytinyağlı ve Kekikli Sandviç 82G,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5,14.5
 Kraker,Eti Pizza Kraker 76 Gr,8.63,8.63,8.63,11.5,11.5,11.5,11.5,11.5,11.5,11.5,11.5
 Kraker,Jungle Meyveli Muhabbet Kuşu Krakeri 3 Parça,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
-Kraker,Eti Susamlı Çubuk Kraker 56 g,7.13,7.13,7.13,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
 Kraker,Glutensiz Ada Susamlı Çubuk Kraker 105 Gr,121.9,121.9,121.9,121.9,121.9,121.9,121.9,121.9,121.9,121.9,121.9
-Kraker,Jungle Ballı Lüx Muhabbet Krakeri 2li,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
+Kraker,Eti Susamlı Çubuk Kraker 56 g,7.13,7.13,7.13,9.5,9.5,9.5,9.5,9.5,9.5,9.5,9.5
+Kraker,Ülker Taç Kraker Susamlı Çörekotlu 76G,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
 Kraker,Pet Bees Ballı 3Lü Kraker,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95,32.95
 Kraker,Ülker Çizi Tulum Peynir Köz Biber Aromalı Kraker,14.0,14.0,14.0,14.0,14.0,14.0,14.0,10.5,10.5,10.5,10.5
 Kraker,Ülker Susamlı Çubuk Kraker 45 G,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
@@ -3908,10 +3908,10 @@ Kraker,Ülker Çizi Zeytinyağlı Kekikli Peynirli Kraker 70 G,8.5,8.5,8.5,8.5,8
 Kraker,Ülker Çiziviç Peynirli Sandviç Kraker 3x82 Gr,42.0,42.0,42.0,42.0,42.0,42.0,42.0,31.5,31.5,31.5,31.5
 Kraker,Wasa Krem Peynirli Sandviç (Mild Cheese Sandwich) 30 G,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9,29.9
 Kraker,Jungle Meyveli Lüx Muhabbet Krakeri 2li,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Kraker,Ülker Taç Kraker 76 Gr,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0
+Kraker,Ülker Krispi Tırtıklı Baharatlı 48 G,11.0,11.0,11.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0
 Kraker,Migros Susamlı Çubuk Kraker 150 G,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
 Kraker,Crax Patlayan Lezzet Acı Baharatlı Çubuk 50 G,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0
-Kraker,Wefood Tahinli Kraker 40 g,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,42.42,49.9
+Kraker,Taç Kraker 3X76 g,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0
 Kraker,Tada Glutensiz Sebzeli Mini Kraker 85g,87.5,87.5,87.5,87.5,87.5,87.5,87.5,87.5,87.5,87.5,87.5
 Kraker,Ülker Çubuk Kraker Sade 40 Gr,4.0,4.0,4.0,4.0,4.0,4.5,4.5,4.5,4.5,4.5,4.5
 Kraker,Humm Organik Peynirli Ve Kinoalı Kraker 60 g,72.21,72.21,72.21,72.21,72.21,84.95,84.95,84.95,84.95,84.95,84.95
@@ -3933,93 +3933,93 @@ Kraker,Ülker Çizi Çıtır Peynir&Soğan Aromalı Kraker 40G,14.0,14.0,14.0,14
 Kraker,Mayalı Hane Glutensiz Zeytinli Çörek Otlu Kraker 150 g,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0,62.0
 Krem Peynir,Pınar Labne 180 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,44.95,44.95,49.95,49.95
 Krem Peynir,Migros Tam Yağlı Taze Labne Peynir 200 G,34.35,34.35,34.35,34.35,34.35,34.35,34.35,34.35,34.35,34.35,34.35
-Krem Peynir,Migros Krem Peynir 500 G,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0
+Krem Peynir,Yörüksüt Flefelya Naneli Sürülebilir Taze Peynir 100 Gr,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
 Krem Peynir,İçim Laktozsuz Labne 180 G,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Krem Peynir,Migros Tam Yağlı Taze Sürülebilir Peynir 200G,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0
 Krem Peynir,President Taze Peynir 180 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Krem Peynir,Kiri Tam Yağlı Taze Peynir 300 Gr,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0
-Krem Peynir,La Vache Qui Rit Krem Peynir 270g,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0
 Krem Peynir,İçim Labne Peynir 3x180 G,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95
-Krem Peynir,Karper Üçgen Peynir 18li 324g,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
-Krem Peynir,President Üçgen Peynir Cheddarlı 100 Gr,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95
+Krem Peynir,La Vache Qui Rit Krem Peynir 270g,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0
+Krem Peynir,Carrefour Labne Peynir 300 Gr,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5
+Krem Peynir,Pınar Beyaz 350 G,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
+Krem Peynir,Bahçıvan Labne 200 G,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5
 Krem Peynir,Sek Taze Peynir Zeytinli Kekikli 150 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
 Krem Peynir,İçim Labne 180 G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
-Krem Peynir,Biogurme Organik Labne 200 G,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95
+Krem Peynir,İçim Kajun Baharatlı Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Krem Peynir,Karper Biberli Yarım Yağlı Eritme Peynir 108 g,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
 Krem Peynir,President Krem Peynir Cheddarlı 270 G,78.95,78.95,78.95,78.95,78.95,78.95,78.95,78.95,78.95,78.95,78.95
 Krem Peynir,Sek Taze Peynir Sade 150 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
 Krem Peynir,İçim Krem Peynir 300 Gr,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95
 Krem Peynir,Ekici Krem Peynir 400 g,95.0,95.0,95.0,95.0,95.0,95.0,95.0,95.0,95.0,95.0,95.0
 Krem Peynir,La Vache Qui Rit Sade Krem Peynir 140G,58.0,58.0,58.0,58.0,58.0,58.0,58.0,58.0,58.0,58.0,58.0
-Krem Peynir,İçim Sürme Peynir 200 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
+Krem Peynir,İçim Kajun Baharatlı Labne 180 G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
 Krem Peynir,La Vache Qui Rit Burger Dilimli Cheddarlı Peynir 180 g,125.0,125.0,125.0,125.0,125.0,125.0,125.0,125.0,125.0,125.0,125.0
 Krem Peynir,Kiri Tam Yağlı Taze Peynir 300 G,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0
-Krem Peynir,Yörüksüt Flefelya Naneli Sürülebilir Taze Peynir 100 Gr,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
+Krem Peynir,İçim Labne 3X180 G,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95
 Krem Peynir,Karper Üçgen Peynir 16lı 200g,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5,82.5
 Krem Peynir,La Vache Qui Rit 16lı Üçgen Peynir 200g,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0,70.0
 Krem Peynir,La Vache Qui Rit Krem Peynir 270G,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0
-Krem Peynir,Bahçıvan Labne 200 G,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5,58.5
-Krem Peynir,Baltalı %100 Keçi Labne Peynir 200 G,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95
+Krem Peynir,President Üçgen Peynir Cheddarlı 100 Gr,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95,35.95
+Krem Peynir,Biogurme Organik Laktozsuz Labne 200 G,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95
 Krem Peynir,İçim Labne Peynir 400 G,87.0,87.0,87.0,87.0,87.0,87.0,87.0,87.0,87.0,87.0,87.0
-Krem Peynir,Bahçıvan Tam Yağlı Krem Peynir 300 G,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
-Krem Peynir,Kiri Labne Peynir 300 G,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0
+Krem Peynir,Elta Ada Organik Tam Yağlı Labne 200 G,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+Krem Peynir,La Vache Krem Lor Peynir 150 g,49.95,39.0,39.0,39.0,39.0,39.0,39.0,39.0,39.0,39.0,39.0
 Krem Peynir,Pınar Beyaz 180 G,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95,49.95
-Krem Peynir,İçim Yarım Yağlı Üçgen Peynir 100gr,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95
+Krem Peynir,Baltalı %100 Keçi Labne Peynir 200 G,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95,126.95
 Krem Peynir,Pınar Krem Peynir Cheddarlı 270 G,84.95,84.95,84.95,84.95,84.95,84.95,84.95,84.95,84.95,84.95,84.95
 Krem Peynir,İçim Üçgen Peynir 300 Gr,95.95,95.95,95.95,95.95,95.95,95.95,95.95,95.95,95.95,95.95,95.95
 Krem Peynir,Pınar Beyaz Taze Peynir 350 G,99.5,99.5,99.5,99.5,99.5,99.5,99.5,99.5,99.5,99.5,99.5
 Krem Peynir,Pınar Krem Peynir 300 Gr,79.0,79.0,79.0,79.0,79.0,79.0,79.0,79.0,79.0,79.0,79.0
-Krem Peynir,Pınar Beyaz Ekstra Yumuşak 180 G,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95
+Krem Peynir,Migros Krem Peynir 500 G,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0
 Krem Peynir,Pınar Organik Labne Peyniri 180 G,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95,59.95
-Krem Peynir,İçim Labne 3X180 G,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95,119.95
+Krem Peynir,Karper Üçgen Peynir 18li 324g,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
 Krem Peynir,Kiri Labne Tam Yağlı Taze Peynir 300 Gr,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0
 Krem Peynir,Pınar Labne Peynir 400 Gr,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
-Krem Peynir,Elta Ada Organik Tam Yağlı Labne 200 G,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+Krem Peynir,La Vache Qui Rit Krem Peynir 140g,46.0,46.0,46.0,46.0,46.0,58.0,58.0,58.0,58.0,58.0,58.0
 Krem Peynir,Pınar Krem Peynir 300 G,65.95,65.95,65.95,65.95,65.95,65.95,65.95,65.95,65.95,65.95,65.95
 Krem Peynir,Kiri Labne Taze Peynir 150 G,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95
 Krem Peynir,Bahçıvan Krem Peynir 300 Gr,75.9,75.9,75.9,75.9,75.9,75.9,75.9,75.9,75.9,75.9,75.9
-Krem Peynir,Kiri Tam Yağlı Taze Peynir 150 G,58.0,60.333333333333336,51.0,58.0,58.0,58.0,65.0,58.0,51.0,58.0,60.333333333333336
-Krem Peynir,La Vache Qui Rit Krem Peynir 140g,46.0,46.0,46.0,46.0,46.0,58.0,58.0,58.0,58.0,58.0,58.0
+Krem Peynir,Kiri Tam Yağlı Taze Peynir 150 G,58.0,60.333333333333336,51.0,58.0,58.0,58.0,65.0,58.0,51.0,58.0,58.0
+Krem Peynir,Biogurme Organik Labne 200 G,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95
 Krem Peynir,Baltalı 100 Keçi Sütünden Labneh 200 g,128.25,128.25,128.25,128.25,128.25,128.25,128.25,128.25,128.25,128.25,128.25
 Krem Peynir,La Vache Qui Rit Üçgen Peynir 8li 100 Gr,38.0,38.0,38.0,38.0,38.0,48.0,48.0,48.0,48.0,48.0,48.0
-Krem Peynir,Torku Krem Peynir 300 G,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9
 Krem Peynir,Teksüt Krem Peynir 300 G,61.95,61.95,61.95,61.95,61.95,61.95,61.95,61.95,61.95,61.95,61.95
-Krem Peynir,İçim Kajun Baharatlı Labne 180 G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
+Krem Peynir,Kiri Tam Yağlı Taze Peynir 300 Gr,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0
+Krem Peynir,Pınar Üçgen Peynir Yarım Yağlı 8x25 Gr,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0
 Krem Peynir,Pınar Beyaz 20 G 8li,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0,60.0
 Krem Peynir,Karper Üçgen Peynir 8li 100g,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0
 Krem Peynir,Torku Labne 180 G,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
 Krem Peynir,İçim Krem Peynir 300 G,64.9,64.9,64.9,64.9,64.9,64.9,64.9,64.9,64.9,64.9,64.9
 Krem Peynir,Pınar Labne 400 G,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0,90.0
 Krem Peynir,Kiri Tam Yağlı Taze Peynir 6 adet 90 g,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0,65.0
-Krem Peynir,Pınar Beyaz 350 G,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95,103.95
+Krem Peynir,İçim Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Krem Peynir,Bahçıvan Laktozsuz Labne 200 Gr,68.75,68.75,68.75,68.75,68.75,68.75,68.75,68.75,68.75,68.75,68.75
 Krem Peynir,İçim Chili Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
-Krem Peynir,La Vache Krem Lor Peynir 150 g,49.95,39.0,39.0,39.0,39.0,39.0,39.0,39.0,39.0,39.0,39.0
+Krem Peynir,Pınar Beyaz 180 Gr,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
 Krem Peynir,İçim Chili Çeşnili Labne 180 G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
-Krem Peynir,Pınar Üçgen Peynir Yarım Yağlı 8x25 Gr,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0,67.0
+Krem Peynir,Torku Krem Peynir 300 G,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9,82.9
 Krem Peynir,Pınar Labne Laktozsuz 180 G,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95
 Krem Peynir,Taciroğlu Çikolatalı Yarım Yağlı Taze Peynir 150 G,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9,54.9
 Krem Peynir,Torku Labne 400 G,92.9,92.9,92.9,92.9,92.9,92.9,92.9,92.9,92.9,92.9,92.9
 Krem Peynir,La Vache Qui Rit Light Üçgen Peynir 8li,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0,54.0
 Krem Peynir,President Cheddarlı Krem Peynir 270 G,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95,79.95
-Krem Peynir,Pınar Labne 3x180 G,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95
+Krem Peynir,İçim Yarım Yağlı Üçgen Peynir 100gr,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95,31.95
 Krem Peynir,Carrefour Taze Beyaz Peynir 200 Gr,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0,37.0
-Krem Peynir,İçim Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
-Krem Peynir,Biogurme Organik Laktozsuz Labne 200 G,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95,73.95
-Krem Peynir,Carrefour Labne Peynir 300 Gr,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5,51.5
+Krem Peynir,Bahçıvan Tam Yağlı Krem Peynir 300 G,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
+Krem Peynir,İçim Rahat Laktozsuz Labne 180G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
+Krem Peynir,Pınar Beyaz Ekstra Yumuşak 180 G,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95,52.95
 Krem Peynir,Torku Krempare Tam Yağlı Sürülebilir Taze Peynir 180 G,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9,49.9
 Krem Peynir,Pınar Labne Peynir 750 G,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95,179.95
-Krem Peynir,İçim Kajun Baharatlı Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
+Krem Peynir,Pınar Labne 3x180 G,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95,136.95
 Krem Peynir,Kiri Labne Peyniri 150 G,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95,51.95
-Krem Peynir,Pınar Beyaz 180 Gr,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95,44.95
+Krem Peynir,Kiri Labne Peynir 300 G,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0,89.0
 Krem Peynir,İçim Labne 400 Gr,79.5,79.5,79.5,79.5,79.5,79.5,79.5,79.5,79.5,79.5,79.5
-Krem Peynir,İçim Rahat Laktozsuz Labne 180G,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9,42.9
+Krem Peynir,İçim Kekikli Zeytinli Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
 Krem Peynir,Bahçıvan Laktozsuz Labne 200 G,61.5,61.5,61.5,61.5,61.5,61.5,61.5,61.5,61.5,61.5,61.5
 Krem Peynir,Yörüksüt Flefelya Biberli Sürülebilir Taze Peynir 100 Gr,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5,22.5
 Krem Peynir,La Vache Qui Rit 24lü Üçgen Peynir 300g,134.0,134.0,134.0,134.0,134.0,134.0,134.0,134.0,134.0,134.0,134.0
 Krem Peynir,La Vache Qui Rit Krem Peynir 500 G,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75,123.75
 Krem Peynir,İçim Taze Peynir 180 G,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95,46.95
-Krem Peynir,İçim Kekikli Zeytinli Labne 180 g,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95,42.95
+Krem Peynir,İçim Sürme Peynir 200 G,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95,39.95
 Krem Peynir,La Vache Qui Rit Burger Dilimli Cheddarlı Peynir 288 g,199.0,199.0,199.0,199.0,199.0,199.0,199.0,199.0,199.0,199.0,199.0
 Kuru Fasulye,Reis Royal Siyah Fasulye 500 Gr,123.9,123.9,123.9,123.9,123.9,123.9,123.9,123.9,123.9,123.9,124.95
 Kuru Fasulye,Tat Haşlanmış Kuru Fasulye 800 Gr,55.9,55.9,55.9,55.9,55.9,55.9,55.9,55.9,55.9,55.9,55.9
@@ -4568,7 +4568,7 @@ Makarna,Nuhun Ankara İnce Uzun Makarna 500 Gr,22.75,22.75,22.75,22.75,22.75,22.
 Makarna,Filiz Yumurtalı Uzun Erişte Makarna 350 g,29.75,29.75,29.75,29.75,29.75,29.75,29.75,29.75,29.75,29.75,29.75
 Makarna,Pastavilla Lazanya 500 G,93.95,93.95,93.95,93.95,93.95,93.95,93.95,93.95,93.95,93.95,93.95
 Makarna,Filiz Sebzeli Burgu Makarna 350 G,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5,27.5
-Makarna,Mutlu Erişte 500 G,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95
+Makarna,Mutlu İnce Uzun Makarna 500 G,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95
 Makarna,Barilla Penne Rigate (Kalem) Makarna 500 G,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95,41.95
 Makarna,Nuh'un Ankara İnce Uzun Makarna 500 G,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75,22.75
 Makarna,Migros Burgu Makarna 500 G,10.75,10.75,10.75,10.75,10.75,10.75,10.75,11.75,11.75,11.75,11.75
@@ -4617,7 +4617,7 @@ Makarna,Pastavilla Dirsek Makarna 500 G,27.95,27.95,27.95,27.95,27.95,27.95,27.9
 Makarna,Nuhun Ankara Sebzeli Nuhun Gemisi Makarna 350 G,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95,27.95
 Makarna,Rummo Spaghetti 500 G,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95,99.95
 Makarna,Mutlu Penne Makarna 500 G,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95
-Makarna,Mutlu İnce Uzun Makarna 500 G,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95
+Makarna,Mutlu Erişte 500 G,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95,17.95
 Mandalina,Mandalina Naturel Kg,34.95,34.95,34.95,34.95,34.95,39.9,39.9,39.9,39.9,39.9,39.9
 Mandalina,Mandalina kg,39.9,39.9,39.9,34.95,34.95,39.9,39.9,39.9,39.9,39.9,39.9
 Mandalina,Mandalina Satsuma İzmir kg,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95,69.95
