@@ -5,9 +5,9 @@ from datetime import datetime,timedelta
 import pandas as pd
 import numpy as np
 
-while True:
 
-    try:
+
+try:
 
         bugün=datetime.now().strftime("%Y-%m-%d")
 
@@ -19,7 +19,6 @@ while True:
         data=pd.read_csv("sepet.csv")
         data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
         data.index.name=""
-        data=data.drop_duplicates()
         try:
             data=data.drop(f"{bugün}",axis=1)
         except:
@@ -29,40 +28,45 @@ while True:
 
         def veriekle(urun, data, urunler_df):
 
-            if urunler_df is None or urunler_df.empty:
+            try:
+
+                if urunler_df is None or urunler_df.empty:
+                    return data
+
+                elif isinstance(data.loc[urun], pd.Series):
+                    data_for_urun = data.loc[urun].to_frame().T  # Convert Series to DataFrame
+                else:
+                    data_for_urun = data.loc[urun]
+
+                # Merge the data with urunler_df
+                merged_df = pd.merge(data_for_urun, urunler_df, on='Ürün', how='outer')
+
+                # Index'i doğru ürün ismiyle dolduruyoruz
+                merged_df.index = len(merged_df) * [urun]
+
+                # Eğer _x ve _y ile aynı tarihli sütunlar varsa birleştiriyoruz
+                tarih_sutunlari = [col for col in merged_df.columns if col.endswith("_x") or col.endswith("_y")]
+                
+                for col in set([col.split("_")[0] for col in tarih_sutunlari]):
+                    if col + "_x" in merged_df.columns and col + "_y" in merged_df.columns:
+                        # Sütunları birleştiriyoruz
+                        merged_df[col] = merged_df[col + "_x"].combine_first(merged_df[col + "_y"])
+                        # _x ve _y sütunlarını kaldırıyoruz
+                        merged_df = merged_df.drop(columns=[col + "_x", col + "_y"])
+
+                # Eski verileri (urun'e ait olan satırları) çıkarıyoruz
+                data_without_urun = data.drop(index=urun)
+
+                # Yeni verileri ekliyoruz
+                data = pd.concat([data_without_urun, merged_df])
+
+                # Data'yı index'e göre sıralıyoruz
+                data = data.sort_index()
+
+
                 return data
-
-            elif isinstance(data.loc[urun], pd.Series):
-                data_for_urun = data.loc[urun].to_frame().T  # Convert Series to DataFrame
-            else:
-                data_for_urun = data.loc[urun]
-
-            # Merge the data with urunler_df
-            merged_df = pd.merge(data_for_urun, urunler_df, on='Ürün', how='outer')
-
-            # Index'i doğru ürün ismiyle dolduruyoruz
-            merged_df.index = len(merged_df) * [urun]
-
-            # Eğer _x ve _y ile aynı tarihli sütunlar varsa birleştiriyoruz
-            tarih_sutunlari = [col for col in merged_df.columns if col.endswith("_x") or col.endswith("_y")]
-            
-            for col in set([col.split("_")[0] for col in tarih_sutunlari]):
-                if col + "_x" in merged_df.columns and col + "_y" in merged_df.columns:
-                    # Sütunları birleştiriyoruz
-                    merged_df[col] = merged_df[col + "_x"].combine_first(merged_df[col + "_y"])
-                    # _x ve _y sütunlarını kaldırıyoruz
-                    merged_df = merged_df.drop(columns=[col + "_x", col + "_y"])
-
-            # Eski verileri (urun'e ait olan satırları) çıkarıyoruz
-            data_without_urun = data.drop(index=urun)
-
-            # Yeni verileri ekliyoruz
-            data = pd.concat([data_without_urun, merged_df])
-
-            # Data'yı index'e göre sıralıyoruz
-            data = data.sort_index()
-
-            return data
+            except:
+                return data
 
 
 
@@ -530,13 +534,15 @@ while True:
 
         carrefour_data = scrape_carrefour_products()
 
-        # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        
+
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
 
@@ -832,12 +838,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
 
@@ -1001,12 +1008,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
 
@@ -1176,12 +1184,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -1302,12 +1311,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -1430,12 +1440,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -1556,12 +1567,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -1683,12 +1695,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -1939,12 +1952,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -2069,12 +2083,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -2207,12 +2222,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -2343,12 +2359,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -2479,12 +2496,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -2618,12 +2636,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -2855,12 +2874,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3000,12 +3020,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3147,12 +3168,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3385,12 +3407,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3532,12 +3555,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3683,12 +3707,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3817,12 +3842,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -3967,12 +3993,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -4125,12 +4152,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -4278,12 +4306,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -4439,12 +4468,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -4601,12 +4631,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -4740,12 +4771,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -4869,12 +4901,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -5007,12 +5040,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -5145,12 +5179,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
         # Combine both datasets into one DataFrame
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -5295,12 +5330,13 @@ while True:
         carrefour_data = scrape_carrefour_products()
 
 
-        if not migros_data:
-            all_data =   carrefour_data
-        elif not carrefour_data:
-            all_data=migros_data
+        if migros_data and carrefour_data:
+
+                    all_data = migros_data + carrefour_data
+        elif migros_data and not carrefour_data:
+                    all_data=migros_data
         else:
-            all_data=migros_data+carrefour_data
+                    all_data=carrefour_data
         product_df = pd.DataFrame(all_data)
 
         # Close the browser
@@ -5513,7 +5549,7 @@ while True:
 
 
 
-        carrefour=["https://www.carrefoursa.com/search/?q=karpuz%3AbestSeller%3AinStockFlag%3Atrue&text=karpuz#"]
+        """carrefour=["https://www.carrefoursa.com/search/?q=karpuz%3AbestSeller%3AinStockFlag%3Atrue&text=karpuz#"]
         options = Options()
         options.headless = False 
 
@@ -5521,9 +5557,10 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour=carrefour,name="Karpuz")
+        urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Karpuz kg|Karpuz Kg")]
 
 
-        data=veriekle("Karpuz",data,urunler_df)
+        data=veriekle("Karpuz",data,urunler_df)"""
 
 
         carrefour=["https://www.carrefoursa.com/search?q=kavun%3AbestSeller%3AinStockFlag%3Atrue%3AproductPrimaryCategoryCode%3A1018"]
@@ -5549,6 +5586,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kivi")
+        if urunler_df is not None:
+            urunler_df=urunler_df[~urunler_df["Ürün"].str.contains("ml")]
 
 
         data=veriekle("Kivi",data,urunler_df)
@@ -5579,6 +5618,9 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Mandalina")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("kg|Kg")]
+
 
 
         data=veriekle("Mandalina",data,urunler_df)
@@ -5734,6 +5776,9 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Ay Çekirdeği")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Ayçekirdeği|Ayçekirdek|Şimşek")]
+
 
 
         data=veriekle("Ay Çekirdeği",data,urunler_df)
@@ -5748,7 +5793,7 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kabak Çekirdeği")
-
+        
 
         data=veriekle("Kabak Çekirdeği",data,urunler_df)
 
@@ -5762,7 +5807,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kuru Üzüm")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("üzüm|Üzüm")]
 
         data=veriekle("Kuru Üzüm",data,urunler_df)
 
@@ -5776,6 +5822,9 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kuru Kayısı")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("kayısı|Kayısı")]
+        
 
 
         data=veriekle("Kuru Kayısı",data,urunler_df)
@@ -5790,7 +5839,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Çarliston Biber")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Çarliston|çarliston")]
 
         data=veriekle("Çarliston Biber",data,urunler_df)
 
@@ -5804,6 +5854,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Dolmalık Biber")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Dolma|Dolmalık")]
 
 
         data=veriekle("Dolmalık Biber",data,urunler_df)
@@ -5819,7 +5871,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Sivri Biber")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("sivri|Sivri")]
 
         data=veriekle("Sivri Biber",data,urunler_df)
 
@@ -5852,7 +5905,7 @@ while True:
         urunler_df=vericek(carrefour,migros,"Domates")
         if urunler_df is not None:
             urunler_df=urunler_df[~urunler_df["Ürün"].str.contains("Salçası", regex=True)]
-            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Domates", regex=True)]
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("kg", regex=True)]
 
             data=veriekle("Domates",data,urunler_df)
 
@@ -5944,19 +5997,21 @@ while True:
         data=veriekle("Havuç",data,urunler_df)
 
 
-
-        carrefour=["https://www.carrefoursa.com/search?q=%C4%B1spanak%3AbestSeller%3AproductPrimaryCategoryCode%3A1030%3AinStockFlag%3Atrue&text=%C4%B1spanak#"]
-        migros=["https://www.migros.com.tr/arama?q=%C4%B1spanak&sayfa=1&kategori=2&markalar=492&sirala=akilli-siralama"]
-        options = Options()
-        options.headless = False 
-
-
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
-        urunler_df=vericek(carrefour,migros,"Ispanak")
+        try:
+            carrefour=["https://www.carrefoursa.com/search?q=%C4%B1spanak%3AbestSeller%3AproductPrimaryCategoryCode%3A1030%3AinStockFlag%3Atrue&text=%C4%B1spanak#"]
+            migros=["https://www.migros.com.tr/arama?q=%C4%B1spanak&sayfa=1&kategori=2&markalar=492&sirala=akilli-siralama"]
+            options = Options()
+            options.headless = False 
 
 
-        data=veriekle("Ispanak",data,urunler_df)
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=options)
+            urunler_df=vericek(carrefour,migros,"Ispanak")
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Ispanak")]
+
+            data=veriekle("Ispanak",data,urunler_df)
+        except:
+            pass
 
 
 
@@ -5969,7 +6024,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kabak")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Sakız|Dolmalık|Adet")]
 
         data=veriekle("Kabak",data,urunler_df)
 
@@ -5984,6 +6040,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Karnabahar")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Karnabahar")]
 
 
         data=veriekle("Karnabahar",data,urunler_df)
@@ -5999,7 +6057,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kuru Soğan")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("soğan|Soğan")]
 
         data=veriekle("Kuru Soğan",data,urunler_df)
 
@@ -6043,6 +6102,9 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Mantar")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Mantar|mantar|mantarı|Mantarı")]
+            urunler_df=urunler_df[~urunler_df["Ürün"].str.contains("Çorba|Pano|İstiridye|Salatası")]
 
         data=veriekle("Mantar",data,urunler_df)
 
@@ -6057,7 +6119,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kıvırcık")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("kıvırcık|Kıvırcık")]
         data=veriekle("Kıvırcık",data,urunler_df)
 
 
@@ -6110,6 +6173,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Pırasa")
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("pırasa|Pırasa")]
 
         data=veriekle("Pırasa",data,urunler_df)
 
@@ -6123,7 +6188,8 @@ while True:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Roka")
-
+        if urunler_df is not None:
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("roka|Roka")]
         data=veriekle("Roka",data,urunler_df)
 
 
@@ -6196,7 +6262,8 @@ while True:
         driver = webdriver.Chrome(service=service, options=options)
         urunler_df=vericek(carrefour,migros,"Kuru Fasulye")
         if urunler_df is not None:
-            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Kuru", regex=True)]
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("fasulye|Fasulye")]
+
             data=veriekle("Kuru Fasulye",data,urunler_df)
 
 
@@ -6595,6 +6662,8 @@ while True:
         urunler_df=vericek(carrefour,migros,"Ketçap")
         if urunler_df is not None:
             urunler_df=urunler_df[~urunler_df["Ürün"].str.contains("Mayonez", regex=True)]
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Ketçap")]
+
             data=veriekle("Ketçap",data,urunler_df)
 
 
@@ -6913,7 +6982,7 @@ while True:
         data=veriekle("Kakao",data,urunler_df)
 
 
-        data=data.drop_duplicates()
+        
 
 
         # Function to convert numeric columns to float and drop rows where conversion fails
@@ -6960,7 +7029,7 @@ while True:
 
 
         data1=df_filled_corrected.copy()
-        degisim=(((data1.iloc[:,-1]/data1.iloc[:,-2])-1)*100).fillna(0).groupby(level=0).mean().sort_index()
+        degisim=(((data1.iloc[:,-1]/data1.iloc[:,1])-1)*100).fillna(0).groupby(level=0).mean().sort_index()
 
 
 
@@ -6968,7 +7037,7 @@ while True:
 
 
 
-        ağırlıklar[f"Endeks_{bugün}"]=ağırlıklar[f"Endeks_{dün}"]*(1+(ağırlıklar["Değişim"]/100))
+        ağırlıklar[f"Endeks_{bugün}"]=ağırlıklar["Endeks_2024-10-11"]*(1+(ağırlıklar["Değişim"]/100))
 
         ağırlıklar[f"Ağırlıklı Endeks_{bugün}"]=ağırlıklar[f"Endeks_{bugün}"]*ağırlıklar["Ağırlık"]
         gfe.loc[pd.to_datetime(bugün)]=ağırlıklar[f"Ağırlıklı Endeks_{bugün}"].sum()
@@ -7023,9 +7092,9 @@ while True:
             # Ana fonksiyonu çağırma
         git_add_commit_push()
 
-    except Excetpion as e:
-        print(f"An unexpected error occurred:")
-        time.sleep(5)
+except Exception as e:
+        print(e)
+        pass
     
 
 
