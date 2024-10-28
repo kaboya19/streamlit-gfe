@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 
 
-
-try:
+while True:
+    try:
 
         bugün=datetime.now().strftime("%Y-%m-%d")
 
@@ -7092,9 +7092,9 @@ try:
             # Ana fonksiyonu çağırma
         git_add_commit_push()
 
-except Exception as e:
-        print(e)
-        pass
+    except Exception as e:
+            print(e)
+            pass
     
 
 
