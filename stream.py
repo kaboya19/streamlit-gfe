@@ -129,7 +129,7 @@ if page=="Gıda Fiyat Endeksi":
     first_value = selected_group_data.iloc[0,0]  # İlk değer
     last_value = selected_group_data.iloc[-1,0] # Son değer
     change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
-    monthly=((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[0,0])-1)*100
+    monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[0,0])-1)*100,2)
 
         # Yüzdeyi iki ondalık basamak ile sınırlama
     change_percent = round(change_percent, 4)
@@ -167,7 +167,7 @@ if page=="Gıda Fiyat Endeksi":
     st.markdown(f"""
         <h3 style='text-align:left; color:black;'>
             {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span>
-            Aylık Değişim: <span style='color:red;'>%{monthly}</span>
+            Aylık Değişim(Kasım-Aralık): <span style='color:red;'>%{monthly}</span>
             <span style='font-size:12px;'>*Aylık değişim ay içinde ortalamalara göre hesaplanmaktadır.</span>
 
             Güncelleme Tarihi: {tarih}
