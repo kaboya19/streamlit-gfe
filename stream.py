@@ -133,9 +133,9 @@ if page=="Gıda Fiyat Endeksi":
     change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
     monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[0,0])-1)*100,2)
     try:
-        monthlylast=np.round(((selected_group_monthlyfull.iloc[-1,0])/(selected_group_monthlyfull.iloc[-2,0])-1)*100,2)
+        monthlylast=np.round(((selected_group_monthlyfull.iloc[-2,0])/(selected_group_monthlyfull.iloc[-3,0])-1)*100,2)
     except:
-        monthlylast=np.round(((selected_group_monthlyfull.iloc[-1,0])/(100)-1)*100,2)
+        monthlylast=np.round(((selected_group_monthlyfull.iloc[-2,0])/(100)-1)*100,2)
 
         # Yüzdeyi iki ondalık basamak ile sınırlama
     change_percent = round(change_percent, 4)
