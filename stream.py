@@ -166,9 +166,9 @@ if page=="Gıda Fiyat Endeksi":
 
     st.markdown(f"""
         <h3 style='text-align:left; color:black;'>
-            {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span>
+            {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
             Aylık Değişim(Kasım-Aralık): <span style='color:red;'>%{monthly}</span>
-            <span style='font-size:12px;'>*Aylık değişim ay içinde ortalamalara göre hesaplanmaktadır.</span>
+            <span style='font-size:14;'>*Aylık değişim ay içinde ortalamalara göre hesaplanmaktadır.</span>
 
             Güncelleme Tarihi: {tarih}
         </h3>
