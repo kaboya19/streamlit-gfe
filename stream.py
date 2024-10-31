@@ -119,6 +119,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Datetime index'i atıyoruz
     selected_group_data.index = gfe.index
+    selected_group_monthly=selected_group_data.resample('M').mean()
 
         # İlk ve son tarihleri belirleme
     first_date = selected_group_data.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
@@ -128,11 +129,13 @@ if page=="Gıda Fiyat Endeksi":
     first_value = selected_group_data.iloc[0,0]  # İlk değer
     last_value = selected_group_data.iloc[-1,0] # Son değer
     change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
+    monthly=((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[0,0])-1)*100
 
         # Yüzdeyi iki ondalık basamak ile sınırlama
     change_percent = round(change_percent, 4)
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
+
 
 
         # Grafiği çizme
@@ -164,10 +167,13 @@ if page=="Gıda Fiyat Endeksi":
     st.markdown(f"""
         <h3 style='text-align:left; color:black;'>
             {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span>
+            Aylık Değişim: <span style='color:red;'>%{monthly}</span><br>
+            <span style='font-size:11px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
-            Güncelleme Tarihi:{tarih}
+            Güncelleme Tarihi: {tarih}
         </h3>
         """, unsafe_allow_html=True)
+
         # Grafik Streamlit'te gösteriliyor
     st.plotly_chart(figgalt)
 
