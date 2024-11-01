@@ -124,7 +124,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
         # İlk ve son tarihleri belirleme
-    first_date = selected_group_data.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
+    first_date = selected_group_data.index[1].strftime("%d.%m.%Y")  # İlk tarihi formatlama
     last_date = selected_group_data.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
 
         # Değişim yüzdesini hesaplama
@@ -149,8 +149,8 @@ if page=="Gıda Fiyat Endeksi":
         # Grafiği çizme
     figgalt = go.Figure()
     figgalt.add_trace(go.Scatter(
-            x=selected_group_data.index,
-            y=selected_group_data.iloc[:,0].values,
+            x=selected_group_data.index[1:],
+            y=selected_group_data.iloc[1:,0].values,
             mode='lines+markers',
             name=selected_group,
             line=dict(color='blue', width=4),
@@ -160,8 +160,8 @@ if page=="Gıda Fiyat Endeksi":
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
             xaxis=dict(
-                tickvals=selected_group_data.index,  # Original datetime index
-                ticktext=selected_group_data.index.strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=selected_group_data.index[1:],  # Original datetime index
+                ticktext=selected_group_data.index[1:].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
