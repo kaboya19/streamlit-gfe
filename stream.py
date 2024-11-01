@@ -89,9 +89,9 @@ if page=="Gıda Fiyat Endeksi":
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
     
-    endeksler["Endeks_2024-09-30"]=100
+   
     endeksler.loc["Gıda"]=gfe["GFE"].values
-    endeksler["Endeks_2024-10-11"]=100
+
     
 
     gida_index = endeksler.loc[['Gıda']]  # "Gıda Fiyat Endeksi"ni seç
