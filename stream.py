@@ -88,7 +88,8 @@ if page=="Gıda Fiyat Endeksi":
     endeksler=pd.read_csv("endeksler.csv")
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
-    endeksler["2024-09-30"]=100
+    endeksler["Endeks_2024-10-11"]=100
+
     endeksler.loc["Gıda"]=gfe["GFE"].values
 
     gida_index = endeksler.loc[['Gıda']]  # "Gıda Fiyat Endeksi"ni seç
@@ -150,8 +151,8 @@ if page=="Gıda Fiyat Endeksi":
         # Grafiği çizme
     figgalt = go.Figure()
     figgalt.add_trace(go.Scatter(
-            x=selected_group_data.index,
-            y=selected_group_data.iloc[:,0].values,
+            x=selected_group_data.index[1:],
+            y=selected_group_data.iloc[1:,0].values,
             mode='lines+markers',
             name=selected_group,
             line=dict(color='blue', width=4),
@@ -161,8 +162,8 @@ if page=="Gıda Fiyat Endeksi":
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
             xaxis=dict(
-                tickvals=selected_group_data.index,  # Original datetime index
-                ticktext=selected_group_data.index.strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=selected_group_data.index[1:],  # Original datetime index
+                ticktext=selected_group_data.index[1:].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
