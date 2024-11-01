@@ -92,6 +92,7 @@ if page=="Gıda Fiyat Endeksi":
     endeksler["Endeks_2024-09-30"]=100
     endeksler.loc["Gıda"]=gfe["GFE"].values
     endeksler["Endeks_2024-10-11"]=100
+    
 
     gida_index = endeksler.loc[['Gıda']]  # "Gıda Fiyat Endeksi"ni seç
     other_indices = endeksler.drop('Gıda').sort_index()  # Geri kalanları alfabetik sıraya koy
@@ -122,6 +123,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Datetime index'i atıyoruz
     selected_group_data.index = gfe.index
+    selected_group_data["Endeks_2024-10-11"]=100
     selected_group_monthly=selected_group_data.resample('M').mean()
     selected_group_monthlyfull=selected_group_data.resample('M').last()
 
