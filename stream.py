@@ -131,7 +131,7 @@ if page=="Gıda Fiyat Endeksi":
     first_value = selected_group_data.iloc[0,0]  # İlk değer
     last_value = selected_group_data.iloc[-1,0] # Son değer
     change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
-    monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[0,0])-1)*100,2)
+    monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[-2,0])-1)*100,2)
 
 
     try:
