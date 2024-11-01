@@ -154,8 +154,8 @@ if page=="Gıda Fiyat Endeksi":
         # Grafiği çizme
     figgalt = go.Figure()
     figgalt.add_trace(go.Scatter(
-            x=selected_group_data.index[1:],
-            y=selected_group_data.iloc[1:,0].values,
+            x=selected_group_data.index[0:],
+            y=selected_group_data.iloc[0:,0].values,
             mode='lines+markers',
             name=selected_group,
             line=dict(color='blue', width=4),
@@ -165,8 +165,8 @@ if page=="Gıda Fiyat Endeksi":
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
             xaxis=dict(
-                tickvals=selected_group_data.index[1:],  # Original datetime index
-                ticktext=selected_group_data.index[1:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=selected_group_data.index[0:],  # Original datetime index
+                ticktext=selected_group_data.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
