@@ -88,9 +88,10 @@ if page=="Gıda Fiyat Endeksi":
     endeksler=pd.read_csv("endeksler.csv")
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
-    endeksler["Endeks_2024-10-11"]=100
+    
 
     endeksler.loc["Gıda"]=gfe["GFE"].values
+    endeksler["Endeks_2024-10-11"]=100
 
     gida_index = endeksler.loc[['Gıda']]  # "Gıda Fiyat Endeksi"ni seç
     other_indices = endeksler.drop('Gıda').sort_index()  # Geri kalanları alfabetik sıraya koy
