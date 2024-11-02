@@ -282,9 +282,9 @@ if page=="Gıda Fiyat Endeksi":
         if fiyat.dropna().empty:
             pass
         else:
-            st.write("Aylık Artışlar")
-            st.dataframe(aylık)
-            st.dataframe(endeksler.drop("Madde",axis=1))
+                st.write("Aylık Artışlar")
+                st.dataframe(aylık)
+                st.dataframe(endeksler.drop("Madde",axis=1))
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
         st.dataframe(fiyat)
