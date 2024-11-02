@@ -265,7 +265,7 @@ if page=="Gıda Fiyat Endeksi":
             file_name='gfe.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
-        endeksler1=endeksler.T.iloc[:-1]
+        endeksler1=excel_data1.T.iloc[:-1]
         endkesler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
         aylık=endeksler1.resample('M').mean()
         ekim=endeksler1.resample('M').last()
