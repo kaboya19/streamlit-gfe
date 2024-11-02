@@ -277,7 +277,7 @@ if page=="Gıda Fiyat Endeksi":
         aylık=aylık.sort_index()
         aylık=aylık.pct_change().dropna()*100
         aylık=aylık.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(aylık)))
-        
+        aylık.index=aylık.index.strftime("%Y-%m-%d")
         if fiyat.dropna().empty:
             pass
         else:
