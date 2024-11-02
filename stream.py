@@ -278,11 +278,12 @@ if page=="Gıda Fiyat Endeksi":
         aylık=aylık.pct_change().dropna()*100
         aylık=aylık.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(aylık)))
         aylık.index=aylık.index.strftime("%Y-%m-%d")
+        aylık=aylık.T
         if fiyat.dropna().empty:
             pass
         else:
             st.write("Aylık Artışlar")
-            st.dataframe(aylık.T)
+            st.dataframe(aylık)
             st.dataframe(endeksler.drop("Madde",axis=1))
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
