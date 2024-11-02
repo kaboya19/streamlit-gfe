@@ -265,10 +265,20 @@ if page=="Gıda Fiyat Endeksi":
             file_name='gfe.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
+        endeksler1=endeksler.T.iloc[:-1]
+        endkesler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
+        aylık=endeksler1.resample('M').mean()
+        ekim=endeksler1.resample('M').last()
+        aylık.loc["2024-10-31"]=ekim.loc["2024-10-31"]
+        aylık.loc[pd.to_datetime("2024-09-30")]=100
+        aylık=aylık.sort_index()
+        aylık=aylık.pct_change().dropna()*100
         
         if fiyat.dropna().empty:
             pass
         else:
+            st.write("Aylık Artışlar")
+            st.dataframe(aylık)
             st.dataframe(endeksler.drop("Madde",axis=1))
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
