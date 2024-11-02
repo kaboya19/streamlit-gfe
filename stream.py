@@ -269,7 +269,7 @@ if page=="Gıda Fiyat Endeksi":
         endeksler1=endeksler1.set_index("Ürün")
 
         endeksler1=(endeksler1).T
-        endkesler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
+        endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
         aylık=endeksler1.resample('M').mean()
         ekim=endeksler1.resample('M').last()
         aylık.loc["2024-10-31"]=ekim.loc["2024-10-31"]
