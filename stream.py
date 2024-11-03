@@ -224,7 +224,7 @@ if page=="Gıda Fiyat Endeksi":
     seasonal_adjuested_aylık=seasonal_adjuested.resample('M').mean()
     seasonal_adjuested_ekim=((seasonal_adjuested.resample('M').last()/100)-1)*100
     seasonal_adjuested_ekim=np.round(seasonal_adjuested_ekim.loc["2024-10-31"],2)
-    seasonal_adjusted_last=np.round(((seasonal_adjuested_aylık.iloc[-1]/seasonal_adjuested.iloc[-2])-1)*100,2)
+    seasonal_adjusted_last=np.round(((seasonal_adjuested_aylık.iloc[-1]/seasonal_adjuested_aylık.iloc[-2])-1)*100,2)
 
 
    
@@ -233,8 +233,8 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
-                Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:{seasonal_adjuested_ekim})</span><br>
-                Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:{seasonal_adjusted_last})</span><br>
+                Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:%{seasonal_adjuested_ekim})</span><br>
+                Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
