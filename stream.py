@@ -164,14 +164,14 @@ if page=="Gıda Fiyat Endeksi":
     endeksler1=endeksler1.drop("Gıda",axis=1)
     endeksler_sa=pd.DataFrame()
 
-    for col in endeksler1.columns:
+    for col in endeksler.columns:
         model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
         results=model.fit()
         seasonal=results.smoothed_state[1]
         sa=endeksler1[col]-seasonal
         endeksler_sa[col]=sa
 
-    for col in endeksler1.columns:
+    for col in endeksler.columns:
         endeksler_sa[col]=endeksler_sa[col]*ağırlıklar.loc[col]
     gfe_sa=endeksler_sa.sum(axis=1)
 
@@ -221,17 +221,24 @@ if page=="Gıda Fiyat Endeksi":
         )
     tarih=pd.read_csv("tarih.csv")
     tarih=tarih.iloc[0,1]
+    seasonal_adjuested_aylık=seasonal_adjuested.resample('M').mean()
+    seasonal_adjuested_ekim=((seasonal_adjuested.resample('M').last()/100)-1)*100
+    seasonal_adjuested_ekim=seasonal_adjuested_ekim.loc["2024-10-31"]
 
-    st.markdown(f"""
-        <h3 style='text-align:left; color:black;'>
-            {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
-            Ekim Değişimi: <span style='color:red;'>%{monthlylast}</span><br>
-            Kasım Değişimi: <span style='color:red;'>%{monthly}</span><br>
-            <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
-            Güncelleme Tarihi: {tarih}
-        </h3>
-        """, unsafe_allow_html=True)
+   
+    if selected_group!="Gıda":
+
+        st.markdown(f"""
+            <h3 style='text-align:left; color:black;'>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
+                Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:{seasonal_adjuested_ekim})</span><br>
+                Kasım Değişimi: <span style='color:red;'>%{monthly}</span><br>
+                <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
+
+                Güncelleme Tarihi: {tarih}
+            </h3>
+            """, unsafe_allow_html=True)
 
         # Grafik Streamlit'te gösteriliyor
     st.plotly_chart(figgalt)
