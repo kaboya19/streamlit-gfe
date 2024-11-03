@@ -233,8 +233,8 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
 
 
-    change_percent_sa = np.round(((seasonal_adjuested.iloc[-1] - seasonal_adjuested.iloc[0] / seasonal_adjuested.iloc[0]) * 100),2)  # Yüzde değişim
-    change_percent_sa_gfe = np.round(((gfe_sa.iloc[-1] - gfe_sa.iloc[0]) / gfe_sa.iloc[0]) * 100,2)  # Yüzde değişim
+    change_percent_sa = np.round((((seasonal_adjuested.iloc[-1]/ seasonal_adjuested.iloc[0])-1) * 100),2)  # Yüzde değişim
+    change_percent_sa_gfe = np.round(((gfe_sa.iloc[-1]/ gfe_sa.iloc[0]) -1) * 100,2)  # Yüzde değişim
 
    
     if selected_group!="Gıda":
@@ -253,7 +253,7 @@ if page=="Gıda Fiyat Endeksi":
     elif selected_group=="Gıda":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:{change_percent_sa})</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:{change_percent_sa_gfe})</span><br>
                 Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:%{gfe_sa_ekim})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{gfe_sa_last})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
