@@ -148,7 +148,11 @@ if page=="Gıda Fiyat Endeksi":
     change_percent = round(change_percent, 4)
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
-
+    from statsmodels.tsa.statespace.structural import UnobservedComponents
+    model=UnobservedComponents(selected_group_data,level="local level",seasonal=7,stochastic_seasonal=True)
+    results=model.fit()
+    seasonal=results.smoothed_state[1]
+    seasonal_adjuested=selected_group_data-seasonal
 
 
         # Grafiği çizme
@@ -160,6 +164,15 @@ if page=="Gıda Fiyat Endeksi":
             name=selected_group,
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
+        ))
+
+    figgalt.add_trace(go.Scatter(
+            x=seasonal_adjuested.index[0:],
+            y=seasonal_adjuested.iloc[0:,0].values,
+            mode='lines+markers',
+            name="Mevsimsel Düzeltilmiş",
+            line=dict(color='blue', width=4),
+            marker=dict(size=8, color="red")
         ))
 
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
