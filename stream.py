@@ -171,8 +171,8 @@ if page=="Gıda Fiyat Endeksi":
             y=seasonal_adjuested.values,
             mode='lines+markers',
             name="Mevsimsel Düzeltilmiş",
-            line=dict(color='blue', width=4),
-            marker=dict(size=8, color="red")
+            line=dict(color='red', width=4),
+            marker=dict(size=8, color="yellow")
         ))
 
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
