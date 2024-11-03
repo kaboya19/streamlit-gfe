@@ -164,14 +164,14 @@ if page=="Gıda Fiyat Endeksi":
     endeksler1=endeksler1.drop("Gıda",axis=1)
     endeksler_sa=pd.DataFrame()
 
-    for col in endeksler.columns:
+    for col in endeksler1.columns:
         model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
         results=model.fit()
         seasonal=results.smoothed_state[1]
         sa=endeksler1[col]-sa
         endeksler_sa[col]=sa
 
-    for col in endeksler.columns:
+    for col in endeksler1.columns:
         endeksler_sa[col]=endeksler_sa[col]*ağırlıklar.loc[col]
     gfe_sa=endeksler_sa.sum(axis=1)
 
