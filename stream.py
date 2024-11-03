@@ -152,7 +152,7 @@ if page=="Gıda Fiyat Endeksi":
     model=UnobservedComponents(selected_group_data.iloc[:,0],level="local level",seasonal=7,stochastic_seasonal=True)
     results=model.fit()
     seasonal=results.smoothed_state[1]
-    seasonal_adjuested=selected_group_data.iloc[:,0]-seasonal
+    seasonal_adjuested=selected_group_data[selected_group]-seasonal
 
 
         # Grafiği çizme
@@ -167,8 +167,8 @@ if page=="Gıda Fiyat Endeksi":
         ))
 
     figgalt.add_trace(go.Scatter(
-            x=seasonal_adjuested.index[0:],
-            y=seasonal_adjuested.iloc[0:,0].values,
+            x=seasonal_adjuested.index,
+            y=seasonal_adjuested.values,
             mode='lines+markers',
             name="Mevsimsel Düzeltilmiş",
             line=dict(color='blue', width=4),
