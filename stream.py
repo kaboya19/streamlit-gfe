@@ -149,7 +149,7 @@ if page=="Gıda Fiyat Endeksi":
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
     from statsmodels.tsa.statespace.structural import UnobservedComponents
-    model=UnobservedComponents(selected_group_data,level="local level",seasonal=7,stochastic_seasonal=True)
+    model=UnobservedComponents(selected_group_data.iloc[:,0],level="local level",seasonal=7,stochastic_seasonal=True)
     results=model.fit()
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=selected_group_data-seasonal
