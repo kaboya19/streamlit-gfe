@@ -154,6 +154,26 @@ if page=="Gıda Fiyat Endeksi":
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
 
+    ağırlıklar=pd.read_csv("ağırlıklar.csv")
+    ağırlıklar=ağırlıklar.set_index("Ürün")
+    ağırlıklar=ağırlıklar.sort_index()
+    ağırlıklar=ağırlıklar["Ağırlık"]
+
+    endeksler1=endeksler.T
+    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
+    endeksler1=endeksler1.drop("Gıda",axis=1)
+    endeksler_sa=pd.DataFrame()
+
+    for col in endeksler.columns:
+        model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
+        results=model.fit()
+        seasonal=results.smoothed_state[1]
+        sa=endeksler1[col]-sa
+        endeksler_sa[col]=sa
+
+    for col in endeksler.columns:
+        endeksler_sa[col]=endeksler_sa[col]*ağırlıklar.loc[col]
+    gfe_sa=endeksler_sa.sum(axis=1)
 
         # Grafiği çizme
     figgalt = go.Figure()
@@ -165,15 +185,27 @@ if page=="Gıda Fiyat Endeksi":
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
-
-    figgalt.add_trace(go.Scatter(
-            x=seasonal_adjuested.index,
-            y=seasonal_adjuested.values,
+    
+    if selected_group=="Gıda":
+         figgalt.add_trace(go.Scatter(
+            x=gfe_sa.index,
+            y=gfe_sa.values,
             mode='lines+markers',
             name="Mevsimsel Düzeltilmiş",
             line=dict(color='red', width=4),
             marker=dict(size=8, color="orange")
         ))
+         
+    elif selected_group!="Gıda":
+
+        figgalt.add_trace(go.Scatter(
+                x=seasonal_adjuested.index,
+                y=seasonal_adjuested.values,
+                mode='lines+markers',
+                name="Mevsimsel Düzeltilmiş",
+                line=dict(color='red', width=4),
+                marker=dict(size=8, color="orange")
+            ))
 
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
