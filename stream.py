@@ -106,6 +106,7 @@ if page=="Gıda Fiyat Endeksi":
     endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
     endeksler1=endeksler1.drop("Gıda",axis=1)
     endeksler_sa=pd.DataFrame()
+    from statsmodels.tsa.statespace.structural import UnobservedComponents
 
     for col in endeksler1.columns:
         model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
