@@ -168,7 +168,7 @@ if page=="Gıda Fiyat Endeksi":
         model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
         results=model.fit()
         seasonal=results.smoothed_state[1]
-        sa=endeksler1[col]-sa
+        sa=endeksler1[col]-seasonal
         endeksler_sa[col]=sa
 
     for col in endeksler1.columns:
