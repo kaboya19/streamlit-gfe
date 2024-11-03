@@ -96,10 +96,27 @@ if page=="Gıda Fiyat Endeksi":
 
     gida_index = endeksler.loc[['Gıda']]  # "Gıda Fiyat Endeksi"ni seç
     other_indices = endeksler.drop('Gıda').sort_index()  # Geri kalanları alfabetik sıraya koy
-
+    ağırlıklar=pd.read_csv("ağırlıklar.csv")
+    ağırlıklar=ağırlıklar.set_index("Ürün")
+    ağırlıklar=ağırlıklar.sort_index()
+    ağırlıklar=ağırlıklar["Ağırlık"]
 
     endeksler = pd.concat([gida_index, other_indices])
+    endeksler1=endeksler.T
+    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
+    endeksler1=endeksler1.drop("Gıda",axis=1)
+    endeksler_sa=pd.DataFrame()
 
+    for col in endeksler1.columns:
+        model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
+        results=model.fit()
+        seasonal=results.smoothed_state[1]
+        sa=endeksler1[col]-seasonal
+        endeksler_sa[col]=sa
+
+    for col in endeksler1.columns:
+        endeksler_sa[col]=endeksler_sa[col]*ağırlıklar.loc[col]
+    gfe_sa=endeksler_sa.sum(axis=1)
     
         
 
@@ -154,26 +171,9 @@ if page=="Gıda Fiyat Endeksi":
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
 
-    ağırlıklar=pd.read_csv("ağırlıklar.csv")
-    ağırlıklar=ağırlıklar.set_index("Ürün")
-    ağırlıklar=ağırlıklar.sort_index()
-    ağırlıklar=ağırlıklar["Ağırlık"]
+    
 
-    endeksler1=endeksler.T
-    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
-    endeksler1=endeksler1.drop("Gıda",axis=1)
-    endeksler_sa=pd.DataFrame()
-
-    for col in endeksler1.columns:
-        model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
-        results=model.fit()
-        seasonal=results.smoothed_state[1]
-        sa=endeksler1[col]-seasonal
-        endeksler_sa[col]=sa
-
-    for col in endeksler1.columns:
-        endeksler_sa[col]=endeksler_sa[col]*ağırlıklar.loc[col]
-    gfe_sa=endeksler_sa.sum(axis=1)
+    
 
         # Grafiği çizme
     figgalt = go.Figure()
@@ -232,12 +232,15 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
 
 
+    change_percent_sa = ((seasonal_adjuested.iloc[-1,0] - 100) / 100) * 100  # Yüzde değişim
+    change_percent_sa_gfe = ((gfe_sa.iloc[-1,0] - 100) / 100) * 100  # Yüzde değişim
+
    
     if selected_group!="Gıda":
 
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:{change_percent_sa})</span><br>
                 Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:%{seasonal_adjuested_ekim})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
@@ -249,7 +252,7 @@ if page=="Gıda Fiyat Endeksi":
     elif selected_group=="Gıda":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:{change_percent_sa})</span><br>
                 Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:%{gfe_sa_ekim})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{gfe_sa_last})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
