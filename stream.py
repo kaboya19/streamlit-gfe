@@ -172,7 +172,7 @@ if page=="Gıda Fiyat Endeksi":
             mode='lines+markers',
             name="Mevsimsel Düzeltilmiş",
             line=dict(color='red', width=4),
-            marker=dict(size=8, color="yellow")
+            marker=dict(size=8, color="orange")
         ))
 
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
