@@ -224,17 +224,19 @@ if page=="Gıda Fiyat Endeksi":
     tarih=tarih.iloc[0,1]
     seasonal_adjuested_aylık=seasonal_adjuested.resample('M').mean()
     seasonal_adjuested_ekim=((seasonal_adjuested.resample('M').last()/100)-1)*100
+    change_percent_sa=seasonal_adjuested_ekim
     seasonal_adjuested_ekim=np.round(seasonal_adjuested_ekim.loc["2024-10-31"],2)
+
     seasonal_adjusted_last=np.round(((seasonal_adjuested_aylık.iloc[-1]/seasonal_adjuested_aylık.iloc[-2])-1)*100,2)
 
     gfe_sa_aylık=gfe_sa.resample('M').mean()  
     gfe_sa_ekim=((gfe_sa.resample('M').last()/100)-1)*100
+    change_percent_sa_gfe=gfe_sa_ekim
     gfe_sa_ekim=np.round(gfe_sa_ekim.loc["2024-10-31"],2)
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
 
 
-    change_percent_sa = np.round((((seasonal_adjuested.iloc[-1]/ seasonal_adjuested.iloc[0])-1) * 100),2)  # Yüzde değişim
-    change_percent_sa_gfe = np.round(((gfe_sa.iloc[-1]/ gfe_sa.iloc[0]) -1) * 100,2)  # Yüzde değişim
+    
 
    
     if selected_group!="Gıda":
