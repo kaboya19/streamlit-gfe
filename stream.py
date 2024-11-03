@@ -152,7 +152,7 @@ if page=="Gıda Fiyat Endeksi":
     model=UnobservedComponents(selected_group_data.iloc[:,0],level="local level",seasonal=7,stochastic_seasonal=True)
     results=model.fit()
     seasonal=results.smoothed_state[1]
-    seasonal_adjuested=selected_group_data-seasonal
+    seasonal_adjuested=selected_group_data.iloc[:,0]-seasonal
 
 
         # Grafiği çizme
