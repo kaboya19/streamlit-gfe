@@ -233,8 +233,8 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
 
 
-    change_percent_sa = ((seasonal_adjuested.iloc[-1,0] - seasonal_adjuested.iloc[0,0]) / seasonal_adjuested.iloc[0,0]) * 100  # Yüzde değişim
-    change_percent_sa_gfe = ((gfe_sa.iloc[-1,0] - gfe_sa.iloc[0,0]) / gfe_sa.iloc[0,0]) * 100  # Yüzde değişim
+    change_percent_sa = np.round(((seasonal_adjuested.iloc[-1] - seasonal_adjuested.iloc[0] / seasonal_adjuested.iloc[0]) * 100),2)  # Yüzde değişim
+    change_percent_sa_gfe = np.round(((gfe_sa.iloc[-1] - gfe_sa.iloc[0]) / gfe_sa.iloc[0]) * 100,2)  # Yüzde değişim
 
    
     if selected_group!="Gıda":
