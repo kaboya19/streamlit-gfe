@@ -319,6 +319,7 @@ if page=="Gıda Fiyat Endeksi":
         gfe["Tarih"]=pd.to_datetime(gfe.index)
         sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
         gfe = gfe[sira]
+        gfe["Adjusted"]=gfe_sa
         excel_data2 = to_excel(gfe)
 
 
