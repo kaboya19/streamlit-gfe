@@ -163,7 +163,7 @@ if page=="Gıda Fiyat Endeksi":
         monthlylast=np.round(((selected_group_monthlyfull.iloc[-2,0])/(100)-1)*100,2)
 
         # Yüzdeyi iki ondalık basamak ile sınırlama
-    change_percent = round(change_percent, 4)
+    change_percent = round(change_percent, 2)
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
     from statsmodels.tsa.statespace.structural import UnobservedComponents
