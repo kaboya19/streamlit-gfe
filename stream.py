@@ -350,11 +350,12 @@ if page=="Gıda Fiyat Endeksi":
         endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
         aylık=endeksler1.resample('M').mean()
         ekim=endeksler1.resample('M').last()
-        aylık.loc["2024-10-31"]=ekim.loc["2024-10-31"]
+        
         aylık.loc[pd.to_datetime("2024-09-30")]=100
         aylık=aylık.sort_index()
         aylık=aylık.pct_change().dropna()*100
         aylık=aylık.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(aylık)))
+        aylık.loc["2024-10-31"]=((ekim.loc["2024-10-31"]/100)-1)*100
         aylık.index=aylık.index.strftime("%Y-%m-%d")
         aylık=aylık.T
         toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
