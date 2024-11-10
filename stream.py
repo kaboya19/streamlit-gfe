@@ -78,6 +78,16 @@ if page=="Metodoloji Notu":
 if page=="Bültenler":
      bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024"])
      if bülten=="Ekim 2024":
+
+        with open("Ekim24.pdf", "rb") as file:
+            pdf_data = file.read()
+
+        st.download_button(
+            label="📄 Bülteni PDF olarak indir",
+            data=pdf_data,
+            file_name="Web_Gida_Fiyat_Endeksi_Bulteni.pdf",
+            mime="application/pdf"
+    )
           
 
         
