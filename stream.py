@@ -9,7 +9,7 @@ from io import BytesIO
 from datetime import datetime
 import base64
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
-tabs=["Gıda Fiyat Endeksi","Metodoloji Notu","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
 
 if page=="Bülten Aboneliği":
@@ -75,6 +75,75 @@ if page=="Metodoloji Notu":
     HSBC Asset Management Intern
     """)
 
+if page=="Bültenler":
+     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024"])
+     if bülten=="Ekim 2024":
+          
+
+        
+
+        # Başlık, kalın ve kırmızı
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim’de %1,79 arttı</span>", unsafe_allow_html=True)
+
+        # Açıklama paragrafı
+        st.markdown("""
+        11 Ekim’de ölçüme başladığımız W-GFE 11-31 Ekim döneminde %1,79 artış kaydetti. 
+        (Bu ay veri eksik olduğundan tahminen Ekim genelinde %2,5-3,0 dolayında artış yaşandığını tahmin ediyoruz)
+        """)
+
+        # İlk resim ekleme
+        st.image("gfe-01-11-2024.jpg", caption="Ekim 2024 Gıda Endeksi Grafiği")
+
+        # Öne çıkan gruplar
+        st.markdown("""
+        Bu artışta taze sebze grubu öne çıktı. Sepette ağırlığı en yüksek gruplardan:
+        - **Ekmek**: %2,2
+        - **Dana Eti**: %1,96
+        - **Tavuk Eti**: %0,82
+        - **Kuzu Eti**: %1
+        - **Ayçiçek Yağı**: %3,32 artış kaydetti.
+
+        Fiyatı en çok artan ve azalan ürünlere bakıldığında: **Maydanoz**, **Kırmızı Lahana**, **Dereotu** artış olarak; **Dolmalık Biber**, **Beyaz Lahana**, **Kabak**, **Limon** ve **Kivi** ise en çok azalanlarda öne çıkmaktadır.
+        """)
+
+        # İkinci resim ekleme
+        st.image("ürünler_01-11-2024.jpg", caption="Fiyat Değişim Grafiği")
+
+        # Ürün bazlı artışlar
+        st.markdown("""
+        Ürün çeşidi özelinde fiyat değişimlerine baktığımızda en çok artış %120 ile **Kepek Ekmeği** ve %100 artış ile **Mısır Gevreği**nde görülmüştür. 
+        En çok fiyat düşüşü yaşanan ürün çeşidi ise **Sardalya** olmuştur.
+        """)
+
+        # Üçüncü resim ekleme
+        st.image("çeşitler_01-11-2024.jpg", caption="Ürün Bazlı Fiyat Değişim Grafiği")
+
+        # Ortalama ve medyan değişimler
+        st.markdown("""
+        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %2,27 ve medyan artış %0,75 olmuştur. 
+        **SATRIM** (Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,26 artmıştır.
+        """)
+
+        # Dördüncü resim ekleme
+        st.image("egilim_01-11-2024.jpg", caption="SATRIM Göstergesi Grafiği")
+
+        # Verisetine erişim bilgisi
+        st.markdown("""
+        Gıda Fiyat Endeksi ile ilgili tüm verisetlerine [https://web-gfe.streamlit.app](https://web-gfe.streamlit.app) sitesinden ulaşabilir ve indirebilirsiniz.
+        """)
+
+        # Küçük boyutta uyarı metni
+        st.markdown("<small>Bu bültenin bir sonraki yayınlanma tarihi 1 Aralık 2024'tür. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.</small>", unsafe_allow_html=True)
+
+        # Hazırlayan bilgisi
+        st.markdown("""
+        **Hazırlayan**  
+        Bora Kaya  
+        HSBC Asset Management Intern
+        """)
+
+
+     
 
 if page=="Gıda Fiyat Endeksi":
     
