@@ -505,7 +505,7 @@ if page=="Harcama Grupları":
     degisim30=np.round(selected_indice_data.pct_change(30).iloc[-1]*100,2)
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{toplam}</span><br>
+                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{aylık}</span><br>
                 30 Günlük Değişim: <span style='color:red;'>%{ degisim30}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
