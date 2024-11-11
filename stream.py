@@ -94,7 +94,7 @@ if page=="Bültenler":
 
         
 
-        st.title("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim 2024 Bülteni</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim 2024 Bülteni</span>", unsafe_allow_html=True)
 
         st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim’de %1,79 arttı</span>", unsafe_allow_html=True)
 
