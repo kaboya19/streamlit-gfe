@@ -520,7 +520,12 @@ if page=="Harcama Grupları":
             </h3>
             """, unsafe_allow_html=True)
     
-    weighted_indices=weighted_indices.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(weighted_indices)))
+    
+    weighted_indices["Tarih"]=pd.to_datetime(weighted_indices.index)
+    column_to_move = 'Tarih'
+    cols = ["Tarih"] + [col for col in weighted_indices.columns if col != column_to_move]
+    weighted_indices = weighted_indices[cols]
+    weighted_indices=weighted_indices[["Tarih"]+cols]
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
