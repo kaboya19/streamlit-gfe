@@ -498,7 +498,7 @@ if page=="Harcama Grupları":
     figggrup = go.Figure()
     figggrup.add_trace(go.Scatter(
             x=selected_indice_data.index[0:],
-            y=selected_indice_data.iloc[0:,0].values,
+            y=selected_indice_data.values,
             mode='lines+markers',
             name=selected_indice,
             line=dict(color='blue', width=4),
