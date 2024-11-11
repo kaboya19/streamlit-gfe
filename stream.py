@@ -520,6 +520,8 @@ if page=="Harcama Grupları":
             </h3>
             """, unsafe_allow_html=True)
     
+    weighted_indices=weighted_indices.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(weighted_indices)))
+    
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
             label="📊 Harcama Grupları İndir",
