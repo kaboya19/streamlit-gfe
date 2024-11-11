@@ -495,6 +495,26 @@ if page=="Harcama Grupları":
 
     selected_indice_data=weighted_indices[selected_indice]
 
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Fiyat Endeksi</h2>", unsafe_allow_html=True)
+
+    first=selected_indice_data.index[0].strftime("%d.%m.%Y")
+    last=selected_indice_data.index[-1].strftime("%d.%m.%Y")
+
+    toplam=np.round((((selected_indice_data[-1])/selected_indice_data[0])-1)*100,2)
+    aylık=np.round(selected_indice_data.resample('M').mean().pct_change().iloc[-1]*100,2)
+    degisim30=np.round(selected_indice_data.pct_change(30).iloc[-1]*100,2)
+    st.markdown(f"""
+            <h3 style='text-align:left; color:black;'>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{toplam}</span><br>
+                Kasım Değişimi: <span style='color:red;'>%{aylık}</span><br>
+                30 Günlük Değişim: <span style='color:red;'>%{ degisim30}</span><br>
+                <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
+
+                Güncelleme Tarihi: {tarih}
+            </h3>
+            """, unsafe_allow_html=True)
+
+
     figggrup = go.Figure()
     figggrup.add_trace(go.Scatter(
             x=selected_indice_data.index[0:],
