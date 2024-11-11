@@ -6,3 +6,4 @@ quantstats==0.0.62
 pandas
 XlsxWriter
 statsmodels
+openpyxl
