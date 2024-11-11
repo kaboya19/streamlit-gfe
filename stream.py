@@ -525,7 +525,7 @@ if page=="Harcama Grupları":
     column_to_move = 'Tarih'
     cols = ["Tarih"] + [col for col in weighted_indices.columns if col != column_to_move]
     weighted_indices = weighted_indices[cols]
-    weighted_indices=weighted_indices[["Tarih"]+cols]
+ 
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
