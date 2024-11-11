@@ -9,8 +9,10 @@ from io import BytesIO
 from datetime import datetime
 import base64
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
-tabs=["Gıda Fiyat Endeksi","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
+
+
 
 if page=="Bülten Aboneliği":
         st.title("E-posta Aboneliği")
@@ -451,6 +453,72 @@ if page=="Gıda Fiyat Endeksi":
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
         st.dataframe(fiyat)
+
+if page=="Harcama Grupları":
+    endeksler=pd.read_csv("endeksler.csv")
+    endeksler=endeksler.set_index(endeksler["Ürün"])
+    endeksler=endeksler.drop("Ürün",axis=1)
+    endeksler=endeksler.T
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+    ağırlıklar=pd.read_excel("Weights_2022.xlsx")
+    ağırlıklar=ağırlıklar[["Unnamed: 5","Unnamed: 4"]]
+    ağırlıklar["Unnamed: 4"]=ağırlıklar["Unnamed: 4"]*100
+    ağırlıklar=ağırlıklar.iloc[4:132]
+    ağırlıklar=ağırlıklar.fillna(method="ffill")
+    ağırlıklar.columns=["Grup","Ağırlık"]
+    gruplar=pd.concat([ağırlıklar.reset_index().drop("index",axis=1),endeksler.T.reset_index().iloc[:,1:]],axis=1)
+    weighted_sums = gruplar.groupby('Grup').apply(lambda group: group.iloc[:, 2:].mul(group['Ağırlık'], axis=0).sum()).reset_index()
+
+    # Rename columns for clarity
+    weighted_sums.columns = ['Grup'] + [f'{col}_Toplam' for col in gruplar.columns[2:]]
+    # Calculate total weight for each group
+    total_weights = gruplar.groupby('Grup')['Ağırlık'].sum().reset_index()
+    total_weights.columns = ['Grup', 'Toplam_Ağırlık']
+
+    # Merge total weights with weighted sums
+    weighted_sums = pd.merge(weighted_sums, total_weights, on='Grup')
+
+    # Calculate indices for each date by dividing weighted sum by total weight
+    for col in weighted_sums.columns[1:-1]:  # Exclude 'Grup' and 'Toplam_Ağırlık'
+        weighted_sums[col] = weighted_sums[col] / weighted_sums['Toplam_Ağırlık']
+
+    # Drop 'Toplam_Ağırlık' for display purposes
+    weighted_indices = weighted_sums.drop(columns=['Toplam_Ağırlık'])
+
+    weighted_indices=weighted_indices.T
+    cols=weighted_indices.iloc[0,:]
+    weighted_indices.columns=cols
+    weighted_indices=weighted_indices.iloc[1:,:]
+    weighted_indices=weighted_indices.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(weighted_indices)))
+
+    selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
+
+    selected_indice_data=weighted_indices[selected_indice]
+
+    figggrup = go.Figure()
+    figggrup.add_trace(go.Scatter(
+            x=selected_indice_data.index[0:],
+            y=selected_indice_data.iloc[0:,0].values,
+            mode='lines+markers',
+            name=selected_indice,
+            line=dict(color='blue', width=4),
+            marker=dict(size=8, color="black")
+        ))
+    
+    figggrup.update_layout(
+            xaxis=dict(
+                tickvals=selected_indice_data.index[0:],  # Original datetime index
+                ticktext=selected_indice_data.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickfont=dict(size=14, family="Arial Black", color="black")
+            ),
+            yaxis=dict(
+                tickfont=dict(size=14, family="Arial Black", color="black")
+            ),
+            font=dict(family="Arial", size=14, color="black")
+        )
+    st.plotly_chart(figggrup)
+
+
 
     
 
