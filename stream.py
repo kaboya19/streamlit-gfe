@@ -509,8 +509,6 @@ if page=="Harcama Grupları":
                 Kasım Değişimi: <span style='color:red;'>%{aylık}</span><br>
                 30 Günlük Değişim: <span style='color:red;'>%{ degisim30}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
-
-                Güncelleme Tarihi: {tarih}
             </h3>
             """, unsafe_allow_html=True)
 
