@@ -314,7 +314,7 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_ekim1=np.round(gfe_sa_ekim.loc["2024-10-31"],2)
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
-    degisimsa30=np.round((seasonal_adjuested.pct_change(30).iloc[-1,0]*100),2)
+    degisimsa30=np.round((seasonal_adjuested.pct_change(30).iloc[-1]*100),2)
 
     
 
