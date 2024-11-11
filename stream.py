@@ -334,7 +334,6 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(gfe_sa_ekim.iloc[-1],2)})</span><br>
-                Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:%{gfe_sa_ekim1})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{gfe_sa_last})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
