@@ -95,7 +95,7 @@ if page=="Bültenler":
         
 
         st.title("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim 2024 Bülteni</span>", unsafe_allow_html=True)
-        
+
         st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim’de %1,79 arttı</span>", unsafe_allow_html=True)
 
         # Açıklama paragrafı
@@ -456,6 +456,13 @@ if page=="Gıda Fiyat Endeksi":
         st.dataframe(fiyat)
 
 if page=="Harcama Grupları":
+    def to_excel(df):
+            output = BytesIO()
+            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            processed_data = output.getvalue()  # Bellekteki dosya verisini al
+            return processed_data
     endeksler=pd.read_csv("endeksler.csv")
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
