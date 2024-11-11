@@ -94,7 +94,8 @@ if page=="Bültenler":
 
         
 
-        # Başlık, kalın ve kırmızı
+        st.title("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim 2024 Bülteni</span>", unsafe_allow_html=True)
+        
         st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim’de %1,79 arttı</span>", unsafe_allow_html=True)
 
         # Açıklama paragrafı
@@ -408,21 +409,21 @@ if page=="Gıda Fiyat Endeksi":
 
 
         st.download_button(
-            label="Fiyat Listesini İndir",
+            label="📊 Fiyat Listesini İndir",
             data=excel_data,
             file_name='fiyatlar.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
         st.download_button(
-            label="Madde Endekslerini İndir",
+            label="📊 Madde Endekslerini İndir",
             data=excel_data1,
             file_name='endeksler.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
         st.download_button(
-            label="Web-Gıda Fiyat Endeksi İndir",
+            label="📊 Web-Gıda Fiyat Endeksi İndir",
             data=excel_data2,
             file_name='gfe.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
@@ -511,6 +512,14 @@ if page=="Harcama Grupları":
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
             </h3>
             """, unsafe_allow_html=True)
+    
+    excel_data10 = to_excel(weighted_indices)
+    st.download_button(
+            label="📊 Harcama Grupları İndir",
+            data=excel_data10,
+            file_name='harcamagrupları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
 
     figggrup = go.Figure()
