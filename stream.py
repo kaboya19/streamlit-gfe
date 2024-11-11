@@ -318,7 +318,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
-    gfesa_30=(gfe_sa.pct_change(30)*100).iloc[-1]
+    gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
    
     if selected_group!="Gıda":
