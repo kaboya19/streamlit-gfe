@@ -102,7 +102,7 @@ if page=="Bültenler":
         """)
 
         # İlk resim ekleme
-        st.image("gfe-01-11-2024.jpg", caption="Ekim 2024 Gıda Endeksi Grafiği")
+        st.image("gfe_01-11-2024.jpg", caption="Ekim 2024 Gıda Endeksi Grafiği")
 
         # Öne çıkan gruplar
         st.markdown("""
@@ -226,7 +226,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
         # İlk ve son tarihleri belirleme
-    first_date = selected_group_data.index[1].strftime("%d.%m.%Y")  # İlk tarihi formatlama
+    first_date = selected_group_data.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
     last_date = selected_group_data.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
 
         # Değişim yüzdesini hesaplama
@@ -323,7 +323,6 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
-                Ekim Değişimi: <span style='color:red;'>%{monthlylast}(Mevsimsel Düzeltilmiş:%{seasonal_adjuested_ekim1})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
