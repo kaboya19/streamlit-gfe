@@ -313,8 +313,8 @@ if page=="Gıda Fiyat Endeksi":
     change_percent_sa_gfe=gfe_sa_ekim.copy().iloc[-1]
     gfe_sa_ekim1=np.round(gfe_sa_ekim.loc["2024-10-31"],2)
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
-    degisim30=np.round((gfe.pct_change(30).iloc[-1]*100),2)
-    degisimsa30=np.round((seasonal_adjuested.pct_change(30).iloc[-1]*100),2)
+    degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
+    degisimsa30=np.round((seasonal_adjuested.pct_change(30).iloc[-1,0]*100),2)
 
     
 
@@ -337,6 +337,7 @@ if page=="Gıda Fiyat Endeksi":
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(gfe_sa_ekim.iloc[-1],2)})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{gfe_sa_last})</span><br>
+                30 Günlük Değişim: <span style='color:red;'>%{ degisim30}(Mevsimsel Düzeltilmiş:%{degisimsa30})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
