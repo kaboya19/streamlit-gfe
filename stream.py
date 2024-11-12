@@ -372,7 +372,7 @@ if page=="Gıda Fiyat Endeksi":
     #data=data.set_index(data["original_index"]).drop("original_index",axis=1)
     excel_data = to_excel(data)
 
-    data=data.drop("Grup",axis=1)
+    #data=data.drop("Grup",axis=1)
     data.index.name=""
     data=data.drop_duplicates()
     data.loc["Gıda","Ürün"]="Gıda"
