@@ -363,6 +363,7 @@ if page=="Gıda Fiyat Endeksi":
 
     data=pd.read_csv("sepet.csv")
     data=data.set_index(data["original_index"]).drop("original_index",axis=1)
+    grupadı=data["Grup"]
     data=data.drop("Grup",axis=1)
     data.index.name=""
     data=data.drop_duplicates()
@@ -392,9 +393,12 @@ if page=="Gıda Fiyat Endeksi":
                 df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
-
-        # Excel dosyasını indirme düğmesi ekleme
-        excel_data = to_excel(data)
+        data1=data.copy()
+        grupadı=data["Grup"]
+        data1["Madde"]=grupadı
+        sira = ['Madde'] + [col for col in data1.columns if col != 'Madde']
+        data1=data1[sira]
+        excel_data = to_excel(data1)
         endeksler["Madde"]=endeksler.index
         sira = ['Madde'] + [col for col in endeksler.columns if col != 'Madde']
 
