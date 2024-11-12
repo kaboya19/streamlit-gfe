@@ -360,6 +360,13 @@ if page=="Gıda Fiyat Endeksi":
 
     # Tarihleri belirli bir formatta alıyoruz
     formatted_dates = gfe.index.strftime("%d.%m.%Y")  # "06.10.2024" formatında
+    def to_excel(df):
+            output = BytesIO()
+            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            processed_data = output.getvalue()  # Bellekteki dosya verisini al
+            return processed_data
 
     data=pd.read_csv("sepet.csv")
     data=data.set_index(data["original_index"]).drop("original_index",axis=1)
