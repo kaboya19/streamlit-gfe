@@ -394,7 +394,7 @@ if page=="Gıda Fiyat Endeksi":
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
         data1=data.copy()
-        grupadı=data["Grup"]
+        
         data1["Madde"]=grupadı
         sira = ['Madde'] + [col for col in data1.columns if col != 'Madde']
         data1=data1[sira]
