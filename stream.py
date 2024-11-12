@@ -362,7 +362,8 @@ if page=="Gıda Fiyat Endeksi":
     formatted_dates = gfe.index.strftime("%d.%m.%Y")  # "06.10.2024" formatında
 
     data=pd.read_csv("sepet.csv")
-    data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
+    data=data.set_index(data["original_index"]).drop("original_index",axis=1)
+    data=data.drop("Grup",axis=1)
     data.index.name=""
     data=data.drop_duplicates()
     data.loc["Gıda","Ürün"]="Gıda"
