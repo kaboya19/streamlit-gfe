@@ -369,7 +369,7 @@ if page=="Gıda Fiyat Endeksi":
             return processed_data
 
     data=pd.read_csv("sepet.csv")
-    data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
+    data=data.set_index(data["original_index"]).drop("original_index",axis=1)
     excel_data = to_excel(data)
 
     #data=data.drop("Grup",axis=1)
