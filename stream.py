@@ -236,7 +236,7 @@ if page=="Gıda Fiyat Endeksi":
     first_value = selected_group_data.iloc[0,0]  # İlk değer
     last_value = selected_group_data.iloc[-1,0] # Son değer
     change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
-    monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[-2,0])-1)*100,2)
+    monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_data.loc["2024-10-15"])-1)*100,2)
 
 
     try:
@@ -309,13 +309,13 @@ if page=="Gıda Fiyat Endeksi":
     change_percent_sa=seasonal_adjuested_ekim.copy().iloc[-1]
     seasonal_adjuested_ekim1=np.round(seasonal_adjuested_ekim.loc["2024-10-31"],2)
 
-    seasonal_adjusted_last=np.round(((seasonal_adjuested_aylık.iloc[-1]/seasonal_adjuested_aylık.iloc[-2])-1)*100,2)
+    seasonal_adjusted_last=np.round(((seasonal_adjuested_aylık.iloc[-1]/seasonal_adjuested.loc["2024-10-15"])-1)*100,2)
 
     gfe_sa_aylık=gfe_sa.resample('M').mean()  
     gfe_sa_ekim=((gfe_sa.resample('M').last()/100)-1)*100
     change_percent_sa_gfe=gfe_sa_ekim.copy().iloc[-1]
     gfe_sa_ekim1=np.round(gfe_sa_ekim.loc["2024-10-31"],2)
-    gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
+    gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa.loc["2024-10-15"])-1)*100,2)  
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
     degisimsa30=np.round((seasonal_adjuested.pct_change(30).iloc[-1]*100),2)
 
@@ -523,7 +523,7 @@ if page=="Harcama Grupları":
     last=selected_indice_data.index[-1].strftime("%d.%m.%Y")
 
     toplam=np.round((((selected_indice_data[-1])/selected_indice_data[0])-1)*100,2)
-    aylık=np.round(selected_indice_data.resample('M').mean().pct_change().iloc[-1]*100,2)
+    aylık=np.round(((selected_indice_data.resample('M').mean().iloc[-1]/selected_indice_data.loc["2024-10-15"])-1)*100,2)
     degisim30=np.round(selected_indice_data.pct_change(30).iloc[-1]*100,2)
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
