@@ -716,7 +716,7 @@ if page=="Harcama Grupları":
         y=grouped.index[i], 
         text=f"{value:.2f}%", 
         showarrow=False, 
-        font=dict(size=14, family="Arial Black", weight="bold"),  # Etiketler için yazı tipi
+        font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
         align='left', 
         xanchor='left', 
         yanchor='middle'
