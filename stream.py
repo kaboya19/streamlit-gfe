@@ -323,6 +323,19 @@ if page=="Gıda Fiyat Endeksi":
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
+    degisim30=selected_group_data.pct_change(30).dropna()*100
+    
+    figg30 = go.Figure()
+    figg30.add_trace(go.Scatter(
+            x=degisim30.index[0:],
+            y=degisim30.iloc[0:,0].values,
+            mode='lines+markers',
+            name=selected_group,
+            line=dict(color='blue', width=4),
+            marker=dict(size=8, color="black")
+        ))
+
+
    
     if selected_group!="Gıda":
 
@@ -352,6 +365,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Grafik Streamlit'te gösteriliyor
     st.plotly_chart(figgalt)
+    st.plotly_chart(figg30)
 
         # Yüzde değişimi ve tarihleri yazdırma
     
