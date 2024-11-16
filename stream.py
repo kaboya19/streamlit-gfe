@@ -602,7 +602,7 @@ if page=="Harcama Grupları":
     figg31 = go.Figure()
     figg31.add_trace(go.Scatter(
             x=artıs30harcama.index[0:],
-            y=np.round(artıs30harcama.iloc[0:,0].values,2),
+            y=np.round(artıs30harcama.values,2),
             mode='lines+markers',
             name=selected_group,
             line=dict(color='blue', width=4),
