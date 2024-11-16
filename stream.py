@@ -584,7 +584,7 @@ if page=="Harcama Grupları":
 
 # Hareketli aylık ortalama hesaplama
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
-    aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc["2024-11-10":])/selected_indice_data.loc["2024-10-15"].iloc[0]))-1)*100,2)
+    aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc["2024-11-10":])/selected_indice_data.loc["2024-10-15"]))-1)*100,2)
 
 
 
