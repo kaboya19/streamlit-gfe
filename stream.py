@@ -736,8 +736,8 @@ if page=="Harcama Grupları":
                 text=f"{value:.2f}%", 
                 showarrow=False, 
                 font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
-                align='left', 
-                xanchor='left', 
+                align='right', 
+                xanchor='right', 
                 yanchor='middle'
             )
 
