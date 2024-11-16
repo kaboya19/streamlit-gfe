@@ -712,7 +712,7 @@ if page=="Harcama Grupları":
         yaxis_title='Grup',
         xaxis=dict(tickformat='.2f'),
         bargap=0.2,  # Çubuklar arasındaki boşluk
-        height=800,  # Grafik boyutunu artırma
+        height=1200,  # Grafik boyutunu artırma
         font=dict(family="Arial Black", size=14, color="black"),  # Yazı tipi ve kalınlık
         yaxis=dict(
             tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
