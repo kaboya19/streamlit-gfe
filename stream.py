@@ -340,7 +340,7 @@ if page=="Gıda Fiyat Endeksi":
             y=np.round(aylıkdegisim.values,2),
             mode='lines+markers',
             name="Aylık Ortalama Değişimi",
-            line=dict(color='blue', width=4),
+            line=dict(color='purple', width=4),
             marker=dict(size=8, color="black")
         ))
     figg30.update_layout(
@@ -385,7 +385,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Grafik Streamlit'te gösteriliyor
     st.plotly_chart(figgalt)
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg30)
 
         # Yüzde değişimi ve tarihleri yazdırma
