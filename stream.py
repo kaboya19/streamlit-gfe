@@ -551,6 +551,7 @@ if page=="Harcama Grupları":
     toplam=np.round((((selected_indice_data[-1])/selected_indice_data[0])-1)*100,2)
     aylık=np.round(((selected_indice_data.resample('M').mean().iloc[-1]/selected_indice_data.loc["2024-10-15"])-1)*100,2)
     degisim30=np.round(selected_indice_data.pct_change(30).iloc[-1]*100,2)
+    artıs30harcama=np.round(selected_indice_data.pct_change(30).dropna()*100,2)
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
@@ -597,8 +598,30 @@ if page=="Harcama Grupları":
             ),
             font=dict(family="Arial", size=14, color="black")
         )
+    
+    figg31 = go.Figure()
+    figg31.add_trace(go.Scatter(
+            x=artıs30harcama.index[0:],
+            y=np.round(artıs30harcama.iloc[0:,0].values,2),
+            mode='lines+markers',
+            name=selected_group,
+            line=dict(color='blue', width=4),
+            marker=dict(size=8, color="black")
+        ))
+    figg31.update_layout(
+            xaxis=dict(
+                tickvals=artıs30harcama.index[0:],  # Original datetime index
+                ticktext=artıs30harcama.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickfont=dict(size=14, family="Arial Black", color="black")
+            ),
+            yaxis=dict(
+                tickfont=dict(size=14, family="Arial Black", color="black")
+            ),
+            font=dict(family="Arial", size=14, color="black")
+        )
     st.plotly_chart(figggrup)
-
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
+    st.plotly_chart(figg31)
 
 
     
