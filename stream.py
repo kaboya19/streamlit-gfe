@@ -324,13 +324,22 @@ if page=="Gıda Fiyat Endeksi":
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
+    aylıkdegisim=np.round(((selected_group_monthly.loc["2024-11-10":])/(selected_group_data.loc["2024-10-15"].iloc[0])-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
             x=artıs30.index[0:],
             y=np.round(artıs30.iloc[0:,0].values,2),
             mode='lines+markers',
-            name=selected_group,
+            name="30 Günlük Değişim",
+            line=dict(color='blue', width=4),
+            marker=dict(size=8, color="black")
+        ))
+    figg30.add_trace(go.Scatter(
+            x=aylıkdegisim.index[0:],
+            y=np.round(aylıkdegisim.values,2),
+            mode='lines+markers',
+            name="Aylık Ortalama Değişimi",
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
