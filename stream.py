@@ -620,7 +620,7 @@ if page=="Harcama Grupları":
             font=dict(family="Arial", size=14, color="black")
         )
     st.plotly_chart(figggrup)
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg31)
 
 
