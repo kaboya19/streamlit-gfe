@@ -667,6 +667,9 @@ if page=="Harcama Grupları":
             ),
             font=dict(family="Arial", size=14, color="black")
         )
+    gfe=pd.read_csv("gfe.csv")
+    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
+    gfe=gfe.drop("Tarih",axis=1)
     harcamam=weighted_indices.copy()
     harcamam["Web-GFE"]=gfe["GFE"]
     grouped=pd.DataFrame()
