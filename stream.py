@@ -565,7 +565,7 @@ if page=="Harcama Grupları":
     harcamam=weighted_indices.copy()
     harcamam["Web-GFE"]=gfe["GFE"]
     grouped=pd.DataFrame()
-    grouped["Kasım Artış Oranı"]=((weighted_indices.resample('M').mean().iloc[-1]/weighted_indices.loc["2024-10-15"])-1)*100
+    grouped["Kasım Artış Oranı"]=((harcamam.resample('M').mean().iloc[-1]/harcamam.loc["2024-10-15"])-1)*100
     grouped=grouped.sort_values(by="Kasım Artış Oranı")
 
     selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
@@ -700,12 +700,13 @@ if page=="Harcama Grupları":
 
     # Başlık ve etiketler
     figartıs.update_layout(
-        title='Web-GFE Harcama Grupları Kasım Ayı Artış Oranları',
-        xaxis_title='Artış Oranı (%)',
-        yaxis_title='Grup',
-        xaxis=dict(tickformat='.2f'),
-        bargap=0.2,  # Çubuklar arasındaki boşluk
-    )
+    title='Web-GFE Harcama Grupları Kasım Ayı Artış Oranları',
+    xaxis_title='Artış Oranı (%)',
+    yaxis_title='Grup',
+    xaxis=dict(tickformat='.2f'),
+    bargap=0.2,  # Çubuklar arasındaki boşluk
+    height=800  # Grafik boyutunu artırma
+)
 
     # Etiket ekleme
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
