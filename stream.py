@@ -708,7 +708,11 @@ if page=="Harcama Grupları":
     bargap=0.2,  # Çubuklar arasındaki boşluk
     height=800,  # Grafik boyutunu artırma
     font=dict(family="Arial Black", size=14, color="black")  # Yazı tipi ve kalınlık
+    ),
+    yaxis=dict(
+        tickfont=dict(family="Arial Black", size=14, color="black")  # Y eksenindeki etiketlerin rengi
     )
+
 
     # Etiket ekleme
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
