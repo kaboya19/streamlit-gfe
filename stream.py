@@ -684,15 +684,21 @@ if page=="Harcama Grupları":
 
   
     # Renkler
+    import plotly.graph_objects as go
+
+
+# Renkler
     colors = ['red' if label == 'Web-GFE' else 'blue' for label in grouped.index]
+
+    # İlk 42 karakteri almak için index etiketlerini kısaltma
+    shortened_index = [label[:42] for label in grouped.index]
 
     # Grafik oluşturma
     figartıs = go.Figure()
-    shortened_index = [label[:42] for label in grouped.index]
 
     # Verileri ekleme
     figartıs.add_trace(go.Bar(
-        y=shortened_index, 
+        y=shortened_index,  # Kısaltılmış index etiketleri
         x=grouped['Kasım Artış Oranı'],
         orientation='h', 
         marker=dict(color=colors),
@@ -701,18 +707,20 @@ if page=="Harcama Grupları":
 
     # Başlık ve etiketler
     figartıs.update_layout(
-    title='Web-GFE Harcama Grupları Kasım Ayı Artış Oranları',
-    xaxis_title='Artış Oranı (%)',
-    yaxis_title='Grup',
-    xaxis=dict(tickformat='.2f'),
-    yaxis=dict(
-        tickfont=dict(family="Arial Black", size=14, color="black")  # Y eksenindeki etiketlerin rengi
-    ),
-    bargap=0.2,  # Çubuklar arasındaki boşluk
-    height=800,  # Grafik boyutunu artırma
-    font=dict(family="Arial Black", size=14, color="black")  # Yazı tipi ve kalınlık
+        title='Web-GFE Harcama Grupları Kasım Ayı Artış Oranları',
+        xaxis_title='Artış Oranı (%)',
+        yaxis_title='Grup',
+        xaxis=dict(tickformat='.2f'),
+        bargap=0.2,  # Çubuklar arasındaki boşluk
+        height=800,  # Grafik boyutunu artırma
+        font=dict(family="Arial Black", size=14, color="black"),  # Yazı tipi ve kalınlık
+        yaxis=dict(
+            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
+            tickmode='array',  # Manuel olarak etiketleri belirlemek için
+            tickvals=list(range(len(grouped.index))),  # Her bir index için bir yer belirle
+            ticktext=shortened_index  # Kısaltılmış index etiketleri
+        )
     )
-
 
     # Etiket ekleme
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
@@ -740,6 +748,9 @@ if page=="Harcama Grupları":
                 xanchor='right', 
                 yanchor='middle'
             )
+
+
+
 
     # Grafiği göster
     st.plotly_chart(figartıs)
