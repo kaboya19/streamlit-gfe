@@ -667,9 +667,58 @@ if page=="Harcama Grupları":
             ),
             font=dict(family="Arial", size=14, color="black")
         )
+    harcamam=weighted_indices.copy()
+    harcamam["Web-GFE"]=gfe["GFE"]
+    grouped=pd.DataFrame()
+    grouped["Kasım Artış Oranı"]=((weighted_indices.resample('M').mean().iloc[-1]/weighted_indices.loc["2024-10-15"])-1)*100
+    grouped=grouped.sort_values(by="Kasım Artış Oranı")
     st.plotly_chart(figggrup)
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg31)
+    import numpy as np
+    import plotly.graph_objects as go
+
+  
+    # Renkler
+    colors = ['red' if label == 'Web-GFE' else 'blue' for label in grouped.index]
+
+    # Grafik oluşturma
+    figartıs = go.Figure()
+
+    # Verileri ekleme
+    figartıs.add_trace(go.Bar(
+        y=grouped.index, 
+        x=grouped['Kasım Artış Oranı'],
+        orientation='h', 
+        marker=dict(color=colors),
+        name='Kasım Artış Oranı',
+    ))
+
+    # Başlık ve etiketler
+    figartıs.update_layout(
+        title='Web-GFE Harcama Grupları Kasım Ayı Artış Oranları',
+        xaxis_title='Artış Oranı (%)',
+        yaxis_title='Grup',
+        xaxis=dict(tickformat='.2f'),
+        bargap=0.2,  # Çubuklar arasındaki boşluk
+    )
+
+    # Etiket ekleme
+    for i, value in enumerate(grouped['Kasım Artış Oranı']):
+        figartıs.add_annotation(
+            x=value, 
+            y=grouped.index[i], 
+            text=f"{value:.2f}%", 
+            showarrow=False, 
+            font=dict(size=12),
+            align='left', 
+            xanchor='left', 
+            yanchor='middle'
+        )
+
+    # Grafiği göster
+    st.plotly_chart(figartıs)
+
 
 
     
