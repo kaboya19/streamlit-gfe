@@ -685,6 +685,7 @@ if page=="Harcama Grupları":
   
     # Renkler
     import plotly.graph_objects as go
+    
 
 
 # Renkler
@@ -707,7 +708,6 @@ if page=="Harcama Grupları":
 
     # Başlık ve etiketler
     figartıs.update_layout(
-        title='Web-GFE Harcama Grupları Kasım Ayı Artış Oranları',
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Grup',
         xaxis=dict(tickformat='.2f'),
@@ -752,7 +752,7 @@ if page=="Harcama Grupları":
 
 
 
-    # Grafiği göster
+    st.markdown(f"<h2 style='text-align:left; color:black;'>'Web-GFE Harcama Grupları Kasım Ayı Artış Oranları'</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
 
