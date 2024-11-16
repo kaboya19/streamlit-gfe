@@ -390,7 +390,7 @@ if page=="Gıda Fiyat Endeksi":
     
 
 # Apply the function to each row to calculate the "Değişim" column
-    data["Değişim"]=((data.iloc[:,-1].values/data.iloc[:,2].values)-1)*100
+    data["Değişim"]=((data.iloc[:,-1].values/data.iloc[:,1].values)-1)*100
     fiyat = data.loc[selected_group]
 
     endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
