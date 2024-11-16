@@ -243,6 +243,7 @@ if page=="Gıda Fiyat Endeksi":
         df=pd.DataFrame(df)
         df["Tarih"]=pd.to_datetime(df.index)
         df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
+        df.index=pd.to_datetime(df.index)
         return df
 
 # Hareketli aylık ortalama hesaplama
