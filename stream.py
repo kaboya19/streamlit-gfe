@@ -716,16 +716,30 @@ if page=="Harcama Grupları":
 
     # Etiket ekleme
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
-        figartıs.add_annotation(
-        x=value, 
-        y=shortened_index[i], 
-        text=f"{value:.2f}%", 
-        showarrow=False, 
-        font=dict(size=14, family="Arial Black",color="black"),  # Etiketler için yazı tipi
-        align='left', 
-        xanchor='left', 
-        yanchor='middle'
-        )
+        if value >= 0:
+            # Pozitif değerler sol tarafta
+            figartıs.add_annotation(
+                x=value, 
+                y=shortened_index[i], 
+                text=f"{value:.2f}%", 
+                showarrow=False, 
+                font=dict(size=14, family="Arial Black", weight="bold"),  # Etiketler için yazı tipi
+                align='left', 
+                xanchor='left', 
+                yanchor='middle'
+            )
+        else:
+            # Negatif değerler sağ tarafta
+            figartıs.add_annotation(
+                x=value, 
+                y=shortened_index[i], 
+                text=f"{value:.2f}%", 
+                showarrow=False, 
+                font=dict(size=14, family="Arial Black", weight="bold"),  # Etiketler için yazı tipi
+                align='left', 
+                xanchor='left', 
+                yanchor='middle'
+            )
 
     # Grafiği göster
     st.plotly_chart(figartıs)
