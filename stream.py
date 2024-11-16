@@ -752,7 +752,7 @@ if page=="Harcama Grupları":
 
 
 
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Harcama Grupları Kasım Ayı Artış Oranları'</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Harcama Grupları Kasım Ayı Artış Oranları</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
 
