@@ -238,6 +238,17 @@ if page=="Gıda Fiyat Endeksi":
     change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
     monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_data.loc["2024-10-15"].iloc[0])-1)*100,2)
 
+    def hareketli_aylik_ortalama(df):
+        değer=df.name
+        df=pd.DataFrame(df)
+        df["Tarih"]=pd.to_datetime(df.index)
+        df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
+        return df
+
+# Hareketli aylık ortalama hesaplama
+    hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
+
+
 
     try:
         monthlylast=np.round(((selected_group_monthlyfull.iloc[-2,0])/(selected_group_monthlyfull.iloc[-3,0])-1)*100,2)
@@ -324,7 +335,7 @@ if page=="Gıda Fiyat Endeksi":
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
-    aylıkdegisim=np.round(((selected_group_data.loc["2024-11-10":].iloc[:,0])/(selected_group_data.loc["2024-10-15"].iloc[0])-1)*100,2)
+    aylıkdegisim=np.round(((((hareketlima["Aylık Ortlama"].loc["2024-11-10":])/selected_group_data.loc["2024-10-15"].iloc[:,0]))-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
