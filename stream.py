@@ -688,10 +688,11 @@ if page=="Harcama Grupları":
 
     # Grafik oluşturma
     figartıs = go.Figure()
+    shortened_index = [label[:42] for label in grouped.index]
 
     # Verileri ekleme
     figartıs.add_trace(go.Bar(
-        y=grouped.index, 
+        y=shortened_index, 
         x=grouped['Kasım Artış Oranı'],
         orientation='h', 
         marker=dict(color=colors),
@@ -713,7 +714,7 @@ if page=="Harcama Grupları":
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
         figartıs.add_annotation(
         x=value, 
-        y=grouped.index[i], 
+        y=shortened_index[i], 
         text=f"{value:.2f}%", 
         showarrow=False, 
         font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
