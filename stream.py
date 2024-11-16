@@ -323,12 +323,12 @@ if page=="Gıda Fiyat Endeksi":
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
-    degisim30=selected_group_data.pct_change(30).dropna()*100
+    artıs30=selected_group_data.pct_change(30).dropna()*100
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
-            x=degisim30.index[0:],
-            y=np.round(degisim30.iloc[0:,0].values,2),
+            x=artıs30.index[0:],
+            y=np.round(artıs30.iloc[0:,0].values,2),
             mode='lines+markers',
             name=selected_group,
             line=dict(color='blue', width=4),
@@ -336,8 +336,8 @@ if page=="Gıda Fiyat Endeksi":
         ))
     figg30.update_layout(
             xaxis=dict(
-                tickvals=selected_group_data.index[0:],  # Original datetime index
-                ticktext=selected_group_data.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=artıs30.index[0:],  # Original datetime index
+                ticktext=artıs30.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
