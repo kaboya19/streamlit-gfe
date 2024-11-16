@@ -713,7 +713,7 @@ if page=="Harcama Grupları":
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
         figartıs.add_annotation(
         x=value, 
-        y=grouped['index'][i], 
+        y=grouped.index[i], 
         text=f"{value:.2f}%", 
         showarrow=False, 
         font=dict(size=14, family="Arial Black", weight="bold"),  # Etiketler için yazı tipi
