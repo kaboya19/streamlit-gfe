@@ -559,6 +559,14 @@ if page=="Harcama Grupları":
     weighted_indices.columns=cols
     weighted_indices=weighted_indices.iloc[1:,:]
     weighted_indices=weighted_indices.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(weighted_indices)))
+    gfe=pd.read_csv("gfe.csv")
+    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
+    gfe=gfe.drop("Tarih",axis=1)
+    harcamam=weighted_indices.copy()
+    harcamam["Web-GFE"]=gfe["GFE"]
+    grouped=pd.DataFrame()
+    grouped["Kasım Artış Oranı"]=((weighted_indices.resample('M').mean().iloc[-1]/weighted_indices.loc["2024-10-15"])-1)*100
+    grouped=grouped.sort_values(by="Kasım Artış Oranı")
 
     selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
 
@@ -667,14 +675,7 @@ if page=="Harcama Grupları":
             ),
             font=dict(family="Arial", size=14, color="black")
         )
-    gfe=pd.read_csv("gfe.csv")
-    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
-    gfe=gfe.drop("Tarih",axis=1)
-    harcamam=weighted_indices.copy()
-    harcamam["Web-GFE"]=gfe["GFE"]
-    grouped=pd.DataFrame()
-    grouped["Kasım Artış Oranı"]=((weighted_indices.resample('M').mean().iloc[-1]/weighted_indices.loc["2024-10-15"])-1)*100
-    grouped=grouped.sort_values(by="Kasım Artış Oranı")
+    
     st.plotly_chart(figggrup)
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg31)
