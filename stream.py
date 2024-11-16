@@ -573,6 +573,24 @@ if page=="Harcama Grupları":
     aylık=np.round(((selected_indice_data.resample('M').mean().iloc[-1]/selected_indice_data.loc["2024-10-15"])-1)*100,2)
     degisim30=np.round(selected_indice_data.pct_change(30).iloc[-1]*100,2)
     artıs30harcama=np.round(selected_indice_data.pct_change(30).dropna()*100,2)
+
+    def hareketli_aylik_ortalama(df):
+        değer=df.name
+        df=pd.DataFrame(df)
+        df["Tarih"]=pd.to_datetime(df.index)
+        df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
+        df.index=pd.to_datetime(df.index)
+        return df
+
+# Hareketli aylık ortalama hesaplama
+    hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data.iloc[:,0])
+    aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc["2024-11-10":])/selected_indice_data.loc["2024-10-15"].iloc[0]))-1)*100,2)
+
+
+
+
+
+
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
@@ -608,6 +626,7 @@ if page=="Harcama Grupları":
             marker=dict(size=8, color="black")
         ))
     
+    
     figggrup.update_layout(
             xaxis=dict(
                 tickvals=selected_indice_data.index[0:],  # Original datetime index
@@ -625,8 +644,16 @@ if page=="Harcama Grupları":
             x=artıs30harcama.index[0:],
             y=np.round(artıs30harcama.values,2),
             mode='lines+markers',
-            name=selected_indice,
+            name="30 Günlük Değişim",
             line=dict(color='blue', width=4),
+            marker=dict(size=8, color="black")
+        ))
+    figg31.add_trace(go.Scatter(
+            x=aylıkdegisimharcama.index[0:],
+            y=np.round(aylıkdegisimharcama.values,2),
+            mode='lines+markers',
+            name="Aylık Ortalama Değişimi",
+            line=dict(color='purple', width=4),
             marker=dict(size=8, color="black")
         ))
     figg31.update_layout(
