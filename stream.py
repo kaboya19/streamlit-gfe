@@ -705,20 +705,21 @@ if page=="Harcama Grupları":
     yaxis_title='Grup',
     xaxis=dict(tickformat='.2f'),
     bargap=0.2,  # Çubuklar arasındaki boşluk
-    height=800  # Grafik boyutunu artırma
-)
+    height=800,  # Grafik boyutunu artırma
+    font=dict(family="Arial Black", size=14, color="black")  # Yazı tipi ve kalınlık
+    )
 
     # Etiket ekleme
     for i, value in enumerate(grouped['Kasım Artış Oranı']):
         figartıs.add_annotation(
-            x=value, 
-            y=grouped.index[i], 
-            text=f"{value:.2f}%", 
-            showarrow=False, 
-            font=dict(size=12),
-            align='left', 
-            xanchor='left', 
-            yanchor='middle'
+        x=value, 
+        y=grouped['index'][i], 
+        text=f"{value:.2f}%", 
+        showarrow=False, 
+        font=dict(size=14, family="Arial Black", weight="bold"),  # Etiketler için yazı tipi
+        align='left', 
+        xanchor='left', 
+        yanchor='middle'
         )
 
     # Grafiği göster
