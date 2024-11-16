@@ -336,7 +336,7 @@ if page=="Gıda Fiyat Endeksi":
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
-    aylıkdegisim=np.round(((((hareketlima["Aylık Ortlama"].loc["2024-11-10":])/selected_group_data.loc["2024-10-15"].iloc[:,0]))-1)*100,2)
+    aylıkdegisim=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-10":])/selected_group_data.loc["2024-10-15"].iloc[:,0]))-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
