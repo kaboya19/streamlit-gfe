@@ -604,7 +604,7 @@ if page=="Harcama Grupları":
             x=artıs30harcama.index[0:],
             y=np.round(artıs30harcama.values,2),
             mode='lines+markers',
-            name=selected_group,
+            name=selected_indice,
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
