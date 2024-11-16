@@ -328,12 +328,23 @@ if page=="Gıda Fiyat Endeksi":
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
             x=degisim30.index[0:],
-            y=degisim30.iloc[0:,0].values,
+            y=np.round(degisim30.iloc[0:,0].values,2),
             mode='lines+markers',
             name=selected_group,
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
+    figg30.update_layout(
+            xaxis=dict(
+                tickvals=selected_group_data.index[0:],  # Original datetime index
+                ticktext=selected_group_data.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickfont=dict(size=14, family="Arial Black", color="black")
+            ),
+            yaxis=dict(
+                tickfont=dict(size=14, family="Arial Black", color="black")
+            ),
+            font=dict(family="Arial", size=14, color="black")
+        )
 
 
    
@@ -365,6 +376,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Grafik Streamlit'te gösteriliyor
     st.plotly_chart(figgalt)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg30)
 
         # Yüzde değişimi ve tarihleri yazdırma
