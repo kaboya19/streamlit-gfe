@@ -705,12 +705,12 @@ if page=="Harcama Grupları":
     xaxis_title='Artış Oranı (%)',
     yaxis_title='Grup',
     xaxis=dict(tickformat='.2f'),
+    yaxis=dict(
+        tickfont=dict(family="Arial Black", size=14, color="black")  # Y eksenindeki etiketlerin rengi
+    ),
     bargap=0.2,  # Çubuklar arasındaki boşluk
     height=800,  # Grafik boyutunu artırma
     font=dict(family="Arial Black", size=14, color="black")  # Yazı tipi ve kalınlık
-    ),
-    yaxis=dict(
-        tickfont=dict(family="Arial Black", size=14, color="black")  # Y eksenindeki etiketlerin rengi
     )
 
 
