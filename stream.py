@@ -530,11 +530,13 @@ if page=="Harcama Grupları":
     endeksler=endeksler.T
     endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
     ağırlıklar=pd.read_excel("Weights_2022.xlsx")
+    cols=ağırlıklar["Unnamed: 1"].dropna().iloc[2:130].values
     ağırlıklar=ağırlıklar[["Unnamed: 5","Unnamed: 4"]]
     ağırlıklar["Unnamed: 4"]=ağırlıklar["Unnamed: 4"]*100
     ağırlıklar=ağırlıklar.iloc[4:132]
     ağırlıklar=ağırlıklar.fillna(method="ffill")
     ağırlıklar.columns=["Grup","Ağırlık"]
+    endeksler=endeksler[cols]
     gruplar=pd.concat([ağırlıklar.reset_index().drop("index",axis=1),endeksler.T.reset_index().iloc[:,1:]],axis=1)
     weighted_sums = gruplar.groupby('Grup').apply(lambda group: group.iloc[:, 2:].mul(group['Ağırlık'], axis=0).sum()).reset_index()
 
