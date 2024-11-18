@@ -594,12 +594,10 @@ if page=="Harcama Grupları":
 
 # Hareketli aylık ortalama hesaplama
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
-    from datetime import datetime
-    ayım=datetime.now().month
-    if ayım=="11":
-        aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"2024-{ayım}-10":])/selected_indice_data.resample('M').mean().loc[f"2024-{ayım-1}"].iloc[0]))-1)*100,2)
-    else:
-         aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"2024-{ayım}-01":])/selected_indice_data.resample('M').mean().loc[f"2024-{ayım-1}"].iloc[0]))-1)*100,2)
+
+    
+    aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"2024-11-10":])/selected_indice_data.resample('M').mean().loc[f"2024-10"].iloc[0]))-1)*100,2)
+    
 
 
 
