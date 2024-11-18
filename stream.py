@@ -683,6 +683,7 @@ if page=="Harcama Grupları":
     
     st.plotly_chart(figggrup)
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
+    print(aylıkdegisimharcama)
     st.plotly_chart(figg31)
     import numpy as np
     import plotly.graph_objects as go
