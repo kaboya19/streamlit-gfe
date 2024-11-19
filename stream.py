@@ -411,7 +411,7 @@ if page=="Gıda Fiyat Endeksi":
         yaxis_title='Değer',
         xaxis_rangeslider_visible=False,  # Range slider'ı gizle
         xaxis_tickformat='%d.%m.%Y',  # X eksenindeki tarihi dd.mm.YYYY formatında göster
-        width=1200,  # Grafik genişliğini artır
+        width=1400,  # Grafik genişliğini artır
         height=800,  # Grafik yüksekliğini artır
         showlegend=False,  # Legend'ı gizle
         title_font=dict(size=24, family='Arial'),  # Başlık fontu
