@@ -414,14 +414,14 @@ if page=="Gıda Fiyat Endeksi":
         width=1200,  # Grafik genişliğini artır
         height=800,  # Grafik yüksekliğini artır
         showlegend=False,  # Legend'ı gizle
-        title_font=dict(size=24, family='Arial', weight='bold'),  # Başlık fontu
+        title_font=dict(size=24, family='Arial'),  # Başlık fontu
         xaxis=dict(
-            title_font=dict(size=18, family='Arial', weight='bold'),  # X ekseni başlık fontu
-            tickfont=dict(size=14, family='Arial', weight='bold')  # X ekseni değer fontu
+            title_font=dict(size=18, family='Arial v'),  # X ekseni başlık fontu
+            tickfont=dict(size=14, family='Arial Black')  # X ekseni değer fontu
         ),
         yaxis=dict(
-            title_font=dict(size=18, family='Arial', weight='bold'),  # Y ekseni başlık fontu
-            tickfont=dict(size=14, family='Arial', weight='bold')  # Y ekseni değer fontu
+            title_font=dict(size=18, family='Arial Black'),  # Y ekseni başlık fontu
+            tickfont=dict(size=14, family='Arial Black')  # Y ekseni değer fontu
         ),
         plot_bgcolor='lightgray',  # Grafik arka plan rengini değiştirme
         paper_bgcolor='white',  # Kağıt arka plan rengini değiştirme
