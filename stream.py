@@ -368,6 +368,72 @@ if page=="Gıda Fiyat Endeksi":
         )
 
 
+    
+    import plotly.graph_objects as go
+
+    ohlc=pd.read_csv("ohlc.csv").drop("Unnamed: 0",axis=1).set_index("date")
+    ohlc.index=pd.to_datetime(ohlc.index)
+    ohlc.columns= ["High" "Low",  "Open" "Close"]
+    ohlc=ohlc[["Open","High","Low","Close"]]
+    ohlc_data=ohlc.copy()
+    
+
+
+    # Önceki kapanışa göre renkleri belirle
+    ohlc_data['Prev_Close'] = ohlc_data['Close'].shift(1)
+
+    # Kapanış değeri önceki kapanıştan yüksekse 'green', düşükse 'red' olacak şekilde renkleri belirle
+    ohlc_data['Color'] = ohlc_data['Close'] > ohlc_data['Prev_Close']
+    ohlc_data['Color'] = ohlc_data['Color'].map({True: 'green', False: 'red'})
+
+    # Plotly mum grafiğini çiz
+    figmum = go.Figure()
+
+    # Yükselen ve düşen mumlar için ayrı ayrı çizgi ekleyerek her mumun rengini özelleştirelim
+    for i in range(len(ohlc_data)):
+        color = ohlc_data['Color'].iloc[i]
+        figmum.add_trace(go.Candlestick(
+            x=[ohlc_data.index[i]],
+            open=[ohlc_data['Open'].iloc[i]],
+            high=[ohlc_data['High'].iloc[i]],
+            low=[ohlc_data['Low'].iloc[i]],
+            close=[ohlc_data['Close'].iloc[i]],
+            increasing_line_color=color,  # Yükselen mumların rengi
+            decreasing_line_color=color,  # Düşen mumların rengi
+            increasing_fillcolor=color,  # Yükselen mumların dolgu rengi
+            decreasing_fillcolor=color,
+            name="Web-GFE"   # Düşen mumların dolgu rengi
+        ))
+
+    figmum.update_layout(
+        title='Web-GFE Mum Grafiği',
+        xaxis_title='Tarih',
+        yaxis_title='Değer',
+        xaxis_rangeslider_visible=False,  # Range slider'ı gizle
+        xaxis_tickformat='%d.%m.%Y',  # X eksenindeki tarihi dd.mm.YYYY formatında göster
+        width=1200,  # Grafik genişliğini artır
+        height=800,  # Grafik yüksekliğini artır
+        showlegend=False,  # Legend'ı gizle
+        title_font=dict(size=24, family='Arial', weight='bold'),  # Başlık fontu
+        xaxis=dict(
+            title_font=dict(size=18, family='Arial', weight='bold'),  # X ekseni başlık fontu
+            tickfont=dict(size=14, family='Arial', weight='bold')  # X ekseni değer fontu
+        ),
+        yaxis=dict(
+            title_font=dict(size=18, family='Arial', weight='bold'),  # Y ekseni başlık fontu
+            tickfont=dict(size=14, family='Arial', weight='bold')  # Y ekseni değer fontu
+        ),
+        plot_bgcolor='lightgray',  # Grafik arka plan rengini değiştirme
+        paper_bgcolor='white',  # Kağıt arka plan rengini değiştirme
+        xaxis_showgrid=True,  # X ekseni grid çizgilerini gösterme
+        yaxis_showgrid=True  # Y ekseni grid çizgilerini gösterme
+
+    )
+
+    
+
+
+
    
     if selected_group!="Gıda":
 
@@ -381,8 +447,10 @@ if page=="Gıda Fiyat Endeksi":
                 Güncelleme Tarihi: {tarih}
             </h3>
             """, unsafe_allow_html=True)
+        st.plotly_chart(figgalt)
         
     elif selected_group=="Gıda":
+        periyot = st.sidebar.selectbox("Grafik Tipi:", ["Çizgi","Mum"])
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(gfe_sa_ekim.iloc[-1],2)})</span><br>
@@ -393,10 +461,15 @@ if page=="Gıda Fiyat Endeksi":
                 Güncelleme Tarihi: {tarih}
             </h3>
             """, unsafe_allow_html=True)
+        if periyot=="Çizgi":
+             st.plotly_chart(figgalt)
+        elif periyot=="Mum":
+             st.plotly_chart(figmum)
+             
 
 
-        # Grafik Streamlit'te gösteriliyor
-    st.plotly_chart(figgalt)
+    
+    
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg30)
 
