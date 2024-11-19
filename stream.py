@@ -371,7 +371,7 @@ if page=="Gıda Fiyat Endeksi":
     
     import plotly.graph_objects as go
 
-    ohlc=pd.read_csv("ohlc.csv").drop("Unnamed: 0",axis=1).set_index("date")
+    ohlc=pd.read_csv("ohlc.csv").set_index("Unnamed: 0")
     ohlc.index=pd.to_datetime(ohlc.index)
     ohlc.columns= ["High" ,"Low",  "Open", "Close"]
     ohlc=ohlc[["Open","High","Low","Close"]]
