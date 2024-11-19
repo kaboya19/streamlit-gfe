@@ -373,7 +373,7 @@ if page=="Gıda Fiyat Endeksi":
 
     ohlc=pd.read_csv("ohlc.csv").drop("Unnamed: 0",axis=1).set_index("date")
     ohlc.index=pd.to_datetime(ohlc.index)
-    ohlc.columns= ["High" "Low",  "Open" "Close"]
+    ohlc.columns= ["High" ,"Low",  "Open", "Close"]
     ohlc=ohlc[["Open","High","Low","Close"]]
     ohlc_data=ohlc.copy()
     
