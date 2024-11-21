@@ -493,7 +493,14 @@ if page=="Gıda Fiyat Endeksi":
         data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
     except:
          data=data.set_index(data["original_index"]).drop("original_index",axis=1)
-    excel_data = to_excel(data)
+
+
+    fiyatlar=pd.read_csv("sepet.csv")
+    try:
+        fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
+    except:
+         fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
+    excel_data = to_excel(fiyatlar)
 
     #data=data.drop("Grup",axis=1)
     data.index.name=""
