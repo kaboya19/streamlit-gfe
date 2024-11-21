@@ -500,6 +500,8 @@ if page=="Gıda Fiyat Endeksi":
         fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
     except:
          fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
+    fiyatlar.index.name="Madde"
+    fiyatlar=fiyatlar.sort_index()
     excel_data = to_excel(fiyatlar)
 
     #data=data.drop("Grup",axis=1)
