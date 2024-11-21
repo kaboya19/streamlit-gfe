@@ -502,6 +502,7 @@ if page=="Gıda Fiyat Endeksi":
          fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
     fiyatlar.index.name="Madde"
     fiyatlar=fiyatlar.sort_index()
+    fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
     excel_data = to_excel(fiyatlar)
 
     #data=data.drop("Grup",axis=1)
