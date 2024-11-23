@@ -123,13 +123,7 @@ if page=="Bültenler":
         st.image("grafikler/ürünler_01-11-2024.png", caption="Fiyat Değişim Grafiği")
 
         # Ürün bazlı artışlar
-        st.markdown("""
-        Ürün çeşidi özelinde fiyat değişimlerine baktığımızda en çok artış %120 ile **Kepek Ekmeği** ve %100 artış ile **Mısır Gevreği**nde görülmüştür. 
-        En çok fiyat düşüşü yaşanan ürün çeşidi ise **Sardalya** olmuştur.
-        """)
-
-        # Üçüncü resim ekleme
-        st.image("grafikler/çeşitler_01-11-2024.png", caption="Ürün Bazlı Fiyat Değişim Grafiği")
+    
 
         # Ortalama ve medyan değişimler
         st.markdown("""
