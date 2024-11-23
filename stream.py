@@ -105,7 +105,7 @@ if page=="Bültenler":
         """)
 
         # İlk resim ekleme
-        st.image("gfe_01-11-2024.png", caption="Ekim 2024 Gıda Endeksi Grafiği")
+        st.image("grafikler/gfe_01-11-2024.png", caption="Ekim 2024 Gıda Endeksi Grafiği")
 
         # Öne çıkan gruplar
         st.markdown("""
@@ -120,7 +120,7 @@ if page=="Bültenler":
         """)
 
         # İkinci resim ekleme
-        st.image("ürünler_01-11-2024.png", caption="Fiyat Değişim Grafiği")
+        st.image("grafikler/ürünler_01-11-2024.png", caption="Fiyat Değişim Grafiği")
 
         # Ürün bazlı artışlar
         st.markdown("""
@@ -129,7 +129,7 @@ if page=="Bültenler":
         """)
 
         # Üçüncü resim ekleme
-        st.image("çeşitler_01-11-2024.png", caption="Ürün Bazlı Fiyat Değişim Grafiği")
+        st.image("grafikler/çeşitler_01-11-2024.png", caption="Ürün Bazlı Fiyat Değişim Grafiği")
 
         # Ortalama ve medyan değişimler
         st.markdown("""
@@ -138,7 +138,7 @@ if page=="Bültenler":
         """)
 
         # Dördüncü resim ekleme
-        st.image("egilim_01-11-2024.png", caption="SATRIM Göstergesi Grafiği")
+        st.image("grafikler/egilim_01-11-2024.png", caption="SATRIM Göstergesi Grafiği")
 
         # Verisetine erişim bilgisi
         st.markdown("""
