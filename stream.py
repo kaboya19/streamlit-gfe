@@ -356,10 +356,10 @@ if page=="Gıda Fiyat Endeksi":
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
     aylıkort=selected_group_data.resample('M').mean()
-    aylıkort.loc["2024-10-31"]=100.142735
+    aylıkort.loc["2024-10-31"]=selected_group_data.loc["2024-10-12"]
 
     aylıkortsa=seasonal_adjuested.resample('M').mean()
-    aylıkortsa.loc["2024-10-31"]=100.3347
+    aylıkortsa.loc["2024-10-31"]=seasonal_adjuested.loc["2024-10-12"]
 
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc["2024-11-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
