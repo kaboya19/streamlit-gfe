@@ -272,7 +272,7 @@ if page=="Gıda Fiyat Endeksi":
     results=model.fit()
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
-    hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested.iloc[:,0])
+    hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested)
 
     
 
