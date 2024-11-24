@@ -679,9 +679,7 @@ if page=="Harcama Grupları":
     gfe=gfe.drop("Tarih",axis=1)
     harcamam=weighted_indices.copy()
     harcamam["Web-GFE"]=gfe["GFE"]
-    grouped=pd.DataFrame()
-    grouped["Kasım Artış Oranı"]=((harcamam.resample('M').mean().iloc[-1]/harcamam.resample('M').mean().iloc[-2])-1)*100
-    grouped=grouped.sort_values(by="Kasım Artış Oranı")
+    
 
     selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
 
@@ -725,6 +723,12 @@ if page=="Harcama Grupları":
             return df
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
+    hareketlimaharcama2 = hareketli_aylik_ortalama1(harcamam)
+    harcamaort=harcamam.resample('M').mean()
+    harcamaort.loc["2024-10-31"]=harcamam.loc["2024-10-12"]
+    grouped=pd.DataFrame()
+    grouped["Kasım Artış Oranı"]=((hareketlimaharcama2.iloc[-1]/harcamaort.iloc[-2])-1)*100
+    grouped=grouped.sort_values(by="Kasım Artış Oranı")
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
     aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
@@ -816,7 +820,7 @@ if page=="Harcama Grupları":
         )
     
     st.plotly_chart(figggrup)
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu 30 Günlük Değişimi(%) </h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg31)
     import numpy as np
     import plotly.graph_objects as go
