@@ -508,7 +508,7 @@ if page=="Gıda Fiyat Endeksi":
     selected_birim=birim[selected_group]
     figgbirim = go.Figure()
     figgbirim.add_trace(go.Scatter(
-            x=selected_birim.index[::3],
+            x=selected_birim.index[0:],
             y=np.round(selected_birim.values,2),
             mode='lines+markers',
             name="Birim Fiyat",
@@ -519,7 +519,7 @@ if page=="Gıda Fiyat Endeksi":
     figgbirim.update_layout(
             xaxis=dict(
                 tickvals=selected_birim.index[::3],  # Original datetime index
-                ticktext=selected_birim.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                ticktext=selected_birim.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
