@@ -250,10 +250,20 @@ if page=="Gıda Fiyat Endeksi":
         # Orijinal indeksi geri yükle
         df.index = pd.to_datetime(df.index)
         return df
+    
+
+    def hareketli_aylik_ortalama1(df):
+            değer=df.name
+            df=pd.DataFrame(df)
+            df["Tarih"]=pd.to_datetime(df.index)
+            df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
+            df.index=pd.to_datetime(df.index)
+            return df
 
 
 # Hareketli aylık ortalama hesaplama
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
+    hareketlima1 = hareketli_aylik_ortalama1(selected_group_data.iloc[:,0])
     
 
 
@@ -273,6 +283,7 @@ if page=="Gıda Fiyat Endeksi":
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
     hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested)
+    hareketlimasa1 = hareketli_aylik_ortalama1(seasonal_adjuested)
 
     
 
@@ -351,7 +362,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıkortsa.loc["2024-10-31"]=100.3347
 
 
-    aylıkdegisim=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
+    aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc["2024-11-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2]))-1)*100,2)
     
@@ -692,7 +703,13 @@ if page=="Harcama Grupları":
         df.index=pd.to_datetime(df.index)
         return df
 
-# Hareketli aylık ortalama hesaplama
+    def hareketli_aylik_ortalama1(df):
+            değer=df.name
+            df=pd.DataFrame(df)
+            df["Tarih"]=pd.to_datetime(df.index)
+            df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
+            df.index=pd.to_datetime(df.index)
+            return df
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
 
     
