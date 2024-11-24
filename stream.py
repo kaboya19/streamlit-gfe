@@ -502,10 +502,11 @@ if page=="Gıda Fiyat Endeksi":
     
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg30)
-
+    
     birim=pd.read_csv("birim.csv",index_col=0)
     birim.index=pd.to_datetime(birim.index)
-    selected_birim=birim[selected_group]
+    if selected_group!="Gıda":
+        selected_birim=birim[selected_group]
     figgbirim = go.Figure()
     figgbirim.add_trace(go.Scatter(
             x=selected_birim.index[0:],
