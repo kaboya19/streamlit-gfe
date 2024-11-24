@@ -727,7 +727,7 @@ if page=="Harcama Grupları":
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
     
-
+    weighted_indices["Web-GFE"]=gfe["GFE"]
     for grup in harcamam.columns:
 
         ort24=hareketli_aylik_ortalama(harcamam[grup])
@@ -737,6 +737,7 @@ if page=="Harcama Grupları":
     grouped=pd.DataFrame()
     grouped["Kasım Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
     grouped=grouped.sort_values(by="Kasım Artış Oranı")
+    grouped=grouped.astype(float)
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
     aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
