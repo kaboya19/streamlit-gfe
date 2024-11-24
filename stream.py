@@ -386,8 +386,8 @@ if page=="Gıda Fiyat Endeksi":
         ))
     figg30.update_layout(
             xaxis=dict(
-                tickvals=artıs30.index[0:],  # Original datetime index
-                ticktext=artıs30.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=degisim_2_24.index[0:],  # Original datetime index
+                ticktext=degisim_2_24.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
