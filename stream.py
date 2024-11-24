@@ -730,7 +730,7 @@ if page=="Harcama Grupları":
         ort24=hareketli_aylik_ortalama(weighted_indices[grup])
         harcamam[grup]=ort24["Aylık Ortalama"]
     harcamaort=weighted_indices.resample('M').mean()
-    harcamaort.loc["2024-10-31"]=harcamam.loc["2024-10-12"]
+    harcamaort.loc["2024-10-31"]=weighted_indices.loc["2024-10-12"]
     grouped=pd.DataFrame()
     grouped["Kasım Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
     grouped=grouped.sort_values(by="Kasım Artış Oranı")
