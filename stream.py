@@ -504,6 +504,7 @@ if page=="Gıda Fiyat Endeksi":
     st.plotly_chart(figg30)
 
     birim=pd.read_csv("birim.csv",index_col=0)
+    birim.index=pd.to_datetime(birim.index)
     selected_birim=birim[selected_group]
     figgbirim = go.Figure()
     figgbirim.add_trace(go.Scatter(
