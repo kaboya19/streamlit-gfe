@@ -353,7 +353,7 @@ if page=="Gıda Fiyat Endeksi":
 
     aylıkdegisim=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/aylıkort.iloc[-2,0]))-1)*100,2)
-    degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2,0]))-1)*100,2)
+    degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2]))-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
