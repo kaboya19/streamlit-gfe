@@ -507,30 +507,30 @@ if page=="Gıda Fiyat Endeksi":
     birim.index=pd.to_datetime(birim.index)
     if selected_group!="Gıda":
         selected_birim=birim[selected_group]
-    figgbirim = go.Figure()
-    figgbirim.add_trace(go.Scatter(
-            x=selected_birim.index[0:],
-            y=np.round(selected_birim.values,2),
-            mode='lines+markers',
-            name="Birim Fiyat",
-            line=dict(color='blue', width=4),
-            marker=dict(size=8, color="black")
-        ))
-    
-    figgbirim.update_layout(
-            xaxis=dict(
-                tickvals=selected_birim.index[::3],  # Original datetime index
-                ticktext=selected_birim.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
-                tickfont=dict(size=14, family="Arial Black", color="black")
-            ),
-            yaxis=dict(
-                tickfont=dict(size=14, family="Arial Black", color="black")
-            ),
-            font=dict(family="Arial", size=14, color="black")
-        )
-    if selected_group!="Gıda":
-        st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Birim Fiyatı </h2>", unsafe_allow_html=True)
-        st.plotly_chart(figgbirim)
+        figgbirim = go.Figure()
+        figgbirim.add_trace(go.Scatter(
+                x=selected_birim.index[0:],
+                y=np.round(selected_birim.values,2),
+                mode='lines+markers',
+                name="Birim Fiyat",
+                line=dict(color='blue', width=4),
+                marker=dict(size=8, color="black")
+            ))
+        
+        figgbirim.update_layout(
+                xaxis=dict(
+                    tickvals=selected_birim.index[::3],  # Original datetime index
+                    ticktext=selected_birim.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
+                    tickfont=dict(size=14, family="Arial Black", color="black")
+                ),
+                yaxis=dict(
+                    tickfont=dict(size=14, family="Arial Black", color="black")
+                ),
+                font=dict(family="Arial", size=14, color="black")
+            )
+        
+            st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Birim Fiyatı </h2>", unsafe_allow_html=True)
+            st.plotly_chart(figgbirim)
 
     
 
