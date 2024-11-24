@@ -505,6 +505,7 @@ if page=="Gıda Fiyat Endeksi":
     
     birim=pd.read_csv("birim.csv",index_col=0)
     birim.index=pd.to_datetime(birim.index)
+    
     if selected_group!="Gıda":
         selected_birim=birim[selected_group]
         figgbirim = go.Figure()
@@ -563,6 +564,7 @@ if page=="Gıda Fiyat Endeksi":
     fiyatlar=fiyatlar.sort_index()
     fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
     excel_data = to_excel(fiyatlar)
+    excel_databirim = to_excel(birim)
 
     #data=data.drop("Grup",axis=1)
     data.index.name=""
@@ -629,6 +631,13 @@ if page=="Gıda Fiyat Endeksi":
             label="📊 Web-Gıda Fiyat Endeksi İndir",
             data=excel_data2,
             file_name='gfe.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="📊 Birim Fiyatları İndir",
+            data=excel_data2,
+            file_name='birim.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
         endeksler1=pd.read_csv("endeksler.csv")
