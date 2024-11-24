@@ -369,7 +369,7 @@ if page=="Gıda Fiyat Endeksi":
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
-            x=artıs30.index[0:],
+            x=degisim_2_24.index[0:],
             y=np.round(degisim_2_24.values,2),
             mode='lines+markers',
             name="24 Günlük Değişim",
