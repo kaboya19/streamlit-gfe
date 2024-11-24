@@ -363,15 +363,16 @@ if page=="Gıda Fiyat Endeksi":
 
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc["2024-11-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
+    degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2]))-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
             x=artıs30.index[0:],
-            y=np.round(artıs30.iloc[0:,0].values,2),
+            y=np.round(degisim_2_24.iloc[0:,0].values,2),
             mode='lines+markers',
-            name="30 Günlük Değişim",
+            name="24 Günlük Değişim",
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
