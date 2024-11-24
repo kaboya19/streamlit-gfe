@@ -519,7 +519,7 @@ if page=="Gıda Fiyat Endeksi":
     figgbirim.update_layout(
             xaxis=dict(
                 tickvals=selected_birim.index[0:],  # Original datetime index
-                ticktext=selected_birim.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                ticktext=selected_birim.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
