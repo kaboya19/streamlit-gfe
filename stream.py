@@ -528,9 +528,10 @@ if page=="Gıda Fiyat Endeksi":
                 ),
                 font=dict(family="Arial", size=14, color="black")
             )
+    if selected_group!="Gıda":
         
-            st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Birim Fiyatı </h2>", unsafe_allow_html=True)
-            st.plotly_chart(figgbirim)
+        st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Birim Fiyatı </h2>", unsafe_allow_html=True)
+        st.plotly_chart(figgbirim)
 
     
 
