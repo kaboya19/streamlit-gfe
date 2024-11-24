@@ -698,11 +698,22 @@ if page=="Harcama Grupları":
     artıs30harcama=np.round(selected_indice_data.pct_change(30).dropna()*100,2)
 
     def hareketli_aylik_ortalama(df):
-        değer=df.name
-        df=pd.DataFrame(df)
-        df["Tarih"]=pd.to_datetime(df.index)
-        df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
-        df.index=pd.to_datetime(df.index)
+        değer = df.name  # Kolon ismi
+        df = pd.DataFrame(df)
+        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
+        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
+        
+        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
+        df["Aylık Ortalama"] = (
+            df[df["Gün Sırası"] <= 24]
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            .expanding()
+            .mean()
+            .reset_index(level=0, drop=True)
+        )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
         return df
 
     def hareketli_aylik_ortalama1(df):
@@ -713,9 +724,13 @@ if page=="Harcama Grupları":
             df.index=pd.to_datetime(df.index)
             return df
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
+    hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
 
-    
-    aylıkdegisimharcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"2024-11-10":])/selected_indice_data.resample('M').mean().loc[f"2024-10"].iloc[0]))-1)*100,2)
+    aylıkortharcama=selected_indice_data.resample('M').mean()
+    aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
+    aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"2024-11-01":])/selected_indice_data.resample('M').mean().loc[f"2024-10"].iloc[0]))-1)*100,2)
+    degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"2024-11-01":])/aylıkortharcama.iloc[-2]))-1)*100,2)
+    degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/aylıkortharcama.iloc[-2]))-1)*100,2)
     
 
 
@@ -727,7 +742,7 @@ if page=="Harcama Grupları":
             <h3 style='text-align:left; color:black;'>
                 {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{aylık}</span><br>
-                30 Günlük Değişim: <span style='color:red;'>%{ degisim30}</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
             </h3>
             """, unsafe_allow_html=True)
@@ -773,10 +788,10 @@ if page=="Harcama Grupları":
     
     figg31 = go.Figure()
     figg31.add_trace(go.Scatter(
-            x=artıs30harcama.index[0:],
-            y=np.round(artıs30harcama.values,2),
+            x=degisim24harcama.index[0:],
+            y=np.round(degisim24harcama.values,2),
             mode='lines+markers',
-            name="30 Günlük Değişim",
+            name="24 Günlük Değişim",
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
