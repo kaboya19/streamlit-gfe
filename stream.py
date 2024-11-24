@@ -637,6 +637,9 @@ if page=="Harcama Grupları":
                 df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
+    gfe = pd.read_csv("gfe.csv")
+    gfe = gfe.set_index(pd.to_datetime(gfe["Tarih"]))
+    gfe = gfe.drop("Tarih", axis=1)
     endeksler=pd.read_csv("endeksler.csv")
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
