@@ -724,11 +724,11 @@ if page=="Harcama Grupları":
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
     harcamam=weighted_indices.copy()
-
+    harcamam["Web-GFE"]=gfe["GFE"]
     for grup in weighted_indices.columns:
 
         ort24=hareketli_aylik_ortalama(weighted_indices[grup])
-        harcamam[col]=ort24["Aylık Ortalama"]
+        harcamam[grup]=ort24["Aylık Ortalama"]
     harcamaort=weighted_indices.resample('M').mean()
     harcamaort.loc["2024-10-31"]=harcamam.loc["2024-10-12"]
     grouped=pd.DataFrame()
