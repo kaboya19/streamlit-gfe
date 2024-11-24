@@ -233,15 +233,28 @@ if page=="Gıda Fiyat Endeksi":
     monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[-2,0])-1)*100,2)
 
     def hareketli_aylik_ortalama(df):
-        değer=df.name
-        df=pd.DataFrame(df)
-        df["Tarih"]=pd.to_datetime(df.index)
-        df['Aylık Ortalama'] = df.groupby(df['Tarih'].dt.to_period('M'))[değer].expanding().mean().reset_index(level=0, drop=True)
-        df.index=pd.to_datetime(df.index)
+        değer = df.name  # Kolon ismi
+        df = pd.DataFrame(df)
+        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
+        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
+        
+        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
+        df["Aylık Ortalama"] = (
+            df[df["Gün Sırası"] <= 24]
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            .expanding()
+            .mean()
+            .reset_index(level=0, drop=True)
+        )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
         return df
+
 
 # Hareketli aylık ortalama hesaplama
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
+    
 
 
 
@@ -259,6 +272,7 @@ if page=="Gıda Fiyat Endeksi":
     results=model.fit()
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
+    hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested.iloc[:,0])
 
     
 
@@ -323,14 +337,23 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_ekim1=np.round(gfe_sa_ekim.loc["2024-10-31"],2)
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
-    degisimsa30=np.round((seasonal_adjuested.pct_change(30).iloc[-1]*100),2)
+    
 
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
-    aylıkdegisim=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-10":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
+    aylıkort=selected_group_data.resample('M').mean()
+    aylıkort.loc["2024-10-31"]=100.142735
+
+    aylıkortsa=seasonal_adjuested.resample('M').mean()
+    aylıkortsa.loc["2024-10-31"]=100.3347
+
+
+    aylıkdegisim=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
+    degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/aylıkort.iloc[-2,0]))-1)*100,2)
+    degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2,0]))-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
@@ -435,7 +458,7 @@ if page=="Gıda Fiyat Endeksi":
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
                 Kasım Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
-                30 Günlük Değişim: <span style='color:red;'>%{ monthly30}(Mevsimsel Düzeltilmiş:%{degisimsa30})</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
