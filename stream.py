@@ -723,11 +723,17 @@ if page=="Harcama Grupları":
             return df
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
-    hareketlimaharcama2 = hareketli_aylik_ortalama1(harcamam)
-    harcamaort=harcamam.resample('M').mean()
+    harcamam=weighted_indices.copy()
+    harcamam["Web-GFE"]=gfe["GFE"]
+    weighted_indices["Web-GFE"]=gfe["GFE"]
+    for grup in weighted_indices.columns:
+
+        ort24=hareketli_aylik_ortalama(weighted_indices["Taze sebzeler (patates hariç)"])
+        harcamam[col]=ort24["Aylık Ortalama"]
+    harcamaort=weighted_indices.resample('M').mean()
     harcamaort.loc["2024-10-31"]=harcamam.loc["2024-10-12"]
     grouped=pd.DataFrame()
-    grouped["Kasım Artış Oranı"]=((hareketlimaharcama2.iloc[-1]/harcamaort.iloc[-2])-1)*100
+    grouped["Kasım Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
     grouped=grouped.sort_values(by="Kasım Artış Oranı")
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
