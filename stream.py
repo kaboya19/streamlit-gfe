@@ -636,7 +636,7 @@ if page=="Gıda Fiyat Endeksi":
 
         st.download_button(
             label="📊 Birim Fiyatları İndir",
-            data=excel_data2,
+            data=excel_databirim,
             file_name='birim.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
