@@ -508,7 +508,7 @@ if page=="Gıda Fiyat Endeksi":
     selected_birim=birim[selected_group]
     figgbirim = go.Figure()
     figgbirim.add_trace(go.Scatter(
-            x=selected_birim.index[::3],
+            x=selected_birim.index[0:],
             y=np.round(selected_birim.values,2),
             mode='lines+markers',
             name="Birim Fiyat",
