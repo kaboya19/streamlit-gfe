@@ -263,6 +263,7 @@ if page=="Gıda Fiyat Endeksi":
 
 # Hareketli aylık ortalama hesaplama
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
+    hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
     hareketlima1 = hareketli_aylik_ortalama1(selected_group_data.iloc[:,0])
     
 
@@ -283,6 +284,7 @@ if page=="Gıda Fiyat Endeksi":
     seasonal=results.smoothed_state[1]
     seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
     hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested)
+    hareketlimasa["Aylık Ortalama"]=hareketlimasa["Aylık Ortalama"].fillna(method="ffill")
     hareketlimasa1 = hareketli_aylik_ortalama1(seasonal_adjuested)
 
     
@@ -768,13 +770,14 @@ if page=="Harcama Grupları":
             df.index=pd.to_datetime(df.index)
             return df
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
+    hareketlimaharcama["Aylık Ortalama"]=hareketlimaharcama["Aylık Ortalama"].fillna(method="ffill")
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
     for grup in harcamam.columns:
 
         ort24=hareketli_aylik_ortalama(harcamam[grup])
-        harcamam[grup]=ort24["Aylık Ortalama"]
+        harcamam[grup]=ort24["Aylık Ortalama"].fillna(method="ffill")
     harcamaort=weighted_indices.resample('M').mean()
     harcamaort.loc["2024-10-31"]=weighted_indices.loc["2024-10-12"]
     grouped=pd.DataFrame()
