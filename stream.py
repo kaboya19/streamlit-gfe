@@ -432,7 +432,9 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
     
-
+    from datetime import datetime
+    month=datetime.now().month
+    year=datetime.now().year
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
     gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
@@ -445,8 +447,8 @@ if page=="Gıda Fiyat Endeksi":
     aylıkortsa.loc["2024-10-31"]=seasonal_adjuested.loc["2024-10-12"]
 
 
-    aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc["2024-11-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
-    degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc["2024-11-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
+    aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
+    degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/aylıkort.iloc[-2,0]))-1)*100,2)
     degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2]))-1)*100,2)
     
@@ -542,7 +544,22 @@ if page=="Gıda Fiyat Endeksi":
 
     )
 
-    
+    ay=datetime.now().month
+    months = {1:"Ocak",
+              2:"Şubat",
+              3:"Mart",
+              4:"Nisan",
+              5:"Mayıs",
+              6:"Haziran",
+              7:"Temmuz",
+              8:"Ağustos",
+              9:"Eylül",
+              10:"Ekim",
+              11: "Kasım",
+              12: "Aralık"
+        }
+    month=months.get(ay)
+
 
 
 
@@ -552,7 +569,7 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
-                Kasım Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
@@ -560,6 +577,8 @@ if page=="Gıda Fiyat Endeksi":
             </h3>
             """, unsafe_allow_html=True)
         st.plotly_chart(figgalt)
+
+
         
     elif selected_group=="Gıda":
         periyot = st.sidebar.selectbox("Grafik Tipi:", ["Çizgi","Mum"])
