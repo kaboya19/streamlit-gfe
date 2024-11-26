@@ -98,6 +98,11 @@ if page=="Bültenler":
         # Alt başlık
         st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım’da %3,20 arttı</span>", unsafe_allow_html=True)
 
+        st.markdown("""
+        *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
+
+        """)
+
         # Açıklama paragrafı
         st.markdown("""
         Web Gıda Fiyat Endeksi Kasım’da %3,20 artış kaydederken mevsimsellikten arındırılmış artış %3,13 oldu.
