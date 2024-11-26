@@ -78,7 +78,83 @@ if page=="Metodoloji Notu":
     """)
 
 if page=="Bültenler":
-     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024"])
+     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024"])
+     if bülten=="Kasım 2024":
+        with open("Kasım24.pdf", "rb") as file:
+            pdf_data = file.read()
+
+        st.download_button(
+            label="📄 Bülteni PDF olarak indir",
+            data=pdf_data,
+            file_name="Web_Gida_Fiyat_Endeksi_KasimBulteni.pdf",
+            mime="application/pdf"
+    )
+
+        
+
+        # Başlık
+        st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım 2024 Bülteni</span>", unsafe_allow_html=True)
+
+        # Alt başlık
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım’da %3,20 arttı</span>", unsafe_allow_html=True)
+
+        # Açıklama paragrafı
+        st.markdown("""
+        Web Gıda Fiyat Endeksi Kasım’da %3,20 artış kaydederken mevsimsellikten arındırılmış artış %3,13 oldu.
+        Sepette ağırlığı en yüksek ürünlere bakıldığında:
+        - **Domates**: %22,7
+        - **Ayçiçek Yağı**: %6,17
+        - **Kuzu Eti**: %3,8
+        - **Ekmek**: %3,89
+        - **Dana Eti**: %2,71
+        - **Yumurta**: %2,59
+        - **Tavuk Eti**: %0,94 artış kaydetti.
+
+        Fiyatı en çok artan ve azalan ürünlere bakıldığında: **Patlıcan**, **Kırmızı Lahana**, **Ispanak**, **Dereotu** ve **Karnabahar** artış olarak; **Beyaz Lahana**, **Pırasa**, **Dolmalık Biber**, **Limon** ve **Tahin Helvası** ise en çok azalanlarda öne çıkmaktadır.
+        """)
+
+        # İlk resim ekleme
+        st.image("grafikler/gfe1.png")
+
+        # Harcama gruplarına ilişkin analiz
+        st.markdown("""
+        Harcama gruplarına bakıldığında **Taze Sebze** grubunun önemli ölçüde endeksi yukarı taşıdığı görülmektedir. 
+        Bu bağlamda %3,2 artış yaşanan endekse Taze Sebze grubu endekse 1,54 puan katkı yapmıştır.
+        """)
+
+        # İkinci resim ekleme
+        st.image("grafikler/harcama1.png")
+
+        # Ek görseller
+        st.image("grafikler/ürünler1.png")
+        st.image("grafikler/birim1.png")
+
+        st.markdown("""
+        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %2,31 ve medyan artış %1,61 olmuştur.
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,53 artmıştır.
+        """)
+
+        st.image("grafikler/satrim1.png")
+
+        # Verisetine erişim bilgisi
+        st.markdown("""
+        Gıda Fiyat Endeksi ile ilgili tüm verisetlerine [https://web-gfe.streamlit.app](https://web-gfe.streamlit.app) sitesinden ulaşabilir ve indirebilirsiniz.
+        """)
+
+        # Küçük boyutta uyarı metni
+        st.markdown("""
+        <small>*Bu bültenin bir sonraki yayınlanma tarihi 1 Ocak 2024'tür. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
+        *TÜİK’in hesaplamasıyla uyumlu olması açısından Kasım ayının ilk 24 günündeki veriler dikkate alınmıştır.*</small>
+        """, unsafe_allow_html=True)
+
+        # Hazırlayan bilgisi
+        st.markdown("""
+        **Hazırlayan**  
+        Bora Kaya  
+        HSBC Asset Management Intern
+        """)
+
+          
      if bülten=="Ekim 2024":
 
         with open("Ekim24.pdf", "rb") as file:
