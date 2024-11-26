@@ -148,7 +148,7 @@ if page=="Bültenler":
 
         # Küçük boyutta uyarı metni
         st.markdown("""
-        <small>*Bu bültenin bir sonraki yayınlanma tarihi 1 Ocak 2024'tür. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
+        <small>*Bu bültenin bir sonraki yayınlanma tarihi 1 Ocak 2025'tir. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
         *TÜİK’in hesaplamasıyla uyumlu olması açısından Kasım ayının ilk 24 günündeki veriler dikkate alınmıştır.*</small>
         """, unsafe_allow_html=True)
 
