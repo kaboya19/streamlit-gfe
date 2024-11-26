@@ -906,8 +906,8 @@ if page=="Harcama Grupları":
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
     aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
-    aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{month}-01":])/selected_indice_data.resample('M').mean().loc[f"2024-{onceki}"].iloc[0]))-1)*100,2)
-    degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{month}-01":])/aylıkortharcama.iloc[-2]))-1)*100,2)
+    aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/selected_indice_data.resample('M').mean().loc[f"2024-{onceki}"].iloc[0]))-1)*100,2)
+    degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/aylıkortharcama.iloc[-2]))-1)*100,2)
     degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/aylıkortharcama.iloc[-2]))-1)*100,2)
     
     
