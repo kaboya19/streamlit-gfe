@@ -585,7 +585,7 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(gfe_sa_ekim.iloc[-1],2)})</span><br>
-                Kasım Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{gfe_sa_last})</span><br>
+                {month} Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{gfe_sa_last})</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
                 <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
@@ -872,6 +872,25 @@ if page=="Harcama Grupları":
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
     hareketlimaharcama["Aylık Ortalama"]=hareketlimaharcama["Aylık Ortalama"].fillna(method="ffill")
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
+
+    from datetime import datetime,timedelta
+    ay=datetime.now().month
+    months = {1:"Ocak",
+              2:"Şubat",
+              3:"Mart",
+              4:"Nisan",
+              5:"Mayıs",
+              6:"Haziran",
+              7:"Temmuz",
+              8:"Ağustos",
+              9:"Eylül",
+              10:"Ekim",
+              11: "Kasım",
+              12: "Aralık"
+        }
+    month=months.get(ay)
+    year=datetime.now().year
+    onceki=(datetime.now()-timedelta(days=30)).month
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
     for grup in harcamam.columns:
@@ -881,18 +900,17 @@ if page=="Harcama Grupları":
     harcamaort=weighted_indices.resample('M').mean()
     harcamaort.loc["2024-10-31"]=weighted_indices.loc["2024-10-12"]
     grouped=pd.DataFrame()
-    grouped["Kasım Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
+    grouped[f"{month} Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
     grouped=grouped.sort_values(by="Kasım Artış Oranı")
     grouped=grouped.astype(float)
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
     aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
-    aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"2024-11-01":])/selected_indice_data.resample('M').mean().loc[f"2024-10"].iloc[0]))-1)*100,2)
-    degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"2024-11-01":])/aylıkortharcama.iloc[-2]))-1)*100,2)
+    aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{month}-01":])/selected_indice_data.resample('M').mean().loc[f"2024-{onceki}"].iloc[0]))-1)*100,2)
+    degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{month}-01":])/aylıkortharcama.iloc[-2]))-1)*100,2)
     degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/aylıkortharcama.iloc[-2]))-1)*100,2)
     
-
-
+    
 
 
 
@@ -900,7 +918,7 @@ if page=="Harcama Grupları":
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
-                Kasım Değişimi: <span style='color:red;'>%{aylık}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{aylık}</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
             </h3>
