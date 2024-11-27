@@ -80,7 +80,7 @@ if page=="Metodoloji Notu":
     """)
 
 if page=="Bültenler":
-     st.set_page_config(layout="wide")
+     
      bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024"])
      if bülten=="Kasım 2024":
         with open("Kasım24.pdf", "rb") as file:
@@ -237,7 +237,7 @@ if page=="Bültenler":
      
 
 if page=="Gıda Fiyat Endeksi":
-    st.set_page_config(layout="wide")
+    
     
 
 
