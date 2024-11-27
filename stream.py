@@ -15,7 +15,7 @@ page=st.sidebar.radio("Sekmeler",tabs)
 
 
 if page=="Bülten Aboneliği":
-        st.set_page_config(layout="wide")
+        
         st.title("E-posta Aboneliği")
         st.write("Bülten aboneliği için abone olun!")
 
@@ -24,7 +24,7 @@ if page=="Bülten Aboneliği":
 
 
 if page=="Metodoloji Notu":
-    st.set_page_config(layout="wide")
+    
      
 
     # Başlık
