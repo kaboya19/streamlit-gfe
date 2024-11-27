@@ -8,7 +8,7 @@ import os
 from io import BytesIO
 from datetime import datetime
 import base64
-st.set_page_config(page_title="Web-Gıda Fiyat Endeksi")
+st.set_page_config(page_title="Web-Gıda Fiyat Endeksi",layout="wide")
 tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 page=st.sidebar.radio("Sekmeler",tabs)
 
