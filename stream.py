@@ -411,7 +411,7 @@ if page=="Gıda Fiyat Endeksi":
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
             xaxis=dict(
-                tickvals=selected_group_data.index,  # Original datetime index
+                tickvals=selected_group_data.index[::3],  # Original datetime index
                 ticktext=selected_group_data.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
