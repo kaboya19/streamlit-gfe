@@ -412,7 +412,7 @@ if page=="Gıda Fiyat Endeksi":
     figgalt.update_layout(
             xaxis=dict(
                 tickvals=selected_group_data.index[::3],  # Original datetime index
-                ticktext=selected_group_data.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
+                ticktext=selected_group_data.index.strftime("%d.%m.%Y"),  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
