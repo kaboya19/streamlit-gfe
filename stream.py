@@ -15,6 +15,7 @@ page=st.sidebar.radio("Sekmeler",tabs)
 
 
 if page=="Bülten Aboneliği":
+        st.set_page_config(layout="wide")
         st.title("E-posta Aboneliği")
         st.write("Bülten aboneliği için abone olun!")
 
@@ -23,6 +24,7 @@ if page=="Bülten Aboneliği":
 
 
 if page=="Metodoloji Notu":
+    st.set_page_config(layout="wide")
      
 
     # Başlık
@@ -78,6 +80,7 @@ if page=="Metodoloji Notu":
     """)
 
 if page=="Bültenler":
+     st.set_page_config(layout="wide")
      bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024"])
      if bülten=="Kasım 2024":
         with open("Kasım24.pdf", "rb") as file:
@@ -234,6 +237,7 @@ if page=="Bültenler":
      
 
 if page=="Gıda Fiyat Endeksi":
+    st.set_page_config(layout="wide")
     
 
 
