@@ -1162,7 +1162,7 @@ if page=="Harcama Grupları":
 
     harcamaenf = harcamaenf[sira]
     
-    harcamaylıklar=to_excel(harcamaenf.T)
+    harcamaylıklar=to_excel(harcamaenf)
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
