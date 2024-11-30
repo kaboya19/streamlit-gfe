@@ -31,13 +31,14 @@ tabs = option_menu(
             "text-align": "center", 
             "margin": "0px", 
             "--hover-color": "#444", 
-            "min-width": "150px",  # Button has a minimum width to prevent shrinking
-            "white-space": "normal",  # Allow wrapping if text is too long
-            "display": "inline-flex",  # Inline flex ensures width adjusts to content
+            "padding-left": "20px",  # Add padding for consistent spacing
+            "padding-right": "20px",  # Add padding for consistent spacing
+            "height": "50px",  # Set a fixed height for all buttons
+            "min-width": "150px",  # Ensure buttons do not shrink too small
+            "white-space": "normal",  # Allow text to wrap if necessary
+            "display": "inline-flex",  # Use inline-flex to adjust width to text content
             "justify-content": "center",
             "align-items": "center",
-            "padding-left": "15px",  # Add padding for better spacing
-            "padding-right": "15px",  # Add padding for better spacing
         },
         "nav-link-selected": {"background-color": "orange"},
     }
