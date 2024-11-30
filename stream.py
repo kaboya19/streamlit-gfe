@@ -967,7 +967,7 @@ if page=="Madde Endeksleri":
  
 
     st.dataframe(endeksler1)
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar(Ay Başı-Ay Sonu Artışı)</h2>", unsafe_allow_html=True)
     st.dataframe(aylık)
 
 
