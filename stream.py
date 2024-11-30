@@ -1149,9 +1149,14 @@ if page=="Harcama Grupları":
     column_to_move = 'Tarih'
     cols = ["Tarih"] + [col for col in weighted_indices.columns if col != column_to_move]
     weighted_indices = weighted_indices[cols]
-    harcamaenf=hareketlimaharcama["Aylık Ortalama"].resample('M').last().pct_change().dropna()*100
-    harcamaenf.loc["2024-11-30"]=np.round(float(((hareketlimaharcama["Aylık Ortalama"].resample('M').last().loc["2024-11-30"]/selected_indice_data.loc["2024-10-12"])-1)*100),2)
-    harcamaenf=to_excel(harcamaenf)
+    harcamaylıklar=pd.DataFrame()
+    for col in weighted_indices.columns:
+        hareketliharcama=hareketli_aylik_ortalama(weighted_indices[col])
+        harcamaenf=hareketliharcama["Aylık Ortalama"].resample('M').last().pct_change().dropna()*100
+        harcamaenf.loc["2024-11-30"]=np.round(float(((hareketliharcama["Aylık Ortalama"].resample('M').last().loc["2024-11-30"]/selected_indice_data.loc["2024-10-12"])-1)*100),2)
+        harcamaylıklar["Tarih"]=harcamaenf.index
+        harcamaylıklar[col]=harcamaenf
+    harcamaylıklar=to_excel(harcamaylıklar)
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
@@ -1163,7 +1168,7 @@ if page=="Harcama Grupları":
     
     st.download_button(
             label="📊 Harcama Grupları Aylık Artış Oranları İndir",
-            data=harcamaenf,
+            data=harcamaylıklar,
             file_name='harcamagruplarıaylıkartışlar.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
