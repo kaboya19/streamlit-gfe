@@ -484,7 +484,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
-    degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
+    degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}-01":])/hareketlima["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/hareketlimasa["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
 
