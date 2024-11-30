@@ -748,12 +748,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıklar["Aylık Değişim"]=[kasım,aylıkenf]
     aylıkenf=to_excel(aylıklar)
 
-    st.download_button(
-            label="📊 Aylık Değişim Oranlarını İndir",
-            data=aylıkenf,
-            file_name=f'{selected_group}_aylıkdegisimoranları.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+    
     if selected_group == "Gıda":
         def to_excel(df):
             output = BytesIO()
@@ -785,6 +780,42 @@ if page=="Gıda Fiyat Endeksi":
         aylıklar["Aylık Değişim"]=[3.2,aylıkenf]
         aylıkenf=to_excel(aylıklar)
 
+        endeksler1=pd.read_csv("endeksler.csv")
+        endeksler1=endeksler1.set_index("Ürün")
+
+        endeksler1=(endeksler1).T
+        endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
+        aylık=endeksler1.resample('M').last()
+        ekim=endeksler1.resample('M').last()
+        
+        aylık.loc[pd.to_datetime("2024-09-30")]=100
+        aylık=aylık.sort_index()
+        aylık=aylık.pct_change().dropna()*100
+        aylık=aylık.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(aylık)))
+        aylık.loc["2024-10-31"]=((ekim.loc["2024-10-31"]/100)-1)*100
+        aylık.index=aylık.index.strftime("%Y-%m-%d")
+        aylık=aylık.T
+        toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
+        aylık["Toplam"]=toplam
+        aylıkenf1=pd.DataFrame()
+        
+        for col in endeksler1.columns:
+
+            hareketlimadde=hareketli_aylik_ortalama(endeksler1[col])
+            hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
+            aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
+            aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").last().loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
+            aylıkenf1["Tarih"]=aylıkenf1.index
+            aylıkenf1[col]=aylıık
+
+        aylıkenf1=to_excel(aylıkenf1)
+        st.download_button(
+                label="Aylık Artışları İndir(24 Günlük Ortalama)",
+                data=aylıkenf,
+                file_name='aylıkartışlar.xlsx',
+                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+            )
+
         st.download_button(
             label="📊 Fiyat Listesini İndir",
             data=excel_data,
@@ -814,9 +845,16 @@ if page=="Gıda Fiyat Endeksi":
         )
 
         st.download_button(
-            label="📊 Aylık Değişim Oranlarını İndir",
+            label="📊 Web-GFE Aylık Değişim Oranlarını İndir",
             data=aylıkenf,
-            file_name='aylıkdegisimoranları.xlsx',
+            file_name='gfeaylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="📊 Maddeler Aylık Değişim Oranlarını İndir",
+            data=aylıkenf1,
+            file_name='maddeaylıkdegisimoranları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
@@ -927,24 +965,7 @@ if page=="Madde Endeksleri":
     aylık=aylık.T
     toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
     aylık["Toplam"]=toplam
-    aylıkenf=pd.DataFrame()
     
-    for col in endeksler1.columns:
-
-        hareketlimadde=hareketli_aylik_ortalama(endeksler1[col])
-        hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
-        aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
-        aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").last().loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
-        aylıkenf["Tarih"]=aylıkenf.index
-        aylıkenf[col]=aylıık
-
-    aylıkenf=to_excel(aylıkenf)
-    st.download_button(
-            label="Aylık Artışları İndir(24 Günlük Ortalama)",
-            data=aylıkenf,
-            file_name='aylıkartışlar.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
 
 
     
