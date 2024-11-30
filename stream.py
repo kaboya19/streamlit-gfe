@@ -31,11 +31,17 @@ tabs = option_menu(
             "text-align": "center", 
             "margin": "0px", 
             "--hover-color": "#444", 
-            "width": "150px"  # Adjust the width here as needed
+            "width": "150px",  # Adjust the width of the button
+            "min-width": "150px",  # Ensure the button has a minimum width
+            "white-space": "normal",  # Allow text to wrap if necessary
+            "display": "flex",
+            "justify-content": "center",
+            "align-items": "center",
         },
         "nav-link-selected": {"background-color": "orange"},
     }
 )
+
 
 page=st.sidebar.radio("Sekmeler",tabs)
 
