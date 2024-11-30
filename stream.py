@@ -853,11 +853,9 @@ if page=="Madde Endeksleri":
     aylık=aylık.T
     toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
     aylık["Toplam"]=toplam
-    if fiyat.dropna().empty:
-        pass
-    else:
+ 
 
-            st.dataframe(endeksler.drop("Madde",axis=1))
+    st.dataframe(endeksler.drop("Madde",axis=1))
 
 
     
