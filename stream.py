@@ -7,9 +7,15 @@ import matplotlib.pyplot as plt
 import os
 from io import BytesIO
 from datetime import datetime
+from st_social_media_links import SocialMediaIcons
 import base64
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi",layout="wide")
+social_media_links = {
+    "X": {"url": "https://x.com/mborathe", "color": "#fff"},
+    "GitHub": {"url": "https://github.com/kaboya19", "color": "#fff"},
+    "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#fff"}
+}
 tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
         menu_title=None,
@@ -26,7 +32,11 @@ tabs = option_menu(
     )
 page=st.sidebar.radio("Sekmeler",tabs)
 
-
+social_media_icons = SocialMediaIcons(
+        [link["url"] for link in social_media_links.values()],
+        colors=[link["color"] for link in social_media_links.values()]
+    )
+social_media_icons.render(sidebar=True)
 
 if page=="Bülten Aboneliği":
         
