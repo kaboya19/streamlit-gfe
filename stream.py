@@ -759,6 +759,11 @@ if page=="Gıda Fiyat Endeksi":
         gfe["Adjusted"]=gfe_sa
         excel_data2 = to_excel(gfe)
 
+        aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc["2024-12-31":].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
+        aylıklar=pd.DataFrame()
+        aylıklar["Tarih"]=[pd.to_datetime("2024-11-30"),hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{month}"].index[0]]
+        aylıklar["Aylık Değişim"]=[3.2,aylıkenf]
+        aylıkenf=to_excel(aylıklar)
 
         st.download_button(
             label="📊 Fiyat Listesini İndir",
@@ -787,6 +792,14 @@ if page=="Gıda Fiyat Endeksi":
             file_name='birim.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
+
+        st.download_button(
+            label="📊 Aylık Değişim Oranlarını İndir",
+            data=aylıkenf,
+            file_name='aylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
         import streamlit as st
 
         # Sidebar layout
