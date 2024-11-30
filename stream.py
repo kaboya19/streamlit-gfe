@@ -16,10 +16,10 @@ social_media_links = {
     "GitHub": {"url": "https://github.com/kaboya19", "color": "#000000"},
     "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#000000"}
 }
-tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Madde Endeksleri","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
     menu_title=None,
-    options=["Gıda Fiyat Endeksi", "Harcama Grupları", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
+    options=["Gıda Fiyat Endeksi", "Harcama Grupları","Madde Endeksleri", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
@@ -807,6 +807,79 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
         st.dataframe(fiyat)
 
+if page=="Madde Endeksleri":
+    fiyatlar=pd.read_csv("sepet.csv")
+    try:
+        fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
+    except:
+         fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
+
+    fiyatlar.index.name="Madde"
+    fiyatlar=fiyatlar.sort_index()
+    fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
+    excel_data = to_excel(fiyatlar)
+    birim["Tarih"]=birim.index
+    sira = ['Tarih'] + [col for col in birim.columns if col != 'Tarih']
+
+
+    birim = birim[sira]
+    excel_databirim = to_excel(birim)
+
+    #data=data.drop("Grup",axis=1)
+    data.index.name=""
+    data=data.drop_duplicates()
+    data.loc["Gıda","Ürün"]="Gıda"
+
+    gfe=pd.read_csv("gfe.csv")
+    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
+    gfe=gfe.drop("Tarih",axis=1)
+
+    data[data.index=="Gıda"].iloc[:,-1]=gfe.T
+    endeksler1=pd.read_csv("endeksler.csv")
+    endeksler1=endeksler1.set_index("Ürün")
+
+    endeksler1=(endeksler1).T
+    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
+    aylık=endeksler1.resample('M').last()
+    ekim=endeksler1.resample('M').last()
+    
+    aylık.loc[pd.to_datetime("2024-09-30")]=100
+    aylık=aylık.sort_index()
+    aylık=aylık.pct_change().dropna()*100
+    aylık=aylık.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(aylık)))
+    aylık.loc["2024-10-31"]=((ekim.loc["2024-10-31"]/100)-1)*100
+    aylık.index=aylık.index.strftime("%Y-%m-%d")
+    aylık=aylık.T
+    toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
+    aylık["Toplam"]=toplam
+    if fiyat.dropna().empty:
+        pass
+    else:
+
+            st.dataframe(endeksler.drop("Madde",axis=1))
+
+
+    
+
+# Apply the function to each row to calculate the "Değişim" column
+    data["Değişim"]=((data.iloc[:,-1].values/data.iloc[:,1].values)-1)*100
+    fiyat = data.loc[selected_group]
+
+    endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
+
+    endeksler["Madde"]=endeksler.index
+    sira = ['Madde'] + [col for col in endeksler.columns if col != 'Madde']
+
+
+    endeksler = endeksler[sira]
+    
+    excel_data1 = to_excel(endeksler.drop("Gıda",axis=0))
+    gfe["Tarih"]=pd.to_datetime(gfe.index)
+    sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
+    gfe = gfe[sira]
+    gfe["Adjusted"]=gfe_sa
+    excel_data2 = to_excel(gfe)
+     
 if page=="Harcama Grupları":
     def to_excel(df):
             output = BytesIO()
