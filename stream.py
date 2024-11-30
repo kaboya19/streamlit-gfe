@@ -767,9 +767,11 @@ if page=="Gıda Fiyat Endeksi":
         gfe = gfe[sira]
         gfe["Adjusted"]=gfe_sa
         excel_data2 = to_excel(gfe)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
+    st.dataframe(fiyat)
 
 
-        with st.sidebar:
+    with st.sidebar:
             st.write("")  # Optional: Add spacing or other elements above buttons if needed
             st.markdown("<div style='height: 80vh;'></div>", unsafe_allow_html=True)  # Spacer to push buttons to the bottom
 
@@ -802,7 +804,50 @@ if page=="Gıda Fiyat Endeksi":
 
 
         
-        if page=="Madde Endeksleri":
+    if page=="Madde Endeksleri":
+            data=pd.read_csv("sepet.csv")
+            try:
+                data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
+            except:
+                data=data.set_index(data["original_index"]).drop("original_index",axis=1)
+
+
+            fiyatlar=pd.read_csv("sepet.csv")
+            try:
+                fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
+            except:
+                fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
+            fiyatlar.index.name="Madde"
+            fiyatlar=fiyatlar.sort_index()
+            fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
+            excel_data = to_excel(fiyatlar)
+            birim["Tarih"]=birim.index
+            sira = ['Tarih'] + [col for col in birim.columns if col != 'Tarih']
+
+
+            birim = birim[sira]
+            excel_databirim = to_excel(birim)
+
+            #data=data.drop("Grup",axis=1)
+            data.index.name=""
+            data=data.drop_duplicates()
+            data.loc["Gıda","Ürün"]="Gıda"
+
+            gfe=pd.read_csv("gfe.csv")
+            gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
+            gfe=gfe.drop("Tarih",axis=1)
+
+            data[data.index=="Gıda"].iloc[:,-1]=gfe.T
+
+
+            
+
+        # Apply the function to each row to calculate the "Değişim" column
+            data["Değişim"]=((data.iloc[:,-1].values/data.iloc[:,1].values)-1)*100
+            fiyat = data.loc[selected_group]
+
+            endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
+
             endeksler1=pd.read_csv("endeksler.csv")
             endeksler1=endeksler1.set_index("Ürün")
 
@@ -827,8 +872,7 @@ if page=="Gıda Fiyat Endeksi":
                     st.dataframe(aylık)
                     st.dataframe(endeksler.drop("Madde",axis=1))
        
-            st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
-            st.dataframe(fiyat)
+            
 
 if page=="Harcama Grupları":
     def to_excel(df):
