@@ -786,11 +786,16 @@ if page=="Gıda Fiyat Endeksi":
         import streamlit as st
 
 # Sidebar layout
-        with st.sidebar:
-            st.write("")  # Optional: Add spacing or other elements above buttons if needed
-            st.markdown("<div style='height: 80vh;'></div>", unsafe_allow_html=True)  # Spacer to push buttons to the bottom
+        import streamlit as st
 
-            # Buttons with unique keys
+        
+        excel_data = b"Sample content for fiyatlar.xlsx"
+        excel_data1 = b"Sample content for endeksler.xlsx"
+        excel_data2 = b"Sample content for gfe.xlsx"
+        excel_databirim = b"Sample content for birim.xlsx"
+
+        with st.sidebar:
+            st.markdown("<div style='height: 80vh;'></div>", unsafe_allow_html=True)
             st.download_button(
                 label="📊 Fiyat Listesini İndir",
                 data=excel_data,
@@ -819,6 +824,7 @@ if page=="Gıda Fiyat Endeksi":
                 mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                 key="download_birim"
             )
+
 
 
         endeksler1=pd.read_csv("endeksler.csv")
