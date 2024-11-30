@@ -744,7 +744,8 @@ if page=="Gıda Fiyat Endeksi":
     aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc["2024-12-31":].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
     aylıklar=pd.DataFrame()
     aylıklar["Tarih"]=[pd.to_datetime("2024-11-30"),hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{ay}"].index[0]]
-    aylıklar["Aylık Değişim"]=[3.2,aylıkenf]
+    kasım=np.round(float(((hareketlima["Aylık Ortalama"].loc["2024-11-24"]/selected_group_data.loc["2024-10-12"])-1)*100),2)
+    aylıklar["Aylık Değişim"]=[kasım,aylıkenf]
     aylıkenf=to_excel(aylıklar)
 
     st.download_button(
