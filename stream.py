@@ -18,7 +18,7 @@ tabs = option_menu(
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "0!important", "background-color": "#262730"},
+            "container": {"padding": "0!important", "background-color": "#d6094d"},
             "icon": {"color": "orange", "font-size": "18px"},
             "nav-link": {"font-size": "20px", "text-align": "center", "margin": "0px", "--hover-color": "#444"},
             "nav-link-selected": {"background-color": "orange"},
