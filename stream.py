@@ -467,6 +467,7 @@ if page=="Gıda Fiyat Endeksi":
     
     from datetime import datetime
     month=datetime.now().month
+    onceki=month-1
     year=datetime.now().year
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
@@ -482,8 +483,8 @@ if page=="Gıda Fiyat Endeksi":
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}-01":])/aylıkort.iloc[-2,0]))-1)*100,2)
-    degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/aylıkort.iloc[-2,0]))-1)*100,2)
-    degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/aylıkortsa.iloc[-2]))-1)*100,2)
+    degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
+    degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/hareketlimasa["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
