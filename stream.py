@@ -1149,14 +1149,10 @@ if page=="Harcama Grupları":
     column_to_move = 'Tarih'
     cols = ["Tarih"] + [col for col in weighted_indices.columns if col != column_to_move]
     weighted_indices = weighted_indices[cols]
-    """harcamaylıklar=pd.DataFrame()
-    for col in weighted_indices.columns:
-        hareketliharcama=hareketli_aylik_ortalama(weighted_indices[col])
-        harcamaenf=hareketliharcama["Aylık Ortalama"].resample('M').last().pct_change().dropna()*100
-        harcamaenf.loc["2024-11-30"]=np.round(float(((hareketliharcama["Aylık Ortalama"].resample('M').last().loc["2024-11-30"]/selected_indice_data.loc["2024-10-12"])-1)*100),2)
-        harcamaylıklar["Tarih"]=harcamaenf.index
-        harcamaylıklar[col]=harcamaenf"""
-    harcamaylıklar=to_excel(grouped)
+    harcamaenf=harcamam.resample('M').last().pct_change().dropna()*100
+    harcamaenf.loc["2024-11-30"]=((harcamam.resample('M').last().loc["2024-11-30"]/harcamaort.loc["2024-10-31"])-1)*100
+
+    harcamaylıklar=to_excel(harcamaenf)
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
