@@ -733,7 +733,26 @@ if page=="Gıda Fiyat Endeksi":
 
     endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
 
-    
+    def to_excel(df):
+            output = BytesIO()
+            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            processed_data = output.getvalue()  # Bellekteki dosya verisini al
+            return processed_data
+
+    aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc["2024-12-31":].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
+    aylıklar=pd.DataFrame()
+    aylıklar["Tarih"]=[pd.to_datetime("2024-11-30"),hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{ay}"].index[0]]
+    aylıklar["Aylık Değişim"]=[3.2,aylıkenf]
+    aylıkenf=to_excel(aylıklar)
+
+    st.download_button(
+            label="📊 Aylık Değişim Oranlarını İndir",
+            data=aylıkenf,
+            file_name='aylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
     if selected_group == "Gıda":
         def to_excel(df):
             output = BytesIO()
