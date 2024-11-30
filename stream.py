@@ -808,6 +808,11 @@ if page=="Gıda Fiyat Endeksi":
         st.dataframe(fiyat)
 
 if page=="Madde Endeksleri":
+    data=pd.read_csv("sepet.csv")
+    try:
+        data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
+    except:
+         data=data.set_index(data["original_index"]).drop("original_index",axis=1)
     fiyatlar=pd.read_csv("sepet.csv")
     try:
         fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
@@ -818,11 +823,7 @@ if page=="Madde Endeksleri":
     fiyatlar=fiyatlar.sort_index()
     fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
     
-    birim["Tarih"]=birim.index
-    sira = ['Tarih'] + [col for col in birim.columns if col != 'Tarih']
-
-
-    birim = birim[sira]
+   
     
 
     #data=data.drop("Grup",axis=1)
