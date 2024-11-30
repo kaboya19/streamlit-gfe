@@ -881,6 +881,7 @@ if page=="Madde Endeksleri":
 
      
 if page=="Harcama Grupları":
+    import pytz
     def to_excel(df):
             output = BytesIO()
             # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
