@@ -990,7 +990,8 @@ if page=="Harcama Grupları":
     hareketlimaharcama_sa["Aylık Ortalama"]=hareketlimaharcama_sa["Aylık Ortalama"].fillna(method="ffill")
 
     from datetime import datetime,timedelta
-    ay=datetime.now().month
+    turkey_tz = pytz.timezone('Europe/Istanbul')
+    ay = datetime.now(tz=turkey_tz).month
     months = {1:"Ocak",
               2:"Şubat",
               3:"Mart",
@@ -1006,7 +1007,7 @@ if page=="Harcama Grupları":
         }
     month=months.get(ay)
     year=datetime.now().year
-    onceki=(datetime.now()-timedelta(days=30)).month
+    onceki=ay-1
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
     for grup in harcamam.columns:
@@ -1017,7 +1018,7 @@ if page=="Harcama Grupları":
     harcamaort.loc["2024-10-31"]=weighted_indices.loc["2024-10-12"]
     grouped=pd.DataFrame()
     grouped[f"{month} Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
-    grouped=grouped.sort_values(by="Kasım Artış Oranı")
+    grouped=grouped.sort_values(by=f"{month} Artış Oranı")
     grouped=grouped.astype(float)
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
@@ -1025,10 +1026,10 @@ if page=="Harcama Grupları":
     aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
     aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/selected_indice_data.resample('M').mean().loc[f"2024-{onceki}"].iloc[0]))-1)*100,2)
     degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/aylıkortharcama.iloc[-2]))-1)*100,2)
-    degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/aylıkortharcama.iloc[-2]))-1)*100,2)
+    degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
 
 
-    degisim24sa=np.round(((((hareketlimaharcama_sa["Aylık Ortalama"].iloc[-1])/aylıkortharcamasa.iloc[-2]))-1)*100,2)
+    degisim24sa=np.round(((((hareketlimaharcama_sa["Aylık Ortalama"].iloc[-1])/hareketlimaharcama_sa["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     
     
 
