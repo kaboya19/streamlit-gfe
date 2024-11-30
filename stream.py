@@ -826,7 +826,7 @@ if page=="Gıda Fiyat Endeksi":
                     st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar</h2>", unsafe_allow_html=True)
                     st.dataframe(aylık)
                     st.dataframe(endeksler.drop("Madde",axis=1))
-        else:
+       
             st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
             st.dataframe(fiyat)
 
