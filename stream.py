@@ -789,41 +789,8 @@ if page=="Gıda Fiyat Endeksi":
         import streamlit as st
 
         
-        excel_data = b"Sample content for fiyatlar.xlsx"
-        excel_data1 = b"Sample content for endeksler.xlsx"
-        excel_data2 = b"Sample content for gfe.xlsx"
-        excel_databirim = b"Sample content for birim.xlsx"
-
-        with st.sidebar:
-            st.markdown("<div style='height: 80vh;'></div>", unsafe_allow_html=True)
-            st.download_button(
-                label="📊 Fiyat Listesini İndir",
-                data=excel_data,
-                file_name='fiyatlar.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-                key="download_fiyatlar"
-            )
-            st.download_button(
-                label="📊 Madde Endekslerini İndir",
-                data=excel_data1,
-                file_name='endeksler.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-                key="download_endeksler"
-            )
-            st.download_button(
-                label="📊 Web-Gıda Fiyat Endeksi İndir",
-                data=excel_data2,
-                file_name='gfe.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-                key="download_gfe"
-            )
-            st.download_button(
-                label="📊 Birim Fiyatları İndir",
-                data=excel_databirim,
-                file_name='birim.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-                key="download_birim"
-            )
+        
+          
 
 
 
