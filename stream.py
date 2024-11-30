@@ -856,28 +856,14 @@ if page=="Madde Endeksleri":
  
 
     st.dataframe(endeksler1)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar</h2>", unsafe_allow_html=True)
+    st.dataframe(aylık)
+
 
 
     
 
-# Apply the function to each row to calculate the "Değişim" column
-    data["Değişim"]=((data.iloc[:,-1].values/data.iloc[:,1].values)-1)*100
-    fiyat = data.loc[selected_group]
 
-    endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
-
-    endeksler["Madde"]=endeksler.index
-    sira = ['Madde'] + [col for col in endeksler.columns if col != 'Madde']
-
-
-    endeksler = endeksler[sira]
-    
-    excel_data1 = to_excel(endeksler.drop("Gıda",axis=0))
-    gfe["Tarih"]=pd.to_datetime(gfe.index)
-    sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
-    gfe = gfe[sira]
-    gfe["Adjusted"]=gfe_sa
-    excel_data2 = to_excel(gfe)
      
 if page=="Harcama Grupları":
     def to_excel(df):
