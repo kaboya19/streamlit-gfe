@@ -1151,10 +1151,10 @@ if page=="Harcama Grupları":
     # Verileri ekleme
     figartıs.add_trace(go.Bar(
         y=shortened_index,  # Kısaltılmış index etiketleri
-        x=grouped['Kasım Artış Oranı'],
+        x=grouped[f'{month} Artış Oranı'],
         orientation='h', 
         marker=dict(color=colors),
-        name='Kasım Artış Oranı',
+        name=f'{month} Artış Oranı',
     ))
 
     # Başlık ve etiketler
@@ -1174,7 +1174,7 @@ if page=="Harcama Grupları":
     )
 
     # Etiket ekleme
-    for i, value in enumerate(grouped['Kasım Artış Oranı']):
+    for i, value in enumerate(grouped[f'{month} Artış Oranı']):
         if value >= 0:
             # Pozitif değerler sol tarafta
             figartıs.add_annotation(
@@ -1203,7 +1203,7 @@ if page=="Harcama Grupları":
 
 
 
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Harcama Grupları Kasım Ayı Artış Oranları(24 Günlük Ortalama)</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Harcama Grupları {month} Ayı Artış Oranları(24 Günlük Ortalama)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
 
