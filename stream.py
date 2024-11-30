@@ -928,7 +928,7 @@ if page=="Madde Endeksleri":
     toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
     aylık["Toplam"]=toplam
     aylıkenf=pd.DataFrame()
-    aylıkenf["Tarih"]=endeksler1.resample('M').last().index
+    aylıkenf["Tarih"]=endeksler1.resample('M').last().index[1:]
     for col in endeksler1.columns:
 
         hareketlimadde=hareketli_aylik_ortalama(endeksler1[col])
@@ -936,6 +936,7 @@ if page=="Madde Endeksleri":
         aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
         aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").last().loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
         aylıkenf[col]=aylıık
+
     aylıkenf=to_excel(aylıkenf)
     st.download_button(
             label="Aylık Artışları İndir(24 Günlük Ortalama)",
