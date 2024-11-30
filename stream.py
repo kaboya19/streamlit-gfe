@@ -581,8 +581,9 @@ if page=="Gıda Fiyat Endeksi":
         yaxis_showgrid=True  # Y ekseni grid çizgilerini gösterme
 
     )
-
-    ay=datetime.now().month
+    turkey_tz = pytz.timezone('Europe/Istanbul')
+    ay = datetime.now(tz=turkey_tz).month
+    
     months = {1:"Ocak",
               2:"Şubat",
               3:"Mart",
