@@ -466,7 +466,9 @@ if page=="Gıda Fiyat Endeksi":
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
     
     from datetime import datetime
-    month=datetime.now().month
+    import pytz
+    turkey_tz = pytz.timezone('Europe/Istanbul')
+    month = datetime.now(tz=turkey_tz).month
     onceki=month-1
     year=datetime.now().year
 
