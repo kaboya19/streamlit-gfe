@@ -1151,13 +1151,20 @@ if page=="Harcama Grupları":
     weighted_indices = weighted_indices[cols]
     harcamaenf=hareketlimaharcama["Aylık Ortalama"].resample('M').last().pct_change().dropna()*100
     harcamaenf.loc["2024-11-30"]=np.round(float(((hareketlimaharcama["Aylık Ortalama"].resample('M').last().loc["2024-11-30"]/selected_indice_data.loc["2024-10-12"])-1)*100),2)
-    st.dataframe(harcamaenf)
+    harcamaenf=to_excel(harcamaenf)
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
             label="📊 Harcama Grupları İndir",
             data=excel_data10,
             file_name='harcamagrupları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+    
+    st.download_button(
+            label="📊 Harcama Grupları Aylık Artış Oranları İndir",
+            data=harcamaenf,
+            file_name='harcamagruplarıaylıkartışlar.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
