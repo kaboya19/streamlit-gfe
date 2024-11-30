@@ -751,7 +751,7 @@ if page=="Gıda Fiyat Endeksi":
     st.download_button(
             label="📊 Aylık Değişim Oranlarını İndir",
             data=aylıkenf,
-            file_name='aylıkdegisimoranları.xlsx',
+            file_name=f'{selected_group}_aylıkdegisimoranları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
     if selected_group == "Gıda":
@@ -857,6 +857,31 @@ if page=="Gıda Fiyat Endeksi":
         st.dataframe(fiyat)
 
 if page=="Madde Endeksleri":
+    def to_excel(df):
+            output = BytesIO()
+            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            processed_data = output.getvalue()  # Bellekteki dosya verisini al
+            return processed_data
+    def hareketli_aylik_ortalama(df):
+        değer = df.name  # Kolon ismi
+        df = pd.DataFrame(df)
+        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
+        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
+        
+        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
+        df["Aylık Ortalama"] = (
+            df[df["Gün Sırası"] <= 24]
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            .expanding()
+            .mean()
+            .reset_index(level=0, drop=True)
+        )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
+        return df
     data=pd.read_csv("sepet.csv")
     try:
         data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
@@ -902,6 +927,24 @@ if page=="Madde Endeksleri":
     aylık=aylık.T
     toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
     aylık["Toplam"]=toplam
+    aylıkenf=pd.DataFrame()
+    for col in endeksler1.columns:
+
+        hareketlimadde=hareketli_aylik_ortalama(endeksler1[col])
+        hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
+        aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
+        aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
+        aylıkenf[col]=aylıık
+    aylıkenf=to_excel(aylıkenf)
+    st.download_button(
+            label="Aylık Artışları İndir(24 Günlük Ortalama)",
+            data=aylıkenf,
+            file_name='aylıkartışlar.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+
+    
  
 
     st.dataframe(endeksler1)
