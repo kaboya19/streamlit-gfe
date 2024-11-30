@@ -855,7 +855,7 @@ if page=="Madde Endeksleri":
     aylık["Toplam"]=toplam
  
 
-    st.dataframe(endeksler.drop("Madde",axis=1))
+    st.dataframe(endeksler1)
 
 
     
