@@ -1151,15 +1151,17 @@ if page=="Harcama Grupları":
     weighted_indices = weighted_indices[cols]
     harcamaenf=harcamam.resample('M').last().pct_change().dropna()*100
     harcamaenf.loc["2024-11-30"]=((harcamam.resample('M').last().loc["2024-11-30"]/harcamaort.loc["2024-10-31"])-1)*100
-    harcamaenf["Tarih"]=harcamaenf.index
-    sira = ['Tarih'] + [col for col in harcamaenf.columns if col != 'Tarih']
+    
+    
+    for col in harcamaenf.columns:
+        harcamaenf[col]=np.round(harcamaenf[col],2)
+    harcamaenf=harcamaenf.T
+    harcamaenf["Grup"]=harcamaenf.index
+    sira = ['Grup'] + [col for col in birim.columns if col != 'Grup']
 
 
     harcamaenf = harcamaenf[sira]
-    for col in harcamaenf.columns:
-        harcamaenf[col]=np.round(harcamaenf[col],2)
-
-
+    
     harcamaylıklar=to_excel(harcamaenf.T)
     
     excel_data10 = to_excel(weighted_indices)
