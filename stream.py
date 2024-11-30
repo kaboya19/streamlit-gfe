@@ -12,9 +12,9 @@ import base64
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Web-Gıda Fiyat Endeksi",layout="wide")
 social_media_links = {
-    "X": {"url": "https://x.com/mborathe", "color": "#fff"},
-    "GitHub": {"url": "https://github.com/kaboya19", "color": "#fff"},
-    "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#fff"}
+    "X": {"url": "https://x.com/mborathe", "color": "#000000"},
+    "GitHub": {"url": "https://github.com/kaboya19", "color": "#000000"},
+    "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#000000"}
 }
 tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
