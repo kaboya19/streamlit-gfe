@@ -394,6 +394,7 @@ if page=="Gıda Fiyat Endeksi":
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
     
     seasonal_adjuested=pd.read_csv("sa.csv",index_col=0)[selected_group]
+    seasonal_adjuested.index=pd.to_datetime(seasonal_adjuested.index)
     gfe_sa=pd.read_csv("gfesa.csv",index_col=0)
     hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested)
     hareketlimasa["Aylık Ortalama"]=hareketlimasa["Aylık Ortalama"].fillna(method="ffill")
