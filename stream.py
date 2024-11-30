@@ -470,6 +470,7 @@ if page=="Gıda Fiyat Endeksi":
     turkey_tz = pytz.timezone('Europe/Istanbul')
     month = datetime.now(tz=turkey_tz).month
     onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=onceki.month
     year=datetime.now().year
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
@@ -488,7 +489,7 @@ if page=="Gıda Fiyat Endeksi":
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/hareketlimasa["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
 
-    st.markdown(month)
+    
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
@@ -1010,6 +1011,7 @@ if page=="Harcama Grupları":
     year=datetime.now().year
     from datetime import timedelta
     onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=onceki.month
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
     for grup in harcamam.columns:
