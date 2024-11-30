@@ -54,6 +54,40 @@ social_media_icons = SocialMediaIcons(
     )
 social_media_icons.render(sidebar=True)
 
+
+
+# Sidebar layout
+with st.sidebar:
+    st.write("")  # Optional: Add spacing or other elements above buttons if needed
+    st.markdown("<div style='height: 80vh;'></div>", unsafe_allow_html=True)  # Spacer to push buttons to the bottom
+
+    # Buttons
+    st.download_button(
+        label="📊 Fiyat Listesini İndir",
+        data=excel_data,
+        file_name='fiyatlar.xlsx',
+        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    )
+    st.download_button(
+        label="📊 Madde Endekslerini İndir",
+        data=excel_data1,
+        file_name='endeksler.xlsx',
+        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    )
+    st.download_button(
+        label="📊 Web-Gıda Fiyat Endeksi İndir",
+        data=excel_data2,
+        file_name='gfe.xlsx',
+        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    )
+    st.download_button(
+        label="📊 Birim Fiyatları İndir",
+        data=excel_databirim,
+        file_name='birim.xlsx',
+        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    )
+
+
 if page=="Bülten Aboneliği":
         
         st.title("E-posta Aboneliği")
@@ -764,33 +798,7 @@ if page=="Gıda Fiyat Endeksi":
         excel_data2 = to_excel(gfe)
 
 
-        st.download_button(
-            label="📊 Fiyat Listesini İndir",
-            data=excel_data,
-            file_name='fiyatlar.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
-
-        st.download_button(
-            label="📊 Madde Endekslerini İndir",
-            data=excel_data1,
-            file_name='endeksler.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
-
-        st.download_button(
-            label="📊 Web-Gıda Fiyat Endeksi İndir",
-            data=excel_data2,
-            file_name='gfe.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
-
-        st.download_button(
-            label="📊 Birim Fiyatları İndir",
-            data=excel_databirim,
-            file_name='birim.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+        
         if page=="Madde Endeksleri":
             endeksler1=pd.read_csv("endeksler.csv")
             endeksler1=endeksler1.set_index("Ürün")
