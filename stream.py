@@ -1000,6 +1000,7 @@ if page=="Harcama Grupları":
     figggrup.add_trace(go.Scatter(
             x=selected_indice_datasa.index[0:],
             y=selected_indice_datasa.values,
+            color="orange",
             mode='lines+markers',
             name='Mevsimsel Düzeltilmiş',
             line=dict(color='blue', width=4),
