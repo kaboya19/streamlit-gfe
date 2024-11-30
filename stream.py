@@ -809,12 +809,7 @@ if page=="Gıda Fiyat Endeksi":
             aylıkenf1[col]=aylıık
 
         aylıkenf1=to_excel(aylıkenf1)
-        st.download_button(
-                label="Aylık Artışları İndir(24 Günlük Ortalama)",
-                data=aylıkenf,
-                file_name='aylıkartışlar.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        
 
         st.download_button(
             label="📊 Fiyat Listesini İndir",
