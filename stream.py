@@ -955,7 +955,7 @@ if page=="Harcama Grupları":
     degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/aylıkortharcama.iloc[-2]))-1)*100,2)
 
 
-    degisim24=np.round(((((hareketlimaharcama_sa["Aylık Ortalama"].iloc[-1])/aylıkortharcamasa.iloc[-2]))-1)*100,2)
+    degisim24sa=np.round(((((hareketlimaharcama_sa["Aylık Ortalama"].iloc[-1])/aylıkortharcamasa.iloc[-2]))-1)*100,2)
     
     
 
@@ -964,9 +964,9 @@ if page=="Harcama Grupları":
 
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
-                {month} Değişimi: <span style='color:red;'>%{aylık}</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
+                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}(Mevsimsel Düzeltilmiş:% {toplamsa}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{aylık}(Mevsimsel Düzeltilmiş:% {aylıksa}</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:% {degisim24sa}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
             </h3>
             """, unsafe_allow_html=True)
