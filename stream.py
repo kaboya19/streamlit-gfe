@@ -1161,6 +1161,8 @@ if page=="Harcama Grupları":
 
 
     harcamaenf = harcamaenf[sira]
+    for col in harcamaenf.columns:
+         harcamaenf[col]=harcamaenf[col].strftime("%Y-%m")
     harcamaenf.columns=harcamaenf.columns.astype(str)
     
     harcamaylıklar=to_excel(harcamaenf)
