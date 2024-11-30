@@ -1156,8 +1156,11 @@ if page=="Harcama Grupları":
 
 
     harcamaenf = harcamaenf[sira]
+    for col in harcamaenf.columns:
+        harcamaenf[col]=np.round(harcamaenf[col],2)
 
-    harcamaylıklar=to_excel(harcamaenf)
+
+    harcamaylıklar=to_excel(harcamaenf.T)
     
     excel_data10 = to_excel(weighted_indices)
     st.download_button(
