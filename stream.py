@@ -928,6 +928,7 @@ if page=="Madde Endeksleri":
     toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
     aylık["Toplam"]=toplam
     aylıkenf=pd.DataFrame()
+    aylıkenf["Tarih"]=endeksler1.resample('M').last().index
     for col in endeksler1.columns:
 
         hareketlimadde=hareketli_aylik_ortalama(endeksler1[col])
