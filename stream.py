@@ -1161,6 +1161,7 @@ if page=="Harcama Grupları":
 
 
     harcamaenf = harcamaenf[sira]
+    harcamaenf.columns=str(harcamaenf.columns)
     
     harcamaylıklar=to_excel(harcamaenf)
     
