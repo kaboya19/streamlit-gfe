@@ -465,11 +465,11 @@ if page=="Gıda Fiyat Endeksi":
     gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
     
-    from datetime import datetime
+    from datetime import datetime,timedelta
     import pytz
     turkey_tz = pytz.timezone('Europe/Istanbul')
     month = datetime.now(tz=turkey_tz).month
-    onceki=month-1
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
     year=datetime.now().year
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
@@ -1008,7 +1008,8 @@ if page=="Harcama Grupları":
         }
     month=months.get(ay)
     year=datetime.now().year
-    onceki=ay-1
+    from datetime import timedelta
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
     for grup in harcamam.columns:
