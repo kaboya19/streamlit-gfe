@@ -18,18 +18,25 @@ social_media_links = {
 }
 tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
-        menu_title=None,
-        options=["Gıda Fiyat Endeksi","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"],
-        menu_icon="cast",
-        default_index=0,
-        orientation="horizontal",
-        styles={
-            "container": {"padding": "0!important", "background-color": "#d6094d"},
-            "icon": {"color": "orange", "font-size": "18px"},
-            "nav-link": {"font-size": "20px", "text-align": "center", "margin": "0px", "--hover-color": "#444"},
-            "nav-link-selected": {"background-color": "orange"},
-        }
-    )
+    menu_title=None,
+    options=["Gıda Fiyat Endeksi", "Harcama Grupları", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
+    menu_icon="cast",
+    default_index=0,
+    orientation="horizontal",
+    styles={
+        "container": {"padding": "0!important", "background-color": "#d6094d"},
+        "icon": {"color": "orange", "font-size": "18px"},
+        "nav-link": {
+            "font-size": "20px", 
+            "text-align": "center", 
+            "margin": "0px", 
+            "--hover-color": "#444", 
+            "width": "150px"  # Adjust the width here as needed
+        },
+        "nav-link-selected": {"background-color": "orange"},
+    }
+)
+
 page=st.sidebar.radio("Sekmeler",tabs)
 
 social_media_icons = SocialMediaIcons(
