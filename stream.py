@@ -933,7 +933,7 @@ if page=="Madde Endeksleri":
         hareketlimadde=hareketli_aylik_ortalama(endeksler1[col])
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
-        aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
+        aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").last().loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
         aylıkenf[col]=aylıık
     aylıkenf=to_excel(aylıkenf)
     st.download_button(
