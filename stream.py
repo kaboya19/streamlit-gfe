@@ -307,18 +307,7 @@ if page=="Gıda Fiyat Endeksi":
     endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
     endeksler1=endeksler1.drop("Gıda",axis=1)
     endeksler_sa=pd.DataFrame()
-    from statsmodels.tsa.statespace.structural import UnobservedComponents
-
-    for col in endeksler1.columns:
-        model=UnobservedComponents(endeksler1[col],level="local level",seasonal=7,stochastic_seasonal=True)
-        results=model.fit()
-        seasonal=results.smoothed_state[1]
-        sa=endeksler1[col]-seasonal
-        endeksler_sa[col]=sa
-
-    for col in endeksler1.columns:
-        endeksler_sa[col]=endeksler_sa[col]*ağırlıklar.loc[col]
-    gfe_sa=endeksler_sa.sum(axis=1)
+    
     
         
 
@@ -403,11 +392,9 @@ if page=="Gıda Fiyat Endeksi":
     change_percent = round(change_percent, 2)
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
-    from statsmodels.tsa.statespace.structural import UnobservedComponents
-    model=UnobservedComponents(selected_group_data.iloc[:,0],level="local level",seasonal=7,stochastic_seasonal=True)
-    results=model.fit()
-    seasonal=results.smoothed_state[1]
-    seasonal_adjuested=np.round(selected_group_data[selected_group]-seasonal,2)
+    
+    seasonal_adjuested=pd.read_csv("sa.csv",index_col=0)
+    gfe_sa=pd.read_csv("gfesa.csv",index_col=0)
     hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested)
     hareketlimasa["Aylık Ortalama"]=hareketlimasa["Aylık Ortalama"].fillna(method="ffill")
     hareketlimasa1 = hareketli_aylik_ortalama1(seasonal_adjuested)
