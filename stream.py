@@ -1157,7 +1157,7 @@ if page=="Harcama Grupları":
         harcamaenf[col]=np.round(harcamaenf[col],2)
     harcamaenf=harcamaenf.T
     harcamaenf["Grup"]=harcamaenf.index
-    sira = ['Grup'] + [col for col in birim.columns if col != 'Grup']
+    sira = ['Grup'] + [col for col in harcamaenf.columns if col != 'Grup']
 
 
     harcamaenf = harcamaenf[sira]
