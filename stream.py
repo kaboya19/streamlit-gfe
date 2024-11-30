@@ -862,7 +862,7 @@ if page=="Harcama Grupları":
     harcamam["Web-GFE"]=gfe["GFE"]
 
     indice_sa=pd.read_csv("indice_sa.csv",index_col=0)
-    indice_sa.index=pd.to_datetime(indice_sa)
+    indice_sa.index=pd.to_datetime(indice_sa.index)
     
 
     selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
