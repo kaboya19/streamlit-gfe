@@ -1118,7 +1118,7 @@ if page=="Harcama Grupları":
     harcamaort=weighted_indices.resample('M').mean()
     harcamaort.loc["2024-10-31"]=weighted_indices.loc["2024-10-12"]
     grouped=pd.DataFrame()
-    grouped[f"{month} Artış Oranı"]=((harcamam.iloc[-1]/harcamaort.iloc[-2])-1)*100
+    grouped[f"{month} Artış Oranı"]=((harcamam.iloc[-1]/harcamam.loc[f"{year}-{onceki}-12"])-1)*100
     grouped=grouped.sort_values(by=f"{month} Artış Oranı")
     grouped=grouped.astype(float)
 
