@@ -808,6 +808,8 @@ if page=="Gıda Fiyat Endeksi":
             aylıkenf1["Tarih"]=aylıkenf1.index
             aylıkenf1[col]=aylıık
 
+        aylıkenf1.index=aylıkenf1.index.strftime('%Y-%m')
+
         aylıkenf1=to_excel(aylıkenf1)
         
 
