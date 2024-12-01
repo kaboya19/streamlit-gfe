@@ -1151,6 +1151,7 @@ if page=="Harcama Grupları":
     weighted_indices = weighted_indices[cols]
     harcamaenf=harcamam.resample('M').last().pct_change().dropna()*100
     harcamaenf.loc["2024-11-30"]=((harcamam.resample('M').last().loc["2024-11-30"]/harcamaort.loc["2024-10-31"])-1)*100
+    harcamaenf=harcamaenf.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(harcamaenf)))
     
     
     for col in harcamaenf.columns:
@@ -1161,8 +1162,7 @@ if page=="Harcama Grupları":
 
 
     harcamaenf = harcamaenf[sira]
-    for col in harcamaenf.columns:
-         harcamaenf[col]=pd.to_datetime(harcamaenf[col]).dt.strftime('%Y-%m')
+    
     harcamaenf.columns=harcamaenf.columns.astype(str)
     
     harcamaylıklar=to_excel(harcamaenf)
