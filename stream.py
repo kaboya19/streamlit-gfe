@@ -805,7 +805,7 @@ if page=="Gıda Fiyat Endeksi":
             hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
             aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
             aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").last().loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
-            aylıkenf1["Tarih"]=aylıkenf1.index.strftime('%Y-%m')
+            aylıkenf1["Tarih"]=pd.to_datetime(aylıkenf1.index).strftime('%Y-%m')
             aylıkenf1[col]=aylıık
 
         aylıkenf1.index=aylıkenf1.index.strftime('%Y-%m')
