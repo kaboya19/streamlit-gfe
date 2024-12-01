@@ -1162,6 +1162,10 @@ if page=="Harcama Grupları":
 
 
     harcamaenf = harcamaenf[sira]
+
+    date_columns = harcamaenf.select_dtypes(include=['datetime64[ns]']).columns
+    for col in date_columns:
+        harcamaenf[col] = harcamaenf[col].dt.strftime('%Y-%m')
     
     harcamaenf.columns=harcamaenf.columns.astype(str)
     
