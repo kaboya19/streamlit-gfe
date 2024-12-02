@@ -619,7 +619,7 @@ if page=="Gıda Fiyat Endeksi":
     ay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == month]
     oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == onceki]
 
-    aybasısonusa=((ay_datasa.iloc[-1,0]/oncekiay_datasa.iloc[-1,0])-1)*100
+    aybasısonusa=((ay_datasa.iloc[-1]/oncekiay_datasa.iloc[-1])-1)*100
 
    
     if selected_group!="Gıda":
