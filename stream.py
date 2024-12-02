@@ -349,6 +349,7 @@ if page=="Gıda Fiyat Endeksi":
     selected_group_data1["Tarih"]=pd.to_datetime(selected_group_data1.index)
     ay_data = selected_group_data1[selected_group_data1['Tarih'].dt.month == month]
     oncekiay_data = selected_group_data1[selected_group_data1['Tarih'].dt.month == onceki]
+    
     ilk=ay_data.index[0].strftime("%d.%m.%Y")
     son=ay_data.index[-1].strftime("%d.%m.%Y")
 
@@ -613,7 +614,12 @@ if page=="Gıda Fiyat Endeksi":
     month=months.get(ay)
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
+    seasonal_adjuested1=seasonal_adjuested.copy()
+    seasonal_adjuested1["Tarih"]=pd.to_datetime(seasonal_adjuested1.index)
+    ay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == month]
+    oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == onceki]
 
+    aybasısonusa=((ay_datasa.iloc[-1,0]/oncekiay_datasa.iloc[-1,0])-1)*100
 
    
     if selected_group!="Gıda":
@@ -622,7 +628,7 @@ if page=="Gıda Fiyat Endeksi":
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
                 {month} Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%)</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%{np.round(aybasısonusa,2)})</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
@@ -639,7 +645,7 @@ if page=="Gıda Fiyat Endeksi":
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{float(np.round(gfe_sa_ekim.iloc[-1],2).astype(float))})</span><br>
                 {month} Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{float(gfe_sa_last)})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%)</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%{np.round(aybasısonusa,2)})</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{float(degisimsa24)})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
                 <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
