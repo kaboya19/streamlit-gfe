@@ -334,11 +334,22 @@ if page=="Gıda Fiyat Endeksi":
     selected_group_data["Endeks_2024-10-11"]=100
     selected_group_monthly=selected_group_data.resample('M').mean()
     selected_group_monthlyfull=selected_group_data.resample('M').last()
-
+    from datetime import datetime,timedelta
+    import pytz
+    turkey_tz = pytz.timezone('Europe/Istanbul')
+    month = datetime.now(tz=turkey_tz).month
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=onceki.month
+    year=datetime.now().year
 
         # İlk ve son tarihleri belirleme
     first_date = selected_group_data.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
     last_date = selected_group_data.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
+    selected_group_data1=selected_group_data.copy()
+    selected_group_data1["Tarih"]=pd.to_datetime(selected_group_data1.index)
+    ay_data = selected_group_data1[selected_group_data1['Tarih'].dt.month == month]
+    ilk=ay_data.index[0].strftime("%d.%m.%Y")
+    son=ay_data.index[-1].strftime("%d.%m.%Y")
 
         # Değişim yüzdesini hesaplama
     first_value = selected_group_data.iloc[0,0]  # İlk değer
@@ -599,7 +610,7 @@ if page=="Gıda Fiyat Endeksi":
               12: "Aralık"
         }
     month=months.get(ay)
-
+    aybasısonu=((ay_data.iloc[-1,0]/ay_data.iloc[0,0])-1)*100
 
 
 
@@ -610,6 +621,7 @@ if page=="Gıda Fiyat Endeksi":
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
                 {month} Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%)</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
