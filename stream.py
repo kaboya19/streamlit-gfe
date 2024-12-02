@@ -636,11 +636,10 @@ if page=="Gıda Fiyat Endeksi":
         periyot = st.sidebar.selectbox("Grafik Tipi:", ["Çizgi","Mum"])
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{float(np.round(gfe_sa_ekim.iloc[-1],2).astype(float))})</span><br>
                 {month} Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{float(gfe_sa_last)})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%)</span><br>
                 24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{float(degisimsa24)})</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%)</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
                 <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
 
