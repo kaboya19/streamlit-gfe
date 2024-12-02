@@ -348,6 +348,7 @@ if page=="Gıda Fiyat Endeksi":
     selected_group_data1=selected_group_data.copy()
     selected_group_data1["Tarih"]=pd.to_datetime(selected_group_data1.index)
     ay_data = selected_group_data1[selected_group_data1['Tarih'].dt.month == month]
+    oncekiay_data = selected_group_data1[selected_group_data1['Tarih'].dt.month == onceki]
     ilk=ay_data.index[0].strftime("%d.%m.%Y")
     son=ay_data.index[-1].strftime("%d.%m.%Y")
 
@@ -610,7 +611,7 @@ if page=="Gıda Fiyat Endeksi":
               12: "Aralık"
         }
     month=months.get(ay)
-    aybasısonu=((ay_data.iloc[-1,0]/ay_data.iloc[0,0])-1)*100
+    aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
 
 
