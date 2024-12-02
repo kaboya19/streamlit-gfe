@@ -612,12 +612,19 @@ if page=="Gıda Fiyat Endeksi":
               12: "Aralık"
         }
     month=months.get(ay)
+    from datetime import datetime,timedelta
+    import pytz
+    turkey_tz = pytz.timezone('Europe/Istanbul')
+    monthh = datetime.now(tz=turkey_tz).month
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=onceki.month
+    year=datetime.now().year
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
     seasonal_adjuested1=pd.DataFrame(seasonal_adjuested.copy())
     seasonal_adjuested1["Tarih"]=pd.to_datetime(seasonal_adjuested1.index)
-    ay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == month]
-    oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == onceki]
+    ay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == monthh]
+    oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == monthh]
 
     aybasısonusa=((ay_datasa.iloc[-1,0]/oncekiay_datasa.iloc[-1,0])-1)*100
 
