@@ -624,7 +624,7 @@ if page=="Gıda Fiyat Endeksi":
     seasonal_adjuested1=pd.DataFrame(seasonal_adjuested.copy())
     seasonal_adjuested1["Tarih"]=pd.to_datetime(seasonal_adjuested1.index)
     ay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == monthh]
-    oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == monthh]
+    oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == onceki]
 
     aybasısonusa=((ay_datasa.iloc[-1,0]/oncekiay_datasa.iloc[-1,0])-1)*100
 
