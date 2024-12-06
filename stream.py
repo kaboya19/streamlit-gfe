@@ -649,7 +649,7 @@ if page=="Gıda Fiyat Endeksi":
         
     elif selected_group=="Gıda":
         periyot = st.sidebar.selectbox("Grafik Tipi:", ["Çizgi","Mum"])
-        aybasısonusa=((ay_datasa["Gıda"].iloc[-1]/oncekiay_datasa["Gıda"].iloc[-1])-1)*100
+   
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{float(np.round(gfe_sa_ekim.iloc[-1],2).astype(float))})</span><br>
@@ -662,7 +662,7 @@ if page=="Gıda Fiyat Endeksi":
                 Güncelleme Tarihi: {tarih}
             </h3>
             """, unsafe_allow_html=True)
-        st.dataframe(oncekiay_datasa)
+        
         if periyot=="Çizgi":
              st.plotly_chart(figgalt)
         elif periyot=="Mum":
