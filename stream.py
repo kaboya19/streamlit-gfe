@@ -642,7 +642,7 @@ if page=="Gıda Fiyat Endeksi":
                 Güncelleme Tarihi: {tarih}
             </h3>
             """, unsafe_allow_html=True)
-        st.dataframe(oncekiay_datasa)
+        
         st.plotly_chart(figgalt)
 
 
@@ -661,6 +661,7 @@ if page=="Gıda Fiyat Endeksi":
                 Güncelleme Tarihi: {tarih}
             </h3>
             """, unsafe_allow_html=True)
+        st.dataframe(oncekiay_datasa)
         if periyot=="Çizgi":
              st.plotly_chart(figgalt)
         elif periyot=="Mum":
