@@ -429,17 +429,8 @@ if page=="Gıda Fiyat Endeksi":
             marker=dict(size=8, color="black")
         ))
     
-    if selected_group=="Gıda":
-         figgalt.add_trace(go.Scatter(
-            x=gfe_sa.index,
-            y=gfe_sa.values,
-            mode='lines+markers',
-            name="Mevsimsel Düzeltilmiş",
-            line=dict(color='red', width=4),
-            marker=dict(size=8, color="orange")
-        ))
-         
-    elif selected_group!="Gıda":
+   
+    if selected_group!="Gıda":
 
         figgalt.add_trace(go.Scatter(
                 x=seasonal_adjuested.index,
