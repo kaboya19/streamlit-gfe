@@ -615,10 +615,10 @@ if page=="Gıda Fiyat Endeksi":
 
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent})</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
                 {month} Değişimi: <span style='color:red;'>%{ monthly})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24})</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
@@ -634,10 +634,10 @@ if page=="Gıda Fiyat Endeksi":
    
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{monthly})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24})</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{monthly}</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
                 <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
 
