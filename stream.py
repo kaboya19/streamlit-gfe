@@ -615,10 +615,10 @@ if page=="Gıda Fiyat Endeksi":
 
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%{np.round(aybasısonusa,2)})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent})</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ monthly})</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)})</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
@@ -634,10 +634,10 @@ if page=="Gıda Fiyat Endeksi":
    
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{float(np.round(gfe_sa_ekim.iloc[-1],2).astype(float))})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{float(gfe_sa_last)})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%{np.round(aybasısonusa,2)})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{float(degisimsa24)})</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent})</span><br>
+                {month} Değişimi: <span style='color:red;'>%{monthly})</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)})</span><br>
+                24 Günlük Değişim: <span style='color:red;'>%{ degisim24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
                 <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
 
