@@ -616,9 +616,8 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
-                {month} Değişimi: <span style='color:red;'>%{ monthly})</span><br>
                 {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ degisim24})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
@@ -635,9 +634,8 @@ if page=="Gıda Fiyat Endeksi":
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
-                {month} Değişimi: <span style='color:red;'>%{monthly}</span><br>
                 {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}</span><br>
+                {month} Değişim: <span style='color:red;'>%{ monthly}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
                 <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
 
@@ -1151,9 +1149,8 @@ if page=="Harcama Grupları":
 
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}(Mevsimsel Düzeltilmiş:% {toplamsa})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{aylık}(Mevsimsel Düzeltilmiş:% {aylıksa})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:% {degisim24sa})</span><br>
+                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
             </h3>
             """, unsafe_allow_html=True)
@@ -1208,15 +1205,7 @@ if page=="Harcama Grupları":
             marker=dict(size=8, color="black")
         ))
     
-    figggrup.add_trace(go.Scatter(
-            x=selected_indice_datasa.index[0:],
-            y=selected_indice_datasa.values,
-            
-            mode='lines+markers',
-            name='Mevsimsel Düzeltilmiş',
-            line=dict(color='red', width=4),
-            marker=dict(size=8, color="orange")
-        ))
+
     
     
 
