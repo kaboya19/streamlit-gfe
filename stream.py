@@ -636,7 +636,7 @@ if page=="Gıda Fiyat Endeksi":
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
                 {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
                 {month} Değişimi: <span style='color:red;'>%{ degisim24}</span><br>
-                <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
+                <span style='font-size:15px;'>*Aylık değişim 24 günlük ortalamalara göre hesaplanmaktadır.</span><br>
                 
 
                 Güncelleme Tarihi: {tarih}
