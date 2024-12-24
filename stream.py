@@ -121,7 +121,92 @@ if page=="Metodoloji Notu":
 
 if page=="Bültenler":
      
-     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024"])
+     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024","Aralık 2024"])
+     if bülten=="Aralık 2024":
+        with open("Aralık24.pdf", "rb") as file:
+            pdf_data = file.read()
+
+        st.download_button(
+            label="📄 Bülteni PDF olarak indir",
+            data=pdf_data,
+            file_name="Web_Gida_Fiyat_Endeksi_KasimBulteni.pdf",
+            mime="application/pdf"
+    )
+
+        
+
+        # Başlık
+        st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık 2024 Bülteni</span>", unsafe_allow_html=True)
+
+        # Alt başlık
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık'ta %3,41 arttı</span>", unsafe_allow_html=True)
+
+        st.markdown("""
+        *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
+
+        """)
+
+        st.image("grafikler/gfe_24-12-2024.png")
+
+        # Açıklama paragrafı
+        st.markdown("""
+        Web Gıda Fiyat Endeksi Kasım’da %3,41 artış kaydederken mevsimsellikten arındırılmış artış %2,85 oldu.
+        Sepette ağırlığı en yüksek ürünlere bakıldığında:
+        - **Domates**: -%3,32 azalırken
+        - **Ayçiçek Yağı**: %4,42
+        - **Kuzu Eti**: %4,76
+        - **Ekmek**: %3,67
+        - **Dana Eti**: %3,43
+        - **Yumurta**: %5,97
+        - **Tavuk Eti**: %0,29 artış kaydetti.""")
+
+        # İlk resim ekleme
+        st.image("grafikler/aylıkdegisim_24-12-2024.png")
+
+        
+
+        # İkinci resim ekleme
+        st.image("grafikler/gruplar_24-12-2024.png")
+
+        # Ek görseller
+        st.image("grafikler/harcamasa24-12-2024.png")
+        st.image("grafikler/meyvesebze_24-12-2024.png")
+        st.image("grafikler/haric_24-12-2024.png")
+        st.image("grafikler/birim_24-12-2024.png")
+        st.image("grafikler/birimdüşen_24-12-2024.png")
+        st.image("grafikler/kümülatif_24-12-2024.png")
+
+        st.markdown("""
+        Mevsimsellikten arındırılmış olarak fiyat değişimlerinin ortalaması %2,72 ve medyan artış %2,80 olmuştur.
+        Meyve ve Sebze hariç fiyat artışı %2,85 ile manşet ile aynı seviyededir.
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %2,50 artmıştır
+        """)
+
+        st.image("grafikler/egilim_24-12-2024.png")
+
+        # Verisetine erişim bilgisi
+        st.markdown("""
+        Gıda Fiyat Endeksi ile ilgili tüm verisetlerine [https://web-gfe.streamlit.app](https://web-gfe.streamlit.app) sitesinden ulaşabilir ve indirebilirsiniz.
+        """)
+
+        # Küçük boyutta uyarı metni
+        st.markdown("""
+        <small>*Bu bültenin bir sonraki yayınlanma tarihi 24 Ocak 2025'tir. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
+        *TÜİK’in hesaplamasıyla uyumlu olması açısından Kasım ayının ilk 24 günündeki veriler dikkate alınmıştır.*</small>
+        """, unsafe_allow_html=True)
+
+        # Hazırlayan bilgisi
+        st.markdown("""
+        **Hazırlayan**  
+        Bora Kaya  
+        
+        """)
+
+
+
+
+
+
      if bülten=="Kasım 2024":
         with open("Kasım24.pdf", "rb") as file:
             pdf_data = file.read()
