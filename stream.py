@@ -129,7 +129,7 @@ if page=="Bültenler":
         st.download_button(
             label="📄 Bülteni PDF olarak indir",
             data=pdf_data,
-            file_name="Web_Gida_Fiyat_Endeksi_KasimBulteni.pdf",
+            file_name="Web_Gida_Fiyat_Endeksi_Aralik24Bulteni.pdf",
             mime="application/pdf"
     )
 
