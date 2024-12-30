@@ -362,6 +362,20 @@ if page=="Bültenler":
      
 
 if page=="Gıda Fiyat Endeksi":
+
+    st.markdown(
+    """
+    <style>
+    .title {
+        font-size: 36px;  
+        font-family: 'Freestyle Script', Courier !important;  
+        color: red !important;  
+        text-align: center;  
+    }
+    </style>
+    <h1 class="title">Hazırlayan: Bora Kaya</h1>
+    """, 
+    unsafe_allow_html=True)
     
     
 
