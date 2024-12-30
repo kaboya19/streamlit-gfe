@@ -491,13 +491,10 @@ if page=="Gıda Fiyat Endeksi":
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
     
-    seasonal_adjuested=pd.read_csv("sa.csv",index_col=0)[selected_group]
-    seasonal_adjuested.index=pd.to_datetime(seasonal_adjuested.index)
-    gfe_sa=pd.read_csv("gfesa.csv",index_col=0)["0"]
-    gfe_sa.index=pd.to_datetime(gfe_sa.index)
-    hareketlimasa = hareketli_aylik_ortalama(seasonal_adjuested)
-    hareketlimasa["Aylık Ortalama"]=hareketlimasa["Aylık Ortalama"].fillna(method="ffill")
-    hareketlimasa1 = hareketli_aylik_ortalama1(seasonal_adjuested)
+    
+    
+  
+    
 
     
 
@@ -531,18 +528,11 @@ if page=="Gıda Fiyat Endeksi":
         )
     tarih=pd.read_csv("tarih.csv")
     tarih=tarih.iloc[0,1]
-    seasonal_adjuested_aylık=seasonal_adjuested.resample('M').mean()
-    seasonal_adjuested_ekim=((seasonal_adjuested.resample('M').last()/100)-1)*100
-    change_percent_sa=seasonal_adjuested_ekim.copy().iloc[-1]
-    seasonal_adjuested_ekim1=np.round(seasonal_adjuested_ekim.loc["2024-10-31"],2)
+   
+    
 
-    seasonal_adjusted_last=np.round(((seasonal_adjuested_aylık.iloc[-1]/seasonal_adjuested_aylık.iloc[-2])-1)*100,2)
-
-    gfe_sa_aylık=gfe_sa.resample('M').mean()  
-    gfe_sa_ekim=((gfe_sa.resample('M').last()/100)-1)*100
-    change_percent_sa_gfe=gfe_sa_ekim.copy().iloc[-1]
-    gfe_sa_ekim1=np.round(gfe_sa_ekim.loc["2024-10-31"],2)
-    gfe_sa_last=np.round(((gfe_sa_aylık.iloc[-1]/gfe_sa_aylık.iloc[-2])-1)*100,2)  
+  
+   
     degisim30=np.round((gfe.pct_change(30).iloc[-1,0]*100),2)
     
     from datetime import datetime,timedelta
@@ -554,20 +544,18 @@ if page=="Gıda Fiyat Endeksi":
     year=datetime.now().year
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
-    gfesa_30=np.round((gfe_sa.pct_change(30)*100).iloc[-1],2)
+    
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
     aylıkort=selected_group_data.resample('M').mean()
     aylıkort.loc["2024-10-31"]=selected_group_data.loc["2024-10-12"]
 
-    aylıkortsa=seasonal_adjuested.resample('M').mean()
-    aylıkortsa.loc["2024-10-31"]=seasonal_adjuested.loc["2024-10-12"]
+ 
 
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}-01":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}-01":])/hareketlima["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
-    degisimsa24=np.round(((((hareketlimasa["Aylık Ortalama"].iloc[-1])/hareketlimasa["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
 
     
     
@@ -688,12 +676,10 @@ if page=="Gıda Fiyat Endeksi":
     year=datetime.now().year
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
-    seasonal_adjuested1=pd.DataFrame(seasonal_adjuested.copy())
-    seasonal_adjuested1["Tarih"]=pd.to_datetime(seasonal_adjuested1.index)
-    ay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == monthh]
-    oncekiay_datasa = seasonal_adjuested1[seasonal_adjuested1['Tarih'].dt.month == onceki]
+  
+   
 
-    aybasısonusa=((ay_datasa.iloc[-1,0]/oncekiay_datasa.iloc[-1,0])-1)*100
+   
 
    
     if selected_group!="Gıda":
@@ -833,7 +819,7 @@ if page=="Gıda Fiyat Endeksi":
         gfe["Tarih"]=pd.to_datetime(gfe.index)
         sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
         gfe = gfe[sira]
-        gfe["Adjusted"]=gfe_sa
+       
         excel_data2 = to_excel(gfe)
 
         aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc["2024-12-31":].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
