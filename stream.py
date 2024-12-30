@@ -685,7 +685,7 @@ if page=="Gıda Fiyat Endeksi":
     import pytz
     turkey_tz = pytz.timezone('Europe/Istanbul')
     monthh = datetime.now(tz=turkey_tz).month
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
     onceki=onceki.month
     year=datetime.now().year
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
