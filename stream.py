@@ -437,7 +437,7 @@ if page=="Gıda Fiyat Endeksi":
     import pytz
     turkey_tz = pytz.timezone('Europe/Istanbul')
     month = datetime.now(tz=turkey_tz).month
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
     onceki=onceki.month
     year=datetime.now().year
 
@@ -553,7 +553,7 @@ if page=="Gıda Fiyat Endeksi":
     import pytz
     turkey_tz = pytz.timezone('Europe/Istanbul')
     month = datetime.now(tz=turkey_tz).month
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
     onceki=onceki.month
     year=datetime.now().year
 
@@ -1155,7 +1155,7 @@ if page=="Harcama Grupları":
     month=months.get(ay)
     year=datetime.now().year
     from datetime import timedelta
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=30)
+    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
     onceki=onceki.month
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
