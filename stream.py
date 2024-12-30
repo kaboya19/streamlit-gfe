@@ -1076,15 +1076,14 @@ if page=="Harcama Grupları":
     harcamam=weighted_indices.copy()
     harcamam["Web-GFE"]=gfe["GFE"]
 
-    indice_sa=pd.read_csv("indice_sa.csv",index_col=0)
-    indice_sa.index=pd.to_datetime(indice_sa.index)
+   
     
 
     selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
 
 
     selected_indice_data=weighted_indices[selected_indice]
-    selected_indice_datasa=indice_sa[selected_indice]
+ 
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Fiyat Endeksi</h2>", unsafe_allow_html=True)
 
@@ -1092,9 +1091,7 @@ if page=="Harcama Grupları":
     last=selected_indice_data.index[-1].strftime("%d.%m.%Y")
 
     toplam=np.round((((selected_indice_data[-1])/selected_indice_data[0])-1)*100,2)
-    toplamsa=np.round((((selected_indice_datasa[-1])/selected_indice_datasa[0])-1)*100,2)
     aylık=np.round(((selected_indice_data.resample('M').mean().iloc[-1]/selected_indice_data.resample('M').mean().iloc[-2])-1)*100,2)
-    aylıksa=np.round(((selected_indice_datasa.resample('M').mean().iloc[-1]/selected_indice_datasa.resample('M').mean().iloc[-2])-1)*100,2)
     degisim30=np.round(selected_indice_data.pct_change(30).iloc[-1]*100,2)
     artıs30harcama=np.round(selected_indice_data.pct_change(30).dropna()*100,2)
 
@@ -1128,7 +1125,6 @@ if page=="Harcama Grupları":
     hareketlimaharcama["Aylık Ortalama"]=hareketlimaharcama["Aylık Ortalama"].fillna(method="ffill")
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
 
-    hareketlimaharcama_sa = hareketli_aylik_ortalama(selected_indice_datasa)
     hareketlimaharcama_sa["Aylık Ortalama"]=hareketlimaharcama_sa["Aylık Ortalama"].fillna(method="ffill")
 
     from datetime import datetime,timedelta
@@ -1166,14 +1162,12 @@ if page=="Harcama Grupları":
     grouped=grouped.astype(float)
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
-    aylıkortharcamasa=selected_indice_datasa.resample('M').mean()
     aylıkortharcama.loc["2024-10-31"]=selected_indice_data.loc["2024-10-12"]
     aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/selected_indice_data.resample('M').mean().loc[f"2024-{onceki}"].iloc[0]))-1)*100,2)
     degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
 
 
-    degisim24sa=np.round(((((hareketlimaharcama_sa["Aylık Ortalama"].iloc[-1])/hareketlimaharcama_sa["Aylık Ortalama"].loc[f"{year}-{onceki}-24"]))-1)*100,2)
     
     
 
