@@ -1064,6 +1064,7 @@ if page=="Harcama Grupları":
 
     # Drop 'Toplam_Ağırlık' for display purposes
     weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
+    weighted_indices.index=pd.to_datetime(weighted_indices.index)
     cols=weighted_indices.columns
     gfe=pd.read_csv("gfe.csv")
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
