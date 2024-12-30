@@ -1063,9 +1063,7 @@ if page=="Harcama Grupları":
         weighted_sums[col] = weighted_sums[col] / weighted_sums['Toplam_Ağırlık']
 
     # Drop 'Toplam_Ağırlık' for display purposes
-    weighted_indices = weighted_sums.drop(columns=['Toplam_Ağırlık'])
-
-    weighted_indices=weighted_indices.T
+    weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
     cols=weighted_indices.iloc[0,:]
     weighted_indices.columns=cols
     weighted_indices=weighted_indices.iloc[1:,:]
