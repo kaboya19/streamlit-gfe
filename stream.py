@@ -1125,7 +1125,6 @@ if page=="Harcama Grupları":
     hareketlimaharcama["Aylık Ortalama"]=hareketlimaharcama["Aylık Ortalama"].fillna(method="ffill")
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
 
-    hareketlimaharcama_sa["Aylık Ortalama"]=hareketlimaharcama_sa["Aylık Ortalama"].fillna(method="ffill")
 
     from datetime import datetime,timedelta
     turkey_tz = pytz.timezone('Europe/Istanbul')
