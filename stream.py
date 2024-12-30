@@ -121,7 +121,92 @@ if page=="Metodoloji Notu":
 
 if page=="Bültenler":
      
-     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024"])
+     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024","Aralık 2024"])
+     if bülten=="Aralık 2024":
+        with open("Aralık24.pdf", "rb") as file:
+            pdf_data = file.read()
+
+        st.download_button(
+            label="📄 Bülteni PDF olarak indir",
+            data=pdf_data,
+            file_name="Web_Gida_Fiyat_Endeksi_Aralik24Bulteni.pdf",
+            mime="application/pdf"
+    )
+
+        
+
+        # Başlık
+        st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık 2024 Bülteni</span>", unsafe_allow_html=True)
+
+        # Alt başlık
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık'ta %3,41 arttı</span>", unsafe_allow_html=True)
+
+        st.markdown("""
+        *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
+
+        """)
+
+        st.image("grafikler/gfe_24-12-2024.png")
+
+        # Açıklama paragrafı
+        st.markdown("""
+        Web Gıda Fiyat Endeksi Aralık'ta %3,41 artış kaydederken mevsimsellikten arındırılmış artış %2,85 oldu.
+        Sepette ağırlığı en yüksek ürünlere bakıldığında:
+        - **Domates**: -%3,32 azalırken
+        - **Ayçiçek Yağı**: %4,42
+        - **Kuzu Eti**: %4,76
+        - **Ekmek**: %3,67
+        - **Dana Eti**: %3,43
+        - **Yumurta**: %5,97
+        - **Tavuk Eti**: %0,29 artış kaydetti.""")
+
+        # İlk resim ekleme
+        st.image("grafikler/aylıkdegisim_24-12-2024.png")
+
+        
+
+        # İkinci resim ekleme
+        st.image("grafikler/gruplar_24-12-2024.png")
+
+        # Ek görseller
+        st.image("grafikler/harcamasa24-12-2024.png")
+        st.image("grafikler/meyvesebze_24-12-2024.png")
+        st.image("grafikler/haric_24-12-2024.png")
+        st.image("grafikler/birim_24-12-2024.png")
+        st.image("grafikler/birimdüşen_24-12-2024.png")
+        st.image("grafikler/kümülatif_24-12-2024.png")
+
+        st.markdown("""
+        Mevsimsellikten arındırılmış olarak fiyat değişimlerinin ortalaması %2,72 ve medyan artış %2,80 olmuştur.
+        Meyve ve Sebze hariç fiyat artışı %2,85 ile manşet ile aynı seviyededir.
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %2,50 artmıştır
+        """)
+
+        st.image("grafikler/egilim_24-12-2024.png")
+
+        # Verisetine erişim bilgisi
+        st.markdown("""
+        Gıda Fiyat Endeksi ile ilgili tüm verisetlerine [https://web-gfe.streamlit.app](https://web-gfe.streamlit.app) sitesinden ulaşabilir ve indirebilirsiniz.
+        """)
+
+        # Küçük boyutta uyarı metni
+        st.markdown("""
+        <small>*Bu bültenin bir sonraki yayınlanma tarihi 24 Ocak 2025'tir. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
+        *TÜİK’in hesaplamasıyla uyumlu olması açısından Aralık ayının ilk 24 günündeki veriler dikkate alınmıştır.*</small>
+        """, unsafe_allow_html=True)
+
+        # Hazırlayan bilgisi
+        st.markdown("""
+        **Hazırlayan**  
+        Bora Kaya  
+        
+        """)
+
+
+
+
+
+
      if bülten=="Kasım 2024":
         with open("Kasım24.pdf", "rb") as file:
             pdf_data = file.read()
@@ -429,26 +514,8 @@ if page=="Gıda Fiyat Endeksi":
             marker=dict(size=8, color="black")
         ))
     
-    if selected_group=="Gıda":
-         figgalt.add_trace(go.Scatter(
-            x=gfe_sa.index,
-            y=gfe_sa.values,
-            mode='lines+markers',
-            name="Mevsimsel Düzeltilmiş",
-            line=dict(color='red', width=4),
-            marker=dict(size=8, color="orange")
-        ))
-         
-    elif selected_group!="Gıda":
-
-        figgalt.add_trace(go.Scatter(
-                x=seasonal_adjuested.index,
-                y=seasonal_adjuested.values,
-                mode='lines+markers',
-                name="Mevsimsel Düzeltilmiş",
-                line=dict(color='red', width=4),
-                marker=dict(size=8, color="orange")
-            ))
+   
+   
 
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
@@ -633,10 +700,9 @@ if page=="Gıda Fiyat Endeksi":
 
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{np.round(seasonal_adjuested_ekim.iloc[-1],2)})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{ monthly}(Mevsimsel Düzeltilmiş:%{seasonal_adjusted_last})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%{np.round(aybasısonusa,2)})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{degisimsa24})</span><br>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
                 Güncelleme Tarihi: {tarih}
@@ -652,12 +718,11 @@ if page=="Gıda Fiyat Endeksi":
    
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}(Mevsimsel Düzeltilmiş:%{float(np.round(gfe_sa_ekim.iloc[-1],2).astype(float))})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{monthly}(Mevsimsel Düzeltilmiş:%{float(gfe_sa_last)})</span><br>
-                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}(Mevsimsel Düzeltilmiş:%{np.round(aybasısonusa,2)})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:%{float(degisimsa24)})</span><br>
-                <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span><br>
-                <span style='font-size:15px;'>24 günlük değişim TÜİK'in hesabına uygun olarak ilk 24 günlük ortalamayı önceki ayın ortalamasıyla kıyaslamaktadır.</span>
+                {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
+                {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ degisim24}</span><br>
+                <span style='font-size:15px;'>*Aylık değişim 24 günlük ortalamalara göre hesaplanmaktadır.</span><br>
+                
 
                 Güncelleme Tarihi: {tarih}
             </h3>
@@ -675,37 +740,9 @@ if page=="Gıda Fiyat Endeksi":
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg30)
     
-    birim=pd.read_csv("birim.csv",index_col=0)
-    birim.index=pd.to_datetime(birim.index)
+  
     
-    if selected_group!="Gıda":
-        selected_birim=birim[selected_group]
-        figgbirim = go.Figure()
-        figgbirim.add_trace(go.Scatter(
-                x=selected_birim.index[0:],
-                y=np.round(selected_birim.values,2),
-                mode='lines+markers',
-                name="Birim Fiyat",
-                line=dict(color='blue', width=4),
-                marker=dict(size=8, color="black")
-            ))
-        
-        figgbirim.update_layout(
-                xaxis=dict(
-                    tickvals=selected_birim.index[::3],  # Original datetime index
-                    ticktext=selected_birim.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
-                    tickfont=dict(size=14, family="Arial Black", color="black")
-                ),
-                yaxis=dict(
-                    tickfont=dict(size=14, family="Arial Black", color="black")
-                ),
-                font=dict(family="Arial", size=14, color="black")
-            )
-    if selected_group!="Gıda":
-        
-        st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Birim Fiyatı </h2>", unsafe_allow_html=True)
-        st.plotly_chart(figgbirim)
-
+    
     
 
 
@@ -736,12 +773,7 @@ if page=="Gıda Fiyat Endeksi":
     fiyatlar=fiyatlar.sort_index()
     fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
     excel_data = to_excel(fiyatlar)
-    birim["Tarih"]=birim.index
-    sira = ['Tarih'] + [col for col in birim.columns if col != 'Tarih']
-
-
-    birim = birim[sira]
-    excel_databirim = to_excel(birim)
+    
 
     #data=data.drop("Grup",axis=1)
     data.index.name=""
@@ -864,12 +896,7 @@ if page=="Gıda Fiyat Endeksi":
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
-        st.download_button(
-            label="📊 Birim Fiyatları İndir",
-            data=excel_databirim,
-            file_name='birim.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+        
 
         st.download_button(
             label="📊 Web-GFE Aylık Değişim Oranlarını İndir",
@@ -919,7 +946,7 @@ if page=="Gıda Fiyat Endeksi":
         
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
-        st.dataframe(fiyat)
+        st.dataframe(fiyat.drop("Değişim",axis=1))
 
 if page=="Madde Endeksleri":
     def to_excel(df):
@@ -1169,9 +1196,8 @@ if page=="Harcama Grupları":
 
     st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
-                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}(Mevsimsel Düzeltilmiş:% {toplamsa})</span><br>
-                {month} Değişimi: <span style='color:red;'>%{aylık}(Mevsimsel Düzeltilmiş:% {aylıksa})</span><br>
-                24 Günlük Değişim: <span style='color:red;'>%{ degisim24}(Mevsimsel Düzeltilmiş:% {degisim24sa})</span><br>
+                {first} - {last} Değişimi: <span style='color:red;'>%{toplam}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
             </h3>
             """, unsafe_allow_html=True)
@@ -1226,15 +1252,7 @@ if page=="Harcama Grupları":
             marker=dict(size=8, color="black")
         ))
     
-    figggrup.add_trace(go.Scatter(
-            x=selected_indice_datasa.index[0:],
-            y=selected_indice_datasa.values,
-            
-            mode='lines+markers',
-            name='Mevsimsel Düzeltilmiş',
-            line=dict(color='red', width=4),
-            marker=dict(size=8, color="orange")
-        ))
+
     
     
 
