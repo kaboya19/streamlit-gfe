@@ -1064,10 +1064,7 @@ if page=="Harcama Grupları":
 
     # Drop 'Toplam_Ağırlık' for display purposes
     weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
-    cols=weighted_indices.iloc[0,:]
-    weighted_indices.columns=cols
-    weighted_indices=weighted_indices.iloc[1:,:]
-    weighted_indices=weighted_indices.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(weighted_indices)))
+    cols=weighted_indices.columns
     gfe=pd.read_csv("gfe.csv")
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe=gfe.drop("Tarih",axis=1)
@@ -1077,7 +1074,7 @@ if page=="Harcama Grupları":
    
     
 
-    selected_indice = st.sidebar.selectbox("Grup Seçin:", weighted_indices.columns)
+    selected_indice = st.sidebar.selectbox("Grup Seçin:", cols)
 
 
     selected_indice_data=weighted_indices[selected_indice]
