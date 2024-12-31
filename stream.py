@@ -435,11 +435,18 @@ if page=="Gıda Fiyat Endeksi":
     selected_group_monthlyfull=selected_group_data.resample('M').last()
     from datetime import datetime,timedelta
     import pytz
-    turkey_tz = pytz.timezone('Europe/Istanbul')
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
+    """turkey_tz = pytz.timezone('Europe/Istanbul')
     month = datetime.now(tz=turkey_tz).month
     onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
     onceki=onceki.month
-    year=datetime.now().year
+    year=datetime.now().year"""
 
         # İlk ve son tarihleri belirleme
     first_date = selected_group_data.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
@@ -683,12 +690,22 @@ if page=="Gıda Fiyat Endeksi":
     month=months.get(ay)
     from datetime import datetime,timedelta
     import pytz
-    turkey_tz = pytz.timezone('Europe/Istanbul')
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    monthh = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1]    
+    
+    """turkey_tz = pytz.timezone('Europe/Istanbul')
     monthh = datetime.now(tz=turkey_tz).month
     onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
     onceki=onceki.month
-    year=datetime.now().year
+    year=datetime.now().year"""
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
+
+      
 
   
    
