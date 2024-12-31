@@ -442,11 +442,7 @@ if page=="Gıda Fiyat Endeksi":
     month = gfe1["Ay"].iloc[-1]
     onceki=gfe1["Ay"].iloc[-32]
     year=gfe1["Yıl"].iloc[-1] 
-    """turkey_tz = pytz.timezone('Europe/Istanbul')
-    month = datetime.now(tz=turkey_tz).month
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
-    onceki=onceki.month
-    year=datetime.now().year"""
+   
 
         # İlk ve son tarihleri belirleme
     first_date = selected_group_data.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
@@ -558,11 +554,13 @@ if page=="Gıda Fiyat Endeksi":
     
     from datetime import datetime,timedelta
     import pytz
-    turkey_tz = pytz.timezone('Europe/Istanbul')
-    month = datetime.now(tz=turkey_tz).month
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
-    onceki=onceki.month
-    year=datetime.now().year
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
 
     monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
     
