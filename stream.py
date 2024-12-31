@@ -426,6 +426,8 @@ if page=="Gıda Fiyat Endeksi":
         
     selected_group_data = endeksler.loc[selected_group]
 
+   
+
     selected_group_data=pd.DataFrame(selected_group_data)
 
         # Datetime index'i atıyoruz
