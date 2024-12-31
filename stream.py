@@ -1061,20 +1061,7 @@ if page=="Harcama Grupları":
     ağırlıklar.columns=["Grup","Ağırlık"]
     endeksler=endeksler[cols]
     gruplar=pd.concat([ağırlıklar.reset_index().drop("index",axis=1),endeksler.T.reset_index().iloc[:,1:]],axis=1)
-    weighted_sums = gruplar.groupby('Grup').apply(lambda group: group.iloc[:, 2:].mul(group['Ağırlık'], axis=0).sum()).reset_index()
-
-    # Rename columns for clarity
-    weighted_sums.columns = ['Grup'] + [f'{col}_Toplam' for col in gruplar.columns[2:]]
-    # Calculate total weight for each group
-    total_weights = gruplar.groupby('Grup')['Ağırlık'].sum().reset_index()
-    total_weights.columns = ['Grup', 'Toplam_Ağırlık']
-
-    # Merge total weights with weighted sums
-    weighted_sums = pd.merge(weighted_sums, total_weights, on='Grup')
-
-    # Calculate indices for each date by dividing weighted sum by total weight
-    for col in weighted_sums.columns[1:-1]:  # Exclude 'Grup' and 'Toplam_Ağırlık'
-        weighted_sums[col] = weighted_sums[col] / weighted_sums['Toplam_Ağırlık']
+    
 
     # Drop 'Toplam_Ağırlık' for display purposes
     weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
