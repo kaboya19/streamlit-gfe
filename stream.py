@@ -670,7 +670,14 @@ if page=="Gıda Fiyat Endeksi":
 
     )
     turkey_tz = pytz.timezone('Europe/Istanbul')
-    ay = datetime.now(tz=turkey_tz).month
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    monthh = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1]  
+    ay = monthh
     
     months = {1:"Ocak",
               2:"Şubat",
