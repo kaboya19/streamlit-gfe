@@ -965,7 +965,10 @@ if page=="Gıda Fiyat Endeksi":
         
     else:
         st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
-        st.dataframe(fiyat.drop("Değişim",axis=1))
+        try:
+            st.dataframe(fiyat.drop("Değişim",axis=1))
+        except:
+             st.dataframe(fiyat)
 
 if page=="Madde Endeksleri":
     def to_excel(df):
