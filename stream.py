@@ -803,10 +803,10 @@ if page=="Gıda Fiyat Endeksi":
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
 
-    aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc["2024-12-31":].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
+    aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
     aylıklar=pd.DataFrame()
     aylıklar["Tarih"]=[pd.to_datetime("2024-11-30"),hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{ay}"].index[0]]
-    kasım=np.round(float(((hareketlima["Aylık Ortalama"].loc["2024-11-24"]/selected_group_data.loc["2024-10-12"].iloc[0])-1)*100),2)
+    kasım=np.round((((selected_group.loc["2024-11-30"]/selected_group.loc["2024-10-31"]))-1)*100,2)
     aylıklar["Aylık Değişim"]=[kasım,aylıkenf]
     aylıkenf=to_excel(aylıklar)
 
@@ -839,7 +839,8 @@ if page=="Gıda Fiyat Endeksi":
         aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc["2024-12-31":].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
         aylıklar=pd.DataFrame()
         aylıklar["Tarih"]=[pd.to_datetime("2024-11-30"),hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{ay}"].index[0]]
-        aylıklar["Aylık Değişim"]=[3.2,aylıkenf]
+        kasım=np.round((((selected_group.loc["2024-11-30"]/selected_group.loc["2024-10-31"]))-1)*100,2)
+        aylıklar["Aylık Değişim"]=[kasım,aylıkenf]
         aylıkenf=to_excel(aylıklar)
 
         endeksler1=pd.read_csv("endeksler.csv")
