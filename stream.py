@@ -703,11 +703,7 @@ if page=="Gıda Fiyat Endeksi":
     onceki=gfe1["Ay"].iloc[-32]
     year=gfe1["Yıl"].iloc[-1]    
     
-    """turkey_tz = pytz.timezone('Europe/Istanbul')
-    monthh = datetime.now(tz=turkey_tz).month
-    onceki=datetime.now(tz=turkey_tz)-timedelta(days=31)
-    onceki=onceki.month
-    year=datetime.now().year"""
+    
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
       
