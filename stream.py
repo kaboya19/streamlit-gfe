@@ -834,6 +834,10 @@ if page=="Gıda Fiyat Endeksi":
     aylıkenf=aylıkenf.sort_index()
     aylıkenf=pd.DataFrame(aylıkenf)
     aylıkenf.columns=["Aylık Değişim"]
+    aylıkenf["Tarih"]=pd.to_datetime(aylıkenf.index)
+    
+    aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
+    aylıkenf=aylıkenf[["Tarih","Aylık Değişim"]]
     aylıkenf=to_excel(aylıkenf)
 
     
@@ -870,6 +874,10 @@ if page=="Gıda Fiyat Endeksi":
         aylıkenf=aylıkenf.sort_index()
         aylıkenf=pd.DataFrame(aylıkenf)
         aylıkenf.columns=["Aylık Değişim"]
+        aylıkenf["Tarih"]=pd.to_datetime(aylıkenf.index)
+        
+        aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
+        aylıkenf=aylıkenf[["Tarih","Aylık Değişim"]]
         aylıkenf=to_excel(aylıkenf)
         
 
