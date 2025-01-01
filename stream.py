@@ -832,6 +832,8 @@ if page=="Gıda Fiyat Endeksi":
     kasım=np.round((((selected_group_data.iloc[:,0].loc["2024-11-30"]/selected_group_data.iloc[:,0].loc["2024-10-31"]))-1)*100,2)
     aylıkenf.loc["2024-11-30"]=kasım
     aylıkenf=aylıkenf.sort_index()
+    aylıkenf=pd.DataFrame(aylıkenf)
+    aylıkenf.columns=["Aylık Değişim"]
     aylıkenf=to_excel(aylıkenf)
 
     
@@ -866,8 +868,10 @@ if page=="Gıda Fiyat Endeksi":
         kasım=np.round((((selected_group_data.iloc[:,0].loc["2024-11-30"]/selected_group_data.iloc[:,0].loc["2024-10-31"]))-1)*100,2)
         aylıkenf.loc["2024-11-30"]=kasım
         aylıkenf=aylıkenf.sort_index()
+        aylıkenf=pd.DataFrame(aylıkenf)
+        aylıkenf.columns=["Aylık Değişim"]
         aylıkenf=to_excel(aylıkenf)
-        aylıkenf=to_excel(aylıkenf)
+        
 
         endeksler1=pd.read_csv("endeksler.csv")
         endeksler1=endeksler1.set_index("Ürün")
