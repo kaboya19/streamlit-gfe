@@ -705,7 +705,7 @@ if page=="Gıda Fiyat Endeksi":
     monthh = gfe1["Ay"].iloc[-1]
     onceki=gfe1["Ay"].iloc[-32]
     year=gfe1["Yıl"].iloc[-1]    
-    
+    oncekiyear=gfe1["Yıl"].iloc[-32]    
     
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
@@ -824,7 +824,7 @@ if page=="Gıda Fiyat Endeksi":
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
 
-    aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{onceki}"].iloc[0])-1)*100),2)
+    aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{oncekiyear}-{onceki}"].iloc[0])-1)*100),2)
     aylıklar=pd.DataFrame()
     aylıklar["Tarih"]=[pd.to_datetime("2024-11-30"),hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{ay}"].index[0]]
     kasım=np.round((((selected_group_data.iloc[:,0].loc["2024-11-30"]/selected_group_data.iloc[:,0].loc["2024-10-31"]))-1)*100,2)
