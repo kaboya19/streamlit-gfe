@@ -164,8 +164,8 @@ if page=="Bültenler":
         st.image("grafikler/meyvesebze_aralık.png")
         st.image("grafikler/haric_aralık.png")
         st.image("grafikler/harcamasaralık.png")
-        st.image("grafikler/özel_endeksler_02-01-2025.png")
-        st.image("grafikler/kümülatif_24-12-2024.png")
+        st.image("grafikler/özel_endeksler_aralık.png")
+        
 
         st.markdown("""
         Mevsimsellikten arındırılmış olarak Web-GFE %1,42 ve fiyat değişimlerinin ortalaması %2,82 ve medyan artış %1,72 olmuştur.
