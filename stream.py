@@ -252,7 +252,7 @@ if page=="Bültenler":
         # İkinci resim ekleme
         st.image("grafikler/gruplar_02-01-2025.png")
 
-        # Ek görseller
+        st.image("grafikler/özel_endeksler_02-01-2025.png")
         st.image("grafikler/ürünler_02-01-2025.png")
         st.image("grafikler/meyvesebze_02-01-2025.png")
         st.image("grafikler/haric_02-01-2025.png")
