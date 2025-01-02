@@ -152,7 +152,7 @@ if page=="Bültenler":
         - **Tavuk Eti**: %0,07 artış kaydetti.""")
 
         # İlk resim ekleme
-        st.image("grafikler/ürünler_aralık.png")
+        st.image("grafikler/ürünleraralık.png")
 
         
 
