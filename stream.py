@@ -208,8 +208,7 @@ if page=="Bültenler":
 
 
      if bülten=="Kasım 2024":
-        with open("Kasım24.pdf", "rb") as file:
-            pdf_data = file.read()
+        
 
         
 
