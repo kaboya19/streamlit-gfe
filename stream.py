@@ -211,12 +211,7 @@ if page=="Bültenler":
         with open("Kasım24.pdf", "rb") as file:
             pdf_data = file.read()
 
-        st.download_button(
-            label="📄 Bülteni PDF olarak indir",
-            data=pdf_data,
-            file_name="Web_Gida_Fiyat_Endeksi_KasimBulteni.pdf",
-            mime="application/pdf"
-    )
+        
 
         
 
@@ -224,7 +219,7 @@ if page=="Bültenler":
         st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım 2024 Bülteni</span>", unsafe_allow_html=True)
 
         # Alt başlık
-        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım’da %3,20 arttı</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım’da %5,32 arttı</span>", unsafe_allow_html=True)
 
         st.markdown("""
         *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
@@ -233,41 +228,45 @@ if page=="Bültenler":
 
         # Açıklama paragrafı
         st.markdown("""
-        Web Gıda Fiyat Endeksi Kasım’da %3,20 artış kaydederken mevsimsellikten arındırılmış artış %3,13 oldu.
+        Web Gıda Fiyat Endeksi Kasım’da %5,32 artış kaydederken mevsimsellikten arındırılmış artış %3,13 oldu.
         Sepette ağırlığı en yüksek ürünlere bakıldığında:
-        - **Domates**: %22,7
-        - **Ayçiçek Yağı**: %6,17
-        - **Kuzu Eti**: %3,8
-        - **Ekmek**: %3,89
-        - **Dana Eti**: %2,71
-        - **Yumurta**: %2,59
-        - **Tavuk Eti**: %0,94 artış kaydetti.
+        - **Domates**: %7,35
+        - **Ayçiçek Yağı**: %6,36
+        - **Kuzu Eti**: %8,85
+        - **Ekmek**: %4,37
+        - **Dana Eti**: %4,84
+        - **Yumurta**: %7,28
+        - **Tavuk Eti**: %3,47 artış kaydetti.
 
-        Fiyatı en çok artan ve azalan ürünlere bakıldığında: **Patlıcan**, **Kırmızı Lahana**, **Ispanak**, **Dereotu** ve **Karnabahar** artış olarak; **Beyaz Lahana**, **Pırasa**, **Dolmalık Biber**, **Limon** ve **Tahin Helvası** ise en çok azalanlarda öne çıkmaktadır.
+        a
         """)
 
         # İlk resim ekleme
-        st.image("grafikler/gfe1.png")
+        st.image("grafikler/gfe_02-01-2025.png")
 
         # Harcama gruplarına ilişkin analiz
         st.markdown("""
         Harcama gruplarına bakıldığında **Taze Sebze** grubunun önemli ölçüde endeksi yukarı taşıdığı görülmektedir. 
-        Bu bağlamda %3,2 artış yaşanan endekse Taze Sebze grubu endekse 1,54 puan katkı yapmıştır.
+        Bu bağlamda %5,32 artış yaşanan endekse Taze Sebze grubu endekse 1,47 puan katkı yapmıştır.
         """)
 
         # İkinci resim ekleme
-        st.image("grafikler/harcama1.png")
+        st.image("grafikler/gruplar_02-01-2025.png")
 
         # Ek görseller
-        st.image("grafikler/ürünler1.png")
-        st.image("grafikler/birim1.png")
+        st.image("grafikler/ürünler_02-01-2025.png")
+        st.image("grafikler/meyvesebze_02-01-2025.png")
+        st.image("grafikler/haric_02-01-2025.png")
+        st.image("grafikler/harcamasa02-01-2025.png")
 
         st.markdown("""
-        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %2,31 ve medyan artış %1,61 olmuştur.
-        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,53 artmıştır.
+        Mevsimsel düzeltilmiş ana eğilim göstergelerine bakıldığında düzeltilmiş olarak Web-GFE %4,41 artarken,
+        Taze Meyve/Sebze hariç fiyat artışı %5,06 olmuştur.
+        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %4,17 ve medyan artış %3,59 olmuştur.
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %3,33 artmıştır.
         """)
 
-        st.image("grafikler/satrim1.png")
+        st.image("grafikler/egilim_02-01-2025.png")
 
         # Verisetine erişim bilgisi
         st.markdown("""
@@ -276,7 +275,7 @@ if page=="Bültenler":
 
         # Küçük boyutta uyarı metni
         st.markdown("""
-        <small>*Bu bültenin bir sonraki yayınlanma tarihi 1 Ocak 2025'tir. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
+        <small>*Bu bültenin bir sonraki yayınlanma tarihi 24 Aralık 2024'tir. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
         *TÜİK’in hesaplamasıyla uyumlu olması açısından Kasım ayının ilk 24 günündeki veriler dikkate alınmıştır.*</small>
         """, unsafe_allow_html=True)
 
