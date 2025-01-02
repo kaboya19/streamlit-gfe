@@ -227,7 +227,7 @@ if page=="Bültenler":
 
         # Açıklama paragrafı
         st.markdown("""
-        Web Gıda Fiyat Endeksi Kasım’da %5,32 artış kaydederken mevsimsellikten arındırılmış artış %3,13 oldu.
+        Web Gıda Fiyat Endeksi Kasım’da %5,32 artış kaydederken mevsimsellikten arındırılmış artış %4,31 oldu.
         Sepette ağırlığı en yüksek ürünlere bakıldığında:
         - **Domates**: %7,35
         - **Ayçiçek Yağı**: %6,36
