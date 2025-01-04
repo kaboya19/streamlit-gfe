@@ -81,14 +81,11 @@ if page=="Metodoloji Notu":
 
     # Hesaplama Kuralları
     st.subheader("Hesaplama Kuralları")
-    st.write("""
-    Endeks hesaplanırken, öncelikle her bir madde için günlük olarak fiyatlar toplanmakta, her gün sonunda önceki güne göre yüzde değişimi alınarak, bu değişimlerin o ürün bazında ortalaması alınıp üründe yaşanan ortalama günlük fiyat değişimi belirlenmektedir. 
-    Sonrasında bu değişim önceki günün endeksine eklenerek yeni endeks seviyesi hesaplanmaktadır. (Örneğin, bir üründe baz endeks 100 seçildiğinde, ertesi günde ortalama değişim %2 olursa yeni endeks 102 olmaktadır.)
-
-    Her bir madde için endeks seviyeleri hesaplandıktan sonra bu endeksler madde ağırlıklarıyla çarpılarak ağırlıklı endeks oluşturulur ve bunlar toplanarak Web Gıda Fiyat Endeksi’nin değeri hesaplanır.
-
-    Günlük olarak elde edilen W-GFE’nin ay içindeki ortalaması alınarak, önceki ayın ortalamasıyla kıyaslanır ve aylık enflasyon bulunur.
-    """)
+    st.image("1.png")
+    st.image("2.png")
+    st.image("3.png")
+    st.image("4.png")
+    st.image("5.png")
 
     # Mevsimsel Düzeltme
     st.subheader("Mevsimsel Düzeltme")
