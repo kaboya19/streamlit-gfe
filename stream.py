@@ -895,6 +895,9 @@ if page=="Gıda Fiyat Endeksi":
 
 
         endeksler = endeksler[sira]
+        endeksler=endeksler.T.iloc[1:]
+        endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+        endeksler.index=endeksler.index.strftime("%Y-%m-%d")
         
         excel_data1 = to_excel(endeksler.drop("Gıda",axis=0))
         gfe["Tarih"]=pd.to_datetime(gfe.index)
