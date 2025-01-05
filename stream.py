@@ -758,12 +758,21 @@ if page=="Gıda Fiyat Endeksi":
     # Tarihleri belirli bir formatta alıyoruz
     formatted_dates = gfe.index.strftime("%d.%m.%Y")  # "06.10.2024" formatında
     def to_excel(df):
-            output = BytesIO()
-            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
-            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
-            processed_data = output.getvalue()  # Bellekteki dosya verisini al
-            return processed_data
+        output = BytesIO()
+        # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            
+            # Writer'dan Workbook ve Worksheet nesnelerine erişim
+            workbook = writer.book
+            worksheet = writer.sheets['Sheet1']
+            
+            # Sütun genişliklerini ayarla
+            for i, col in enumerate(df.columns):
+                max_length = max(df[col].astype(str).map(len).max(), len(col))  # En uzun değer veya sütun adı uzunluğu
+                worksheet.set_column(i, i, max_length + 2)  # +2 biraz boşluk ekler
+        processed_data = output.getvalue()  # Bellekteki dosya verisini al
+        return processed_data
 
     data=pd.read_csv("sepet.csv")
     try:
@@ -804,12 +813,21 @@ if page=="Gıda Fiyat Endeksi":
     endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
 
     def to_excel(df):
-            output = BytesIO()
-            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
-            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
-            processed_data = output.getvalue()  # Bellekteki dosya verisini al
-            return processed_data
+        output = BytesIO()
+        # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            
+            # Writer'dan Workbook ve Worksheet nesnelerine erişim
+            workbook = writer.book
+            worksheet = writer.sheets['Sheet1']
+            
+            # Sütun genişliklerini ayarla
+            for i, col in enumerate(df.columns):
+                max_length = max(df[col].astype(str).map(len).max(), len(col))  # En uzun değer veya sütun adı uzunluğu
+                worksheet.set_column(i, i, max_length + 2)  # +2 biraz boşluk ekler
+        processed_data = output.getvalue()  # Bellekteki dosya verisini al
+        return processed_data
 
     aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{oncekiyear}-{onceki}"].iloc[0])-1)*100),2)
     aylıkenf=np.round(hareketlima["Aylık Ortalama"].resample("M").last().pct_change()*100,2).dropna().iloc[1:]
@@ -836,6 +854,15 @@ if page=="Gıda Fiyat Endeksi":
             # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
             with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
                 df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+                
+                # Writer'dan Workbook ve Worksheet nesnelerine erişim
+                workbook = writer.book
+                worksheet = writer.sheets['Sheet1']
+                
+                # Sütun genişliklerini ayarla
+                for i, col in enumerate(df.columns):
+                    max_length = max(df[col].astype(str).map(len).max(), len(col))  # En uzun değer veya sütun adı uzunluğu
+                    worksheet.set_column(i, i, max_length + 2)  # +2 biraz boşluk ekler
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
         
@@ -1084,12 +1111,21 @@ if page=="Gıda Fiyat Endeksi":
 
 if page=="Madde Endeksleri":
     def to_excel(df):
-            output = BytesIO()
-            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
-            with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
-            processed_data = output.getvalue()  # Bellekteki dosya verisini al
-            return processed_data
+        output = BytesIO()
+        # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+            
+            # Writer'dan Workbook ve Worksheet nesnelerine erişim
+            workbook = writer.book
+            worksheet = writer.sheets['Sheet1']
+            
+            # Sütun genişliklerini ayarla
+            for i, col in enumerate(df.columns):
+                max_length = max(df[col].astype(str).map(len).max(), len(col))  # En uzun değer veya sütun adı uzunluğu
+                worksheet.set_column(i, i, max_length + 2)  # +2 biraz boşluk ekler
+        processed_data = output.getvalue()  # Bellekteki dosya verisini al
+        return processed_data
     def hareketli_aylik_ortalama(df):
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
