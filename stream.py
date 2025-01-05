@@ -756,8 +756,8 @@ if page=="Gıda Fiyat Endeksi":
 
         figgalt.add_trace(
     go.Scatter(
-        x=gfe.index,
-        y=gfe["TÜİK"].values,
+        x=gfe.loc["2024-11-01":].index,
+        y=gfe.loc["2024-11-01":]["TÜİK"].values,
         mode="lines",
         line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
         name="TÜİK Gıda",
