@@ -849,6 +849,9 @@ if page=="Gıda Fiyat Endeksi":
 
     
     if selected_group == "Gıda":
+        from io import BytesIO
+        import pandas as pd
+
         def to_excel(df):
             output = BytesIO()
             # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
@@ -859,12 +862,22 @@ if page=="Gıda Fiyat Endeksi":
                 workbook = writer.book
                 worksheet = writer.sheets['Sheet1']
                 
-                # Sütun genişliklerini ayarla
+                # Tarih sütunu için özel genişlik ayarı
+                date_columns = df.select_dtypes(include=['datetime64']).columns
+                for col in date_columns:
+                    col_idx = df.columns.get_loc(col)
+                    worksheet.set_column(col_idx, col_idx, 20)  # Tarih sütunu için sabit genişlik
+                
+                # Diğer sütun genişliklerini otomatik ayarla
                 for i, col in enumerate(df.columns):
-                    max_length = max(df[col].astype(str).map(len).max(), len(col))  # En uzun değer veya sütun adı uzunluğu
-                    worksheet.set_column(i, i, max_length + 2)  # +2 biraz boşluk ekler
+                    max_length = max(
+                        df[col].astype(str).map(len).max(), 
+                        len(col)
+                    )
+                    worksheet.set_column(i, i, max_length + 2)  # Biraz boşluk ekle
             processed_data = output.getvalue()  # Bellekteki dosya verisini al
             return processed_data
+
         
         
 
