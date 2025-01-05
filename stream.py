@@ -1069,7 +1069,7 @@ if page=="Gıda Fiyat Endeksi":
             weighted_indices[col]=weighted_indices[col].astype(float)
             weighted_indices[col]=np.round(weighted_indices[col],2)
 
-        weighted_indices_data=to_excel(weighted_indices[col])
+        weighted_indices_data=to_excel(weighted_indices)
 
 
                 
