@@ -908,7 +908,7 @@ if page=="Gıda Fiyat Endeksi":
         for col in endeksler.columns[1:]:
             endeksler[col]=endeksler[col].astype(float)
             endeksler[col]=np.round(endeksler[col],2)
-            
+
         
         excel_data1 = to_excel(endeksler.drop("Gıda",axis=1))
         gfe["Tarih"]=pd.to_datetime(gfe.index)
@@ -1060,11 +1060,11 @@ if page=="Gıda Fiyat Endeksi":
         özelgöstergeler=to_excel(özelgöstergeler)
 
 
-        weighted_indices["Tarih"]=pd.to_datetime(weighted_indices.index)
+        weighted_indices["Tarih"]=weighted_indices.index.strftime("%Y-%m-%d")
         column_to_move = 'Tarih'
         cols = ["Tarih"] + [col for col in weighted_indices.columns if col != column_to_move]
         weighted_indices = weighted_indices[cols]
-        weighted_indices["Tarih"]=weighted_indices["Tarih"].strftime("%Y-%m-%d")
+        
         for col in weighted_indices.columns[1:]:
             weighted_indices[col]=weighted_indices[col].astype(float)
             weighted_indices[col]=np.round(weighted_indices[col],2)
