@@ -746,13 +746,14 @@ if page=="Gıda Fiyat Endeksi":
         tüik_aylık=pd.DataFrame(tüik_aylık,columns=["TÜİK"])
         tüik_aylık=np.cumprod(tüik_aylık)*100
         tüik_aylık["Tarih"]=gıda_c["Tarih"]
+        st.dataframe(tüik_aylık)
 
         figgalt.add_trace(
     go.Scatter(
         x=tüik_aylık["Tarih"],
         y=tüik_aylık["TÜİK"],
         mode="lines+markers",
-        line=dict(color="red", width=4),  # 'hv' yatay-dikey step grafiği
+        line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
         name="TÜİK Gıda",
         marker=dict(size=8, color="black")
     )
