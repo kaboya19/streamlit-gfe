@@ -847,7 +847,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıkenf.loc["2024-12-31"]=aralık
     aylıkenf=aylıkenf.sort_index()
     aylıkenf=pd.DataFrame(aylıkenf)
-    aylıkenf.columns=["Aylık Değişim1"]
+    aylıkenf.columns=["Aylık Değişim"]
     aylıkenf["Tarih"]=pd.to_datetime(aylıkenf.index)
     
     aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
@@ -857,7 +857,7 @@ if page=="Gıda Fiyat Endeksi":
     
     if selected_group == "Gıda":
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
-        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf["Aylık Değişim1"]],axis=1)
+        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
         
         fig_tüik = go.Figure()
 
