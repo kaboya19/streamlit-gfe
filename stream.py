@@ -752,7 +752,7 @@ if page=="Gıda Fiyat Endeksi":
         gfe.index=pd.to_datetime(gfe.index)
         gfe["TÜİK"]=tüik_aylık["TÜİK"]
         gfe=gfe.fillna(method="ffill")
-        gfe=gfe.fillna(method="bfill")
+        gfe=gfe.fillna(100)
 
         figgalt.add_trace(
     go.Scatter(
