@@ -902,6 +902,7 @@ if page=="Gıda Fiyat Endeksi":
                 y=aylık_endeksler["TÜİK"],
                 mode='lines+markers',
                 name="TÜİK",
+                line=dict(color='blue', width=4),
                 marker=dict(size=8, color="black"),
 
                 textfont=dict(
@@ -914,6 +915,7 @@ if page=="Gıda Fiyat Endeksi":
                 x=aylık_endeksler["Tarih"],
                 y=aylık_endeksler["Web-GFE"],
                 mode='lines+markers',
+                line=dict(color='red', width=4),
                 name="Web-GFE",
                 marker=dict(size=8, color="black"),
 
