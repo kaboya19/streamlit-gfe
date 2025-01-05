@@ -758,7 +758,7 @@ if page=="Gıda Fiyat Endeksi":
     go.Scatter(
         x=gfe.index,
         y=gfe["TÜİK"].values,
-        mode="lines+markers",
+        mode="lines",
         line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
         name="TÜİK Gıda",
         marker=dict(size=8, color="black")
