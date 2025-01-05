@@ -873,26 +873,49 @@ if page=="Gıda Fiyat Endeksi":
         x=gıda_c["Tarih"],
         y=gıda_c["Aylık Değişim"],
         name="TÜİK",
-        marker_color='blue'
+        marker=dict(color='blue'),
+        text=gıda_c["Aylık Değişim"],  # Değerleri göster
+        textposition='outside',  # Değerleri barların üstünde göster
+        textfont=dict(color='black', size=12, family='Arial', weight='bold')
     ))
-        fig_tüik.add_trace(go.Bar(
-        x=gıda_c["Tarih"],
-        y=gıda_c["Aylık Değişim1"],
-        name="Web-GFE",
-        marker_color='red'
-    ))
-        fig_tüik.update_layout(xaxis=dict(
-            tickmode='array',
-            tickvals=gıda_c["Tarih"],
-            ticktext=ticktext,  # Set Turkish month names
-            tickangle=-45,
-            tickfont=dict(size=15, color="black", family="Arial")
-        ),
 
-        barmode='group',
-        legend=dict(font=dict(size=15)),
-        yaxis=dict(tickfont=dict(size=15, color="black", family="Arial"))
-    )
+    # Web-GFE Verileri
+        fig_tüik.add_trace(go.Bar(
+            x=gıda_c["Tarih"],
+            y=gıda_c["Aylık Değişim1"],
+            name="Web-GFE",
+            marker=dict(color='red'),
+            text=gıda_c["Aylık Değişim1"],  # Değerleri göster
+            textposition='outside',  # Değerleri barların üstünde göster
+            textfont=dict(color='black', size=12, family='Arial', weight='bold')
+        ))
+
+    # Grafik Düzeni ve Eksen Ayarları
+        fig_tüik.update_layout(
+            barmode='group',  # Barlar gruplanmış şekilde gösterilir
+            title=dict(
+                text="TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+                font=dict(size=18, color="black", family="Arial")
+            ),
+            xaxis=dict(
+                tickmode='array',
+                tickvals=gıda_c["Tarih"],
+                ticktext=ticktext,  # Ay isimlerini göster
+                tickangle=-45,
+                tickfont=dict(size=15, color="black", family="Arial")
+            ),
+            yaxis=dict(
+                title='Aylık Değişim (%)',
+                tickfont=dict(size=15, color="black", family="Arial")
+            ),
+            legend=dict(
+                font=dict(size=15, color="black", family="Arial"),
+                x=0,
+                y=1
+            ),
+            bargap=0.2,  # Barlar arası boşluk
+            bargroupgap=0.1  # Gruplar arası boşluk
+        )
         st.plotly_chart(fig_tüik)
         from io import BytesIO
         import pandas as pd
