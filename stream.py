@@ -508,15 +508,16 @@ if page=="Gıda Fiyat Endeksi":
 
         # Grafiği çizme
     figgalt = go.Figure()
-    figgalt.add_trace(go.Scatter(
-            x=selected_group_data.index[21:],
-            y=selected_group_data.iloc[21:,0].values,
-            mode='lines+markers',
-            name=selected_group,
-            line=dict(color='blue', width=4),
-            marker=dict(size=8, color="black")
-        ))
-    
+    if selected_group!="Gıda":
+        figgalt.add_trace(go.Scatter(
+                x=selected_group_data.index[0:],
+                y=selected_group_data.iloc[0:,0].values,
+                mode='lines+markers',
+                name=selected_group,
+                line=dict(color='blue', width=4),
+                marker=dict(size=8, color="black")
+            ))
+        
         
 
 
@@ -606,64 +607,7 @@ if page=="Gıda Fiyat Endeksi":
     
     import plotly.graph_objects as go
 
-    ohlc=pd.read_csv("ohlc.csv").set_index("Unnamed: 0")
-    ohlc.index=pd.to_datetime(ohlc.index)
-    ohlc.columns= ["High" ,"Low",  "Open", "Close"]
-    ohlc=ohlc[["Open","High","Low","Close"]]
-    ohlc_data=ohlc.copy()
     
-
-
-    # Önceki kapanışa göre renkleri belirle
-    ohlc_data['Prev_Close'] = ohlc_data['Close'].shift(1)
-
-    # Kapanış değeri önceki kapanıştan yüksekse 'green', düşükse 'red' olacak şekilde renkleri belirle
-    ohlc_data['Color'] = ohlc_data['Close'] > ohlc_data['Prev_Close']
-    ohlc_data['Color'] = ohlc_data['Color'].map({True: 'green', False: 'red'})
-
-    # Plotly mum grafiğini çiz
-    figmum = go.Figure()
-
-    # Yükselen ve düşen mumlar için ayrı ayrı çizgi ekleyerek her mumun rengini özelleştirelim
-    for i in range(len(ohlc_data)):
-        color = ohlc_data['Color'].iloc[i]
-        figmum.add_trace(go.Candlestick(
-            x=[ohlc_data.index[i]],
-            open=[ohlc_data['Open'].iloc[i]],
-            high=[ohlc_data['High'].iloc[i]],
-            low=[ohlc_data['Low'].iloc[i]],
-            close=[ohlc_data['Close'].iloc[i]],
-            increasing_line_color=color,  # Yükselen mumların rengi
-            decreasing_line_color=color,  # Düşen mumların rengi
-            increasing_fillcolor=color,  # Yükselen mumların dolgu rengi
-            decreasing_fillcolor=color,
-            name="Web-GFE"   # Düşen mumların dolgu rengi
-        ))
-
-    figmum.update_layout(
-        title='Web-GFE Mum Grafiği',
-        xaxis_title='Tarih',
-        yaxis_title='Değer',
-        xaxis_rangeslider_visible=False,  # Range slider'ı gizle
-        xaxis_tickformat='%d.%m.%Y',  # X eksenindeki tarihi dd.mm.YYYY formatında göster
-        width=1400,  # Grafik genişliğini artır
-        height=800,  # Grafik yüksekliğini artır
-        showlegend=False,  # Legend'ı gizle
-        title_font=dict(size=24, family='Arial'),  # Başlık fontu
-        xaxis=dict(
-            title_font=dict(size=18, family='Arial v'),  # X ekseni başlık fontu
-            tickfont=dict(size=14, family='Arial Black')  # X ekseni değer fontu
-        ),
-        yaxis=dict(
-            title_font=dict(size=18, family='Arial Black'),  # Y ekseni başlık fontu
-            tickfont=dict(size=14, family='Arial Black')  # Y ekseni değer fontu
-        ),
-        plot_bgcolor='lightgray',  # Grafik arka plan rengini değiştirme
-        paper_bgcolor='white',  # Kağıt arka plan rengini değiştirme
-        xaxis_showgrid=True,  # X ekseni grid çizgilerini gösterme
-        yaxis_showgrid=True  # Y ekseni grid çizgilerini gösterme
-
-    )
     turkey_tz = pytz.timezone('Europe/Istanbul')
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
@@ -753,6 +697,21 @@ if page=="Gıda Fiyat Endeksi":
         gfe["TÜİK"]=tüik_aylık["TÜİK"]
         gfe=gfe.fillna(method="ffill")
         gfe=gfe.fillna(100)
+
+        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-11-01":]
+        oran=yeni_gfe["GFE"].iloc[0]/100
+        yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
+
+
+
+        figgalt.add_trace(go.Scatter(
+                x=yeni_gfe.index,
+                y=yeni_gfe["GFE"].values,
+                mode='lines+markers',
+                name=selected_group,
+                line=dict(color='blue', width=4),
+                marker=dict(size=8, color="black")
+            ))
 
         figgalt.add_trace(
     go.Scatter(
