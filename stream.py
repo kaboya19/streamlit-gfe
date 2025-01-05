@@ -852,31 +852,39 @@ if page=="Gıda Fiyat Endeksi":
         from io import BytesIO
         import pandas as pd
 
+        from io import BytesIO
+        import pandas as pd
+
         def to_excel(df):
             output = BytesIO()
-            # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
             with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-                df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
+                df.to_excel(writer, index=False, sheet_name='Sheet1')
                 
-                # Writer'dan Workbook ve Worksheet nesnelerine erişim
                 workbook = writer.book
                 worksheet = writer.sheets['Sheet1']
                 
-                # Tarih sütunu için özel genişlik ayarı
-                date_columns = df.select_dtypes(include=['datetime64']).columns
-                for col in date_columns:
-                    col_idx = df.columns.get_loc(col)
-                    worksheet.set_column(col_idx, col_idx, 20)  # Tarih sütunu için sabit genişlik
-                
-                # Diğer sütun genişliklerini otomatik ayarla
+                # Tüm sütunların genişliğini otomatik ayarla
                 for i, col in enumerate(df.columns):
-                    max_length = max(
-                        df[col].astype(str).map(len).max(), 
-                        len(col)
+                    # En uzun veri ve başlık uzunluğunu hesapla
+                    max_len = max(
+                        df[col].astype(str).map(len).max(),  # Veri uzunluğu
+                        len(str(col))  # Başlık uzunluğu
                     )
-                    worksheet.set_column(i, i, max_length + 2)  # Biraz boşluk ekle
-            processed_data = output.getvalue()  # Bellekteki dosya verisini al
+                    
+                    # Tarih sütunları için özel genişlik
+                    if pd.api.types.is_datetime64_any_dtype(df[col]):
+                        worksheet.set_column(i, i, 20)  # Tarih sütunları için sabit genişlik
+                    else:
+                        worksheet.set_column(i, i, max_len + 2)  # Diğer sütunlar için dinamik genişlik
+                
+                # Hücrelerin hizalanmasını düzenle
+                header_format = workbook.add_format({'bold': True, 'align': 'center', 'valign': 'vcenter'})
+                for i, col in enumerate(df.columns):
+                    worksheet.write(0, i, col, header_format)
+            
+            processed_data = output.getvalue()
             return processed_data
+
 
         
         
