@@ -919,8 +919,61 @@ if page=="Gıda Fiyat Endeksi":
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
         weighted_indices_aylık = weighted_indices_aylık[sira]
         weighted_indices_aylık=to_excel(weighted_indices_aylık)
-        
-        
+
+
+        data=pd.read_excel("harcama gruplarina gore endeks sonuclari.xlsx")
+        data=data.iloc[1:,17:].drop([3],axis=0)
+        data.columns=data.iloc[0,:]
+        data=data.drop(1,axis=0)
+        data=data.drop(2,axis=0)
+        data=data.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(data)))
+        ağırlık=pd.read_excel("tuketici fiyat endeksi ana grup ve temel baslik agirliklari.xls")
+
+
+        ağırlık=ağırlık.iloc[:,[0,1,3]]
+        ağırlık=ağırlık.dropna()
+        ağırlık=ağırlık.iloc[1:]
+        ağırlık.columns=["Kod","Madde","Ağırlık"]
+        data=data[ağırlık["Kod"].values]
+        data.columns=ağırlık["Madde"].values
+        ağırlık=ağırlık[ağırlık["Madde"].isin(tüik.columns)]
+        ağırlık["Ağırlık"]=ağırlık["Ağırlık"]/ağırlık["Ağırlık"].sum()
+        weighted_indices=weighted_indices.rename(columns={"Taze Meyveler":"Taze meyveler"})
+        gfe_meyvesebze=weighted_indices[["Taze meyveler","Taze sebzeler (patates hariç)","Patates"]]
+        ağırlık_meyvesebze=ağırlık[ağırlık["Madde"].isin(gfe_meyvesebze.columns)]
+        ağırlık_meyvesebze["Ağırlık"]=ağırlık_meyvesebze["Ağırlık"]/ağırlık_meyvesebze["Ağırlık"].sum()
+        tazemeyvesebzeendeks=((gfe_meyvesebze.iloc[:,0]*ağırlık_meyvesebze["Ağırlık"].iloc[0])+((gfe_meyvesebze.iloc[:,1]*ağırlık_meyvesebze["Ağırlık"].iloc[1]))+((gfe_meyvesebze.iloc[:,2]*ağırlık_meyvesebze["Ağırlık"].iloc[2])))
+        import numpy as np
+        w=pd.read_excel("Weights_2022.xlsx").iloc[:133,:6]
+        w["Unnamed: 5"]=w["Unnamed: 5"].fillna(method="ffill")
+        meyveler=w[w["Unnamed: 5"].isin(["Taze Meyveler"])]["Unnamed: 1"].values
+        sebzeler=w[w["Unnamed: 5"].isin(["Taze sebzeler (patates hariç)"])]["Unnamed: 1"].values
+        meyvesebze=np.concatenate([meyveler,sebzeler])
+
+        ağırlıklar=pd.read_csv("ağırlıklar.csv",index_col=0)
+        ağırlıklar["Ürün"]=ağırlıklar.index
+        ağırlıklar=ağırlıklar.sort_index()
+        del ağırlıklar["Unnamed: 0"]
+        ağırlıklar["Ürün"]=ağırlıklar.index
+        meyvesebzeharic=ağırlıklar[~ağırlıklar["Ürün"].isin(meyvesebze)]["Ürün"].values
+
+        ağırlık_meyvesebzeharic=ağırlıklar[ağırlıklar["Ürün"].isin(meyvesebzeharic)]
+        ağırlık_meyvesebzeharic["Ağırlık"]=ağırlık_meyvesebzeharic["Ağırlık"]/ağırlık_meyvesebzeharic["Ağırlık"].sum()
+
+        meyvesebze_haricendeks=[]
+        for range in endeksler.columns[:-1]:
+            
+            meyvesebze_haricendeks.append((endeksler[range].loc[meyvesebzeharic]*ağırlık_meyvesebzeharic["Ağırlık"].values).sum())
+        meyvesebze_haricendeks=pd.DataFrame(meyvesebze_haricendeks,index=endeksler.columns[:-1],columns=["Meyve Sebze Haric Endeks"])
+        meyvesebze_haricendeks=meyvesebze_haricendeks.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(meyvesebze_haricendeks)))
+
+        özelgöstergeler=pd.DataFrame()
+        özelgöstergeler["Tarih"]=tazemeyvesebzeendeks.index
+        özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
+        özelgöstergeler["Meyve/Sebze Hariç"]=meyvesebze_haricendeks.values
+        özelgöstergeler=to_excel(özelgöstergeler)
+
+                
         st.download_button(
             label="📊 Fiyat Listesini İndir",
             data=excel_data,
@@ -962,6 +1015,13 @@ if page=="Gıda Fiyat Endeksi":
             label="📊 Harcama Grupları Aylık Değişim Oranlarını İndir",
             data=weighted_indices_aylık,
             file_name='harcamagruplarıaylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="📊 Özel Kapsamlı GFE Göstergeleri İndir",
+            data=özelgöstergeler,
+            file_name='özelgöstergeler.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
