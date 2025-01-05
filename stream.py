@@ -951,6 +951,23 @@ if page=="Gıda Fiyat Endeksi":
         sebzeler=w[w["Unnamed: 5"].isin(["Taze sebzeler (patates hariç)"])]["Unnamed: 1"].values
         meyvesebze=np.concatenate([meyveler,sebzeler])
 
+        endekslerr=pd.read_csv("endeksler.csv",index_col=0)
+
+        degisimler=[]
+        for col in endekslerr.index:
+            ma24=hareketli_aylik_ortalama(pd.DataFrame(endekslerr.loc[col].T).set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endekslerr.loc[col].T))).iloc[:,0])
+            ma24=ma24["Aylık Ortalama"].fillna(method="ffill")
+            ay=datetime.now().month
+            yıl=datetime.now().year
+
+            ay=f"0{ay}"
+            önceki_ay=(datetime.now()-timedelta(days=31)).month
+            önceki_yıl=(datetime.now()-timedelta(days=31)).year
+            degisim=(((ma24.loc[f"{yıl}-{ay}"].iloc[-1]/ma24.loc[f"{önceki_yıl}-{önceki_ay}"].iloc[-1]))-1)*100
+            degisimler.append(degisim)
+
+        endekslerr["Değişim"]=degisimler 
+
         ağırlıklar=pd.read_csv("ağırlıklar.csv",index_col=0)
         ağırlıklar["Ürün"]=ağırlıklar.index
         ağırlıklar=ağırlıklar.sort_index()
@@ -962,10 +979,10 @@ if page=="Gıda Fiyat Endeksi":
         ağırlık_meyvesebzeharic["Ağırlık"]=ağırlık_meyvesebzeharic["Ağırlık"]/ağırlık_meyvesebzeharic["Ağırlık"].sum()
 
         meyvesebze_haricendeks=[]
-        for range in endeksler.columns[:-1]:
+        for range in endekslerr.columns[:-1]:
             
-            meyvesebze_haricendeks.append((endeksler[range].loc[meyvesebzeharic]*ağırlık_meyvesebzeharic["Ağırlık"].values).sum())
-        meyvesebze_haricendeks=pd.DataFrame(meyvesebze_haricendeks,index=endeksler.columns[:-1],columns=["Meyve Sebze Haric Endeks"])
+            meyvesebze_haricendeks.append((endekslerr[range].loc[meyvesebzeharic]*ağırlık_meyvesebzeharic["Ağırlık"].values).sum())
+        meyvesebze_haricendeks=pd.DataFrame(meyvesebze_haricendeks,index=endekslerr.columns[:-1],columns=["Meyve Sebze Haric Endeks"])
         meyvesebze_haricendeks=meyvesebze_haricendeks.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(meyvesebze_haricendeks)))
 
         özelgöstergeler=pd.DataFrame()
