@@ -902,7 +902,7 @@ if page=="Gıda Fiyat Endeksi":
                 y=aylık_endeksler["TÜİK"],
                 mode='lines+markers',
                 name="TÜİK",
-                marker=dict(color='blue'),
+                marker=dict(size=8, color="black"),
 
                 textfont=dict(
                     color='black',
@@ -915,7 +915,7 @@ if page=="Gıda Fiyat Endeksi":
                 y=aylık_endeksler["Web-GFE"],
                 mode='lines+markers',
                 name="Web-GFE",
-                marker=dict(color='blue'),
+                marker=dict(size=8, color="black"),
 
                 textfont=dict(
                     color='black',
@@ -943,7 +943,7 @@ if page=="Gıda Fiyat Endeksi":
             legend=dict(
                 x=1,
                 y=1,
-                xanchor='right',
+                xanchor='left',
                 yanchor='top',
                 font=dict(size=12, color="black", family="Arial Black"),
                 bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
