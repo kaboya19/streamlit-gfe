@@ -868,8 +868,9 @@ if page=="Gıda Fiyat Endeksi":
         gıda=gıda.loc["2024-11-30":]
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
         gıda=gıda.reset_index(drop=True)
-        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.iloc[:-1].rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
+        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.reset_index(drop=True).iloc[:-1].rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
         gıda_c=gıda_c.dropna()
+        st.dataframe(gıda_c)
         aylık_endeks_tüik=list(gıda_c["Aylık Değişim"])
         aylık_endeks_gfe=list(gıda_c["Aylık Değişim1"])
 
