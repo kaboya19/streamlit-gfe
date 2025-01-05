@@ -866,11 +866,8 @@ if page=="Gıda Fiyat Endeksi":
         tickvals = list(range(len(gıda_c["Tarih"])))
         ticktext = gıda_c["Tarih"].tolist()
         
-        def get_text_position(value, threshold=1.5):
-            """
-            Değer belli bir eşikten büyükse 'outside', küçükse 'inside' döner.
-            """
-            return 'outside' if value > threshold else 'inside'
+        y_max = max(gıda_c["Aylık Değişim"].max(), gıda_c["Aylık Değişim1"].max())
+        y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıkar
 
         # Bar grafiği oluşturma
         fig_tüik = go.Figure()
@@ -882,9 +879,12 @@ if page=="Gıda Fiyat Endeksi":
             name="TÜİK",
             marker=dict(color='blue'),
             text=gıda_c["Aylık Değişim"],  # Değerleri göster
-            textposition=[get_text_position(val) for val in gıda_c["Aylık Değişim"]],
-            textfont=dict(color='black', size=12, family='Arial Black'),
-            insidetextanchor='middle'  # İçerideki yazıların hizalanması
+            textposition='outside',  # Tüm değerler barların üstünde olacak
+            textfont=dict(
+                color='black',
+                size=12,
+                family='Arial Black'  # Font Arial Black
+            )
         ))
 
         # Web-GFE Verileri
@@ -894,9 +894,12 @@ if page=="Gıda Fiyat Endeksi":
             name="Web-GFE",
             marker=dict(color='red'),
             text=gıda_c["Aylık Değişim1"],  # Değerleri göster
-            textposition=[get_text_position(val) for val in gıda_c["Aylık Değişim1"]],
-            textfont=dict(color='black', size=12, family='Arial Black'),
-            insidetextanchor='middle'  # İçerideki yazıların hizalanması
+            textposition='outside',  # Tüm değerler barların üstünde olacak
+            textfont=dict(
+                color='black',
+                size=12,
+                family='Arial Black'  # Font Arial Black
+            )
         ))
 
         # Grafik Düzeni ve Eksen Ayarları
@@ -915,18 +918,19 @@ if page=="Gıda Fiyat Endeksi":
             ),
             yaxis=dict(
                 title='Aylık Değişim (%)',
-                tickfont=dict(size=15, color="black", family="Arial Black")
+                tickfont=dict(size=15, color="black", family="Arial Black"),
+                range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
             ),
             legend=dict(
-            x=1,        # Sağ kenarda hizala
-            y=1,        # Üst kenarda hizala
-            xanchor='right',  # Sağdan hizala
-            yanchor='top',    # Yukarıdan hizala
-            font=dict(size=12, color="black", family="Arial Black"),
-            bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
-            bordercolor='black',  # Kenar rengi
-            borderwidth=1  # Kenar kalınlığı
-        ),
+                x=1,
+                y=1,
+                xanchor='right',
+                yanchor='top',
+                font=dict(size=12, color="black", family="Arial Black"),
+                bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+                bordercolor='black',
+                borderwidth=1
+            ),
             bargap=0.2,  # Barlar arası boşluk
             bargroupgap=0.1,  # Gruplar arası boşluk
             margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
