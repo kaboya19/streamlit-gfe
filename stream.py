@@ -874,8 +874,8 @@ if page=="Gıda Fiyat Endeksi":
 
         aylık_endeksler=pd.DataFrame()
         aylık_endeksler["Tarih"]=["2024-10","2024-11","2024-12"]
-        aylık_endeksler["TÜİK"]=tüik_aylık.values
-        aylık_endeksler["Web-GFE"]=gfe_aylık.values
+        aylık_endeksler["TÜİK"]=tüik_aylık
+        aylık_endeksler["Web-GFE"]=gfe_aylık
         st.dataframe(aylık_endeksler)
         tickvals = list(range(len(gıda_c["Tarih"])))
         ticktext = gıda_c["Tarih"].tolist()
