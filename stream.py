@@ -752,7 +752,7 @@ if page=="Gıda Fiyat Endeksi":
         x=tüik_aylık["Tarih"],
         y=tüik_aylık["TÜİK"],
         mode="lines+markers",
-        line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
+        line=dict(color="red", width=4),  # 'hv' yatay-dikey step grafiği
         name="TÜİK Gıda",
         marker=dict(size=8, color="black")
     )
