@@ -1048,6 +1048,19 @@ if page=="Gıda Fiyat Endeksi":
         özelgöstergeler["Meyve/Sebze Hariç"]=meyvesebze_haricendeks.values
         özelgöstergeler=to_excel(özelgöstergeler)
 
+
+        weighted_indices["Tarih"]=pd.to_datetime(weighted_indices.index)
+        column_to_move = 'Tarih'
+        cols = ["Tarih"] + [col for col in weighted_indices.columns if col != column_to_move]
+        weighted_indices = weighted_indices[cols]
+        weighted_indices["Tarih"]=weighted_indices["Tarih"].strftime("%Y-%m-%d")
+        for col in weighted_indices.columns[1:]:
+            weighted_indices[col]=weighted_indices[col].astype(float)
+            weighted_indices[col]=np.round(weighted_indices[col],2)
+
+        weighted_indices_data=to_excel(weighted_indices[col])
+
+
                 
         st.download_button(
             label="📊 Fiyat Listesini İndir",
@@ -1067,6 +1080,13 @@ if page=="Gıda Fiyat Endeksi":
             label="📊 Web-Gıda Fiyat Endeksi İndir",
             data=excel_data2,
             file_name='gfe.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="📊 Harcama Grupları Endeksleri İndir",
+            data=weighted_indices_data,
+            file_name='harcamagrupları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
