@@ -970,6 +970,7 @@ if page=="Gıda Fiyat Endeksi":
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
         weighted_indices_aylık = weighted_indices_aylık[sira]
         for col in weighted_indices_aylık.columns[1:]:
+            weighted_indices_aylık[col]=weighted_indices_aylık[col].astype(float)
             weighted_indices_aylık[col]=np.round(weighted_indices_aylık[col],2)
         weighted_indices_aylık=to_excel(weighted_indices_aylık.T.iloc[1:].reset_index().rename(columns={"index":"Grup"}))
 
