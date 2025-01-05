@@ -847,7 +847,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıkenf.loc["2024-12-31"]=aralık
     aylıkenf=aylıkenf.sort_index()
     aylıkenf=pd.DataFrame(aylıkenf)
-    aylıkenf.columns=["Aylık Değişim"]
+    aylıkenf.columns=["Aylık Değişim1"]
     aylıkenf["Tarih"]=pd.to_datetime(aylıkenf.index)
     
     aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
@@ -857,20 +857,22 @@ if page=="Gıda Fiyat Endeksi":
     
     if selected_group == "Gıda":
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
+        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf["Aylık Değişim1"]],axis=1)
+        
         fig_tüik = go.Figure()
 
 # Add bars for "Aylık Enflasyon(%)"
         fig_tüik.add_trace(go.Bar(
-        x=gıda["Tarih"],
-        y=gıda["Aylık Değişim"],
+        x=gıda_c["Tarih"],
+        y=gıda_c["Aylık Değişim"],
         name="TÜİK",
         marker_color='blue'
     ))
         fig_tüik.add_trace(go.Bar(
-        x=aylıkenf["Tarih"],
-        y=gıda["Aylık Değişim"],
+        x=gıda_c["Tarih"],
+        y=gıda_c["Aylık Değişim1"],
         name="Web-GFE",
-        marker_color='blue'
+        marker_color='red'
     ))
         st.plotly_chart(fig_tüik)
         from io import BytesIO
