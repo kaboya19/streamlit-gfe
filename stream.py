@@ -1409,19 +1409,7 @@ if page=="Harcama Grupları":
     harcamaylıklar=to_excel(harcamaenf)
     
     excel_data10 = to_excel(weighted_indices)
-    st.download_button(
-            label="📊 Harcama Grupları İndir",
-            data=excel_data10,
-            file_name='harcamagrupları.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
-    
-    st.download_button(
-            label="📊 Harcama Grupları Aylık Artış Oranları İndir",
-            data=harcamaylıklar,
-            file_name='harcamagruplarıaylıkartışlar.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+   
 
 
     figggrup = go.Figure()
