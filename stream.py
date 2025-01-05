@@ -936,9 +936,10 @@ if page=="Gıda Fiyat Endeksi":
         ağırlık.columns=["Kod","Madde","Ağırlık"]
         data=data[ağırlık["Kod"].values]
         data.columns=ağırlık["Madde"].values
-        ağırlık=ağırlık[ağırlık["Madde"].isin(tüik.columns)]
-        ağırlık["Ağırlık"]=ağırlık["Ağırlık"]/ağırlık["Ağırlık"].sum()
         weighted_indices=weighted_indices.rename(columns={"Taze Meyveler":"Taze meyveler"})
+        ağırlık=ağırlık[ağırlık["Madde"].isin(weighted_indices.columns)]
+        ağırlık["Ağırlık"]=ağırlık["Ağırlık"]/ağırlık["Ağırlık"].sum()
+        
         gfe_meyvesebze=weighted_indices[["Taze meyveler","Taze sebzeler (patates hariç)","Patates"]]
         ağırlık_meyvesebze=ağırlık[ağırlık["Madde"].isin(gfe_meyvesebze.columns)]
         ağırlık_meyvesebze["Ağırlık"]=ağırlık_meyvesebze["Ağırlık"]/ağırlık_meyvesebze["Ağırlık"].sum()
