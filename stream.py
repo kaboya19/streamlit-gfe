@@ -733,7 +733,7 @@ if page=="Gıda Fiyat Endeksi":
         gıda=gıda.iloc[50:51,3:].T
         gıda.columns=["Aylık Değişim"]
         gıda=gıda.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(gıda)))
-        gıda=gıda.loc["2024-11-30":]
+        gıda=gıda.loc["2024-10-31":]
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
         gıda=gıda.reset_index(drop=True)
         gıda_c=gıda[["Tarih","Aylık Değişim"]]
