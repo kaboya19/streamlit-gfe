@@ -746,7 +746,7 @@ if page=="Gıda Fiyat Endeksi":
         tüik_aylık=pd.DataFrame(tüik_aylık,columns=["TÜİK"])
         tüik_aylık=np.cumprod(tüik_aylık)*100
         tüik_aylık["Tarih"]=gıda_c["Tarih"]
-        st.dataframe(tüik_aylık)
+        tüik_aylık["Tarih"]=pd.date_range(start="2024-10-31",freq="M",periods=len(tüik_aylık)).strftime("%Y-%m")
 
         figgalt.add_trace(
     go.Scatter(
