@@ -1034,7 +1034,7 @@ if page=="Gıda Fiyat Endeksi":
         meyvesebze_haricendeks=meyvesebze_haricendeks.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(meyvesebze_haricendeks)))
 
         özelgöstergeler=pd.DataFrame()
-        özelgöstergeler["Tarih"]=tazemeyvesebzeendeks.index
+        özelgöstergeler["Tarih"]=tazemeyvesebzeendeks.index.strftime("%Y-%m-%d")
         özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
         özelgöstergeler["Meyve/Sebze Hariç"]=meyvesebze_haricendeks.values
         özelgöstergeler=to_excel(özelgöstergeler)
@@ -1079,7 +1079,7 @@ if page=="Gıda Fiyat Endeksi":
 
         st.download_button(
             label="📊 Harcama Grupları Aylık Değişim Oranlarını İndir",
-            data=weighted_indices_aylık,
+            data=weighted_indices_aylık.T,
             file_name='harcamagruplarıaylıkdegisimoranları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
