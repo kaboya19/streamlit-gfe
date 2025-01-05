@@ -856,8 +856,15 @@ if page=="Gıda Fiyat Endeksi":
 
     
     if selected_group == "Gıda":
+        turkish_months = [
+    "Eylül 23", "Ekim 23", "Kasım 23", "Aralık 23", 
+    "Ocak 24", "Şubat 24", "Mart 24", "Nisan 24", 
+    "Mayıs 24", "Haziran 24", "Temmuz 24","Ağustos 24","Eylül 24","Ekim 24","Kasım 24","Aralık 24"
+]
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
         gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
+        tickvals = list(range(len(gıda_c["Tarih"])))
+        ticktext = gıda_c["Tarih"].tolist()
         
         fig_tüik = go.Figure()
 
@@ -874,6 +881,18 @@ if page=="Gıda Fiyat Endeksi":
         name="Web-GFE",
         marker_color='red'
     ))
+        fig_tüik.update_layout(xaxis=dict(
+            tickmode='array',
+            tickvals=gıda_c["Tarih"],
+            ticktext=ticktext,  # Set Turkish month names
+            tickangle=-45,
+            tickfont=dict(size=15, color="black", family="Arial")
+        ),
+
+        barmode='group',
+        legend=dict(font=dict(size=15)),
+        yaxis=dict(tickfont=dict(size=15, color="black", family="Arial"))
+    )
         st.plotly_chart(fig_tüik)
         from io import BytesIO
         import pandas as pd
