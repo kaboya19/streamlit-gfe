@@ -748,10 +748,14 @@ if page=="Gıda Fiyat Endeksi":
         tüik_aylık["Tarih"]=gıda_c["Tarih"]
         tüik_aylık["Tarih"]=pd.date_range(start="2024-10-31",freq="M",periods=len(tüik_aylık)).strftime("%Y-%m-%d")
 
+        selected_group_data.index=pd.to_datetime(selected_group_data.index)
+        selected_group_data["TÜİK"]=tüik_aylık["TÜİK"]
+        selected_group_data=selected_group_data.fillna(method="ffill")
+
         figgalt.add_trace(
     go.Scatter(
-        x=tüik_aylık["Tarih"],
-        y=tüik_aylık["TÜİK"],
+        x=selected_group_data.index,
+        y=selected_group_data["TÜİK"],
         mode="lines+markers",
         line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
         name="TÜİK Gıda",
