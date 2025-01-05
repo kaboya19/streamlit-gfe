@@ -516,6 +516,38 @@ if page=="Gıda Fiyat Endeksi":
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
+    if selected_group=="Gıda":
+        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
+        gıda=gıda.iloc[50:51,3:].T
+        gıda.columns=["Aylık Değişim"]
+        gıda=gıda.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(gıda)))
+        gıda=gıda.loc["2024-11-30":]
+        gıda["Tarih"]=gıda.index.strftime("%Y-%m")
+        gıda=gıda.reset_index(drop=True)
+        gıda_c=gıda[["Tarih","Aylık Değişim"]]
+        
+        
+        aylık_endeks_tüik=list(gıda_c["Aylık Değişim"])
+
+        tüik_aylık=[1]
+        tüik_aylık.extend(list(((np.array(aylık_endeks_tüik)/100))+1))
+        tüik_aylık=pd.DataFrame(tüik_aylık,columns=["TÜİK"])
+        tüik_aylık=np.cumprod(tüik_aylık)*100
+        tüik_aylık["Tarih"]=gıda_c["Tarih"]
+
+        figgalt.add_trace(
+    go.Scatter(
+        x=tüik_aylık["Tarih"],
+        y=tüik_aylık["TÜİK"],
+        mode="lines+markers",
+        line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
+        name="TÜİK Gıda",
+        marker=dict(size=8, color="black")
+    )
+)
+
+
+
     
    
    
