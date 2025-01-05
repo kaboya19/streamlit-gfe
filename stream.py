@@ -918,10 +918,15 @@ if page=="Gıda Fiyat Endeksi":
                 tickfont=dict(size=15, color="black", family="Arial Black")
             ),
             legend=dict(
-                font=dict(size=15, color="black", family="Arial Black"),
-                x=0,
-                y=1
-            ),
+            x=1,        # Sağ kenarda hizala
+            y=1,        # Üst kenarda hizala
+            xanchor='right',  # Sağdan hizala
+            yanchor='top',    # Yukarıdan hizala
+            font=dict(size=12, color="black", family="Arial Black"),
+            bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+            bordercolor='black',  # Kenar rengi
+            borderwidth=1  # Kenar kalınlığı
+        ),
             bargap=0.2,  # Barlar arası boşluk
             bargroupgap=0.1,  # Gruplar arası boşluk
             margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
