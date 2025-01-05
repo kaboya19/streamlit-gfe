@@ -862,7 +862,9 @@ if page=="Gıda Fiyat Endeksi":
     "Mayıs 24", "Haziran 24", "Temmuz 24","Ağustos 24","Eylül 24","Ekim 24","Kasım 24","Aralık 24"
 ]
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
+        gıda=gıda.reset_index(drop=True)
         gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
+        gıda_c=gıda_c.dropna()
         aylık_endeks_tüik=list(gıda_c["Aylık Değişim"])
         aylık_endeks_gfe=list(gıda_c["Aylık Değişim1"])
 
