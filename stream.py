@@ -966,7 +966,7 @@ if page=="Gıda Fiyat Endeksi":
         weighted_indices_aylık["Tarih"]=(weighted_indices_aylık.index)
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
         weighted_indices_aylık = weighted_indices_aylık[sira]
-        weighted_indices_aylık=to_excel(weighted_indices_aylık)
+        weighted_indices_aylık=to_excel(weighted_indices_aylık.T)
 
 
         data=pd.read_excel("harcama gruplarina gore endeks sonuclari.xlsx")
@@ -1079,7 +1079,7 @@ if page=="Gıda Fiyat Endeksi":
 
         st.download_button(
             label="📊 Harcama Grupları Aylık Değişim Oranlarını İndir",
-            data=weighted_indices_aylık.T,
+            data=weighted_indices_aylık,
             file_name='harcamagruplarıaylıkdegisimoranları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
