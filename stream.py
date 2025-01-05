@@ -863,6 +863,20 @@ if page=="Gıda Fiyat Endeksi":
 ]
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
         gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
+        aylık_endeks_tüik=list(gıda_c["Aylık Değişim"])
+        aylık_endeks_gfe=list(gıda_c["Aylık Değişim1"])
+
+        tüik_aylık=[1]
+        tüik_aylık.extend(list(((np.array(aylık_endeks_tüik)/100))+1))
+
+        gfe_aylık=[1]
+        gfe_aylık.extend(list(((np.array(aylık_endeks_gfe)/100))+1))
+
+        aylık_endeksler=pd.DataFrame()
+        aylık_endeksler["Tarih"]=["2024-10","2024-11","2024-12"]
+        aylık_endeksler["TÜİK"]=tüik_aylık.values
+        aylık_endeksler["Web-GFE"]=gfe_aylık.values
+        st.dataframe(aylık_endeksler)
         tickvals = list(range(len(gıda_c["Tarih"])))
         ticktext = gıda_c["Tarih"].tolist()
         
