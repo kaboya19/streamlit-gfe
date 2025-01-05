@@ -861,9 +861,14 @@ if page=="Gıda Fiyat Endeksi":
     "Ocak 24", "Şubat 24", "Mart 24", "Nisan 24", 
     "Mayıs 24", "Haziran 24", "Temmuz 24","Ağustos 24","Eylül 24","Ekim 24","Kasım 24","Aralık 24"
 ]
+        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
+        gıda=gıda.iloc[50:51,3:].T
+        gıda.columns=["Aylık Değişim"]
+        gıda=gıda.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(gıda)))
+        gıda=gıda.loc["2024-11-30":]
         gıda["Tarih"]=gıda.index.strftime("%Y-%m")
         gıda=gıda.reset_index(drop=True)
-        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
+        gıda_c=pd.concat([gıda[["Tarih","Aylık Değişim"]],aylıkenf.iloc[:-1].rename(columns={"Aylık Değişim":"Aylık Değişim1"})["Aylık Değişim1"]],axis=1)
         gıda_c=gıda_c.dropna()
         aylık_endeks_tüik=list(gıda_c["Aylık Değişim"])
         aylık_endeks_gfe=list(gıda_c["Aylık Değişim1"])
