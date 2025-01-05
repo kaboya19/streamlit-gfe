@@ -915,7 +915,9 @@ if page=="Gıda Fiyat Endeksi":
         oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc[f"{tarih}"]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc[f"{tarih}"].iloc[-1]/hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc[f"{oncekitarih}"].iloc[-1])-1)*100
-        
+        weighted_indices_aylık["Tarih"]=(weighted_indices_aylık.index)
+        sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
+        weighted_indices_aylık = weighted_indices_aylık[sira]
         weighted_indices_aylık=to_excel(weighted_indices_aylık)
         
         
