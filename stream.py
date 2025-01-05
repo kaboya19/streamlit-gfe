@@ -949,8 +949,11 @@ if page=="Gıda Fiyat Endeksi":
             aylıkenf1[col]=aylıık
 
         aylıkenf1.index=aylıkenf1.index.strftime('%Y-%m')
+        import numpy as np
+        for col in aylıkenf1.columns[1:]:
+            aylıkenf1[col]=np.round(aylıkenf1[col],2)
 
-        aylıkenf1=to_excel(aylıkenf1.T.reset_index().rename(columns={"index":"Madde"}))
+        aylıkenf1=to_excel(aylıkenf1.T.iloc[1:].reset_index().rename(columns={"index":"Madde"}))
 
         weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
         weighted_indices.index=pd.to_datetime(weighted_indices.index)
@@ -966,7 +969,9 @@ if page=="Gıda Fiyat Endeksi":
         weighted_indices_aylık["Tarih"]=(weighted_indices_aylık.index)
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
         weighted_indices_aylık = weighted_indices_aylık[sira]
-        weighted_indices_aylık=to_excel(weighted_indices_aylık.T.reset_index().rename(columns={"index":"Grup"}))
+        for col in weighted_indices_aylık.columns[1:]:
+            weighted_indices_aylık[col]=np.round(weighted_indices_aylık[col],2)
+        weighted_indices_aylık=to_excel(weighted_indices_aylık.T.iloc[1:].reset_index().rename(columns={"index":"Grup"}))
 
 
         data=pd.read_excel("harcama gruplarina gore endeks sonuclari.xlsx")
