@@ -740,6 +740,13 @@ if page=="Gıda Fiyat Endeksi":
              st.plotly_chart(figgalt)
         elif periyot=="Mum":
              st.plotly_chart(figmum)
+
+        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
+        gıda=gıda.iloc[50:51,3:].T
+        gıda.columns=["Aylık Değişim"]
+        gıda=gıda.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(gıda)))
+        gıda=gıda.loc["2024-11-30":]
+
              
 
 
@@ -845,10 +852,27 @@ if page=="Gıda Fiyat Endeksi":
     
     aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
     aylıkenf=aylıkenf[["Tarih","Aylık Değişim"]]
-    aylıkenf=to_excel(aylıkenf)
+    aylıkenf_data=to_excel(aylıkenf)
 
     
     if selected_group == "Gıda":
+        gıda["Tarih"]=gıda.index.strftime("%Y-%m")
+        fig_tüik = go.Figure()
+
+# Add bars for "Aylık Enflasyon(%)"
+        fig_tüik.add_trace(go.Bar(
+        x=gıda["Tarih"],
+        y=gıda["Aylık Değişim"],
+        name="TÜİK",
+        marker_color='blue'
+    ))
+        fig_tüik.add_trace(go.Bar(
+        x=aylıkenf["Tarih"],
+        y=gıda["Aylık Değişim"],
+        name="Web-GFE",
+        marker_color='blue'
+    ))
+        st.plotly_chart(fig_tüik)
         from io import BytesIO
         import pandas as pd
 
@@ -1107,7 +1131,7 @@ if page=="Gıda Fiyat Endeksi":
 
         st.download_button(
             label="📊 Web-GFE Aylık Değişim Oranlarını İndir",
-            data=aylıkenf,
+            data=aylıkenf_data,
             file_name='gfeaylıkdegisimoranları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
