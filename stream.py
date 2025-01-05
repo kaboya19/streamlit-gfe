@@ -891,12 +891,16 @@ if page=="Gıda Fiyat Endeksi":
         if periyot=="Aylık":
             tickvals = list(range(len(aylık_endeksler["Tarih"])))
             ticktext = aylık_endeksler["Tarih"].tolist()
+            import numpy as np
+            aylık_endeksler["TÜİK"]=np.cumprod(aylık_endeksler["TÜİK"])*100
+            aylık_endeksler["Web-GFE"]=np.cumprod(aylık_endeksler["Web-GFE"])*100
             fig_aylık = go.Figure()
 
             # TÜİK Verileri
-            fig_aylık.add_trace(go.Bar(
+            fig_aylık.add_trace(go.Scatter(
                 x=aylık_endeksler["Tarih"],
                 y=aylık_endeksler["TÜİK"],
+                mode='lines+markers',
                 name="TÜİK",
                 marker=dict(color='blue'),
 
@@ -906,9 +910,10 @@ if page=="Gıda Fiyat Endeksi":
                     family='Arial Black'  # Font Arial Black
                 )
             ))
-            fig_aylık.add_trace(go.Bar(
+            fig_aylık.add_trace(go.Scatter(
                 x=aylık_endeksler["Tarih"],
                 y=aylık_endeksler["Web-GFE"],
+                mode='lines+markers',
                 name="Web-GFE",
                 marker=dict(color='blue'),
 
