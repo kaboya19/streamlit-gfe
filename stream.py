@@ -903,8 +903,22 @@ if page=="Gıda Fiyat Endeksi":
         aylıkenf1.index=aylıkenf1.index.strftime('%Y-%m')
 
         aylıkenf1=to_excel(aylıkenf1)
-        
 
+        weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
+        weighted_indices.index=pd.to_datetime(weighted_indices.index)
+        weighted_indices_aylık=pd.DataFrame(index=["2024-11","2024-12","2025-01"],columns=weighted_indices.columns)
+        for col in weighted_indices.columns:
+            weighted_indices_aylık[col].loc["2024-11"]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc["2024-11-30"]/weighted_indices[col].loc["2024-10-12"])-1)*100
+        for col in weighted_indices.columns:
+            weighted_indices_aylık[col].loc["2024-12"]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc["2024-12-31"]/hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc["2024-11-30"])-1)*100
+        tarih=datetime.now().strftime("%Y-%m")
+        oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+        for col in weighted_indices.columns:
+            weighted_indices_aylık[col].loc[f"{tarih}"]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc[f"{tarih}"].iloc[-1]/hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc[f"{oncekitarih}"].iloc[-1])-1)*100
+        
+        weighted_indices_aylık=to_excel(weighted_indices_aylık)
+        
+        
         st.download_button(
             label="📊 Fiyat Listesini İndir",
             data=excel_data,
@@ -939,6 +953,13 @@ if page=="Gıda Fiyat Endeksi":
             label="📊 Maddeler Aylık Değişim Oranlarını İndir",
             data=aylıkenf1,
             file_name='maddeaylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
+
+        st.download_button(
+            label="📊 Harcama Grupları Aylık Değişim Oranlarını İndir",
+            data=weighted_indices_aylık,
+            file_name='harcamagruplarıaylıkdegisimoranları.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
 
