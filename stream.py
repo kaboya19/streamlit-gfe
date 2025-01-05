@@ -950,7 +950,7 @@ if page=="Gıda Fiyat Endeksi":
 
         aylıkenf1.index=aylıkenf1.index.strftime('%Y-%m')
 
-        aylıkenf1=to_excel(aylıkenf1)
+        aylıkenf1=to_excel(aylıkenf1.T.reset_index().rename(columns={"index":"Madde"}))
 
         weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
         weighted_indices.index=pd.to_datetime(weighted_indices.index)
@@ -966,7 +966,7 @@ if page=="Gıda Fiyat Endeksi":
         weighted_indices_aylık["Tarih"]=(weighted_indices_aylık.index)
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
         weighted_indices_aylık = weighted_indices_aylık[sira]
-        weighted_indices_aylık=to_excel(weighted_indices_aylık.T)
+        weighted_indices_aylık=to_excel(weighted_indices_aylık.T.reset_index().rename(columns={"index":"Grup"}))
 
 
         data=pd.read_excel("harcama gruplarina gore endeks sonuclari.xlsx")
