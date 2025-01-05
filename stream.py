@@ -722,7 +722,7 @@ if page=="Gıda Fiyat Endeksi":
 
         
     elif selected_group=="Gıda":
-        periyot = st.sidebar.selectbox("Grafik Tipi:", ["Çizgi","Mum"])
+        periyot = st.sidebar.selectbox("Grafik Tipi:", ["Günlük","Aylık"])
    
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
@@ -736,10 +736,10 @@ if page=="Gıda Fiyat Endeksi":
             </h3>
             """, unsafe_allow_html=True)
         
-        if periyot=="Çizgi":
+        if periyot=="Günlük":
              st.plotly_chart(figgalt)
-        elif periyot=="Mum":
-             st.plotly_chart(figmum)
+        
+             
 
         gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
         gıda=gıda.iloc[50:51,3:].T
@@ -884,7 +884,81 @@ if page=="Gıda Fiyat Endeksi":
         aylık_endeksler["Tarih"]=["2024-10","2024-11","2024-12"]
         aylık_endeksler["TÜİK"]=tüik_aylık
         aylık_endeksler["Web-GFE"]=gfe_aylık
-        st.dataframe(aylık_endeksler)
+        try:
+            aylık_endeksler._append({"Tarih":aylıkenf["Tarih"].iloc[-1],"TÜİK":gıda[gıda["Tarih"]==aylıkenf["Tarih"].iloc[-1]]["Aylık Değişim"].values[0],"Web-GFE":aylık_endeksler["Web-GFE"].iloc[-1]*(aylıkenf["Aylık Değişim"].iloc[-1]/100)+1},ignore_index=True)
+        except:
+            aylık_endeksler._append({"Tarih":aylıkenf["Tarih"].iloc[-1],"TÜİK":np.nan,"Web-GFE":aylık_endeksler["Web-GFE"].iloc[-1]*(aylıkenf["Aylık Değişim"].iloc[-1]/100)+1},ignore_index=True)
+        if periyot=="Aylık":
+            tickvals = list(range(len(aylık_endeksler["Tarih"])))
+            ticktext = aylık_endeksler["Tarih"].tolist()
+            fig_aylık = go.Figure()
+
+            # TÜİK Verileri
+            fig_aylık.add_trace(go.Bar(
+                x=aylık_endeksler["Tarih"],
+                y=aylık_endeksler["TÜİK"],
+                name="TÜİK",
+                marker=dict(color='blue'),
+
+                textfont=dict(
+                    color='black',
+                    size=12,
+                    family='Arial Black'  # Font Arial Black
+                )
+            ))
+            fig_aylık.add_trace(go.Bar(
+                x=aylık_endeksler["Tarih"],
+                y=aylık_endeksler["Web-GFE"],
+                name="Web-GFE",
+                marker=dict(color='blue'),
+
+                textfont=dict(
+                    color='black',
+                    size=12,
+                    family='Arial Black'  # Font Arial Black
+                )
+            ))
+
+            fig_aylık.update_layout(
+            title=dict(
+                text="TÜİK ve Web-GFE Endeksleri",
+                font=dict(size=18, color="black", family="Arial Black")
+            ),
+            xaxis=dict(
+                tickmode='array',
+                tickvals=aylık_endeksler["Tarih"],
+                ticktext=ticktext,  # Ay isimlerini göster
+                tickangle=-45,
+                tickfont=dict(size=15, color="black", family="Arial Black")
+            ),
+            yaxis=dict(
+                title='Endeks',
+                tickfont=dict(size=15, color="black", family="Arial Black")
+            ),
+            legend=dict(
+                x=1,
+                y=1,
+                xanchor='right',
+                yanchor='top',
+                font=dict(size=12, color="black", family="Arial Black"),
+                bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+                bordercolor='black',
+                borderwidth=1
+            ),
+            bargap=0.2,  # Barlar arası boşluk
+            bargroupgap=0.1,  # Gruplar arası boşluk
+            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
+        )
+            st.plotly_chart(fig_aylık)
+
+
+
+
+
+
+
+
+
         tickvals = list(range(len(gıda_c["Tarih"])))
         ticktext = gıda_c["Tarih"].tolist()
         
