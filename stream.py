@@ -376,11 +376,11 @@ if page=="Gıda Fiyat Endeksi":
     endeksler=endeksler.drop("Ürün",axis=1)
     
    
-    endeksler.loc["Gıda"]=gfe["GFE"].values
+    endeksler.loc["WEB-GFE"]=gfe["GFE"].values
 
     
 
-    gida_index = endeksler.loc[['Gıda']]  # "Gıda Fiyat Endeksi"ni seç
+    gida_index = endeksler.loc[['WEB-GFE']]  # "Gıda Fiyat Endeksi"ni seç
     other_indices = endeksler.drop('Gıda').sort_index()  # Geri kalanları alfabetik sıraya koy
     ağırlıklar=pd.read_csv("ağırlıklar.csv")
     ağırlıklar=ağırlıklar.set_index("Ürün")
@@ -390,7 +390,7 @@ if page=="Gıda Fiyat Endeksi":
     endeksler = pd.concat([gida_index, other_indices])
     endeksler1=endeksler.T
     endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
-    endeksler1=endeksler1.drop("Gıda",axis=1)
+    endeksler1=endeksler1.drop("WEB-GFE",axis=1)
     endeksler_sa=pd.DataFrame()
     
     
@@ -508,7 +508,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Grafiği çizme
     figgalt = go.Figure()
-    if selected_group!="Gıda":
+    if selected_group!="WEB-GFE":
         figgalt.add_trace(go.Scatter(
                 x=selected_group_data.index[0:],
                 y=selected_group_data.iloc[0:,0].values,
@@ -653,7 +653,7 @@ if page=="Gıda Fiyat Endeksi":
    
 
    
-    if selected_group!="Gıda":
+    if selected_group!="WEB-GFE":
 
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
@@ -670,7 +670,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
         
-    elif selected_group=="Gıda":
+    elif selected_group=="WEB-GFE":
         periyot = st.sidebar.selectbox("Grafik Tipi:", ["Günlük","Aylık"])
 
         gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
@@ -803,13 +803,13 @@ if page=="Gıda Fiyat Endeksi":
     #data=data.drop("Grup",axis=1)
     data.index.name=""
     data=data.drop_duplicates()
-    data.loc["Gıda","Ürün"]="Gıda"
+    data.loc["WEB-GFE","Ürün"]="WEB-GFE"
 
     gfe=pd.read_csv("gfe.csv")
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe=gfe.drop("Tarih",axis=1)
 
-    data[data.index=="Gıda"].iloc[:,-1]=gfe.T
+    data[data.index=="WEB-GFE"].iloc[:,-1]=gfe.T
 
 
     
@@ -856,7 +856,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıkenf_data=to_excel(aylıkenf)
 
     
-    if selected_group == "Gıda":
+    if selected_group == "WEB-GFE":
         turkish_months = [
     "Eylül 23", "Ekim 23", "Kasım 23", "Aralık 23", 
     "Ocak 24", "Şubat 24", "Mart 24", "Nisan 24", 
@@ -1102,7 +1102,7 @@ if page=="Gıda Fiyat Endeksi":
             endeksler[col]=np.round(endeksler[col],2)
 
         
-        excel_data1 = to_excel(endeksler.drop("Gıda",axis=1))
+        excel_data1 = to_excel(endeksler.drop("WEB-GFE",axis=1))
         gfe["Tarih"]=gfe.index.strftime("%Y-%m-%d")
         sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
         gfe = gfe[sira]
@@ -1419,13 +1419,13 @@ if page=="Madde Endeksleri":
     #data=data.drop("Grup",axis=1)
     data.index.name=""
     data=data.drop_duplicates()
-    data.loc["Gıda","Ürün"]="Gıda"
+    data.loc["WEB-GFE","Ürün"]="WEB-GFE"
 
     gfe=pd.read_csv("gfe.csv")
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe=gfe.drop("Tarih",axis=1)
 
-    data[data.index=="Gıda"].iloc[:,-1]=gfe.T
+    data[data.index=="WEB-GFE"].iloc[:,-1]=gfe.T
     endeksler1=pd.read_csv("endeksler.csv")
     endeksler1=endeksler1.set_index("Ürün")
 
