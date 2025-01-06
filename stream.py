@@ -381,7 +381,7 @@ if page=="Gıda Fiyat Endeksi":
     
 
     gida_index = endeksler.loc[['WEB-GFE']]  # "Gıda Fiyat Endeksi"ni seç
-    other_indices = endeksler.drop('Gıda').sort_index()  # Geri kalanları alfabetik sıraya koy
+    other_indices = endeksler.drop('WEB-GFE').sort_index()  # Geri kalanları alfabetik sıraya koy
     ağırlıklar=pd.read_csv("ağırlıklar.csv")
     ağırlıklar=ağırlıklar.set_index("Ürün")
     ağırlıklar=ağırlıklar.sort_index()
