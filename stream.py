@@ -494,8 +494,10 @@ if page=="Gıda Fiyat Endeksi":
 
         # Yüzdeyi iki ondalık basamak ile sınırlama
     change_percent = round(change_percent, 2)
-
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
+    if selected_group=="WEB-GFE":
+        st.markdown(f"<h2 style='text-align:left; color:black;'>Web Gıda Fiyat Endeksi</h2>", unsafe_allow_html=True)
+    else:
+        st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi</h2>", unsafe_allow_html=True)
     
     
     
