@@ -16,7 +16,7 @@ social_media_links = {
     "GitHub": {"url": "https://github.com/kaboya19", "color": "#000000"},
     "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#000000"}
 }
-tabs=["Gıda Fiyat Endeksi","Harcama Grupları","Madde Endeksleri","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Harcama Grupları","Madde Endeksleri","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
     menu_title=None,
     options=["Gıda Fiyat Endeksi", "Harcama Grupları","Madde Endeksleri", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
@@ -1322,6 +1322,37 @@ if page=="Gıda Fiyat Endeksi":
         özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"]=işlenmemişgıda_msharic.values
         özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
         özelgöstergeler["İşlenmiş Gıda"]=işlenmişgıda.values
+
+        if page=="Özel Kapsamlı Endeksler":
+            figözel = go.Figure()
+            figözel.add_trace(go.Scatter(
+                x=özelgöstergeler["Tarih"],
+                y=özelgöstergeler["İşlenmemiş Gıda"],
+                mode='lines+markers',
+                name="İşlenmemiş Gıda",
+                line=dict(color='blue', width=4),
+                marker=dict(size=8, color="black")
+            ))
+        
+
+        
+        
+
+        
+        
+            figözel.update_layout(
+                xaxis=dict(
+                    tickvals=özelgöstergeler["Tarih"],  # Original datetime index
+                    ticktext=özelgöstergeler["Tarih"].strftime("%d.%m.%Y"),  # Custom formatted labels
+                    tickfont=dict(size=14, family="Arial Black", color="black")
+                ),
+                yaxis=dict(
+                    tickfont=dict(size=14, family="Arial Black", color="black")
+                ),
+                font=dict(family="Arial", size=14, color="black")
+            )
+            st.plotly_chart(figözel)
+
 
         özelgöstergeler=to_excel(özelgöstergeler)
 
