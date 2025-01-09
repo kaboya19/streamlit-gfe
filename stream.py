@@ -1853,20 +1853,9 @@ if page=="Özel Kapsamlı Endeksler":
     from datetime import datetime,timedelta
     endekslerr=pd.read_csv("endeksler.csv",index_col=0)
 
-    degisimler=[]
-    for col in endekslerr.index:
-        ma24=hareketli_aylik_ortalama(pd.DataFrame(endekslerr.loc[col].T).set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endekslerr.loc[col].T))).iloc[:,0])
-        ma24=ma24["Aylık Ortalama"].fillna(method="ffill")
-        ay=datetime.now().month
-        yıl=datetime.now().year
+   
 
-        ay=f"0{ay}"
-        önceki_ay=(datetime.now()-timedelta(days=31)).month
-        önceki_yıl=(datetime.now()-timedelta(days=31)).year
-        degisim=(((ma24.loc[f"{yıl}-{ay}"].iloc[-1]/ma24.loc[f"{önceki_yıl}-{önceki_ay}"].iloc[-1]))-1)*100
-        degisimler.append(degisim)
-
-    endekslerr["Değişim"]=degisimler 
+    endekslerr["Değişim"]=0 
 
     ağırlıklar=pd.read_csv("ağırlıklar.csv",index_col=0)
     ağırlıklar["Ürün"]=ağırlıklar.index
