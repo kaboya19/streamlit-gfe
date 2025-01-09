@@ -1999,6 +1999,33 @@ if page=="Özel Kapsamlı Endeksler":
         marker=dict(size=8, color="black")
     ))
 
+    figözel.add_trace(go.Scatter(
+        x=özelgöstergeler["Tarih"],
+        y=özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"],
+        mode='lines+markers',
+        name="Meyve Sebze Hariç İşlenmemiş Gıda",
+        line=dict(color='orange', width=4),
+        marker=dict(size=8, color="black")
+    ))
+
+    figözel.add_trace(go.Scatter(
+        x=özelgöstergeler["Tarih"],
+        y=özelgöstergeler["Taze Meyve-Sebze"],
+        mode='lines+markers',
+        name="Taze Meyve-Sebze",
+        line=dict(color='purple', width=4),
+        marker=dict(size=8, color="black")
+    ))
+
+    figözel.add_trace(go.Scatter(
+        x=özelgöstergeler["Tarih"],
+        y=özelgöstergeler["İşlenmiş Gıda"],
+        mode='lines+markers',
+        name="İşlenmiş Gıda",
+        line=dict(color='red', width=4),
+        marker=dict(size=8, color="black")
+    ))
+
 
 
 
