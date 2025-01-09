@@ -1304,13 +1304,13 @@ if page=="Gıda Fiyat Endeksi":
        'Çikolata Tablet', 'Şehriye']
 
 
-        ağırlık_işlenmişgıda=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmemiş_gıda)]
+        ağırlık_işlenmişgıda=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmiş_gıda)]
         ağırlık_işlenmişgıda["Ağırlık"]=ağırlık_işlenmişgıda["Ağırlık"]/ağırlık_işlenmişgıda["Ağırlık"].sum()
 
         işlenmişgıda=[]
         for range in endekslerr.columns[:-1]:
             
-            işlenmişgıda.append((endekslerr[range].loc[işlenmemiş_gıda]*ağırlık_işlenmişgıda["Ağırlık"].values).sum())
+            işlenmişgıda.append((endekslerr[range].loc[işlenmiş_gıda]*ağırlık_işlenmişgıda["Ağırlık"].values).sum())
         işlenmişgıda=pd.DataFrame(işlenmişgıda,index=endekslerr.columns[:-1],columns=["İşlenmemiş Gıda"])
         işlenmişgıda=işlenmişgıda.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmişgıda)))
 
