@@ -2028,10 +2028,13 @@ if page=="Özel Kapsamlı Endeksler":
 
 
 
+    tickvals = özelgöstergeler["Tarih"][::3]  # Her 3 birimde bir tarih
+    ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
+
     figözel.update_layout(
         xaxis=dict(
-            tickvals=özelgöstergeler.index,  # Original datetime index
-            ticktext=özelgöstergeler.index.strftime("%d.%m.%Y"),  # Custom formatted labels
+            tickvals=tickvals,
+            ticktext=ticktext,
             tickfont=dict(size=14, family="Arial Black", color="black")
         ),
         yaxis=dict(
