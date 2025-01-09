@@ -1268,10 +1268,61 @@ if page=="Gıda Fiyat Endeksi":
         işlenmemişgıda=pd.DataFrame(işlenmemişgıda,index=endekslerr.columns[:-1],columns=["İşlenmemiş Gıda"])
         işlenmemişgıda=işlenmemişgıda.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmemişgıda)))
 
+
+        işlenmemiş_gıda=["Dana Eti","Kuzu Eti","Tavuk Eti","Sakatat","Balık","Konserve Balık","Yumurta"]
+
+        ağırlık_işlenmemişgıda_meyvesebzeharic=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmemiş_gıda)]
+        ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"]=ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"]/ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"].sum()
+
+        işlenmemişgıda_msharic=[]
+        for range in endekslerr.columns[:-1]:
+            
+            işlenmemişgıda_msharic.append((endekslerr[range].loc[işlenmemiş_gıda]*ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"].values).sum())
+        işlenmemişgıda_msharic=pd.DataFrame(işlenmemişgıda_msharic,index=endekslerr.columns[:-1],columns=["İşlenmemiş Gıda"])
+        işlenmemişgıda_msharic=işlenmemişgıda_msharic.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmemişgıda_msharic)))
+
+
+        işlenmiş_gıda=['Antep Fıstığı', 'Ay Çekirdeği', 'Ayran', 'Ayçiçek Yağı',
+       'Badem İçi', 'Baharat', 'Baklava', 'Bal',
+       'Bebek Sütü (Toz Karışım)', 'Beyaz Peynir', 'Bisküvi',
+       'Bitki ve Meyve Çayı (Poşet)', 'Bulgur', 'Buğday Unu', 'Ceviz İçi',
+       'Cipsler', 'Dondurma', 'Ekmek', 'Ekmek Hamuru (Yufka)',
+       'Fındık Ezmesi', 'Fındık İçi', 'Gazoz Meyveli', 'Gofret',
+       'Hazır Et Yemekleri', 'Hazır Kahve',
+       'Hazır Pakette Toz Tatlılar (Puding)', 'Hazır Sütlü Tatlılar',
+       'Hazır Çorbalar', 'Kabak Çekirdeği', 'Kabartma Maddeleri', 'Kahve',
+       'Kakao', 'Kakaolu Toz İçecekler', 'Kağıtlı Şeker', 'Kaşar Peyniri',
+       'Kek', 'Kesme Şeker', 'Ketçap', 'Kola', 'Konserveler', 'Kraker',
+       'Krem Peynir', 'Kuru Fasulye', 'Kuru Kayısı', 'Kuru Üzüm',
+       'Leblebi', 'Lokum', 'Maden Suyu ve Sodası', 'Makarna', 'Margarin',
+       'Mayonez', 'Mercimek', 'Meyve Suyu', 'Nohut', 'Pasta', 'Patates',
+       'Pekmez', 'Pirinç', 'Reçel', 'Sakız', 'Salam', 'Salça', 'Sirke',
+       'Sosis', 'Soğuk Çay', 'Su', 'Sucuk', 'Süt', 'Tahin',
+       'Tahin Helvası', 'Tahıl Gevreği', 'Tereyağı (Kahvaltılık)',
+       'Toz Şeker', 'Tulum Peyniri', 'Turşu', 'Tuz', 'Yer Fıstığı',
+       'Yoğurt', 'Zeytin', 'Zeytinyağı', 'Çay', 'Çikolata Krem',
+       'Çikolata Tablet', 'Şehriye']
+
+
+        ağırlık_işlenmişgıda=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmemiş_gıda)]
+        ağırlık_işlenmişgıda["Ağırlık"]=ağırlık_işlenmişgıda["Ağırlık"]/ağırlık_işlenmişgıda["Ağırlık"].sum()
+
+        işlenmişgıda=[]
+        for range in endekslerr.columns[:-1]:
+            
+            işlenmişgıda.append((endekslerr[range].loc[işlenmemiş_gıda]*ağırlık_işlenmişgıda["Ağırlık"].values).sum())
+        işlenmişgıda=pd.DataFrame(işlenmişgıda,index=endekslerr.columns[:-1],columns=["İşlenmemiş Gıda"])
+        işlenmişgıda=işlenmişgıda.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmişgıda)))
+
+
+
         özelgöstergeler=pd.DataFrame()
         özelgöstergeler["Tarih"]=tazemeyvesebzeendeks.index.strftime("%Y-%m-%d")
-        özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
         özelgöstergeler["İşlenmemiş Gıda"]=işlenmemişgıda.values
+        özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"]=işlenmemişgıda.values
+        özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
+        özelgöstergeler["İşlenmiş Gıda"]=işlenmişgıda.values
+
         özelgöstergeler=to_excel(özelgöstergeler)
 
 
