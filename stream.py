@@ -1986,6 +1986,7 @@ if page=="Özel Kapsamlı Endeksler":
     özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"]=işlenmemişgıda_msharic.values
     özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
     özelgöstergeler["İşlenmiş Gıda"]=işlenmişgıda.values
+    özelgöstergeler.index=pd.to_datetime(özelgöstergeler["Tarih"])
 
    
     figözel = go.Figure()
@@ -2006,8 +2007,8 @@ if page=="Özel Kapsamlı Endeksler":
 
     figözel.update_layout(
         xaxis=dict(
-            tickvals=özelgöstergeler["Tarih"],  # Original datetime index
-            ticktext=özelgöstergeler["Tarih"].strftime("%d.%m.%Y"),  # Custom formatted labels
+            tickvals=özelgöstergeler.index,  # Original datetime index
+            ticktext=özelgöstergeler.index.strftime("%d.%m.%Y"),  # Custom formatted labels
             tickfont=dict(size=14, family="Arial Black", color="black")
         ),
         yaxis=dict(
