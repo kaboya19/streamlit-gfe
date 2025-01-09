@@ -1265,7 +1265,7 @@ if page=="Gıda Fiyat Endeksi":
         for range in endekslerr.columns[:-1]:
             
             işlenmemişgıda.append((endekslerr[range].loc[işlenmemiş_gıda]*ağırlık_işlenmemişgıda["Ağırlık"].values).sum())
-        işlenmemişgıda=pd.DataFrame(işlenmemişgıda,index=endeksler.columns,columns=["İşlenmemiş Gıda"])
+        işlenmemişgıda=pd.DataFrame(işlenmemişgıda,index=endekslerr.columns,columns=["İşlenmemiş Gıda"])
         işlenmemişgıda=işlenmemişgıda.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmemişgıda)))
 
         özelgöstergeler=pd.DataFrame()
