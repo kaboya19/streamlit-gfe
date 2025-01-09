@@ -1248,10 +1248,30 @@ if page=="Gıda Fiyat Endeksi":
         meyvesebze_haricendeks=pd.DataFrame(meyvesebze_haricendeks,index=endekslerr.columns[:-1],columns=["Meyve Sebze Haric Endeks"])
         meyvesebze_haricendeks=meyvesebze_haricendeks.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(meyvesebze_haricendeks)))
 
+
+
+
+        işlenmemiş_gıda=["Dana Eti","Kuzu Eti","Tavuk Eti","Sakatat","Balık","Konserve Balık","Yumurta",'Portakal', 'Üzüm', 'Armut', 'Ayva', 'Çilek', 'Elma', 'Karpuz',
+       'Kavun', 'Kivi', 'Limon', 'Mandalina', 'Muz', 'Nar', 'Şeftali','Çarliston Biber', 'Dolmalık Biber', 'Sivri Biber', 'Dereotu',
+       'Domates', 'Taze Fasulye', 'Havuç', 'Ispanak', 'Kabak',
+       'Karnabahar', 'Kuru Soğan', 'Beyaz Lahana', 'Kırmızı Lahana',
+       'Mantar', 'Kıvırcık', 'Maydanoz', 'Nane', 'Patlıcan', 'Pırasa',
+       'Roka', 'Salatalık', 'Sarımsak', 'Kırmızı Turp']
+
+        ağırlık_işlenmemişgıda=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmemiş_gıda)]
+        ağırlık_işlenmemişgıda["Ağırlık"]=ağırlık_işlenmemişgıda["Ağırlık"]/ağırlık_işlenmemişgıda["Ağırlık"].sum()
+
+        işlenmemişgıda=[]
+        for range in endekslerr.columns[:-1]:
+            
+            işlenmemişgıda.append((endeksler[range].loc[işlenmemiş_gıda]*ağırlık_işlenmemişgıda["Ağırlık"].values).sum())
+        işlenmemişgıda=pd.DataFrame(işlenmemişgıda,index=endeksler.columns,columns=["İşlenmemiş Gıda"])
+        işlenmemişgıda=işlenmemişgıda.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmemişgıda)))
+
         özelgöstergeler=pd.DataFrame()
         özelgöstergeler["Tarih"]=tazemeyvesebzeendeks.index.strftime("%Y-%m-%d")
         özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
-        özelgöstergeler["Meyve/Sebze Hariç"]=meyvesebze_haricendeks.values
+        özelgöstergeler["İşlenmemiş Gıda"]=işlenmemişgıda.values
         özelgöstergeler=to_excel(özelgöstergeler)
 
 
