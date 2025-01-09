@@ -1851,6 +1851,17 @@ if page=="Harcama Grupları":
 
 if page=="Özel Kapsamlı Endeksler":
     from datetime import datetime,timedelta
+
+    import numpy as np
+    w=pd.read_excel("Weights_2022.xlsx").iloc[:133,:6]
+    w["Unnamed: 5"]=w["Unnamed: 5"].fillna(method="ffill")
+    meyveler=w[w["Unnamed: 5"].isin(["Taze Meyveler"])]["Unnamed: 1"].values
+    sebzeler=w[w["Unnamed: 5"].isin(["Taze sebzeler (patates hariç)"])]["Unnamed: 1"].values
+    meyvesebze=np.concatenate([meyveler,sebzeler])
+
+
+
+
     endekslerr=pd.read_csv("endeksler.csv",index_col=0)
 
    
