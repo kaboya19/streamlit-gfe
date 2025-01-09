@@ -1319,7 +1319,7 @@ if page=="Gıda Fiyat Endeksi":
         özelgöstergeler=pd.DataFrame()
         özelgöstergeler["Tarih"]=tazemeyvesebzeendeks.index.strftime("%Y-%m-%d")
         özelgöstergeler["İşlenmemiş Gıda"]=işlenmemişgıda.values
-        özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"]=işlenmemişgıda.values
+        özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"]=işlenmemişgıda_msharic.values
         özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
         özelgöstergeler["İşlenmiş Gıda"]=işlenmişgıda.values
 
