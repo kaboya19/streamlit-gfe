@@ -1853,12 +1853,38 @@ if page=="Özel Kapsamlı Endeksler":
     from datetime import datetime,timedelta
 
     import numpy as np
+
+
+
+    data=pd.read_excel("harcama gruplarina gore endeks sonuclari.xlsx")
+    data=data.iloc[1:,17:].drop([3],axis=0)
+    data.columns=data.iloc[0,:]
+    data=data.drop(1,axis=0)
+    data=data.drop(2,axis=0)
+    data=data.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(data)))
+    ağırlık=pd.read_excel("tuketici fiyat endeksi ana grup ve temel baslik agirliklari.xls")
+
+
+    ağırlık=ağırlık.iloc[:,[0,1,3]]
+    ağırlık=ağırlık.dropna()
+    ağırlık=ağırlık.iloc[1:]
+    ağırlık.columns=["Kod","Madde","Ağırlık"]
+    data=data[ağırlık["Kod"].values]
+    data.columns=ağırlık["Madde"].values
+    weighted_indices=weighted_indices.rename(columns={"Taze Meyveler":"Taze meyveler"})
+    ağırlık=ağırlık[ağırlık["Madde"].isin(weighted_indices.columns)]
+    ağırlık["Ağırlık"]=ağırlık["Ağırlık"]/ağırlık["Ağırlık"].sum()
+    
+    gfe_meyvesebze=weighted_indices[["Taze meyveler","Taze sebzeler (patates hariç)","Patates"]]
+    ağırlık_meyvesebze=ağırlık[ağırlık["Madde"].isin(gfe_meyvesebze.columns)]
+    ağırlık_meyvesebze["Ağırlık"]=ağırlık_meyvesebze["Ağırlık"]/ağırlık_meyvesebze["Ağırlık"].sum()
+    tazemeyvesebzeendeks=((gfe_meyvesebze.iloc[:,0]*ağırlık_meyvesebze["Ağırlık"].iloc[0])+((gfe_meyvesebze.iloc[:,1]*ağırlık_meyvesebze["Ağırlık"].iloc[1]))+((gfe_meyvesebze.iloc[:,2]*ağırlık_meyvesebze["Ağırlık"].iloc[2])))
+    import numpy as np
     w=pd.read_excel("Weights_2022.xlsx").iloc[:133,:6]
     w["Unnamed: 5"]=w["Unnamed: 5"].fillna(method="ffill")
     meyveler=w[w["Unnamed: 5"].isin(["Taze Meyveler"])]["Unnamed: 1"].values
     sebzeler=w[w["Unnamed: 5"].isin(["Taze sebzeler (patates hariç)"])]["Unnamed: 1"].values
     meyvesebze=np.concatenate([meyveler,sebzeler])
-
 
 
 
