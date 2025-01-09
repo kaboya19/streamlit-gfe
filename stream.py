@@ -525,14 +525,15 @@ if page=="Gıda Fiyat Endeksi":
 
 
     
-   
+    tickvals = selected_group_data.index[::3]  # Her 3 birimde bir tarih
+    ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
    
 
         # X ekseninde özelleştirilmiş tarih etiketlerini ayarlıyoruz
     figgalt.update_layout(
             xaxis=dict(
-                tickvals=selected_group_data.index[::3],  # Original datetime index
-                ticktext=selected_group_data.index[::3].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=tickvals,  # Original datetime index
+                ticktext=ticktext,  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
@@ -573,7 +574,8 @@ if page=="Gıda Fiyat Endeksi":
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
-
+    tickvals = degisim_2_24.index[::3]  # Her 3 birimde bir tarih
+    ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     
     
     figg30 = go.Figure()
@@ -595,8 +597,8 @@ if page=="Gıda Fiyat Endeksi":
         ))
     figg30.update_layout(
             xaxis=dict(
-                tickvals=degisim_2_24.index[0:],  # Original datetime index
-                ticktext=degisim_2_24.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=tickvals,  # Original datetime index
+                ticktext=ticktext,  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
@@ -1724,14 +1726,15 @@ if page=="Harcama Grupları":
     
 
     
-    
+    tickvals = selected_indice_data.index[::3]  # Her 3 birimde bir tarih
+    ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
 
     
     
     figggrup.update_layout(
             xaxis=dict(
-                tickvals=selected_indice_data.index[0:],  # Original datetime index
-                ticktext=selected_indice_data.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=tickvals,  # Original datetime index
+                ticktext=ticktext,  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
@@ -1757,10 +1760,13 @@ if page=="Harcama Grupları":
             line=dict(color='purple', width=4),
             marker=dict(size=8, color="black")
         ))
+    
+    tickvals = artıs30harcama.index[::3]  # Her 3 birimde bir tarih
+    ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     figg31.update_layout(
             xaxis=dict(
-                tickvals=artıs30harcama.index[0:],  # Original datetime index
-                ticktext=artıs30harcama.index[0:].strftime("%d.%m.%Y"),  # Custom formatted labels
+                tickvals=tickvals,  # Original datetime index
+                ticktext=ticktext,  # Custom formatted labels
                 tickfont=dict(size=14, family="Arial Black", color="black")
             ),
             yaxis=dict(
@@ -2000,19 +2006,21 @@ if page=="Özel Kapsamlı Endeksler":
 
     figözel.add_trace(go.Scatter(
         x=özelgöstergeler["Tarih"],
+        y=özelgöstergeler["Taze Meyve-Sebze"],
+        mode='lines',
+        name="Taze Meyve-Sebze",
+        line=dict(color='purple', width=4)
+    ))
+
+    figözel.add_trace(go.Scatter(
+        x=özelgöstergeler["Tarih"],
         y=özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"],
         mode='lines',
         name="Meyve Sebze Hariç İşlenmemiş Gıda",
         line=dict(color='orange', width=4)
                 ))
 
-    figözel.add_trace(go.Scatter(
-        x=özelgöstergeler["Tarih"],
-        y=özelgöstergeler["Taze Meyve-Sebze"],
-        mode='lines',
-        name="Taze Meyve-Sebze",
-        line=dict(color='purple', width=4)
-    ))
+    
 
     figözel.add_trace(go.Scatter(
         x=özelgöstergeler["Tarih"],
