@@ -1863,7 +1863,8 @@ if page=="Özel Kapsamlı Endeksler":
     data=data.drop(2,axis=0)
     data=data.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(data)))
     ağırlık=pd.read_excel("tuketici fiyat endeksi ana grup ve temel baslik agirliklari.xls")
-
+    weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
+    weighted_indices.index=pd.to_datetime(weighted_indices.index)
 
     ağırlık=ağırlık.iloc[:,[0,1,3]]
     ağırlık=ağırlık.dropna()
