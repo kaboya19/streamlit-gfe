@@ -517,7 +517,8 @@ if page=="Gıda Fiyat Endeksi":
                 mode='lines+markers',
                 name=selected_group,
                 line=dict(color='blue', width=4),
-                marker=dict(size=8, color="black")
+                marker=dict(size=8, color="black"),
+                hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
             ))
         
         
@@ -574,7 +575,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
-    tickvals = degisim_2_24.index[::3]  # Her 3 birimde bir tarih
+    tickvals = degisim_2_24.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     
     
@@ -585,7 +586,8 @@ if page=="Gıda Fiyat Endeksi":
             mode='lines+markers',
             name="24 Günlük Değişim",
             line=dict(color='blue', width=4),
-            marker=dict(size=8, color="black")
+            marker=dict(size=8, color="black"),
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
         ))
     figg30.add_trace(go.Scatter(
             x=aylıkdegisim.index[0:],
@@ -593,7 +595,8 @@ if page=="Gıda Fiyat Endeksi":
             mode='lines+markers',
             name="Aylık Ortalama Değişimi",
             line=dict(color='purple', width=4),
-            marker=dict(size=8, color="black")
+            marker=dict(size=8, color="black"),
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
         ))
     figg30.update_layout(
             xaxis=dict(
@@ -714,7 +717,8 @@ if page=="Gıda Fiyat Endeksi":
                 mode='lines+markers',
                 name=selected_group,
                 line=dict(color='blue', width=4),
-                marker=dict(size=8, color="black")
+                marker=dict(size=8, color="black"),
+                hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
             ))
 
         figgalt.add_trace(
@@ -724,7 +728,8 @@ if page=="Gıda Fiyat Endeksi":
         mode="lines",
         line=dict(shape="hv",color="red", width=4),  # 'hv' yatay-dikey step grafiği
         name="TÜİK Gıda",
-        marker=dict(size=8, color="black")
+        marker=dict(size=8, color="black"),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     )
 )
    
@@ -909,6 +914,7 @@ if page=="Gıda Fiyat Endeksi":
                 name="TÜİK",
                 line=dict(color='blue', width=4),
                 marker=dict(size=8, color="black"),
+                hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',
 
                 textfont=dict(
                     color='black',
@@ -923,7 +929,7 @@ if page=="Gıda Fiyat Endeksi":
                 line=dict(color='red', width=4),
                 name="Web-GFE",
                 marker=dict(size=8, color="black"),
-
+                hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',
                 textfont=dict(
                     color='black',
                     size=12,
@@ -987,7 +993,8 @@ if page=="Gıda Fiyat Endeksi":
             name="TÜİK",
             marker=dict(color='blue'),
             text=gıda_c["Aylık Değişim"],  # Değerleri göster
-            textposition='outside',  # Tüm değerler barların üstünde olacak
+            textposition='outside',
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',  # Tüm değerler barların üstünde olacak
             textfont=dict(
                 color='black',
                 size=12,
@@ -1002,7 +1009,8 @@ if page=="Gıda Fiyat Endeksi":
             name="Web-GFE",
             marker=dict(color='red'),
             text=gıda_c["Aylık Değişim1"],  # Değerleri göster
-            textposition='outside',  # Tüm değerler barların üstünde olacak
+            textposition='outside', 
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
             textfont=dict(
                 color='black',
                 size=12,
@@ -1721,7 +1729,8 @@ if page=="Harcama Grupları":
             mode='lines+markers',
             name=selected_indice,
             line=dict(color='blue', width=4),
-            marker=dict(size=8, color="black")
+            marker=dict(size=8, color="black"),
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
         ))
     
 
@@ -1761,7 +1770,7 @@ if page=="Harcama Grupları":
             marker=dict(size=8, color="black")
         ))
     
-    tickvals = artıs30harcama.index[::3]  # Her 3 birimde bir tarih
+    tickvals = artıs30harcama.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     figg31.update_layout(
             xaxis=dict(
