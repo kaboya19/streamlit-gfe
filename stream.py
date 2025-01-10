@@ -2053,8 +2053,7 @@ if page=="Özel Kapsamlı Endeksler":
         yaxis=dict(
             tickfont=dict(size=14, family="Arial Black", color="black")
         ),
-        font=dict(family="Arial", size=14, color="black"),
-        hovermode="x unified"  # Hover modunda tüm izler birlikte gösterilir
+        font=dict(family="Arial", size=14, color="black")
     )
     st.plotly_chart(figözel)
 
