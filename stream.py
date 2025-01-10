@@ -1948,15 +1948,15 @@ if page=="Özel Kapsamlı Endeksler":
     işlenmemişgıda=işlenmemişgıda.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmemişgıda)))
 
 
-    işlenmemiş_gıda=["Dana Eti","Kuzu Eti","Tavuk Eti","Sakatat","Balık","Konserve Balık","Yumurta"]
+    işlenmemiş_gıda1=["Dana Eti","Kuzu Eti","Tavuk Eti","Sakatat","Balık","Konserve Balık","Yumurta"]
 
-    ağırlık_işlenmemişgıda_meyvesebzeharic=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmemiş_gıda)]
+    ağırlık_işlenmemişgıda_meyvesebzeharic=ağırlıklar[ağırlıklar["Ürün"].isin(işlenmemiş_gıda1)]
     ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"]=ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"]/ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"].sum()
 
     işlenmemişgıda_msharic=[]
     for range in endekslerr.columns[:-1]:
         
-        işlenmemişgıda_msharic.append((endekslerr[range].loc[işlenmemiş_gıda]*ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"].values).sum())
+        işlenmemişgıda_msharic.append((endekslerr[range].loc[işlenmemiş_gıda1]*ağırlık_işlenmemişgıda_meyvesebzeharic["Ağırlık"].values).sum())
     işlenmemişgıda_msharic=pd.DataFrame(işlenmemişgıda_msharic,index=endekslerr.columns[:-1],columns=["İşlenmemiş Gıda"])
     işlenmemişgıda_msharic=işlenmemişgıda_msharic.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(işlenmemişgıda_msharic)))
 
