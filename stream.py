@@ -2041,7 +2041,7 @@ if page=="Özel Kapsamlı Endeksler":
 
 
     tickvals = özelgöstergeler.index[::3]
-    ticktext = tickvals.strftime("%d.%m.%Y")r
+    ticktext = tickvals.strftime("%d.%m.%Y")
 
     figözel.update_layout(
         xaxis=dict(
