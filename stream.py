@@ -2001,7 +2001,8 @@ if page=="Özel Kapsamlı Endeksler":
         y=özelgöstergeler["İşlenmemiş Gıda"],
         mode='lines',
         name="İşlenmemiş Gıda",
-        line=dict(color='blue', width=4)
+        line=dict(color='blue', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
 
     figözel.add_trace(go.Scatter(
@@ -2009,7 +2010,8 @@ if page=="Özel Kapsamlı Endeksler":
         y=özelgöstergeler["Taze Meyve-Sebze"],
         mode='lines',
         name="Taze Meyve-Sebze",
-        line=dict(color='purple', width=4)
+        line=dict(color='purple', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
 
     figözel.add_trace(go.Scatter(
@@ -2017,7 +2019,8 @@ if page=="Özel Kapsamlı Endeksler":
         y=özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"],
         mode='lines',
         name="Meyve Sebze Hariç İşlenmemiş Gıda",
-        line=dict(color='orange', width=4)
+        line=dict(color='orange', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
                 ))
 
     
@@ -2027,7 +2030,8 @@ if page=="Özel Kapsamlı Endeksler":
         y=özelgöstergeler["İşlenmiş Gıda"],
         mode='lines',
         name="İşlenmiş Gıda",
-        line=dict(color='red', width=4)
+        line=dict(color='red', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
 
 
@@ -2036,8 +2040,8 @@ if page=="Özel Kapsamlı Endeksler":
 
 
 
-    tickvals = özelgöstergeler.index[::3]  # Her 3 birimde bir tarih
-    ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
+    tickvals = özelgöstergeler.index[::3]
+    ticktext = tickvals.strftime("%d.%m.%Y")r
 
     figözel.update_layout(
         xaxis=dict(
@@ -2049,7 +2053,8 @@ if page=="Özel Kapsamlı Endeksler":
         yaxis=dict(
             tickfont=dict(size=14, family="Arial Black", color="black")
         ),
-        font=dict(family="Arial", size=14, color="black")
+        font=dict(family="Arial", size=14, color="black"),
+        hovermode="x unified"  # Hover modunda tüm izler birlikte gösterilir
     )
     st.plotly_chart(figözel)
 
