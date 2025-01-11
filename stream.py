@@ -1257,7 +1257,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
 
-        özelgöstergeler=pd.read_csv("özelgöstergeler.csv",index=0)
+        özelgöstergeler=pd.read_csv("özelgöstergeler.csv",index_col=0)
         del özelgöstergeler["Tarih.1"]
         özelgöstergeler.index=pd.to_datetime(özelgöstergeler.index)
 
