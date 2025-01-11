@@ -1280,66 +1280,66 @@ if page=="Gıda Fiyat Endeksi":
         import time
         with st.spinner("İçerik yükleniyor..."):
             
-            time.sleep(15)  # Yükleme işlemini simüle etmek için bekleme
+            time.sleep(10)  # Yükleme işlemini simüle etmek için bekleme
 
                 
-            st.download_button(
-                label="📊 Fiyat Listesini İndir",
-                data=excel_data,
-                file_name='fiyatlar.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Fiyat Listesini İndir",
+            data=excel_data,
+            file_name='fiyatlar.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            st.download_button(
-                label="📊 Madde Endekslerini İndir",
-                data=excel_data1,
-                file_name='endeksler.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Madde Endekslerini İndir",
+            data=excel_data1,
+            file_name='endeksler.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            st.download_button(
-                label="📊 Web-Gıda Fiyat Endeksi İndir",
-                data=excel_data2,
-                file_name='gfe.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Web-Gıda Fiyat Endeksi İndir",
+            data=excel_data2,
+            file_name='gfe.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            st.download_button(
-                label="📊 Harcama Grupları Endeksleri İndir",
-                data=weighted_indices_data,
-                file_name='harcamagrupları.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Harcama Grupları Endeksleri İndir",
+            data=weighted_indices_data,
+            file_name='harcamagrupları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            
+        
 
-            st.download_button(
-                label="📊 Web-GFE Aylık Değişim Oranlarını İndir",
-                data=aylıkenf_data,
-                file_name='gfeaylıkdegisimoranları.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Web-GFE Aylık Değişim Oranlarını İndir",
+            data=aylıkenf_data,
+            file_name='gfeaylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            st.download_button(
-                label="📊 Maddeler Aylık Değişim Oranlarını İndir",
-                data=aylıkenf1,
-                file_name='maddeaylıkdegisimoranları.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Maddeler Aylık Değişim Oranlarını İndir",
+            data=aylıkenf1,
+            file_name='maddeaylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            st.download_button(
-                label="📊 Harcama Grupları Aylık Değişim Oranlarını İndir",
-                data=weighted_indices_aylık,
-                file_name='harcamagruplarıaylıkdegisimoranları.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Harcama Grupları Aylık Değişim Oranlarını İndir",
+            data=weighted_indices_aylık,
+            file_name='harcamagruplarıaylıkdegisimoranları.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
-            st.download_button(
-                label="📊 Özel Kapsamlı GFE Göstergeleri İndir",
-                data=özelgöstergeler,
-                file_name='özelgöstergeler.xlsx',
-                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-            )
+        st.download_button(
+            label="📊 Özel Kapsamlı GFE Göstergeleri İndir",
+            data=özelgöstergeler,
+            file_name='özelgöstergeler.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
 
         import streamlit as st
 
