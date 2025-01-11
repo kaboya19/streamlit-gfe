@@ -2002,7 +2002,7 @@ if page=="Özel Kapsamlı Endeksler":
     özelgöstergeler["Taze Meyve-Sebze"]=tazemeyvesebzeendeks.values
     özelgöstergeler["İşlenmiş Gıda"]=işlenmişgıda.values
     özelgöstergeler.index=pd.to_datetime(özelgöstergeler["Tarih"])
-    özelgöstergeler.to_excel("özelgöstergeler.xlsx")
+    
 
    
     figözel = go.Figure()
