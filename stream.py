@@ -1814,7 +1814,7 @@ if page=="Özel Kapsamlı Endeksler":
    
     figözel = go.Figure()
     figözel.add_trace(go.Scatter(
-        x=özelgöstergeler["Tarih"],
+        x=özelgöstergeler.index.strftime("%Y-%m-%d"),
         y=özelgöstergeler["İşlenmemiş Gıda"],
         mode='lines',
         name="İşlenmemiş Gıda",
@@ -1823,7 +1823,7 @@ if page=="Özel Kapsamlı Endeksler":
     ))
 
     figözel.add_trace(go.Scatter(
-        x=özelgöstergeler["Tarih"],
+        x=özelgöstergeler.index.strftime("%Y-%m-%d"),
         y=özelgöstergeler["Taze Meyve-Sebze"],
         mode='lines',
         name="Taze Meyve-Sebze",
@@ -1832,7 +1832,7 @@ if page=="Özel Kapsamlı Endeksler":
     ))
 
     figözel.add_trace(go.Scatter(
-        x=özelgöstergeler["Tarih"],
+        x=özelgöstergeler.index.strftime("%Y-%m-%d"),
         y=özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"],
         mode='lines',
         name="Meyve Sebze Hariç İşlenmemiş Gıda",
@@ -1843,7 +1843,7 @@ if page=="Özel Kapsamlı Endeksler":
     
 
     figözel.add_trace(go.Scatter(
-        x=özelgöstergeler["Tarih"],
+        x=özelgöstergeler.index.strftime("%Y-%m-%d"),
         y=özelgöstergeler["İşlenmiş Gıda"],
         mode='lines',
         name="İşlenmiş Gıda",
