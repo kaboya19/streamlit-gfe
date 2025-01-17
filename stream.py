@@ -1390,6 +1390,15 @@ if page=="Madde Endeksleri":
     selected_indice = st.sidebar.selectbox("Grup Seçin:", gruplar)
     grupdata=gıdaürünleri[gıdaürünleri["Grup"]==selected_indice]
     endeksdata=endeksler[grupdata["Ürün"].values]
+    maddeler=pd.DataFrame(index=endeksler.index,columns=endeksdata.columns)
+    for madde in endeksdata.columns:
+        hareketlimadde = hareketli_aylik_ortalama(endeksdata[madde])
+        hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
+        maddeler[madde]=hareketlimadde["Aylık Ortalama"]
+    selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index.strftime("%Y-%m"))
+    
+
+
     
  
 
