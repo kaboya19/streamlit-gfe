@@ -1464,7 +1464,10 @@ if page=="Madde Endeksleri":
                 x=list(group.values),
                 orientation='h',
                 marker=dict(color=colors[i]),
-                name=f'Grup {i+1}'
+                name=f'Grup {i+1}',
+                text=[f"{v:.2f}%" for v in group.values],  # Yüzdelik olarak değerleri göster
+                textposition="auto",  # Metinlerin pozisyonunu otomatik belirle
+                textfont=dict(size=12, family="Arial Black", color="black"),
             ),
             row=1,
             col=i+1
