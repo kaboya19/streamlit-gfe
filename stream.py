@@ -1436,64 +1436,55 @@ if page=="Madde Endeksleri":
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
 
+    # Verileri 3 gruba bölelim
+    num_groups = 3
+    group_size = len(y_labels) // num_groups  # Her gruptaki ortalama eleman sayısı
 
+    groups = [y_labels[i::num_groups] for i in range(num_groups)]
+    values = [x_values[i::num_groups] for i in range(num_groups)]
 
-    figartıs = go.Figure()
+    # Subplot oluştur
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["Grup 1", "Grup 2", "Grup 3"])
 
-    # Verileri ekleme
-    figartıs.add_trace(go.Bar(
-        y=y_labels,  
-        x=x_values,
-        orientation='h', 
-        marker=dict(color="blue"),
-        name=f'{selected_tarih} Artış Oranı',
-    ))
-
-
-    # Başlık ve etiketler
-    figartıs.update_layout(
-        xaxis_title='Artış Oranı (%)',
-        yaxis_title='Grup',
-        xaxis=dict(tickformat='.2f'),
-        bargap=0.2,  # Çubuklar arasındaki boşluk
-        height=1800,  # Grafik boyutunu artırma
-        font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
-        yaxis=dict(
-            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
-            tickmode='array',  # Manuel olarak etiketleri belirlemek için
-            tickvals=list(range(len(degisim.index))),
-            ticktext=degisim.index
-
+    # 3 Farklı Çubuk Grafiği Ekleyelim
+    colors = ["blue", "green", "red"]
+    for i in range(num_groups):
+        figartıs.add_trace(
+            go.Bar(
+                y=groups[i],
+                x=values[i],
+                orientation='h',
+                marker=dict(color=colors[i]),
+                name=f'Grup {i+1}'
+            ),
+            row=1,
+            col=i+1
         )
-    )
 
-    # Etiket ekleme
-    for i, value in enumerate(degisim.values):
-        if value >= 0:
-            # Pozitif değerler sol tarafta
+        # Etiket ekleme
+        for j, value in enumerate(values[i]):
             figartıs.add_annotation(
-                x=value, 
-                y=degisim.index[i], 
-                text=f"{value:.2f}%", 
-                showarrow=False, 
-                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
-                align='left', 
-                xanchor='left', 
-                yanchor='middle'
+                x=value,
+                y=groups[i][j],
+                text=f"{value:.2f}%",
+                showarrow=False,
+                font=dict(size=12, family="Arial Black"),
+                align='left' if value >= 0 else 'right',
+                xanchor='left' if value >= 0 else 'right',
+                yanchor='middle',
+                row=1,
+                col=i+1
             )
-        else:
-            # Negatif değerler sağ tarafta
-            figartıs.add_annotation(
-                x=value, 
-                y=degisim.index[i], 
-                text=f"{value:.2f}%", 
-                showarrow=False, 
-                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
-                align='right', 
-                xanchor='right', 
-                yanchor='middle'
-            )
-  
+
+    # Grafik düzenlemeleri
+    figartıs.update_layout(
+        title="Ürünlerin Artış Oranları (3 Grup Halinde)",
+        xaxis_title='Artış Oranı (%)',
+        yaxis_title='Ürün',
+        height=800,
+        font=dict(family="Arial Black", size=12, color="black")
+    )
+    
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
