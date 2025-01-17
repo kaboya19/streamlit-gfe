@@ -1558,8 +1558,12 @@ if page=="Madde Endeksleri":
                 xanchor='right', 
                 yanchor='middle'
             )
+    tarih1=indexler[1].split("-")[1]
+    tarih2=indexler[1].split("-")[0]
 
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {indexler[1].split("-")[1]}/{indexler[1].split("-")[0]}-{indexler[-1].split("-")[1]}/{indexler[-1].split("-")[0]} Dönemi Toplam Artış Oranları (%)</h2>", unsafe_allow_html=True)
+    tarih3=indexler[-1].split("-")[1]
+    tarih4=indexler[-1].split("-")[0]
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {tarih1}/{tarih2}-{tarih3}/{tarih4} Dönemi Toplam Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figcum)
 
     
