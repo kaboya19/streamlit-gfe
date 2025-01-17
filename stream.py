@@ -1424,6 +1424,9 @@ if page=="Madde Endeksleri":
     degisim=((maddeler.loc[simdi].iloc[-1,:]/maddeler.loc[önceki_indeks].iloc[-1,:])-1)*100
     degisim=degisim.astype(float)
     degisim=degisim.sort_values()
+    import numpy as np
+    cumdegisim=((np.prod(maddeler.resample('M').last().pct_change()+1).dropna())-1)*100
+    cumdegisim=cumdegisim.sort_values()
 
    
     
@@ -1493,6 +1496,71 @@ if page=="Madde Endeksleri":
   
 
     st.plotly_chart(figartıs)
+
+
+    y_labels = list(cumdegisim.index)
+    x_values = list(cumdegisim.values)
+
+
+
+    figcum = go.Figure()
+
+    # Verileri ekleme
+    figcum.add_trace(go.Bar(
+        y=y_labels,  
+        x=x_values,
+        orientation='h', 
+        marker=dict(color="blue"),
+        name=f'{selected_tarih} Artış Oranı',
+    ))
+
+
+    # Başlık ve etiketler
+    figcum.update_layout(
+        xaxis_title='Artış Oranı (%)',
+        yaxis_title='Grup',
+        xaxis=dict(tickformat='.2f'),
+        bargap=0.2,  # Çubuklar arasındaki boşluk
+        height=1800,  # Grafik boyutunu artırma
+        font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
+        yaxis=dict(
+            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
+            tickmode='array',  # Manuel olarak etiketleri belirlemek için
+            tickvals=list(range(len(cumdegisim.index))),
+            ticktext=cumdegisim.index
+
+        )
+    )
+
+    # Etiket ekleme
+    for i, value in enumerate(cumdegisim.values):
+        if value >= 0:
+            # Pozitif değerler sol tarafta
+            figcum.add_annotation(
+                x=value, 
+                y=cumdegisim.index[i], 
+                text=f"{value:.2f}%", 
+                showarrow=False, 
+                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
+                align='left', 
+                xanchor='left', 
+                yanchor='middle'
+            )
+        else:
+            # Negatif değerler sağ tarafta
+            figcum.add_annotation(
+                x=value, 
+                y=cumdegisim.index[i], 
+                text=f"{value:.2f}%", 
+                showarrow=False, 
+                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
+                align='right', 
+                xanchor='right', 
+                yanchor='middle'
+            )
+  
+
+    st.plotly_chart(figcum)
 
     
     
