@@ -1458,15 +1458,12 @@ if page=="Madde Endeksleri":
     groups = [most_increased, middle, least_changed]
 
     for i, group in enumerate(groups):
-        abs_values = group.abs()  # Negatif çubuklar için mutlak değer al
+        tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
 
-        tickvals = list(range(len(group.index)))  # Y eksenindeki etiketlerin sıralaması
-        
-        # **Eğer en sağdaki grupsa, ürün isimlerini çubukların SAĞINA kaydır!**
+        # **Eğer en sağdaki gruptaysa, çubukları ters yönde çizelim**
         if i == 2:
-            ticktext = [
-                f"<b>{name}</b>" for name in group.index
-            ]  # Ürün isimleri kalın olacak
+            abs_values = -group.abs()  # Çubukları ters çizmek için negatif değer yap
+            ticktext = [f"<b>{name}</b>" for name in group.index]  # Kalın ürün isimleri
 
             figartıs.update_yaxes(
                 tickvals=tickvals,
@@ -1477,9 +1474,8 @@ if page=="Madde Endeksleri":
                 col=i+1
             )
         else:
-            ticktext = [
-                f"<b>{name}</b>" for name in group.index
-            ]
+            abs_values = group.abs()  # Normal çubuklar
+            ticktext = [f"<b>{name}</b>" for name in group.index]
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
@@ -1488,7 +1484,7 @@ if page=="Madde Endeksleri":
                 row=1,
                 col=i+1
             )
-        
+
         figartıs.add_trace(
             go.Bar(
                 y=tickvals,
@@ -1506,13 +1502,13 @@ if page=="Madde Endeksleri":
             offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
 
             figartıs.add_annotation(
-                x=abs(value) ,  # Çubuk uzunluğu kadar sağa kaydır
+                x=abs(value) + offset if i != 2 else -abs(value) - offset,  # En sağdaki grup için ters yönde kaydır
                 y=j,
                 text=f"{value:.2f}%",  # Orijinal değeri göster
                 showarrow=False,
                 font=dict(size=12, family="Arial Black", color="black"),
-                align='left',
-                xanchor='left',
+                align='left' if i != 2 else 'right',  # En sağdaki grup için sağa hizala
+                xanchor='left' if i != 2 else 'right',
                 yanchor='middle',
                 row=1,
                 col=i+1
