@@ -1424,11 +1424,11 @@ if page=="Madde Endeksleri":
 
     indeks=indexler[indeks]
     degisim=((maddeler.loc[indeks].iloc[-1,:-4]/maddeler.loc[önceki_indeks].iloc[-1,:-4])-1)*100
+    degisim=degisim.astype(float)
     degisim=degisim.sort_values()
+    
 
-    st.dataframe(((maddeler.loc[indeks].iloc[-1,:-4]/maddeler.loc[önceki_indeks].iloc[-1,:-4])-1)*100)
-    st.write(önceki_indeks)
-    st.write(indeks)
+    
 
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
