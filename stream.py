@@ -1429,8 +1429,7 @@ if page=="Madde Endeksleri":
     degisim=degisim.astype(float)
     degisim=degisim.sort_values()
 
-    st.dataframe(degisim)
-    st.write(maddeler.loc[indeks].dtypes)
+   
     
 
     
