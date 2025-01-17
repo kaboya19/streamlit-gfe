@@ -1443,9 +1443,9 @@ if page=="Madde Endeksleri":
     group_size = num_items // 3  # Her gruba düşecek yaklaşık ürün sayısı
 
     # Grupları belirleme
-    most_increased = degisim.iloc[:group_size]  # En çok artanlar (sol)
-    middle = degisim.iloc[group_size:2*group_size]  # Orta değerler (orta)
-    least_changed = degisim.iloc[2*group_size:]  # En az değişenler (sağ)
+    most_increased = degisim.iloc[:group_size][::-1]  # En çok artanlar (sol)
+    middle = degisim.iloc[group_size:2*group_size][::-1]  # Orta değerler (orta)
+    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler (sağ)
 
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
