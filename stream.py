@@ -1417,11 +1417,72 @@ if page=="Madde Endeksleri":
         hareketlimadde = hareketli_aylik_ortalama(endeksdata[madde])
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         maddeler[madde]=hareketlimadde["Aylık Ortalama"]
-    selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index.strftime("%Y-%m"))
+    selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index[1:].strftime("%Y-%m"))
     indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")
     indeks=indexler.get_loc(selected_tarih)
-    sonraki_indeks=indexler[indeks+1]
-    st.dataframe(endeksler.loc[sonraki_indeks])
+    önceki_indeks=indexler[indeks-1]
+
+    indeks=indexler[indeks]
+    degisim=((maddeler.loc[indeks].iloc[-1,:-4]/maddeler.loc[önceki_indeks].iloc[-1,:-4])-1)*100
+    degisim=degisim.sort_values()
+
+
+    figartıs = go.Figure()
+
+    # Verileri ekleme
+    figartıs.add_trace(go.Bar(
+        y=degisim.index,  # Kısaltılmış index etiketleri
+        x=degisim.values,
+        orientation='h', 
+        marker=dict(color="blue"),
+        name=f'{selected_tarih} Artış Oranı',
+    ))
+
+    # Başlık ve etiketler
+    figartıs.update_layout(
+        xaxis_title='Artış Oranı (%)',
+        yaxis_title='Grup',
+        xaxis=dict(tickformat='.2f'),
+        bargap=0.2,  # Çubuklar arasındaki boşluk
+        height=1200,  # Grafik boyutunu artırma
+        font=dict(family="Arial Black", size=14, color="black"),  # Yazı tipi ve kalınlık
+        yaxis=dict(
+            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
+            tickmode='array',  # Manuel olarak etiketleri belirlemek için
+            tickvals=list(range(len(degisim.index))),  # Her bir index için bir yer belirle
+            ticktext=degisim.index  # Kısaltılmış index etiketleri
+        )
+    )
+
+    # Etiket ekleme
+    for i, value in enumerate(degisim.values):
+        if value >= 0:
+            # Pozitif değerler sol tarafta
+            figartıs.add_annotation(
+                x=value, 
+                y=degisim.index[i], 
+                text=f"{value:.2f}%", 
+                showarrow=False, 
+                font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
+                align='left', 
+                xanchor='left', 
+                yanchor='middle'
+            )
+        else:
+            # Negatif değerler sağ tarafta
+            figartıs.add_annotation(
+                x=value, 
+                y=degisim.index[i], 
+                text=f"{value:.2f}%", 
+                showarrow=False, 
+                font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
+                align='right', 
+                xanchor='right', 
+                yanchor='middle'
+            )
+    st.plotly_chart(figartıs)
+
+    
     
 
 
