@@ -1475,17 +1475,14 @@ if page=="Madde Endeksleri":
         # Etiket ekleme (daha okunaklı olacak şekilde)
         for j, value in enumerate(group.values):
             offset = 0.5  # Küçük çubuklarda yazının iç içe geçmemesi için mesafe
-            if abs(value) < 1:  # Çok küçük değerler için daha fazla uzaklık
-                offset = 1.2  
-            elif abs(value) < 0.5:
-                offset = 1.5
+
 
             figartıs.add_annotation(
                 x=abs(value) + offset,  # Mutlak değere göre konumlandır
                 y=group.index[j],
                 text=f"{value:.2f}%",  # Orijinal değeri göster (negatif işareti korunacak)
                 showarrow=False,
-                font=dict(size=16, family="Arial Black", color="black"),  # Büyük ve siyah font
+                font=dict(size=12, family="Arial Black", color="black"),  # Büyük ve siyah font
                 align='left',  # Her zaman sola hizala
                 xanchor='left',
                 yanchor='middle',
@@ -1499,14 +1496,14 @@ if page=="Madde Endeksleri":
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
-        font=dict(family="Arial Black", size=14, color="black"),  # Genel yazı tipi ayarı
+        font=dict(family="Arial Black", size=12, color="black"),  # Genel yazı tipi ayarı
         showlegend=False
     )
 
     # Y ekseni metinlerini de siyah ve kalın yapalım
     for i in range(3):
         figartıs.update_yaxes(
-            tickfont=dict(family="Arial Black", size=16, color="black"),  # Kalın siyah font
+            tickfont=dict(family="Arial Black", size=12, color="black"),  # Kalın siyah font
             row=1,
             col=i+1
         )
