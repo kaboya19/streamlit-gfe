@@ -1537,66 +1537,104 @@ if page=="Madde Endeksleri":
 
 
 
-    figcum = go.Figure()
+    cumdegisim = cumdegisim.sort_values(ascending=False)
 
-    # Verileri ekleme
-    figcum.add_trace(go.Bar(
-        y=y_labels,  
-        x=x_values,
-        orientation='h', 
-        marker=dict(color="blue"),
-        name=f'{selected_tarih} Artış Oranı',
-    ))
+    # 3 gruba bölelim
+    num_items = len(cumdegisim)
+    group_size = num_items // 3  # Her gruba düşecek yaklaşık ürün sayısı
 
+    # Grupları belirleme
+    most_increased = cumdegisim.iloc[:group_size][::-1]  # En çok artanlar (sol)
+    middle = cumdegisim.iloc[group_size:2*group_size][::-1]  # Orta değerler (orta)
+    least_changed = cumdegisim.iloc[2*group_size:][::-1]  # En az değişenler (sağ)
 
-    # Başlık ve etiketler
-    figcum.update_layout(
-        xaxis_title='Artış Oranı (%)',
-        yaxis_title='Grup',
-        xaxis=dict(tickformat='.2f'),
-        bargap=0.2,  # Çubuklar arasındaki boşluk
-        height=1800,  # Grafik boyutunu artırma
-        font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
-        yaxis=dict(
-            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
-            tickmode='array',  # Manuel olarak etiketleri belirlemek için
-            tickvals=list(range(len(cumdegisim.index))),
-            ticktext=cumdegisim.index
+    y_labels = list(cumdegisim.index)
+    x_values = list(cumdegisim.values)
 
-        )
-    )
+    # Subplot oluştur
+    figcum = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar","", "En Az Artanlar ve En Çok Düşenler"])
 
-    # Etiket ekleme
-    for i, value in enumerate(cumdegisim.values):
-        if value >= 0:
-            # Pozitif değerler sol tarafta
-            figcum.add_annotation(
-                x=value, 
-                y=cumdegisim.index[i], 
-                text=f"{value:.2f}%", 
-                showarrow=False, 
-                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
-                align='left', 
-                xanchor='left', 
-                yanchor='middle'
+    # 3 Farklı Çubuk Grafiği Ekleyelim
+    colors = ["green", "blue", "red"]
+    groups = [most_increased, middle, least_changed]
+
+    for i, group in enumerate(groups):
+        tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
+
+        # **Eğer en sağdaki gruptaysa, çubukları ters yönde çizelim**
+        if i == 2:
+            abs_values = -group.abs()  # Çubukları ters çizmek için negatif değer yap
+            ticktext = [f"<b>{name}</b>" for name in group.index]  # Kalın ürün isimleri
+
+            figcum.update_yaxes(
+                tickvals=tickvals,
+                ticktext=ticktext,
+                tickfont=dict(family="Arial Black", size=12, color="black"),
+                side="right",  # Y eksenini sağa al
+                row=1,
+                col=i+1
             )
         else:
-            # Negatif değerler sağ tarafta
-            figcum.add_annotation(
-                x=value, 
-                y=cumdegisim.index[i], 
-                text=f"{value:.2f}%", 
-                showarrow=False, 
-                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
-                align='right', 
-                xanchor='right', 
-                yanchor='middle'
+            abs_values = group.abs()  # Normal çubuklar
+            ticktext = [f"<b>{name}</b>" for name in group.index]
+            figcum.update_yaxes(
+                tickvals=tickvals,
+                ticktext=ticktext,
+                tickfont=dict(family="Arial Black", size=12, color="black"),
+                side="left",  # Y eksenini sola al
+                row=1,
+                col=i+1
             )
+
+        figcum.add_trace(
+            go.Bar(
+                y=tickvals,
+                x=list(abs_values),
+                orientation='h',
+                marker=dict(color=colors[i]),
+                name=f'Grup {i+1}',
+            ),
+            row=1,
+            col=i+1
+        )
+
+        # **Etiket ekleme (Yazıları kaydırma)**
+        for j, value in enumerate(group.values):
+            offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
+
+            figcum.add_annotation(
+                x=abs(value) if i != 2 else -abs(value) - offset,  # En sağdaki grup için ters yönde kaydır
+                y=j,
+                text=f"{value:.2f}%",  # Orijinal değeri göster
+                showarrow=False,
+                font=dict(size=12, family="Arial Black", color="black"),
+                align='left' if i != 2 else 'right',  # En sağdaki grup için sağa hizala
+                xanchor='left' if i != 2 else 'right',
+                yanchor='middle',
+                row=1,
+                col=i+1
+            )
+
+    # **Grafik genel ayarları**
     tarih1=indexler[1].split("-")[1]
     tarih2=indexler[1].split("-")[0]
 
     tarih3=indexler[-1].split("-")[1]
     tarih4=indexler[-1].split("-")[0]
+    figcum.update_layout(
+        title=dict(
+        text=f"<b>Maddeler {tarih1}/{tarih2}-{tarih3}/{tarih4} Dönemi Toplam  Artış Oranları</b>",
+        x=0.5,  # Ortaya hizalama
+        xanchor="center",
+        font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
+    ),
+        xaxis_title='Artış Oranı (%)',
+        yaxis_title='Ürün',
+        height=1000,
+        font=dict(family="Arial Black", size=12, color="black"),  # Tüm yazılar siyah ve kalın
+        showlegend=False
+    )
+    
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {tarih1}/{tarih2}-{tarih3}/{tarih4} Dönemi Toplam Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figcum)
 
