@@ -1414,7 +1414,7 @@ if page=="Madde Endeksleri":
         hareketlimadde = hareketli_aylik_ortalama(endeksler[madde])
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         maddeler[madde]=hareketlimadde["Aylık Ortalama"]
-    selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index[1:].strftime("%Y-%m"))
+    selected_tarih = st.sidebar.selectbox("Tarih Seçin:", maddeler.resample('M').mean().index[1:].strftime("%Y-%m"))
     indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")
     indeks=indexler.get_loc(selected_tarih)
     önceki_indeks=indexler[indeks-1]
@@ -2047,6 +2047,7 @@ if page=="Özel Kapsamlı Endeksler":
         ),
         font=dict(family="Arial", size=14, color="black")
     )
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Özel Kapsamlı Endeksler</h2>", unsafe_allow_html=True)
     st.plotly_chart(figözel)
 
 
