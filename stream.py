@@ -1502,7 +1502,7 @@ if page=="Madde Endeksleri":
             offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
 
             figartıs.add_annotation(
-                x=abs(value) + offset if i != 2 else -abs(value) - offset,  # En sağdaki grup için ters yönde kaydır
+                x=abs(value) if i != 2 else -abs(value) - offset,  # En sağdaki grup için ters yönde kaydır
                 y=j,
                 text=f"{value:.2f}%",  # Orijinal değeri göster
                 showarrow=False,
