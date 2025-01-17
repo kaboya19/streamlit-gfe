@@ -1436,7 +1436,7 @@ if page=="Madde Endeksleri":
 
     
 
-    degisim = degisim.sort_values(ascending=False)
+    degisim = degisim.sort_values(ascending=True)
 
     # 3 gruba bölelim
     num_items = len(degisim)
@@ -1477,7 +1477,14 @@ if page=="Madde Endeksleri":
                 y=group.index[j],
                 text=f"{value:.2f}%",
                 showarrow=False,
-                font=dict(size=12, family="Arial Black"),
+                font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
+                yaxis=dict(
+                    tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
+                    tickmode='array',  # Manuel olarak etiketleri belirlemek için
+                    tickvals=list(range(len(cumdegisim.index))),
+                    ticktext=cumdegisim.index
+
+                )
                 align='left' if value >= 0 else 'right',
                 xanchor='left' if value >= 0 else 'right',
                 yanchor='middle',
