@@ -1426,17 +1426,22 @@ if page=="Madde Endeksleri":
     degisim=((maddeler.loc[indeks].iloc[-1,:-4]/maddeler.loc[önceki_indeks].iloc[-1,:-4])-1)*100
     degisim=degisim.sort_values()
 
+    y_labels = list(degisim.index)
+    x_values = list(degisim.values)
+
+
 
     figartıs = go.Figure()
 
     # Verileri ekleme
     figartıs.add_trace(go.Bar(
-        y=degisim.index,  # Kısaltılmış index etiketleri
-        x=degisim.values,
+        y=y_labels,  
+        x=x_values,
         orientation='h', 
         marker=dict(color="blue"),
         name=f'{selected_tarih} Artış Oranı',
     ))
+
 
     # Başlık ve etiketler
     figartıs.update_layout(
@@ -1449,8 +1454,9 @@ if page=="Madde Endeksleri":
         yaxis=dict(
             tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
             tickmode='array',  # Manuel olarak etiketleri belirlemek için
-            tickvals=list(range(len(degisim.index))),  # Her bir index için bir yer belirle
-            ticktext=degisim.index  # Kısaltılmış index etiketleri
+            tickvals=list(range(len(degisim.index))),
+            ticktext=degisim.index
+
         )
     )
 
@@ -1480,6 +1486,8 @@ if page=="Madde Endeksleri":
                 xanchor='right', 
                 yanchor='middle'
             )
+  
+
     st.plotly_chart(figartıs)
 
     
