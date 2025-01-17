@@ -1460,22 +1460,34 @@ if page=="Madde Endeksleri":
     for i, group in enumerate(groups):
         abs_values = group.abs()  # Negatif çubuklar için mutlak değer al
 
-        # Eğer en az değişenler grubundaysa, y etiketlerini sağa al
-        if i == 2:
-            ticktext = [f"<b>{name}</b>" for name in group.index]  # Kalın yazı tipi ekleyelim
+        # **Y eksenini ayarlayalım**
+        tickvals = list(range(len(group.index)))  # Y eksenindeki etiketlerin sıralaması
+        ticktext = [f"<b>{name}</b>" for name in group.index]  # Ürün isimlerini kalın yap
+        
+        if i == 2:  # **Sadece En Az Değişenler (sağdaki) için isimleri sağa taşıyalım**
             figartıs.update_yaxes(
-                tickvals=list(range(len(group.index))),
+                tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="right",  # Sağ tarafa hizala
+                tickfont=dict(family="Arial Black", size=14, color="black"),
+                side="right",  # SAĞA AL
+                row=1,
+                col=i+1
+            )
+        else:  # **Soldaki ve Ortadaki ürün isimlerini eski haline getirelim**
+            figartıs.update_yaxes(
+                tickvals=tickvals,
+                ticktext=ticktext,
+                tickfont=dict(family="Arial Black", size=14, color="black"),
+                side="left",  # SOLDA KALSIN
                 row=1,
                 col=i+1
             )
         
+        # Çubuk grafiğini ekleyelim
         figartıs.add_trace(
             go.Bar(
-                y=list(range(len(group.index))),  # Y etiketlerini kendimiz belirleyelim
-                x=list(abs_values),  # Mutlak değerler ile çubukları düzelt
+                y=tickvals,  # Y eksenini sayılarla eşleştirdik
+                x=list(abs_values),  # Çubuk uzunluğu için mutlak değerler
                 orientation='h',
                 marker=dict(color=colors[i]),
                 name=f'Grup {i+1}',
@@ -1484,43 +1496,36 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # Etiket ekleme (daha okunaklı olacak şekilde)
+        # **Etiket ekleme (Yazıları kaydırma)**
         for j, value in enumerate(group.values):
             offset = 0.5  # Küçük çubuklarda yazının iç içe geçmemesi için mesafe
-            if abs(value) < 1:  # Çok küçük değerler için daha fazla uzaklık
+            if abs(value) < 1:
                 offset = 1.2  
             elif abs(value) < 0.5:
                 offset = 1.5
 
             figartıs.add_annotation(
-                x=abs(value) ,  # Mutlak değere göre konumlandır
-                y=j,  # Y etiketlerini sayısal olarak belirledik
-                text=f"{value:.2f}%",  # Orijinal değeri göster (negatif işareti korunacak)
+                x=abs(value) + offset,  # Çubuk değerine göre pozisyon ayarla
+                y=j,  # Y ekseni değerlerini manuel olarak ayarla
+                text=f"{value:.2f}%",  # Orijinal değeri koru
                 showarrow=False,
-                font=dict(size=12, family="Arial Black", color="black"),  # Büyük ve siyah font
-                align='left',  # Her zaman sola hizala
+                font=dict(size=16, family="Arial Black", color="black"),
+                align='left',  # Sola hizala
                 xanchor='left',
                 yanchor='middle',
                 row=1,
                 col=i+1
             )
 
-    # Grafik düzenlemeleri
+    # **Grafik genel ayarları**
     figartıs.update_layout(
+        title="<b>Ürünlerin Artış Oranları (3 Grup Halinde)</b>",
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
-        font=dict(family="Arial Black", size=12, color="black"),  # Genel yazı tipi ayarı
+        font=dict(family="Arial Black", size=14, color="black"),  # Tüm yazılar siyah ve kalın
         showlegend=False
     )
-
-    # Y ekseni metinlerini de siyah ve kalın yapalım (ilk iki grup için)
-    for i in range(2):  # İlk iki grup için sol tarafta bırak
-        figartıs.update_yaxes(
-            tickfont=dict(family="Arial Black", size=12, color="black"),
-            row=1,
-            col=i+1
-        )
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
