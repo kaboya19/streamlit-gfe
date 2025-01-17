@@ -1451,7 +1451,7 @@ if page=="Madde Endeksleri":
     x_values = list(degisim.values)
 
     # Subplot oluştur
-    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Değişenler", "Orta Grup", "En Az Değişenler"])
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar", "En Az Artanlar ve En Çok Düşenler"])
 
     # 3 Farklı Çubuk Grafiği Ekleyelim
     colors = ["green", "blue", "red"]
@@ -1516,7 +1516,7 @@ if page=="Madde Endeksleri":
 
     # **Grafik genel ayarları**
     figartıs.update_layout(
-        title="<b>Ürünlerin Artış Oranları (3 Grup Halinde)</b>",
+        title="<b>Maddeler {selected_tarih} Artış Oranları (%)</b>",
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
