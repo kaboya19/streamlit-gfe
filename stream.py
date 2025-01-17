@@ -1381,6 +1381,7 @@ if page=="Gıda Fiyat Endeksi":
              st.dataframe(fiyat)
 
 if page=="Madde Endeksleri":
+    from plotly.subplots import make_subplots
     endeksler=pd.read_csv("endeksler.csv",index_col=0)
     endeksler=endeksler.T
     endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
