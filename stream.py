@@ -1445,10 +1445,10 @@ if page=="Madde Endeksleri":
     values = [x_values[i::num_groups] for i in range(num_groups)]
 
     # Subplot oluştur
-    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["Grup 1", "Grup 2", "Grup 3"])
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1)
 
     # 3 Farklı Çubuk Grafiği Ekleyelim
-    colors = ["blue", "green", "red"]
+    colors = ["red", "blue", "green"]
     for i in range(num_groups):
         figartıs.add_trace(
             go.Bar(
@@ -1483,7 +1483,14 @@ if page=="Madde Endeksleri":
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=800,
-        font=dict(family="Arial Black", size=12, color="black")
+        font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
+        yaxis=dict(
+            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
+            tickmode='array',  # Manuel olarak etiketleri belirlemek için
+            tickvals=list(range(len(cumdegisim.index))),
+            ticktext=cumdegisim.index
+
+        )
     )
     
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
