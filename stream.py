@@ -1418,7 +1418,7 @@ if page=="Madde Endeksleri":
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         maddeler[madde]=hareketlimadde["Aylık Ortalama"]
     selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index[1:].strftime("%Y-%m"))
-    indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")[1:]
+    indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")
     indeks=indexler.get_loc(selected_tarih)
     önceki_indeks=indexler[indeks-1]
 
@@ -1427,6 +1427,8 @@ if page=="Madde Endeksleri":
     degisim=degisim.sort_values()
 
     st.dataframe(maddeler.loc[önceki_indeks])
+    st.write(onceki_indeks)
+    st.write(indeks)
 
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
