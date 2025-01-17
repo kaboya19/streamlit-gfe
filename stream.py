@@ -1494,14 +1494,19 @@ if page=="Madde Endeksleri":
         height=800,
         font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
         yaxis=dict(
-            tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
+            tickfont=dict(family="Arial Black", size=12, color="black"),  # Y eksenindeki etiketlerin rengi
             tickmode='array',  # Manuel olarak etiketleri belirlemek için
             tickvals=list(range(len(cumdegisim.index))),
             ticktext=cumdegisim.index
 
         )
     )
-    
+    for i in range(3):
+        figartıs.update_yaxes(
+            tickfont=dict(family="Arial Black", size=12, color="black"),  # Kalın siyah font
+            row=1,
+            col=i+1
+        )
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
