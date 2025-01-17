@@ -1382,7 +1382,9 @@ if page=="Gıda Fiyat Endeksi":
 
 if page=="Madde Endeksleri":
     endeksler=pd.read_csv("endeksler.csv",index_col=0)
-    endeksler.index=pd.to_datetime(endeksler.index)
+    endeksler=endeksler.T
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="M",period=len(endeksler)))
+    
     gıdaürünleri=pd.read_csv("gıdagrupları.csv")
     gruplar=gıdaürünleri["Grup"].unique()
     selected_indice = st.sidebar.selectbox("Grup Seçin:", gruplar)
