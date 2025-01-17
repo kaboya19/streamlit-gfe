@@ -1467,46 +1467,26 @@ if page=="Madde Endeksleri":
                 name=f'Grup {i+1}',
                 text=[f"{v:.2f}%" for v in group.values],  # Yüzdelik olarak değerleri göster
                 textposition="auto",  # Metinlerin pozisyonunu otomatik belirle
-                textfont=dict(size=12, family="Arial Black", color="black"),
+                textfont=dict(size=12, family="Arial Black", color="black"),  # Siyah ve daha küçük yazı tipi
             ),
             row=1,
             col=i+1
         )
 
-        # Etiket ekleme
-        for j, value in enumerate(group.values):
-            figartıs.add_annotation(
-                x=value,
-                y=group.index[j],
-                text=f"{value:.2f}%",
-                showarrow=False,
-                font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
-              
-                align='left' if value >= 0 else 'right',
-                xanchor='left' if value >= 0 else 'right',
-                yanchor='middle',
-                row=1,
-                col=i+1
-            )
-
     # Grafik düzenlemeleri
     figartıs.update_layout(
-        title="Ürünlerin Artış Oranları (3 Grup Halinde)",
+        title="<b>Ürünlerin Artış Oranları (3 Grup Halinde)</b>",
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
-        height=800,
-        font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
-        yaxis=dict(
-            tickfont=dict(family="Arial Black", size=12, color="black"),  # Y eksenindeki etiketlerin rengi
-            tickmode='array',  # Manuel olarak etiketleri belirlemek için
-            tickvals=list(range(len(cumdegisim.index))),
-            ticktext=cumdegisim.index
-
-        )
+        height=900,
+        font=dict(family="Arial Black", size=14, color="black"),  # Genel yazı tipi ayarı
+        showlegend=False
     )
+
+    # Y ekseni metinlerini de siyah ve kalın yapalım
     for i in range(3):
         figartıs.update_yaxes(
-            tickfont=dict(family="Arial Black", size=12, color="black"),  # Kalın siyah font
+            tickfont=dict(family="Arial Black", size=14, color="black"),  # Kalın siyah font
             row=1,
             col=i+1
         )
