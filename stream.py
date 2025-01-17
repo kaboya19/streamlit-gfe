@@ -1451,7 +1451,7 @@ if page=="Madde Endeksleri":
     x_values = list(degisim.values)
 
     # Subplot oluştur
-    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar", "En Az Artanlar ve En Çok Düşenler"])
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar","", "En Az Artanlar ve En Çok Düşenler"])
 
     # 3 Farklı Çubuk Grafiği Ekleyelim
     colors = ["green", "blue", "red"]
