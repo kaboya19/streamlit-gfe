@@ -1422,8 +1422,10 @@ if page=="Madde Endeksleri":
     indeks=indexler.get_loc(selected_tarih)
     önceki_indeks=indexler[indeks-1]
 
-    indeks=indexler[indeks]
-    degisim=((maddeler.loc[indeks].iloc[-1,:-4]/maddeler.loc[önceki_indeks].iloc[-1,:-4])-1)*100
+    
+
+    simdi=indexler[indeks]
+    degisim=((maddeler.loc[simdi].iloc[-1,:]/maddeler.loc[önceki_indeks].iloc[-1,:])-1)*100
     degisim=degisim.astype(float)
     degisim=degisim.sort_values()
 
