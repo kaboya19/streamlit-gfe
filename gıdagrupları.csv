@@ -1,0 +1,129 @@
+,Ürün,Grup,Ağırlık,Group_Number,Ana Grup
+140,Kola,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.0018902994350872,36,Gıda ve alkolsüz içecekler
+13,Ayran,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.0004040251880938,36,Gıda ve alkolsüz içecekler
+89,Gazoz Meyveli,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.0005192503817246,36,Gıda ve alkolsüz içecekler
+236,Soğuk Çay,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.0002382976946598,36,Gıda ve alkolsüz içecekler
+102,Hazır Pakette Toz Tatlılar (Puding),"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0001951083290121,31,Gıda ve alkolsüz içecekler
+105,Hazır Çorbalar,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0003041963741586,31,Gıda ve alkolsüz içecekler
+170,Mayonez,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0001625246688785,31,Gıda ve alkolsüz içecekler
+136,Ketçap,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0002184077385462,31,Gıda ve alkolsüz içecekler
+20,Baharat,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0011522280466004,31,Gıda ve alkolsüz içecekler
+115,Kabartma Maddeleri,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0001817078424189,31,Gıda ve alkolsüz içecekler
+278,Tuz,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0003202593826123,31,Gıda ve alkolsüz içecekler
+232,Sirke,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0002458142044308,31,Gıda ve alkolsüz içecekler
+254,Tahin,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, kabartma maddeleri, sirke, ketçap, mayonez vb.)",0.0004133066786148,31,Gıda ve alkolsüz içecekler
+57,Dana Eti,Dana eti,0.021527815933306,7,Gıda ve alkolsüz içecekler
+222,Sakatat,Diğer etler ve yenilebilir sakatatlar,0.0005741082756036,10,Gıda ve alkolsüz içecekler
+133,Kek,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0007824673799987,4,Gıda ve alkolsüz içecekler
+91,Gofret,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0014920917604171,4,Gıda ve alkolsüz içecekler
+145,Kraker,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0005732537697522,4,Gıda ve alkolsüz içecekler
+69,Ekmek Hamuru (Yufka),"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0010165728198682,4,Gıda ve alkolsüz içecekler
+199,Pasta,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0027863613072049,4,Gıda ve alkolsüz içecekler
+21,Baklava,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0034701839835708,4,Gıda ve alkolsüz içecekler
+39,Bisküvi,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0027927426488552,4,Gıda ve alkolsüz içecekler
+103,Hazır Sütlü Tatlılar,"Diğer süt ürünleri (yoğurt, hazır sütlü tatlı vb.)",0.0002842820181469,15,Gıda ve alkolsüz içecekler
+293,Yoğurt,"Diğer süt ürünleri (yoğurt, hazır sütlü tatlı vb.)",0.0058757028469784,15,Gıda ve alkolsüz içecekler
+66,Dondurma,Dondurma,0.0015661007904346,30,Gıda ve alkolsüz içecekler
+68,Ekmek,Ekmek,0.0253991950413661,3,Gıda ve alkolsüz içecekler
+256,Tahıl Gevreği,Kahvaltılık tahıl ürünleri,0.0003119266022887,6,Gıda ve alkolsüz içecekler
+117,Kahve,Kahve,0.0011694797601641,32,Gıda ve alkolsüz içecekler
+101,Hazır Kahve,Kahve,0.0007883250825328,32,Gıda ve alkolsüz içecekler
+143,Konserve Balık,Konserve edilmiş veya işlenmiş balık,0.000269469553598,13,Gıda ve alkolsüz içecekler
+275,Turşu,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0002800798657568,26,Gıda ve alkolsüz içecekler
+56,Cipsler,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0013078876200984,26,Gıda ve alkolsüz içecekler
+295,Zeytin,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0037472633339313,26,Gıda ve alkolsüz içecekler
+226,Salça,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0016385797098798,26,Gıda ve alkolsüz içecekler
+144,Konserveler,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0002389036410066,26,Gıda ve alkolsüz içecekler
+148,Kuru Fasulye,Kuru baklagiller,0.0010189198360848,25,Gıda ve alkolsüz içecekler
+172,Mercimek,Kuru baklagiller,0.0011960645464302,25,Gıda ve alkolsüz içecekler
+184,Nohut,Kuru baklagiller,0.0006453073516668,25,Gıda ve alkolsüz içecekler
+152,Kuru Üzüm,Kuru meyve ve sert kabuklu yemişler,0.000382620379395,22,Gıda ve alkolsüz içecekler
+88,Fındık İçi,Kuru meyve ve sert kabuklu yemişler,0.0007869821114761,22,Gıda ve alkolsüz içecekler
+160,Leblebi,Kuru meyve ve sert kabuklu yemişler,0.000426477270405,22,Gıda ve alkolsüz içecekler
+111,Kabak Çekirdeği,Kuru meyve ve sert kabuklu yemişler,0.0003652444593813,22,Gıda ve alkolsüz içecekler
+54,Ceviz İçi,Kuru meyve ve sert kabuklu yemişler,0.0021618962463617,22,Gıda ve alkolsüz içecekler
+19,Badem İçi,Kuru meyve ve sert kabuklu yemişler,0.0004717921855776,22,Gıda ve alkolsüz içecekler
+290,Yer Fıstığı,Kuru meyve ve sert kabuklu yemişler,0.0010221072853227,22,Gıda ve alkolsüz içecekler
+8,Ay Çekirdeği,Kuru meyve ve sert kabuklu yemişler,0.0019305093683594,22,Gıda ve alkolsüz içecekler
+149,Kuru Kayısı,Kuru meyve ve sert kabuklu yemişler,0.000377428056269,22,Gıda ve alkolsüz içecekler
+4,Antep Fıstığı,Kuru meyve ve sert kabuklu yemişler,0.0005255919622143,22,Gıda ve alkolsüz içecekler
+153,Kuzu Eti,Kuzu eti,0.0091549816221809,8,Gıda ve alkolsüz içecekler
+322,Şehriye,Makarna çeşitleri,0.0002781384481801,5,Gıda ve alkolsüz içecekler
+164,Makarna,Makarna çeşitleri,0.0019821957994251,5,Gıda ve alkolsüz içecekler
+168,Margarin,Margarin,0.0012224653380124,19,Gıda ve alkolsüz içecekler
+173,Meyve Suyu,Meyve ve sebze suları,0.0011866645131852,37,Gıda ve alkolsüz içecekler
+201,Patates,Patates,0.002990010504953,24,Gıda ve alkolsüz içecekler
+274,Tulum Peyniri,Peynir,0.001601773474087,16,Gıda ve alkolsüz içecekler
+35,Beyaz Peynir,Peynir,0.0082884698148961,16,Gıda ve alkolsüz içecekler
+147,Krem Peynir,Peynir,0.0006246390165543,16,Gıda ve alkolsüz içecekler
+130,Kaşar Peyniri,Peynir,0.003883564933852,16,Gıda ve alkolsüz içecekler
+211,Pirinç,Pirinç,0.0025657705635423,1,Gıda ve alkolsüz içecekler
+87,Fındık Ezmesi,"Reçel, marmelat, bal vb. ürünler",0.0001497615734993,28,Gıda ve alkolsüz içecekler
+255,Tahin Helvası,"Reçel, marmelat, bal vb. ürünler",0.000581864552487,28,Gıda ve alkolsüz içecekler
+203,Pekmez,"Reçel, marmelat, bal vb. ürünler",0.0005316872630017,28,Gıda ve alkolsüz içecekler
+22,Bal,"Reçel, marmelat, bal vb. ürünler",0.0015208715683209,28,Gıda ve alkolsüz içecekler
+218,Reçel,"Reçel, marmelat, bal vb. ürünler",0.0003532978857693,28,Gıda ve alkolsüz içecekler
+243,Su,Su ve maden suyu,0.0030068009478632,35,Gıda ve alkolsüz içecekler
+163,Maden Suyu ve Sodası,Su ve maden suyu,0.0007207478179395,35,Gıda ve alkolsüz içecekler
+250,Süt,Süt,0.0074586936417545,14,Gıda ve alkolsüz içecekler
+16,Ayçiçek Yağı,"Sıvı yağlar (zeytinyağı, ayçiçek yağı)",0.0087078907910218,20,Gıda ve alkolsüz içecekler
+296,Zeytinyağı,"Sıvı yağlar (zeytinyağı, ayçiçek yağı)",0.0042052788733264,20,Gıda ve alkolsüz içecekler
+258,Tavuk Eti,Tavuk eti,0.0140306569571098,9,Gıda ve alkolsüz içecekler
+23,Balık,Taze balık,0.0037678946668746,12,Gıda ve alkolsüz içecekler
+177,Muz,Taze meyveler,0.0029504953494431,21,Gıda ve alkolsüz içecekler
+15,Ayva,Taze meyveler,0.0001909230314952,21,Gıda ve alkolsüz içecekler
+125,Kavun,Taze meyveler,0.0010161677732835,21,Gıda ve alkolsüz içecekler
+124,Karpuz,Taze meyveler,0.002210685494987,21,Gıda ve alkolsüz içecekler
+181,Nar,Taze meyveler,0.0002631416010202,21,Gıda ve alkolsüz içecekler
+7,Armut,Taze meyveler,0.0005146149912476,21,Gıda ve alkolsüz içecekler
+138,Kivi,Taze meyveler,0.0001526811807028,21,Gıda ve alkolsüz içecekler
+215,Portakal,Taze meyveler,0.0015742451257415,21,Gıda ve alkolsüz içecekler
+78,Elma,Taze meyveler,0.0021516675919712,21,Gıda ve alkolsüz içecekler
+317,Üzüm,Taze meyveler,0.0013383143940403,21,Gıda ve alkolsüz içecekler
+321,Şeftali,Taze meyveler,0.0007028628426298,21,Gıda ve alkolsüz içecekler
+305,Çilek,Taze meyveler,0.0007123999098731,21,Gıda ve alkolsüz içecekler
+166,Mandalina,Taze meyveler,0.0014907987288272,21,Gıda ve alkolsüz içecekler
+161,Limon,Taze meyveler,0.0010789264838222,21,Gıda ve alkolsüz içecekler
+202,Patlıcan,Taze sebzeler (patates hariç),0.0014634491269331,23,Gıda ve alkolsüz içecekler
+109,Ispanak,Taze sebzeler (patates hariç),0.0006122247687484,23,Gıda ve alkolsüz içecekler
+34,Beyaz Lahana,Taze sebzeler (patates hariç),0.000358079476787,23,Gıda ve alkolsüz içecekler
+180,Nane,Taze sebzeler (patates hariç),7.849132414631453e-05,23,Gıda ve alkolsüz içecekler
+150,Kuru Soğan,Taze sebzeler (patates hariç),0.0022643334864042,23,Gıda ve alkolsüz içecekler
+99,Havuç,Taze sebzeler (patates hariç),0.0006659744012609,23,Gıda ve alkolsüz içecekler
+169,Maydanoz,Taze sebzeler (patates hariç),0.0005124045468058,23,Gıda ve alkolsüz içecekler
+233,Sivri Biber,Taze sebzeler (patates hariç),0.0015463054773387,23,Gıda ve alkolsüz içecekler
+156,Kırmızı Lahana,Taze sebzeler (patates hariç),0.0001395925410738,23,Gıda ve alkolsüz içecekler
+227,Sarımsak,Taze sebzeler (patates hariç),0.0005118413250082,23,Gıda ve alkolsüz içecekler
+123,Karnabahar,Taze sebzeler (patates hariç),0.0004034627050572,23,Gıda ve alkolsüz içecekler
+157,Kırmızı Turp,Taze sebzeler (patates hariç),0.0001461732260996,23,Gıda ve alkolsüz içecekler
+158,Kıvırcık,Taze sebzeler (patates hariç),0.0006650881477348,23,Gıda ve alkolsüz içecekler
+65,Domates,Taze sebzeler (patates hariç),0.0067486798659938,23,Gıda ve alkolsüz içecekler
+110,Kabak,Taze sebzeler (patates hariç),0.0005094851367239,23,Gıda ve alkolsüz içecekler
+219,Roka,Taze sebzeler (patates hariç),0.0001455148844698,23,Gıda ve alkolsüz içecekler
+63,Dolmalık Biber,Taze sebzeler (patates hariç),0.00043720386609,23,Gıda ve alkolsüz içecekler
+216,Pırasa,Taze sebzeler (patates hariç),0.0003599891258472,23,Gıda ve alkolsüz içecekler
+300,Çarliston Biber,Taze sebzeler (patates hariç),0.0004617923472597,23,Gıda ve alkolsüz içecekler
+260,Taze Fasulye,Taze sebzeler (patates hariç),0.0010320838693789,23,Gıda ve alkolsüz içecekler
+167,Mantar,Taze sebzeler (patates hariç),0.0004994548140813,23,Gıda ve alkolsüz içecekler
+225,Salatalık,Taze sebzeler (patates hariç),0.0026880113140251,23,Gıda ve alkolsüz içecekler
+60,Dereotu,Taze sebzeler (patates hariç),0.000115602552696,23,Gıda ve alkolsüz içecekler
+267,Tereyağı (Kahvaltılık),Tereyağı,0.0033202799405498,18,Gıda ve alkolsüz içecekler
+118,Kakao,Toz kakao,4.506011726806403e-05,34,Gıda ve alkolsüz içecekler
+119,Kakaolu Toz İçecekler,Toz kakao,1.3126230714797244e-05,34,Gıda ve alkolsüz içecekler
+49,Buğday Unu,Un ve diğer tahıllar,0.0051551397587049,2,Gıda ve alkolsüz içecekler
+47,Bulgur,Un ve diğer tahıllar,0.0015075978658279,2,Gıda ve alkolsüz içecekler
+29,Bebek Sütü (Toz Karışım),Un ve diğer tahıllar,0.0012681427991126,2,Gıda ve alkolsüz içecekler
+294,Yumurta,Yumurta,0.0081343493773354,17,Gıda ve alkolsüz içecekler
+40,Bitki ve Meyve Çayı (Poşet),Çay ve bitki çayları,9.076700431807916e-05,33,Gıda ve alkolsüz içecekler
+301,Çay,Çay ve bitki çayları,0.0054671159815219,33,Gıda ve alkolsüz içecekler
+162,Lokum,Çikolata ve şekerlemeler,0.0004834358275419,29,Gıda ve alkolsüz içecekler
+304,Çikolata Tablet,Çikolata ve şekerlemeler,0.0019123745066629,29,Gıda ve alkolsüz içecekler
+303,Çikolata Krem,Çikolata ve şekerlemeler,0.0011512406015908,29,Gıda ve alkolsüz içecekler
+223,Sakız,Çikolata ve şekerlemeler,0.0002888797832713,29,Gıda ve alkolsüz içecekler
+129,Kağıtlı Şeker,Çikolata ve şekerlemeler,0.0011113822876013,29,Gıda ve alkolsüz içecekler
+224,Salam,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0008307873207534,11,Gıda ve alkolsüz içecekler
+235,Sosis,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0004701308217263,11,Gıda ve alkolsüz içecekler
+100,Hazır Et Yemekleri,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0010106144422685,11,Gıda ve alkolsüz içecekler
+245,Sucuk,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0042983115737175,11,Gıda ve alkolsüz içecekler
+135,Kesme Şeker,Şeker,0.0005071774893097,27,Gıda ve alkolsüz içecekler
+273,Toz Şeker,Şeker,0.003259043550335,27,Gıda ve alkolsüz içecekler

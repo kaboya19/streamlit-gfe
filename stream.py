@@ -1381,94 +1381,15 @@ if page=="Gıda Fiyat Endeksi":
              st.dataframe(fiyat)
 
 if page=="Madde Endeksleri":
-    def to_excel(df):
-        output = BytesIO()
-        # Pandas'ın ExcelWriter fonksiyonunu kullanarak Excel dosyasını oluştur
-        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-            df.to_excel(writer, index=False, sheet_name='Sheet1')  # index=False ile index'i dahil etmiyoruz
-            
-            # Writer'dan Workbook ve Worksheet nesnelerine erişim
-            workbook = writer.book
-            worksheet = writer.sheets['Sheet1']
-            
-            # Sütun genişliklerini ayarla
-            for i, col in enumerate(df.columns):
-                max_length = max(df[col].astype(str).map(len).max(), len(col))  # En uzun değer veya sütun adı uzunluğu
-                worksheet.set_column(i, i, max_length + 2)  # +2 biraz boşluk ekler
-        processed_data = output.getvalue()  # Bellekteki dosya verisini al
-        return processed_data
-    def hareketli_aylik_ortalama(df):
-        değer = df.name  # Kolon ismi
-        df = pd.DataFrame(df)
-        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
-        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
-        
-        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
-        df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
-            .expanding()
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
-        
-        # Orijinal indeksi geri yükle
-        df.index = pd.to_datetime(df.index)
-        return df
-    data=pd.read_csv("sepet.csv")
-    try:
-        data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
-    except:
-         data=data.set_index(data["original_index"]).drop("original_index",axis=1)
-    fiyatlar=pd.read_csv("sepet.csv")
-    try:
-        fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
-    except:
-         fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
-
-    fiyatlar.index.name="Madde"
-    fiyatlar=fiyatlar.sort_index()
-    fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
-    
-   
-    
-
-    #data=data.drop("Grup",axis=1)
-    data.index.name=""
-    data=data.drop_duplicates()
-    data.loc["WEB-GFE","Ürün"]="WEB-GFE"
-
-    gfe=pd.read_csv("gfe.csv")
-    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
-    gfe=gfe.drop("Tarih",axis=1)
-
-    data[data.index=="WEB-GFE"].iloc[:,-1]=gfe.T
-    endeksler1=pd.read_csv("endeksler.csv")
-    endeksler1=endeksler1.set_index("Ürün")
-
-    endeksler1=(endeksler1).T
-    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
-    aylık=endeksler1.resample('M').last()
-    ekim=endeksler1.resample('M').last()
-    
-    aylık.loc[pd.to_datetime("2024-09-30")]=100
-    aylık=aylık.sort_index()
-    aylık=aylık.pct_change().dropna()*100
-    aylık=aylık.set_index(pd.date_range(start="2024-10-31",freq="M",periods=len(aylık)))
-    aylık.loc["2024-10-31"]=((ekim.loc["2024-10-31"]/100)-1)*100
-    aylık.index=aylık.index.strftime("%Y-%m-%d")
-    aylık=aylık.T
-    toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
-    aylık["Toplam"]=toplam
-    
-
-
+    endeksler=pd.read_csv("endeksler.csv",index_col=0)
+    endeksler.index=pd.to_datetime(endeksler.index)
+    gıdaürünleri=pd.read_csv("gıdagrupları.csv")
+    gruplar=gıdaürünleri["Grup"].unique()
+    selected_indice = st.sidebar.selectbox("Grup Seçin:", gruplar)
+    grupdata=gıdaürünleri[gıdaürünleri["Grup"]==selected_indice]
+    endeksdata=endeksler[grupdata["Ürün"].values]
     
  
-
-    st.dataframe(endeksler1)
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar(Ay Başı-Ay Sonu Artışı)</h2>", unsafe_allow_html=True)
-    st.dataframe(aylık)
 
 
 
