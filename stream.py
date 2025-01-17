@@ -1428,7 +1428,7 @@ if page=="Madde Endeksleri":
     degisim=degisim.sort_values()
 
     st.dataframe(maddeler.loc[indeks])
-    st.write(maddeler.loc[indeksler].dtypes)
+    st.write(maddeler.loc[indeks].dtypes)
     
 
     
