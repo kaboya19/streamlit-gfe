@@ -2127,7 +2127,7 @@ if page=="Özel Kapsamlı Endeksler":
         font=dict(family="Arial", size=14, color="black"),
         height=600
     )
-    st.plotly_chart(figaylık)
+    st.plotly_chart(figaylık, use_container_width=True)
 
 
 
