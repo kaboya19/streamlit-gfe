@@ -1516,7 +1516,7 @@ if page=="Madde Endeksleri":
 
     # **Grafik genel ayarları**
     figartıs.update_layout(
-        title="<b>Maddeler {selected_tarih} Artış Oranları (%)</b>",
+        title=f"<b>Maddeler {selected_tarih} Artış Oranları (%)</b>",
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
