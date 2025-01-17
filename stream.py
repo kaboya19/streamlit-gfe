@@ -1453,8 +1453,8 @@ if page=="Madde Endeksleri":
         yaxis_title='Grup',
         xaxis=dict(tickformat='.2f'),
         bargap=0.2,  # Çubuklar arasındaki boşluk
-        height=1200,  # Grafik boyutunu artırma
-        font=dict(family="Arial Black", size=14, color="black"),  # Yazı tipi ve kalınlık
+        height=1800,  # Grafik boyutunu artırma
+        font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
         yaxis=dict(
             tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
             tickmode='array',  # Manuel olarak etiketleri belirlemek için
@@ -1473,7 +1473,7 @@ if page=="Madde Endeksleri":
                 y=degisim.index[i], 
                 text=f"{value:.2f}%", 
                 showarrow=False, 
-                font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
+                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
                 align='left', 
                 xanchor='left', 
                 yanchor='middle'
@@ -1485,7 +1485,7 @@ if page=="Madde Endeksleri":
                 y=degisim.index[i], 
                 text=f"{value:.2f}%", 
                 showarrow=False, 
-                font=dict(size=14, family="Arial Black"),  # Etiketler için yazı tipi
+                font=dict(size=12, family="Arial Black"),  # Etiketler için yazı tipi
                 align='right', 
                 xanchor='right', 
                 yanchor='middle'
