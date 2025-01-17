@@ -1426,7 +1426,7 @@ if page=="Madde Endeksleri":
     degisim=((maddeler.loc[indeks].iloc[-1,:-4]/maddeler.loc[önceki_indeks].iloc[-1,:-4])-1)*100
     degisim=degisim.sort_values()
 
-    st.dataframe(maddeler.loc[indeks])
+    st.dataframe(maddeler.loc[önceki_indeks])
 
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
