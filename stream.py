@@ -1460,34 +1460,39 @@ if page=="Madde Endeksleri":
     for i, group in enumerate(groups):
         abs_values = group.abs()  # Negatif çubuklar için mutlak değer al
 
-        # **Y eksenini ayarlayalım**
         tickvals = list(range(len(group.index)))  # Y eksenindeki etiketlerin sıralaması
-        ticktext = [f"<b>{name}</b>" for name in group.index]  # Ürün isimlerini kalın yap
         
-        if i == 2:  # **Sadece En Az Değişenler (sağdaki) için isimleri sağa taşıyalım**
+        # **Eğer en sağdaki grupsa, ürün isimlerini çubukların SAĞINA kaydır!**
+        if i == 2:
+            ticktext = [
+                f"<b>{name}</b>" for name in group.index
+            ]  # Ürün isimleri kalın olacak
+
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="right",  # SAĞA AL
+                tickfont=dict(family="Arial Black", size=14, color="black"),
+                side="right",  # Y eksenini sağa al
                 row=1,
                 col=i+1
             )
-        else:  # **Soldaki ve Ortadaki ürün isimlerini eski haline getirelim**
+        else:
+            ticktext = [
+                f"<b>{name}</b>" for name in group.index
+            ]
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="left",  # SOLDA KALSIN
+                tickfont=dict(family="Arial Black", size=14, color="black"),
+                side="left",  # Y eksenini sola al
                 row=1,
                 col=i+1
             )
         
-        # Çubuk grafiğini ekleyelim
         figartıs.add_trace(
             go.Bar(
-                y=tickvals,  # Y eksenini sayılarla eşleştirdik
-                x=list(abs_values),  # Çubuk uzunluğu için mutlak değerler
+                y=tickvals,
+                x=list(abs_values),
                 orientation='h',
                 marker=dict(color=colors[i]),
                 name=f'Grup {i+1}',
@@ -1498,19 +1503,15 @@ if page=="Madde Endeksleri":
 
         # **Etiket ekleme (Yazıları kaydırma)**
         for j, value in enumerate(group.values):
-            offset = 0.5  # Küçük çubuklarda yazının iç içe geçmemesi için mesafe
-            if abs(value) < 1:
-                offset = 1.2  
-            elif abs(value) < 0.5:
-                offset = 1.5
+            offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
 
             figartıs.add_annotation(
-                x=abs(value) ,  # Çubuk değerine göre pozisyon ayarla
-                y=j,  # Y ekseni değerlerini manuel olarak ayarla
-                text=f"{value:.2f}%",  # Orijinal değeri koru
+                x=abs(value) + offset,  # Çubuk uzunluğu kadar sağa kaydır
+                y=j,
+                text=f"{value:.2f}%",  # Orijinal değeri göster
                 showarrow=False,
-                font=dict(size=12, family="Arial Black", color="black"),
-                align='left',  # Sola hizala
+                font=dict(size=16, family="Arial Black", color="black"),
+                align='left',
                 xanchor='left',
                 yanchor='middle',
                 row=1,
@@ -1523,7 +1524,7 @@ if page=="Madde Endeksleri":
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
-        font=dict(family="Arial Black", size=12, color="black"),  # Tüm yazılar siyah ve kalın
+        font=dict(family="Arial Black", size=14, color="black"),  # Tüm yazılar siyah ve kalın
         showlegend=False
     )
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
