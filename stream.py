@@ -2051,6 +2051,74 @@ if page=="Özel Kapsamlı Endeksler":
     st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Özel Kapsamlı Endeksler</h2>", unsafe_allow_html=True)
     st.plotly_chart(figözel)
 
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar (%)</h2>", unsafe_allow_html=True)
+
+
+    figaylık = go.Figure()
+    figaylık.add_trace(go.Scatter(
+        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
+        y=özelgöstergeler["İşlenmemiş Gıda"].pct_change(30).dropna()*100,
+        mode='lines',
+        name="İşlenmemiş Gıda",
+        line=dict(color='blue', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
+    ))
+
+    figaylık.add_trace(go.Scatter(
+        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
+        y=özelgöstergeler["Taze Meyve-Sebze"].pct_change(30).dropna()*100,
+        mode='lines',
+        name="Taze Meyve-Sebze",
+        line=dict(color='purple', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
+    ))
+
+    figaylık.add_trace(go.Scatter(
+        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
+        y=özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"].pct_change(30).dropna()*100,
+        mode='lines',
+        name="Meyve Sebze Hariç İşlenmemiş Gıda",
+        line=dict(color='orange', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
+                ))
+
+    
+
+    figaylık.add_trace(go.Scatter(
+        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
+        y=özelgöstergeler["İşlenmiş Gıda"].pct_change(30).dropna()*100,
+        mode='lines',
+        name="İşlenmiş Gıda",
+        line=dict(color='red', width=4),
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
+    ))
+
+
+
+
+
+
+
+    tickvals = özelgöstergeler.index[::3]
+    ticktext = tickvals.strftime("%d.%m.%Y")
+
+    figaylık.update_layout(
+        xaxis=dict(
+            tickvals=tickvals,
+            ticktext=ticktext,
+            tickfont=dict(size=14, family="Arial Black", color="black"),
+            tickangle=45
+        ),
+        yaxis=dict(
+            tickfont=dict(size=14, family="Arial Black", color="black")
+        ),
+        font=dict(family="Arial", size=14, color="black"),
+        height=600
+    )
+    st.plotly_chart(figaylık)
+
+
+
 
 
 
