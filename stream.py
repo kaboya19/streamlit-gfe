@@ -1391,6 +1391,28 @@ if page=="Madde Endeksleri":
     grupdata=gıdaürünleri[gıdaürünleri["Grup"]==selected_indice]
     endeksdata=endeksler[grupdata["Ürün"].values]
     maddeler=pd.DataFrame(index=endeksler.index,columns=endeksdata.columns)
+
+    def hareketli_aylik_ortalama(df):
+        değer = df.name  # Kolon ismi
+        df = pd.DataFrame(df)
+        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
+        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
+        
+        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
+        df["Aylık Ortalama"] = (
+            df[df["Gün Sırası"] <= 24]
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            .expanding()
+            .mean()
+            .reset_index(level=0, drop=True)
+        )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
+        return df
+
+
+
     for madde in endeksdata.columns:
         hareketlimadde = hareketli_aylik_ortalama(endeksdata[madde])
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
