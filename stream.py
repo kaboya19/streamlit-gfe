@@ -1383,7 +1383,7 @@ if page=="Gıda Fiyat Endeksi":
 if page=="Madde Endeksleri":
     endeksler=pd.read_csv("endeksler.csv",index_col=0)
     endeksler=endeksler.T
-    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="M",periods=len(endeksler)))
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
     
     gıdaürünleri=pd.read_csv("gıdagrupları.csv")
     gruplar=gıdaürünleri["Grup"].unique()
@@ -1418,6 +1418,10 @@ if page=="Madde Endeksleri":
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         maddeler[madde]=hareketlimadde["Aylık Ortalama"]
     selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index.strftime("%Y-%m"))
+    indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")
+    indeks=indexler.get_loc(selected_tarih)
+    sonraki_indeks=indexler[indeks+1]
+    st.dataframe(endeksler.loc[sonraki_indeks])
     
 
 
