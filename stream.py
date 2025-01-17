@@ -1436,7 +1436,7 @@ if page=="Madde Endeksleri":
 
     
 
-    degisim = degisim.sort_values(ascending=True)
+    degisim = degisim.sort_values(ascending=False)
 
     # 3 gruba bölelim
     num_items = len(degisim)
@@ -1478,7 +1478,7 @@ if page=="Madde Endeksleri":
 
 
             figartıs.add_annotation(
-                x=abs(value) + offset,  # Mutlak değere göre konumlandır
+                x=abs(value) ,  # Mutlak değere göre konumlandır
                 y=group.index[j],
                 text=f"{value:.2f}%",  # Orijinal değeri göster (negatif işareti korunacak)
                 showarrow=False,
