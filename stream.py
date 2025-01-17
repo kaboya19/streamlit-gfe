@@ -1484,7 +1484,7 @@ if page=="Madde Endeksleri":
                     tickvals=list(range(len(cumdegisim.index))),
                     ticktext=cumdegisim.index
 
-                )
+                ),
                 align='left' if value >= 0 else 'right',
                 xanchor='left' if value >= 0 else 'right',
                 yanchor='middle',
