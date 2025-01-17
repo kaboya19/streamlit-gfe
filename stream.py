@@ -1471,7 +1471,7 @@ if page=="Madde Endeksleri":
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=14, color="black"),
+                tickfont=dict(family="Arial Black", size=12, color="black"),
                 side="right",  # Y eksenini sağa al
                 row=1,
                 col=i+1
@@ -1483,7 +1483,7 @@ if page=="Madde Endeksleri":
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=14, color="black"),
+                tickfont=dict(family="Arial Black", size=12, color="black"),
                 side="left",  # Y eksenini sola al
                 row=1,
                 col=i+1
@@ -1506,11 +1506,11 @@ if page=="Madde Endeksleri":
             offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
 
             figartıs.add_annotation(
-                x=abs(value) + offset,  # Çubuk uzunluğu kadar sağa kaydır
+                x=abs(value) ,  # Çubuk uzunluğu kadar sağa kaydır
                 y=j,
                 text=f"{value:.2f}%",  # Orijinal değeri göster
                 showarrow=False,
-                font=dict(size=16, family="Arial Black", color="black"),
+                font=dict(size=12, family="Arial Black", color="black"),
                 align='left',
                 xanchor='left',
                 yanchor='middle',
@@ -1524,7 +1524,7 @@ if page=="Madde Endeksleri":
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
-        font=dict(family="Arial Black", size=14, color="black"),  # Tüm yazılar siyah ve kalın
+        font=dict(family="Arial Black", size=12, color="black"),  # Tüm yazılar siyah ve kalın
         showlegend=False
     )
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
