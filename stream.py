@@ -1559,7 +1559,7 @@ if page=="Madde Endeksleri":
                 yanchor='middle'
             )
   
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {indexler[1]}-{indexler[-1]} Dönemi Toplam Artış Oranları (%)</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {indexler[1].split("-")[1]/indexler[1].split("-")[0]}-{indexler[-1].split("-")[1]/indexler[-1].split("-")[0]} Dönemi Toplam Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figcum)
 
     
