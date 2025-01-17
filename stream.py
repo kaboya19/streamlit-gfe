@@ -1418,7 +1418,7 @@ if page=="Madde Endeksleri":
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         maddeler[madde]=hareketlimadde["Aylık Ortalama"]
     selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index[1:].strftime("%Y-%m"))
-    indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")
+    indexler=maddeler.resample('M').mean().index.strftime("%Y-%m")[1:]
     indeks=indexler.get_loc(selected_tarih)
     önceki_indeks=indexler[indeks-1]
 
