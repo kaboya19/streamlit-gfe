@@ -1478,13 +1478,7 @@ if page=="Madde Endeksleri":
                 text=f"{value:.2f}%",
                 showarrow=False,
                 font=dict(family="Arial Black", size=12, color="black"),  # Yazı tipi ve kalınlık
-                yaxis=dict(
-                    tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
-                    tickmode='array',  # Manuel olarak etiketleri belirlemek için
-                    tickvals=list(range(len(cumdegisim.index))),
-                    ticktext=cumdegisim.index
-
-                ),
+              
                 align='left' if value >= 0 else 'right',
                 xanchor='left' if value >= 0 else 'right',
                 yanchor='middle',
