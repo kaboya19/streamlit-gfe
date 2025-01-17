@@ -1516,7 +1516,12 @@ if page=="Madde Endeksleri":
 
     # **Grafik genel ayarları**
     figartıs.update_layout(
-        title=f"<b>Maddeler {selected_tarih} Artış Oranları (%)</b>",
+        title=dict(
+        text=f"<b>Maddeler {selected_tarih} Artış Oranları, 24 Günlük Ortalamaya Göre</b>",
+        x=0.5,  # Ortaya hizalama
+        xanchor="center",
+        font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
+    ),
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
