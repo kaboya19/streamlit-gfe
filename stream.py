@@ -2046,7 +2046,7 @@ if page=="Özel Kapsamlı Endeksler":
             tickfont=dict(size=14, family="Arial Black", color="black")
         ),
         font=dict(family="Arial", size=14, color="black"),
-        height=800
+        height=600
     )
     st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Özel Kapsamlı Endeksler</h2>", unsafe_allow_html=True)
     st.plotly_chart(figözel)
