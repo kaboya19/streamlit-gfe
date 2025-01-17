@@ -1453,7 +1453,7 @@ if page=="Madde Endeksleri":
         yaxis_title='Grup',
         xaxis=dict(tickformat='.2f'),
         bargap=0.2,  # Çubuklar arasındaki boşluk
-        height=max(400,len(degisim)*100 ),  # Grafik boyutunu artırma
+        height=600,  # Grafik boyutunu artırma
         font=dict(family="Arial Black", size=14, color="black"),  # Yazı tipi ve kalınlık
         yaxis=dict(
             tickfont=dict(family="Arial Black", size=14, color="black"),  # Y eksenindeki etiketlerin rengi
