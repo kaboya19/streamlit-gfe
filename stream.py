@@ -2036,6 +2036,12 @@ if page=="Özel Kapsamlı Endeksler":
     ticktext = tickvals.strftime("%d.%m.%Y")
 
     figözel.update_layout(
+        title=dict(
+        text=f"<b>Web-GFE Özel Kapsamlı Endeksler</b>",
+        x=0.5,  # Ortaya hizalama
+        xanchor="center",
+        font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
+    ),
         xaxis=dict(
             tickvals=tickvals,
             ticktext=ticktext,
@@ -2103,6 +2109,12 @@ if page=="Özel Kapsamlı Endeksler":
     ticktext = tickvals.strftime("%d.%m.%Y")
 
     figaylık.update_layout(
+        title=dict(
+        text=f"<b>Aylık Artış Oranları (%)</b>",
+        x=0.5,  # Ortaya hizalama
+        xanchor="center",
+        font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
+    ),
         xaxis=dict(
             tickvals=tickvals,
             ticktext=ticktext,
