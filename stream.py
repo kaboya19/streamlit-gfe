@@ -1434,26 +1434,34 @@ if page=="Madde Endeksleri":
 
     
 
+    
+
+    degisim = degisim.sort_values(ascending=False)
+
+    # 3 gruba bölelim
+    num_items = len(degisim)
+    group_size = num_items // 3  # Her gruba düşecek yaklaşık ürün sayısı
+
+    # Grupları belirleme
+    most_increased = degisim.iloc[:group_size]  # En çok artanlar (sol)
+    middle = degisim.iloc[group_size:2*group_size]  # Orta değerler (orta)
+    least_changed = degisim.iloc[2*group_size:]  # En az değişenler (sağ)
+
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
 
-    # Verileri 3 gruba bölelim
-    num_groups = 3
-    group_size = len(y_labels) // num_groups  # Her gruptaki ortalama eleman sayısı
-
-    groups = [y_labels[i::num_groups] for i in range(num_groups)]
-    values = [x_values[i::num_groups] for i in range(num_groups)]
-
     # Subplot oluştur
-    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1)
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar", "Orta Grup", "En Az Değişenler"])
 
     # 3 Farklı Çubuk Grafiği Ekleyelim
-    colors = ["red", "blue", "green"]
-    for i in range(num_groups):
+    colors = ["green", "blue", "red"]
+    groups = [most_increased, middle, least_changed]
+
+    for i, group in enumerate(groups):
         figartıs.add_trace(
             go.Bar(
-                y=groups[i],
-                x=values[i],
+                y=list(group.index),
+                x=list(group.values),
                 orientation='h',
                 marker=dict(color=colors[i]),
                 name=f'Grup {i+1}'
@@ -1463,10 +1471,10 @@ if page=="Madde Endeksleri":
         )
 
         # Etiket ekleme
-        for j, value in enumerate(values[i]):
+        for j, value in enumerate(group.values):
             figartıs.add_annotation(
                 x=value,
-                y=groups[i][j],
+                y=group.index[j],
                 text=f"{value:.2f}%",
                 showarrow=False,
                 font=dict(size=12, family="Arial Black"),
