@@ -1451,7 +1451,7 @@ if page=="Madde Endeksleri":
     x_values = list(degisim.values)
 
     # Subplot oluştur
-    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar", "Orta Grup", "En Az Değişenler"])
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Değişenler", "Orta Grup", "En Az Değişenler"])
 
     # 3 Farklı Çubuk Grafiği Ekleyelim
     colors = ["green", "blue", "red"]
@@ -1460,9 +1460,21 @@ if page=="Madde Endeksleri":
     for i, group in enumerate(groups):
         abs_values = group.abs()  # Negatif çubuklar için mutlak değer al
 
+        # Eğer en az değişenler grubundaysa, y etiketlerini sağa al
+        if i == 2:
+            ticktext = [f"<b>{name}</b>" for name in group.index]  # Kalın yazı tipi ekleyelim
+            figartıs.update_yaxes(
+                tickvals=list(range(len(group.index))),
+                ticktext=ticktext,
+                tickfont=dict(family="Arial Black", size=12, color="black"),
+                side="right",  # Sağ tarafa hizala
+                row=1,
+                col=i+1
+            )
+        
         figartıs.add_trace(
             go.Bar(
-                y=list(group.index),
+                y=list(range(len(group.index))),  # Y etiketlerini kendimiz belirleyelim
                 x=list(abs_values),  # Mutlak değerler ile çubukları düzelt
                 orientation='h',
                 marker=dict(color=colors[i]),
@@ -1475,11 +1487,14 @@ if page=="Madde Endeksleri":
         # Etiket ekleme (daha okunaklı olacak şekilde)
         for j, value in enumerate(group.values):
             offset = 0.5  # Küçük çubuklarda yazının iç içe geçmemesi için mesafe
-
+            if abs(value) < 1:  # Çok küçük değerler için daha fazla uzaklık
+                offset = 1.2  
+            elif abs(value) < 0.5:
+                offset = 1.5
 
             figartıs.add_annotation(
                 x=abs(value) ,  # Mutlak değere göre konumlandır
-                y=group.index[j],
+                y=j,  # Y etiketlerini sayısal olarak belirledik
                 text=f"{value:.2f}%",  # Orijinal değeri göster (negatif işareti korunacak)
                 showarrow=False,
                 font=dict(size=12, family="Arial Black", color="black"),  # Büyük ve siyah font
@@ -1492,7 +1507,6 @@ if page=="Madde Endeksleri":
 
     # Grafik düzenlemeleri
     figartıs.update_layout(
-        title="<b>Ürünlerin Artış Oranları (3 Grup Halinde)</b>",
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
@@ -1500,10 +1514,10 @@ if page=="Madde Endeksleri":
         showlegend=False
     )
 
-    # Y ekseni metinlerini de siyah ve kalın yapalım
-    for i in range(3):
+    # Y ekseni metinlerini de siyah ve kalın yapalım (ilk iki grup için)
+    for i in range(2):  # İlk iki grup için sol tarafta bırak
         figartıs.update_yaxes(
-            tickfont=dict(family="Arial Black", size=12, color="black"),  # Kalın siyah font
+            tickfont=dict(family="Arial Black", size=12, color="black"),
             row=1,
             col=i+1
         )
