@@ -1385,12 +1385,8 @@ if page=="Madde Endeksleri":
     endeksler=endeksler.T
     endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
     
-    gıdaürünleri=pd.read_csv("gıdagrupları.csv")
-    gruplar=gıdaürünleri["Grup"].unique()
-    selected_indice = st.sidebar.selectbox("Grup Seçin:", gruplar)
-    grupdata=gıdaürünleri[gıdaürünleri["Grup"]==selected_indice]
-    endeksdata=endeksler[grupdata["Ürün"].values]
-    maddeler=pd.DataFrame(index=endeksler.index,columns=endeksdata.columns)
+    
+    maddeler=pd.DataFrame(index=endeksler.index,columns=endeksler.columns)
 
     def hareketli_aylik_ortalama(df):
         değer = df.name  # Kolon ismi
@@ -1413,8 +1409,8 @@ if page=="Madde Endeksleri":
 
 
 
-    for madde in endeksdata.columns:
-        hareketlimadde = hareketli_aylik_ortalama(endeksdata[madde])
+    for madde in endeksler.columns:
+        hareketlimadde = hareketli_aylik_ortalama(endeksler[madde])
         hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
         maddeler[madde]=hareketlimadde["Aylık Ortalama"]
     selected_tarih = st.sidebar.selectbox("Grup Seçin:", maddeler.resample('M').mean().index[1:].strftime("%Y-%m"))
