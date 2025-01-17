@@ -1458,10 +1458,12 @@ if page=="Madde Endeksleri":
     groups = [most_increased, middle, least_changed]
 
     for i, group in enumerate(groups):
+        abs_values = group.abs()  # Negatif çubuklar için mutlak değer al
+
         figartıs.add_trace(
             go.Bar(
                 y=list(group.index),
-                x=list(group.values),
+                x=list(abs_values),  # Mutlak değerler ile çubukları düzelt
                 orientation='h',
                 marker=dict(color=colors[i]),
                 name=f'Grup {i+1}',
@@ -1470,7 +1472,7 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # Etiket ekleme (Daha büyük ve okunaklı olacak şekilde)
+        # Etiket ekleme (daha okunaklı olacak şekilde)
         for j, value in enumerate(group.values):
             offset = 0.5  # Küçük çubuklarda yazının iç içe geçmemesi için mesafe
             if abs(value) < 1:  # Çok küçük değerler için daha fazla uzaklık
@@ -1479,13 +1481,13 @@ if page=="Madde Endeksleri":
                 offset = 1.5
 
             figartıs.add_annotation(
-                x=value + offset if value >= 0 else value - offset,  # Pozitifse sağa, negatifse sola kaydır
+                x=abs(value) + offset,  # Mutlak değere göre konumlandır
                 y=group.index[j],
-                text=f"{value:.2f}%",
+                text=f"{value:.2f}%",  # Orijinal değeri göster (negatif işareti korunacak)
                 showarrow=False,
                 font=dict(size=16, family="Arial Black", color="black"),  # Büyük ve siyah font
-                align='left' if value >= 0 else 'right',
-                xanchor='left' if value >= 0 else 'right',
+                align='left',  # Her zaman sola hizala
+                xanchor='left',
                 yanchor='middle',
                 row=1,
                 col=i+1
