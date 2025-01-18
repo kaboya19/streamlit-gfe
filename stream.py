@@ -747,9 +747,10 @@ if page=="Gıda Fiyat Endeksi":
         
         if periyot=="Günlük":
              import time
-             with st.spinner("İçerik yükleniyor..."):
-            
-                time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
+             progress_bar = st.progress(0)
+             for i in range(101):  # 0'dan 100'e kadar ilerleme
+                time.sleep(0.3)  # 0.2 saniye bekleyerek toplamda 20 saniyede tamamlanacak
+                progress_bar.progress(i)
              st.plotly_chart(figgalt)
              st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
              st.plotly_chart(figg30)
