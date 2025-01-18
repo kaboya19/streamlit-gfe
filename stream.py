@@ -746,6 +746,7 @@ if page=="Gıda Fiyat Endeksi":
             """, unsafe_allow_html=True)
         
         if periyot=="Günlük":
+             import time
              with st.spinner("İçerik yükleniyor..."):
             
                 time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
