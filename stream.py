@@ -746,6 +746,9 @@ if page=="Gıda Fiyat Endeksi":
             """, unsafe_allow_html=True)
         
         if periyot=="Günlük":
+             with st.spinner("İçerik yükleniyor..."):
+            
+                time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
              st.plotly_chart(figgalt)
              st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
              st.plotly_chart(figg30)
