@@ -1060,6 +1060,10 @@ if page=="Gıda Fiyat Endeksi":
             margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
         )
         st.plotly_chart(fig_tüik)
+        import time
+        with st.spinner("İçerik yükleniyor..."):
+            
+            time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
         from io import BytesIO
         import pandas as pd
 
@@ -1285,10 +1289,7 @@ if page=="Gıda Fiyat Endeksi":
             weighted_indices[col]=np.round(weighted_indices[col],2)
 
         weighted_indices_data=to_excel(weighted_indices)
-        import time
-        with st.spinner("İçerik yükleniyor..."):
-            
-            time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
+        
 
                 
         st.download_button(
