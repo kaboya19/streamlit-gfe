@@ -874,6 +874,10 @@ if page=="Gıda Fiyat Endeksi":
 
     
     if selected_group == "WEB-GFE":
+        import time
+        with st.spinner("İçerik yükleniyor..."):
+            
+            time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
         turkish_months = [
     "Eylül 23", "Ekim 23", "Kasım 23", "Aralık 23", 
     "Ocak 24", "Şubat 24", "Mart 24", "Nisan 24", 
@@ -1060,10 +1064,7 @@ if page=="Gıda Fiyat Endeksi":
             margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
         )
         st.plotly_chart(fig_tüik)
-        import time
-        with st.spinner("İçerik yükleniyor..."):
-            
-            time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
+        
         from io import BytesIO
         import pandas as pd
 
