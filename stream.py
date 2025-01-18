@@ -1283,9 +1283,7 @@ if page=="Gıda Fiyat Endeksi":
 
         weighted_indices_data=to_excel(weighted_indices)
         import time
-        with st.spinner("İçerik yükleniyor..."):
-            
-            time.sleep(10)  # Yükleme işlemini simüle etmek için bekleme
+      
 
                 
         st.download_button(
