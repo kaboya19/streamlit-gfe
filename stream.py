@@ -2072,7 +2072,7 @@ if page=="Özel Kapsamlı Endeksler":
     st.plotly_chart(figözel)
 
 
-    key=pd.read_csv("C:/Users/Makdos/Desktop/api.txt", sep=" ", header=None).iloc[0,0]
+    k="oW0liIfb5R"
     from datetime import date
     import requests
     import json
@@ -2089,7 +2089,7 @@ if page=="Özel Kapsamlı Endeksler":
 
         url = f'https://evds2.tcmb.gov.tr/service/evds/{urlencode(params)}'
 
-        response = requests.get(url=url, headers={'key': key})
+        response = requests.get(url=url, headers={'key': k})
 
         # print(response.request.headers)
 
