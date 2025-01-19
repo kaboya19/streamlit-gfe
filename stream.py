@@ -2117,16 +2117,16 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         x=magöstergeler.index.strftime("%Y-%m-%d"),
         y=magöstergeler[selected_group],
         mode='lines',
-        name=f"Mevsimsel Düzeltilmiş {col[3:]}",
+        name=f"Mevsimsel Düzeltilmiş {selected_group[3:]}",
         line=dict(color='blue', width=4),
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
 
     figözel.add_trace(go.Scatter(
         x=magöstergeler.index.strftime("%Y-%m-%d"),
-        y=magöstergeler[f"{col[3:]}"],
+        y=magöstergeler[f"{selected_group[3:]}"],
         mode='lines',
-        name=f"Ham {col[3:]}",
+        name=f"Ham {selected_group[3:]}",
         line=dict(color='purple', width=4),
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
