@@ -2104,6 +2104,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         aylıklar[col]=ma_aylık
         aylıklar[col].loc["2024-11-30"]=((magöstergeler[col].loc["2024-11-30"]/magöstergeler[col[3:]].loc["2024-10-31"])-1)*100
         aylıklar[col].loc["2024-12-31"]=((magöstergeler[col].loc["2024-12-31"]/magöstergeler[col].loc["2024-11-30"])-1)*100
+    st.dataframe(aylıklar)
 
 
     selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
