@@ -2108,6 +2108,9 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
 
+    tickvals = magöstergeler.index[::3]
+    ticktext = tickvals.strftime("%d.%m.%Y")
+
 
     figözel = go.Figure()
     figözel.add_trace(go.Scatter(
