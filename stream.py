@@ -2071,6 +2071,79 @@ if page=="Özel Kapsamlı Endeksler":
     st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Özel Kapsamlı Endeksler</h2>", unsafe_allow_html=True)
     st.plotly_chart(figözel)
 
+
+    key=pd.read_csv("C:/Users/Makdos/Desktop/api.txt", sep=" ", header=None).iloc[0,0]
+    from datetime import date
+    import requests
+    import json
+    from urllib.parse import urlencode
+    def evds_vericek(series_code,freq):
+        params = {
+        'series': series_code,
+        'startDate': "01-01-2010",
+        'endDate': date.today().strftime("%d-%m-%Y"),
+        'frequency': freq,
+        'aggregationTypes': 'avg',
+        'type': 'json'
+        }
+
+        url = f'https://evds2.tcmb.gov.tr/service/evds/{urlencode(params)}'
+
+        response = requests.get(url=url, headers={'key': key})
+
+        # print(response.request.headers)
+
+        formatted_response = json.loads(response.content)
+
+        seri = formatted_response['items']
+        seri = pd.DataFrame(seri)
+
+
+        seri = seri.drop(columns=['UNIXTIME'])
+    
+
+        return seri
+
+    series_list=["TP.FE.OKTG10","TP.FE.OKTG11","TP.FE.OKTG09","TP.FE.OKTG12"]
+    tüik=pd.DataFrame()
+    for series in series_list:
+        veri=evds_vericek(series,5)
+        tüik=pd.concat([tüik,veri],axis=1)
+    tüik=tüik.drop("Tarih",axis=1)
+    tüik=tüik.set_index(pd.date_range(start="2010-01-31",freq="M",periods=len(tüik)))
+    tüik=tüik.loc["2016":]
+    tüik.columns=['Taze meyve ve sebze','Diğer işlenmemiş gıda','İşlenmemiş gıda','İşlenmiş gıda']
+
+    for col in tüik.columns:
+        tüik[col]=tüik[col].astype(float)
+
+    tüik=tüik.pct_change().dropna().loc["2024-11":]*100
+
+    def hareketli_aylik_ortalama(df):
+        değer = df.name  # Kolon ismi
+        df = pd.DataFrame(df)
+        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
+        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
+        
+        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
+        df["Aylık Ortalama"] = (
+            df[df["Gün Sırası"] <= 24]
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            .expanding()
+            .mean()
+            .reset_index(level=0, drop=True)
+        )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
+        return df
+    
+    göstergeaylık=pd.DataFrame(columns=özelgöstergeler.columns)
+    for col in özelgöstergeler.columns:
+        göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
+    st.dataframe(göstergeaylık)
+
+
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
     
     def hareketli_aylik_ortalama(df):
