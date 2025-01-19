@@ -2093,6 +2093,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         return df
 
     magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
+    magöstergeler.index=pd.to_datetime(magöstergeler.index)
     magöstergeler.loc["2024-10"].iloc[:,-4:]=pd.NA
     gfe=pd.read_csv("gfe.csv",index_col=0)
     gfe.index=pd.to_datetime(gfe.index)
