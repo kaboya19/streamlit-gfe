@@ -2173,14 +2173,15 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     else:
         y_max = np.max((list(tüikma[selected_group])+list(aylıklar[selected_group])))
         y_min = np.min((list(tüikma[selected_group])+list(aylıklar[selected_group])))
-    y_range = [y_min, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
+    y_range = [y_min*0.8, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
 
     
     tüikma=np.round(tüikma,2)
     
     aylıklar=np.round(aylıklar,2)
 
-
+    tickvals = aylıklar.index
+    ticktext = tickvals.strftime("%d.%m.%Y")
 
 
     fig_tüik = go.Figure()
