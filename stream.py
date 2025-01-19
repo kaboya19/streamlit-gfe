@@ -2166,9 +2166,9 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     tüikma=tüikma.rename(columns={"Gıda ve alkolsüz içecekler":"SA Web-GFE"})
     if selected_group!="SA Web-GFE":
-        y_max = np.max((list(tüikma[selected_group[3:]].max())+list(aylıklar[selected_group].max())))
+        y_max = np.max((list(tüikma[selected_group[3:]])+list(aylıklar[selected_group])))
     else:
-        y_max = np.max((list(tüikma[selected_group].max())+list(aylıklar[selected_group].max())))
+        y_max = np.max((list(tüikma[selected_group])+list(aylıklar[selected_group])))
     y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
 
     
