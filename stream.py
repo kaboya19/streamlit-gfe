@@ -2156,7 +2156,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     
     st.plotly_chart(figözel)
 
-    tüikma=pd.read_excel("mevsim etkisinden arindirilmis tufe gostergeleri.xls").iloc[45:50,1:].T
+    tüikma=pd.read_excel("mevsim etkisinden arindirilmis tufe gostergeleri.xls").iloc[45:49,1:].T
     tüikma.columns=tüikma.iloc[0].values
     tüikma=tüikma.iloc[3:]
     tüikma=tüikma.set_index(pd.date_range(start="2005-02-28",freq="M",periods=len(tüikma)))
@@ -2165,7 +2165,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         tüikma[col]=tüikma[col].astype(float)
 
 
-    y_max = max(aylıklar.max(), tüikma.max())
+    y_max = np.max((list(tüikma.max().values)+list(aylıklar.max().values)))
     y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
 
 
