@@ -2156,6 +2156,86 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     
     st.plotly_chart(figözel)
 
+    tüikma=pd.read_excel("mevsim etkisinden arindirilmis tufe gostergeleri.xls").iloc[45:50,1:].T
+    tüikma.columns=tüikma.iloc[0].values
+    tüikma=tüikma.iloc[3:]
+    tüikma=tüikma.set_index(pd.date_range(start="2005-02-28",freq="M",periods=len(tüikma)))
+    tüikma=tüikma.loc["2024-11":]
+    for col in tüikma.columns:
+        tüikma[col]=tüikma[col].astype(float)
+
+
+
+
+    fig_tüik = go.Figure()
+
+    # TÜİK Verileri
+    fig_tüik.add_trace(go.Bar(
+        x=aylıklar.index.strftime("%Y-%m"),
+        y=aylıklar[f"{selected_group}"],
+        name="Web-GFE",
+        marker=dict(color='blue'),
+        text=aylıklar[f"{selected_group}"],  # Değerleri göster
+        textposition='outside',
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',  # Tüm değerler barların üstünde olacak
+        textfont=dict(
+            color='black',
+            size=12,
+            family='Arial Black'  # Font Arial Black
+        )
+    ))
+
+    # Web-GFE Verileri
+    fig_tüik.add_trace(go.Bar(
+        x=tüikma.index.strftime("%Y-%m"),
+        y=tüikma[f"{selected_group[3:]}"],
+        name="TÜİK",
+        marker=dict(color='red'),
+        text=tüikma[f"{selected_group[3:]}"],  # Değerleri göster
+        textposition='outside', 
+        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
+        textfont=dict(
+            color='black',
+            size=12,
+            family='Arial Black'  # Font Arial Black
+        )
+    ))
+
+    # Grafik Düzeni ve Eksen Ayarları
+    fig_tüik.update_layout(
+        barmode='group',  # Barlar gruplanmış şekilde gösterilir
+        title=dict(
+            text="TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+            font=dict(size=18, color="black", family="Arial Black")
+        ),
+        xaxis=dict(
+            tickmode='array',
+            tickvals=aylıklar.index.strftime("%Y-%m"),
+            ticktext=ticktext,  # Ay isimlerini göster
+            tickangle=-45,
+            tickfont=dict(size=15, color="black", family="Arial Black")
+        ),
+        yaxis=dict(
+            title='Aylık Değişim (%)',
+            tickfont=dict(size=15, color="black", family="Arial Black"),
+            range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
+        ),
+        legend=dict(
+            x=1,
+            y=1,
+            xanchor='right',
+            yanchor='top',
+            font=dict(size=12, color="black", family="Arial Black"),
+            bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+            bordercolor='black',
+            borderwidth=1
+        ),
+        bargap=0.2,  # Barlar arası boşluk
+        bargroupgap=0.1,  # Gruplar arası boşluk
+        margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
+    )
+    st.plotly_chart(fig_tüik)
+
     
 
 
