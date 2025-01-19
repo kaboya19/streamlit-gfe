@@ -2173,7 +2173,10 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     else:
         y_max = np.max((list(tüikma[selected_group])+list(aylıklar[selected_group])))
         y_min = np.min((list(tüikma[selected_group])+list(aylıklar[selected_group])))
-    y_range = [y_min*2, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
+    if y_min<0:
+        y_range = [y_min*2, y_max * 1.2] 
+    else:
+        y_range = [y_min*0.8, y_max * 1.2]  
 
     
     tüikma=np.round(tüikma,2)
