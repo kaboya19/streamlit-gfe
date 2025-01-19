@@ -732,12 +732,16 @@ if page=="Gıda Fiyat Endeksi":
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     )
 )
+        
+        magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
+
+        mason=hareketli_aylik_ortalama(magöstergeler["SA Web-GFE"].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().iloc[-1]*100
    
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
                 {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
-                {month} Değişimi: <span style='color:red;'>%{ degisim24}</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ degisim24} (Mevsimsel Düzeltilmiş: {mason})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim 24 günlük ortalamalara göre hesaplanmaktadır.</span><br>
                 
 
