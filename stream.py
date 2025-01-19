@@ -2098,12 +2098,12 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     gfe=pd.read_csv("gfe.csv",index_col=0)
     gfe.index=pd.to_datetime(gfe.index)
     magöstergeler["Web-GFE"]=gfe["GFE"]
-    aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=özelgöstergeler["SA Web-GFE"].dropna().resample('M').mean().index)
+    aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=magöstergeler["SA Web-GFE"].dropna().resample('M').mean().index)
     for col in magöstergeler.columns[-5:-1]:
-        ma_aylık=hareketli_aylik_ortalama(özelgöstergeler[col].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change()*100
+        ma_aylık=hareketli_aylik_ortalama(magöstergeler[col].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change()*100
         aylıklar[col]=ma_aylık.values
-        aylıklar[col].loc["2024-11-30"]=((özelgöstergeler[col].loc["2024-11-30"]/özelgöstergeler[col[3:]].loc["2024-10-31"])-1)*100
-        aylıklar[col].loc["2024-12-31"]=((özelgöstergeler[col].loc["2024-12-31"]/özelgöstergeler[col].loc["2024-11-30"])-1)*100
+        aylıklar[col].loc["2024-11-30"]=((magöstergeler[col].loc["2024-11-30"]/magöstergeler[col[3:]].loc["2024-10-31"])-1)*100
+        aylıklar[col].loc["2024-12-31"]=((magöstergeler[col].loc["2024-12-31"]/magöstergeler[col].loc["2024-11-30"])-1)*100
 
 
     selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
