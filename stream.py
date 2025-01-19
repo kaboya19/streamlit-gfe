@@ -2165,6 +2165,10 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         tüikma[col]=tüikma[col].astype(float)
 
 
+    y_max = max(aylıklar.max(), tüikma.max())
+    y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
+
+
 
 
     fig_tüik = go.Figure()
