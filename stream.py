@@ -16,10 +16,10 @@ social_media_links = {
     "GitHub": {"url": "https://github.com/kaboya19", "color": "#000000"},
     "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#000000"}
 }
-tabs=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Harcama Grupları","Madde Endeksleri","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Mevsimsel Düzeltilmiş Göstergeler","Harcama Grupları","Madde Endeksleri","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
     menu_title=None,
-    options=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler", "Harcama Grupları","Madde Endeksleri", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
+    options=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Mevsimsel Düzeltilmiş Göstergeler", "Harcama Grupları","Madde Endeksleri", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
@@ -2071,60 +2071,65 @@ if page=="Özel Kapsamlı Endeksler":
     st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Özel Kapsamlı Endeksler</h2>", unsafe_allow_html=True)
     st.plotly_chart(figözel)
 
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Aylık Artışlar (%)</h2>", unsafe_allow_html=True)
+if page=="Mevsimsel Düzeltilmiş Göstergeler":
+    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Mevsimsellikten Arındırılmış Göstergeler</h2>", unsafe_allow_html=True)
+    def hareketli_aylik_ortalama(df):
+        değer = df.name  # Kolon ismi
+        df = pd.DataFrame(df)
+        df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
+        df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
+        
+        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
+        df["Aylık Ortalama"] = (
+            df[df["Gün Sırası"] <= 24]
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            .expanding()
+            .mean()
+            .reset_index(level=0, drop=True)
+        )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
+        return df
+
+    magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
+    magöstergeler.loc["2024-10"].iloc[:,-4:]=pd.NA
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
+    magöstergeler["Web-GFE"]=gfe["GFE"]
+    aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=özelgöstergeler["SA Web-GFE"].dropna().resample('M').mean().index)
+    for col in magöstergeler.columns[-5:-1]:
+        ma_aylık=hareketli_aylik_ortalama(özelgöstergeler[col].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change()*100
+        aylıklar[col]=ma_aylık.values
+        aylıklar[col].loc["2024-11-30"]=((özelgöstergeler[col].loc["2024-11-30"]/özelgöstergeler[col[3:]].loc["2024-10-31"])-1)*100
+        aylıklar[col].loc["2024-12-31"]=((özelgöstergeler[col].loc["2024-12-31"]/özelgöstergeler[col].loc["2024-11-30"])-1)*100
 
 
-    figaylık = go.Figure()
-    figaylık.add_trace(go.Scatter(
-        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
-        y=özelgöstergeler["İşlenmemiş Gıda"].pct_change(30).dropna()*100,
+    selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
+
+
+    figözel = go.Figure()
+    figözel.add_trace(go.Scatter(
+        x=magöstergeler.index.strftime("%Y-%m-%d"),
+        y=magöstergeler[selected_group],
         mode='lines',
-        name="İşlenmemiş Gıda",
+        name=f"Mevsimsel Düzeltilmiş {col[3:]}",
         line=dict(color='blue', width=4),
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
 
-    figaylık.add_trace(go.Scatter(
-        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
-        y=özelgöstergeler["Taze Meyve-Sebze"].pct_change(30).dropna()*100,
+    figözel.add_trace(go.Scatter(
+        x=magöstergeler.index.strftime("%Y-%m-%d"),
+        y=magöstergeler[f"{col[3:]}"],
         mode='lines',
-        name="Taze Meyve-Sebze",
+        name=f"Ham {col[3:]}",
         line=dict(color='purple', width=4),
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
     ))
 
-    figaylık.add_trace(go.Scatter(
-        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
-        y=özelgöstergeler["Meyve Sebze Hariç İşlenmemiş Gıda"].pct_change(30).dropna()*100,
-        mode='lines',
-        name="Meyve Sebze Hariç İşlenmemiş Gıda",
-        line=dict(color='orange', width=4),
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
-                ))
-
-    
-
-    figaylık.add_trace(go.Scatter(
-        x=özelgöstergeler.pct_change(30).dropna().index.strftime("%Y-%m-%d"),
-        y=özelgöstergeler["İşlenmiş Gıda"].pct_change(30).dropna()*100,
-        mode='lines',
-        name="İşlenmiş Gıda",
-        line=dict(color='red', width=4),
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
-    ))
-
-
-
-
-
-
-
-    tickvals = özelgöstergeler.index[::3]
-    ticktext = tickvals.strftime("%d.%m.%Y")
-
-    figaylık.update_layout(
+    figözel.update_layout(
         title=dict(
-        text=f"<b>Aylık Artış Oranları (%)</b>",
+        text=f"<b>Web-GFE Mevsimsellikten Arındırılmış Göstergeler</b>",
         x=0.5,  # Ortaya hizalama
         xanchor="center",
         font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
@@ -2141,8 +2146,11 @@ if page=="Özel Kapsamlı Endeksler":
         font=dict(family="Arial", size=14, color="black"),
         height=600
     )
-    st.plotly_chart(figaylık, use_container_width=True)
 
+    
+    st.plotly_chart(figözel)
+
+    
 
 
 
