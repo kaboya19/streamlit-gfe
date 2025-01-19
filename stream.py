@@ -2171,10 +2171,10 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         y_max = np.max((list(tüikma[selected_group].max())+list(aylıklar[selected_group].max())))
     y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
 
-    for col in tüikma.columns:
-        tüikma[col]=np.round(tüikma[col],2)
-    for col in aylıklar.columns:
-        aylıklar[col]=np.round(aylıklar[col],2)
+    
+    tüikma=np.round(tüikma,2)
+    
+    aylıklar=np.round(aylıklar,2)
 
 
 
