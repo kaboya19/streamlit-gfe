@@ -2104,7 +2104,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         aylıklar[col]=ma_aylık
         aylıklar[col].loc["2024-11-30"]=((magöstergeler[col].loc["2024-11-30"]/magöstergeler[col[3:]].loc["2024-10-31"])-1)*100
         aylıklar[col].loc["2024-12-31"]=((magöstergeler[col].loc["2024-12-31"]/magöstergeler[col].loc["2024-11-30"])-1)*100
-    st.dataframe(aylıklar)
+    
 
 
     selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
@@ -2166,6 +2166,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         tüikma[col]=tüikma[col].astype(float)
 
     tüikma=tüikma.rename(columns={"Gıda ve alkolsüz içecekler":"SA Web-GFE"})
+    st.dataframe(tüikma)
     if selected_group!="SA Web-GFE":
         y_max = np.max((list(tüikma[selected_group[3:]])+list(aylıklar[selected_group])))
     else:
