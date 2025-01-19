@@ -2112,7 +2112,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
-
+    
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
 
 
@@ -2238,39 +2238,72 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         )
     ))
 
-    # Grafik Düzeni ve Eksen Ayarları
-    fig_tüik.update_layout(
-        barmode='group',  # Barlar gruplanmış şekilde gösterilir
-        title=dict(
-            text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
-            font=dict(size=18, color="black", family="Arial Black")
-        ),
-        xaxis=dict(
-            tickmode='array',
-            tickvals=aylıklar.index.strftime("%Y-%m"),
-            ticktext=ticktext,  # Ay isimlerini göster
-            tickangle=-45,
-            tickfont=dict(size=15, color="black", family="Arial Black")
-        ),
-        yaxis=dict(
-            title='Aylık Değişim (%)',
-            tickfont=dict(size=15, color="black", family="Arial Black"),
-            range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
-        ),
-        legend=dict(
-            x=1,
-            y=1,
-            xanchor='right',
-            yanchor='top',
-            font=dict(size=12, color="black", family="Arial Black"),
-            bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
-            bordercolor='black',
-            borderwidth=1
-        ),
-        bargap=0.2,  # Barlar arası boşluk
-        bargroupgap=0.1,  # Gruplar arası boşluk
-        margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
-    )
+    if selected_group!="SA Web-GFE":
+        fig_tüik.update_layout(
+            barmode='group',  # Barlar gruplanmış şekilde gösterilir
+            title=dict(
+                text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+                font=dict(size=18, color="black", family="Arial Black")
+            ),
+            xaxis=dict(
+                tickmode='array',
+                tickvals=aylıklar.index.strftime("%Y-%m"),
+                ticktext=ticktext,  # Ay isimlerini göster
+                tickangle=-45,
+                tickfont=dict(size=15, color="black", family="Arial Black")
+            ),
+            yaxis=dict(
+                title='Aylık Değişim (%)',
+                tickfont=dict(size=15, color="black", family="Arial Black"),
+                range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
+            ),
+            legend=dict(
+                x=1,
+                y=1,
+                xanchor='right',
+                yanchor='top',
+                font=dict(size=12, color="black", family="Arial Black"),
+                bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+                bordercolor='black',
+                borderwidth=1
+            ),
+            bargap=0.2,  # Barlar arası boşluk
+            bargroupgap=0.1,  # Gruplar arası boşluk
+            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
+        )
+    else:
+            fig_tüik.update_layout(
+            barmode='group',  # Barlar gruplanmış şekilde gösterilir
+            title=dict(
+                text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+                font=dict(size=18, color="black", family="Arial Black")
+            ),
+            xaxis=dict(
+                tickmode='array',
+                tickvals=aylıklar.index.strftime("%Y-%m"),
+                ticktext=ticktext,  # Ay isimlerini göster
+                tickangle=-45,
+                tickfont=dict(size=15, color="black", family="Arial Black")
+            ),
+            yaxis=dict(
+                title='Aylık Değişim (%)',
+                tickfont=dict(size=15, color="black", family="Arial Black"),
+                range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
+            ),
+            legend=dict(
+                x=1,
+                y=1,
+                xanchor='right',
+                yanchor='top',
+                font=dict(size=12, color="black", family="Arial Black"),
+                bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+                bordercolor='black',
+                borderwidth=1
+            ),
+            bargap=0.2,  # Barlar arası boşluk
+            bargroupgap=0.1,  # Gruplar arası boşluk
+            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
+        )
     st.plotly_chart(fig_tüik)
 
     
