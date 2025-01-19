@@ -2185,8 +2185,23 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         )
     ))
 
-    # Web-GFE Verileri
-    fig_tüik.add_trace(go.Bar(
+    if selected_group=="SA Web-GFE":
+        fig_tüik.add_trace(go.Bar(
+            x=tüikma.index.strftime("%Y-%m"),
+            y=tüikma["Gıda ve alkolsüz içecekler"],
+            name="TÜİK",
+            marker=dict(color='red'),
+            text=tüikma["Gıda ve alkolsüz içecekler"],  # Değerleri göster
+            textposition='outside', 
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
+            textfont=dict(
+                color='black',
+                size=12,
+                family='Arial Black'  # Font Arial Black
+            )
+        ))
+    else:
+        fig_tüik.add_trace(go.Bar(
         x=tüikma.index.strftime("%Y-%m"),
         y=tüikma[f"{selected_group[3:]}"],
         name="TÜİK",
@@ -2200,7 +2215,6 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
             family='Arial Black'  # Font Arial Black
         )
     ))
-
     # Grafik Düzeni ve Eksen Ayarları
     fig_tüik.update_layout(
         barmode='group',  # Barlar gruplanmış şekilde gösterilir
