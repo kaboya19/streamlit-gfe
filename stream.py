@@ -2173,7 +2173,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     else:
         y_max = np.max((list(tüikma[selected_group])+list(aylıklar[selected_group])))
         y_min = np.min((list(tüikma[selected_group])+list(aylıklar[selected_group])))
-    y_range = [y_min*0.8, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
+    y_range = [y_min*1.2, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
 
     
     tüikma=np.round(tüikma,2)
@@ -2238,7 +2238,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     fig_tüik.update_layout(
         barmode='group',  # Barlar gruplanmış şekilde gösterilir
         title=dict(
-            text="TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+            text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
             font=dict(size=18, color="black", family="Arial Black")
         ),
         xaxis=dict(
