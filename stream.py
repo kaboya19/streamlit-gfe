@@ -2098,7 +2098,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     gfe=pd.read_csv("gfe.csv",index_col=0)
     gfe.index=pd.to_datetime(gfe.index)
     magöstergeler["Web-GFE"]=gfe["GFE"]
-    aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=magöstergeler["SA Web-GFE"].dropna().resample('M').mean().index)
+    aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=magöstergeler["SA Web-GFE"].dropna().resample('M').mean().index[1:])
     for col in magöstergeler.columns[-5:-1]:
         ma_aylık=hareketli_aylik_ortalama(magöstergeler[col].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change()*100
         aylıklar[col]=ma_aylık.values
