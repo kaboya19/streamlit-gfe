@@ -2072,7 +2072,7 @@ if page=="Özel Kapsamlı Endeksler":
     st.plotly_chart(figözel)
 
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
-    st.markdown(f"<h2 style='text-align:left; color:black;'>Web-GFE Mevsimsellikten Arındırılmış Göstergeler</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
     def hareketli_aylik_ortalama(df):
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
@@ -2114,8 +2114,8 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     figözel = go.Figure()
     figözel.add_trace(go.Scatter(
-        x=magöstergeler.index.strftime("%Y-%m-%d"),
-        y=magöstergeler[selected_group],
+        x=magöstergeler.loc["2024-11":].index.strftime("%Y-%m-%d"),
+        y=magöstergeler.loc["2024-11":][selected_group],
         mode='lines',
         name=f"Mevsimsel Düzeltilmiş {selected_group[3:]}",
         line=dict(color='blue', width=4),
@@ -2123,8 +2123,8 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     ))
 
     figözel.add_trace(go.Scatter(
-        x=magöstergeler.index.strftime("%Y-%m-%d"),
-        y=magöstergeler[f"{selected_group[3:]}"],
+        x=magöstergeler.loc["2024-11":].index.strftime("%Y-%m-%d"),
+        y=magöstergeler.loc["2024-11":][f"{selected_group[3:]}"],
         mode='lines',
         name=f"Ham {selected_group[3:]}",
         line=dict(color='purple', width=4),
@@ -2133,7 +2133,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     figözel.update_layout(
         title=dict(
-        text=f"<b>Web-GFE Mevsimsellikten Arındırılmış Göstergeler</b>",
+        text=f"<b>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi</b>",
         x=0.5,  # Ortaya hizalama
         xanchor="center",
         font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
