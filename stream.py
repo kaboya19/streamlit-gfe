@@ -2101,7 +2101,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=magöstergeler["SA Web-GFE"].dropna().resample('M').mean().index)
     for col in magöstergeler.columns[-5:-1]:
         ma_aylık=hareketli_aylik_ortalama(magöstergeler[col].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().dropna().pct_change()*100
-        aylıklar[col]=ma_aylık.values
+        aylıklar[col]=ma_aylık
         aylıklar[col].loc["2024-11-30"]=((magöstergeler[col].loc["2024-11-30"]/magöstergeler[col[3:]].loc["2024-10-31"])-1)*100
         aylıklar[col].loc["2024-12-31"]=((magöstergeler[col].loc["2024-12-31"]/magöstergeler[col].loc["2024-11-30"])-1)*100
 
