@@ -2072,7 +2072,7 @@ if page=="Özel Kapsamlı Endeksler":
     st.plotly_chart(figözel)
 
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
+    
     def hareketli_aylik_ortalama(df):
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
@@ -2110,6 +2110,8 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     tickvals = magöstergeler.index[::3]
     ticktext = tickvals.strftime("%d.%m.%Y")
+
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
 
 
     figözel = go.Figure()
