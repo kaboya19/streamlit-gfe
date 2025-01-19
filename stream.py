@@ -2165,7 +2165,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         tüikma[col]=tüikma[col].astype(float)
 
     tüikma=tüikma.rename(columns={"Gıda ve alkolsüz içecekler":"SA Web-GFE"})
-    y_max = np.max((list(tüikma[selected_group].max().values)+list(aylıklar[selected_group].max().values)))
+    y_max = np.max((list(tüikma[selected_group].max())+list(aylıklar[selected_group].max())))
     y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
 
     for col in tüikma.columns:
