@@ -2110,7 +2110,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
 
-    tickvals = magöstergeler.index
+    tickvals = magöstergeler.index[::3]
     ticktext = tickvals.strftime("%d.%m.%Y")
     
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
