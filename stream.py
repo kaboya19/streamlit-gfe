@@ -2108,7 +2108,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
 
-    tickvals = magöstergeler.index[::3]
+    tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
@@ -2164,9 +2164,14 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     for col in tüikma.columns:
         tüikma[col]=tüikma[col].astype(float)
 
-
-    y_max = np.max((list(tüikma.max().values)+list(aylıklar.max().values)))
+    tüikma=tüikma.rename(columns={"Gıda ve alkolsüz içecekler":"SA Web-GFE"})
+    y_max = np.max((list(tüikma[selected_group].max().values)+list(aylıklar[selected_group].max().values)))
     y_range = [0, y_max * 1.2]  # Maksimum değerin %20 üzerine çıka
+
+    for col in tüikma.columns:
+        tüikma[col]=np.round(tüikma[col],2)
+    for col in aylıklar.columns:
+        aylıklar[col]=np.round(aylıklar[col],2)
 
 
 
@@ -2189,36 +2194,22 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         )
     ))
 
-    if selected_group=="SA Web-GFE":
-        fig_tüik.add_trace(go.Bar(
-            x=tüikma.index.strftime("%Y-%m"),
-            y=tüikma["Gıda ve alkolsüz içecekler"],
-            name="TÜİK",
-            marker=dict(color='red'),
-            text=tüikma["Gıda ve alkolsüz içecekler"],  # Değerleri göster
-            textposition='outside', 
-            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
-            textfont=dict(
-                color='black',
-                size=12,
-                family='Arial Black'  # Font Arial Black
-            )
-        ))
-    else:
-        fig_tüik.add_trace(go.Bar(
-        x=tüikma.index.strftime("%Y-%m"),
-        y=tüikma[f"{selected_group[3:]}"],
-        name="TÜİK",
-        marker=dict(color='red'),
-        text=tüikma[f"{selected_group[3:]}"],  # Değerleri göster
-        textposition='outside', 
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
-        textfont=dict(
-            color='black',
-            size=12,
-            family='Arial Black'  # Font Arial Black
-        )
-    ))
+   
+    
+    fig_tüik.add_trace(go.Bar(
+    x=tüikma.index.strftime("%Y-%m"),
+    y=tüikma[f"{selected_group[3:]}"],
+    name="TÜİK",
+    marker=dict(color='red'),
+    text=tüikma[f"{selected_group[3:]}"],  # Değerleri göster
+    textposition='outside', 
+    hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
+    textfont=dict(
+        color='black',
+        size=12,
+        family='Arial Black'  # Font Arial Black
+    )
+))
     # Grafik Düzeni ve Eksen Ayarları
     fig_tüik.update_layout(
         barmode='group',  # Barlar gruplanmış şekilde gösterilir
