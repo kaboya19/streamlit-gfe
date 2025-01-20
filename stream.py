@@ -2243,7 +2243,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     
 
 
-    selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns.values)
+    
 
     tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
@@ -2279,125 +2279,125 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
+    for selected_group in magöstergeler.columns:
 
+        fig_tüik = go.Figure()
 
-    fig_tüik = go.Figure()
-
-    # TÜİK Verileri
-    fig_tüik.add_trace(go.Bar(
-        x=magöstergeler.index.strftime("%Y-%m"),
-        y=magöstergeler[f"{selected_group}"],
-        name="Web-GFE",
-        marker=dict(color='blue'),
-        text=magöstergeler[f"{selected_group}"],  # Değerleri göster
-        textposition='outside',
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',  # Tüm değerler barların üstünde olacak
-        textfont=dict(
-            color='black',
-            size=12,
-            family='Arial Black'  # Font Arial Black
-        )
-    ))
-
-   
-    if selected_group!="SA Web-GFE":
+        # TÜİK Verileri
         fig_tüik.add_trace(go.Bar(
-        x=tüikma.index.strftime("%Y-%m"),
-        y=tüikma[f"{selected_group[3:]}"],
-        name="TÜİK",
-        marker=dict(color='red'),
-        text=tüikma[f"{selected_group[3:]}"],  # Değerleri göster
-        textposition='outside', 
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
-        textfont=dict(
-            color='black',
-            size=12,
-            family='Arial Black'  # Font Arial Black
-        )
-    ))
-    else:
-        fig_tüik.add_trace(go.Bar(
-        x=tüikma.index.strftime("%Y-%m"),
-        y=tüikma["SA Web-GFE"],
-        name="TÜİK",
-        marker=dict(color='red'),
-        text=tüikma["SA Web-GFE"],  # Değerleri göster
-        textposition='outside', 
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
-        textfont=dict(
-            color='black',
-            size=12,
-            family='Arial Black'  # Font Arial Black
-        )
-    ))
+            x=magöstergeler.index.strftime("%Y-%m"),
+            y=magöstergeler[f"{selected_group}"],
+            name="Web-GFE",
+            marker=dict(color='blue'),
+            text=magöstergeler[f"{selected_group}"],  # Değerleri göster
+            textposition='outside',
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',  # Tüm değerler barların üstünde olacak
+            textfont=dict(
+                color='black',
+                size=12,
+                family='Arial Black'  # Font Arial Black
+            )
+        ))
 
-    if selected_group!="SA Web-GFE":
-        fig_tüik.update_layout(
-            barmode='group',  # Barlar gruplanmış şekilde gösterilir
-            title=dict(
-                text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
-                font=dict(size=18, color="black", family="Arial Black")
-            ),
-            xaxis=dict(
-                tickmode='array',
-                tickvals=magöstergeler.index.strftime("%Y-%m"),
-                ticktext=ticktext,  # Ay isimlerini göster
-                tickangle=-45,
-                tickfont=dict(size=15, color="black", family="Arial Black")
-            ),
-            yaxis=dict(
-                title='Aylık Değişim (%)',
-                tickfont=dict(size=15, color="black", family="Arial Black"),
-                range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
-            ),
-            legend=dict(
-                x=1,
-                y=1,
-                xanchor='right',
-                yanchor='top',
-                font=dict(size=12, color="black", family="Arial Black"),
-                bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
-                bordercolor='black',
-                borderwidth=1
-            ),
-            bargap=0.2,  # Barlar arası boşluk
-            bargroupgap=0.1,  # Gruplar arası boşluk
-            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
-        )
-    else:
+    
+        if selected_group!="SA Web-GFE":
+            fig_tüik.add_trace(go.Bar(
+            x=tüikma.index.strftime("%Y-%m"),
+            y=tüikma[f"{selected_group[3:]}"],
+            name="TÜİK",
+            marker=dict(color='red'),
+            text=tüikma[f"{selected_group[3:]}"],  # Değerleri göster
+            textposition='outside', 
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
+            textfont=dict(
+                color='black',
+                size=12,
+                family='Arial Black'  # Font Arial Black
+            )
+        ))
+        else:
+            fig_tüik.add_trace(go.Bar(
+            x=tüikma.index.strftime("%Y-%m"),
+            y=tüikma["SA Web-GFE"],
+            name="TÜİK",
+            marker=dict(color='red'),
+            text=tüikma["SA Web-GFE"],  # Değerleri göster
+            textposition='outside', 
+            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
+            textfont=dict(
+                color='black',
+                size=12,
+                family='Arial Black'  # Font Arial Black
+            )
+        ))
+
+        if selected_group!="SA Web-GFE":
             fig_tüik.update_layout(
-            barmode='group',  # Barlar gruplanmış şekilde gösterilir
-            title=dict(
-                text=f"TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
-                font=dict(size=18, color="black", family="Arial Black")
-            ),
-            xaxis=dict(
-                tickmode='array',
-                tickvals=magöstergeler.index.strftime("%Y-%m"),
-                ticktext=ticktext,  # Ay isimlerini göster
-                tickangle=-45,
-                tickfont=dict(size=15, color="black", family="Arial Black")
-            ),
-            yaxis=dict(
-                title='Aylık Değişim (%)',
-                tickfont=dict(size=15, color="black", family="Arial Black"),
-                range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
-            ),
-            legend=dict(
-                x=1,
-                y=1,
-                xanchor='right',
-                yanchor='top',
-                font=dict(size=12, color="black", family="Arial Black"),
-                bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
-                bordercolor='black',
-                borderwidth=1
-            ),
-            bargap=0.2,  # Barlar arası boşluk
-            bargroupgap=0.1,  # Gruplar arası boşluk
-            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
-        )
-    st.plotly_chart(fig_tüik)
+                barmode='group',  # Barlar gruplanmış şekilde gösterilir
+                title=dict(
+                    text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+                    font=dict(size=18, color="black", family="Arial Black")
+                ),
+                xaxis=dict(
+                    tickmode='array',
+                    tickvals=magöstergeler.index.strftime("%Y-%m"),
+                    ticktext=ticktext,  # Ay isimlerini göster
+                    tickangle=-45,
+                    tickfont=dict(size=15, color="black", family="Arial Black")
+                ),
+                yaxis=dict(
+                    title='Aylık Değişim (%)',
+                    tickfont=dict(size=15, color="black", family="Arial Black"),
+                    range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
+                ),
+                legend=dict(
+                    x=1,
+                    y=1,
+                    xanchor='right',
+                    yanchor='top',
+                    font=dict(size=12, color="black", family="Arial Black"),
+                    bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+                    bordercolor='black',
+                    borderwidth=1
+                ),
+                bargap=0.2,  # Barlar arası boşluk
+                bargroupgap=0.1,  # Gruplar arası boşluk
+                margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
+            )
+        else:
+                fig_tüik.update_layout(
+                barmode='group',  # Barlar gruplanmış şekilde gösterilir
+                title=dict(
+                    text=f"TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+                    font=dict(size=18, color="black", family="Arial Black")
+                ),
+                xaxis=dict(
+                    tickmode='array',
+                    tickvals=magöstergeler.index.strftime("%Y-%m"),
+                    ticktext=ticktext,  # Ay isimlerini göster
+                    tickangle=-45,
+                    tickfont=dict(size=15, color="black", family="Arial Black")
+                ),
+                yaxis=dict(
+                    title='Aylık Değişim (%)',
+                    tickfont=dict(size=15, color="black", family="Arial Black"),
+                    range=y_range  # Y ekseni aralığı dinamik olarak ayarlandı
+                ),
+                legend=dict(
+                    x=1,
+                    y=1,
+                    xanchor='right',
+                    yanchor='top',
+                    font=dict(size=12, color="black", family="Arial Black"),
+                    bgcolor='rgba(255,255,255,0.8)',  # Arka plan rengi (şeffaf beyaz)
+                    bordercolor='black',
+                    borderwidth=1
+                ),
+                bargap=0.2,  # Barlar arası boşluk
+                bargroupgap=0.1,  # Gruplar arası boşluk
+                margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
+            )
+        st.plotly_chart(fig_tüik)
 
     
 
