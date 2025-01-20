@@ -2149,7 +2149,7 @@ if page=="Özel Kapsamlı Endeksler":
     import plotly.subplots as sp
     x_labels = göstergeaylık.index.strftime("%Y-%m")
     fig = sp.make_subplots(
-    rows=göstergeaylık.columns.values.shape[1], cols=1,
+    rows=göstergeaylık.columns.values.shape[0], cols=1,
     shared_xaxes=True,
     vertical_spacing=0.15
 )
