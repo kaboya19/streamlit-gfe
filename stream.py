@@ -2148,57 +2148,65 @@ if page=="Özel Kapsamlı Endeksler":
         göstergeaylık[f"TÜİK {col}"]=tüik[col]
     import plotly.subplots as sp
     x_labels = göstergeaylık.index.strftime("%Y-%m")
-    fig = sp.make_subplots(
-    rows=tüik.columns.values.shape[0], cols=1,
-    subplot_titles=(f"{tüik.columns[0]}", f"{tüik.columns[1]}", f"{tüik.columns[2]}", f"{tüik.columns[3]}"),
-    shared_xaxes=True,
-    vertical_spacing=0.15
-)
-    first_trace = True
     for col in tüik.columns:
-        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[col], name="Web-GFE" if first_trace else None, text=göstergeaylık[col].round(2), textposition='outside',marker=dict(color='blue'),hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
-    textfont=dict(color='black', size=12, family='Arial Black')), row=(list(tüik.columns.values).index(col))+1, col=1)
-        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[f"TÜİK {col}"], name="TÜİK" if first_trace else None, text=göstergeaylık[f"TÜİK {col}"].round(2), textposition='outside',marker=dict(color='red'),hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
-    textfont=dict(color='black', size=12, family='Arial Black')), row=(list(tüik.columns.values).index(col))+1, col=1)
-    fig.update_layout(
-    title=dict(
-        text="Özel Kapsamlı Endeksler Aylık Artışlar",
-        font=dict(size=18, color="black", family="Arial Black")
-    ),
-    barmode='group',  # Gruplanmış barlar
-    height=800,
-    showlegend=True,
-    legend=dict(
-        x=1, y=1, xanchor='right', yanchor='top',
-        font=dict(size=12, color="black", family="Arial Black"),
-        bgcolor='rgba(255,255,255,0.8)',
-        bordercolor='black', borderwidth=1
-    ),
-    bargap=0.2,  # Barlar arası boşluk
-    bargroupgap=0.1,  # Gruplar arası boşluk
-    margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
-)
+        fig = go.Figure()
 
-    # X ekseni ayarları (45 derece döndürme, kalın font)
-    fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
-    for i, col in enumerate(tüik.columns, start=1):
-        # Mevcut subplot'taki en düşük ve en yüksek değeri al
-        y_values = göstergeaylık[[col, f"TÜİK {col}"]].values.flatten()  # Tüm y değerlerini al
-        min_y, max_y = y_values.min(), y_values.max()  # Min ve max hesapla
+        # Web-GFE Verisi
+        fig.add_trace(go.Bar(
+            x=x_labels, y=göstergeaylık[col],
+            name="Web-GFE",
+            text=göstergeaylık[col].round(2),
+            textposition='outside',
+            marker=dict(color='blue'),
+            hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
+            textfont=dict(color='black', size=12, family='Arial Black')
+        ))
 
-        # Yeni y ekseni aralığını belirle (1 birim aşağı, 2 birim yukarı kaydır)
-        new_range = [min_y - 1, max_y + 2]
+        # TÜİK Verisi
+        fig.add_trace(go.Bar(
+            x=x_labels, y=göstergeaylık[f"TÜİK {col}"],
+            name="TÜİK",
+            text=göstergeaylık[f"TÜİK {col}"].round(2),
+            textposition='outside',
+            marker=dict(color='red'),
+            hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
+            textfont=dict(color='black', size=12, family='Arial Black')
+        ))
 
-        # Y ekseni aralığını güncelle (automargin özelliği ile eksenin erken kesilmesini önlüyoruz)
-        fig.update_yaxes(
-            range=new_range,
-            row=i, col=1,
-            automargin=True,  # Otomatik kenar boşluğu ekle
-            fixedrange=False  # Kullanıcının manuel olarak ekseni ayarlamasına izin ver
+        # Layout ayarları
+        fig.update_layout(
+            title=dict(
+                text=f"{col} Aylık Artışlar",
+                font=dict(size=18, color="black", family="Arial Black")
+            ),
+            barmode='group',  # Gruplanmış barlar
+            height=500,
+            showlegend=True,
+            legend=dict(
+                x=1, y=1, xanchor='right', yanchor='top',
+                font=dict(size=12, color="black", family="Arial Black"),
+                bgcolor='rgba(255,255,255,0.8)',
+                bordercolor='black', borderwidth=1
+            ),
+            bargap=0.2,  # Barlar arası boşluk
+            bargroupgap=0.1,  # Gruplar arası boşluk
+            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
         )
 
-    st.plotly_chart(fig)
-   
+        # X ekseni ayarları (45 derece döndürme, kalın font)
+        fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
+
+        # Y ekseni aralığını belirle (1 birim aşağı, 2 birim yukarı kaydır)
+        y_values = göstergeaylık[[col, f"TÜİK {col}"]].values.flatten()
+        min_y, max_y = y_values.min(), y_values.max()
+        new_range = [min_y - 1, max_y + 2]
+
+        # Y ekseni güncelleme
+        fig.update_yaxes(range=new_range, automargin=True, fixedrange=False)
+
+        # Grafiği göster
+        st.plotly_chart(fig)
+    
 
 
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
