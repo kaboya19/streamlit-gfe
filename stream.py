@@ -2187,7 +2187,7 @@ if page=="Özel Kapsamlı Endeksler":
                 göstergeaylık[[col, f"TÜİK {col}"]].min().min() - 1,  
                 göstergeaylık[[col, f"TÜİK {col}"]].max().max() * 1.2
             ],
-            row=list(tüik.columns).index(col), col=1
+            row=list(tüik.columns.values).index(col), col=1
         )
 
     st.plotly_chart(fig)
