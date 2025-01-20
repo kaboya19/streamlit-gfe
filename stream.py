@@ -2232,12 +2232,12 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
     magöstergeler.index=pd.to_datetime(magöstergeler.index)
-
+    magöstergeler=magöstergeler.iloc[:,[2,3,8,9]]
     
     
 
 
-    selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.iloc[:,[2,3,8,9]].columns.values)
+    selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns.values)
 
     tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
@@ -2257,11 +2257,11 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     tüikma=tüikma.rename(columns={"Gıda ve alkolsüz içecekler":"SA Web-GFE"})
     
     if selected_group!="SA Web-GFE":
-        y_max = np.max((list(tüikma[selected_group[3:]])+list(aylıklar[selected_group])))
-        y_min = np.min((list(tüikma[selected_group[3:]])+list(aylıklar[selected_group])))
+        y_max = np.max((list(tüikma[selected_group[3:]])+list(magöstergeler[selected_group])))
+        y_min = np.min((list(tüikma[selected_group[3:]])+list(magöstergeler[selected_group])))
     else:
-        y_max = np.max((list(tüikma[selected_group])+list(aylıklar[selected_group])))
-        y_min = np.min((list(tüikma[selected_group])+list(aylıklar[selected_group])))
+        y_max = np.max((list(tüikma[selected_group])+list(magöstergeler[selected_group])))
+        y_min = np.min((list(tüikma[selected_group])+list(magöstergeler[selected_group])))
     if y_min<0:
         y_range = [y_min*2, y_max * 1.2] 
     else:
@@ -2270,9 +2270,9 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     
     tüikma=np.round(tüikma,2)
     
-    aylıklar=np.round(aylıklar,2)
+    magöstergeler=np.round(magöstergeler,2)
 
-    tickvals = aylıklar.index
+    tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
 
 
@@ -2280,8 +2280,8 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     # TÜİK Verileri
     fig_tüik.add_trace(go.Bar(
-        x=aylıklar.index.strftime("%Y-%m"),
-        y=aylıklar[f"{selected_group}"],
+        x=magöstergeler.index.strftime("%Y-%m"),
+        y=magöstergeler[f"{selected_group}"],
         name="Web-GFE",
         marker=dict(color='blue'),
         text=aylıklar[f"{selected_group}"],  # Değerleri göster
@@ -2335,7 +2335,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
             ),
             xaxis=dict(
                 tickmode='array',
-                tickvals=aylıklar.index.strftime("%Y-%m"),
+                tickvals=magöstergeler.index.strftime("%Y-%m"),
                 ticktext=ticktext,  # Ay isimlerini göster
                 tickangle=-45,
                 tickfont=dict(size=15, color="black", family="Arial Black")
@@ -2368,7 +2368,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
             ),
             xaxis=dict(
                 tickmode='array',
-                tickvals=aylıklar.index.strftime("%Y-%m"),
+                tickvals=magöstergeler.index.strftime("%Y-%m"),
                 ticktext=ticktext,  # Ay isimlerini göster
                 tickangle=-45,
                 tickfont=dict(size=15, color="black", family="Arial Black")
