@@ -2184,7 +2184,7 @@ if page=="Özel Kapsamlı Endeksler":
     for i in range(1, tüik.shape[1] + 1):
         current_range = fig.layout.yaxis.range if i == 1 else fig.layout[f"yaxis{i}"].range  # Mevcut y ekseni aralığını al
         if current_range:
-            new_range = [current_range[0] - 2, current_range[1] + 2]  # 1 birim aşağı, 2 birim yukarı kaydır
+            new_range = [current_range[0] - 5, current_range[1] + 5]  # 1 birim aşağı, 2 birim yukarı kaydır
             fig.update_yaxes(range=new_range, row=i, col=1)
 
     st.plotly_chart(fig)
