@@ -2238,7 +2238,8 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
     magöstergeler.index=pd.to_datetime(magöstergeler.index)
-    magöstergeler=magöstergeler.iloc[:,[2,3,8,9]]
+    magöstergeler=magöstergeler[['SA Taze meyve ve sebze', 'SA Diğer işlenmemiş gıda',
+       'SA İşlenmemiş gıda', 'SA Web-GFE']]
     
     
 
