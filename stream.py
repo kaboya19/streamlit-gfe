@@ -2146,7 +2146,29 @@ if page=="Özel Kapsamlı Endeksler":
     for col in tüik.columns:
         göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
         göstergeaylık[f"TÜİK {col}"]=tüik[col]
-    st.dataframe(göstergeaylık)
+    import plotly.subplots as sp
+    x_labels = göstergeaylık.index.strftime("%Y-%m")
+    fig = sp.make_subplots(
+    rows=göstergeaylık.columns.values.shape[1], cols=1,
+    shared_xaxes=True,
+    vertical_spacing=0.15
+)
+
+    for col in tüik.columns:
+        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[col], name="Web-GFE", text=göstergeaylık[col].round(2), textposition='outside'), row=list(tüik.columns.values).index(col), col=1)
+        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[f"TÜİK {col}"], name="TÜİK Gıda", text=göstergeaylık[f"TÜİK {col}"].round(2), textposition='outside'), row=list(tüik.columns.values).index(col), col=1)
+    fig.update_layout(
+    title_text="Özel Kapsamlı Endeksler Aylık Artışlar",
+    title_font=dict(size=16, family="Arial Black", color="black"),
+    barmode="group",
+    height=800,
+    showlegend=True
+)
+
+    # X ekseni ayarları (45 derece döndürme, kalın font)
+    fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
+    st.plotly_chart(fig)
+   
 
 
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
