@@ -2119,6 +2119,10 @@ if page=="Özel Kapsamlı Endeksler":
 
     tüik=tüik.pct_change().dropna().loc["2024-11":]*100
 
+    özelgöstergeler.columns=['İşlenmemiş gıda', 'Diğer işlenmemiş gıda',
+       'Taze meyve ve sebze', 'İşlenmiş gıda', 'Ekmek ve diğer tahıllar',
+       'Diğer işlenmiş gıda']
+
     def hareketli_aylik_ortalama(df):
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
@@ -2141,6 +2145,7 @@ if page=="Özel Kapsamlı Endeksler":
     göstergeaylık=pd.DataFrame(columns=özelgöstergeler.columns)
     for col in özelgöstergeler.columns:
         göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
+        göstergeaylık[f"TÜİK {col}"]=tüik[col]
     st.dataframe(göstergeaylık)
 
 
