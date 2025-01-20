@@ -2321,7 +2321,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         fig_tüik.update_layout(
             barmode='group',  # Barlar gruplanmış şekilde gösterilir
             title=dict(
-                text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması",
+                text=f"{selected_group} TÜİK ve Web-GFE Aylık Değişim Karşılaştırması" if selected_group!="SA Web-GFE" else "TÜİK Gıda ve Web-GFE Aylık Değişim Karşılaştırması",
                 font=dict(size=18, color="black", family="Arial Black")
             ),
             xaxis=dict(
