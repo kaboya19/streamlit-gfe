@@ -2150,6 +2150,7 @@ if page=="Özel Kapsamlı Endeksler":
     x_labels = göstergeaylık.index.strftime("%Y-%m")
     fig = sp.make_subplots(
     rows=tüik.columns.values.shape[0], cols=1,
+    subplot_titles=(f"{tüik.columns[0]}", f"{tüik.columns[1]}", f"{tüik.columns[2]}", f"{tüik.columns[3]}"),
     shared_xaxes=True,
     vertical_spacing=0.15
 )
@@ -2180,6 +2181,8 @@ if page=="Özel Kapsamlı Endeksler":
 
     # X ekseni ayarları (45 derece döndürme, kalın font)
     fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
+    fig.update_yaxes(range=[0, göstergeaylık.max().max() * 1.2], row=1, col=1)
+    fig.update_yaxes(range=[0, göstergeaylık.max().max() * 1.2], row=2, col=1)
     st.plotly_chart(fig)
    
 
