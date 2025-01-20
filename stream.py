@@ -2154,15 +2154,15 @@ if page=="Özel Kapsamlı Endeksler":
     shared_xaxes=True,
     vertical_spacing=0.15
 )
-
+    first_trace = True
     for col in tüik.columns:
-        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[col], name="Web-GFE", text=göstergeaylık[col].round(2), textposition='outside',marker=dict(color='blue'),hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
+        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[col], name="Web-GFE" if first_trace else None, text=göstergeaylık[col].round(2), textposition='outside',marker=dict(color='blue'),hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
     textfont=dict(color='black', size=12, family='Arial Black')), row=(list(tüik.columns.values).index(col))+1, col=1)
-        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[f"TÜİK {col}"], name="TÜİK Gıda", text=göstergeaylık[f"TÜİK {col}"].round(2), textposition='outside',marker=dict(color='blue'),hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
+        fig.add_trace(go.Bar(x=x_labels, y=göstergeaylık[f"TÜİK {col}"], name="TÜİK" if first_trace else None, text=göstergeaylık[f"TÜİK {col}"].round(2), textposition='outside',marker=dict(color='red'),hovertemplate='%{x|%Y-%m}<br>%{y:.2f}<extra></extra>',
     textfont=dict(color='black', size=12, family='Arial Black')), row=(list(tüik.columns.values).index(col))+1, col=1)
     fig.update_layout(
     title=dict(
-        text="Aylık Artışlar Karşılaştırması",
+        text="Özel Kapsamlı Endeksler Aylık Artışlar",
         font=dict(size=18, color="black", family="Arial Black")
     ),
     barmode='group',  # Gruplanmış barlar
@@ -2181,8 +2181,8 @@ if page=="Özel Kapsamlı Endeksler":
 
     # X ekseni ayarları (45 derece döndürme, kalın font)
     fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
-    fig.update_yaxes(range=[göstergeaylık.min().min()-1, göstergeaylık.max().max() * 1.2], row=1, col=1)
-    fig.update_yaxes(range=[göstergeaylık.min().min()-1, göstergeaylık.max().max() * 1.2], row=2, col=1)
+    for i in range(1, tüik.shape[1] + 1):
+        fig.update_yaxes(range=[göstergeaylık.min().min()-1, göstergeaylık.max().max() * 1.2], row=i, col=1)
     st.plotly_chart(fig)
    
 
