@@ -2284,7 +2284,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         y=magöstergeler[f"{selected_group}"],
         name="Web-GFE",
         marker=dict(color='blue'),
-        text=aylıklar[f"{selected_group}"],  # Değerleri göster
+        text=magöstergeler[f"{selected_group}"],  # Değerleri göster
         textposition='outside',
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>',  # Tüm değerler barların üstünde olacak
         textfont=dict(
