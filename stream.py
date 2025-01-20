@@ -2183,14 +2183,19 @@ if page=="Özel Kapsamlı Endeksler":
     fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
     for i, col in enumerate(tüik.columns, start=1):
         # Mevcut subplot'taki en düşük ve en yüksek değeri al
-        y_values = göstergeaylık[[col, f"TÜİK {col}"]].values.flatten()  # Tüm y değerlerini diziye çevir
-        min_y, max_y = y_values.min(), y_values.max()  # Min ve max değerleri al
+        y_values = göstergeaylık[[col, f"TÜİK {col}"]].values.flatten()  # Tüm y değerlerini al
+        min_y, max_y = y_values.min(), y_values.max()  # Min ve max hesapla
 
         # Yeni y ekseni aralığını belirle (1 birim aşağı, 2 birim yukarı kaydır)
-        new_range = [min_y - 2, max_y + 2]
+        new_range = [min_y - 1, max_y + 2]
 
-        # Y ekseni aralığını güncelle
-        fig.update_yaxes(range=new_range, row=i, col=1)
+        # Y ekseni aralığını güncelle (automargin özelliği ile eksenin erken kesilmesini önlüyoruz)
+        fig.update_yaxes(
+            range=new_range,
+            row=i, col=1,
+            automargin=True,  # Otomatik kenar boşluğu ekle
+            fixedrange=False  # Kullanıcının manuel olarak ekseni ayarlamasına izin ver
+        )
 
     st.plotly_chart(fig)
    
