@@ -2304,7 +2304,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         
         fig_tüik.add_trace(go.Bar(
         x=tüikma.index.strftime("%Y-%m"),
-        y=tüikma[selected_group],
+        y=tüikma[selected_group[3:]],
         name="TÜİK",
         marker=dict(color='red'),
         text=tüikma["SA Web-GFE"],  # Değerleri göster
