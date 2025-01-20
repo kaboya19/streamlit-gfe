@@ -735,7 +735,7 @@ if page=="Gıda Fiyat Endeksi":
         
         magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
 
-        mason=hareketli_aylik_ortalama(magöstergeler["SA Web-GFE"].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().iloc[-1]*100
+        mason=magöstergeler["SA Web-GFE"].iloc[-1]
    
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
