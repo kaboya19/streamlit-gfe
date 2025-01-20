@@ -2142,7 +2142,7 @@ if page=="Özel Kapsamlı Endeksler":
         df.index = pd.to_datetime(df.index)
         return df
     
-    göstergeaylık=pd.DataFrame(columns=özelgöstergeler.columns)
+    göstergeaylık=pd.DataFrame(columns=tüik.columns)
     for col in özelgöstergeler.columns:
         göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
         göstergeaylık[f"TÜİK {col}"]=tüik[col]
