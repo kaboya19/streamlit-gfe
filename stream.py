@@ -2307,7 +2307,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         y=tüikma[selected_group[3:]],
         name="TÜİK",
         marker=dict(color='red'),
-        text=tüikma["SA Web-GFE"],  # Değerleri göster
+        text=tüikma[selected_group[3:]],  # Değerleri göster
         textposition='outside', 
         hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>', # Tüm değerler barların üstünde olacak
         textfont=dict(
