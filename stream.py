@@ -2181,8 +2181,8 @@ if page=="Özel Kapsamlı Endeksler":
 
     # X ekseni ayarları (45 derece döndürme, kalın font)
     fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
-    fig.update_yaxes(range=[0, göstergeaylık.max().max() * 1.2], row=1, col=1)
-    fig.update_yaxes(range=[0, göstergeaylık.max().max() * 1.2], row=2, col=1)
+    fig.update_yaxes(range=[göstergeaylık.min().min()-1, göstergeaylık.max().max() * 1.2], row=1, col=1)
+    fig.update_yaxes(range=[göstergeaylık.min().min()-1, göstergeaylık.max().max() * 1.2], row=2, col=1)
     st.plotly_chart(fig)
    
 
