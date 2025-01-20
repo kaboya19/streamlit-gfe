@@ -2232,69 +2232,19 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
 
     magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
     magöstergeler.index=pd.to_datetime(magöstergeler.index)
-    magöstergeler.loc["2024-10"].iloc[:,-4:]=pd.NA
-    gfe=pd.read_csv("gfe.csv",index_col=0)
-    gfe.index=pd.to_datetime(gfe.index)
-    magöstergeler["Web-GFE"]=gfe["GFE"]
-    aylıklar=pd.DataFrame(columns=magöstergeler.columns[-5:-1],index=magöstergeler["SA Web-GFE"].dropna().resample('M').mean().index)
-    for col in magöstergeler.columns[-5:-1]:
-        ma_aylık=hareketli_aylik_ortalama(magöstergeler[col].dropna())["Aylık Ortalama"].fillna(method="ffill").resample('M').last().dropna().pct_change()*100
-        aylıklar[col]=ma_aylık
-        aylıklar[col].loc["2024-11-30"]=((magöstergeler[col].loc["2024-11-30"]/magöstergeler[col[3:]].loc["2024-10-31"])-1)*100
-        aylıklar[col].loc["2024-12-31"]=((magöstergeler[col].loc["2024-12-31"]/magöstergeler[col].loc["2024-11-30"])-1)*100
-    aylıklar["SA Web-GFE"].loc["2024-11-30"]=4.27
+
+    
     
 
 
-    selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.columns[-5:-1].values)
+    selected_group = st.sidebar.selectbox("Gösterge Seçin:", magöstergeler.iloc[:,[2,3,8,9]].columns.values)
 
-    tickvals = magöstergeler.index[::3]
+    tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
     
     st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
 
 
-    figözel = go.Figure()
-    figözel.add_trace(go.Scatter(
-        x=magöstergeler.loc["2024-11":].index.strftime("%Y-%m-%d"),
-        y=magöstergeler.loc["2024-11":][selected_group],
-        mode='lines',
-        name=f"Mevsimsel Düzeltilmiş {selected_group[3:]}",
-        line=dict(color='blue', width=4),
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
-    ))
-
-    figözel.add_trace(go.Scatter(
-        x=magöstergeler.loc["2024-11":].index.strftime("%Y-%m-%d"),
-        y=magöstergeler.loc["2024-11":][f"{selected_group[3:]}"],
-        mode='lines',
-        name=f"Ham {selected_group[3:]}",
-        line=dict(color='purple', width=4),
-        hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
-    ))
-
-    figözel.update_layout(
-        title=dict(
-        text=f"<b>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi</b>",
-        x=0.5,  # Ortaya hizalama
-        xanchor="center",
-        font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
-    ),
-        xaxis=dict(
-            tickvals=tickvals,
-            ticktext=ticktext,
-            tickfont=dict(size=14, family="Arial Black", color="black"),
-            tickangle=45
-        ),
-        yaxis=dict(
-            tickfont=dict(size=14, family="Arial Black", color="black")
-        ),
-        font=dict(family="Arial", size=14, color="black"),
-        height=600
-    )
-
-    
-    st.plotly_chart(figözel)
 
     tüikma=pd.read_excel("mevsim etkisinden arindirilmis tufe gostergeleri.xls").iloc[45:49,1:].T
     tüikma.columns=tüikma.iloc[0].values
