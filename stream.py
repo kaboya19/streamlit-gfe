@@ -2146,6 +2146,12 @@ if page=="Özel Kapsamlı Endeksler":
     for col in tüik.columns:
         göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
         göstergeaylık[f"TÜİK {col}"]=tüik[col]
+    for col in tüik.columns:
+        kasım=((özelgöstergeler[col].loc["2024-11-30"]/özelgöstergeler[col].loc["2024-10-31"])-1)*100
+        aralık=((özelgöstergeler[col].loc["2024-12-31"]/özelgöstergeler[col].loc["2024-11-30"])-1)*100
+        göstergeaylık.iloc[:2, göstergeaylık.columns.get_loc(col)] = [kasım , aralık]
+
+
     import plotly.subplots as sp
     x_labels = göstergeaylık.index.strftime("%Y-%m")
     for col in tüik.columns:
@@ -2242,7 +2248,6 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     tickvals = magöstergeler.index
     ticktext = tickvals.strftime("%d.%m.%Y")
     
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Ham ve Mevsimsellikten Arındırılmış Endeksi </h2>", unsafe_allow_html=True)
 
 
 
