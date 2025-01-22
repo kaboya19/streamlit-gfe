@@ -206,7 +206,7 @@ if page=="Bültenler":
         st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım 2024 Bülteni</span>", unsafe_allow_html=True)
 
         # Alt başlık
-        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım’da %5,32 arttı</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Kasım’da %3,79 arttı</span>", unsafe_allow_html=True)
 
         st.markdown("""
         *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
@@ -215,45 +215,45 @@ if page=="Bültenler":
 
         # Açıklama paragrafı
         st.markdown("""
-        Web Gıda Fiyat Endeksi Kasım’da %5,32 artış kaydederken mevsimsellikten arındırılmış artış %4,31 oldu.
+        Web Gıda Fiyat Endeksi Kasım’da %3,79 artış kaydederken mevsimsellikten arındırılmış artış %3,92 oldu.
         Sepette ağırlığı en yüksek ürünlere bakıldığında:
-        - **Domates**: %7,35
-        - **Ayçiçek Yağı**: %6,36
-        - **Kuzu Eti**: %8,85
-        - **Ekmek**: %4,37
-        - **Dana Eti**: %4,84
-        - **Yumurta**: %7,28
-        - **Tavuk Eti**: %3,47 artış kaydetti.
+        - **Domates**: %5,23
+        - **Ayçiçek Yağı**: %5,96
+        - **Kuzu Eti**: %6,99
+        - **Ekmek**: %3,55
+        - **Dana Eti**: %2,69
+        - **Yumurta**: %6,48
+        - **Tavuk Eti**: %0,85 artış kaydetti.
 
         a
         """)
 
         # İlk resim ekleme
-        st.image("grafikler/gfe_02-01-2025.png")
+        st.image("grafikler/gfe_11.png")
 
         # Harcama gruplarına ilişkin analiz
         st.markdown("""
         Harcama gruplarına bakıldığında **Taze Sebze** grubunun önemli ölçüde endeksi yukarı taşıdığı görülmektedir. 
-        Bu bağlamda %5,32 artış yaşanan endekse Taze Sebze grubu endekse 1,47 puan katkı yapmıştır.
+        Bu bağlamda %3,79 artış yaşanan endekse Taze Sebze grubu endekse 1,07 puan katkı yapmıştır.
         """)
 
         # İkinci resim ekleme
         st.image("grafikler/gruplar_02-01-2025.png")
 
-        st.image("grafikler/özel_endeksler_02-01-2025.png")
-        st.image("grafikler/ürünler_02-01-2025.png")
-        st.image("grafikler/meyvesebze_02-01-2025.png")
-        st.image("grafikler/haric_02-01-2025.png")
-        st.image("grafikler/harcamasa02-01-2025.png")
+        st.image("grafikler/maddeler_mshariç11.png")
+        st.image("grafikler/maddeler_ms11.png")
+        st.image("grafikler/temelbaslıklar_112025-01.png")
+        st.image("grafikler/özelgöstergeler_112025-01.png")
+        st.image("grafikler/birim_112025-01.png")
 
         st.markdown("""
-        Mevsimsel düzeltilmiş ana eğilim göstergelerine bakıldığında düzeltilmiş olarak Web-GFE %4,41 artarken,
-        Taze Meyve/Sebze hariç fiyat artışı %5,06 olmuştur.
-        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %4,17 ve medyan artış %3,59 olmuştur.
-        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %3,33 artmıştır.
+        Mevsimsel düzeltilmiş ana eğilim göstergelerine bakıldığında düzeltilmiş olarak Web-GFE %3,92 artarken,
+        Taze Meyve/Sebze hariç fiyat artışı %2,91 olmuştur.
+        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %2,82 ve medyan artış %2,73 olmuştur.
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %2,79 artmıştır.
         """)
 
-        st.image("grafikler/egilim_02-01-2025.png")
+        st.image("grafikler/egilim_112025-01.png")
 
         # Verisetine erişim bilgisi
         st.markdown("""
@@ -270,7 +270,6 @@ if page=="Bültenler":
         st.markdown("""
         **Hazırlayan**  
         Bora Kaya  
-        HSBC Asset Management Intern
         """)
 
           
