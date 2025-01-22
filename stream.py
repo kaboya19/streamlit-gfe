@@ -238,7 +238,6 @@ if page=="Bültenler":
         """)
 
         # İkinci resim ekleme
-        st.image("grafikler/gruplar_02-01-2025.png")
 
         st.image("grafikler/maddeler_mshariç11.png")
         st.image("grafikler/maddeler_ms11.png")
