@@ -118,7 +118,7 @@ if page=="Metodoloji Notu":
 
 if page=="Bültenler":
      
-     bülten=st.sidebar.selectbox("Bültenler:", ["Ekim 2024","Kasım 2024","Aralık 2024"])
+     bülten=st.sidebar.selectbox("Bültenler:", ["Kasım 2024","Aralık 2024"])
      if bülten=="Aralık 2024":
         
         
@@ -127,29 +127,29 @@ if page=="Bültenler":
         st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık 2024 Bülteni</span>", unsafe_allow_html=True)
 
         # Alt başlık
-        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık'ta %2,53 arttı</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Aralık'ta %1,99 arttı</span>", unsafe_allow_html=True)
 
         st.markdown("""
         *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
 
         """)
 
-        st.image("grafikler/gfe_aralık.png")
+        st.image("grafikler/gfe_12.png")
 
         # Açıklama paragrafı
         st.markdown("""
-        Web Gıda Fiyat Endeksi Aralık'ta %2,53 artış kaydederken mevsimsellikten arındırılmış artış %1,42 oldu.
+        Web Gıda Fiyat Endeksi Aralık'ta %1,99 artış kaydederken mevsimsellikten arındırılmış artış %2,29 oldu.
         Sepette ağırlığı en yüksek ürünlere bakıldığında:
-        - **Domates**: -%9,37 azalırken
-        - **Ayçiçek Yağı**: %2,79
-        - **Kuzu Eti**: %1,13
-        - **Ekmek**: %5,21
-        - **Dana Eti**: %5,03
-        - **Yumurta**: %2,14
-        - **Tavuk Eti**: %0,07 artış kaydetti.""")
+        - **Domates**: -%10,42 düşerken
+        - **Tavuk Eti**: -%1,56
+        - **Ayçiçek Yağı**: %2,65
+        - **Kuzu Eti**: %0,59
+        - **Ekmek**: %4,78
+        - **Dana Eti**: %3,70
+        - **Yumurta**: %1,96 artış kaydetti.""")
 
         # İlk resim ekleme
-        st.image("grafikler/ürünleraralık.png")
+        st.image("grafikler/maddeler_ms12.png")
 
         
 
@@ -157,20 +157,19 @@ if page=="Bültenler":
         st.image("grafikler/gruplar_aralık.png")
 
         # Ek görseller
-        st.image("grafikler/harcamasaralık.png")
-        st.image("grafikler/meyvesebze_aralık.png")
-        st.image("grafikler/haric_aralık.png")
-        st.image("grafikler/harcamasaralık.png")
-        st.image("grafikler/özel_endeksler_aralık.png")
+        st.image("grafikler/maddeler_mshariç12.png")
+        st.image("grafikler/temelbaslıklar_122025-01.png")
+        st.image("grafikler/özelgöstergeler_122025-01.png")
+        st.image("grafikler/birim_122025-01.png")
         
 
         st.markdown("""
-        Mevsimsellikten arındırılmış olarak Web-GFE %1,42 ve fiyat değişimlerinin ortalaması %2,82 ve medyan artış %1,72 olmuştur.
-        Meyve ve Sebze hariç fiyat artışı %2,90 ile manşet ile ayrışmıştır.
-        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,37 artmıştır
+        Mevsimsellikten arındırılmış olarak Web-GFE %2,29 ve fiyat değişimlerinin ortalaması %1,71 ve medyan artış %1,24 olmuştur.
+        Meyve ve Sebze hariç fiyat artışı %1,42 olurken,
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,43 artmıştır
         """)
 
-        st.image("grafikler/egilim_aralık.png")
+        st.image("grafikler/egilim_122025-01.png")
 
         # Verisetine erişim bilgisi
         st.markdown("""
@@ -271,76 +270,7 @@ if page=="Bültenler":
         Bora Kaya  
         """)
 
-          
-     if bülten=="Ekim 2024":
-
-        with open("Ekim24.pdf", "rb") as file:
-            pdf_data = file.read()
-
-        st.download_button(
-            label="📄 Bülteni PDF olarak indir",
-            data=pdf_data,
-            file_name="Web_Gida_Fiyat_Endeksi_Bulteni.pdf",
-            mime="application/pdf"
-    )
-          
-
-        
-
-        st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim 2024 Bülteni</span>", unsafe_allow_html=True)
-
-        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ekim’de %1,79 arttı</span>", unsafe_allow_html=True)
-
-        # Açıklama paragrafı
-        st.markdown("""
-        11 Ekim’de ölçüme başladığımız W-GFE 11-31 Ekim döneminde %1,79 artış kaydetti. 
-        (Bu ay veri eksik olduğundan tahminen Ekim genelinde %2,5-3,0 dolayında artış yaşandığını tahmin ediyoruz)
-        """)
-
-        # İlk resim ekleme
-        st.image("grafikler/gfe_01-11-2024.png", caption="Ekim 2024 Gıda Endeksi Grafiği")
-
-        # Öne çıkan gruplar
-        st.markdown("""
-        Bu artışta taze sebze grubu öne çıktı. Sepette ağırlığı en yüksek gruplardan:
-        - **Ekmek**: %2,2
-        - **Dana Eti**: %1,96
-        - **Tavuk Eti**: %0,82
-        - **Kuzu Eti**: %1
-        - **Ayçiçek Yağı**: %3,32 artış kaydetti.
-
-        Fiyatı en çok artan ve azalan ürünlere bakıldığında: **Maydanoz**, **Kırmızı Lahana**, **Dereotu** artış olarak; **Dolmalık Biber**, **Beyaz Lahana**, **Kabak**, **Limon** ve **Kivi** ise en çok azalanlarda öne çıkmaktadır.
-        """)
-
-        # İkinci resim ekleme
-        st.image("grafikler/ürünler_01-11-2024.png", caption="Fiyat Değişim Grafiği")
-
-        # Ürün bazlı artışlar
     
-
-        # Ortalama ve medyan değişimler
-        st.markdown("""
-        Sepet eşit ağırlıklı alındığında fiyat değişimlerinin aritmetik ortalaması %2,27 ve medyan artış %0,75 olmuştur. 
-        **SATRIM** (Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,26 artmıştır.
-        """)
-
-        # Dördüncü resim ekleme
-        st.image("grafikler/egilim_01-11-2024.png", caption="SATRIM Göstergesi Grafiği")
-
-        # Verisetine erişim bilgisi
-        st.markdown("""
-        Gıda Fiyat Endeksi ile ilgili tüm verisetlerine [https://web-gfe.streamlit.app](https://web-gfe.streamlit.app) sitesinden ulaşabilir ve indirebilirsiniz.
-        """)
-
-        # Küçük boyutta uyarı metni
-        st.markdown("<small>Bu bültenin bir sonraki yayınlanma tarihi 1 Aralık 2024'tür. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.</small>", unsafe_allow_html=True)
-
-        # Hazırlayan bilgisi
-        st.markdown("""
-        **Hazırlayan**  
-        Bora Kaya  
-        HSBC Asset Management Intern
-        """)
 
 
      
