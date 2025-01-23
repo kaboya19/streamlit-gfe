@@ -118,7 +118,80 @@ if page=="Metodoloji Notu":
 
 if page=="Bültenler":
      
-     bülten=st.sidebar.selectbox("Bültenler:", ["Kasım 2024","Aralık 2024"])
+     bülten=st.sidebar.selectbox("Bültenler:", ["Ocak 2025","Aralık 2024","Kasım 2024"])
+     if bülten=="Ocak 2025":
+        
+        
+
+        # Başlık
+        st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak 2025 Bülteni</span>", unsafe_allow_html=True)
+
+        # Alt başlık
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,07 arttı</span>", unsafe_allow_html=True)
+
+        st.markdown("""
+        *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
+
+        """)
+
+        st.image("grafikler/gfe_2025-01.png")
+
+        st.image("grafikler/aylıkartıslar_2025-01.png")
+
+        st.image("grafikler/ma_artıslar_2025-01.png")
+
+        # Açıklama paragrafı
+        st.markdown("""
+        Web Gıda Fiyat Endeksi Ocak'ta %2,07 artış kaydederken mevsimsellikten arındırılmış artış %1,69 oldu.
+        Sepette ağırlığı en yüksek ürünlere bakıldığında:
+        - **Domates**: -%7,55 düşerken
+        - **Tavuk Eti**: %0,35
+        - **Ayçiçek Yağı**: %2,00
+        - **Kuzu Eti**: %1,07
+        - **Ekmek**: %3,27
+        - **Dana Eti**: %2,98
+        - **Yumurta**: %1,53 artış kaydetti.""")
+
+        # İlk resim ekleme
+        st.image("grafikler/maddeler_mshariç2025-01.png")
+
+        
+
+        # İkinci resim ekleme
+        st.image("grafikler/maddeler_ms2025-01.png")
+
+        # Ek görseller
+        st.image("grafikler/temelbaslıklar_2025-01.png")
+        st.image("grafikler/özelgöstergeler_2025-01.png")
+        st.image("grafikler/özelgöstergeler_aylık_2025-01.png")
+        st.image("grafikler/birim_2025-01.png")
+        
+
+        st.markdown("""
+        Mevsimsellikten arındırılmış olarak Web-GFE %1,69 ve fiyat değişimlerinin ortalaması %1,34 ve medyan artış %1,17 olmuştur.
+        Meyve ve Sebze hariç fiyat artışı %0,92 olurken,
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,22 artmıştır
+        """)
+
+        st.image("grafikler/egilim_2025-01.png")
+
+        # Verisetine erişim bilgisi
+        st.markdown("""
+        Gıda Fiyat Endeksi ile ilgili tüm verisetlerine [https://web-gfe.streamlit.app](https://web-gfe.streamlit.app) sitesinden ulaşabilir ve indirebilirsiniz.
+        """)
+
+        # Küçük boyutta uyarı metni
+        st.markdown("""
+        <small>*Bu bültenin bir sonraki yayınlanma tarihi 24 Ocak 2025'tir. Burada yer alan bilgi ve analizler tamamen kişisel çalışma olup kesin bir doğruluk içermemekte ve yatırım tavsiyesi içermemektedir.*  
+        *TÜİK’in hesaplamasıyla uyumlu olması açısından Aralık ayının ilk 24 günündeki veriler dikkate alınmıştır.*</small>
+        """, unsafe_allow_html=True)
+
+        # Hazırlayan bilgisi
+        st.markdown("""
+        **Hazırlayan**  
+        Bora Kaya  
+        
+        """)
      if bülten=="Aralık 2024":
         
         
