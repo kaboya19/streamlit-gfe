@@ -127,7 +127,7 @@ if page=="Bültenler":
         st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak 2025 Bülteni</span>", unsafe_allow_html=True)
 
         # Alt başlık
-        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,07 arttı</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,91 arttı</span>", unsafe_allow_html=True)
 
         st.markdown("""
         *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
@@ -144,13 +144,13 @@ if page=="Bültenler":
         st.markdown("""
         Web Gıda Fiyat Endeksi Ocak'ta %2,07 artış kaydederken mevsimsellikten arındırılmış artış %1,69 oldu.
         Sepette ağırlığı en yüksek ürünlere bakıldığında:
-        - **Domates**: -%7,55 düşerken
-        - **Tavuk Eti**: %0,35
-        - **Ayçiçek Yağı**: %2,00
-        - **Kuzu Eti**: %1,07
-        - **Ekmek**: %3,27
-        - **Dana Eti**: %2,98
-        - **Yumurta**: %1,53 artış kaydetti.""")
+        - **Domates**: -%1,28 düşerken
+        - **Tavuk Eti**: %1,74
+        - **Ayçiçek Yağı**: %2,11
+        - **Kuzu Eti**: %1,59
+        - **Ekmek**: %2,80
+        - **Dana Eti**: %3,35
+        - **Yumurta**: %1,71 artış kaydetti.""")
 
         # İlk resim ekleme
         st.image("grafikler/maddeler_mshariç2025-01.png")
@@ -168,9 +168,10 @@ if page=="Bültenler":
         
 
         st.markdown("""
-        Mevsimsellikten arındırılmış olarak Web-GFE %1,69 ve fiyat değişimlerinin ortalaması %1,34 ve medyan artış %1,17 olmuştur.
-        Meyve ve Sebze hariç fiyat artışı %0,92 olurken,
-        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,22 artmıştır
+        Mevsimsellikten arındırılmış eğilimlere baktığımızda;
+        Mevsimsellikten arındırılmış olarak Web-GFE %2,31 ve fiyat değişimlerinin ortalaması %1,79 ve medyan artış %1,60 olmuştur.
+        Meyve ve Sebze hariç fiyat artışı %1,34 olurken,
+        SATRIM(Mevsimsel Düzeltilmiş Budanmış Enflasyon) göstergesi ise %1,53 artmıştır
         """)
 
         st.image("grafikler/egilim_2025-01.png")
