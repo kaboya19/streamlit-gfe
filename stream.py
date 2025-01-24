@@ -493,7 +493,6 @@ if page=="Gıda Fiyat Endeksi":
     except:
         monthlylast=np.round(((selected_group_monthlyfull.iloc[-2,0])/(100)-1)*100,2)
 
-        # Yüzdeyi iki ondalık basamak ile sınırlama
     change_percent = round(change_percent, 2)
     if selected_group=="WEB-GFE":
         st.markdown(f"<h2 style='text-align:left; color:black;'>Web Gıda Fiyat Endeksi</h2>", unsafe_allow_html=True)
@@ -712,7 +711,10 @@ if page=="Gıda Fiyat Endeksi":
 
         yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
         yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
-
+        first_value = yeni_gfe.iloc[0,0]  # İlk değer
+        last_value = yeni_gfe.iloc[-1,0] # Son değer
+        change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
+        change_percent = round(change_percent, 2)
 
 
         figgalt.add_trace(go.Scatter(
