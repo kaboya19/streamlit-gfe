@@ -1472,6 +1472,7 @@ if page=="Madde Endeksleri":
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
+    from plotly.subplots import make_subplots
     import plotly.graph_objects as go
 
     # 3 gruba bölelim
@@ -1481,13 +1482,13 @@ if page=="Madde Endeksleri":
     # Grupları belirleme
     most_increased = degisim.iloc[:group_size][::-1]  # En çok artanlar
     middle = degisim.iloc[group_size:2*group_size][::-1]  # Orta değerler
-    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler
+    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler ve düşenler
 
     # Subplot oluştur
     figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1,
                             subplot_titles=["En Çok Artanlar", "", "En Az Artanlar ve En Çok Düşenler"])
 
-    # 3 Farklı Çubuk Grafiği Ekleyelim
+    # 3 farklı grup için renkler
     colors = ["green", "blue", "red"]
     groups = [most_increased, middle, least_changed]
 
@@ -1505,11 +1506,17 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Doğru yönlü çubukları çizme**
+        # **Group 3 için negatif değerleri terse çeviriyoruz**
+        if i == 2:
+            x_values = [-val if val < 0 else val for val in group]  # Negatif olanları ters çevir
+        else:
+            x_values = list(group)  # Diğerleri normal
+
+        # **Çubukları çizme**
         figartıs.add_trace(
             go.Bar(
                 y=tickvals,
-                x=list(group),  # Orijinal değerler kullanılıyor
+                x=x_values,
                 orientation='h',
                 marker=dict(color=colors[i]),
                 name=f'Grup {i+1}',
@@ -1518,18 +1525,27 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Etiket ekleme (Yazıları çubukların sonunda gösterme)**
+        # **Etiket ekleme**
         for j, value in enumerate(group.values):
-            offset = 0.3  # Etiketi biraz dışarı koymak için mesafe
+            offset = 0.3  # Etiketin mesafesi
+
+            if i == 2 and value < 0:  # Grup 3'te negatif olanlar için sağa kaydır
+                text_x = -value + offset
+                x_anchor = 'left'
+                align = 'left'
+            else:  # Diğer tüm gruplar için normal konum
+                text_x = value + (offset if value > 0 else -offset)
+                x_anchor = 'right' if value < 0 else 'left'
+                align = 'right' if value < 0 else 'left'
 
             figartıs.add_annotation(
-                x=value + (offset if value > 0 else -offset),  # Pozitifse sağa, negatifse sola kaydır
+                x=text_x,
                 y=j,
-                text=f"{value:.2f}%",  # Orijinal değeri göster
+                text=f"{value:.2f}%",
                 showarrow=False,
                 font=dict(size=12, family="Arial Black", color="black"),
-                align='left' if value > 0 else 'right',  # Pozitifse sola, negatifse sağa hizala
-                xanchor='left' if value > 0 else 'right',
+                align=align,
+                xanchor=x_anchor,
                 yanchor='middle',
                 row=1,
                 col=i+1
