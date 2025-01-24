@@ -1141,12 +1141,18 @@ if page=="Gıda Fiyat Endeksi":
 
         
         excel_data1 = to_excel(endeksler.drop("WEB-GFE",axis=1))
-        gfe["Tarih"]=gfe.index.strftime("%Y-%m-%d")
-        sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
-        gfe = gfe[sira]
+        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-11-01":]
+        oran=yeni_gfe["GFE"].iloc[0]/100
+        yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
+
+        yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
+        yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
+        yeni_gfe["Tarih"]=yeni_gfe.index.strftime("%Y-%m-%d")
+        sira = ['Tarih'] + [col for col in yeni_gfe.columns if col != 'Tarih']
+        yeni_gfe = yeni_gfe[sira]
         
        
-        excel_data2 = to_excel(gfe)
+        excel_data2 = to_excel(yeni_gfe)
 
         aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{oncekiyear}-{onceki}"].iloc[0])-1)*100),2)
         aylıkenf=np.round(hareketlima["Aylık Ortalama"].resample("M").last().pct_change()*100,2).dropna().iloc[1:]
