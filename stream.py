@@ -127,7 +127,7 @@ if page=="Bültenler":
         st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak 2025 Bülteni</span>", unsafe_allow_html=True)
 
         # Alt başlık
-        #st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,91 arttı</span>", unsafe_allow_html=True)
+        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,91 arttı</span>", unsafe_allow_html=True)
 
         st.markdown("""
         *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
@@ -142,7 +142,7 @@ if page=="Bültenler":
 
         # Açıklama paragrafı
         st.markdown("""
-        Web Gıda Fiyat Endeksi Ocak'ta %2,07 artış kaydederken mevsimsellikten arındırılmış artış %1,69 oldu.
+        Web Gıda Fiyat Endeksi Ocak'ta %2,91 artış kaydederken mevsimsellikten arındırılmış artış %2,31 oldu.
         Sepette ağırlığı en yüksek ürünlere bakıldığında:
         - **Domates**: -%1,28 düşerken
         - **Tavuk Eti**: %1,74
