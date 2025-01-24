@@ -1469,7 +1469,6 @@ if page=="Madde Endeksleri":
 
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
-    from plotly.subplots import make_subplots
     import plotly.graph_objects as go
 
     # 3 gruba bölelim
@@ -1479,7 +1478,7 @@ if page=="Madde Endeksleri":
     # Grupları belirleme
     most_increased = degisim.iloc[:group_size][::-1]  # En çok artanlar
     middle = degisim.iloc[group_size:2*group_size][::-1]  # Orta değerler
-    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler (pozitif ve negatif olabilir)
+    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler (negatif olabilir!)
 
     # Subplot oluştur
     figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1,
@@ -1492,7 +1491,7 @@ if page=="Madde Endeksleri":
     for i, group in enumerate(groups):
         tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
         
-        # **Pozitif ve Negatif Değerleri Ayıralım**
+        # **Negatif değerleri tespit edelim**
         positive_mask = group >= 0
         negative_mask = group < 0
         
@@ -1530,11 +1529,11 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Yazıları doğru yerlere ekleyelim**
+        # **Yazıları etiketleyelim**
         for j, (value, label) in enumerate(zip(group.values, group.index)):
             offset = 0.3  # Etiketlerin mesafesi
 
-            # **Pozitif değerler için sağdan sola etiketi sağa hizala**
+            # Pozitif değerler için sağdan sola etiketi sağa hizala
             if value >= 0:
                 figartıs.add_annotation(
                     x=-abs(value) - offset,  # Sağdan sola çizildiği için negatif yönde kaydır
@@ -1549,8 +1548,8 @@ if page=="Madde Endeksleri":
                     col=i+1
                 )
 
-            # **Negatif değerler için soldan sağa etiketi sola hizala (Sadece 3. grupta)**
-            elif i == 2:  # Sadece en az değişenler grubunda negatif değerleri sola hizala
+            # Negatif değerler için soldan sağa etiketi sola hizala
+            else:
                 figartıs.add_annotation(
                     x=abs(value) + offset,  # Soldan sağa çizildiği için pozitif yönde kaydır
                     y=j,
@@ -1569,7 +1568,7 @@ if page=="Madde Endeksleri":
             tickvals=tickvals,
             ticktext=[f"<b>{name}</b>" for name in group.index],
             tickfont=dict(family="Arial Black", size=12, color="black"),
-            side="right" if (i != 2 or positive_mask.all()) else "left",  # Sadece 3. grupta negatif olanları sola al
+            side="right" if i != 2 else "left",  # Son grup hariç sağa hizala, son grup sola hizala
             row=1,
             col=i+1
         )
@@ -1591,7 +1590,6 @@ if page=="Madde Endeksleri":
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
-
 
 
 
