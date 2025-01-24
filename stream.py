@@ -713,6 +713,8 @@ if page=="Gıda Fiyat Endeksi":
         yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
         first_value = yeni_gfe.iloc[0,0]  # İlk değer
         last_value = yeni_gfe.iloc[-1,0] # Son değer
+        first_date = yeni_gfe.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
+        last_date = yeni_gfe.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
         change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
         change_percent = round(change_percent, 2)
 
