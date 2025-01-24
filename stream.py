@@ -1494,7 +1494,7 @@ if page=="Madde Endeksleri":
         # **Eğer en sağdaki gruptaysa, çubukları ters yönde çizelim**
         if i == 2:
             abs_values = -group.abs()  # Çubukları ters çizmek için negatif değer yap
-            ticktext = [f"<b>{name}</b>" for name in group.index]  # Kalın ürün isimleri
+            ticktext = [f"<b>{name}</b>" for name in y_labels]  # Kalın ürün isimleri
 
             figartıs.update_yaxes(
                 tickvals=tickvals,
@@ -1506,7 +1506,7 @@ if page=="Madde Endeksleri":
             )
         else:
             abs_values = group.abs()  # Normal çubuklar
-            ticktext = [f"<b>{name}</b>" for name in group.index]
+            ticktext = [f"<b>{name}</b>" for name in y_labels]
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
