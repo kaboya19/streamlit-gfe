@@ -1569,16 +1569,13 @@ if page=="Madde Endeksleri":
 
         # **Y Ekseni ayarları**
         if i == 2:
-            # 3. grupta sadece negatif olanlar için solda, pozitifler için sağda olacak şekilde ayarla
-            y_labels = [
-                f"<b>{name}</b>" if val >= 0 else f"<b>{name}</b> "  # Pozitif olanları sağa al
-                for name, val in zip(group.index, group.values)
-            ]
+            # 3. grupta negatif olanlar sola, pozitifler sağa gidecek
             figartıs.update_yaxes(
                 tickvals=tickvals,
-                ticktext=y_labels,
+                ticktext=[f"<b>{name}</b>" if val >= 0 else f"<b>{name}</b> "  # Pozitif olanları sağa al
+                        for name, val in zip(group.index, group.values)],
                 tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="right",  # 3. gruptaki negatifler için sola, pozitifler için sağa
+                side="right" if positive_mask.any() else "left",  # Pozitifler için sağ, negatifler için sol
                 row=1,
                 col=i+1
             )
