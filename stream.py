@@ -1478,6 +1478,8 @@ if page=="Madde Endeksleri":
 
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
+    for y in y_labels:
+        y=y[:15]
 
     # Subplot oluştur
     figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar","", "En Az Artanlar ve En Çok Düşenler"])
