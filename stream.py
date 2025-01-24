@@ -1478,42 +1478,40 @@ if page=="Madde Endeksleri":
 
     y_labels = list(degisim.index)
     x_values = list(degisim.values)
-    for y in y_labels:
-        y=y[:15]
 
     # Subplot oluştur
     figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar","", "En Az Artanlar ve En Çok Düşenler"])
 
-    # 3 Farklı Çubuk Grafiği Ekleyelim
     colors = ["green", "blue", "red"]
     groups = [most_increased, middle, least_changed]
+
+    # Subplot Oluştur
+    figartıs = make_subplots(
+        rows=1, cols=3, 
+        shared_xaxes=True, horizontal_spacing=0.1, 
+        subplot_titles=["En Çok Artanlar", "", "En Az Artanlar ve En Çok Düşenler"]
+    )
 
     for i, group in enumerate(groups):
         tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
 
-        # **Eğer en sağdaki gruptaysa, çubukları ters yönde çizelim**
         if i == 2:
             abs_values = -group.abs()  # Çubukları ters çizmek için negatif değer yap
-            ticktext = [f"<b>{name}</b>" for name in y_labels]  # Kalın ürün isimleri
-
+            ticktext = [f"<b>{name}</b>" for name in group.index]
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="right",  # Y eksenini sağa al
-                row=1,
-                col=i+1
+                tickfont=dict(family="Arial Black", size=10, color="black"),  # Küçük font
+                side="right", row=1, col=i+1
             )
         else:
-            abs_values = group.abs()  # Normal çubuklar
-            ticktext = [f"<b>{name}</b>" for name in y_labels]
+            abs_values = group.abs()
+            ticktext = [f"<b>{name}</b>" for name in group.index]
             figartıs.update_yaxes(
                 tickvals=tickvals,
                 ticktext=ticktext,
-                tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="left",  # Y eksenini sola al
-                row=1,
-                col=i+1
+                tickfont=dict(family="Arial Black", size=10, color="black"),
+                side="left", row=1, col=i+1
             )
 
         figartıs.add_trace(
@@ -1521,44 +1519,30 @@ if page=="Madde Endeksleri":
                 y=tickvals,
                 x=list(abs_values),
                 orientation='h',
-                marker=dict(color=colors[i]),
+                marker=dict(color=colors[i], line=dict(width=0.5)),  # Bar kenarlıkları
+                text=[f"{value:.2f}%" for value in group.values],  # Değerleri metin olarak ekle
+                textposition="outside",  # Çubukların dışına yazı ekle
+                textfont=dict(size=10, color="black"),  # Daha küçük ve okunaklı font
                 name=f'Grup {i+1}',
             ),
             row=1,
             col=i+1
         )
 
-        # **Etiket ekleme (Yazıları kaydırma)**
-        for j, value in enumerate(group.values):
-            offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
-
-            figartıs.add_annotation(
-                x=abs(value) if i != 2 else -abs(value) - offset,  # En sağdaki grup için ters yönde kaydır
-                y=j,
-                text=f"{value:.2f}%",  # Orijinal değeri göster
-                showarrow=False,
-                font=dict(size=12, family="Arial Black", color="black"),
-                align='left' if i != 2 else 'right',  # En sağdaki grup için sağa hizala
-                xanchor='left' if i != 2 else 'right',
-                yanchor='middle',
-                row=1,
-                col=i+1
-            )
-
-    # **Grafik genel ayarları**
     figartıs.update_layout(
         title=dict(
-        text=f"<b>Maddeler {selected_tarih} Artış Oranları, 24 Günlük Ortalamaya Göre</b>",
-        x=0.5,  # Ortaya hizalama
-        xanchor="center",
-        font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
-    ),
+            text=f"<b>Maddeler {selected_tarih} Artış Oranları, 24 Günlük Ortalamaya Göre</b>",
+            x=0.5, xanchor="center",
+            font=dict(size=16, family="Arial Black", color="black")
+        ),
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
-        height=1000,
-        font=dict(family="Arial Black", size=12, color="black"),  # Tüm yazılar siyah ve kalın
+        height=900,
+        margin=dict(l=150, r=150, t=100, b=50),  # Kenar boşluklarını artırarak sıkışmayı önle
+        font=dict(family="Arial Black", size=12, color="black"),
         showlegend=False
     )
+
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
 
