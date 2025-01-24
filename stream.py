@@ -1467,92 +1467,91 @@ if page=="Madde Endeksleri":
 
     degisim = degisim.sort_values(ascending=False)
 
+    from plotly.subplots import make_subplots
+    import plotly.graph_objects as go
+
     # 3 gruba bölelim
     num_items = len(degisim)
     group_size = num_items // 3  # Her gruba düşecek yaklaşık ürün sayısı
 
     # Grupları belirleme
-    most_increased = degisim.iloc[:group_size][::-1]  # En çok artanlar (sol)
-    middle = degisim.iloc[group_size:2*group_size][::-1]  # Orta değerler (orta)
-    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler (sağ)
-
-    y_labels = list(degisim.index)
-    x_values = list(degisim.values)
+    most_increased = degisim.iloc[:group_size][::-1]  # En çok artanlar
+    middle = degisim.iloc[group_size:2*group_size][::-1]  # Orta değerler
+    least_changed = degisim.iloc[2*group_size:][::-1]  # En az değişenler
 
     # Subplot oluştur
-    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar","", "En Az Artanlar ve En Çok Düşenler"])
+    figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1,
+                            subplot_titles=["En Çok Artanlar", "", "En Az Artanlar ve En Çok Düşenler"])
 
-    from plotly.subplots import make_subplots
-    import plotly.graph_objects as go
-
-    # 3 Farklı Çubuk Grafiği İçin Renkler
+    # 3 Farklı Çubuk Grafiği Ekleyelim
     colors = ["green", "blue", "red"]
     groups = [most_increased, middle, least_changed]
 
-    # Subplot Oluştur
-    figartıs = make_subplots(
-        rows=1, cols=3, 
-        shared_xaxes=True, horizontal_spacing=0.1, 
-        subplot_titles=["En Çok Artanlar", "", "En Az Artanlar ve En Çok Düşenler"]
-    )
-
     for i, group in enumerate(groups):
         tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
-        short_names = [name[:15] for name in group.index]  # İlk 15 karakteri al
         
-        if i == 2:
-            abs_values = -group.abs()  # Çubukları ters çizmek için negatif değer yap
-            figartıs.update_yaxes(
-                tickvals=tickvals,
-                ticktext=[f"<b>{s}</b>" for s in short_names],
-                tickfont=dict(family="Arial Black", size=10, color="black"),  # Küçük font
-                side="right", row=1, col=i+1
-            )
-        else:
-            abs_values = group.abs()
-            figartıs.update_yaxes(
-                tickvals=tickvals,
-                ticktext=[f"<b>{s}</b>" for s in short_names],
-                tickfont=dict(family="Arial Black", size=10, color="black"),
-                side="left", row=1, col=i+1
-            )
+        # **Tüm çubukları ters yönde çizelim (sağdan sola)**
+        abs_values = -group.abs()
+
+        ticktext = [f"<b>{name}</b>" for name in group.index]
+
+        # **Y Ekseni sağa hizalanmalı**
+        figartıs.update_yaxes(
+            tickvals=tickvals,
+            ticktext=ticktext,
+            tickfont=dict(family="Arial Black", size=12, color="black"),
+            side="right",  # Y eksenini sağa al
+            row=1,
+            col=i+1
+        )
 
         figartıs.add_trace(
             go.Bar(
                 y=tickvals,
-                x=list(abs_values),
+                x=list(abs_values),  # Negatif değerlerle sağdan sola çizim
                 orientation='h',
-                marker=dict(color=colors[i], line=dict(width=0.5)),  # Bar kenarlıkları
-                text=[f"{value:.2f}%" for value in group.values],  # Değerleri metin olarak ekle
-                textposition="outside",  # Çubukların dışına yazı ekle
-                textfont=dict(size=10, color="black"),  # Daha küçük ve okunaklı font
+                marker=dict(color=colors[i]),
                 name=f'Grup {i+1}',
-                hovertext=group.index,  # Üzerine gelindiğinde tam isimleri göster
-                hoverinfo="text"
             ),
             row=1,
             col=i+1
         )
 
+        # **Etiket ekleme (Yazıları çubukların sağında gösterme)**
+        for j, value in enumerate(group.values):
+            offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
+
+            figartıs.add_annotation(
+                x=-abs(value) - offset,  # Sağdan sola çizildiği için negatif yönde kaydır
+                y=j,
+                text=f"{value:.2f}%",  # Orijinal değeri göster
+                showarrow=False,
+                font=dict(size=12, family="Arial Black", color="black"),
+                align='right',  # Tüm gruplar için sağa hizalama
+                xanchor='right',
+                yanchor='middle',
+                row=1,
+                col=i+1
+            )
+
+    # **Grafik genel ayarları**
     figartıs.update_layout(
         title=dict(
             text=f"<b>Maddeler {selected_tarih} Artış Oranları, 24 Günlük Ortalamaya Göre</b>",
-            x=0.5, xanchor="center",
-            font=dict(size=16, family="Arial Black", color="black")
+            x=0.5,  # Ortaya hizalama
+            xanchor="center",
+            font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
         ),
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
-        height=900,
-        margin=dict(l=150, r=150, t=100, b=50),  # Kenar boşluklarını artırarak sıkışmayı önle
-        font=dict(family="Arial Black", size=12, color="black"),
+        height=1000,
+        font=dict(family="Arial Black", size=12, color="black"),  # Tüm yazılar siyah ve kalın
         showlegend=False
     )
 
-
-
-
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
+
 
 
     y_labels = list(cumdegisim.index)
