@@ -1482,6 +1482,10 @@ if page=="Madde Endeksleri":
     # Subplot oluştur
     figartıs = make_subplots(rows=1, cols=3, shared_xaxes=True, horizontal_spacing=0.1, subplot_titles=["En Çok Artanlar","", "En Az Artanlar ve En Çok Düşenler"])
 
+    from plotly.subplots import make_subplots
+    import plotly.graph_objects as go
+
+    # 3 Farklı Çubuk Grafiği İçin Renkler
     colors = ["green", "blue", "red"]
     groups = [most_increased, middle, least_changed]
 
@@ -1494,22 +1498,21 @@ if page=="Madde Endeksleri":
 
     for i, group in enumerate(groups):
         tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
-
+        short_names = [name[:15] for name in group.index]  # İlk 15 karakteri al
+        
         if i == 2:
             abs_values = -group.abs()  # Çubukları ters çizmek için negatif değer yap
-            ticktext = [f"<b>{name}</b>" for name in group.index]
             figartıs.update_yaxes(
                 tickvals=tickvals,
-                ticktext=ticktext,
+                ticktext=[f"<b>{s}</b>" for s in short_names],
                 tickfont=dict(family="Arial Black", size=10, color="black"),  # Küçük font
                 side="right", row=1, col=i+1
             )
         else:
             abs_values = group.abs()
-            ticktext = [f"<b>{name}</b>" for name in group.index]
             figartıs.update_yaxes(
                 tickvals=tickvals,
-                ticktext=ticktext,
+                ticktext=[f"<b>{s}</b>" for s in short_names],
                 tickfont=dict(family="Arial Black", size=10, color="black"),
                 side="left", row=1, col=i+1
             )
@@ -1524,6 +1527,8 @@ if page=="Madde Endeksleri":
                 textposition="outside",  # Çubukların dışına yazı ekle
                 textfont=dict(size=10, color="black"),  # Daha küçük ve okunaklı font
                 name=f'Grup {i+1}',
+                hovertext=group.index,  # Üzerine gelindiğinde tam isimleri göster
+                hoverinfo="text"
             ),
             row=1,
             col=i+1
@@ -1542,6 +1547,9 @@ if page=="Madde Endeksleri":
         font=dict(family="Arial Black", size=12, color="black"),
         showlegend=False
     )
+
+
+
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
