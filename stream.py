@@ -1506,7 +1506,7 @@ if page=="Madde Endeksleri":
         negative_labels = negative_values.index.tolist()
         negative_ticks = list(range(len(negative_values)))  # Negatifler için y etiket sıralaması
 
-        # **Pozitif çubukları çizelim (Sağdan sola)**
+        # **Tüm gruplar için pozitif değerleri çizelim (sağdan sola)**
         figartıs.add_trace(
             go.Bar(
                 y=positive_ticks,
@@ -1519,8 +1519,8 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Negatif çubukları çizelim (Soldan sağa, sadece 3. grupta)**
-        if i == 2:  # Sadece 3. gruptaki negatif çubuklar soldan sağa çizilmeli
+        # **Sadece 3. grup için negatif değerleri soldan sağa çizelim**
+        if i == 2:
             figartıs.add_trace(
                 go.Bar(
                     y=negative_ticks,
@@ -1533,7 +1533,7 @@ if page=="Madde Endeksleri":
                 col=i+1
             )
 
-        # **Yazıları doğru yerlere ekleyelim**
+        # **Metinleri doğru yerlere ekleyelim**
         for j, (value, label) in enumerate(zip(group.values, group.index)):
             offset = 0.3  # Etiketlerin mesafesi
 
@@ -1553,7 +1553,7 @@ if page=="Madde Endeksleri":
                 )
 
             # **Negatif değerler için soldan sağa etiketi sola hizala (Sadece 3. grupta)**
-            elif i == 2:  # Sadece en az değişenler grubunda negatif değerleri sola hizala
+            elif i == 2:  
                 figartıs.add_annotation(
                     x=abs(value) + offset,  # Soldan sağa çizildiği için pozitif yönde kaydır
                     y=j,
@@ -1572,10 +1572,12 @@ if page=="Madde Endeksleri":
             # 3. grupta negatif olanlar sola, pozitifler sağa gidecek
             figartıs.update_yaxes(
                 tickvals=tickvals,
-                ticktext=[f"<b>{name}</b>" if val >= 0 else f"<b>{name}</b> "  # Pozitif olanları sağa al
-                        for name, val in zip(group.index, group.values)],
+                ticktext=[
+                    f"<b>{name}</b>" if val >= 0 else f"<b>{name}</b>"  # Pozitif olanları sağa, negatifleri sola al
+                    for name, val in zip(group.index, group.values)
+                ],
                 tickfont=dict(family="Arial Black", size=12, color="black"),
-                side="right" if positive_mask.any() else "left",  # Pozitifler için sağ, negatifler için sol
+                side="right",  # Pozitifler için sağ, negatifler için sol
                 row=1,
                 col=i+1
             )
@@ -1607,6 +1609,7 @@ if page=="Madde Endeksleri":
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
+
 
 
 
