@@ -127,7 +127,7 @@ if page=="Bültenler":
         st.markdown("### <span style='color:black; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak 2025 Bülteni</span>", unsafe_allow_html=True)
 
         # Alt başlık
-        st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,91 arttı</span>", unsafe_allow_html=True)
+        #st.markdown("### <span style='color:red; font-weight:bold;'>Web Gıda Fiyat Endeksi Ocak'ta %2,91 arttı</span>", unsafe_allow_html=True)
 
         st.markdown("""
         *(Teknik notlara bültenin en aşağısından ulaşabilirsiniz)
