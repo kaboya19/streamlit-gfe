@@ -1471,6 +1471,7 @@ if page=="Madde Endeksleri":
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
+    from plotly.subplots import make_subplots
     import plotly.graph_objects as go
 
     # 3 gruba bölelim
@@ -1492,10 +1493,6 @@ if page=="Madde Endeksleri":
 
     for i, group in enumerate(groups):
         tickvals = list(range(len(group.index)))  # Y ekseni etiket sıralaması
-        
-        # **Tüm çubukları ters yönde çizelim (sağdan sola)**
-        abs_values = -group.abs()
-
         ticktext = [f"<b>{name}</b>" for name in group.index]
 
         # **Y Ekseni sağa hizalanmalı**
@@ -1508,10 +1505,11 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
+        # **Doğru yönlü çubukları çizme**
         figartıs.add_trace(
             go.Bar(
                 y=tickvals,
-                x=list(abs_values),  # Negatif değerlerle sağdan sola çizim
+                x=list(group),  # Orijinal değerler kullanılıyor
                 orientation='h',
                 marker=dict(color=colors[i]),
                 name=f'Grup {i+1}',
@@ -1520,18 +1518,18 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Etiket ekleme (Yazıları çubukların sağında gösterme)**
+        # **Etiket ekleme (Yazıları çubukların sonunda gösterme)**
         for j, value in enumerate(group.values):
-            offset = 0.3  # Çubukların hemen yanına koymak için küçük bir mesafe
+            offset = 0.3  # Etiketi biraz dışarı koymak için mesafe
 
             figartıs.add_annotation(
-                x=-abs(value) - offset,  # Sağdan sola çizildiği için negatif yönde kaydır
+                x=value + (offset if value > 0 else -offset),  # Pozitifse sağa, negatifse sola kaydır
                 y=j,
                 text=f"{value:.2f}%",  # Orijinal değeri göster
                 showarrow=False,
                 font=dict(size=12, family="Arial Black", color="black"),
-                align='right',  # Tüm gruplar için sağa hizalama
-                xanchor='right',
+                align='left' if value > 0 else 'right',  # Pozitifse sola, negatifse sağa hizala
+                xanchor='left' if value > 0 else 'right',
                 yanchor='middle',
                 row=1,
                 col=i+1
@@ -1554,6 +1552,7 @@ if page=="Madde Endeksleri":
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
+
 
 
 
