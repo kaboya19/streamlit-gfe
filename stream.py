@@ -1473,6 +1473,7 @@ if page=="Madde Endeksleri":
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
     from plotly.subplots import make_subplots
+    from plotly.subplots import make_subplots
     import plotly.graph_objects as go
 
     # 3 gruba bölelim
@@ -1506,11 +1507,8 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Group 3 için negatif değerleri terse çeviriyoruz**
-        if i == 2:
-            x_values = [-val if val < 0 else val for val in group]  # Negatif olanları ters çevir
-        else:
-            x_values = list(group)  # Diğerleri normal
+        # **Bar yönlerini ayarla**
+        x_values = [val if val > 0 else -val for val in group.values]  # Pozitifse normal, negatifse mutlak değer al
 
         # **Çubukları çizme**
         figartıs.add_trace(
@@ -1529,14 +1527,14 @@ if page=="Madde Endeksleri":
         for j, value in enumerate(group.values):
             offset = 0.3  # Etiketin mesafesi
 
-            if i == 2 and value < 0:  # Grup 3'te negatif olanlar için sağa kaydır
-                text_x = -value + offset
+            if value > 0:  # Pozitifse, sola yönlendirilmiş çubuk ve metin solda
+                text_x = value + offset
                 x_anchor = 'left'
                 align = 'left'
-            else:  # Diğer tüm gruplar için normal konum
-                text_x = value + (offset if value > 0 else -offset)
-                x_anchor = 'right' if value < 0 else 'left'
-                align = 'right' if value < 0 else 'left'
+            else:  # Negatifse, sağa yönlendirilmiş çubuk ve metin sağda
+                text_x = -abs(value) - offset
+                x_anchor = 'right'
+                align = 'right'
 
             figartıs.add_annotation(
                 x=text_x,
@@ -1557,17 +1555,18 @@ if page=="Madde Endeksleri":
             text=f"<b>Maddeler {selected_tarih} Artış Oranları, 24 Günlük Ortalamaya Göre</b>",
             x=0.5,  # Ortaya hizalama
             xanchor="center",
-            font=dict(size=18, family="Arial Black", color="black")  # Büyük ve kalın başlık
+            font=dict(size=18, family="Arial Black", color="black")
         ),
         xaxis_title='Artış Oranı (%)',
         yaxis_title='Ürün',
         height=1000,
-        font=dict(family="Arial Black", size=12, color="black"),  # Tüm yazılar siyah ve kalın
+        font=dict(family="Arial Black", size=12, color="black"),
         showlegend=False
     )
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
+
 
 
 
