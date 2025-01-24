@@ -710,6 +710,9 @@ if page=="Gıda Fiyat Endeksi":
         oran=yeni_gfe["GFE"].iloc[0]/100
         yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
 
+        yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
+        yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
+
 
 
         figgalt.add_trace(go.Scatter(
