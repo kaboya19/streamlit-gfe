@@ -1498,10 +1498,12 @@ if page=="Madde Endeksleri":
         
         # **Pozitif olanlar için sağdan sola çubuk çizme**
         positive_values = -group[positive_mask]  # Negatif değer vererek sağdan sola çizilecek
+        positive_labels = positive_values.index.tolist()
         positive_ticks = list(range(len(positive_values)))  # Pozitifler için y etiket sıralaması
 
         # **Negatif olanlar için soldan sağa çubuk çizme**
         negative_values = group[negative_mask]  # Direkt değerler (pozitif olacak)
+        negative_labels = negative_values.index.tolist()
         negative_ticks = list(range(len(negative_values)))  # Negatifler için y etiket sıralaması
 
         # **Pozitif çubukları çizelim (Sağdan sola)**
@@ -1517,18 +1519,19 @@ if page=="Madde Endeksleri":
             col=i+1
         )
 
-        # **Negatif çubukları çizelim (Soldan sağa)**
-        figartıs.add_trace(
-            go.Bar(
-                y=negative_ticks,
-                x=list(negative_values),
-                orientation='h',
-                marker=dict(color=colors[i]),
-                name=f'Grup {i+1} (Negatif)',
-            ),
-            row=1,
-            col=i+1
-        )
+        # **Negatif çubukları çizelim (Soldan sağa, sadece 3. grupta)**
+        if i == 2:  # Sadece 3. gruptaki negatif çubuklar soldan sağa çizilmeli
+            figartıs.add_trace(
+                go.Bar(
+                    y=negative_ticks,
+                    x=list(negative_values),  # Direkt olarak pozitif değerler çizilecek
+                    orientation='h',
+                    marker=dict(color=colors[i]),
+                    name=f'Grup {i+1} (Negatif)',
+                ),
+                row=1,
+                col=i+1
+            )
 
         # **Yazıları doğru yerlere ekleyelim**
         for j, (value, label) in enumerate(zip(group.values, group.index)):
@@ -1565,14 +1568,30 @@ if page=="Madde Endeksleri":
                 )
 
         # **Y Ekseni ayarları**
-        figartıs.update_yaxes(
-            tickvals=tickvals,
-            ticktext=[f"<b>{name}</b>" for name in group.index],
-            tickfont=dict(family="Arial Black", size=12, color="black"),
-            side="right" if (i != 2 or positive_mask.all()) else "left",  # Sadece 3. grupta negatif olanları sola al
-            row=1,
-            col=i+1
-        )
+        if i == 2:
+            # 3. grupta sadece negatif olanlar için solda, pozitifler için sağda olacak şekilde ayarla
+            y_labels = [
+                f"<b>{name}</b>" if val >= 0 else f"<b>{name}</b> "  # Pozitif olanları sağa al
+                for name, val in zip(group.index, group.values)
+            ]
+            figartıs.update_yaxes(
+                tickvals=tickvals,
+                ticktext=y_labels,
+                tickfont=dict(family="Arial Black", size=12, color="black"),
+                side="right",  # 3. gruptaki negatifler için sola, pozitifler için sağa
+                row=1,
+                col=i+1
+            )
+        else:
+            # Diğer gruplarda her şey sağda
+            figartıs.update_yaxes(
+                tickvals=tickvals,
+                ticktext=[f"<b>{name}</b>" for name in group.index],
+                tickfont=dict(family="Arial Black", size=12, color="black"),
+                side="right",
+                row=1,
+                col=i+1
+            )
 
     # **Grafik genel ayarları**
     figartıs.update_layout(
@@ -1591,6 +1610,7 @@ if page=="Madde Endeksleri":
 
     st.markdown(f"<h2 style='text-align:left; color:black;'>Maddeler {selected_tarih} Artış Oranları (%)</h2>", unsafe_allow_html=True)
     st.plotly_chart(figartıs)
+
 
 
 
