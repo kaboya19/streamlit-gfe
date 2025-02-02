@@ -563,7 +563,6 @@ if page=="Gıda Fiyat Endeksi":
     year=gfe1["Yıl"].iloc[-1] 
     oncekiyear=gfe1["Yıl"].iloc[-32] 
 
-    monthly30=np.round(((selected_group_data.iloc[-1,0])/(selected_group_data.iloc[-31,0])-1)*100,2)
     
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
@@ -883,7 +882,7 @@ if page=="Gıda Fiyat Endeksi":
         import time
         with st.spinner("İçerik yükleniyor..."):
             
-            time.sleep(20)  # Yükleme işlemini simüle etmek için bekleme
+            time.sleep(5)  # Yükleme işlemini simüle etmek için bekleme
         turkish_months = [
     "Eylül 23", "Ekim 23", "Kasım 23", "Aralık 23", 
     "Ocak 24", "Şubat 24", "Mart 24", "Nisan 24", 
