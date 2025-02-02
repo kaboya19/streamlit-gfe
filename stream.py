@@ -1201,7 +1201,7 @@ if page=="Gıda Fiyat Endeksi":
 
         weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
         weighted_indices.index=pd.to_datetime(weighted_indices.index)
-        weighted_indices_aylık=pd.DataFrame(index=["2024-11","2024-12","2025-01","2025-02"],columns=weighted_indices.columns)
+        weighted_indices_aylık=pd.DataFrame(index=[weighted_indices.loc["2024-11":].resample('M').last().index.strftime("%Y-%m")],columns=weighted_indices.columns)
         
         for col in weighted_indices.columns:
             for i in range(len(weighted_indices_aylık.index)):
