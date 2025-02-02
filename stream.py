@@ -1208,11 +1208,14 @@ if page=="Gıda Fiyat Endeksi":
 
         weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
         weighted_indices.index=pd.to_datetime(weighted_indices.index)
-        weighted_indices_aylık=pd.DataFrame(index=["2024-11","2024-12","2025-01"],columns=weighted_indices.columns)
+        weighted_indices_aylık=pd.DataFrame(index=["2024-11","2024-12","2025-01","2025-02"],columns=weighted_indices.columns)
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-11"]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc["2024-11-30"]/weighted_indices[col].loc["2024-10-12"])-1)*100
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-12"]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc["2024-12-31"]/hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").loc["2024-11-30"])-1)*100
+        for col in weighted_indices.columns:
+            for i in range(len(weighted_indices_aylık.index[2:])):
+                weighted_indices_aylık[col].loc[weighted_indices_aylık.index[i]]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().iloc[i]/hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().iloc[i-1])-1)*100
         tarih=datetime.now().strftime("%Y-%m")
         oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
         for col in weighted_indices.columns:
