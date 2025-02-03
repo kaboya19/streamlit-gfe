@@ -908,7 +908,7 @@ if page=="Gıda Fiyat Endeksi":
         gfe_aylık.extend(list(((np.array(aylık_endeks_gfe)/100))+1))
 
         aylık_endeksler=pd.DataFrame()
-        aylık_endeksler["Tarih"]=["2024-10","2024-11","2024-12"]
+        aylık_endeksler["Tarih"]=["2024-10","2024-11","2024-12","2025-01"]
         aylık_endeksler["TÜİK"]=tüik_aylık
         aylık_endeksler["Web-GFE"]=gfe_aylık
         try:
