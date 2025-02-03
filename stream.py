@@ -831,6 +831,13 @@ if page=="Gıda Fiyat Endeksi":
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe=gfe.drop("Tarih",axis=1)
 
+    yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
+    oran=yeni_gfe["GFE"].iloc[0]/100
+    yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
+
+    yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
+    yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
+
     data[data.index=="WEB-GFE"].iloc[:,-1]=gfe.T
 
 
@@ -865,9 +872,9 @@ if page=="Gıda Fiyat Endeksi":
     aylıklar=pd.DataFrame()
     
     kasım=np.round((((yeni_gfe.iloc[:,-1].loc["2024-11-01":"2024-11-24"].mean()/yeni_gfe.iloc[:,-1].loc["2024-10-12"]))-1)*100,2)
-    aralık=np.round((((yeni_gfe.iloc[:,-1].loc["2024-12-31"]/yeni_gfe.iloc[:,-1].loc["2024-11-30"]))-1)*100,2)
+    aralık=3.07
     aylıkenf.loc["2024-11-30"]=kasım
-    aylıkenf.loc["2024-12-31"]=aralık
+    aylıkenf.loc["2024-12-31"]=3.07
     aylıkenf=aylıkenf.sort_index()
     aylıkenf=pd.DataFrame(aylıkenf)
     aylıkenf.columns=["Aylık Değişim"]
