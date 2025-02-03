@@ -887,7 +887,6 @@ if page=="Gıda Fiyat Endeksi":
 
     
     if selected_group == "WEB-GFE":
-        st.dataframe(yeni_gfe)
         import time
         with st.spinner("İçerik yükleniyor..."):
             
@@ -1173,7 +1172,6 @@ if page=="Gıda Fiyat Endeksi":
         aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
         aylıkenf=aylıkenf[["Tarih","Aylık Değişim"]]
         aylıkenf=to_excel(aylıkenf)
-        st.dataframe(yeni_gfe)
 
         endeksler1=pd.read_csv("endeksler.csv")
         endeksler1=endeksler1.set_index("Ürün")
