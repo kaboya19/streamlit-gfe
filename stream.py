@@ -2161,6 +2161,7 @@ if page=="Özel Kapsamlı Endeksler":
         return seri
 
     tüik=pd.read_csv("tüikim.csv",index_col=0)
+    tüik.index=pd.to_datetime(tüik.index)
 
     for col in tüik.columns:
         tüik[col]=tüik[col].astype(float)
