@@ -864,7 +864,7 @@ if page=="Gıda Fiyat Endeksi":
 
     aylıklar=pd.DataFrame()
     
-    kasım=np.round((((selected_group_data.iloc[:,0].loc["2024-11-01":"2024-11-24"].mean()/selected_group_data.iloc[:,0].loc["2024-10-01":"2024-10-24"].mean()))-1)*100,2)
+    kasım=np.round((((selected_group_data.iloc[:,0].loc["2024-11-30"]/selected_group_data.iloc[:,0].loc["2024-10-31"].mean()))-1)*100,2)
     aralık=np.round((((selected_group_data.iloc[:,0].loc["2024-12-31"]/selected_group_data.iloc[:,0].loc["2024-11-30"]))-1)*100,2)
     aylıkenf.loc["2024-11-30"]=kasım
     aylıkenf.loc["2024-12-31"]=aralık
