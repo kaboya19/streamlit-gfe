@@ -879,6 +879,7 @@ if page=="Gıda Fiyat Endeksi":
 
     
     if selected_group == "WEB-GFE":
+        st.dataframe(yeni_gfe)
         import time
         with st.spinner("İçerik yükleniyor..."):
             
