@@ -1149,8 +1149,8 @@ if page=="Gıda Fiyat Endeksi":
         aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{oncekiyear}-{onceki}"].iloc[0])-1)*100),2)
         aylıkenf=np.round(hareketlima["Aylık Ortalama"].resample("M").last().pct_change()*100,2).dropna().iloc[1:]
         aylıklar=pd.DataFrame()
-        kasım=np.round((((selected_group_data.iloc[:,0].loc["2024-11-30"]/selected_group_data.iloc[:,0].loc["2024-10-31"]))-1)*100,2)
-        aralık=np.round((((selected_group_data.iloc[:,0].loc["2024-12-31"]/selected_group_data.iloc[:,0].loc["2024-11-30"]))-1)*100,2)
+        kasım=np.round((((yeni_gfe.iloc[:,-1].loc["2024-11-30"]/yeni_gfe.iloc[:,-1].loc["2024-10-31"]))-1)*100,2)
+        aralık=np.round((((yeni_gfe.iloc[:,-1].loc["2024-12-31"]/yeni_gfe.iloc[:,-1].loc["2024-11-30"]))-1)*100,2)
         aylıkenf.loc["2024-11-30"]=kasım
         aylıkenf.loc["2024-12-31"]=aralık
         aylıkenf=aylıkenf.sort_index()
