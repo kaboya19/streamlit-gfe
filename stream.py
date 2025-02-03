@@ -2160,15 +2160,7 @@ if page=="Özel Kapsamlı Endeksler":
 
         return seri
 
-    series_list=["TP.FE.OKTG10","TP.FE.OKTG11","TP.FE.OKTG09","TP.FE.OKTG12"]
-    tüik=pd.DataFrame()
-    for series in series_list:
-        veri=evds_vericek(series,5)
-        tüik=pd.concat([tüik,veri],axis=1)
-    tüik=tüik.drop("Tarih",axis=1)
-    tüik=tüik.set_index(pd.date_range(start="2010-01-31",freq="M",periods=len(tüik)))
-    tüik=tüik.loc["2016":]
-    tüik.columns=['Taze meyve ve sebze','Diğer işlenmemiş gıda','İşlenmemiş gıda','İşlenmiş gıda']
+    tüik=pd.read_csv("tüikim.csv",index_col=0)
 
     for col in tüik.columns:
         tüik[col]=tüik[col].astype(float)
