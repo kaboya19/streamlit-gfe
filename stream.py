@@ -1133,8 +1133,11 @@ if page=="Gıda Fiyat Endeksi":
 
         
         excel_data1 = to_excel(endeksler.drop("WEB-GFE",axis=1))
+        gfe=pd.read_csv("gfe.csv")
+        gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
+        gfe=gfe.drop("Tarih",axis=1)
         yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
-        oran=yeni_gfe["GFE"].iloc[0]/100
+        oran=yeni_gfe["GFE"].iloc[0]
         yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
 
         yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
