@@ -705,7 +705,7 @@ if page=="Gıda Fiyat Endeksi":
         gfe=gfe.fillna(method="ffill")
         gfe=gfe.fillna(100)
 
-        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-11-01":]
+        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
         oran=yeni_gfe["GFE"].iloc[0]/100
         yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
 
@@ -1133,7 +1133,7 @@ if page=="Gıda Fiyat Endeksi":
 
         
         excel_data1 = to_excel(endeksler.drop("WEB-GFE",axis=1))
-        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-11-01":]
+        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
         oran=yeni_gfe["GFE"].iloc[0]/100
         yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
 
