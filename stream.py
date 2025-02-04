@@ -473,6 +473,7 @@ if page=="Gıda Fiyat Endeksi":
     
 
     def hareketli_aylik_ortalama1(df):
+    
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
@@ -480,11 +481,16 @@ if page=="Gıda Fiyat Endeksi":
         
         # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
         df["Aylık Ortalama"] = (
-            df.groupby(df["Tarih"].dt.to_period("M"))[değer]
+            df
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
             .expanding()
             .mean()
             .reset_index(level=0, drop=True)
         )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
+        return df
 
 
 # Hareketli aylık ortalama hesaplama
@@ -1806,6 +1812,7 @@ if page=="Harcama Grupları":
         return df
 
     def hareketli_aylik_ortalama1(df):
+    
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
@@ -1813,11 +1820,16 @@ if page=="Harcama Grupları":
         
         # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
         df["Aylık Ortalama"] = (
-            df.groupby(df["Tarih"].dt.to_period("M"))[değer]
+            df
+            .groupby(df["Tarih"].dt.to_period("M"))[değer]
             .expanding()
             .mean()
             .reset_index(level=0, drop=True)
         )
+        
+        # Orijinal indeksi geri yükle
+        df.index = pd.to_datetime(df.index)
+        return df
     hareketlimaharcama = hareketli_aylik_ortalama(selected_indice_data)
     hareketlimaharcama["Aylık Ortalama"]=hareketlimaharcama["Aylık Ortalama"].fillna(method="ffill")
     hareketlimaharcama1 = hareketli_aylik_ortalama1(selected_indice_data)
