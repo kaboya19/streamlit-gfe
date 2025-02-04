@@ -706,8 +706,8 @@ if page=="Gıda Fiyat Endeksi":
         gfe=gfe.fillna(100)
 
         yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
-        oran=yeni_gfe["GFE"].iloc[0]/100
-        yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
+        oran=yeni_gfe["GFE"].iloc[0]
+        yeni_gfe["GFE"] = (yeni_gfe["GFE"]/oran)*100
 
         yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
         yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
