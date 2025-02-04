@@ -871,10 +871,10 @@ if page=="Gıda Fiyat Endeksi":
 
     aylıklar=pd.DataFrame()
     
-    kasım=np.round((((gfe["GFE"].loc["2024-11-01":"2024-11-24"].mean()/gfe["GFE"].loc["2024-10-12"]))-1)*100,2)
-    aralık=3.07
+    kasım=np.round((((gfe["GFE"].loc["2024-11-30"]/gfe["GFE"].loc["2024-10-31"]))-1)*100,2)
+    aralık=np.round((((gfe["GFE"].loc["2024-12-31"]/gfe["GFE"].loc["2024-11-30"]))-1)*100,2)
     aylıkenf.loc["2024-11-30"]=kasım
-    aylıkenf.loc["2024-12-31"]=3.07
+    aylıkenf.loc["2024-12-31"]=aralık
     aylıkenf=aylıkenf.sort_index()
     aylıkenf=pd.DataFrame(aylıkenf)
     aylıkenf.columns=["Aylık Değişim"]
@@ -882,7 +882,7 @@ if page=="Gıda Fiyat Endeksi":
     
     aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
     aylıkenf=aylıkenf[["Tarih","Aylık Değişim"]]
-    aylıkenf.loc["2024-12-31"]=3.07
+    aylıkenf.loc["2024-12-31"]=aralık
     aylıkenf_data=to_excel(aylıkenf)
 
     
