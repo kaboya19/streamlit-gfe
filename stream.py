@@ -1229,7 +1229,7 @@ if page=="Gıda Fiyat Endeksi":
                 weighted_indices_aylık[col].loc[weighted_indices_aylık.index[i]]=((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().iloc[i]/hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().iloc[i-1])-1)*100
 
         for col in weighted_indices.columns:
-            weighted_indices_aylık[col].loc["2024-11"]=((weighted_indices[col].loc["2024-11-30"]/weighted_indices[col].loc["2024-10-31"])-1)*100
+            weighted_indices_aylık[col].loc["2024-11"]=((weighted_indices[col].loc["2024-11-30"]/100)-1)*100
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-12"]=((weighted_indices[col].loc["2024-12-31"]/weighted_indices[col].loc["2024-11-30"])-1)*100
 
