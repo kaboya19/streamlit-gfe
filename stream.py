@@ -1233,7 +1233,7 @@ if page=="Gıda Fiyat Endeksi":
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-12"]=((weighted_indices[col].loc["2024-12-31"]/weighted_indices[col].loc["2024-11-30"])-1)*100
 
-        
+        weighted_indices_aylık=weighted_indices_aylık.loc["2024-11":]
         tarih=datetime.now().strftime("%Y-%m")
         oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
         
