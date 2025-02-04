@@ -472,7 +472,7 @@ if page=="Gıda Fiyat Endeksi":
         return df
     
 
-    def hareketli_aylik_ortalama(df):
+    def hareketli_aylik_ortalama1(df):
         değer = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
@@ -480,7 +480,7 @@ if page=="Gıda Fiyat Endeksi":
         
         # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
         df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
+            df 
             .groupby(df["Tarih"].dt.to_period("M"))[değer]
             .expanding()
             .mean()
@@ -1217,7 +1217,7 @@ if page=="Gıda Fiyat Endeksi":
 
         weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
         weighted_indices.index=pd.to_datetime(weighted_indices.index)
-        weighted_indices_aylık=pd.DataFrame(index=weighted_indices.loc["2024-11":].resample('M').last().index.strftime("%Y-%m").values,columns=weighted_indices.columns)
+        weighted_indices_aylık=pd.DataFrame(index=weighted_indices.resample('M').last().index.strftime("%Y-%m").values,columns=weighted_indices.columns)
         
         for col in weighted_indices.columns:
             for i in range(len(weighted_indices_aylık.index)):
@@ -1227,6 +1227,8 @@ if page=="Gıda Fiyat Endeksi":
             weighted_indices_aylık[col].loc["2024-11"]=((weighted_indices[col].loc["2024-11-30"]/weighted_indices[col].loc["2024-10-31"])-1)*100
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-12"]=((weighted_indices[col].loc["2024-12-31"]/weighted_indices[col].loc["2024-11-30"])-1)*100
+
+        
         tarih=datetime.now().strftime("%Y-%m")
         oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
         
