@@ -480,8 +480,7 @@ if page=="Gıda Fiyat Endeksi":
         
         # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
         df["Aylık Ortalama"] = (
-            df 
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            df.groupby(df["Tarih"].dt.to_period("M"))[değer]
             .expanding()
             .mean()
             .reset_index(level=0, drop=True)
@@ -1814,8 +1813,7 @@ if page=="Harcama Grupları":
         
         # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
         df["Aylık Ortalama"] = (
-            df
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
+            df.groupby(df["Tarih"].dt.to_period("M"))[değer]
             .expanding()
             .mean()
             .reset_index(level=0, drop=True)
