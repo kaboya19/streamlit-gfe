@@ -883,7 +883,6 @@ if page=="Gıda Fiyat Endeksi":
     
     aylıkenf["Tarih"]=aylıkenf["Tarih"].dt.strftime("%Y-%m")
     aylıkenf=aylıkenf[["Tarih","Aylık Değişim"]]
-    aylıkenf.loc["2024-12-31"]=aralık
     aylıkenf_data=to_excel(aylıkenf)
 
     
