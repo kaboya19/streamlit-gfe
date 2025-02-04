@@ -717,8 +717,7 @@ if page=="Gıda Fiyat Endeksi":
         last_date = yeni_gfe.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
         change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
         change_percent = round(change_percent, 2)
-        st.dataframe(yeni_gfe)
-        st.dataframe(gfe)
+       
 
 
         figgalt.add_trace(go.Scatter(
