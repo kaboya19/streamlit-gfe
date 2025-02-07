@@ -453,22 +453,27 @@ if page=="Gıda Fiyat Endeksi":
     monthly=np.round(((selected_group_monthly.iloc[-1,0])/(selected_group_monthly.iloc[-2,0])-1)*100,2)
 
     def hareketli_aylik_ortalama(df):
-        değer = df.name  # Kolon ismi
+        deger = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
-        df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
-            .expanding()
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
+        aylik_ortalama = []
+        onceki_ay_ortalama = None
         
-        # Orijinal indeksi geri yükle
-        df.index = pd.to_datetime(df.index)
+        for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
+            n = min(24, len(grup))  # O ayda kaç gün varsa, en fazla 24 gün al
+            ortalama = grup.iloc[:n][deger].expanding().mean()
+            
+            if len(grup) < 24 and onceki_ay_ortalama is not None:
+                fark = ortalama.mean() - onceki_ay_ortalama.mean()
+                print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
+            
+            onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
+            aylik_ortalama.extend(ortalama.tolist())
+        
+        df["Aylık Ortalama"] = aylik_ortalama
+        df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
         return df
     
 
@@ -1439,22 +1444,27 @@ if page=="Madde Endeksleri":
     maddeler=pd.DataFrame(index=endeksler.index,columns=endeksler.columns)
 
     def hareketli_aylik_ortalama(df):
-        değer = df.name  # Kolon ismi
+        deger = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
-        df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
-            .expanding()
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
+        aylik_ortalama = []
+        onceki_ay_ortalama = None
         
-        # Orijinal indeksi geri yükle
-        df.index = pd.to_datetime(df.index)
+        for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
+            n = min(24, len(grup))  # O ayda kaç gün varsa, en fazla 24 gün al
+            ortalama = grup.iloc[:n][deger].expanding().mean()
+            
+            if len(grup) < 24 and onceki_ay_ortalama is not None:
+                fark = ortalama.mean() - onceki_ay_ortalama.mean()
+                print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
+            
+            onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
+            aylik_ortalama.extend(ortalama.tolist())
+        
+        df["Aylık Ortalama"] = aylik_ortalama
+        df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
         return df
 
 
@@ -1793,22 +1803,27 @@ if page=="Harcama Grupları":
     artıs30harcama=np.round(selected_indice_data.pct_change(30).dropna()*100,2)
 
     def hareketli_aylik_ortalama(df):
-        değer = df.name  # Kolon ismi
+        deger = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
-        df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
-            .expanding()
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
+        aylik_ortalama = []
+        onceki_ay_ortalama = None
         
-        # Orijinal indeksi geri yükle
-        df.index = pd.to_datetime(df.index)
+        for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
+            n = min(24, len(grup))  # O ayda kaç gün varsa, en fazla 24 gün al
+            ortalama = grup.iloc[:n][deger].expanding().mean()
+            
+            if len(grup) < 24 and onceki_ay_ortalama is not None:
+                fark = ortalama.mean() - onceki_ay_ortalama.mean()
+                print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
+            
+            onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
+            aylik_ortalama.extend(ortalama.tolist())
+        
+        df["Aylık Ortalama"] = aylik_ortalama
+        df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
         return df
 
     def hareketli_aylik_ortalama1(df):
@@ -2197,22 +2212,27 @@ if page=="Özel Kapsamlı Endeksler":
        'Diğer işlenmiş gıda']
 
     def hareketli_aylik_ortalama(df):
-        değer = df.name  # Kolon ismi
+        deger = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
-        df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
-            .expanding()
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
+        aylik_ortalama = []
+        onceki_ay_ortalama = None
         
-        # Orijinal indeksi geri yükle
-        df.index = pd.to_datetime(df.index)
+        for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
+            n = min(24, len(grup))  # O ayda kaç gün varsa, en fazla 24 gün al
+            ortalama = grup.iloc[:n][deger].expanding().mean()
+            
+            if len(grup) < 24 and onceki_ay_ortalama is not None:
+                fark = ortalama.mean() - onceki_ay_ortalama.mean()
+                print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
+            
+            onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
+            aylik_ortalama.extend(ortalama.tolist())
+        
+        df["Aylık Ortalama"] = aylik_ortalama
+        df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
         return df
     
     göstergeaylık=pd.DataFrame(columns=tüik.columns)
@@ -2291,22 +2311,27 @@ if page=="Özel Kapsamlı Endeksler":
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
     
     def hareketli_aylik_ortalama(df):
-        değer = df.name  # Kolon ismi
+        deger = df.name  # Kolon ismi
         df = pd.DataFrame(df)
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        # Her ay için ilk 24 günü sınırla ve hareketli ortalama hesapla
-        df["Aylık Ortalama"] = (
-            df[df["Gün Sırası"] <= 24]
-            .groupby(df["Tarih"].dt.to_period("M"))[değer]
-            .expanding()
-            .mean()
-            .reset_index(level=0, drop=True)
-        )
+        aylik_ortalama = []
+        onceki_ay_ortalama = None
         
-        # Orijinal indeksi geri yükle
-        df.index = pd.to_datetime(df.index)
+        for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
+            n = min(24, len(grup))  # O ayda kaç gün varsa, en fazla 24 gün al
+            ortalama = grup.iloc[:n][deger].expanding().mean()
+            
+            if len(grup) < 24 and onceki_ay_ortalama is not None:
+                fark = ortalama.mean() - onceki_ay_ortalama.mean()
+                print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
+            
+            onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
+            aylik_ortalama.extend(ortalama.tolist())
+        
+        df["Aylık Ortalama"] = aylik_ortalama
+        df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
         return df
 
     magöstergeler=pd.read_csv("magöstergeler.csv",index_col=0)
