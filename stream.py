@@ -610,15 +610,7 @@ if page=="Gıda Fiyat Endeksi":
             marker=dict(size=8, color="black"),
             hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
         ))
-    figg30.add_trace(go.Scatter(
-            x=aylıkdegisim.index[0:],
-            y=np.round(aylıkdegisim.values,2),
-            mode='lines+markers',
-            name="Aylık Ortalama Değişimi",
-            line=dict(color='purple', width=4),
-            marker=dict(size=8, color="black"),
-            hovertemplate='%{x|%d.%m.%Y}<br>%{y:.2f}<extra></extra>'
-        ))
+  
     figg30.update_layout(
             xaxis=dict(
                 tickvals=tickvals,  # Original datetime index
@@ -2020,14 +2012,7 @@ if page=="Harcama Grupları":
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black")
         ))
-    figg31.add_trace(go.Scatter(
-            x=aylıkdegisimharcama.index[0:],
-            y=np.round(aylıkdegisimharcama.values,2),
-            mode='lines+markers',
-            name="Aylık Ortalama Değişimi",
-            line=dict(color='purple', width=4),
-            marker=dict(size=8, color="black")
-        ))
+  
     
     tickvals = artıs30harcama.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
