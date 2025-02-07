@@ -774,7 +774,7 @@ if page=="Gıda Fiyat Endeksi":
         if periyot=="Günlük":
              
              st.plotly_chart(figgalt)
-             st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Değişimi(%) </h2>", unsafe_allow_html=True)
+             st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Aylık Değişimi(%) </h2>", unsafe_allow_html=True)
              st.plotly_chart(figg30)
         
              
@@ -2029,7 +2029,7 @@ if page=="Harcama Grupları":
         )
     
     st.plotly_chart(figggrup)
-    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu Değişimi(%) </h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_indice} Grubu Aylık Değişimi(%) </h2>", unsafe_allow_html=True)
     st.plotly_chart(figg31)
     import numpy as np
     import plotly.graph_objects as go
