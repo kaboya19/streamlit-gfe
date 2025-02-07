@@ -582,7 +582,8 @@ if page=="Gıda Fiyat Endeksi":
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
-    tarihim=str(tarihim)
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
     
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
