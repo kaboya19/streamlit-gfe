@@ -458,7 +458,7 @@ if page=="Gıda Fiyat Endeksi":
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        aylik_ortalama = []
+        aylik_ortalama = pd.Series(index=df.index, dtype='float64')
         onceki_ay_ortalama = None
         
         for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
@@ -470,7 +470,7 @@ if page=="Gıda Fiyat Endeksi":
                 print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
             
             onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
-            aylik_ortalama.extend(ortalama.tolist())
+            aylik_ortalama.loc[grup.index[:n]] = ortalama.values
         
         df["Aylık Ortalama"] = aylik_ortalama
         df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
@@ -1449,7 +1449,7 @@ if page=="Madde Endeksleri":
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        aylik_ortalama = []
+        aylik_ortalama = pd.Series(index=df.index, dtype='float64')
         onceki_ay_ortalama = None
         
         for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
@@ -1461,7 +1461,7 @@ if page=="Madde Endeksleri":
                 print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
             
             onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
-            aylik_ortalama.extend(ortalama.tolist())
+            aylik_ortalama.loc[grup.index[:n]] = ortalama.values
         
         df["Aylık Ortalama"] = aylik_ortalama
         df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
@@ -1808,7 +1808,7 @@ if page=="Harcama Grupları":
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        aylik_ortalama = []
+        aylik_ortalama = pd.Series(index=df.index, dtype='float64')
         onceki_ay_ortalama = None
         
         for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
@@ -1820,7 +1820,7 @@ if page=="Harcama Grupları":
                 print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
             
             onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
-            aylik_ortalama.extend(ortalama.tolist())
+            aylik_ortalama.loc[grup.index[:n]] = ortalama.values
         
         df["Aylık Ortalama"] = aylik_ortalama
         df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
@@ -2217,7 +2217,7 @@ if page=="Özel Kapsamlı Endeksler":
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        aylik_ortalama = []
+        aylik_ortalama = pd.Series(index=df.index, dtype='float64')
         onceki_ay_ortalama = None
         
         for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
@@ -2229,7 +2229,7 @@ if page=="Özel Kapsamlı Endeksler":
                 print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
             
             onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
-            aylik_ortalama.extend(ortalama.tolist())
+            aylik_ortalama.loc[grup.index[:n]] = ortalama.values
         
         df["Aylık Ortalama"] = aylik_ortalama
         df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
@@ -2316,7 +2316,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
         df["Tarih"] = pd.to_datetime(df.index)  # Tarih sütununu datetime formatına çevir
         df["Gün Sırası"] = df.groupby(df["Tarih"].dt.to_period("M")).cumcount() + 1  # Her ay için gün sırasını oluştur
         
-        aylik_ortalama = []
+        aylik_ortalama = pd.Series(index=df.index, dtype='float64')
         onceki_ay_ortalama = None
         
         for (ay, grup) in df.groupby(df["Tarih"].dt.to_period("M")):
@@ -2328,7 +2328,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
                 print(f"{ay} ayındaki ilk {n} günün ortalaması önceki ayın ilk {n} gününe göre {fark:.2f} fark gösteriyor.")
             
             onceki_ay_ortalama = ortalama  # Bir sonraki ay için önceki ay ortalaması
-            aylik_ortalama.extend(ortalama.tolist())
+            aylik_ortalama.loc[grup.index[:n]] = ortalama.values
         
         df["Aylık Ortalama"] = aylik_ortalama
         df.index = pd.to_datetime(df.index)  # Orijinal indeksi geri yükle
