@@ -1220,6 +1220,7 @@ if page=="Gıda Fiyat Endeksi":
             hareketlimadde["Aylık Ortalama"]=hareketlimadde["Aylık Ortalama"].fillna(method="ffill")
             aylıık=hareketlimadde["Aylık Ortalama"].resample("M").last().pct_change().dropna()*100
             aylıık.loc["2024-11-30"]=((hareketlimadde["Aylık Ortalama"].resample("M").last().loc["2024-11-30"]/endeksler1[col].loc["2024-10-12"])-1)*100
+            aylıık.iloc[-1]=np.round(((((hareketlimadde["Aylık Ortalama"].iloc[-1])/hareketlimadde["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
             aylıkenf1["Tarih"]=pd.to_datetime(aylıkenf1.index).strftime('%Y-%m')
             aylıkenf1[col]=aylıık
 
@@ -1242,6 +1243,9 @@ if page=="Gıda Fiyat Endeksi":
             weighted_indices_aylık[col].loc["2024-11"]=((weighted_indices[col].loc["2024-11-30"]/100)-1)*100
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-12"]=((weighted_indices[col].loc["2024-12-31"]/weighted_indices[col].loc["2024-11-30"])-1)*100
+            weighted_indices_aylık[col].iloc[-1]=np.round(((((weighted_indices[col]["Aylık Ortalama"].iloc[-1])/weighted_indices[col]["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+
+
 
         weighted_indices_aylık=weighted_indices_aylık.loc["2024-11":]
         tarih=datetime.now().strftime("%Y-%m")
@@ -1440,6 +1444,21 @@ if page=="Gıda Fiyat Endeksi":
              st.dataframe(fiyat)
 
 if page=="Madde Endeksleri":
+    from datetime import datetime,timedelta
+    import pytz
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
+    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    tarihim=datetime.now().day
+    if tarihim>24:
+        tarihim=24
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
     from plotly.subplots import make_subplots
     endeksler=pd.read_csv("endeksler.csv",index_col=0)
     endeksler=endeksler.T
@@ -1751,6 +1770,21 @@ if page=="Madde Endeksleri":
 
      
 if page=="Harcama Grupları":
+    from datetime import datetime,timedelta
+    import pytz
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
+    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    tarihim=datetime.now().day
+    if tarihim>24:
+        tarihim=24
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
     import pytz
     def to_excel(df):
             output = BytesIO()
@@ -1898,6 +1932,8 @@ if page=="Harcama Grupları":
     aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/selected_indice_data.resample('M').mean().loc[f"{oncekiyear}-{onceki}"].iloc[0]))-1)*100,2)
     degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
+    degisim24.iloc[-1]=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+    degisim24harcama.iloc[-1]=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
 
     
@@ -2086,6 +2122,21 @@ if page=="Harcama Grupları":
 
 if page=="Özel Kapsamlı Endeksler":
     from datetime import datetime,timedelta
+    import pytz
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
+    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    tarihim=datetime.now().day
+    if tarihim>24:
+        tarihim=24
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
+    from datetime import datetime,timedelta
 
     import numpy as np
 
@@ -2243,6 +2294,7 @@ if page=="Özel Kapsamlı Endeksler":
     göstergeaylık=pd.DataFrame(columns=tüik.columns)
     for col in tüik.columns:
         göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
+        göstergeaylık[col].iloc[-1]=(hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last()/hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"])
         göstergeaylık[f"TÜİK {col}"]=tüik[col]
     for col in tüik.columns:
         kasım=((özelgöstergeler[col].loc["2024-11-30"]/özelgöstergeler[col].loc["2024-10-31"])-1)*100
@@ -2314,6 +2366,21 @@ if page=="Özel Kapsamlı Endeksler":
 
 
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
+    from datetime import datetime,timedelta
+    import pytz
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
+    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    tarihim=datetime.now().day
+    if tarihim>24:
+        tarihim=24
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
     
     def hareketli_aylik_ortalama(df):
         deger = df.name  # Kolon ismi
