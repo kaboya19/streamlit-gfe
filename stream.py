@@ -1446,6 +1446,8 @@ if page=="Gıda Fiyat Endeksi":
 if page=="Madde Endeksleri":
     from datetime import datetime,timedelta
     import pytz
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -1770,6 +1772,8 @@ if page=="Madde Endeksleri":
 
      
 if page=="Harcama Grupları":
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
     from datetime import datetime,timedelta
     import pytz
     gfe1=gfe.copy()
@@ -2121,6 +2125,8 @@ if page=="Harcama Grupları":
 
 
 if page=="Özel Kapsamlı Endeksler":
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
     from datetime import datetime,timedelta
     import pytz
     gfe1=gfe.copy()
@@ -2366,6 +2372,8 @@ if page=="Özel Kapsamlı Endeksler":
 
 
 if page=="Mevsimsel Düzeltilmiş Göstergeler":
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
     from datetime import datetime,timedelta
     import pytz
     gfe1=gfe.copy()
