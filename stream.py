@@ -579,7 +579,8 @@ if page=="Gıda Fiyat Endeksi":
     onceki=gfe1["Ay"].iloc[-32]
     year=gfe1["Yıl"].iloc[-1] 
     oncekiyear=gfe1["Yıl"].iloc[-32] 
-
+    tarihim=datetime.now().day
+    tarihim=str(tarihim)
     
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
@@ -591,7 +592,7 @@ if page=="Gıda Fiyat Endeksi":
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
-    degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
+    degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
     tickvals = degisim_2_24.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     
