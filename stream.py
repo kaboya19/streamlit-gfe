@@ -1235,7 +1235,7 @@ if page=="Gıda Fiyat Endeksi":
             weighted_indices_aylık[col].loc["2024-11"]=((weighted_indices[col].loc["2024-11-30"]/100)-1)*100
         for col in weighted_indices.columns:
             weighted_indices_aylık[col].loc["2024-12"]=((weighted_indices[col].loc["2024-12-31"]/weighted_indices[col].loc["2024-11-30"])-1)*100
-            weighted_indices_aylık[col].iloc[-1]=np.round(((((weighted_indices[col]["Aylık Ortalama"].iloc[-1])/weighted_indices[col]["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+            weighted_indices_aylık[col].iloc[-1]=np.round(((((hareketli_aylik_ortalama(weighted_indices[col])["Aylık Ortalama"].iloc[-1])/weighted_indices[col]["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
 
 
