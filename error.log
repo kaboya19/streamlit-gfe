@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Bora\Documents\GitHub\streamlit-gfe\scraping.py", line 340, in <module>
+    urunler_df=vericek(carrefour,migros_pages,"Pirinç")
+  File "C:\Users\Bora\Documents\GitHub\streamlit-gfe\scraping.py", line 283, in vericek
+    migros_data = scrape_migros_products(migros)
+  File "C:\Users\Bora\Documents\GitHub\streamlit-gfe\scraping.py", line 201, in scrape_migros_products
+    print("\u2705 Migros verisi çekildi!")
+  File "C:\Users\Bora\AppData\Local\Programs\Python\Python310\lib\encodings\cp1254.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
