@@ -2263,10 +2263,10 @@ if page=="Özel Kapsamlı Endeksler":
 
 
     import plotly.subplots as sp
-    x_labels = özelgöstergeler.resample('M').mean().index.strftime("%Y-%m")
+    x_labels = özelgöstergeler.resample('M').mean().index[1:].strftime("%Y-%m")
 
-    tickvals = özelgöstergeler.resample('M').mean().index
-    ticktext = tickvals.strftime("%d.%m.%Y")
+    tickvals = özelgöstergeler.resample('M').mean().index[1:]
+    ticktext = tickvals.strftime("%Y-%m")
 
 
     for col in tüik.columns:
