@@ -2263,13 +2263,13 @@ if page=="Özel Kapsamlı Endeksler":
 
 
     import plotly.subplots as sp
-    x_labels = göstergeaylık.index.strftime("%Y-%m")
+    x_labels = özelgöstergeler.resample('M').mean().index.strftime("%Y-%m")
     for col in tüik.columns:
         fig = go.Figure()
 
         # Web-GFE Verisi
         fig.add_trace(go.Bar(
-            x=göstergeaylık.index.strftime("%Y-%m"), y=göstergeaylık[col],
+            x=x_labels, y=göstergeaylık[col],
             name="Web-GFE",
             text=göstergeaylık[col].round(2),
             textposition='outside',
