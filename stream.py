@@ -620,10 +620,10 @@ if page=="Gıda Fiyat Endeksi":
         hareketlima = hareketli_aylik_ortalama(yeni_gfe.iloc[:,0])
         hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
-    cari=hareketlima.loc[tarih:]
-    hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}-24"].iloc[:len(cari)].values
-    hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
-    hareketliartıs=(hareketliartıs-1)*100
+        cari=hareketlima.loc[tarih:]
+        hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}-24"].iloc[:len(cari)].values
+        hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
+        hareketliartıs=(hareketliartıs-1)*100
 
     from datetime import datetime,timedelta
     import pytz
