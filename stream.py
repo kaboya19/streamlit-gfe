@@ -590,14 +590,30 @@ if page=="Gıda Fiyat Endeksi":
     aylıkort=selected_group_data.resample('M').mean()
     aylıkort.loc["2024-10-31"]=selected_group_data.loc["2024-10-12"]
 
+
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    year=gfe1["Yıl"].iloc[-1] 
+    oncekiyear=gfe1["Yıl"].iloc[-1] 
+
+
+
  
 
 
     aylıkdegisim=np.round(((((hareketlima1["Aylık Ortalama"].loc[f"{year}-{month}":])/selected_group_data.resample('M').mean().iloc[-2,0]))-1)*100,2)
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
-    cari=hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":]
-    degisim_2_24=cari.values/hareketlima.loc[f"{oncekiyear}-{onceki}-1":f"{onceki}-24"].iloc[:len(cari)].values
+    from datetime import datetime,timedelta
+    tarih=datetime.now().strftime("%Y-%m")
+    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+    cari=hareketlima.loc[tarih:]
+    hareketliartıs=cari.values/hareketlima.loc[f"{onceki}-1":f"{onceki}-24"].iloc[:len(cari)].values
+    hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
+    hareketliartıs=(hareketliartıs-1)*100
 
 
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
@@ -607,8 +623,8 @@ if page=="Gıda Fiyat Endeksi":
     
     figg30 = go.Figure()
     figg30.add_trace(go.Scatter(
-            x=degisim_2_24.index[0:],
-            y=np.round(degisim_2_24.values,2),
+            x=hareketliartıs.index[0:],
+            y=np.round(hareketliartıs.values,2),
             mode='lines+markers',
             name="24 Günlük Değişim",
             line=dict(color='blue', width=4),
