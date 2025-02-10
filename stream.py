@@ -2304,7 +2304,7 @@ if page=="Özel Kapsamlı Endeksler":
             tickvals=tickvals,
             ticktext=ticktext,
             tickfont=dict(size=14, family="Arial Black", color="black"),
-            tickangle=45
+            tickangle=0
         ),
             barmode='group',  # Gruplanmış barlar
             height=500,
