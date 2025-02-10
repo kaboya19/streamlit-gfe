@@ -39,7 +39,7 @@ while(True):
     dün=(datetime.now()-timedelta(days=1)).strftime("%Y-%m-%d")
 
 
-    data=pd.read_csv("sepet.csv",index_col=0)
+    data=pd.read_csv("C:/Users/Bora/Desktop/sepet.csv",index_col=0)
 
     data.index.name=""
 
@@ -3260,7 +3260,7 @@ while(True):
     df_filled_corrected=df_filled_corrected.drop_duplicates()
 
 
-    df_filled_corrected.to_csv("sepet.csv")
+    df_filled_corrected.to_csv("C:/Users/Bora/Desktop/sepet.csv")
 
 
     ağırlıklar=pd.read_csv("ağırlıklar.csv")
@@ -3279,9 +3279,9 @@ while(True):
 
 
 
-    data1=pd.read_csv("sepet.csv",index_col=0)
+    data1=pd.read_csv("C:/Users/Bora/Desktop/sepet.csv",index_col=0)
     data1=data1.drop_duplicates() 
-    data1.to_csv("sepet.csv")
+    data1.to_csv("C:/Users/Bora/Desktop/sepet.csv")
     degisim=data1.iloc[:,1:].pct_change(axis=1)+1
     degisim=degisim.iloc[:,-1]
     from scipy.stats import gmean
