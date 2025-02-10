@@ -610,6 +610,10 @@ if page=="Gıda Fiyat Endeksi":
     from datetime import datetime,timedelta
     tarih=datetime.now().strftime("%Y-%m")
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+    if selected_group=="WEB-GFE":
+        hareketlima = hareketli_aylik_ortalama(yeni_gfe.iloc[:,0])
+        hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
+
     cari=hareketlima.loc[tarih:]
     hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}-24"].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
