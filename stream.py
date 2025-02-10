@@ -912,7 +912,7 @@ if page=="Gıda Fiyat Endeksi":
     aylıkenf.iloc[-1]=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
     aylıklar=pd.DataFrame()
     
-    kasım=np.round((((gfe["GFE"].loc["2024-11-01":"2024-11-24"].mean()/gfe["GFE"].loc["2024-10-31"]))-1)*100,2)
+    kasım=np.round((((gfe["GFE"].loc["2024-11-30"]/gfe["GFE"].loc["2024-10-31"]))-1)*100,2)
     aralık=np.round((((gfe["GFE"].loc["2024-12-31"]/gfe["GFE"].loc["2024-11-30"]))-1)*100,2)
     aylıkenf.loc["2024-11-30"]=kasım
     aylıkenf.loc["2024-12-31"]=aralık
@@ -1201,7 +1201,7 @@ if page=="Gıda Fiyat Endeksi":
         aylıkenf=np.round(hareketlima["Aylık Ortalama"].resample("M").last().pct_change()*100,2).dropna().iloc[1:]
         aylıkenf.iloc[-1]=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
         aylıklar=pd.DataFrame()
-        kasım=np.round((((gfe["GFE"].loc["2024-11-01":"2024-11-24"].mean()/gfe["GFE"].loc["2024-10-31"]))-1)*100,2)
+        kasım=np.round((((gfe["GFE"].loc["2024-11-30"]/gfe["GFE"].loc["2024-10-31"]))-1)*100,2)
         aralık=np.round((((gfe["GFE"].loc["2024-12-31"]/gfe["GFE"].loc["2024-11-30"]))-1)*100,2)
         aylıkenf.loc["2024-11-30"]=kasım
         aylıkenf.loc["2024-12-31"]=aralık
