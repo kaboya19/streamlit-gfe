@@ -16,10 +16,10 @@ social_media_links = {
     "GitHub": {"url": "https://github.com/kaboya19", "color": "#000000"},
     "LinkedIn": {"url": "https://www.linkedin.com/in/bora-kaya/", "color": "#000000"}
 }
-tabs=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Mevsimsel Düzeltilmiş Göstergeler","Harcama Grupları","Madde Endeksleri","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
+tabs=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Mevsimsel Düzeltilmiş Göstergeler","Harcama Grupları","Metodoloji Notu","Bültenler","Bülten Aboneliği"]
 tabs = option_menu(
     menu_title=None,
-    options=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Mevsimsel Düzeltilmiş Göstergeler", "Harcama Grupları","Madde Endeksleri", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
+    options=["Gıda Fiyat Endeksi","Özel Kapsamlı Endeksler","Mevsimsel Düzeltilmiş Göstergeler", "Harcama Grupları", "Metodoloji Notu", "Bültenler", "Bülten Aboneliği"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
