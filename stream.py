@@ -611,7 +611,7 @@ if page=="Gıda Fiyat Endeksi":
     tarih=datetime.now().strftime("%Y-%m")
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
     cari=hareketlima.loc[tarih:]
-    hareketliartıs=cari.values/hareketlima.loc[f"{onceki}-1":f"{onceki}-24"].iloc[:len(cari)].values
+    hareketliartıs=cari.values/hareketlima.loc[f"{onceki}-01":f"{onceki}-24"].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
 
