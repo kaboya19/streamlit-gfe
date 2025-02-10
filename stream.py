@@ -2324,7 +2324,7 @@ if page=="Özel Kapsamlı Endeksler":
     )
 
     # X ekseni için automargin eklenmiş
-        fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
+        fig.update_xaxes(tickangle=0, tickfont=dict(size=12, family="Arial Black"))
 
 
         # Y ekseni aralığını belirle (1 birim aşağı, 2 birim yukarı kaydır)
