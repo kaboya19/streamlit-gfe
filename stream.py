@@ -763,6 +763,7 @@ if page=="Gıda Fiyat Endeksi":
         gfe["TÜİK"]=tüik_aylık["TÜİK"]
         gfe=gfe.fillna(method="ffill")
         gfe=gfe.fillna(100)
+        degisim24=np.round(((((hareketli_aylik_ortalama(gfe["GFE"])["Aylık Ortalama"].iloc[-1])/hareketli_aylik_ortalama(gfe["GFE"])["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
         yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
         oran=yeni_gfe["GFE"].iloc[0]
