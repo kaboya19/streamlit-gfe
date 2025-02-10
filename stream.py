@@ -818,22 +818,13 @@ if page=="Gıda Fiyat Endeksi":
         processed_data = output.getvalue()  # Bellekteki dosya verisini al
         return processed_data
 
-    data=pd.read_csv("sepet.csv")
     try:
         data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
     except:
          data=data.set_index(data["original_index"]).drop("original_index",axis=1)
 
 
-    fiyatlar=pd.read_csv("sepet.csv")
-    try:
-        fiyatlar=fiyatlar.set_index(fiyatlar["Unnamed: 0"])
-    except:
-         fiyatlar=fiyatlar.set_index(fiyatlar["original_index"])
-    fiyatlar.index.name="Madde"
-    fiyatlar=fiyatlar.sort_index()
-    fiyatlar=fiyatlar.rename(columns={"original_index":"Madde"})
-    excel_data = to_excel(fiyatlar)
+   
     
 
     #data=data.drop("Grup",axis=1)
@@ -1338,12 +1329,7 @@ if page=="Gıda Fiyat Endeksi":
         
 
                 
-        st.download_button(
-            label="📊 Fiyat Listesini İndir",
-            data=excel_data,
-            file_name='fiyatlar.xlsx',
-            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+        
 
         st.download_button(
             label="📊 Madde Endekslerini İndir",
