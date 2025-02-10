@@ -2269,7 +2269,7 @@ if page=="Özel Kapsamlı Endeksler":
 
         # Web-GFE Verisi
         fig.add_trace(go.Bar(
-            x=x_labels, y=göstergeaylık[col],
+            x=göstergeaylık.index.strftime("%Y-%m"), y=göstergeaylık[col],
             name="Web-GFE",
             text=göstergeaylık[col].round(2),
             textposition='outside',
