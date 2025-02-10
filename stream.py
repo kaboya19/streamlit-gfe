@@ -420,7 +420,7 @@ if page=="Gıda Fiyat Endeksi":
 
         # Datetime index'i atıyoruz
     selected_group_data.index = gfe.index
-    selected_group_data["Endeks_2024-10-11"]=100
+    selected_group_data["Endeks_2024-10-31"]=100
     selected_group_monthly=selected_group_data.resample('M').mean()
     selected_group_monthlyfull=selected_group_data.resample('M').last()
     from datetime import datetime,timedelta
