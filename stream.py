@@ -2268,13 +2268,15 @@ if page=="Özel Kapsamlı Endeksler":
     tickvals = özelgöstergeler.resample('M').mean().index[1:]
     ticktext = tickvals.strftime("%Y-%m")
 
+ 
+
 
     for col in tüik.columns:
         fig = go.Figure()
 
         # Web-GFE Verisi
         fig.add_trace(go.Bar(
-            x=x_labels, y=göstergeaylık[col],
+            x=özelgöstergeler.resample('M').mean().index[1:].strftime("%Y-%m"), y=göstergeaylık[col],
             name="Web-GFE",
             text=göstergeaylık[col].round(2),
             textposition='outside',
@@ -2285,7 +2287,7 @@ if page=="Özel Kapsamlı Endeksler":
 
         # TÜİK Verisi
         fig.add_trace(go.Bar(
-            x=x_labels, y=göstergeaylık[f"TÜİK {col}"],
+            x=özelgöstergeler.resample('M').mean().index[1:].strftime("%Y-%m"), y=göstergeaylık[f"TÜİK {col}"],
             name="TÜİK",
             text=göstergeaylık[f"TÜİK {col}"].round(2),
             textposition='outside',
@@ -2301,7 +2303,7 @@ if page=="Özel Kapsamlı Endeksler":
             font=dict(size=18, color="black", family="Arial Black")
         ),
         xaxis=dict(
-            tickvals=tickvals,
+            tickvals=özelgöstergeler.resample('M').mean().index[1:].strftime("%Y-%m"),
             ticktext=ticktext,
             tickfont=dict(size=14, family="Arial Black", color="black"),
             tickangle=45,
