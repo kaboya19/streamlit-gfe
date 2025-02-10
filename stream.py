@@ -2264,6 +2264,11 @@ if page=="Özel Kapsamlı Endeksler":
 
     import plotly.subplots as sp
     x_labels = özelgöstergeler.resample('M').mean().index.strftime("%Y-%m")
+
+    tickvals = özelgöstergeler.resample('M').mean().index
+    ticktext = tickvals.strftime("%d.%m.%Y")
+
+
     for col in tüik.columns:
         fig = go.Figure()
 
@@ -2295,6 +2300,12 @@ if page=="Özel Kapsamlı Endeksler":
                 text=f"{col} Aylık Artışlar",
                 font=dict(size=18, color="black", family="Arial Black")
             ),
+            xaxis=dict(
+            tickvals=tickvals,
+            ticktext=ticktext,
+            tickfont=dict(size=14, family="Arial Black", color="black"),
+            tickangle=45
+        ),
             barmode='group',  # Gruplanmış barlar
             height=500,
             showlegend=True,
