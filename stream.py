@@ -818,19 +818,12 @@ if page=="Gıda Fiyat Endeksi":
         processed_data = output.getvalue()  # Bellekteki dosya verisini al
         return processed_data
 
-    try:
-        data=data.set_index(data["Unnamed: 0"]).drop("Unnamed: 0",axis=1)
-    except:
-         data=data.set_index(data["original_index"]).drop("original_index",axis=1)
 
 
    
     
 
-    #data=data.drop("Grup",axis=1)
-    data.index.name=""
-    data=data.drop_duplicates()
-    data.loc["WEB-GFE","Ürün"]="WEB-GFE"
+    
 
     gfe=pd.read_csv("gfe.csv")
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
@@ -843,14 +836,11 @@ if page=="Gıda Fiyat Endeksi":
     yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
     yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
 
-    data[data.index=="WEB-GFE"].iloc[:,-1]=gfe.T
 
 
     
 
-# Apply the function to each row to calculate the "Değişim" column
-    data["Değişim"]=((data.iloc[:,-1].values/data.iloc[:,1].values)-1)*100
-    fiyat = data.loc[selected_group]
+
 
     endeksler["Değişim"]=((endeksler.iloc[:,-1].values/endeksler.iloc[:,0].values)-1)*100
 
@@ -1414,13 +1404,7 @@ if page=="Gıda Fiyat Endeksi":
         toplam=((endeksler1.iloc[-1]/endeksler1.iloc[0])-1)*100
         aylık["Toplam"]=toplam
         
-    else:
-        st.markdown(f"<h2 style='text-align:left; color:black;'>Fiyat Listesi</h2>", unsafe_allow_html=True)
-        try:
-            st.dataframe(fiyat.drop("Değişim",axis=1))
-        except:
-             st.dataframe(fiyat)
-
+   
 if page=="Madde Endeksleri":
     from datetime import datetime,timedelta
     import pytz
