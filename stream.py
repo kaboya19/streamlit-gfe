@@ -2321,7 +2321,7 @@ if page=="Özel Kapsamlı Endeksler":
         )
 
         # X ekseni ayarları (45 derece döndürme, kalın font)
-        fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
+        fig.update_xaxes(tickangle=0, tickfont=dict(size=12, family="Arial Black"))
 
         # Y ekseni aralığını belirle (1 birim aşağı, 2 birim yukarı kaydır)
         y_values = göstergeaylık[[col, f"TÜİK {col}"]].values.flatten()
