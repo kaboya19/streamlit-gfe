@@ -587,8 +587,7 @@ if page=="Gıda Fiyat Endeksi":
     
 
     artıs30=selected_group_data.pct_change(30).dropna()*100
-    aylıkort=selected_group_data.resample('M').mean()
-    aylıkort.loc["2024-10-31"]=selected_group_data.loc["2024-10-12"]
+  
 
 
     gfe1=gfe.copy()
