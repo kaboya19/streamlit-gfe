@@ -220,7 +220,7 @@ while(True):
 
             try:
                 # **Sayfanın tamamen yüklenmesini bekle**
-                WebDriverWait(driver, 6).until(
+                WebDriverWait(driver, 5).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "li.product-listing-item"))
                 )
 
