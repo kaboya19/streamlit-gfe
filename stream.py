@@ -615,6 +615,22 @@ if page=="Gıda Fiyat Endeksi":
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
 
+    from datetime import datetime,timedelta
+    import pytz
+    gfe1=gfe.copy()
+    gfe1["Date"]=pd.to_datetime(gfe1.index)
+    gfe1["Ay"]=gfe1["Date"].dt.month
+    gfe1["Yıl"]=gfe1["Date"].dt.year    
+    month = gfe1["Ay"].iloc[-1]
+    onceki=gfe1["Ay"].iloc[-32]
+    year=gfe1["Yıl"].iloc[-1] 
+    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    tarihim=datetime.now().day
+    if tarihim>24:
+        tarihim=24
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
+
 
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
     tickvals = degisim_2_24.index  # Her 3 birimde bir tarih
