@@ -597,7 +597,7 @@ if page=="Gıda Fiyat Endeksi":
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
     cari=hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":]
-    degisim_2_24=cari.values/hareketlima.loc[f"{onceki}-1":f"{onceki}-24"].iloc[:len(cari)].values
+    degisim_2_24=cari.values/hareketlima.loc[f"{oncekiyear}-{onceki}-1":f"{onceki}-24"].iloc[:len(cari)].values
 
 
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
