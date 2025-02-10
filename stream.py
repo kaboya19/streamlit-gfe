@@ -617,7 +617,7 @@ if page=="Gıda Fiyat Endeksi":
 
         yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
         yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
-        hareketlima = hareketli_aylik_ortalama(yeni_gfe.iloc[:,0])
+        hareketlima = hareketli_aylik_ortalama(yeni_gfe["GFE"])
         hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
         cari=hareketlima.loc[tarih:]
