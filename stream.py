@@ -2296,32 +2296,34 @@ if page=="Özel Kapsamlı Endeksler":
 
         # Layout ayarları
         fig.update_layout(
-            title=dict(
-                text=f"{col} Aylık Artışlar",
-                font=dict(size=18, color="black", family="Arial Black")
-            ),
-            xaxis=dict(
+        title=dict(
+            text=f"{col} Aylık Artışlar",
+            font=dict(size=18, color="black", family="Arial Black")
+        ),
+        xaxis=dict(
             tickvals=tickvals,
             ticktext=ticktext,
             tickfont=dict(size=14, family="Arial Black", color="black"),
-            tickangle=0
+            tickangle=45,
+            automargin=True  # Bu satır eklenebilir
         ),
-            barmode='group',  # Gruplanmış barlar
-            height=500,
-            showlegend=True,
-            legend=dict(
-                x=1, y=1, xanchor='right', yanchor='top',
-                font=dict(size=12, color="black", family="Arial Black"),
-                bgcolor='rgba(255,255,255,0.8)',
-                bordercolor='black', borderwidth=1
-            ),
-            bargap=0.2,  # Barlar arası boşluk
-            bargroupgap=0.1,  # Gruplar arası boşluk
-            margin=dict(t=50, b=50, l=50, r=50)  # Kenar boşlukları
-        )
+        barmode='group',
+        height=500,
+        showlegend=True,
+        legend=dict(
+            x=1, y=1, xanchor='right', yanchor='top',
+            font=dict(size=12, color="black", family="Arial Black"),
+            bgcolor='rgba(255,255,255,0.8)',
+            bordercolor='black', borderwidth=1
+        ),
+        bargap=0.2,
+        bargroupgap=0.1,
+        margin=dict(t=50, b=50, l=50, r=50)
+    )
 
-        # X ekseni ayarları (45 derece döndürme, kalın font)
-        fig.update_xaxes(tickangle=0, tickfont=dict(size=12, family="Arial Black"))
+    # X ekseni için automargin eklenmiş
+        fig.update_xaxes(tickangle=45, tickfont=dict(size=12, family="Arial Black"))
+
 
         # Y ekseni aralığını belirle (1 birim aşağı, 2 birim yukarı kaydır)
         y_values = göstergeaylık[[col, f"TÜİK {col}"]].values.flatten()
