@@ -1316,7 +1316,7 @@ if page=="Gıda Fiyat Endeksi":
 
         degisimler=[]
         for col in endekslerr.index:
-            ma24=hareketli_aylik_ortalama(pd.DataFrame(endekslerr.loc[col].T).set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endekslerr.loc[col].T))).iloc[:,0])
+            ma24=hareketli_aylik_ortalama(pd.DataFrame(endekslerr.loc[col].T).set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endekslerr.loc[col].T))).iloc[:,0])
             ma24=ma24["Aylık Ortalama"].fillna(method="ffill")
             ay=datetime.now().month
             yıl=datetime.now().year
