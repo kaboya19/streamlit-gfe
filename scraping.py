@@ -3364,7 +3364,7 @@ while(True):
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
     endeksler=endeksler.T
-    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
     
 
     ürünler=pd.read_csv("harcamaürünleri1.csv")
