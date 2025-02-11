@@ -1,0 +1,161 @@
+category,name,main_price,has_multiple_markets,market_count,prices,page,average_price,min_price,max_price
+Meyve ve Sebze,Mantar Istiridye,54.0,False,,[],1,,,
+Meyve ve Sebze,Karnabahar,29.95,True,+1 Market,"[29.95, 34.9]",1,32.425,29.95,34.9
+Meyve ve Sebze,Kara Lahana Demet,29.5,False,,[],1,,,
+Meyve ve Sebze,Kırmızı Biber,119.5,False,,[],1,,,
+Meyve ve Sebze,Turp Vezir,45.0,True,+1 Market,"[45.0, 49.5]",1,47.25,45.0,49.5
+Meyve ve Sebze,Patlıcan Kemer,59.9,True,+1 Market,"[59.9, 74.95]",1,67.425,59.9,74.95
+Meyve ve Sebze,Soğan Gümüş File,56.95,False,,[],1,,,
+Meyve ve Sebze,Salatalık Badem,79.9,False,,[],1,,,
+Meyve ve Sebze,Pazı Demet,29.5,False,,[],1,,,
+Meyve ve Sebze,Marul Göbek,52.9,False,,[],1,,,
+Meyve ve Sebze,Salata Kıvırcık,29.9,False,,[],1,,,
+Meyve ve Sebze,Maydonoz Adet,7.95,False,,[],1,,,
+Meyve ve Sebze,Nane,19.5,False,,[],1,,,
+Meyve ve Sebze,Avokado Adet,39.9,True,+1 Market,"[39.9, 49.5]",1,44.7,39.9,49.5
+Meyve ve Sebze,Maydonoz Adet,7.95,False,,[],1,,,
+Meyve ve Sebze,Salata Kıvırcık  Adet,44.95,False,,[],1,,,
+Meyve ve Sebze,Roka Demet ,16.95,True,+1 Market,"[16.95, 19.5]",1,18.225,16.95,19.5
+Meyve ve Sebze,Elma Golden,39.75,True,+4 Market,"[39.75, 39.9, 39.9, 44.9, 49.95]",1,42.88000000000001,39.75,49.95
+Meyve ve Sebze,Domates,32.95,True,+4 Market,"[32.95, 39.9, 39.9, 39.95, 49.5]",1,40.44,32.95,49.5
+Meyve ve Sebze,Elma Granny,49.9,True,+1 Market,"[49.9, 49.9]",1,49.9,49.9,49.9
+Meyve ve Sebze,Ispanak Paket,49.5,False,,[],1,,,
+Meyve ve Sebze,Kuru Patlıcan Dizi,89.5,False,,[],1,,,
+Meyve ve Sebze,Mango Adet,44.95,False,,[],1,,,
+Meyve ve Sebze,Nane Demet Paket Adet,21.95,False,,[],1,,,
+Meyve ve Sebze,Avokado Adet,39.9,True,+1 Market,"[39.9, 49.5]",2,44.7,39.9,49.5
+Meyve ve Sebze,Biber Dolma Paket,27.5,False,,[],2,,,
+Meyve ve Sebze,Köy Biberi,89.5,False,,[],2,,,
+Meyve ve Sebze,Erik Angelica,92.95,False,,[],2,,,
+Meyve ve Sebze,Pırasa,49.5,False,,[],2,,,
+Meyve ve Sebze,Morsoğan ,39.5,False,,[],2,,,
+Meyve ve Sebze,Patlıcan Bostan,94.95,False,,[],2,,,
+Meyve ve Sebze,Kuru Patlıcan Dizi,89.5,False,,[],2,,,
+Meyve ve Sebze,Sarımsak 200 Gr Paket,69.5,False,,[],2,,,
+Meyve ve Sebze,Kuru Patlıcan Dizi,89.5,False,,[],2,,,
+Meyve ve Sebze,Mandalina,38.0,True,+1 Market,"[38.0, 39.9]",2,38.95,38.0,39.9
+Meyve ve Sebze,Mantar 300 Gr Paket,49.9,False,,[],2,,,
+Meyve ve Sebze,Mantar 400 Gr Safkar,49.5,False,,[],2,,,
+Meyve ve Sebze,Hindistan Cevizi Adet,39.75,True,+1 Market,"[39.75, 44.95]",2,42.35,39.75,44.95
+Meyve ve Sebze,Armut Santa Marıa,54.9,False,,[],2,,,
+Meyve ve Sebze,Maydanoz Demet Paket Adet,14.95,False,,[],2,,,
+Meyve ve Sebze,Armut Santa Marıa,54.9,False,,[],2,,,
+Meyve ve Sebze,Soğan Kırmızı,39.9,True,+1 Market,"[39.9, 44.95]",2,42.425,39.9,44.95
+Meyve ve Sebze,Zerdeçal 80 Gr Adet,59.95,False,,[],2,,,
+Meyve ve Sebze,Patates ,12.95,True,+4 Market,"[12.95, 13.5, 13.75, 13.75, 13.75]",2,13.540000000000001,12.95,13.75
+Meyve ve Sebze,İthal Sarımsak,200.0,False,,[],2,,,
+Meyve ve Sebze,Dereotu Demet Paket Adet,17.95,False,,[],2,,,
+Meyve ve Sebze,Kırmızı Kapya Biber Paket,39.9,False,,[],2,,,
+Meyve ve Sebze,Mandalina,38.0,True,+1 Market,"[38.0, 39.9]",2,38.95,38.0,39.9
+Meyve ve Sebze,Mandalina,38.0,True,+1 Market,"[38.0, 39.9]",3,38.95,38.0,39.9
+Meyve ve Sebze,Greyfurt,25.75,True,+2 Market,"[25.75, 29.9, 49.5]",3,35.050000000000004,25.75,49.5
+Meyve ve Sebze,Salata Atom Adet ,52.95,False,,[],3,,,
+Meyve ve Sebze,Kumkuat Paket,29.5,False,,[],3,,,
+Meyve ve Sebze,Elma Starking,39.75,True,+2 Market,"[39.75, 39.9, 39.95]",3,39.86666666666667,39.75,39.95
+Meyve ve Sebze,Mısır Haşlanmış Paket,69.0,False,,[],3,,,
+Meyve ve Sebze,Karnabahar Adet,39.95,False,,[],3,,,
+Meyve ve Sebze,Soğan Arpacık File,59.95,False,,[],3,,,
+Meyve ve Sebze,Tatlı Domates 250 Gr Paket Adet,44.95,False,,[],3,,,
+Meyve ve Sebze,Ispanak Paket,49.5,False,,[],3,,,
+Meyve ve Sebze,Roka Demet ,16.95,True,+1 Market,"[16.95, 19.5]",3,18.225,16.95,19.5
+Meyve ve Sebze,Roka Demet ,16.95,True,+1 Market,"[16.95, 19.5]",3,18.225,16.95,19.5
+Meyve ve Sebze,Elma Starking Atıştırmalık,29.0,False,,[],3,,,
+Meyve ve Sebze,Domates Şeker 250,42.9,False,,[],3,,,
+Meyve ve Sebze,Tatlı Domates 250 Gr Paket Adet,44.95,False,,[],3,,,
+Meyve ve Sebze,Biber Yeşil ,84.9,False,,[],3,,,
+Meyve ve Sebze,Mantar Kestane,54.5,False,,[],3,,,
+Meyve ve Sebze,Zerdeçal 80 Gr Adet,59.95,False,,[],3,,,
+Meyve ve Sebze,Patlıcan Bostan,94.95,False,,[],3,,,
+Meyve ve Sebze,Zencefil Paket,69.5,False,,[],3,,,
+Meyve ve Sebze,Greyfurt,25.75,True,+2 Market,"[25.75, 29.9, 49.5]",3,35.050000000000004,25.75,49.5
+Meyve ve Sebze,Lahana Beyaz Adet,89.95,False,,[],3,,,
+Meyve ve Sebze,Roka,17.5,False,,[],3,,,
+Meyve ve Sebze,Roka Demet ,16.95,True,+1 Market,"[16.95, 19.5]",4,18.225,16.95,19.5
+Meyve ve Sebze,Soğan Yeni Hasat,13.9,False,,[],4,,,
+Meyve ve Sebze,Muz Yerli ,67.9,True,+3 Market,"[67.9, 69.0, 69.9, 79.95]",4,71.6875,67.9,79.95
+Meyve ve Sebze,Morsoğan ,39.5,False,,[],4,,,
+Meyve ve Sebze,Dereotu,17.9,False,,[],4,,,
+Meyve ve Sebze,Pancar Haşlanmış Paket,75.0,False,,[],4,,,
+Meyve ve Sebze,Soğan Beyaz Paket,39.5,False,,[],4,,,
+Meyve ve Sebze,Papaz Erik,69.9,False,,[],4,,,
+Meyve ve Sebze,Turp Vezir,45.0,True,+1 Market,"[45.0, 49.5]",4,47.25,45.0,49.5
+Meyve ve Sebze,Patlıcan Kemer Paket,79.95,False,,[],4,,,
+Meyve ve Sebze,Kabak Sakız Paket,54.95,False,,[],4,,,
+Meyve ve Sebze,Soğan Yeni Hasat,13.9,False,,[],4,,,
+Meyve ve Sebze,Portakal Finike ,29.95,False,,[],4,,,
+Meyve ve Sebze,Biber Çarliston Pkt.kg,94.95,False,,[],4,,,
+Meyve ve Sebze,Tatlı Domates 250 Gr Paket Adet,44.95,False,,[],4,,,
+Meyve ve Sebze,Soğan Taze Adet,39.0,False,,[],4,,,
+Meyve ve Sebze,Kabak Sakız,47.9,True,+1 Market,"[47.9, 54.95]",4,51.425,47.9,54.95
+Meyve ve Sebze,Domates Kokteyl Paket,45.9,False,,[],4,,,
+Meyve ve Sebze,Mantar Tabak,52.5,False,,[],4,,,
+Meyve ve Sebze,Domates Şeker 250,42.9,False,,[],4,,,
+Meyve ve Sebze,Köy Biberi,89.5,False,,[],4,,,
+Meyve ve Sebze,Galya Kavun,34.9,False,,[],4,,,
+Meyve ve Sebze,Kara Lahana Demet,29.5,False,,[],5,,,
+Meyve ve Sebze,Biber Dolma Paket,27.5,False,,[],5,,,
+Meyve ve Sebze,Ispanak Paket,49.5,False,,[],5,,,
+Meyve ve Sebze,Elma Starking Atıştırmalık,29.0,False,,[],5,,,
+Meyve ve Sebze,Cennet Hurma Kuru 500 Gr,189.95,False,,[],5,,,
+Meyve ve Sebze,Ejder Adet,14.95,False,,[],5,,,
+Meyve ve Sebze,Galya Kavun,34.9,False,,[],5,,,
+Meyve ve Sebze,Elma Starking Atıştırmalık,29.0,False,,[],5,,,
+Meyve ve Sebze,Soğan Beyaz Paket,39.5,False,,[],5,,,
+Meyve ve Sebze,Dereotu Demet Paket Adet,17.95,False,,[],5,,,
+Meyve ve Sebze,Muz İthal,89.0,True,+1 Market,"[89.0, 99.9]",5,94.45,89.0,99.9
+Meyve ve Sebze,Brokoli ,74.95,True,+1 Market,"[74.95, 79.5]",5,77.225,74.95,79.5
+Meyve ve Sebze,Kabak Helvacı Paket,74.95,False,,[],5,,,
+Meyve ve Sebze,Ejder Adet,14.95,False,,[],5,,,
+Meyve ve Sebze,Göbek Ekonomik Adet,12.95,False,,[],5,,,
+Meyve ve Sebze,Kırmızı Kapya Biber Paket,39.9,False,,[],5,,,
+Meyve ve Sebze,Kereviz ,39.95,True,+2 Market,"[39.95, 59.5, 59.9]",5,53.11666666666667,39.95,59.9
+Meyve ve Sebze,Hindistan Cevizi Adet,39.75,True,+1 Market,"[39.75, 44.95]",5,42.35,39.75,44.95
+Meyve ve Sebze,Portakal Yapraklı ,24.95,False,,[],5,,,
+Meyve ve Sebze,Karnabahar,29.95,True,+1 Market,"[29.95, 34.9]",5,32.425,29.95,34.9
+Meyve ve Sebze,Zerdeçal 80 Gr Adet,59.95,False,,[],6,,,
+Meyve ve Sebze,Patlıcan Kemer Paket,79.95,False,,[],6,,,
+Meyve ve Sebze,Sarımsak File,54.0,False,,[],6,,,
+Meyve ve Sebze,Biber Kapya 400 Gr Adtet,44.9,False,,[],6,,,
+Meyve ve Sebze,Kurutulmuş Domates 250 Gr Paket,59.9,False,,[],6,,,
+Meyve ve Sebze,Salamura Asma Yaprak,119.9,False,,[],6,,,
+Meyve ve Sebze,İthal Sarımsak,200.0,False,,[],6,,,
+Meyve ve Sebze,Mantar Tabak,52.5,False,,[],6,,,
+Meyve ve Sebze,Pırasa,49.5,False,,[],6,,,
+Meyve ve Sebze,Roka Adet,14.95,False,,[],6,,,
+Meyve ve Sebze,Taşköprü Sarımsağı File ,249.95,False,,[],6,,,
+Meyve ve Sebze,Kıl Sivri Biber,139.95,False,,[],6,,,
+Meyve ve Sebze,Armut Deveci ,49.5,True,+4 Market,"[49.5, 52.9, 59.5, 59.9, 59.95]",6,56.35,49.5,59.95
+Meyve ve Sebze,Soğan Arpacık File,59.95,False,,[],6,,,
+Meyve ve Sebze,Patlıcan ,64.0,True,+1 Market,"[64.0, 69.5]",6,66.75,64.0,69.5
+Meyve ve Sebze,Sarımsak Kuru,249.9,False,,[],6,,,
+Meyve ve Sebze,Enginar 4 Lü Kova Adet ,99.5,False,,[],6,,,
+Meyve ve Sebze,Ispanak ,39.5,False,,[],6,,,
+Meyve ve Sebze,Portakal,29.9,True,+2 Market,"[29.9, 34.75, 34.75]",6,33.13333333333333,29.9,34.75
+Meyve ve Sebze,Morsoğan ,39.5,False,,[],6,,,
+Meyve ve Sebze,Domates Kokteyl,69.95,False,,[],6,,,
+Meyve ve Sebze,Patates ,12.95,True,+4 Market,"[12.95, 13.5, 13.75, 13.75, 13.75]",6,13.540000000000001,12.95,13.75
+Meyve ve Sebze,Soğan Gümüş File,56.95,False,,[],6,,,
+Meyve ve Sebze,Maydanoz,14.75,False,,[],7,,,
+Meyve ve Sebze,Semiz Otu Demet ,39.5,False,,[],7,,,
+Meyve ve Sebze,Sarımsak File,54.0,False,,[],7,,,
+Meyve ve Sebze,Mantar 400 Gr Safkar,49.5,False,,[],7,,,
+Meyve ve Sebze,Nane,19.5,False,,[],7,,,
+Meyve ve Sebze,Zencefil Paket,69.5,False,,[],7,,,
+Meyve ve Sebze,Kabak Sakız Paket,54.95,False,,[],7,,,
+Meyve ve Sebze,Ispanak ,39.5,False,,[],7,,,
+Meyve ve Sebze,Limon Taze ,29.95,False,,[],7,,,
+Meyve ve Sebze,Kuru Biber Paket,89.5,False,,[],7,,,
+Meyve ve Sebze,Sıkmalık Portakal File,28.75,True,+1 Market,"[28.75, 28.75]",7,28.75,28.75,28.75
+Meyve ve Sebze,Domates Sivri,29.5,False,,[],7,,,
+Meyve ve Sebze,Beyaz Lahana,19.95,True,+2 Market,"[19.95, 29.5, 29.9]",7,26.45,19.95,29.9
+Meyve ve Sebze,Marul Adet,54.95,False,,[],7,,,
+Meyve ve Sebze,Kızartmalık Patates File,27.5,False,,[],7,,,
+Meyve ve Sebze,Domates Eko,32.9,False,,[],7,,,
+Meyve ve Sebze,Pancar Haşlanmış Paket,75.0,False,,[],7,,,
+Meyve ve Sebze,Dolmalık Biber,64.9,True,+1 Market,"[64.9, 69.5]",7,67.2,64.9,69.5
+Meyve ve Sebze,Biber Kapya 400 Gr Adtet,44.9,False,,[],7,,,
+Meyve ve Sebze,Roka Adet,14.95,False,,[],7,,,
+Meyve ve Sebze,Beyaz Lahana,19.95,True,+2 Market,"[19.95, 29.5, 29.9]",7,26.45,19.95,29.9
+Meyve ve Sebze,İstiridye Mantarı 300 Gr,69.5,False,,[],8,,,
+Meyve ve Sebze,Patlıcan Kemer,59.9,True,+1 Market,"[59.9, 74.95]",8,67.425,59.9,74.95
+Meyve ve Sebze,Soğan Kırmızı,39.9,True,+1 Market,"[39.9, 44.95]",8,42.425,39.9,44.95
