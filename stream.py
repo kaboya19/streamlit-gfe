@@ -368,7 +368,7 @@ if page=="Gıda Fiyat Endeksi":
     
 
 
-    # Örnek veri yükleniyor ve işleniyor
+    
     gfe = pd.read_csv("gfe.csv")
     gfe = gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe = gfe.drop("Tarih", axis=1)
