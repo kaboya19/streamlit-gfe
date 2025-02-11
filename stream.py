@@ -373,9 +373,8 @@ if page=="Gıda Fiyat Endeksi":
     gfe = gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe = gfe.drop("Tarih", axis=1)
 
-    endeksler=pd.read_csv("endeksler.csv")
-    endeksler=endeksler.set_index(endeksler["Ürün"])
-    endeksler=endeksler.drop("Ürün",axis=1)
+    endeksler=pd.read_csv("endeksler.csv",index_col=0)
+    
     
    
     endeksler.loc["WEB-GFE"]=gfe["GFE"].values
