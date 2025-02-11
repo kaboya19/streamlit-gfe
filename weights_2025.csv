@@ -1,0 +1,409 @@
+Ürün,Kod,2022 Ağırlık,Grup,2025 Ağırlık
+Pirinç,1111,0.2565770563542397,Pirinç,0.2791059772534018
+Buğday Unu,1112,0.5155139758704976,Un ve diğer tahıllar,0.3703161603989201
+Bebek Sütü (Toz Karışım),1112,0.1268142799112599,Un ve diğer tahıllar,0.0910962251628438
+Bulgur,1112,0.1507597865827976,Un ve diğer tahıllar,0.1082973264025087
+Ekmek,1113,2.5399195041366185,Ekmek,2.1906775557247364
+Bisküvi,1114,0.2792742648855278,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.2841626311853474
+Kraker,1114,0.0573253769752277,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0583287900217002
+Gofret,1114,0.1492091760417101,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.1518209065142086
+Pasta,1114,0.2786361307204941,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.2835133272351264
+Kek,1114,0.0782467379998782,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.0796163547716427
+Baklava,1114,0.3470183983570847,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.3530925457356177
+Ekmek Hamuru (Yufka),1114,0.1016572819868268,"Diğer fırıncılık ürünleri (bisküvi, kek, kraker, yufka, baklava vb.)",0.1034366726929463
+Makarna,1115,0.198219579942513,Makarna çeşitleri,0.2495123402804498
+Şehriye,1115,0.0278138448180139,Makarna çeşitleri,0.0350111604249823
+Tahıl Gevreği,1116,0.0311926602288703,Kahvaltılık tahıl ürünleri,0.043740426751686
+Dana Eti,1122,2.152781593330608,Dana eti,2.102752916754812
+Kuzu Eti,1124,0.9154981622180908,Kuzu eti,0.8694432763422619
+Tavuk Eti,1125,1.4030656957109862,Tavuk eti,1.301081153147174
+Sakatat,1126,0.0574108275603636,Diğer etler ve yenilebilir sakatatlar,0.0600713127304606
+Sucuk,1127,0.4298311573717566,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.4245730560599458
+Sosis,1127,0.0470130821726357,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0464379736799063
+Salam,1127,0.0830787320753456,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0820624344370356
+Hazır Et Yemekleri,1127,0.1010614442268546,"Şarküteri ürünleri (sucuk, sosis, salam vb.)",0.0998251650429258
+Balık,1131,0.3767894666874697,Taze balık,0.3409444443691752
+Konserve Balık,1133,0.0269469553598047,Konserve edilmiş veya işlenmiş balık,0.024847840398397
+Süt,1141,0.7458693641754542,Süt,0.5833553265945621
+Yoğurt,1143,0.5875702846978449,"Diğer süt ürünleri (yoğurt, hazır sütlü tatlı vb.)",0.4624511956836054
+Hazır Sütlü Tatlılar,1143,0.0284282018146945,"Diğer süt ürünleri (yoğurt, hazır sütlü tatlı vb.)",0.0223746099193919
+Beyaz Peynir,1144,0.8288469814896153,Peynir,0.7104251481285014
+Kaşar Peyniri,1144,0.3883564933852076,Peynir,0.3328699090440112
+Tulum Peyniri,1144,0.1601773474087074,Peynir,0.1372919468864436
+Krem Peynir,1144,0.0624639016554331,Peynir,0.0535393475240655
+Yumurta,1145,0.8134349377335438,Yumurta,0.666129768326604
+Tereyağı (Kahvaltılık),1151,0.3320279940549809,Tereyağı,0.3190275793927496
+Margarin,1152,0.1222465338012488,Margarin,0.0693256968699761
+Zeytinyağı,1153,0.4205278873326488,"Sıvı yağlar (zeytinyağı, ayçiçek yağı)",0.4038441234859586
+Ayçiçek Yağı,1153,0.870789079102184,"Sıvı yağlar (zeytinyağı, ayçiçek yağı)",0.8362419306403612
+Portakal,1161,0.1574245125741581,Taze meyveler,0.1897415092702973
+Üzüm,1161,0.1338314394040394,Taze meyveler,0.1613051162434229
+Armut,1161,0.0514614991247679,Taze meyveler,0.062025807503427
+Ayva,1161,0.0190923031495293,Taze meyveler,0.0230116794125771
+Çilek,1161,0.0712399909873165,Taze meyveler,0.0858645403394103
+Elma,1161,0.2151667591971279,Taze meyveler,0.2593374117364962
+Karpuz,1161,0.2210685494987005,Taze meyveler,0.2664507550202474
+Kavun,1161,0.1016167773283513,Taze meyveler,0.1224772456473856
+Kivi,1161,0.0152681180702835,Taze meyveler,0.0184024439332979
+Limon,1161,0.1078926483822247,Taze meyveler,0.1300414631016831
+Mandalina,1161,0.1490798728827222,Taze meyveler,0.1796838346205249
+Muz,1161,0.2950495349443197,Taze meyveler,0.3556189767045491
+Nar,1161,0.0263141601020299,Taze meyveler,0.031716080115461
+Şeftali,1161,0.0702862842629825,Taze meyveler,0.0847150512902312
+Badem İçi,1162,0.0471792185577638,Kuru meyve ve sert kabuklu yemişler,0.0416131194893454
+Ceviz İçi,1162,0.216189624636176,Kuru meyve ve sert kabuklu yemişler,0.1906840544916464
+Fındık İçi,1162,0.0786982111476174,Kuru meyve ve sert kabuklu yemişler,0.0694135715722791
+Antep Fıstığı,1162,0.0525591962214357,Kuru meyve ve sert kabuklu yemişler,0.0463583793773252
+Yer Fıstığı,1162,0.1022107285322727,Kuru meyve ve sert kabuklu yemişler,0.0901521345526099
+Leblebi,1162,0.0426477270405068,Kuru meyve ve sert kabuklu yemişler,0.0376162432430444
+Ay Çekirdeği,1162,0.1930509368359402,Kuru meyve ve sert kabuklu yemişler,0.1702752175144298
+Kabak Çekirdeği,1162,0.0365244459381395,Kuru meyve ve sert kabuklu yemişler,0.0322153731996441
+Kuru Üzüm,1162,0.0382620379395074,Kuru meyve ve sert kabuklu yemişler,0.0337479679688458
+Kuru Kayısı,1162,0.0377428056269041,Kuru meyve ve sert kabuklu yemişler,0.0332899935273947
+Çarliston Biber,1171,0.046179234725973,Taze sebzeler (patates hariç),0.0618109800611124
+Dolmalık Biber,1171,0.0437203866090037,Taze sebzeler (patates hariç),0.0585198078961087
+Sivri Biber,1171,0.1546305477338711,Taze sebzeler (patates hariç),0.2069732372035491
+Dereotu,1171,0.011560255269604,Taze sebzeler (patates hariç),0.015473420298344
+Domates,1171,0.67486798659938,Taze sebzeler (patates hariç),0.9033118870658884
+Taze Fasulye,1171,0.1032083869378932,Taze sebzeler (patates hariç),0.1381445921530105
+Havuç,1171,0.0665974401260998,Taze sebzeler (patates hariç),0.0891407808765662
+Ispanak,1171,0.0612224768748422,Taze sebzeler (patates hariç),0.0819463839073624
+Kabak,1171,0.05094851367239,Taze sebzeler (patates hariç),0.0681946676127178
+Karnabahar,1171,0.0403462705057271,Taze sebzeler (patates hariç),0.0540035480572203
+Kuru Soğan,1171,0.2264333486404254,Taze sebzeler (patates hariç),0.3030814018689723
+Beyaz Lahana,1171,0.0358079476787076,Taze sebzeler (patates hariç),0.0479289956434269
+Kırmızı Lahana,1171,0.0139592541073801,Taze sebzeler (patates hariç),0.0186844841067489
+Mantar,1171,0.0499454814081315,Taze sebzeler (patates hariç),0.0668521073114346
+Kıvırcık,1171,0.0665088147734827,Taze sebzeler (patates hariç),0.0890221556993404
+Maydanoz,1171,0.0512404546805862,Taze sebzeler (patates hariç),0.0685854311224147
+Nane,1171,0.0078491324146314,Taze sebzeler (patates hariç),0.0105060763794974
+Patlıcan,1171,0.1463449126933146,Taze sebzeler (patates hariç),0.1958829013561808
+Pırasa,1171,0.0359989125847275,Taze sebzeler (patates hariç),0.0481846024777197
+Roka,1171,0.0145514884469828,Taze sebzeler (patates hariç),0.0194771907242127
+Salatalık,1171,0.2688011314025102,Taze sebzeler (patates hariç),0.3597907473373555
+Sarımsak,1171,0.0511841325008215,Taze sebzeler (patates hariç),0.0685100437940821
+Kırmızı Turp,1171,0.0146173226099688,Taze sebzeler (patates hariç),0.0195653098574078
+Patates,1172,0.2990010504953072,Patates,0.171065576019581
+Kuru Fasulye,1174,0.1018919836084828,Kuru baklagiller,0.0919447058470532
+Nohut,1174,0.0645307351666859,Kuru baklagiller,0.0582308760009366
+Mercimek,1174,0.1196064546430227,Kuru baklagiller,0.107929788979455
+Konserveler,1175,0.0238903641006612,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0259796188419361
+Turşu,1175,0.028007986575689,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.0304573347103707
+Salça,1175,0.1638579709879898,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.1781876413663857
+Zeytin,1175,0.3747263333931393,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.4074968163135104
+Cipsler,1175,0.1307887620098401,"Konserve edilmiş veya işlenmiş sebze içerikli ürünler (salça, turşu, zeytin vb. dahil)",0.1422264713717902
+Toz Şeker,1181,0.3259043550335031,Şeker,0.2921120470044147
+Kesme Şeker,1181,0.0507177489309737,Şeker,0.0454589367428358
+Reçel,1182,0.0353297885769359,"Reçel, marmelat, bal vb. ürünler",0.0284167737365074
+Bal,1182,0.1520871568320928,"Reçel, marmelat, bal vb. ürünler",0.1223281117155534
+Pekmez,1182,0.0531687263001781,"Reçel, marmelat, bal vb. ürünler",0.0427651487876945
+Tahin Helvası,1182,0.0581864552487071,"Reçel, marmelat, bal vb. ürünler",0.0468010537264112
+Fındık Ezmesi,1182,0.0149761573499329,"Reçel, marmelat, bal vb. ürünler",0.01204575775846
+Çikolata Tablet,1183,0.191237450666291,Çikolata ve şekerlemeler,0.2860846944861548
+Çikolata Krem,1183,0.1151240601590824,Çikolata ve şekerlemeler,0.172221661938428
+Lokum,1183,0.0483435827541978,Çikolata ve şekerlemeler,0.0723203486263512
+Sakız,1183,0.028887978327133,Çikolata ve şekerlemeler,0.0432154289091727
+Kağıtlı Şeker,1183,0.1111382287601392,Çikolata ve şekerlemeler,0.1662589943015866
+Dondurma,1184,0.1566100790434633,Dondurma,0.1490360760554873
+Baharat,1190,0.1152228046600487,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.1336327792828652
+Tuz,1190,0.0320259382612388,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0371429523141498
+Kabartma Maddeleri,1190,0.0181707842418926,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0210740608784655
+Sirke,1190,0.0245814204430895,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0285089704440224
+Ketçap,1190,0.0218407738546253,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0253304310764977
+Mayonez,1190,0.0162524668878589,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0188492401902137
+Tahin,1190,0.0413306678614835,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0479343653562538
+Hazır Çorbalar,1190,0.0304196374158639,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0352800012519433
+Hazır Pakette Toz Tatlılar (Puding),1190,0.0195108329012175,"Başka yerde sınıflandırılamayan diğer gıda ürünleri (tuz, sirke, ketçap, mayonez vb.)",0.0226282187315762
+Kahve,1211,0.1169479760164124,Kahve,0.1064704177825146
+Hazır Kahve,1211,0.0788325082532807,Kahve,0.0717697763952102
+Çay,1212,0.5467115981521996,Çay ve bitki çayları,0.5907848988519926
+Bitki ve Meyve Çayı (Poşet),1212,0.0090767004318079,Çay ve bitki çayları,0.0098084210480251
+Kakao,1213,0.0045060117268064,Toz kakao,0.004861668906072
+Kakaolu Toz İçecekler,1213,0.0013126230714797,Toz kakao,0.00141622773284
+Su,1221,0.3006800947863247,Su ve maden suyu,0.2904832414845726
+Maden Suyu ve Sodası,1221,0.0720747817939509,Su ve maden suyu,0.069630536267053
+Gazoz Meyveli,1222,0.0519250381724612,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.0533166376967741
+Kola,1222,0.1890299435087288,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.1940959769431951
+Soğuk Çay,1222,0.0238297694659858,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.0244684111891408
+Ayran,1222,0.0404025188093849,"Alkolsüz içecekler (meşrubat, ayran vb.)",0.041485312928273
+Meyve Suyu,1223,0.1186664513185257,Meyve ve sebze suları,0.1038503113075755
+Rakı,2110,0.0821282371215916,"Alkollü içecekler (rakı, viski, votka vb.)",0.0933203634260022
+Viski,2110,0.0264473513794729,"Alkollü içecekler (rakı, viski, votka vb.)",0.0300514966458319
+Şarap,2121,0.0251234337228937,Şarap,0.0251971082166573
+Bira,2130,0.1305045141277402,Bira,0.1334293133809811
+Sigaralar,2201,4.044669866550775,Sigaralar,3.240801718330528
+Kaban (Erkek için),3121,0.0290410694547743,Erkek giyim,0.0294529742590939
+Erkek Mont,3121,0.1307199412937383,Erkek giyim,0.1325740111627255
+Takım Elbise (Erkek için),3121,0.146573785570249,Erkek giyim,0.1486527188739178
+Ceket (Erkek için),3121,0.0779442644699325,Erkek giyim,0.0790497890806675
+Pantolon (Erkek için),3121,0.5405385249631628,Erkek giyim,0.5482052679424071
+Kazak (Erkek için),3121,0.1138243131406974,Erkek giyim,0.1154387434048459
+Gömlek (Erkek için),3121,0.2380900213340269,Erkek giyim,0.2414669776751409
+Sweatshirt (Erkek için),3121,0.0566231277648804,Erkek giyim,0.0574262434489731
+Tişört (Erkek için),3121,0.22738299825846,Erkek giyim,0.2306080912444157
+Eşofman (Erkek için),3121,0.0798502583828897,Erkek giyim,0.0809828167105123
+Pijama (Erkek için),3121,0.0206281488769099,Erkek giyim,0.0209207287917044
+İç Çamaşırı (Erkek için),3121,0.0954039042793422,Erkek giyim,0.0967570681696976
+Çorap (Erkek için),3121,0.0642194501073246,Erkek giyim,0.065130308437496
+Pardösü (Kadın için),3122,0.0359573562599618,Kadın giyim,0.0429732983409677
+Kaban (Kadın için),3122,0.0906392045319964,Kadın giyim,0.1083245817512617
+Elbise (Kadın için),3122,0.3418356469773997,Kadın giyim,0.408534073943987
+Ceket (Kadın için),3122,0.0627921675290618,Kadın giyim,0.0750440752427349
+Etek,3122,0.106215787093367,Kadın giyim,0.1269404422918165
+Pantolon (Kadın için),3122,0.348050964118398,Kadın giyim,0.4159621138658556
+Hırka (Kadın için),3122,0.0628488404063022,Kadın giyim,0.0751118060415146
+Kazak (Kadın için),3122,0.242324864974301,Kadın giyim,0.2896069066560017
+Gömlek (Kadın için),3122,0.104749172793994,Kadın giyim,0.1251876645463552
+Sweatshirt (Kadın için),3122,0.0626928273449841,Kadın giyim,0.0749253519601678
+Tişört (Kadın için),3122,0.2375961913159113,Kadın giyim,0.2839555817251607
+Eşofman (Kadın için),3122,0.0833662342406133,Kadın giyim,0.0996325210809222
+Pijama (Kadın için),3122,0.0702442685224775,Kadın giyim,0.0839502183123704
+İç Çamaşırı (Kadın için),3122,0.1638431396522704,Kadın giyim,0.1958119520938699
+Çorap (Kadın için),3122,0.0707723166790123,Kadın giyim,0.0845812983841397
+Kaban Anorak (Çocuk için),3123,0.0079786227953048,Çocuk giyim,0.0097613608519315
+Elbise (Çocuk için),3123,0.0522633065107567,Çocuk giyim,0.0639409842093063
+Pantolon (Çocuk için),3123,0.1618826767071111,Çocuk giyim,0.1980536320058363
+Kazak (Çocuk için),3123,0.0537908016529247,Çocuk giyim,0.0658097818282449
+Gömlek (Çocuk için),3123,0.0264236332214651,Çocuk giyim,0.0323277118759883
+Sweatshirt (Çocuk için),3123,0.0464451650197405,Çocuk giyim,0.056822841136441
+Tişört (Çocuk için),3123,0.163249197295505,Çocuk giyim,0.1997254870260731
+Tayt (Çocuk için),3123,0.0320359958877374,Çocuk giyim,0.039194097043317
+Eşofman (Çocuk için),3123,0.1181098106707939,Çocuk giyim,0.1445001865220879
+Pijama (Çocuk için),3123,0.0306886835052033,Çocuk giyim,0.037545742097407
+İç çamaşırı (Çocuk için),3123,0.0351144036560493,Çocuk giyim,0.0429603421518795
+Çorap (Çocuk için),3123,0.0452166157819535,Çocuk giyim,0.0553197856916515
+Bebek Tulumu,3124,0.0330649366957911,Bebek giyim,0.0330223949397867
+Bebek Pijaması,3124,0.0323712681955962,Bebek giyim,0.0323296189220531
+Bebek İç Çamaşırı,3124,0.0479391840496826,Bebek giyim,0.0478775049032909
+Örgü Yünü,3130,0.0675153914509679,"Diğer giyim eşyaları ve aksesuarları (kravat, kemer, eşarp vb.)",0.064907513852445
+Kravat,3130,0.01113720913418,"Diğer giyim eşyaları ve aksesuarları (kravat, kemer, eşarp vb.)",0.010707018660765
+Kemer,3130,0.0388446845896088,"Diğer giyim eşyaları ve aksesuarları (kravat, kemer, eşarp vb.)",0.0373442536421485
+Eşarp,3130,0.1054108005542026,"Diğer giyim eşyaları ve aksesuarları (kravat, kemer, eşarp vb.)",0.1013391591180819
+Giysi Tamir Ücretleri,3140,0.0637147862481233,Giyim eşyalarının temizlenmesi ve tadilatı,0.0758259662664007
+Kuru Temizleme Ücreti,3140,0.0304727087908784,Giyim eşyalarının temizlenmesi ve tadilatı,0.0362650920592401
+Ayakkabı (Erkek için),3211,0.202295921501404,Erkek ayakkabısı,0.2241584871456903
+Bot (Erkek için),3211,0.0569432312001977,Erkek ayakkabısı,0.0630972115714899
+Spor Ayakkabısı (Erkek için),3211,0.261981334172055,Erkek ayakkabısı,0.2902942337767784
+Ayakkabı (Kadın için),3212,0.1591063798667294,Kadın ayakkabısı,0.193793906237795
+Bot (Kadın için),3212,0.0960915645804457,Kadın ayakkabısı,0.1170409362097487
+Spor Ayakkabısı (Kadın için),3212,0.1702117975857407,Kadın ayakkabısı,0.2073204680385997
+Terlik (Kadın için),3212,0.0703425343621919,Kadın ayakkabısı,0.085678239427821
+Ayakkabı (Çocuk için),3213,0.0453922316767816,Çocuk ve bebek ayakkabısı,0.0474272245066861
+Bot (Çocuk için),3213,0.0484809683586172,Çocuk ve bebek ayakkabısı,0.0506544332743568
+Spor Ayakkabısı (Çocuk için),3213,0.1414364571028997,Çocuk ve bebek ayakkabısı,0.1477772375725833
+Ayakkabı Tamiri (Erkek),3220,0.0052180584872982,Ayakkabı bakım ve tamiri,0.0050707827987259
+Ayakkabı Tamiri (Kadın),3220,0.0041148784776733,Ayakkabı bakım ve tamiri,0.0039987391966234
+Kiracı Tarafından Ödenen Gerçek Kira,4111,4.440049063549106,Gerçek kira,6.802832666918898
+Badana ve Boya Malzemeleri,4310,0.4174258579640811,Konutun bakım ve onarımı için malzemeler,0.3334269228135349
+Yer ve Duvar Döşemesi,4310,0.266243800621345,Konutun bakım ve onarımı için malzemeler,0.2126673502986348
+Pencere (PVC),4310,0.7257769149591686,Konutun bakım ve onarımı için malzemeler,0.5797282530225031
+Sıhhi Techizat Malzemeleri ,4310,0.4960305887648576,Konutun bakım ve onarımı için malzemeler,0.3962139615401689
+Su Faturası,4410,1.921437335207883,Su (şebeke suyu),1.9658391536728808
+Elektrik Ücreti,4510,2.3168962576666354,Elektrik,1.7941971298410209
+Doğalgaz Ücreti,4521,1.5504724608820044,Doğalgaz ve ilgili abonelik ücretleri,1.8713743484036929
+Doğalgaz Abonman Ücreti,4521,0.0206069649883099,Doğalgaz ve ilgili abonelik ücretleri,0.0248719965368743
+Tüp Gaz Ücreti,4522,0.783173126459457,Tüpgaz (ev tüpü),0.4575316914769827
+Kömür Ücreti,4540,0.8922605734477044,"Katı yakıtlar (odun, kömür)",0.5849916568510674
+Odun Ücreti,4540,0.2927340780531742,"Katı yakıtlar (odun, kömür)",0.1919248686237427
+Tek Masa,5111,0.2172332009484301,Mutfak mobilyaları,0.1627611050346067
+Tek Sandalye,5111,0.2287214735829839,Mutfak mobilyaları,0.1713686472554789
+Yatak Odası Takımı,5112,0.4000043358876434,Yatak odası mobilyaları,0.3003783585718713
+Yatak (Tek Kişilik),5112,0.0658899351511245,Yatak odası mobilyaları,0.0494792400766904
+Yatak (Çift Kişilik),5112,0.129815180404944,Yatak odası mobilyaları,0.0974831203297288
+Yatak Bazası,5112,0.1238641643137278,Yatak odası mobilyaları,0.0930142776574424
+Genç Odası Takımı,5112,0.0982201226406033,Yatak odası mobilyaları,0.0737571985364664
+Oturma Odası Takımı,5113,0.8950131530203277,Yemek odası ve oturma odası mobilyaları,0.6823283803326485
+Yemek Odası Takımı,5113,0.183682890879551,Yemek odası ve oturma odası mobilyaları,0.1400337514657911
+Sehpa,5113,0.0269145075770987,Yemek odası ve oturma odası mobilyaları,0.0205187290271202
+Halı,5120,0.1954775567322796,Halı,0.1376508877669006
+Perde,5200,0.0738646046752534,Ev tekstili,0.053278735877118
+Stor Perde,5200,0.1125992536547698,Ev tekstili,0.0812181412438123
+Tül,5200,0.0672234411120899,Ev tekstili,0.0484884469294663
+Yatak Örtüsü,5200,0.0534677150474613,Ev tekstili,0.0385664051204363
+Yorgan,5200,0.0347274095031279,Ev tekstili,0.0250489728706765
+Battaniye,5200,0.0231779858158032,Ev tekstili,0.0167183428365046
+Pike Takımı,5200,0.0603006184925469,Ev tekstili,0.0434949965550634
+Nevresim Takımı,5200,0.1631310626006173,Ev tekstili,0.1176668694818554
+Yastık,5200,0.0324120092856141,Ev tekstili,0.0233788685334084
+Havlu,5200,0.0683876123477862,Ev tekstili,0.0493281667391789
+No-Frost Buzdolabı,5311,0.5199484230743974,"Buzdolabı, derin dondurucu",0.49769758721288
+Derin Dondurucu,5311,0.2611766376465658,"Buzdolabı, derin dondurucu",0.2499997627158282
+Çamaşır Makinesi,5312,0.4792674278903118,Çamaşır ve bulaşık makineleri,0.497302187002324
+Bulaşık Makinesi,5312,0.2233734845405422,Çamaşır ve bulaşık makineleri,0.2317789941814382
+Ankastre Mikrodalga Fırın,5313,0.0866874410181842,"Fırın, ocak ve fırınlı ocak",0.0725568212018373
+Ankastre Ocak (Set Üstü) ,5313,0.0615485703721561,"Fırın, ocak ve fırınlı ocak",0.0515157508777362
+Ankastre Fırın,5313,0.0323002823468425,"Fırın, ocak ve fırınlı ocak",0.027035125082503
+Klima,5314,0.1775280248041722,Klima ve ısıtıcılar,0.1316409678895452
+Soba,5314,0.0395442939135857,Klima ve ısıtıcılar,0.0293229710128039
+Kombi,5314,0.2205280229481295,Klima ve ısıtıcılar,0.1635264202352425
+Davlumbaz,5314,0.0290351300678312,Klima ve ısıtıcılar,0.0215301929323234
+Elektrikli Süpürge,5315,0.2748220406486656,Diğer büyük ev aletleri (elektrikli süpürge vb.),0.2459046966588748
+Elektrikli Kesici Aletler (Blender),5320,0.0591312825348136,Elektrikli küçük ev aletleri,0.0603287093859557
+Elektrikli Küçük Ev Aletleri (Tost Makinası),5320,0.0373358140850655,Elektrikli küçük ev aletleri,0.0380918759254016
+Sıcak İçecek Makinaları,5320,0.0934027356885751,Elektrikli küçük ev aletleri,0.0952941701186972
+Ütü,5320,0.042598366374087,Elektrikli küçük ev aletleri,0.0434609965340381
+Ev Aletlerinin Tamiri (Malzeme ve İşçilik),5330,0.184789679282176,Ev aletlerinin onarımı,0.1637088554105487
+Cam Ev Eşyası,5401,0.0969464217536263,"Cam, porselen, seramik vb. mutfak eşyaları",0.104825505250679
+Porselen Ev Eşyası,5401,0.1245976279588928,"Cam, porselen, seramik vb. mutfak eşyaları",0.1347239956624651
+"Kaşık, Çatal, Bıçak Takımı (Çelik)",5402,0.053378205145085,Çatal-bıçak takımı,0.0389339981884869
+Çelik Mutfak Eşyaları,5403,0.1641641911736468,"Elektriksiz mutfak eşyaları ve ev gereçleri (tencere, tava, çaydanlık vb.)",0.1230045892509416
+Teflon Mutfak Eşyaları,5403,0.0521203346075899,"Elektriksiz mutfak eşyaları ve ev gereçleri (tencere, tava, çaydanlık vb.)",0.0390526113167205
+Plastik Mutfak Eşyaları,5403,0.1085296285915524,"Elektriksiz mutfak eşyaları ve ev gereçleri (tencere, tava, çaydanlık vb.)",0.0813188448164094
+Diğer Elektriksiz Ev Aletleri,5403,0.0690412169260208,"Elektriksiz mutfak eşyaları ve ev gereçleri (tencere, tava, çaydanlık vb.)",0.0517310533354221
+Pil,5521,0.0366914118897878,"Çeşitli küçük aksesuarlar (pil, ampul vb.)",0.033194529442773
+Ampul,5521,0.0732088521559043,"Çeşitli küçük aksesuarlar (pil, ampul vb.)",0.0662316676627305
+"Kapı Aksesuarları (Anahtar, Kilit)",5522,0.046605513302773,Evle ilgili küçük bakım-tamir mal ve hizmetleri,0.0372913852908064
+Soba Aksesuar ve Malzemeleri,5522,0.0460670398514872,Evle ilgili küçük bakım-tamir mal ve hizmetleri,0.0368605259456831
+Çamaşır İçin Temizlik ve Bakım Ürünleri,5611,0.6614109710591071,"Ev ile ilgili temizlik malzemeleri (deterjan, yumuşatıcı vb.)",0.7230107623474171
+Bulaşık İçin Temizlik ve Bakım Ürünleri,5611,0.3001981030184202,"Ev ile ilgili temizlik malzemeleri (deterjan, yumuşatıcı vb.)",0.3281567267791814
+Hijyenik Zeminler İçin Temizlik ve Bakım Ürünleri,5611,0.0944796663779267,"Ev ile ilgili temizlik malzemeleri (deterjan, yumuşatıcı vb.)",0.1032789273284218
+Her Türlü Ev Temizlik Aletleri,5612,0.0449217845079427,"Ev ile ilgili diğer temizlik malzemeleri (bulaşık süngeri, çöp torbası vb.)",0.0276152049910172
+Bulaşık Bezleri,5612,0.0225335503669068,"Ev ile ilgili diğer temizlik malzemeleri (bulaşık süngeri, çöp torbası vb.)",0.0138522683231232
+Saklama ve Muhafaza Malzemeleri,5612,0.0960997997183236,"Ev ile ilgili diğer temizlik malzemeleri (bulaşık süngeri, çöp torbası vb.)",0.05907636345898
+Kağıt Sofra Malzemeleri,5612,0.1687671669030978,"Ev ile ilgili diğer temizlik malzemeleri (bulaşık süngeri, çöp torbası vb.)",0.1037478800281903
+Gündelikçi Ücreti,5621,0.4384557301150973,Ev içi hizmetler (gündelikçi ücreti),0.4151142694528211
+Halı Temizleme,5622,0.0847228082827027,Ev eşyalarının yıkanması ve temizlenmesi hizmetleri,0.1022211645074862
+İlaçlar,6110,0.6741876334654788,İlaçlar,0.7035975055592734
+Diğer Sağlık Ürünleri,6120,0.0967952614082258,Diğer sağlık ürünleri (hasta bezi vb.),0.1038670436056894
+Numaralı Gözlük Cam ve Çerçevesi,6131,0.1527315071663719,Gözlükler ve kontakt lensler,0.2386167326340433
+Kontakt Lens,6131,0.0230361254760846,Gözlükler ve kontakt lensler,0.035989987237299
+Sağlık İle İlgili Araç Gereçler (Tansiyon Aleti),6132,0.0903480965292681,Diğer sağlık ekipmanları (tansiyon aleti vb.),0.1272876412159016
+Uzman Doktor Muayene Ücreti,6212,0.4588277533650846,"Ayakta tedavi hizmetleri (muayene ücreti, muayene katkı payı vb.)",0.6546477608026262
+Diş Çekme Ücreti,6220,0.1409284766903122,Diş hekimliği hizmetleri,0.2004499408966993
+Diş Dolgu Ücreti,6220,0.4748209205038995,Diş hekimliği hizmetleri,0.6753626214287023
+Röntgen Ücreti,6231,0.0432910373863245,"Tıbbi tahlil, analiz ve röntgen çekim hizmetleri",0.0532138188929454
+Ultrason Ücreti,6231,0.0504092301166191,"Tıbbi tahlil, analiz ve röntgen çekim hizmetleri",0.0619635796208932
+Emar Ücreti,6231,0.0728943872988698,"Tıbbi tahlil, analiz ve röntgen çekim hizmetleri",0.0896025819251825
+Labaratuvar Tahlil Ücretleri,6231,0.244901729036946,"Tıbbi tahlil, analiz ve röntgen çekim hizmetleri",0.3010358966278329
+Hastane Yatak Ücreti,6300,0.0362504024571802,Hastane hizmetleri,0.0426560842816205
+Ameliyat Ücreti,6300,0.585887175887167,Hastane hizmetleri,0.6894172494687291
+Doğum Ücreti (Normal Doğum),6300,0.0233867019820546,Hastane hizmetleri,0.0275192842891616
+Doğum Ücreti (Sezaryen),6300,0.0696624615862913,Hastane hizmetleri,0.0819722715133999
+Otomobil (Dizel),7111,1.7961557592384652,Dizel otomobiller (sıfır km),0.6549422697958884
+Otomobil (Benzinli),7113,5.472288261117009,Benzinli ve elektrikli otomobiller (sıfır km),6.293396836859217
+Motorsiklet,7120,0.280567991643656,Motosikletler,0.4034488527708233
+Bisiklet,7130,0.0564496547440636,Bisikletler,0.0562647351749276
+Araç Yedek Parça ve Ekipmanları,7210,0.3912026664712904,Kişisel ulaştırma araçlarının yedek parça ve aksesuarları,0.3869128314210457
+"Araba İle İlgili, Temizlik ve Bakım Ürünleri",7210,0.0166276068147083,Kişisel ulaştırma araçlarının yedek parça ve aksesuarları,0.0164452724478216
+Benzin,7220,1.4714751439689964,"Kişisel ulaştırma araçlarının yakıt ve yağları (benzin, motorin, motor yağı)",0.9962159338165676
+LPG (Araba Tüpü Dolum)  Ücreti,7220,1.3838669407763498,"Kişisel ulaştırma araçlarının yakıt ve yağları (benzin, motorin, motor yağı)",0.9369035571778814
+Motorin,7220,2.015432219154974,"Kişisel ulaştırma araçlarının yakıt ve yağları (benzin, motorin, motor yağı)",1.3644849513623678
+Motor Yağları,7220,0.0447775477505608,"Kişisel ulaştırma araçlarının yakıt ve yağları (benzin, motorin, motor yağı)",0.0303152294003552
+Araçların  Tamirine ve Bakımına Ödenen Ücretler (Malzeme ve işçilik),7230,1.0737792630868876,Kişisel ulaştırma araçlarının bakım ve onarımı,0.9605687060245344
+Araçların  Tamirine ve Bakımına Ödenen Ücretler (İşçilik),7230,0.1489477514764048,Kişisel ulaştırma araçlarının bakım ve onarımı,0.1332439113134342
+Araba Kiralama Ücreti,7240,0.0661306350270547,Kişisel ulaştırma araçları ile ilgili diğer hizmetler (köprü ve otoban geçiş ücretleri dahil),0.0632725126512058
+Otopark Ücreti,7240,0.0348601741499427,Kişisel ulaştırma araçları ile ilgili diğer hizmetler (köprü ve otoban geçiş ücretleri dahil),0.0333535404434438
+Otoban Geçiş Ücreti,7240,0.0106767717869148,Kişisel ulaştırma araçları ile ilgili diğer hizmetler (köprü ve otoban geçiş ücretleri dahil),0.0102153287607964
+Köprü Geçiş Ücreti,7240,0.004932969335216,Kişisel ulaştırma araçları ile ilgili diğer hizmetler (köprü ve otoban geçiş ücretleri dahil),0.0047197696580831
+Sürücü Eğitim Kurs Ücreti,7240,0.0869383751220741,Kişisel ulaştırma araçları ile ilgili diğer hizmetler (köprü ve otoban geçiş ücretleri dahil),0.0831809559599159
+Tren Ücreti Banliyo,7311,0.0024611601557976,Demiryolu ile şehir içi yolcu taşımacılığı,0.0039648097546753
+Metro Ücreti,7311,0.001832388639682,Demiryolu ile şehir içi yolcu taşımacılığı,0.0029518893095411
+Tramvay Ücreti,7311,0.0014039283767428,Demiryolu ile şehir içi yolcu taşımacılığı,0.0022616605871272
+Tren Ücreti (Şehirlerarası),7312,0.0409463567780767,Demiryolu ile şehirler arası yolcu taşımacılığı,0.059863466324493
+Belediye Otobüs Ücreti,7321,0.1312543804422469,Otobüs ile şehir içi yolcu taşımacılığı,0.1703773221101516
+Dolmuş Ücreti,7321,0.6515704208676362,Otobüs ile şehir içi yolcu taşımacılığı,0.8457837605081602
+Servis Ücreti,7321,0.5882538873564501,Otobüs ile şehir içi yolcu taşımacılığı,0.7635944927017402
+Taksi Ücreti,7322,0.2144057291645332,Taksi ile şehir içi yolcu taşımacılığı,0.3022887289744825
+Şehirlerarası Otobüs Ücreti ,7323,0.4241047112076131,Karayolu ile şehirler arası yolcu taşımacılığı,0.4126598682374569
+Uçak Bileti Ücreti,7330,0.2402034449735299,Havayolu ile yolcu taşımacılığı,0.1881605831282576
+Vapur Bilet Ücreti ,7340,0.0248039488399686,Deniz ve yurt içi su yolu ile yolcu taşımacılığı,0.0348463907973072
+Kargo Gönderme Ücreti,7360,0.020139660923221,"Diğer satın alınan ulaştırma hizmetleri (nakliye, kargo vb.)",0.0200402838372136
+Nakliye Ücreti (Şehiriçi),7360,0.108456717210323,"Diğer satın alınan ulaştırma hizmetleri (nakliye, kargo vb.)",0.1079215486910823
+Koli Gönderme Ücreti,8100,0.0014683625262429,Posta hizmetleri,0.0020245529747892
+Telefon Ekipmanları (Cep Telefonu),8200,0.9236804448426884,"Mobil telefon, ekipman ve aksesuarları",0.9913670649574692
+Telefon Yedek Parçaları ,8200,0.0756179242389684,"Mobil telefon, ekipman ve aksesuarları",0.0811591498223497
+Telefon Onarım Ücreti,8200,0.0621743258241983,"Mobil telefon, ekipman ve aksesuarları",0.0667304144546898
+Telefon Görüşme Ücreti ,8300,0.0940407059098846,Telefon (mobil ve sabit hat) ve internet ücretleri,0.0857150281145934
+Cep Telefonu Görüşme Ücreti,8300,2.103542106079228,Telefon (mobil ve sabit hat) ve internet ücretleri,1.9173098395878827
+Telefon Aboneliğine İlişkin Hizmetler,8300,0.0040618916187012,Telefon (mobil ve sabit hat) ve internet ücretleri,0.0037022813783324
+İnternet Ücreti,8300,0.5183857608098098,Telefon (mobil ve sabit hat) ve internet ücretleri,0.4724916687098938
+Televizyon,9111,0.6032522244825199,Televizyonlar,0.5438074331114653
+Bilgisayar,9130,0.1509824177918561,Bilgisayar ve ekipmanları,0.1436900123074574
+Bilgisayar Ekipmanları,9130,0.0834627017473529,Bilgisayar ve ekipmanları,0.0794314782918893
+Tablet (Bilgisayar),9130,0.0173540941828102,Bilgisayar ve ekipmanları,0.0165158966400343
+Görsel İşitsel Veri İşleme Araçları Tamiri (Malzeme ve İşçilik),9150,0.0481576381221824,Görsel ve işitsel cihazların bakım ve onarımı,0.0510952835239224
+"Görsel, İşitsel Veri İşleme Araçları (İşçilik Ücreti)",9150,0.0065103931273993,Görsel ve işitsel cihazların bakım ve onarımı,0.0069075310930466
+Müzik Aletleri ,9220,0.0681737005745947,Müzik enstrümanları,0.0744401413958126
+Oyuncak,9310,0.0926863262594265,"Oyunlar, oyuncaklar ve hobiler",0.0946441694495187
+Scooter (Çocuk),9310,0.0990965937156415,"Oyunlar, oyuncaklar ve hobiler",0.1011898430545404
+Sporla İlgili Aletler (Futbol Topu),9320,0.0987980213260532,"Spor, kamp ve açık hava eğlence malzemeleri",0.1003171098702939
+Evcil Hayvanlar İçin Gıda Harcamaları,9340,0.2123218297888637,Evcil hayvanlar ile ilgili ürünler,0.1980377665962645
+Veteriner Ücreti,9350,0.0221460339255774,Evcil hayvanlarla ilgili veterinerlik ve diğer hizmetler,0.0281692924467983
+Spor Müsabakalarına Giriş Ücreti,9410,0.0327957981358218,Eğlence ve spor hizmetleri,0.0411969394899481
+Sportif Faaliyetler İçin Yapılan Ödemeler,9410,0.4986187487827038,Eğlence ve spor hizmetleri,0.6263475076009124
+Resim Çektirme Ücreti,9421,0.0453255879550736,Fotoğrafçılık hizmetleri,0.047715720744566
+Kablolu- Özel Televizyon Yayın Hizmetleri,9422,0.1773015083388656,"Diğer eğlence ve kültür hizmetleri (sinema, tiyatro vb.)",0.2134390360636853
+Sinema,9422,0.0435880233995713,"Diğer eğlence ve kültür hizmetleri (sinema, tiyatro vb.)",0.0524721181759202
+Tiyatro,9422,0.0118133596995803,"Diğer eğlence ve kültür hizmetleri (sinema, tiyatro vb.)",0.0142211542957263
+Diğer Kültürel Faaliyetler,9422,0.0340911253786361,"Diğer eğlence ve kültür hizmetleri (sinema, tiyatro vb.)",0.0410395659197407
+Şans Oyunları,9430,0.03135464741468,Şans oyunları,0.0382185787910322
+Çocuk Kitapları,9510,0.0276309337074566,Kitaplar,0.0316863631365854
+Test Kitapları,9510,0.1348138744397573,Kitaplar,0.1546006887271918
+Diğer Kitaplar,9510,0.1394926427020524,Kitaplar,0.1599661661215009
+Gazeteler,9520,0.0314976076738972,Gazete ve dergiler,0.0279348053393048
+Magazinler ve Dergiler,9520,0.0117255554410574,Gazete ve dergiler,0.0103992376859978
+Okul Defteri,9540,0.0535386935646857,Kırtasiye malzemeleri,0.0381531225468009
+Kalem,9540,0.0450070028271287,Kırtasiye malzemeleri,0.032073208739264
+Resim Boyaları,9540,0.0282743171634096,Kırtasiye malzemeleri,0.0201490439126858
+Yazım ve Çizim Kağıtları,9540,0.0150126480415405,Kırtasiye malzemeleri,0.0106984194485218
+Diğer Kırtasiye Malzemeleri ,9540,0.0577535844347283,Kırtasiye malzemeleri,0.0411567678952223
+Yurtiçi Haftasonu Turları,9600,0.0077981197166587,Paket turlar,0.0179495427825717
+Yurtiçi Bir Hafta ve Daha Fazla Süreli Turlar,9600,0.0212363440856769,Paket turlar,0.0488813560911317
+Yurt Dışı Bir Hafta ve Daha Fazla Süreli Turlar,9600,0.0023981425169798,Paket turlar,0.0055199924175668
+Hacca Gidiş Ücreti,9600,0.0582965006377315,Paket turlar,0.1341856204176774
+Umreye Gidiş Ücreti,9600,0.0508515896721394,Paket turlar,0.1170490858754008
+Özel İlköğretim Ücreti,10100,0.4776832834499808,Okul öncesi eğitim ve ilköğretim,0.5178199366797936
+Özel Lise Ücreti,10200,0.8334754159300206,Orta öğretim,0.7904518157298962
+Özel Üniversite Ücreti,10400,0.4499734413583232,Üniversite eğitimi,0.6973112111712811
+Üniversite Katkı Payı,10400,0.0753543616935738,Üniversite eğitimi,0.1167745390949457
+Düzeyi Belirlenemeyen Eğitim Programları,10500,0.1994821953727541,Yaygın eğitim hizmetleri (dershane ve kurslar),0.1842424973240834
+Çorbalar,11101,0.2528234157743696,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.2962958657024411
+"Hazır Yemekler (Pilav, Kuru Fasulye)",11101,1.004457150468291,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",1.1771714263389874
+Kebaplar,11101,0.7571163241511896,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.8873008697186053
+Pideler,11101,0.5689889233979245,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.6668253615548967
+Çiğ Köfte,11101,0.3050757311587233,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.3575328558536262
+Ekmekarası Yiyecekler (Döner),11101,0.877090742803598,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",1.027904635109098
+Burgerler,11101,0.8155673102519901,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.955802378864238
+Pizzalar,11101,0.2429400789474538,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.2847131100775695
+Pastane Ürünleri,11101,0.2891173072323186,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.3388304147919942
+Hamur Tatlıları,11101,0.0747851930377809,"Lokanta, pastane, kafe vb. yerlerde yenen yemekler",0.0876443483092115
+Sıcak İçecekler (Servis edilen),11102,0.8676088813524278,"Lokanta, pastane, kafe vb. yerlerde içilen içecekler",1.08327050334018
+Soğuk İçecekler (Servis edilen),11102,0.0555560437442501,"Lokanta, pastane, kafe vb. yerlerde içilen içecekler",0.0693656148109168
+Ayran (Servis edilen),11102,0.0986531350663555,"Lokanta, pastane, kafe vb. yerlerde içilen içecekler",0.1231753542135621
+Alkollü İçkiler,11102,0.1483848387013255,"Lokanta, pastane, kafe vb. yerlerde içilen içecekler",0.1852688721414118
+Otel Ücreti,11201,0.5220332765968293,"Otel, pansyion vb. yerlerde konaklama hizmetleri",0.4999238164069579
+Yurt Ücreti,11202,0.2349859440316338,Diğer konaklama hizmetleri (öğrenci yurtları),0.2744745727663022
+Erkek Berberi,12111,0.2586612479506204,Erkekler için kuaförlük hizmetleri,0.2981279384072864
+Kadın Berberi,12112,0.2067441924456061,Kadınlar için kuaförlük hizmetleri,0.2590714402945719
+Kişisel Bakım Hizmetleri (Kadın İçin),12112,0.0872344795994869,Kadınlar için kuaförlük hizmetleri,0.1093136499064298
+Elektrikli Saç Bakım Aletleri,12120,0.0410902360530659,Kişisel bakımda kullanılan elektrikli aletler,0.0468660378837797
+Tıraş Malzemeleri,12130,0.0534509508784265,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.0517584285896708
+Ağız ve Diş Bakımı Ürünleri,12130,0.1329466329943115,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.1287368830111973
+Tuvalet ve Güzellik Sabunu,12130,0.1231195351872167,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.1192209598754403
+Sabun,12130,0.0391676629739333,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.0379274204433068
+Parfüm,12130,0.1256315248272771,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.1216534074608683
+Deodorant,12130,0.0512511275704389,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.0496282626015045
+Kolonya,12130,0.0495573333305182,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.0479881022905695
+Cilt ve Vücut Ürünleri,12130,0.1777066895466204,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.1720796141068823
+Makyaj Malzemeleri,12130,0.0951651022245868,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.0921517029495546
+Saç Bakım Ürünleri,12130,0.3256189695468365,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.3153082574913448
+Tuvalet Kağıdı,12130,0.2349182924411601,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.2274796138122721
+Mendil,12130,0.1010302792965223,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.0978311594167374
+Bebek Bezi,12130,0.3841453815224633,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.3719814328992079
+Hijyenik Kadın Bağı,12130,0.081080237765046,"Kişisel hijyen ve bakım için kullanılan ürünler, kozmetikler",0.078512835177446
+Mücevher (Altın),12310,1.0020820066465013,"Mücevheratlar, saat ve kol saatleri",0.4035396824912638
+Saat,12310,0.1394632389537563,"Mücevheratlar, saat ve kol saatleri",0.0561620214646318
+Seyahat Malzemeleri,12321,0.0305449326804269,Seyahat malzemeleri ve diğer kişisel aksesuarlar,0.0316842735419746
+Çanta (Kadın İçin),12321,0.0963633241022135,Seyahat malzemeleri ve diğer kişisel aksesuarlar,0.0999577230112859
+Okul Çantası,12321,0.0516465934405109,Seyahat malzemeleri ve diğer kişisel aksesuarlar,0.0535730365229742
+Şemsiye,12322,0.0277544324984804,Başka yerde sınıflandırılmamış diğer kişisel aksesuarlar,0.0254230365834479
+Bebek Arabası,12322,0.1295837411952707,Başka yerde sınıflandırılmamış diğer kişisel aksesuarlar,0.1186985968172037
+Kreş ve Gündüz Bakım Evleri,12400,0.2120900911178276,Çocuk bakım hizmetleri (kreşler),0.2487181591476468
+"Yangın, Hırsızlık ve Diğer Afetler İçin Sigorta",12520,0.0145443072362571,Konut sigortası,0.0190349923185344
+Sağlık Sigortası,12530,0.0213261873708193,Sağlık sigortası,0.0330557703461587
+Kasko ve Zorunlu Trafik Sigortası,12540,0.2113248916814812,Ulaştırma sigortası,0.2013456260261826
+Banka ile Para Havale Ücreti,12620,0.0038674086723324,Başka yerde sınıflandırılmayan diğer mali hizmetler (para havale ücreti vb.),0.0049210713269031
+Resmi Evraklarla İlgili Hizmet Ücreti,12700,0.1298155149070763,"Başka yerde sınıflandırılmayan diğer hizmetler (noterlik, avukatlık hizmetleri vb.)",0.1444705192578701
+Ulaşım Araçları ile İlgili Hizmet Ücreti,12700,0.1364805730913938,"Başka yerde sınıflandırılmayan diğer hizmetler (noterlik, avukatlık hizmetleri vb.)",0.1518880025799639
+Avukatlık Ücreti,12700,0.1727033206660163,"Başka yerde sınıflandırılmayan diğer hizmetler (noterlik, avukatlık hizmetleri vb.)",0.1921999726460874
+Dökümantasyon İçin Ödenen Ücretler,12700,0.0190408307234957,"Başka yerde sınıflandırılmayan diğer hizmetler (noterlik, avukatlık hizmetleri vb.)",0.0211903692998
