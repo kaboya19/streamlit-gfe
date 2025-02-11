@@ -390,7 +390,7 @@ if page=="Gıda Fiyat Endeksi":
 
     endeksler = pd.concat([gida_index, other_indices])
     endeksler1=endeksler.T
-    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=(len(endeksler1))))
+    endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-31",freq="D",periods=(len(endeksler1))))
     endeksler1=endeksler1.drop("WEB-GFE",axis=1)
     endeksler_sa=pd.DataFrame()
     
@@ -1169,7 +1169,7 @@ if page=="Gıda Fiyat Endeksi":
         endeksler = endeksler[sira]
         endeksler=endeksler.drop("Değişim",axis=1)
         endeksler=endeksler.T.iloc[1:]
-        endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+        endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
         endeksler.index=endeksler.index.strftime("%Y-%m-%d")
 
         endeksler["Tarih"]=endeksler.index
@@ -1221,7 +1221,7 @@ if page=="Gıda Fiyat Endeksi":
         endeksler1=endeksler1.set_index("Ürün")
 
         endeksler1=(endeksler1).T
-        endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
+        endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler1)))
         aylık=endeksler1.resample('M').last()
         ekim=endeksler1.resample('M').last()
         
@@ -1439,7 +1439,7 @@ if page=="Gıda Fiyat Endeksi":
         endeksler1=endeksler1.set_index("Ürün")
 
         endeksler1=(endeksler1).T
-        endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler1)))
+        endeksler1=endeksler1.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler1)))
         aylık=endeksler1.resample('M').last()
         ekim=endeksler1.resample('M').last()
         
@@ -1475,7 +1475,7 @@ if page=="Madde Endeksleri":
     from plotly.subplots import make_subplots
     endeksler=pd.read_csv("endeksler.csv",index_col=0)
     endeksler=endeksler.T
-    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
     
     
     maddeler=pd.DataFrame(index=endeksler.index,columns=endeksler.columns)
@@ -1815,7 +1815,7 @@ if page=="Harcama Grupları":
     endeksler=endeksler.set_index(endeksler["Ürün"])
     endeksler=endeksler.drop("Ürün",axis=1)
     endeksler=endeksler.T
-    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
     ağırlıklar=pd.read_excel("Weights_2022.xlsx")
     cols=ağırlıklar["Unnamed: 1"].dropna().iloc[2:130].values
     ağırlıklar=ağırlıklar[["Unnamed: 5","Unnamed: 4"]]
