@@ -720,7 +720,8 @@ if page=="Gıda Fiyat Endeksi":
 
    
     if selected_group!="WEB-GFE":
-
+        guncelleme=pd.read_csv("tarih.csv")
+        guncelleme=guncelleme.iloc[0,1]   
         st.markdown(f"""
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
@@ -728,7 +729,7 @@ if page=="Gıda Fiyat Endeksi":
                 {month} Değişimi: <span style='color:red;'>%{ degisim24}</span><br>
                 <span style='font-size:15px;'>*Aylık değişim ay içindeki ortalamalara göre hesaplanmaktadır.</span>
 
-                Güncelleme Tarihi: {tarih}
+                Güncelleme Tarihi: {guncelleme}
             </h3>
             """, unsafe_allow_html=True)
         
@@ -737,6 +738,8 @@ if page=="Gıda Fiyat Endeksi":
 
         
     elif selected_group=="WEB-GFE":
+        guncelleme=pd.read_csv("tarih.csv")
+        guncelleme=guncelleme.iloc[0,1]  
         periyot = st.sidebar.selectbox("Grafik Tipi:", ["Günlük","Aylık"])
 
         gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
@@ -814,7 +817,7 @@ if page=="Gıda Fiyat Endeksi":
                 <span style='font-size:15px;'>*Aylık değişim 24 günlük ortalamalara göre hesaplanmaktadır.</span><br>
                 
 
-                Güncelleme Tarihi: {tarih}
+                Güncelleme Tarihi: {guncelleme}
             </h3>
             """, unsafe_allow_html=True)
         
