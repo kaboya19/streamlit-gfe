@@ -3449,10 +3449,10 @@ while(True):
     endekslerr=pd.read_csv("endeksler.csv",index_col=0)
 
     endeksler=endekslerr.T
-    endeksler=endeksler.set_index(pd.date_range(start="2024-10-11",freq="D",periods=len(endeksler)))
+    endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
     endeksler=(endeksler.loc["2024-10-31":]/endeksler.loc["2024-10-31"])*100
     endeksler=endeksler.T
-    endeksler.columns=endekslerr.columns[20:]
+    endeksler.columns=endekslerr.columns
 
 
 
