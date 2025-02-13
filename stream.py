@@ -609,13 +609,8 @@ if page=="Gıda Fiyat Endeksi":
     tarih=datetime.now().strftime("%Y-%m")
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
     if selected_group=="WEB-GFE":
-        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
-        oran=yeni_gfe["GFE"].iloc[0]
-        yeni_gfe["GFE"] = (yeni_gfe["GFE"]/oran)*100
 
-        yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
-        yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
-        hareketlima = hareketli_aylik_ortalama(yeni_gfe["GFE"])
+        hareketlima = hareketli_aylik_ortalama(gfe["GFE"])
         hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
         cari=hareketlima.loc[tarih:]
@@ -779,24 +774,19 @@ if page=="Gıda Fiyat Endeksi":
         gfe=gfe.fillna(100)
         degisim24=np.round(((((hareketli_aylik_ortalama(gfe["GFE"])["Aylık Ortalama"].iloc[-1])/hareketli_aylik_ortalama(gfe["GFE"])["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
-        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
-        oran=yeni_gfe["GFE"].iloc[0]
-        yeni_gfe["GFE"] = (yeni_gfe["GFE"]/oran)*100
-
-        yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
-        yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
-        first_value = yeni_gfe.iloc[0,0]  # İlk değer
-        last_value = yeni_gfe.iloc[-1,0] # Son değer
-        first_date = yeni_gfe.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
-        last_date = yeni_gfe.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
+        
+        first_value = gfe.iloc[0,0]  # İlk değer
+        last_value = gfe.iloc[-1,0] # Son değer
+        first_date = gfe.index[0].strftime("%d.%m.%Y")  # İlk tarihi formatlama
+        last_date = gfe.index[-1].strftime("%d.%m.%Y")  # Son tarihi formatlama
         change_percent = ((last_value - first_value) / first_value) * 100  # Yüzde değişim
         change_percent = round(change_percent, 2)
        
 
 
         figgalt.add_trace(go.Scatter(
-                x=yeni_gfe.index,
-                y=yeni_gfe["GFE"].values,
+                x=gfe.index,
+                y=gfe["GFE"].values,
                 mode='lines+markers',
                 name=selected_group,
                 line=dict(color='blue', width=4),
@@ -889,13 +879,6 @@ if page=="Gıda Fiyat Endeksi":
     gfe=pd.read_csv("gfe.csv")
     gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
     gfe=gfe.drop("Tarih",axis=1)
-
-    yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
-    oran=yeni_gfe["GFE"].iloc[0]/100
-    yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
-
-    yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
-    yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
 
 
 
@@ -1199,18 +1182,13 @@ if page=="Gıda Fiyat Endeksi":
         gfe=pd.read_csv("gfe.csv")
         gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
         gfe=gfe.drop("Tarih",axis=1)
-        yeni_gfe=pd.DataFrame(gfe["GFE"]).loc["2024-10-31":]
-        oran=yeni_gfe["GFE"].iloc[0]
-        yeni_gfe["GFE"] = yeni_gfe["GFE"]/oran
-
-        yeni_gfe["GFE"]=np.cumprod(yeni_gfe["GFE"].pct_change().drop("2024-11-29")+1).fillna(1)*100
-        yeni_gfe.loc["2024-11-29"]=(yeni_gfe.pct_change().mean().values[0]+1)*yeni_gfe.loc["2024-11-28"].values[0]
-        yeni_gfe["Tarih"]=yeni_gfe.index.strftime("%Y-%m-%d")
-        sira = ['Tarih'] + [col for col in yeni_gfe.columns if col != 'Tarih']
-        yeni_gfe = yeni_gfe[sira]
+      
+        gfe["Tarih"]=gfe.index.strftime("%Y-%m-%d")
+        sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
+        gfe = gfe[sira]
         
        
-        excel_data2 = to_excel(yeni_gfe)
+        excel_data2 = to_excel(gfe)
 
         aylıkenf=np.round(float(((hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{year}-{monthh}"].iloc[0]/hareketlima["Aylık Ortalama"].resample("M").last().loc[f"{oncekiyear}-{onceki}"].iloc[0])-1)*100),2)
         aylıkenf=np.round(hareketlima["Aylık Ortalama"].resample("M").last().pct_change()*100,2).dropna().iloc[1:]
