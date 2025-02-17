@@ -787,7 +787,7 @@ if page=="Gıda Fiyat Endeksi":
         figgalt.add_trace(go.Scatter(
                 x=gfe.index,
                 y=gfe["GFE"].values,
-                mode='lines+markers',
+                mode='lines',
                 name=selected_group,
                 line=dict(color='blue', width=4),
                 marker=dict(size=8, color="black"),
