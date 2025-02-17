@@ -348,7 +348,7 @@ while(True):
 
 
 
-    pages1 = ["https://www.carrefoursa.com/bugday-unu/c/1277?q=%3AbestSeller%3AinStockFlag%3Atrue&text=#"]
+    pages1 = ["https://www.carrefoursa.com/un-ve-irmik/c/1276?q=%3AbestSeller%3AinStockFlag%3Atrue&page=2"]
 
         
 
@@ -358,6 +358,7 @@ while(True):
 
     #
     urunler_df=vericek(pages1,migros_pages,"Buğday Unu")
+    urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Buğday Unu|Buğday Un|Buğday un|Buğday unu",case=False)]
 
 
 
@@ -2333,7 +2334,7 @@ while(True):
 
 
 
-    carrefour=["https://www.carrefoursa.com/soguk-cay/c/1450?q=%3AbestSeller%3AinStockFlag%3Atrue&text=#"]
+    carrefour=["https://www.carrefoursa.com/cay-/c/1455?q=%3AbestSeller%3AinStockFlag%3Atrue&text=#"]
     migros=["https://www.migros.com.tr/rest/search/screens/soguk-cay-c-28be"]
 
 
@@ -2341,7 +2342,8 @@ while(True):
     urunler_df=vericek(carrefour,migros,"Soğuk Çay")
     if urunler_df is not None:
         if not urunler_df.empty:
-            urunler_df=urunler_df[~urunler_df["Ürün"].str.contains("Poşet|Dökme|Çaycı|Yeşil|Gr|gr|Çaykur")]
+            urunler_df=urunler_df[~urunler_df["Ürün"].str.contains("Poşet|Dökme|Çaycı|Yeşil|Gr|gr|Çaykur",case=False)]
+            urunler_df=urunler_df[urunler_df["Ürün"].str.contains("Fuse|Lipton|Didi",case=False)]
 
     data=veriekle("Soğuk Çay",data,urunler_df)
 
