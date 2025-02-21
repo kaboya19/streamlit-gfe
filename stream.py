@@ -1928,16 +1928,18 @@ if page=="Harcama Grupları":
         ort24=hareketli_aylik_ortalama(harcamam[grup])
         harcamam[grup]=ort24["Aylık Ortalama"].fillna(method="ffill")
     harcamaort=weighted_indices.resample('M').mean()
-    grouped=pd.DataFrame()
-    grouped[f"{month} Artış Oranı"]=((harcamam.iloc[-1]/harcamam.loc[f"{oncekiyear}-{onceki}-{tarihim}"])-1)*100
-    grouped=grouped.sort_values(by=f"{month} Artış Oranı")
-    grouped=grouped.astype(float)
+    
 
     aylıkortharcama=selected_indice_data.resample('M').mean()
     aylıkdegisimharcama=np.round(((((hareketlimaharcama1["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/selected_indice_data.resample('M').mean().loc[f"{oncekiyear}-{onceki}"].iloc[0]))-1)*100,2)
     degisim24harcama=np.round(((((hareketlimaharcama["Aylık Ortalama"].loc[f"{year}-{ay}-01":])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100,2)
     degisim24=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
     degisim24harcama.iloc[-1]=np.round(((((hareketlimaharcama["Aylık Ortalama"].iloc[-1])/hareketlimaharcama["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+
+    grouped=pd.DataFrame()
+    grouped[f"{month} Artış Oranı"]=degisim24
+    grouped=grouped.sort_values(by=f"{month} Artış Oranı")
+    grouped=grouped.astype(float)
 
 
     
