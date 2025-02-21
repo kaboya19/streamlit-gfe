@@ -2012,7 +2012,9 @@ if page=="Harcama Grupları":
             font=dict(family="Arial", size=14, color="black")
         )
     
-   
+    from datetime import datetime,timedelta
+    tarih=datetime.now().strftime("%Y-%m")
+    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
 
     cari=hareketlimaharcama.loc[tarih:]
     hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}-24"].iloc[:len(cari)].values
