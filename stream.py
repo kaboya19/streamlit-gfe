@@ -2012,10 +2012,17 @@ if page=="Harcama Grupları":
             font=dict(family="Arial", size=14, color="black")
         )
     
+   
+
+    cari=hareketlimaharcama.loc[tarih:]
+    hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}-24"].iloc[:len(cari)].values
+    hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
+    hareketliartıs=(hareketliartıs-1)*100
+    
     figg31 = go.Figure()
     figg31.add_trace(go.Scatter(
-            x=degisim24harcama.index[0:],
-            y=np.round(degisim24harcama.values,2),
+            x=hareketliartıs.index[0:],
+            y=np.round(hareketliartıs.values,2),
             mode='lines+markers',
             name="24 Günlük Değişim",
             line=dict(color='blue', width=4),
@@ -2023,7 +2030,7 @@ if page=="Harcama Grupları":
         ))
   
     
-    tickvals = artıs30harcama.index  # Her 3 birimde bir tarih
+    tickvals = hareketliartıs.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     figg31.update_layout(
             xaxis=dict(
