@@ -645,6 +645,7 @@ if page=="Gıda Fiyat Endeksi":
 
 
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+    degisim24=hareketliartıs.iloc[-1]
     tickvals = degisim_2_24.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     
