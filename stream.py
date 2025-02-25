@@ -645,6 +645,9 @@ if page=="Gıda Fiyat Endeksi":
 
 
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+
+    tarih=datetime.now().strftime("%Y-%m")
+    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
     hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
