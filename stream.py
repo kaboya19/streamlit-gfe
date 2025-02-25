@@ -645,6 +645,13 @@ if page=="Gıda Fiyat Endeksi":
 
 
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
+    hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
+    hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
+
+    cari=hareketlima.loc[tarih:]
+    hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":].iloc[:len(cari)].values
+    hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
+    hareketliartıs=(hareketliartıs-1)*100
     degisim24=hareketliartıs.iloc[-1]
     tickvals = degisim_2_24.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
