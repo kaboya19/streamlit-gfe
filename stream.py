@@ -617,6 +617,7 @@ if page=="Gıda Fiyat Endeksi":
         hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":].iloc[:len(cari)].values
         hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
         hareketliartıs=(hareketliartıs-1)*100
+        degisimgfe=hareketliartıs.iloc[-1]
     else:
         hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
         hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
@@ -648,6 +649,8 @@ if page=="Gıda Fiyat Endeksi":
 
     tarih=datetime.now().strftime("%Y-%m")
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+
+
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
     hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
@@ -656,6 +659,9 @@ if page=="Gıda Fiyat Endeksi":
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
     degisim24=hareketliartıs.iloc[-1]
+
+
+
     tickvals = degisim_2_24.index  # Her 3 birimde bir tarih
     ticktext = tickvals.strftime("%d.%m.%Y")  # Tarih formatını özelleştir
     
@@ -825,7 +831,7 @@ if page=="Gıda Fiyat Endeksi":
             <h3 style='text-align:left; color:black;'>
                 {first_date} - {last_date} Değişimi: <span style='color:red;'>%{change_percent}</span><br>
                 {ilk} - {son} Değişimi: <span style='color:red;'>%{np.round(aybasısonu,2)}</span><br>
-                {month} Değişimi: <span style='color:red;'>%{ degisim24} (Mevsimsel Düzeltilmiş:%{np.round(mason,2)})</span><br>
+                {month} Değişimi: <span style='color:red;'>%{ degisimgfe} (Mevsimsel Düzeltilmiş:%{np.round(mason,2)})</span><br>
                 <span style='font-size:15px;'>*Aylık değişim 24 günlük ortalamalara göre hesaplanmaktadır.</span><br>
                 
 
