@@ -610,6 +610,7 @@ if page=="Gıda Fiyat Endeksi":
     tarih=datetime.now().strftime("%Y-%m")
     tarih="2025-03"
     onceki=(datetime.now()- relativedelta(months=1)).strftime("%Y-%m")
+    onceki="2025-02"
     if selected_group=="WEB-GFE":
 
         hareketlima = hareketli_aylik_ortalama(gfe["GFE"])
