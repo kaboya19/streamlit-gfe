@@ -651,8 +651,9 @@ if page=="Gıda Fiyat Endeksi":
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
     tarih=datetime.now().strftime("%Y-%m")
+    tarih="2025-03"
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
-
+    onceki="2025-02"
 
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
     hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
@@ -1281,8 +1282,9 @@ if page=="Gıda Fiyat Endeksi":
 
         weighted_indices_aylık=weighted_indices_aylık.loc["2024-11":]
         tarih=datetime.now().strftime("%Y-%m")
+        tarih="2025-03"
         oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
-        
+        oncekitarih="2025-02"
         weighted_indices_aylık["Tarih"]=(weighted_indices_aylık.index)
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
         weighted_indices_aylık = weighted_indices_aylık[sira]
@@ -2036,8 +2038,9 @@ if page=="Harcama Grupları":
     
     from datetime import datetime,timedelta
     tarih=datetime.now().strftime("%Y-%m")
+    tarih="2025-03"
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
-
+    onceki="2025-02"
     cari=hareketlimaharcama.loc[tarih:]
     hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
