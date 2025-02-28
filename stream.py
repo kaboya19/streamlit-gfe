@@ -606,8 +606,10 @@ if page=="Gıda Fiyat Endeksi":
     degisim_2_24=np.round(((((hareketlima["Aylık Ortalama"].loc[f"{year}-{month}":])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
     from datetime import datetime,timedelta
+    from dateutil.relativedelta import relativedelta
     tarih=datetime.now().strftime("%Y-%m")
-    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+    tarih="2025-03"
+    onceki=(datetime.now()- relativedelta(months=1)).strftime("%Y-%m")
     if selected_group=="WEB-GFE":
 
         hareketlima = hareketli_aylik_ortalama(gfe["GFE"])
