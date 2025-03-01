@@ -575,9 +575,9 @@ if page=="Gıda Fiyat Endeksi":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
@@ -635,9 +635,9 @@ if page=="Gıda Fiyat Endeksi":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
@@ -700,7 +700,7 @@ if page=="Gıda Fiyat Endeksi":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     monthh = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1]  
     ay = monthh
     
@@ -725,9 +725,9 @@ if page=="Gıda Fiyat Endeksi":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     monthh = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1]    
-    oncekiyear=gfe1["Yıl"].iloc[-32]    
+    oncekiyear=gfe1["Yıl"].iloc[-28]    
     
     aybasısonu=((ay_data.iloc[-1,0]/oncekiay_data.iloc[-1,0])-1)*100
 
@@ -1471,9 +1471,9 @@ if page=="Madde Endeksleri":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
@@ -1799,9 +1799,9 @@ if page=="Harcama Grupları":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
@@ -1934,9 +1934,9 @@ if page=="Harcama Grupları":
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
     ay = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     month=months.get(month)
     
     weighted_indices["Web-GFE"]=gfe["GFE"]
@@ -2155,9 +2155,9 @@ if page=="Özel Kapsamlı Endeksler":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
@@ -2417,9 +2417,9 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-32] 
+    oncekiyear=gfe1["Yıl"].iloc[-28] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
