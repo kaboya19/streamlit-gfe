@@ -429,7 +429,7 @@ if page=="Gıda Fiyat Endeksi":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-32]
+    onceki=gfe1["Ay"].iloc[-28]
     year=gfe1["Yıl"].iloc[-1] 
     oncekiyear=gfe1["Yıl"].iloc[-1] 
    
