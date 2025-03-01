@@ -607,7 +607,7 @@ if page=="Gıda Fiyat Endeksi":
 
     from datetime import datetime,timedelta
     tarih=datetime.now().strftime("%Y-%m")
-    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+    onceki=(datetime.now()-timedelta(days=28)).strftime("%Y-%m")
     if selected_group=="WEB-GFE":
 
         hareketlima = hareketli_aylik_ortalama(gfe["GFE"])
@@ -648,7 +648,7 @@ if page=="Gıda Fiyat Endeksi":
     degisim24=np.round(((((hareketlima["Aylık Ortalama"].iloc[-1])/hareketlima["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100,2)
 
     tarih=datetime.now().strftime("%Y-%m")
-    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+    onceki=(datetime.now()-timedelta(days=28)).strftime("%Y-%m")
 
 
     hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
@@ -1278,7 +1278,7 @@ if page=="Gıda Fiyat Endeksi":
 
         weighted_indices_aylık=weighted_indices_aylık.loc["2024-11":]
         tarih=datetime.now().strftime("%Y-%m")
-        oncekitarih=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+        oncekitarih=(datetime.now()-timedelta(days=28)).strftime("%Y-%m")
         
         weighted_indices_aylık["Tarih"]=(weighted_indices_aylık.index)
         sira = ['Tarih'] + [col for col in weighted_indices_aylık.columns if col != 'Tarih']
@@ -1329,8 +1329,8 @@ if page=="Gıda Fiyat Endeksi":
             yıl=datetime.now().year
 
             ay=f"0{ay}"
-            önceki_ay=(datetime.now()-timedelta(days=31)).month
-            önceki_yıl=(datetime.now()-timedelta(days=31)).year
+            önceki_ay=(datetime.now()-timedelta(days=28)).month
+            önceki_yıl=(datetime.now()-timedelta(days=28)).year
             degisim=(((ma24.loc[f"{yıl}-{ay}"].iloc[-1]/ma24.loc[f"{önceki_yıl}-{önceki_ay}"].iloc[-1]))-1)*100
             degisimler.append(degisim)
 
@@ -2033,7 +2033,7 @@ if page=="Harcama Grupları":
     
     from datetime import datetime,timedelta
     tarih=datetime.now().strftime("%Y-%m")
-    onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
+    onceki=(datetime.now()-timedelta(days=28)).strftime("%Y-%m")
 
     cari=hareketlimaharcama.loc[tarih:]
     hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":].iloc[:len(cari)].values
