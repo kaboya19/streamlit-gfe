@@ -842,7 +842,7 @@ if page=="Gıda Fiyat Endeksi":
         col1, col2 = st.columns([1, 1])
         endekslerim=pd.read_csv("endeksler.csv",index_col=0)
         endekslerim=endekslerim.T
-        endekslerim=endekslerim.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
+        endekslerim=endekslerim.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endekslerim)))
         endekslerim=endekslerim.pct_change().iloc[-1]*100
         gainers = endekslerim.sort_values(ascending=False).head(5)
         losers = endekslerim.sort_values(ascending=True).head(5)
