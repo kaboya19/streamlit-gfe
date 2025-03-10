@@ -840,12 +840,12 @@ if page=="Gıda Fiyat Endeksi":
             </h3>
             """, unsafe_allow_html=True)
         col1, col2 = st.columns([1, 1])
-        endeksler=pd.read_csv("endeksler.csv",index_col=0)
-        endeksler=endeksler.T
-        endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
-        endeksler=endeksler.pct_change().iloc[-1]*100
-        gainers = endeksler.sort_values(ascending=False).head(5)
-        losers = endeksler.sort_values(ascending=True).head(5)
+        endekslerim=pd.read_csv("endeksler.csv",index_col=0)
+        endekslerim=endekslerim.T
+        endekslerim=endekslerim.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
+        endekslerim=endekslerim.pct_change().iloc[-1]*100
+        gainers = endekslerim.sort_values(ascending=False).head(5)
+        losers = endekslerim.sort_values(ascending=True).head(5)
         with col1:
             st.markdown('### **Günün En Çok Artan Ürünleri**')
             for stock, change in gainers.items():
