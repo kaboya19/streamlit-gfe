@@ -753,6 +753,7 @@ if page=="Gıda Fiyat Endeksi":
             </h3>
             """, unsafe_allow_html=True)
         
+        
         st.plotly_chart(figgalt)
         st.markdown(f"<h2 style='text-align:left; color:black;'>{selected_group} Fiyat Endeksi Aylık Değişimi(%) </h2>", unsafe_allow_html=True)
         st.plotly_chart(figg30)
@@ -838,6 +839,24 @@ if page=="Gıda Fiyat Endeksi":
                 Güncelleme Tarihi: {guncelleme}
             </h3>
             """, unsafe_allow_html=True)
+        col1, col2 = st.columns([1, 1])
+        endeksler=pd.read_csv("endeksler.csv",index_col=0)
+        endeksler=endeksler.T
+        endeksler=endeksler.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endeksler)))
+        endeksler=endeksler.pct_change().iloc[-1]*100
+        gainers = endeksler.sort_values(ascending=False).head(5)
+        losers = endeksler.sort_values(ascending=True).head(5)
+        with col1:
+            st.markdown('### **Günün En Çok Artan Ürünleri**')
+            for stock, change in gainers.items():
+                st.markdown(f"<span style='color:green; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
+
+        # En çok düşenler
+        with col2:
+            st.markdown('### **Günün En Çok Düşen Maddeleri(Veya en az artan)**')
+            for stock, change in losers.items():
+                st.markdown(f"<span style='color:red; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
+
         
         if periyot=="Günlük":
              
