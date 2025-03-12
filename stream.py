@@ -1977,7 +1977,7 @@ if page=="Harcama Grupları":
     grouped[f"{month} Artış Oranı"]=((harcamam.iloc[-1]/harcamam.loc[f"{oncekiyear}-{onceki}-{tarihim}"])-1)*100
     grouped=grouped.sort_values(by=f"{month} Artış Oranı")
     grouped=grouped.astype(float)
-    st.dataframe(harcamam.iloc[-1])
+    st.dataframe(harcamam.loc[f"{oncekiyear}-{onceki}-{tarihim}"])
 
 
     
