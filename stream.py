@@ -1934,6 +1934,11 @@ if page=="Harcama Grupları":
     from datetime import datetime,timedelta
     turkey_tz = pytz.timezone('Europe/Istanbul')
     ay = datetime.now(tz=turkey_tz).month
+    tarihim=datetime.now(tz=turkey_tz).day
+    if tarihim>24:
+        tarihim=24
+    if tarihim<10:
+        tarihim="0"+str(tarihim)
     months = {1:"Ocak",
               2:"Şubat",
               3:"Mart",
