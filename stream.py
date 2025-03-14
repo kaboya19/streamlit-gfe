@@ -2030,7 +2030,7 @@ if page=="Harcama Grupları":
     figggrup.add_trace(go.Scatter(
             x=selected_indice_data.index[0:],
             y=selected_indice_data.values,
-            mode='lines+markers',
+            mode='lines',
             name=selected_indice,
             line=dict(color='blue', width=4),
             marker=dict(size=8, color="black"),
