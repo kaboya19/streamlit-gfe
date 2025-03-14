@@ -846,16 +846,34 @@ if page=="Gıda Fiyat Endeksi":
         endekslerim=endekslerim.pct_change().iloc[-1]*100
         gainers = endekslerim.sort_values(ascending=False).head(5)
         losers = endekslerim.sort_values(ascending=True).head(5)
+
+        endekslerim2=pd.read_csv("endeksler.csv",index_col=0)
+        endekslerim2=endekslerim2.T
+        endekslerim2=endekslerim2.set_index(pd.date_range(start="2024-10-31",freq="D",periods=len(endekslerim2)))
+        aylıkdegisim=pd.DataFrame(columns=endekslerim2.columns)
+        for col in endekslerim2.columns:
+            aylıkdegisim[col]=hareketli_aylik_ortalama(endekslerim2[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change()*100
+        aylıkdegisim=aylıkdegisim.iloc[-1]
+        gainersaylık = aylıkdegisim.sort_values(ascending=False).head(5)
+        losersaylık = aylıkdegisim.sort_values(ascending=True).head(5)
         with col1:
             st.markdown('### **Günün En Çok Artan Ürünleri**')
             for stock, change in gainers.items():
                 st.markdown(f"<span style='color:green; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
 
+            st.markdown('### **Ayın En Çok Artan Ürünleri**')
+            for stock, change in gainersaylık.items():
+                st.markdown(f"<span style='color:green; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
+
         # En çok düşenler
         with col2:
-            st.markdown('### **Günün En Çok Düşen Maddeleri(Veya en az artan)**')
+            st.markdown('### **Günün En Çok Düşen Ürünleri(Veya en az artan)**')
             for stock, change in losers.items():
                 st.markdown(f"<span style='color:red; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
+
+            st.markdown('### **Ayın En Çok Düşen Ürünleri**')
+            for stock, change in losersaylık.items():
+                st.markdown(f"<span style='color:green; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
 
         
         if periyot=="Günlük":
