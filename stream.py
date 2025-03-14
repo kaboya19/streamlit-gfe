@@ -873,7 +873,7 @@ if page=="Gıda Fiyat Endeksi":
 
             st.markdown('### **Ayın En Çok Düşen Ürünleri**')
             for stock, change in losersaylık.items():
-                st.markdown(f"<span style='color:green; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
+                st.markdown(f"<span style='color:red; font-weight:bold'>{stock} : {change:.2f}%</span>", unsafe_allow_html=True)
 
         
         if periyot=="Günlük":
