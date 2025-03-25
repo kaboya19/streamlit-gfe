@@ -2364,7 +2364,7 @@ if page=="Özel Kapsamlı Endeksler":
     göstergeaylık=pd.DataFrame(columns=tüik.columns)
     for col in tüik.columns:
         göstergeaylık[col]=hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].fillna(method="ffill").resample('M').last().pct_change().dropna()*100
-        göstergeaylık[col].iloc[-1]=(((hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].iloc[-1]/hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-{tarihim}"]))-1)*100
+        göstergeaylık[col].iloc[-1]=(((hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].iloc[-1]/hareketli_aylik_ortalama(özelgöstergeler[col])["Aylık Ortalama"].loc[f"{oncekiyear}-{onceki}-24"]))-1)*100
         göstergeaylık[f"TÜİK {col}"]=tüik[col]
     for col in tüik.columns:
         kasım=((özelgöstergeler[col].loc["2024-11-30"]/özelgöstergeler[col].loc["2024-10-31"])-1)*100
