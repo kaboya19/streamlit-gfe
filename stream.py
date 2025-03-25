@@ -2198,9 +2198,9 @@ if page=="Özel Kapsamlı Endeksler":
     gfe1["Ay"]=gfe1["Date"].dt.month
     gfe1["Yıl"]=gfe1["Date"].dt.year    
     month = gfe1["Ay"].iloc[-1]
-    onceki=gfe1["Ay"].iloc[-28]
+    onceki=gfe1["Ay"].iloc[-31]
     year=gfe1["Yıl"].iloc[-1] 
-    oncekiyear=gfe1["Yıl"].iloc[-28] 
+    oncekiyear=gfe1["Yıl"].iloc[-31] 
     tarihim=datetime.now().day
     if tarihim>24:
         tarihim=24
