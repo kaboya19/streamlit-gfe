@@ -614,7 +614,7 @@ if page=="Gıda Fiyat Endeksi":
         hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
         cari=hareketlima.loc[tarih:]
-        hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}"].iloc[:len(cari)].values
+        hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
         hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
         hareketliartıs=(hareketliartıs-1)*100
         hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
@@ -624,7 +624,7 @@ if page=="Gıda Fiyat Endeksi":
         hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
         cari=hareketlima.loc[tarih:]
-        hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}"].iloc[:len(cari)].values
+        hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
         hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
         
         hareketliartıs=(hareketliartıs-1)*100
@@ -658,7 +658,7 @@ if page=="Gıda Fiyat Endeksi":
     hareketlima["Aylık Ortalama"]=hareketlima["Aylık Ortalama"].fillna(method="ffill")
 
     cari=hareketlima.loc[tarih:]
-    hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}"].iloc[:len(cari)].values
+    hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
     hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
@@ -2083,7 +2083,7 @@ if page=="Harcama Grupları":
     onceki=(datetime.now()-timedelta(days=31)).strftime("%Y-%m")
 
     cari=hareketlimaharcama.loc[tarih:]
-    hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":f"{onceki}"].iloc[:len(cari)].values
+    hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
     hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
