@@ -943,9 +943,8 @@ if page=="Gıda Fiyat Endeksi":
 
     
 
-    gfe=pd.read_csv("gfe.csv")
-    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
-    gfe=gfe.drop("Tarih",axis=1)
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
 
 
 
@@ -1246,9 +1245,8 @@ if page=="Gıda Fiyat Endeksi":
 
         
         excel_data1 = to_excel(endeksler.drop("WEB-GFE",axis=1))
-        gfe=pd.read_csv("gfe.csv")
-        gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
-        gfe=gfe.drop("Tarih",axis=1)
+        gfe=pd.read_csv("gfe.csv",index_col=0)
+        gfe.index=pd.to_datetime(gfe.index)
       
         gfe["Tarih"]=gfe.index.strftime("%Y-%m-%d")
         sira = ['Tarih'] + [col for col in gfe.columns if col != 'Tarih']
@@ -1889,9 +1887,8 @@ if page=="Harcama Grupları":
     weighted_indices=pd.read_csv("weighted_indices.csv",index_col=0)
     weighted_indices.index=pd.to_datetime(weighted_indices.index)
     cols=weighted_indices.columns
-    gfe=pd.read_csv("gfe.csv")
-    gfe=gfe.set_index(pd.to_datetime(gfe["Tarih"]))
-    gfe=gfe.drop("Tarih",axis=1)
+    gfe=pd.read_csv("gfe.csv",index_col=0)
+    gfe.index=pd.to_datetime(gfe.index)
     harcamam=weighted_indices.copy()
     harcamam["Web-GFE"]=gfe["GFE"]
 
