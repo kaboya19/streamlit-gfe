@@ -617,7 +617,10 @@ if page=="Gıda Fiyat Endeksi":
         hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
         hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
         hareketliartıs=(hareketliartıs-1)*100
-        hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+        try:
+            hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+        except:
+            pass
         degisimgfe=hareketliartıs.iloc[-1]
     else:
         hareketlima = hareketli_aylik_ortalama(selected_group_data.iloc[:,0])
@@ -628,7 +631,10 @@ if page=="Gıda Fiyat Endeksi":
         hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
         
         hareketliartıs=(hareketliartıs-1)*100
-        hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+        try:
+            hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+        except:
+            pass
 
 
     from datetime import datetime,timedelta
@@ -661,7 +667,10 @@ if page=="Gıda Fiyat Endeksi":
     hareketliartıs=cari["Aylık Ortalama"].values/hareketlima["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
-    hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+    try:
+            hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+    except:
+            pass
     degisim24=hareketliartıs.iloc[-1]
 
 
@@ -2086,7 +2095,10 @@ if page=="Harcama Grupları":
     hareketliartıs=cari["Aylık Ortalama"].values/hareketlimaharcama["Aylık Ortalama"].loc[f"{onceki}-01":f"{tarih}"].iloc[:len(cari)].values
     hareketliartıs=pd.Series(hareketliartıs,index=cari.index)
     hareketliartıs=(hareketliartıs-1)*100
-    hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+    try:
+            hareketliartıs.iloc[24:]=hareketliartıs.iloc[24]
+    except:
+            pass
     
     figg31 = go.Figure()
     figg31.add_trace(go.Scatter(
