@@ -777,7 +777,7 @@ if page=="Gıda Fiyat Endeksi":
         guncelleme=guncelleme.iloc[0,1]  
         periyot = st.sidebar.selectbox("Grafik Tipi:", ["Günlük","Aylık"])
 
-        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
+        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri.xls")
         gıda=gıda.iloc[50:51,3:].T
         gıda.columns=["Aylık Değişim"]
         gıda=gıda.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(gıda)))
