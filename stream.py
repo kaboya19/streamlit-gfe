@@ -998,7 +998,7 @@ if page=="Gıda Fiyat Endeksi":
     "Ocak 24", "Şubat 24", "Mart 24", "Nisan 24", 
     "Mayıs 24", "Haziran 24", "Temmuz 24","Ağustos 24","Eylül 24","Ekim 24","Kasım 24","Aralık 24"
 ]
-        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri (1).xls")
+        gıda=pd.read_excel("ozel kapsamli tufe gostergeleri.xls")
         gıda=gıda.iloc[50:51,3:].T
         gıda.columns=["Aylık Değişim"]
         gıda=gıda.set_index(pd.date_range(start="2005-01-31",freq="M",periods=len(gıda)))
