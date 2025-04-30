@@ -422,6 +422,7 @@ if page=="Gıda Fiyat Endeksi":
     selected_group_monthlyfull=selected_group_data.resample('M').last()
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -638,6 +639,7 @@ if page=="Gıda Fiyat Endeksi":
 
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -707,6 +709,7 @@ if page=="Gıda Fiyat Endeksi":
 
     
     turkey_tz = pytz.timezone('Europe/Istanbul')
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -732,6 +735,7 @@ if page=="Gıda Fiyat Endeksi":
     month=months.get(ay)
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -1512,6 +1516,7 @@ if page=="Gıda Fiyat Endeksi":
 if page=="Madde Endeksleri":
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe=pd.read_csv("gfe.csv",index_col=0)
     gfe.index=pd.to_datetime(gfe.index)
     gfe1=gfe.copy()
@@ -1842,6 +1847,7 @@ if page=="Harcama Grupları":
     gfe.index=pd.to_datetime(gfe.index)
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -1960,6 +1966,7 @@ if page=="Harcama Grupları":
 
     from datetime import datetime,timedelta
     turkey_tz = pytz.timezone('Europe/Istanbul')
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     ay = datetime.now(tz=turkey_tz).month
     tarihim=datetime.now(tz=turkey_tz).day
     if tarihim>24:
@@ -2206,6 +2213,7 @@ if page=="Özel Kapsamlı Endeksler":
     gfe.index=pd.to_datetime(gfe.index)
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
@@ -2468,6 +2476,7 @@ if page=="Mevsimsel Düzeltilmiş Göstergeler":
     gfe.index=pd.to_datetime(gfe.index)
     from datetime import datetime,timedelta
     import pytz
+    istanbul_tz = pytz.timezone("Europe/Istanbul")
     gfe1=gfe.copy()
     gfe1["Date"]=pd.to_datetime(gfe1.index)
     gfe1["Ay"]=gfe1["Date"].dt.month
