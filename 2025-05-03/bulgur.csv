@@ -1,27 +1,629 @@
-,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km
-Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Esenler Esprı Süper,23.0,2025-05-03 10:16,0
-Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Bağlarbaşıgaziosmanpaşa,23.0,2025-05-03 10:16,0
-Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Bağlarbaşıgaziosmanpaşa,23.0,2025-05-03 10:16,0
-Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Esenler Esprı Süper,23.0,2025-05-03 10:16,0
-Bulgur,Bulgur Pilavlık 1 kg Rençber,Rençber,"Konserveler Ve Çorbalar, Pilavlık Bulgurlar, Pilavlık",hakmar,Selamlıüsküdar,23.0,2025-05-03 10:16,0
-Bulgur,Bulgur İnce 1 kg Rençber,Rençber,"Köftelik Bulgurlar, Konserveler Ve Çorbalar, Köftelik",hakmar,Selamlıüsküdar,23.0,2025-05-03 10:16,0
-Bulgur,Pilavlık Bulgur,Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Istanbul Bayrampaşa Forum Hıpe,23.9,2025-05-03 10:16,0
-Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Bağlarbaşıgaziosmanpaşa,25.0,2025-05-03 10:16,0
-Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Bağlarbaşıgaziosmanpaşa,25.0,2025-05-03 10:16,0
-Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Çınarcık Gaziosmanpaşa Istanbul,29.5,2025-05-03 10:16,0
-Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Esenler Esprı Süper,31.4,2025-05-03 10:16,0
-Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Gop Sarıgöl,39.9,2025-05-03 10:16,0
-Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",sok,Gop Kızılay,42.95,2025-05-03 10:16,0
-Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Istanbul Bayrampaşa Forum Hıpe,54.0,2025-05-03 10:16,0
-Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Bayrampaşa Forum Hıpe,54.0,2025-05-03 10:16,0
-Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Bağlarbaşıgaziosmanpaşa,54.75,2025-05-03 10:16,0
-Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Bağlarbaşıgaziosmanpaşa,54.75,2025-05-03 10:16,0
-Bulgur,Bulgur Pilavlık 2.5 kg Rençber,Rençber,"Un Ve Bakliyatlar, Pilavlık Bulgurlar, Pilavlık",hakmar,Selamlıüsküdar,56.5,2025-05-03 10:16,0
-Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Küçükköy Süper,56.9,2025-05-03 10:16,0
-Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Bayrampaşa Forum Hıpe,59.95,2025-05-03 10:16,0
-Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Bayrampaşa Forum Hıpe,59.95,2025-05-03 10:16,0
-Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Bayrampaşa Forum Hıpe,59.95,2025-05-03 10:16,0
-Bulgur,Duru Pilavlık Bulgur 2500 gr,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Vıa Venezıa Süper,66.9,2025-05-03 10:16,0
-Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Bayrampaşa Forum Hıpe,107.0,2025-05-03 10:16,0
-Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Bayrampaşa Forum Hıpe,144.95,2025-05-03 10:16,0
-Bulgur,Reis Başakbaşı Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Vıa Venezıa Süper,146.5,2025-05-03 10:16,0
+,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km,sourceLat,sourceLng
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Barguzu  Yeşilyurt  Malatya,19.75,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Konurçankaya,19.75,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Meydan  Trabzon,19.75,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,19.75,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Gevher Nesibe  Kayseri,19.75,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,100yıl  Kırıkhan  Hatay,19.75,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Şehitler  Gaziantep,19.75,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,19.75,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Sigortasüleymanpaşatekirdağ,19.75,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Dibek  Artuklu  Mardin,19.75,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Kızılsaray  Antalya,19.75,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Anıt  Konya,19.75,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Divanlı  Kmaraş,19.75,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Dere  Konak,19.75,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,15 Mayıs Mah  Denizli,19.75,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Akpınar  Izmit,19.75,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Divanlı  Kmaraş,19.75,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ömerefendifatih,19.75,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Güzelhisar  Aydın,19.75,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Güzelhisar  Aydın,19.75,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Yüzüncüyıl  Ilkadım  Samsun,19.75,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ulucami  Osmangazi  Bursa,19.75,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Hat Boyutepebaşıeskişehir,19.75,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Dibek  Artuklu  Mardin,19.75,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Anafartalar  Balıkesir,19.75,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Akpınar  Izmit,19.75,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Anafartalar  Balıkesir,19.75,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,100yıl  Kırıkhan  Hatay,19.75,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Meydan  Trabzon,19.75,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Barguzu  Yeşilyurt  Malatya,19.75,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Borsa  Seyhan  Adana,19.75,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Yakutiye  Erzurum,19.75,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Yakutiye  Erzurum,19.75,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Sıhke  Van,19.75,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Köy Sofrası Bulgur Pilavlık 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Şehitler  Gaziantep,19.75,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Gevher Nesibe  Kayseri,19.75,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ardamanisa,19.75,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Esmer Çiğköftelik Bulgur 1 kg Hasata,Hasata,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Sıhke  Van,19.75,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Güzelhisar Merkez Aydın,21.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Cıhangır Gurme,21.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Hastaneler Kocasinan Kayseri,21.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Özlem Yüzgüleç Kırıkhan Hatay,21.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Cıhangır Gurme,21.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Bulgur Köftelik 1000 gr Yöremce,Yöremce,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Taştepe Battalgazi Malatya,21.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yeşil Su Şahinbey Gaziantep,21.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Bulgur Köftelik 1000 gr Yöremce,Yöremce,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Er Konut  Erzurum Yakutiye Erzurum,21.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yenişehir Yenişehir Diyarbakır,21.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Taştepe Battalgazi Malatya,21.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yeni Cevdetpaşa Ipekyolu Van,21.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Müftülük Dulkadiroğlu Kahramanmaraş,21.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yalım Artuklu Mardin,21.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Pilavlık 1000 gr Yöremce,Yöremce,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Er Konut  Erzurum Yakutiye Erzurum,21.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Pilavlık 1000 gr Çiftçi,Çiftçi,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yedi Kuyular Dulkadiroğlu Kahramanm,22.9,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Acıpayam Blv Süper,23.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Anıt  Konya,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,23.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Barguzu  Yeşilyurt  Malatya,23.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Bursa Osmangazi Mağaz,23.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Anıt  Konya,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Yedıler Süper,23.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Hat Boyutepebaşıeskişehir,23.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Erzurum Pelit,23.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Muttalıp Süper,23.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Heykel Süper,23.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Gaziantep Alleben,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Mardin Yenişehir,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Mardin Keyfi Seyran,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Mardin Keyfi Seyran,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Izmit Tüysüzler Mahalle,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Mardin Keyfi Seyran,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Bursa Osmangazi Mağaz,23.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Gaziantep Değirmiçem,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Mardin Keyfi Seyran,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Dibek  Artuklu  Mardin,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Dibek  Artuklu  Mardin,23.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Ulucami  Osmangazi  Bursa,23.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Ulucami  Osmangazi  Bursa,23.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kahramanmaraş Kadir Paşa,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kmaraş Yeni Sarayaltı,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Kmaraş Yeni Sarayaltı,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Diyarbakır Balıkçılarbaşı,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Diyarbakır Balıkçılarbaşı,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Diyarbakır Stad,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Malatya Emeksiz,23.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Hat Boyutepebaşıeskişehir,23.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Manisa Sevgiyolu,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Konya Alaaddin Bulvarı,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Manisa Peker Mah,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Manisa Sevgiyolu,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Manisa Sevgiyolu,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,100yıl  Kırıkhan  Hatay,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Manisa Sevgiyolu,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Erzurum Pelit,23.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Yakutiye  Erzurum,23.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Yakutiye  Erzurum,23.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,100yıl  Kırıkhan  Hatay,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Carrefour Esmer Pilavlık bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Kmaraş Yeni Sarayaltı,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Erzurum Pelit,23.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kırıkhan Feyzullah Kıyılı,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Malatya Emeksiz,23.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kırıkhan Feyzullah Kıyılı,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Kmaraş Yeni Sarayaltı,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,15 Mayıs Mah  Denizli,23.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,15 Mayıs Mah  Denizli,23.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Kırıkhan Feyzullah Kıyılı,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Denizli Saltak Cadde,23.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Kırıkhan Feyzullah Kıyılı,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Kırıkhan Feyzullah Kıyılı,23.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Divanlı  Kmaraş,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Ardamanisa,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Divanlı  Kmaraş,23.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Gevher Nesibe  Kayseri,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Vilayet  Yenişehir  Diyarbakır,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Konya Alaaddin Bulvarı,23.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Diyarbakır Balıkçılarbaşı,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Diyarbakır Balıkçılarbaşı,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Erzurum Pelit,23.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Ardamanisa,23.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,23.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Şehitler  Gaziantep,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Barguzu  Yeşilyurt  Malatya,23.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Trabzon Vardarlar Süper,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Malatya Emeksiz,23.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Dere  Konak,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Trabzon Çukurçayır,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Trabzon Çukurçayır,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Konurçankaya,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Konurçankaya,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Dere  Konak,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Çankaya Merkez,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Çankaya Merkez,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Trabzon Çukurçayır,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kayseri Emek,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Meydan  Trabzon,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Meydan  Trabzon,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Malatya Emeksiz,23.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Tekirdağ 3 Mağazası,23.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Tekirdağ 3 Mağazası,23.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Gaziantep Alleben,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Nılüfer Kanunı Cad Süpe,23.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Sigortasüleymanpaşatekirdağ,23.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Kızılsaray  Antalya,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Trabzon Çukurçayır,23.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,23.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Gevher Nesibe  Kayseri,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,23.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Van Ilk Adım,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Van Ilk Adım,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Van Ilk Adım,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Kayseri Yeni Mahalle,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Şehitler  Gaziantep,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Van Ilk Adım,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Van Ilk Adım,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Kayseri Yeni Mahalle,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Borsa  Seyhan  Adana,23.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kayseri Yeni Mahalle,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Adana Seyhan Kurtuluş,23.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Adana Seyhan Kurtuluş,23.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Sıhke  Van,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Kayseri Yeni Mahalle,23.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Izmir Çankaya Gümrük,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,23.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Sıhke  Van,23.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Izmir Çankaya Gümrük,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Borsa  Seyhan  Adana,23.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Kızılsaray  Antalya,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Bulgur Pilavlık 1 kg Rençber,Rençber,"Konserveler Ve Çorbalar, Pilavlık Bulgurlar, Pilavlık",hakmar,Seyyid  Izmit,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Akpınar  Izmit,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Aydın Soğukkuyu,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Akpınar  Izmit,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Bağçeşme Devran Cadde,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Samsun Hançerli,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Samsun Hançerli,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Bulgur İnce 1 kg Rençber,Rençber,"Köftelik Bulgurlar, Konserveler Ve Çorbalar, Köftelik",hakmar,Valide  Üsküdar,23.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Yüzüncüyıl  Ilkadım  Samsun,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Yüzüncüyıl  Ilkadım  Samsun,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Ömerefendifatih,23.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Bağçeşme Devran Cadde,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Ömerefendifatih,23.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Anafartalar  Balıkesir,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Anafartalar  Balıkesir,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Bulgur Pilavlık 1 kg Rençber,Rençber,"Konserveler Ve Çorbalar, Pilavlık Bulgurlar, Pilavlık",hakmar,Valide  Üsküdar,23.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Atakum Süper,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Balıkesir Anafartalar,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Balıkesir Anafartalar,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Eskişehir Sıhhiye,23.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Bağçeşme Devran Cadde,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Gaziantep Alleben,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Balıkesir Anafartalar,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Balıkesir Anafartalar,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Bağçeşme Devran Cadde,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Aydın Soğukkuyu,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Aydın Soğukkuyu,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Eskişehir Sıhhiye,23.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Muratpaşa Yenikapı,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Muratpaşa Yenikapı,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Sigortasüleymanpaşatekirdağ,23.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Hatay Susuzdede Mını,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Bulgur İnce 1 kg Rençber,Rençber,"Köftelik Bulgurlar, Konserveler Ve Çorbalar, Köftelik",hakmar,Seyyid  Izmit,23.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,23.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Gaziantep Alleben,23.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,23.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Aydın Soğukkuyu,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Anadolu Mutfağı Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Mercan Mheminönü,23.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Değırmenaltı Mını,23.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Carrefour Köftelik Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Balıkesır 2 Süper,23.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Carrefour Pilavlık Bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Değırmenaltı Mını,23.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Anadolu Mutfağı İri Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Samsun Gazi,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Anadolu Mutfağı Esmer Köftelik Bulgur 1 kg,Anadolu Mutfağı,"Köftelik Bulgur, Bakliyat-bulgur-pirinç, Bulgurlar",sok,Samsun Hançerli,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Anadolu Mutfağı Esmer Pilavlık Bulgur 1 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Esmer Bulgur",sok,Samsun Hançerli,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Carrefour Esmer Köftelik bulgur 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Gürbüz,23.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Bulgur Köftelik 1000 Gr Saban,Saban,"0403-bulgur, 04-bakliyat Ve Unlu Mamuller, 040301-köftelik Bulgur",bim,Güzelhisar  Aydın,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Bulgur Pilavlık 1000 Gr Saban,Saban,"0403-bulgur, 040302-pilavlık Bulgur, 04-bakliyat Ve Unlu Mamuller",bim,Güzelhisar  Aydın,23.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Tekırdağ Loft 282 Süper,23.1,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Malatya Yeşilyurt,23.5,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Mardin Artuklu 13 Mart,23.5,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Van Ipekyolu 2 Nisan,23.5,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,23.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,23.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,23.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Diyarbakır Bağlar,23.5,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Gaziantep Şehitkamil Şirinevler,23.5,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Bulgur Esmer Köftelik 1000 gr Yöremce,Yöremce,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Taştepe Battalgazi Malatya,23.5,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Anadolu Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Hatay Kırıkhan Toki,23.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Pilavlık Bulgur,Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Adana Seyhan Çınarlı,23.9,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Pilavlık Bulgur,Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Denızlı Evora Süper,23.9,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Pilavlık Bulgur,Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Bursa Nılüfer Kanunı Cad Süpe,23.9,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Pilavlık Bulgur,Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Samsun Atakum Süper,23.9,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Pilavlık Bulgur,Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Trabzon,23.9,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,100yıl  Kırıkhan  Hatay,25.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Gevher Nesibe  Kayseri,25.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Şehitler  Gaziantep,25.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Dere  Konak,25.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Dere  Konak,25.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Akpınar  Izmit,25.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Barguzu  Yeşilyurt  Malatya,25.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ömerefendifatih,25.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Anıt  Konya,25.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Anıt  Konya,25.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,100yıl  Kırıkhan  Hatay,25.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Akpınar  Izmit,25.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Ömerefendifatih,25.0,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Gevher Nesibe  Kayseri,25.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Şehitler  Gaziantep,25.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Divanlı  Kmaraş,25.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Meydan  Trabzon,25.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Kızılsaray  Antalya,25.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,25.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Divanlı  Kmaraş,25.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,15 Mayıs Mah  Denizli,25.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Sigortasüleymanpaşatekirdağ,25.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Kızılsaray  Antalya,25.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,15 Mayıs Mah  Denizli,25.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Yakutiye  Erzurum,25.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Dibek  Artuklu  Mardin,25.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Dibek  Artuklu  Mardin,25.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Sigortasüleymanpaşatekirdağ,25.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Ulucami  Osmangazi  Bursa,25.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Güzelhisar  Aydın,25.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Barguzu  Yeşilyurt  Malatya,25.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Güzelhisar  Aydın,25.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Yüzüncüyıl  Ilkadım  Samsun,25.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Anafartalar  Balıkesir,25.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Yüzüncüyıl  Ilkadım  Samsun,25.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ulucami  Osmangazi  Bursa,25.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Yakutiye  Erzurum,25.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,25.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Konurçankaya,25.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Borsa  Seyhan  Adana,25.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Borsa  Seyhan  Adana,25.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Hat Boyutepebaşıeskişehir,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Sıhke  Van,25.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Hat Boyutepebaşıeskişehir,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Meydan  Trabzon,25.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Ardamanisa,25.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Sıhke  Van,25.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Anafartalar  Balıkesir,25.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Başbaşı Bulgur 1 kg Duru,Duru,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Konurçankaya,25.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Içli Köftelik Bulgur 1 kg Duru,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ardamanisa,25.0,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Bulgur Pilavlık Organik 500 Tat,Tat,"Organik Bakliyat, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Ferah Yakutiye Erzurum,25.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Narencıye Süper,28.35,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Bekirbey Şahinbey Gaziantep,28.9,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Unkapanı Ilkadım Samsun,28.9,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Stadyum Artuklu Mardin,28.9,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Denızlı Acıpayam Blv Süper,28.9,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Trabzon Ortahisar Bahçecik,29.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Adana Seyhan Ibo Osman,29.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Van Ipekyolu 2 Nisan,29.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Van Ipekyolu 2 Nisan,29.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Samsun Ilkadım Selahiye,29.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Samsun Ilkadım Selahiye,29.0,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Ankara Necatibey Market,29.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Van Ipekyolu 2 Nisan,29.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,29.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Ankara Necatibey Market,29.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Adana Seyhan Ibo Osman,29.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Antalya Muratpaşa Yenigün,29.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Loft 282 Süper,29.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Antalya Muratpaşa Yenigün,29.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,29.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,29.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Trabzon Ortahisar Bahçecik,29.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Mardin Artuklu 13 Mart,29.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Balıkesir Altıeylül Soma,29.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Diyarbakır Bağlar,29.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Diyarbakır Bağlar,29.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,29.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Konya Meram Abdürreşit,29.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,29.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Konya Meram Abdürreşit,29.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,29.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Gaziantep Şehitkamil Şirinevler,29.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Malatya Yeşilyurt,29.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Malatya Yeşilyurt,29.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Gaziantep Şehitkamil Şirinevler,29.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Gaziantep Şehitkamil Şirinevler,29.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Malatya Yeşilyurt,29.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Eskişehir Tepebaşı Market,29.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Eskişehir Tepebaşı Market,29.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kocaeli Yeşilova,29.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Hatay Kırıkhan Toki,29.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Diyarbakır Bağlar,29.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Hatay Kırıkhan Toki,29.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Kocaeli Yeşilova,29.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Tarım Kredi Pilavlık Bulgur 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,29.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,29.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Hatay Kırıkhan Toki,29.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,29.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Balıkesir Altıeylül Soma,29.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Balıkesir Altıeylül Soma,29.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Mardin Artuklu 13 Mart,29.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tarım Kredi Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Mardin Artuklu 13 Mart,29.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tarım Kredi Çiğ Köftelik Bulgur 1 kg,Tarım Kredi,"Köftelik Bulgur, Gıda, Temel Gıda Ürünleri, Bakli̇yat",tarim_kredi,Kocaeli Yeşilova,29.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Nılüfer Hatun Cad Süper,29.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Esentepe Mah Ortahisar,29.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Hidayet Malatya,29.5,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Balık Hali Meram Konya,29.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Bulgur Köftelik 1000 gr Tat,Tat,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Adliye Kocasinan Kayseri,29.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yeni Cevdetpaşa Ipekyolu Van,29.5,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,1anafartalar Manisa,29.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Şehitlik Süleymanpaşa Tekirdağ,29.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yalım Artuklu Mardin,29.5,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Ishakçılar Derince Kocaeli,29.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Bulgur Köftelik 1000 gr Tat,Tat,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Melekbaba Yeşilyurt Malatya,29.5,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Fetih Dulkadiroğlu Kahramanmaraş,29.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Bulgur Köftelik 1000 gr Tat,Tat,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Yeni Cevdetpaşa Ipekyolu Van,29.5,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Bekirbey Şahinbey Gaziantep,29.5,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Hastaneler Kocasinan Kayseri,29.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Atlamataşı Fatih Istanbul,29.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Gürcan  Pamukkale De,29.5,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Oruçgazi Karesi Balıkesir,29.5,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yenişehir Yenişehir Diyarbakır,29.5,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Orta Mah Efeler Aydın,29.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Er Konut  Erzurum Yakutiye Erzurum,29.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Tophane Osmangazi Bursa,29.5,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Köftelik 1000 gr Tat,Tat,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Er Konut  Erzurum Yakutiye Erzurum,29.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Bulgur Köftelik 1000 gr Tat,Tat,"Köftelik Bulgur, Bakliyat, Bakli̇yat Ve Kuru Gıdalar",a101,Kırıkhan Kırıkhan Hatay,29.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Necatibey Çankaya Ankara,29.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Sakarya Tepebaşı Eskişehir,29.5,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Ismet Inönü Seyhan Adana,29.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Özlem Yüzgüleç Kırıkhan Hatay,29.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tat Pilavlık Bulgur 1 kg,Tat,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Agora Konak Izmir,29.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Bulgur Pilavlık Lüks 1 kg Rençber,Rençber,"Pilavlık Bulgurlar, Süt Ve Süt Ürünleri, Pilavlık",hakmar,Seyyid  Izmit,29.75,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Cebecı Mını,31.4,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Yedıler Süper,31.4,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Karaköy Mını,31.4,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,31.4,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Ünıversıte Süper,31.4,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Gürbüz,31.4,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Nılüfer Kanunı Cad Süpe,31.4,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,31.4,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,31.4,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Narencıye Süper,31.4,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,31.4,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Trabzon Vardarlar Süper,31.4,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Carrefour Siyez Bulgur 500 Gr,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,31.4,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Kırıkhan Feyzullah Kıyılı,39.9,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Diyarbakır Stad,39.9,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Kahramanmaraş Kadir Paşa,39.9,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Konya Meram Havzan,39.9,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Denizli Horoz Meydanı,39.9,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Manisa Yeni Cumhuriyet,39.9,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Mardin Ilkem,39.9,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Eskişehir Seylap Caddesi,39.9,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Kayseri Emek,39.9,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Gaziantep Değirmiçem,39.9,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Adana Gazipaşa Mağaza,39.9,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Van Artos,39.9,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Çankaya Merkez,39.9,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Kemeraltı,39.9,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Antalya Subaşı,39.9,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Tekirdağ Gündoğdu,39.9,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Kocaeli Üniversite,39.9,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Meridyen Avm,39.9,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Tat Firik Bulgur 500 gr,Tat,"Bakliyat-bulgur-pirinç, Diğer Bakliyatlar, Bakli̇yat",sok,Samsun Gazi,39.9,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Bulgur Pilavlık 2500 gr Arbel,Arbel,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Dağkapı Meydanı Yenişehir Diyarbakır,40.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",sok,Kemeraltı Kızlarağası,42.95,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Hatay Susuzdede Mını,51.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,51.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Nılüfer Kanunı Cad Süpe,51.5,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Karaköy Mını,51.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,51.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,54.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,54.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yenikent Kızıltepe Mardin,54.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,45 Sok Merkez Aydın,54.0,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Eskışehır Neo Hıper,54.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Tekırdağ Eroğlu Hıper,54.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Yenişehir Yenişehir Diyarbakır,54.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,54.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Bursa Maya Hıper,54.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Müftülük Dulkadiroğlu Kahramanmaraş,54.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Halilağa Van,54.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,54.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Duru Kepekli Pilavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,54.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Maya Hıper,54.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Ferah Yakutiye Erzurum,54.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,54.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Halil Efe Soytürk Kırıkhan Hatay,54.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,29 Ekim Şehitkamil Gaziantep,54.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Bulgur Pilavlık 2000 gr Doyum,Doyum,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Nil Cad Kocasinan Kayseri,54.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Balıkesır 2 Süper,54.5,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,54.5,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,54.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,54.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Duru Şehriyeli Pilavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,54.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,54.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Antalya Konyaaltı Caddesı Mını,54.5,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,54.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Fatıh Mını,54.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Manısa Yunus Emre Prıme Mall,54.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Trabzon,54.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Istanbul Fatıh Mını,54.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Ankara Çankaya Esat Cad,54.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Konya Kent Plaza Süper,54.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,54.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,54.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,54.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Trabzon Vardarlar Süper,54.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,54.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,54.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Samsun Gürbüz,54.5,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Izmır Park Avm Süper,54.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Aydın Mımar Sınan Süper,54.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,54.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,54.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Gürbüz,54.5,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Balıkesır 2 Süper,54.5,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Duru Pılavlık Bulgur 1 kg,Duru,"Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Bakliyat, Çorba Ve Bakli̇yatlar, Bulgurlar, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",carrefour,Adana Türkmenbaşı Süper,54.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Karaköy Mını,54.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Duru Çiğ Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Trabzon,54.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Atakent Bulvarı Süper,54.5,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Balıkesır 2 Süper,54.5,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Duru Köftelik Bulgur 1 kg,Duru,"Köftelik Bulgur, Kuru Gıdalar, Gıda, Bakliyat-bulgur-pirinç, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,54.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ulucami  Osmangazi  Bursa,54.75,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Yüzüncüyıl  Ilkadım  Samsun,54.75,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Sigortasüleymanpaşatekirdağ,54.75,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Sigortasüleymanpaşatekirdağ,54.75,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Güzelhisar  Aydın,54.75,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Kızılsaray  Antalya,54.75,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Yüzüncüyıl  Ilkadım  Samsun,54.75,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Dibek  Artuklu  Mardin,54.75,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Dibek  Artuklu  Mardin,54.75,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Güzelhisar  Aydın,54.75,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,15 Mayıs Mah  Denizli,54.75,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Akpınar  Izmit,54.75,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Dere  Konak,54.75,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Anafartalar  Balıkesir,54.75,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Anıt  Konya,54.75,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Akpınar  Izmit,54.75,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Meydan  Trabzon,54.75,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Meydan  Trabzon,54.75,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Dere  Konak,54.75,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Ulucami  Osmangazi  Bursa,54.75,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,15 Mayıs Mah  Denizli,54.75,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Anafartalar  Balıkesir,54.75,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Kızılsaray  Antalya,54.75,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Anıt  Konya,54.75,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ömerefendifatih,54.75,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Yakutiye  Erzurum,54.75,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Yakutiye  Erzurum,54.75,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Hat Boyutepebaşıeskişehir,54.75,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Hat Boyutepebaşıeskişehir,54.75,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Ömerefendifatih,54.75,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Ardamanisa,54.75,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Ardamanisa,54.75,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Sıhke  Van,54.75,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Gevher Nesibe  Kayseri,54.75,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Sıhke  Van,54.75,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,100yıl  Kırıkhan  Hatay,54.75,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Konurçankaya,54.75,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,100yıl  Kırıkhan  Hatay,54.75,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Divanlı  Kmaraş,54.75,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Barguzu  Yeşilyurt  Malatya,54.75,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Borsa  Seyhan  Adana,54.75,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Barguzu  Yeşilyurt  Malatya,54.75,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,54.75,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Borsa  Seyhan  Adana,54.75,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Şehitler  Gaziantep,54.75,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Vilayet  Yenişehir  Diyarbakır,54.75,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Şehitler  Gaziantep,54.75,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Bulgur Pilavlık 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170417-pilavlık Bulgur",bim,Gevher Nesibe  Kayseri,54.75,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Divanlı  Kmaraş,54.75,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Köftelik Bulgur 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170416-köftelik Bulgur",bim,Konurçankaya,54.75,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Bulgur Pilavlık 2.5 kg Rençber,Rençber,"Un Ve Bakliyatlar, Pilavlık Bulgurlar, Pilavlık",hakmar,Seyyid  Izmit,56.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Bulgur Pilavlık 2.5 kg Rençber,Rençber,"Un Ve Bakliyatlar, Pilavlık Bulgurlar, Pilavlık",hakmar,Valide  Üsküdar,56.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Pınarkent Süper,56.9,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Değırmenaltı Mını,56.9,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,56.9,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,56.9,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Carrefour Pilavlık Bulgur 2.5 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,56.9,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,59.95,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,59.95,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,59.95,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Maya Hıper,59.95,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,59.95,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,59.95,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,59.95,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,59.95,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,59.95,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Maya Hıper,59.95,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,59.95,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Maya Hıper,59.95,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,60.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,60.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Fatıh Mını,60.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Aydın Mımar Sınan Süper,60.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,60.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,60.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,60.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,60.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,60.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Çankaya Esat Cad,60.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Fatıh Mını,60.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,60.5,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Balıkesır 2 Süper,60.5,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,60.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,60.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,60.5,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Gürbüz,60.5,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Trabzon Vardarlar Süper,60.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Trabzon Vardarlar Süper,60.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Reis Ciğköftelik Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,60.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Reis Köftelık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Manısa Yunus Emre Prıme Mall,60.5,2025-05-03 10:16,0,38.619099,27.428921
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,60.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Bulgur Pilavlık 1000 gr Reis,Reis,"Kuru Gıdalar, Gıda, Bakliyat, Çorba Ve Bakli̇yatlar, Bakli̇yat Ve Kuru Gıdalar, Bulgurlar, Pilavlık Bulgur",carrefour,Aydın Mımar Sınan Süper,60.5,2025-05-03 10:16,0,37.8444,27.8458
+Bulgur,Reis İnce Pilavlık Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,60.5,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Reis Başakbaşı Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Cıhangır Gurme,62.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,72.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Malatya Yeşilyurt,72.5,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Konya Meram Abdürreşit,72.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Van Ipekyolu 2 Nisan,72.5,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Hatay Kırıkhan Toki,72.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,72.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,72.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Diyarbakır Bağlar,72.5,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Trabzon Ortahisar Bahçecik,72.5,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Mardin Artuklu 13 Mart,72.5,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kocaeli Yeşilova,72.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Gaziantep Şehitkamil Şirinevler,72.5,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Balıkesir Altıeylül Soma,72.5,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Antalya Muratpaşa Yenigün,72.5,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Tarım Kredi Pilavlık Bulgur 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Samsun Ilkadım Selahiye,72.5,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Antalya Konyaaltı Caddesı Mını,85.1,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Nılüfer Hatun Cad Süper,85.1,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Balıkesır 2 Süper,85.1,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,85.1,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Ünıversıte Süper,85.1,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Van Ilk Adım,95.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Muratpaşa Yenikapı,95.0,2025-05-03 10:16,0,36.88414,30.70563
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Adana Seyhan Sular,95.0,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kahramanmaraş Kadir Paşa,95.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Trabzon Boztepe Caddesi,95.0,2025-05-03 10:16,0,41.0,39.7333333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kayseri Eski Sanayi,95.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Çankaya Merkez,95.0,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Diyarbakır Balıkçılarbaşı,95.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Erzurum Cumhuriyet,95.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Kırıkhan Feyzullah Kıyılı,95.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Mardin Keyfi Seyran,95.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Balıkesir Anafartalar,95.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Izmit Tüysüzler Mahalle,95.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Tekirdağ Gündoğdu,95.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Anadolu Mutfağı Pilavlık Bulgur 5 kg,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Bulgurlar, Pilavlık Bulgur",sok,Malatya Emeksiz,95.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Reis Siyez Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Acıpayam Blv Süper,104.4,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Reis Siyez Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,104.4,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,107.0,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Maya Hıper,107.0,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,107.0,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Tekırdağ Eroğlu Hıper,107.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,108.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Duru Pilavlık Bulgur 2 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Izmır Park Avm Süper,108.0,2025-05-03 10:16,0,38.41885,27.12872
+Bulgur,Organik Gurme Organik Pilavlık Bulgur,Organik Gurme ,"Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme, Organik Pirinç-bulgur",carrefour,Istanbul Cıhangır Gurme,126.9,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Diyarbakır Bağlar,142.0,2025-05-03 10:16,0,37.91441,40.230629
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Gaziantep Şehitkamil Şirinevler,142.0,2025-05-03 10:16,0,37.06622,37.38332
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Mardin Artuklu 13 Mart,142.0,2025-05-03 10:16,0,37.3122361,40.735112
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Van Ipekyolu 2 Nisan,142.0,2025-05-03 10:16,0,38.4941667,43.38
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Malatya Yeşilyurt,142.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,142.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,142.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Kocaeli Yeşilova,142.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Hatay Kırıkhan Toki,142.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,142.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Bulgur,Tarım Kredi Pilavlık Bulgur 5 kg Pvc,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Balıkesir Altıeylül Soma,142.0,2025-05-03 10:16,0,39.648369,27.88261
+Bulgur,Reis Başakbaşı Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Bursa Maya Hıper,144.95,2025-05-03 10:16,0,40.18257,29.06687
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Eskışehır Neo Hıper,144.95,2025-05-03 10:16,0,39.784302,30.51922
+Bulgur,Reis Başakbaşı Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Denızlı Teras Park Hıper,144.95,2025-05-03 10:16,0,37.77652,29.08639
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Samsun Gürbüz,146.5,2025-05-03 10:16,0,41.292782,36.33128
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Adana Türkmenbaşı Süper,146.5,2025-05-03 10:16,0,37.0,35.3213333
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Fatıh Molla Güranı,146.5,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Ankara Cebecı Mını,146.5,2025-05-03 10:16,0,39.92077,32.85411
+Bulgur,Reis Pilavlık Bulgur 2.5 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Konya Kent Plaza Süper,146.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Bulgur,Bulgur Pilavlık Şehriyeli 5000 gr Tat,Tat,"Bakliyat, Bakli̇yat Ve Kuru Gıdalar, Pilavlık Bulgur",a101,Taştepe Battalgazi Malatya,159.0,2025-05-03 10:16,0,38.35519,38.30946
+Bulgur,Reis Siyez Bulgur 1 kg,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Bulgurlar",carrefour,Istanbul Cıhangır Gurme,181.9,2025-05-03 10:16,0,41.00527,28.97696
+Bulgur,Tarım Kredi Pilavlık Bulgur 25 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Pilavlık Bulgur",tarim_kredi,Gaziantep Gross Market,665.0,2025-05-03 10:16,0,37.06622,37.38332

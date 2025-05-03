@@ -1,26 +1,636 @@
-,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km
-Ekmek,İstanbul Halk Ekmek Fındıklı Ve Üzümlü Ekmek 50 gr,İHE,"Ekmekler, Paketli Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Istanbul Küçükköy Süper,10.0,2025-05-03 10:16,0
-Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Istanbul Bayrampaşa,10.0,2025-05-03 10:16,0
-Ekmek,Bagetürk Odun Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Istanbul Bayrampaşa Muratpaşa,10.0,2025-05-03 10:16,0
-Ekmek,Ekmek Odun 200g-stk,Unkar,"Un Ve Bakliyatlar, Normal Ek, Normal Ekmekler",hakmar,Selamlıüsküdar,12.25,2025-05-03 10:16,0
-Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,12.5,2025-05-03 10:16,0
-Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Gop Kızılay,12.5,2025-05-03 10:16,0
-Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sarıgöl Gaziosmanpaşa Istanbul,12.5,2025-05-03 10:16,0
-Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,12.5,2025-05-03 10:16,0
-Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,16.95,2025-05-03 10:16,0
-Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,19.95,2025-05-03 10:16,0
-Ekmek,Halep Ekmek 300 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,20.9,2025-05-03 10:16,0
-Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,22.5,2025-05-03 10:16,0
-Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,26.5,2025-05-03 10:16,0
-Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,26.5,2025-05-03 10:16,0
-Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Gop Kızılay,29.9,2025-05-03 10:16,0
-Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Mjet Merkez Mh Gop Istanbul,31.0,2025-05-03 10:16,0
-Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,34.5,2025-05-03 10:16,0
-Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,34.95,2025-05-03 10:16,0
-Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çukurçeşme Gaziosmanpaşa Istanbul,39.95,2025-05-03 10:16,0
-Ekmek,Bagetta Sac Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Istanbul Gop Küçükköy,44.95,2025-05-03 10:16,0
-Ekmek,İstanbul Halk Ekmek Organik Ekmek,İHE,"Unlu Mamuller Servis, Ekmekler, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Taze Gıdalar, Ekmek Çeşi̇tleri̇",carrefour,Istanbul Küçükköy Süper,45.0,2025-05-03 10:16,0
-Ekmek,İstanbul Halk Ekmek Tam Buğday Ekmek,İHE,"Unlu Mamuller Servis, Ekmekler, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Taze Gıdalar, Ekmek Çeşi̇tleri̇",carrefour,Istanbul Bayrampaşa Forum Hıpe,45.0,2025-05-03 10:16,0
-Ekmek,Ekmek Karadeniz,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sarıgöl Gaziosmanpaşa Istanbul,60.0,2025-05-03 10:16,0
-Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Gop Kızılay,75.0,2025-05-03 10:16,0
-Ekmek,Ekmek Kadayıfı kg,Markasız,"Pasta-ekmek, Taze Gıdalar, Hamurlu Ve Serbetlı, Serbetlı Tatlılar",carrefour,Istanbul Bayrampaşa Forum Hıpe,225.0,2025-05-03 10:16,0
+,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km,sourceLat,sourceLng
+Ekmek,Ehe Normal Ekmek,İhe,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,6.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Baget Mini 70 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Adapazarı Paye,7.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Baget Kepekli Mini 60 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Malatya Ilyas Mah,7.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Baget Mini 70 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Malatya Ilyas Mah,7.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Baget Mini 70 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,7.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Baget Kepekli Mini 60 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,7.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Samsun Ilkadım Selahiye,8.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Köfte Ekmek ( u ) 110 gr,Markasız,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Yeni Vilayet M Migros,8.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,100 Yıl Bulvarı Ilkadım Samsun,9.0,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Samsun Kadıköy Mgz,9.0,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Gaziantep Şahinbey Gümüştekin,10.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Melekbaba Yeşilyurt Malatya,10.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Malatya Emeksiz,10.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Bagetürk Odun Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Istanbul Fatih Yedikule Imrahor,10.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yenişehir Yenişehir Diyarbakır,10.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Diyarbakır Kayapınar Huzurevleri,10.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,10.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,İstanbul Halk Ekmek Fındıklı Ve Üzümlü Ekmek 50 gr,İHE,"Ekmekler, Paketli Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Istanbul Fatıh Mını,10.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Hatay Kırıkhan Toki,10.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Özlem Yüzgüleç Kırıkhan Hatay,10.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Orduevi Antalya,10.0,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Taştepe Battalgazi Malatya,10.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Diyarbakır Balıkçılarbaşı,10.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Malatya Yeşilyurt,10.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Gaziantep Değirmiçem,10.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Van Ipekyolu 2 Nisan,10.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yenikent Kızıltepe Mardin,10.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Mardin Keyfi Seyran,10.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Stadyum Artuklu Mardin,10.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Mardin Artuklu,10.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Cevdetpaşa Ipekyolu Van,10.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Bursa Soğanlı Market,10.0,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,10.0,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Van Ilk Adım,10.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Cevdetpaşa Ipekyolu Van,10.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Torlak Efeler Aydın,10.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sur Sur Diyarbakır,10.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Kurtlusoğuksu Mah,10.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Köşk Palandöken Erzurum,11.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Erzurum Cumhuriyet,11.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Tamköy Çiçek Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Diyarbakır Ofis,11.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Konya Meram Abdürreşit,11.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,11.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Konya Kızılırmak,11.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,11.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Bagetürk Simit Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Kayseri Kocasinan Sahabiye,11.95,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Tekirdağ 3 Mağazası,12.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Tekirdağ Süleymanpaşa Gündoğdu,12.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Odun 200g-stk,Unkar,"Un Ve Bakliyatlar, Normal Ek, Normal Ekmekler",hakmar,Valide  Üsküdar,12.25,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Denizli Horoz Meydanı,12.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,12.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Eskişehir Tepebaşı Market,12.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Balıkesir Altıeylül Soma,12.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,12.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Eskişehir Sıhhiye,12.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sıhhiye Tepebaşı Eskişehir,12.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Oruçgazi Karesi Balıkesir,12.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çınar Pamukkale Denizli,12.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Izmir Çankaya Gümrük,12.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kadırga Fatih Istanbul,12.5,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Karadeniz Ortahisar Çukurçayır Trabzon,12.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Trabzon Taksim,12.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,12.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kurşunlu Ilkadım Samsun,12.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ulugazi Ilkadım Samsun,12.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kurşunlu Ilkadım Samsun,12.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,12.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Kahramanmaraş Kadir Paşa,12.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,12.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Manisa Sevgiyolu,12.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Belediye Cad Şehzadeler Manisa,12.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Hatay Payas Namık Kemal,12.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,12.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,12.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Balıkesir Anafartalar,12.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Odun Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Izmir Çankaya Gümrük,12.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,12.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,12.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Istanbul Fatih Yavuz Sultan Selim,12.5,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Saraç Ishak Fatih Istanbul,12.5,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,12.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,12.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Adana Seyhan Kurtuluş,12.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,12.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,12.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Antalya Muratpaşa Etiler,12.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Balbey Muratpaşa Antalya,12.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Adana Seyhan Ibo Osman,12.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Çankaya Izmir Cadde,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Ankara Pankobirlik,12.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Muratpaşa Yenikapı,12.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Normal Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Bursa Osmangazi Mağaz,12.75,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Odun Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Tekirdağ Soğukkuyu,12.75,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,13.25,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,13.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismetpaşa Caddesi Muratpaşa Antalya,13.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Tamköy Mini Ekmek 3 lü,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Meridyen Avm,13.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismetpaşa Caddesi Muratpaşa Antalya,13.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,14.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Odun Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Mercan Mheminönü,14.75,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,14.95,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Bagetürk Çeşit Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Kahramanmaraş Tavşantepe,15.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kampüs Izmit Kocaeli,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Bagetürk Odun Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Kocaeli Derince Ertuğrul Gazi,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Kocaeli Yeşilova,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,15.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Odun Ekmek,Markasız,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Bağçeşme Devran Cadde,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Bagetürk Odun Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Tekirdağ Süleymanpaşa Bedesten,15.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Malta Camii Izmit Kocaeli,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Tandır 240 gr Unkar,Unkar,"Un Ve Bakliyatlar, Normal Ek, Normal Ekmekler",hakmar,Seyyid  Izmit,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Nil Cad Kocasinan Kayseri,15.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,15.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Patıl Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,15.95,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,16.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Taşköprü Derince Kocaeli,16.95,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kadırga Fatih Istanbul,16.95,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ali Emiri Yenişehir Diyarbakır,17.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Lavaş Ekmek 5 li Gülümoğlu,Gülümoğlu,"Un Ve Bakliyatlar, Lavaş",hakmar,Seyyid  Izmit,17.9,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ferah Yakutiye Erzurum,17.95,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,17.95,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Tamköy Roll Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Samsun Gazi,19.9,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Bagetta Roll Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Samsun Ilkadım Selahiye,19.9,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Özlem Yüzgüleç Kırıkhan Hatay,19.9,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Samsun Gazi,19.9,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Sıhhiye Tepebaşı Eskişehir,19.95,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,19.95,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,19.95,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,19.95,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ismetpaşa Caddesi Muratpaşa Antalya,19.95,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Karadeniz Ortahisar Çukurçayır Trabzon,19.95,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Karadeniz Ortahisar Çukurçayır Trabzon,19.95,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ülker Marifet Sandviç Ekmek 95 Gr,Ülker,"Poğaça-börek-si̇mi̇t, Kek, Cafe Fırın Ürünleri, Cafe Grubu",sok,Kırıkhan Karadurmuşlu,20.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Bagetürk Simit Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Eskişehir Sıhhiye Kavşağı,20.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,20.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Şifa Malatya Battalgazi Malatya,20.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,20.45,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Halep Ekmek 300 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,20.9,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Özlem Yüzgüleç Kırıkhan Hatay,21.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ferah Yakutiye Erzurum,22.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,22.5,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,22.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,22.75,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Arifoğlu Panko Ekmek Kırıntısı 200 gr,Arifoğlu,"Tuz Baharat Harç, Soslar, Kuru Gıdalar, Gıda, Tuzlar Ve Baharatlar, Konserve Salça Sos, Konserve/sos/baharat, Harç",migros,Kurtuluş Van Mm Migros,23.97,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Arifoğlu Panko Ekmek Kırıntısı 200 gr,Arifoğlu,"Tuz Baharat Harç, Soslar, Kuru Gıdalar, Gıda, Tuzlar Ve Baharatlar, Konserve Salça Sos, Konserve/sos/baharat, Harç",migros,Aydın Mağazası,23.97,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Arifoğlu Panko Ekmek Kırıntısı 200 gr,Arifoğlu,"Tuz Baharat Harç, Soslar, Kuru Gıdalar, Gıda, Tuzlar Ve Baharatlar, Konserve Salça Sos, Konserve/sos/baharat, Harç",migros,Piazza Avm Kahramanmaraş Mmm,23.97,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Günlük Kepekli Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Mamuriye Meram Konya,24.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,24.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Tazepan Tam Buğday Ekmek 350 Gr,Tazepan,"Un Ve Bakliyatlar, Gıda, Ekmek, Paketli Ekmekler, Paketli E, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Hatay Payas Namık Kemal,24.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,24.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Tazepan Tam Buğday Ekmek 350 Gr,Tazepan,"Un Ve Bakliyatlar, Gıda, Ekmek, Paketli Ekmekler, Paketli E, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Mardin Artuklu Emniyet,24.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Özlem Yüzgüleç Kırıkhan Hatay,24.9,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sıhhiye Tepebaşı Eskişehir,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sıhhiye Tepebaşı Eskişehir,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Turgut Reis Tepebaşı Eskişehir,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Bagetürk Çeşit Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Eskişehir Sıhhiye Kavşağı,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,25.0,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,25.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,25.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Toplu Taşıma Karesi Balıkesir,25.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,25.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Samsun Kadıköy Mgz,25.0,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kurşunlu Ilkadım Samsun,25.0,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Bagetürk Normal Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Trabzon Ortahisar Bahçecik,25.0,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,25.0,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Balıkesir Altıeylül Soma,25.9,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Balıkesir Lisesi,25.9,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Simit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,25.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Gevher Nesibe  Kayseri,26.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Kmaraş Yeni Sarayaltı,26.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Yakutiye  Erzurum,26.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Dibek  Artuklu  Mardin,26.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Anıt  Konya,26.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Erzurum Pelit,26.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ferah Yakutiye Erzurum,26.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Dibek  Artuklu  Mardin,26.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Yakutiye  Erzurum,26.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,26.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Gevher Nesibe  Kayseri,26.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Divanlı  Kmaraş,26.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Taştepe Battalgazi Malatya,26.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Baget Kepekli 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Malatya Ilyas Mah,26.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Barguzu  Yeşilyurt  Malatya,26.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Barguzu  Yeşilyurt  Malatya,26.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Gaziantep Alleben,26.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Baget 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,26.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Malatya Mimar Sinan Cad,26.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Şehitler  Gaziantep,26.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Şehitler  Gaziantep,26.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,26.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,26.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,26.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Ardamanisa,26.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Ardamanisa,26.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Baget Kepekli 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,26.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Manisa Sevgiyolu,26.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,100yıl  Kırıkhan  Hatay,26.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Adana Seyhan Sular,26.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,26.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,100yıl  Kırıkhan  Hatay,26.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Kırıkhan Feyzullah Kıyılı,26.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,26.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,26.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Divanlı  Kmaraş,26.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,26.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Konurçankaya,26.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,26.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Anıt  Konya,26.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Ulucami  Osmangazi  Bursa,26.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Ulucami  Osmangazi  Bursa,26.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Baget 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Adana Seyhan Aski,26.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,26.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Kızılsaray  Antalya,26.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Kızılsaray  Antalya,26.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Dere  Konak,26.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,26.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Dere  Konak,26.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Anafartalar  Balıkesir,26.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Anafartalar  Balıkesir,26.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Meydan  Trabzon,26.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Sigortasüleymanpaşatekirdağ,26.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Meydan  Trabzon,26.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,26.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,26.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Sıhke  Van,26.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Sıhke  Van,26.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Aydın Soğukkuyu,26.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,26.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,26.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Kayseri Yeni Mahalle,26.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Güzelhisar  Aydın,26.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Güzelhisar  Aydın,26.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Van Kurtoğlu,26.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,26.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,26.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,26.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,26.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Sigortasüleymanpaşatekirdağ,26.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Sakarya Caddesi Çankaya Ankara,26.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ethem Ekin Seyhan Adana,26.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Vilayet  Yenişehir  Diyarbakır,26.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Borsa  Seyhan  Adana,26.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Vilayet  Yenişehir  Diyarbakır,26.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ali Emiri Yenişehir Diyarbakır,26.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Baget 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Adapazarı Paye,26.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Kurşunlu Ilkadım Samsun,26.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,26.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Baget 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Malatya Ilyas Mah,26.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Borsa  Seyhan  Adana,26.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Yüzüncüyıl  Ilkadım  Samsun,26.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,26.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,Yüzüncüyıl  Ilkadım  Samsun,26.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Konurçankaya,26.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Çavdar 400 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041607-tam Buğday-çavdarlı",bim,15 Mayıs Mah  Denizli,26.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Kepekli 400 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,15 Mayıs Mah  Denizli,26.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,26.5,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Mardin Keyfi Seyran,26.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismetpaşa Caddesi Muratpaşa Antalya,26.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,26.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Çavdarlı 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gürcan  Pamukkale De,26.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,26.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Kepekli 400 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,26.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Baget 250 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Tekirdağ Gündoğdu,26.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Denizli Saltak Cadde,26.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Uno Anadolu Kepekli Ekmek 400 gr,Uno,"Endüstri̇yel Ekmekler, Unlu Mamuller, Diğer Ekmekler",sok,Diyarbakır Balıkçılarbaşı,26.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,27.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,La lorraine Baget Ekmek 255gr,La Lorraine,"Ekmekler, Beyaz Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Trabzon Vardarlar Süper,27.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Bread Bites Ekmek Kıtırı 70 gr Tibtop,Tibtop,"Galeta/grissini/etim, Hazır Unlu Mamuller, Un Ve Unlu Mamuller",a101,Yalım Artuklu Mardin,27.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Bread Bites Ekmek Kıtırı 70 gr Tibtop,Tibtop,"Galeta/grissini/etim, Hazır Unlu Mamuller, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,27.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Baget Tam Buğday 320 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,27.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Bread Bites Ekmek Kıtırı 70 gr Tibtop,Tibtop,"Galeta/grissini/etim, Hazır Unlu Mamuller, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,27.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Rakım Erkutlu,27.95,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,28.75,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,28.75,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeni Cevdetpaşa Ipekyolu Van,28.75,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,28.75,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,28.75,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,28.75,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,28.75,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,28.75,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,28.75,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yenişehir Yenişehir Diyarbakır,28.75,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,28.75,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Taştepe Battalgazi Malatya,28.75,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,28.75,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Tam Buğday 350 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,28.75,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Bagetta Hamburger Ekmek 2'li,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Samsun Unkapanı Market,28.9,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Bagetta Sandiviç Ekmek 2'li,Markasız,"Gıda, Temel Gıda Ürünleri, Unlu Mamüller, Sandviç Ekmeği",tarim_kredi,Samsun Ilkadım Dikmen,28.9,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Karadeniz 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Anafartalar Altıeylül Balıkesir,28.9,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,29.25,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Yüzüncüyıl  Ilkadım  Samsun,29.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Anafartalar  Balıkesir,29.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,15 Mayıs Mah  Denizli,29.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Dibek  Artuklu  Mardin,29.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Ulucami  Osmangazi  Bursa,29.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Yakutiye  Erzurum,29.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Vilayet  Yenişehir  Diyarbakır,29.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Baget 320 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Malatya Ilyas Mah,29.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Meydan  Trabzon,29.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Borsa  Seyhan  Adana,29.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,100yıl  Kırıkhan  Hatay,29.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Güzelhisar  Aydın,29.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Sıhke  Van,29.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Ardamanisa,29.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Gevher Nesibe  Kayseri,29.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Şehitler  Gaziantep,29.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Baget 320 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,29.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Barguzu  Yeşilyurt  Malatya,29.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Glutensiz Ekmek Karışımı 291 Gr Dr.oetker,Markasız,"1704-bakli̇yat Ve Unlu Mamuller, 17-grup Spot, 170424-diğer Unlar",bim,Divanlı  Kmaraş,29.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Baget 320 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Adapazarı Paye,29.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Patıl Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Sakarya Caddesi Çankaya Ankara,29.75,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Isparta 500 gr Nimet,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,29.75,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Istanbul Beyoğlu Piyalepaşa,29.9,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Mercan Mheminönü,29.9,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Halil Efe Soytürk Kırıkhan Hatay,29.9,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ulugazi Ilkadım Samsun,29.95,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,29.95,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Kurşunlu Ilkadım Samsun,29.95,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,29.95,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Izmir Çankaya Gümrük,29.95,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,29.95,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Sinangil Tahıl Ekmek Unu 500 gr,Sinangil,"Kuru Gıdalar, Gıda, Unlar/irmikler, Unlar/i̇rmi̇kler, Un, Un Çeşi̇tleri̇, Özel Amaçlı Un Karışımı, Sıvı Yağ Makarna Un",migros,Oniki Şubat Kahramanmaraş Mm,29.96,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Malta Camii Izmit Kocaeli,30.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Özlem Yüzgüleç Kırıkhan Hatay,30.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kampüs Izmit Kocaeli,30.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Adapazarı Paye,30.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,30.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Denizli Horoz Meydanı,30.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Denizli Saltak Cadde,30.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Sinangil Tahıl Ekmek Unu 500 gr,Sinangil,"Kuru Gıdalar, Gıda, Unlar/irmikler, Unlar/i̇rmi̇kler, Un, Un Çeşi̇tleri̇, Özel Amaçlı Un Karışımı, Sıvı Yağ Makarna Un",carrefour,Denızlı Teras Park Hıper,30.9,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,30.95,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Izmir Çankaya Gümrük,30.95,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Ankara Kolej M Mıgros,31.0,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Maraş Cad Van M Migros,31.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Soğanlı Mah Bursa M Migros,31.0,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Mjet Yakup Satar Cad Eskişehir,31.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Recep Peker Antalya M Migros,31.0,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Balıkesir Eskiterminal M,31.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Yeni Vilayet M Migros,31.0,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Mjet Kocaeli Üniversitesi,31.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Mjet Bey Mahallesi Gaziantep,31.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,5m Horizon Garden Avm Denizli,31.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Mjet Kumkapı Istanbul,31.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Istasyon Konya M Migros,31.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,5m Malatya Park,31.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Diyarbakır Mm Mıgros,31.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Cumhuriyet Meydanı Samsun M,31.0,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Mjet Cumhuriyet Efeler Aydın,31.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,İyilik Çavdarlı Ekmek 400 gr,İyilik,"Unlu Mamuller Servis, Paketli Unlu Mamüller, Çeşit Ekmek, Ekmek Çeşi̇tleri̇",migros,Piazza Avm Kahramanmaraş Mmm,31.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Şehit Fethi Bey Cadkonak,31.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Sarı Buğday 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,31.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Karadeniz 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,31.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Arifoğlu Panko Ekmek Kırıntısı 200 gr,Arifoğlu,"Tuz Baharat Harç, Soslar, Kuru Gıdalar, Gıda, Tuzlar Ve Baharatlar, Konserve Salça Sos, Konserve/sos/baharat, Harç",carrefour,Manısa Yunus Emre Prıme Mall,31.8,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,31.95,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,32.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Balıkesir Saat Kulesi,32.45,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Bagetta Ekşi Mayalı Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Bursa Millet Market,32.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Meridyen Avm,32.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,32.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Bagetta Hamburger Ekmek 2'li,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Tekirdağ Süleymanpaşa Sercan,32.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetta Sandiviç Ekmek 2'li,Markasız,"Gıda, Temel Gıda Ürünleri, Unlu Mamüller, Sandviç Ekmeği",tarim_kredi,Tekirdağ Süleymanpaşa Sercan,32.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Özlem Yüzgüleç Kırıkhan Hatay,32.9,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Tandır,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,32.9,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,32.95,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Bagetta Hamburger Ekmek 2'li,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Ankara Necatibey Market,32.95,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Bagetta Sandiviç Ekmek 2'li,Markasız,"Gıda, Temel Gıda Ürünleri, Unlu Mamüller, Sandviç Ekmeği",tarim_kredi,Ankara Necatibey Market,32.95,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Tam Buğday Ekmek 370 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Malatya Ilyas Mah,33.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Tam Buğday Ekmek 370 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Adapazarı Paye,33.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Tam Buğday Ekmek 370 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Trabzon Boztepe Caddesi,33.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Tam Buğday Ekmek 370 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Denizli Horoz Meydanı,33.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Tam Buğday Ekmek 370 gr,Markasız,"Cafe Fırın Ürünleri, Ekmek, Cafe Grubu",sok,Kurtlusoğuksu Mah,33.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,34.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,34.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,34.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Taştepe Battalgazi Malatya,34.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,34.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,34.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetta Sandiviç Ekmek 2'li,Markasız,"Gıda, Temel Gıda Ürünleri, Unlu Mamüller, Sandviç Ekmeği",tarim_kredi,Antalya Muratpaşa Konuksever,34.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,34.5,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gürcan  Pamukkale De,34.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,34.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ferah Yakutiye Erzurum,34.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,34.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ulugazi Ilkadım Samsun,34.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismetpaşa Caddesi Muratpaşa Antalya,34.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,34.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yenişehir Yenişehir Diyarbakır,34.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Sakarya Caddesi Çankaya Ankara,34.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Tost 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,34.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Bagetta Sac Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Tekirdağ Süleymanpaşa Gündoğdu,34.75,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,34.95,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,34.95,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,34.95,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Çeşit Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Pınarbaşı Cad Osmangazi Bursa,34.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,34.95,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,34.95,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Karadeniz 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kale Ilkadım  Samsun,34.95,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,34.95,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Bagetta Hamburger Ekmek 2'li,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Bursa Yıldırım Market,34.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Çok Tahıllı 330 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,35.0,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Çok Tahıllı 330 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,35.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Çok Tahıllı 330 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,35.0,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Çok Tahıllı 330 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Sakarya Caddesi Çankaya Ankara,35.0,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Çok Tahıllı 330 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,35.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Kara Buğday Çavdarlı 330 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,35.0,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Eskişehir Sıhhiye,35.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Trabzon Cuma,35.95,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Oruçgazi Karesi Balıkesir,36.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,36.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,36.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Celal Kaya Muratpaşa Antalya,37.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Köy 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,37.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Köy 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,37.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Köy 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,37.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Köy 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,37.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Köy 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ethem Ekin Seyhan Adana,37.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Köy 550 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,37.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Sivas Katmer 200 gr Nimet,Nimet,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,37.95,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Tost Şeker Ilavesiz 350 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,38.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Sandviç 7 x 65 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,38.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Bazlama 340 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Necatibey Çankaya Ankara,38.75,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Sarı Buğday 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Necatibey Çankaya Ankara,38.95,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Karadeniz 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Mine Çankaya Çankaya Ankara,38.95,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Yeni Kızılay Çankaya Ankara,38.95,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Tekirdağ Soğukkuyu,39.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Tekirdağ 3 Mağazası,39.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Bazlama 340 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Sıhhiye Tepebaşı Eskişehir,39.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Sarı Buğday 500 gr,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,39.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Sivas Katmer 200 gr Nimet,Nimet,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,39.95,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Tekirdağ Süleymanpaşa Gündoğdu,39.95,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Tekirdağ Süleymanpaşa Cezaevi,39.95,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Sivas Katmer 200 gr Nimet,Nimet,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,39.95,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,39.95,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Bazlama 150 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,39.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Kocaeli Yeşilova,40.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Bağçeşme Devran Cadde,40.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Divanlı  Kmaraş,40.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Sigortasüleymanpaşatekirdağ,40.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Dibek  Artuklu  Mardin,40.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Yakutiye  Erzurum,40.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Güzelhisar  Aydın,40.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Borsa  Seyhan  Adana,40.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Güzelhisar  Aydın,40.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Ardamanisa,40.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Sıhke  Van,40.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,40.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Pınarbaşı Cad Osmangazi Bursa,40.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Ardamanisa,40.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Sıhke  Van,40.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Gevher Nesibe  Kayseri,40.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Tost 670 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,40.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Yüzüncüyıl  Ilkadım  Samsun,40.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Şehitlik Süleymanpaşa Tekirdağ,40.5,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Ekmek Tost 670 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,40.5,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Ulucami  Osmangazi  Bursa,40.5,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Yakutiye  Erzurum,40.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismetpaşa Caddesi Muratpaşa Antalya,40.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Vilayet  Yenişehir  Diyarbakır,40.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Meydan  Trabzon,40.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Konurçankaya,40.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Tost 670 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,40.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Divanlı  Kmaraş,40.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,40.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Anıt  Konya,40.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Vilayet  Yenişehir  Diyarbakır,40.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,100yıl  Kırıkhan  Hatay,40.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Gevher Nesibe  Kayseri,40.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,100yıl  Kırıkhan  Hatay,40.5,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Anafartalar  Balıkesir,40.5,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Sakarya Caddesi Çankaya Ankara,40.5,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ishakçılar Derince Kocaeli,40.5,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Dibek  Artuklu  Mardin,40.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Şehitler  Gaziantep,40.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Barguzu  Yeşilyurt  Malatya,40.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Tost 670 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,40.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Şehitler  Gaziantep,40.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Tost 670 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,40.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Tost Büyük 670 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 041601-tost Ekmeği, 0416-paket Ekmek",bim,Barguzu  Yeşilyurt  Malatya,40.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Köy 600 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,40.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Tost 670 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,40.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,15 Mayıs Mah  Denizli,40.5,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Köy 600 gr Ekmecik,Ekmecik,"041603-kepek Ekmeği, 04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek",bim,Dere  Konak,40.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,41.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,41.5,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,41.5,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,41.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,41.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,41.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,41.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ali Emiri Yenişehir Diyarbakır,41.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Bazlama 300 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Kaleiçi Muratpaşa Antalya,41.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Tost Kepekli 500 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Kurşunlu Ilkadım Samsun,41.5,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Ekmek Bazlama 340 gr,Markasız,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,42.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,43.95,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Ali Emiri Yenişehir Diyarbakır,43.95,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,43.95,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,44.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Müftülük Dulkadiroğlu Kahramanmaraş,44.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,44.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yenişehir Yenişehir Diyarbakır,44.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Ismet Inönü Seyhan Adana,44.0,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,44.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,44.0,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,44.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Esentepe Mah Ortahisar,44.0,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,44.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,44.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,44.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Elif Sare Karesi Balıkesir,44.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,44.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,44.0,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Hamburger 8 x 54 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,44.0,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hastaneler Kocasinan Kayseri,44.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Er Konut  Erzurum Yakutiye Erzurum,44.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Hisar Konak Izmir,44.0,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,44.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Çok Tahıllı 460 gr Uno,Uno,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,44.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Ardamanisa,44.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Vilayet  Yenişehir  Diyarbakır,44.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Yakutiye  Erzurum,44.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Dibek  Artuklu  Mardin,44.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Şehitler  Gaziantep,44.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Barguzu  Yeşilyurt  Malatya,44.5,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Sıhke  Van,44.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Divanlı  Kmaraş,44.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Güzelhisar  Aydın,44.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Çok Tahıllı Special 460 gr Ekmecik,Ekmecik,"04-bakliyat Ve Unlu Mamuller, 0416-paket Ekmek, 041606-light Form Ekmeği",bim,Gevher Nesibe  Kayseri,44.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Bagetta Sac Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Istanbul Beyoğlu Piyalepaşa,44.95,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hocaalizade Mah Osmangazi Bursa,44.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Günlük Tambuğday Unlu Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,45.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Form Kızarmış Kepekli Ekmek 138 gr Eti,Eti,"Galeta/grissini/etim, Hazır Unlu Mamuller, Kuru Gıdalar, Gıda, Diyet Bisküviler, Bi̇sküvi̇ler, Un Ve Unlu Mamuller",a101,45 Sok Merkez Aydın,45.0,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Bagetta Ekşi Mayalı Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Tekirdağ Muratlı Market,45.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Form Kızarmış Kepekli Ekmek 138 gr Eti,Eti,"Galeta/grissini/etim, Hazır Unlu Mamuller, Kuru Gıdalar, Gıda, Diyet Bisküviler, Bi̇sküvi̇ler, Un Ve Unlu Mamuller",a101,Gölbaşı Caddesi Ipekyolu Van,45.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,İstanbul Halk Ekmek Organik Ekmek,İHE,"Unlu Mamuller Servis, Ekmekler, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Taze Gıdalar, Ekmek Çeşi̇tleri̇",carrefour,Istanbul Cıhangır Gurme,45.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kampüs Izmit Kocaeli,45.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Form Kızarmış Kepekli Ekmek 138 gr Eti,Eti,"Galeta/grissini/etim, Hazır Unlu Mamuller, Kuru Gıdalar, Gıda, Diyet Bisküviler, Bi̇sküvi̇ler, Un Ve Unlu Mamuller",a101,1anafartalar Manisa,45.0,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Arızlı Izmit Kocaeli,45.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,İstanbul Halk Ekmek Tam Buğday Ekmek,İHE,"Unlu Mamuller Servis, Ekmekler, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Taze Gıdalar, Ekmek Çeşi̇tleri̇",carrefour,Istanbul Cıhangır Gurme,45.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekmek Sandviç 7 x 65 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Yeşil Su Şahinbey Gaziantep,45.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Ekmek Sandviç 7 x 65 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Mardin Merkez Mardin,45.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Ekmek Sandviç 7 x 65 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Güzelhisar Merkez Aydın,45.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Ekmek Sandviç 7 x 65 gr Nimet,Nimet,"Ekmek, Paketli Ekmek, Un Ve Unlu Mamuller",a101,Dağkapı Meydanı Yenişehir Diyarbakır,45.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Tekirdağ Soğukkuyu,46.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Antalya Muratpaşa Konuksever,46.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Bagetta Yöresel Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Antalya Muratpaşa Yenigün,46.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Bagetta Çavdar Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",tarim_kredi,Antalya Muratpaşa Yenigün,46.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Bagetta Tam Buğday Unlu Ekmek,Tamköy,"Ekmek Fırınlar, Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Muratpaşa Yenikapı,46.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Antalya Subaşı,46.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Bagetta Ekşi Mayalı Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Antalya Muratpaşa Yenigün,46.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Peksimet Ekmek 200 gr Nimet,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Balık Hali Meram Konya,47.5,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Ekmek Sivas Katmer 200 gr Nimet,Nimet,"Lavaş/katmer/bazlama, Ekmek, Un Ve Unlu Mamuller",a101,Pınarbaşı Cad Osmangazi Bursa,48.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Bagetta Sac Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Balıkesir Altıeylül Soma,49.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Form Kızarmış Kepekli Ekmek 138 gr Eti,Eti,"Galeta/grissini/etim, Hazır Unlu Mamuller, Kuru Gıdalar, Gıda, Diyet Bisküviler, Bi̇sküvi̇ler, Un Ve Unlu Mamuller",carrefour,Manısa Yunus Emre Prıme Mall,49.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Form Kızarmış Kepekli Ekmek 138 gr Eti,Eti,"Galeta/grissini/etim, Hazır Unlu Mamuller, Kuru Gıdalar, Gıda, Diyet Bisküviler, Bi̇sküvi̇ler, Un Ve Unlu Mamuller",carrefour,Aydın Mımar Sınan Süper,49.5,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Bagetta Sac Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Antalya Muratpaşa Etiler,49.5,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Şehit Fethi Bey Cadkonak,49.95,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,İstanbul Halk Ekmek Sandwiç Ekmek,İHE,"Ekmekler, Paketli Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Istanbul Cıhangır Gurme,50.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Günlük Çavdarlı Ekmek,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Zübeyde Hanım Tepebaşı Eskişehir,50.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Bagetürk Çeşit Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Balıkesir Altıeylül Soma,50.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Hatboyu Tepebaşı Eskişehir,53.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Yöresel Ekmek Nimet 500 gr,Nimet,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Nil Cad Kocasinan Kayseri,54.5,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Ekmek Büyük,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Çiftlikönü Süleymanpaşa Tekirdağ,55.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Eskişehir Sıhhiye,55.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Bagetta Ekşi Mayalı Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Eskişehir Tepebaşı Menekşe,55.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,Yeni Vilayet M Migros,56.25,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,Diyarbakır Mm Mıgros,56.25,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,Adliye Kayseri M Migros,56.25,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,Oniki Şubat Kahramanmaraş Mm,56.25,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,Van Iki Nisan Mm Migros,56.25,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,13 Mart Mardin M Migros,56.25,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,5m Aydın Kipa Avm,56.25,2025-05-03 10:16,0,37.8444,27.8458
+Ekmek,Panko Japon Ekmek Kırıntısı 200 gr,Panko,"Tuz Baharat Harç, Kuru Gıdalar, Soslar, Gıda, Konserve Salça Sos, Kahvaltılıklar, Kızarmıs Ekmek/gevre, Harç",migros,5m Horizon Garden Avm Denizli,56.25,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Ekmek Yöresel,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kayalık Pamukkale Denizli,59.95,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Bagetta Yöresel Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Balıkesir Altıeylül Soma,60.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Bağçeşme Devran Cadde,60.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Ekmek Karadeniz,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Atlamataşı Fatih Istanbul,60.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Ekşi Tambuğdaylı Ekmek 450 gr,Markasız,"Ekmekler, Özel Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Bursa Nılüfer Kanunı Cad Süpe,61.9,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Ekşi Tambuğdaylı Ekmek 450 gr,Markasız,"Ekmekler, Özel Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Antalya Konyaaltı Caddesı Mını,61.9,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Yoğun Tahıl Ekmek 445 gr,Markasız,"Ekmekler, Özel Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Antalya Konyaaltı Caddesı Mını,61.9,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Yoğun Tahıl Ekmek 445 gr,Markasız,"Ekmekler, Özel Ekmekler, Pasta-ekmek, Taze Gıdalar",carrefour,Izmır Konak Halıt Zıya Mını,61.9,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Tamköy Ekşi Mayalı Ekmek,Tamköy,"Ekmek Fırınlar, Ekmek Günlük, Unlu Mamuller, Ekmek Speci̇al Sofra",sok,Trabzon Çukurçayır,62.5,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Bagetta Sac Ekmek,Markasız,"Gıda, Ekmek, Temel Gıda Ürünleri, Unlu Mamüller",tarim_kredi,Bursa Millet Market,74.95,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Mercan Mheminönü,75.0,2025-05-03 10:16,0,41.00527,28.97696
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Izmir Çankaya Gümrük,75.0,2025-05-03 10:16,0,38.41885,27.12872
+Ekmek,Ekmek Karadeniz,Markasız,"Ekmek, Normal Ekmek, Un Ve Unlu Mamuller",a101,Kampüs Izmit Kocaeli,75.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Çankaya Merkez,75.0,2025-05-03 10:16,0,39.92077,32.85411
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Van Ilk Adım,75.0,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Konya Alaaddin Bulvarı,75.0,2025-05-03 10:16,0,37.8666667,32.4833333
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Bağçeşme Devran Cadde,75.0,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Balıkesir Anafartalar,75.0,2025-05-03 10:16,0,39.648369,27.88261
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Kayseri Yeni Mahalle,75.0,2025-05-03 10:16,0,38.7333333,35.4833333
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Kırıkhan Feyzullah Kıyılı,75.0,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Trabzon Çukurçayır,75.0,2025-05-03 10:16,0,41.0,39.7333333
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Bursa Osmangazi Mağaz,75.0,2025-05-03 10:16,0,40.18257,29.06687
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Malatya Mimar Sinan Cad,75.0,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Erzurum Pelit,75.0,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Kmaraş Yeni Sarayaltı,75.0,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Kafkas Yufka Ekmek 500 gr,Kafkas,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Tekirdağ 3 Mağazası,75.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Tekirdağ 3 Mağazası,75.0,2025-05-03 10:16,0,40.9833333,27.5166667
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Eskişehir Sıhhiye,75.0,2025-05-03 10:16,0,39.784302,30.51922
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Mardin Keyfi Seyran,75.0,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Samsun Hançerli,75.0,2025-05-03 10:16,0,41.292782,36.33128
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Manisa Sevgiyolu,75.0,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Muratpaşa Yenikapı,75.0,2025-05-03 10:16,0,36.88414,30.70563
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Gaziantep Alleben,75.0,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Diyarbakır Balıkçılarbaşı,75.0,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Adana Seyhan Kurtuluş,75.0,2025-05-03 10:16,0,37.0,35.3213333
+Ekmek,Eyvallah Yufka Ekmek 500 gr,Eyvallah,"Dürümlavaş, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Denizli Saltak Cadde,75.0,2025-05-03 10:16,0,37.77652,29.08639
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",migros,Mardin Mm Migros,79.5,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",tarim_kredi,Van Ipekyolu 2 Nisan,79.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",migros,Suvaroğlu Van M Migros,79.5,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",tarim_kredi,Kahramanmaraş Tavşantepe,79.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",migros,Oniki Şubat Kahramanmaraş Mm,79.5,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,79.5,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",tarim_kredi,Gaziantep Şehitkamil Şirinevler,79.5,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",carrefour,Manısa Yunus Emre Prıme Mall,79.5,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Untad Light Tost Ekmek 500 gr,Untad,"Unlu Mamuller Servis, Ekmekler, Gıda, Ekmek, Paketli Unlu Mamüller, Paketli Ekmekler, Pasta-ekmek, Çeşit Ekmek, Temel Gıda Ürünleri, Unlu Mamüller, Taze Gıdalar, Ekmek Çeşi̇tleri̇",migros,Istasyon Caddiyarbakır Mm,79.5,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Anadolu Tanem Glutensiz Ekmek 250 Gr,Anadolu Tanem,"Dünyadan Ekmekler, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Kurtlusoğuksu Mah,79.9,2025-05-03 10:16,0,36.4018488,36.3498097
+Ekmek,Anadolu Tanem Glutensiz Ekmek 250 Gr,Anadolu Tanem,"Dünyadan Ekmekler, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Gaziantep Değirmiçem,79.9,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Anadolu Tanem Glutensiz Ekmek 250 Gr,Anadolu Tanem,"Dünyadan Ekmekler, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Malatya Mimar Sinan Cad,79.9,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Anadolu Tanem Glutensiz Ekmek 250 Gr,Anadolu Tanem,"Dünyadan Ekmekler, Endüstri̇yel Ekmekler, Unlu Mamuller",sok,Erzurum Lalapaşa,79.9,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Ekmek Sepeti Çeş.hasır Goldkıtchen100425,Markasız,"Zuc Ahşap Bambu, Zuc Ahşap, Gıda Dışı Ürünler",hakmar,Seyyid  Izmit,79.9,2025-05-03 10:16,0,40.8532704,29.8815203
+Ekmek,Unistanbul Domates Fesleğenli Ekmek Kıtırı 110 gr,Unistanbul,"Unlu Mamuller Servis, Galeta Grissini, Paketli Unlu Mamüller, Galeta Gri̇ssi̇ni̇",migros,Manisa Mağazası,87.4,2025-05-03 10:16,0,38.619099,27.428921
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Gaziantep Şehitkamil Şirinevler,99.9,2025-05-03 10:16,0,37.06622,37.38332
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Mardin Artuklu 13 Mart,99.9,2025-05-03 10:16,0,37.3122361,40.735112
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,99.9,2025-05-03 10:16,0,39.9043189,41.2678853
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Diyarbakır Kayapınar Huzurevleri,99.9,2025-05-03 10:16,0,37.91441,40.230629
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,99.9,2025-05-03 10:16,0,37.5833333,36.9333333
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Van Ipekyolu 2 Nisan,99.9,2025-05-03 10:16,0,38.4941667,43.38
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Malatya Yeşilyurt,99.9,2025-05-03 10:16,0,38.35519,38.30946
+Ekmek,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,99.9,2025-05-03 10:16,0,38.7333333,35.4833333
