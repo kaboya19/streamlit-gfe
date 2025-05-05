@@ -12,7 +12,7 @@ headers = {
 
 payload = {
     "menuCategory": True,
-    "keywords": "Meyve ve Sebze",
+    "keywords": "Et, Tavuk ve Balık",
     "pages": 0,
     "size": 24,
     "latitude": 41.05782553985235,
