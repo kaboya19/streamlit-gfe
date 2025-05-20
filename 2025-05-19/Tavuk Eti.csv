@@ -1,10 +1,766 @@
-,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km
-Tavuk Eti,Piliç Jambon Dilimli 60 Gr,Aytaç,"1701-etli̇ Mamuller, 17-grup Spot, 170132-jambon Piliç, Et şarküteri, Piliç, Et Şarküteri Paket, Paket Jambon",bim,Bağlarbaşıgaziosmanpaşa,12.0,2025-05-19 10:19,0
-Tavuk Eti,Polonez Piliç Jambon 60 gr,Polonez,"Et şarküteri, Piliç, Et Şarküteri Paket, Paket Jambon",sok,Gop Kızılay,19.9,2025-05-19 10:19,0
-Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Istanbul Vıa Venezıa Süper,85.9,2025-05-19 10:19,0
-Tavuk Eti,Beypiliç Roaster Piliç ,Beypiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Istanbul Gop Küçükköy,99.5,2025-05-19 10:19,0
-Tavuk Eti,İmren Piliç Baget,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",migros,Mjet Merkez Mh Gop Istanbul,99.95,2025-05-19 10:19,0
-Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Bayrampaşa Pashador Mm Migros,119.95,2025-05-19 10:19,0
-Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Merkez Mh Gop Istanbul,149.9,2025-05-19 10:19,0
-Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Gaziosmanpaşa Istanbul,178.95,2025-05-19 10:19,0
-Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Mjet Merkez Mh Gop Istanbul,299.95,2025-05-19 10:19,0
+,name,brand,categories,marketName,depotName,price,unitPrice,updateDate,marketDistance,Şehir
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Çifte Minareseyhanadana,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,ADANA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Çifte Minareseyhanadana,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Çifte Minareseyhanadana,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,ADANA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Çifte Minareseyhanadana,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Çifte Minareseyhanadana,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Çifte Minareseyhanadana,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Çifte Minareseyhanadana,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Tadpi Piliç Pirzola,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Adana Seyhan Sular,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Tadpi Piliç Bonfile,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Adana Seyhan Sular,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Yeni Vilayet M Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Banvit Bütün Piliç,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Adana Seyhan Mithatpaşa,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Çifte Minareseyhanadana,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Banvit Piliç Ciğer,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Adana Seyhan Mithatpaşa,45.0,"45,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Çifte Minareseyhanadana,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Çifte Minareseyhanadana,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,ADANA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Adana Türkmenbaşı Süper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",tarim_kredi,Adana Seyhan Mithatpaşa,99.0,"99,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Yeni Vilayet M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Çifte Minareseyhanadana,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Cemalpaşa M Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Çifte Minareseyhanadana,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Tadpi Piliç Baget,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Adana Seyhan Sular,109.5,"109,50 ₺/kg",19.05.2025 10:20,0,ADANA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Çifte Minareseyhanadana,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Tadpi Piliç Izgara Kanat,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Adana Seyhan Sular,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Tadpi Piliç Kalçalı But,Tadpi ,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Adana Seyhan Sular,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Adana Sular M Mıgros,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,ADANA
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Konurçankaya,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,ANKARA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Konurçankaya,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Konurçankaya,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,ANKARA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Konurçankaya,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Konurçankaya,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Konurçankaya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Konurçankaya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Tadpi Piliç Pirzola,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Çankaya Merkez,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Tadpi Piliç Bonfile,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Çankaya Izmir Cadde,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Maltepe Mah Ankara,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Konurçankaya,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Konurçankaya,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Konurçankaya,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,ANKARA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Ankara Cebecı Mını,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mjet Ankara Sezenler,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Konurçankaya,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Konurçankaya,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Tadpi Piliç Baget,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Çankaya Merkez,109.5,"109,50 ₺/kg",19.05.2025 10:20,0,ANKARA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Konurçankaya,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,İmren Piliç Izgara Kanat,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",migros,Mjet Meşrutiyet Cd Ankara,189.95,"189,95 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Tadpi Piliç Izgara Kanat,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Kızılay Selanik,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Beypiliç Poşetli Bütün Piliç,Beypiliç,"Poşetli, Piliç, Bütün, Beyaz Et",migros,Ankara Kolej M Mıgros,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Tadpi Piliç Kalçalı But,Tadpi ,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Kızılay Selanik,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Ankara Çankaya Esat Cad,98.9,"98,90 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Ankara Sezenler,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,ANKARA
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kızılsaray  Antalya,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,ANTALYA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Kızılsaray  Antalya,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Kızılsaray  Antalya,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,ANTALYA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Kızılsaray  Antalya,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Kızılsaray  Antalya,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Kızılsaray  Antalya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Kızılsaray  Antalya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Lezita Bütün Piliç,Lezita,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Muratpaşa Yenikapı,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Gedik Piliç Fileto,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Zerdalilik Antalya,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Kaleiçi Antalya,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Farmelia Bütün Piliç,Farmelia,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Muratpaşa Balıkçıoğlu,99.5,"99,50 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kızılsaray  Antalya,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kızılsaray  Antalya,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kızılsaray  Antalya,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,ANTALYA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Antalya Konyaaltı Caddesı Mını,79.9,"79,90 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kızılsaray  Antalya,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Kızılsaray  Antalya,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Kızılsaray  Antalya,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,Mjet Işıklar Antalya,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Antalya Narencıye Süper,98.9,"98,90 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Gedik Tabaklı Piliç Kanat ,Gedik,"Kanat, Piliç, Beyaz Et",migros,Mjet Işıklar Antalya,249.95,"249,95 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Gedik Tabaklı Piliç Pirzola ,Gedik,"But, Piliç, Beyaz Et, Pirzola",migros,Mjet Işıklar Antalya,189.95,"189,95 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Gedik Tabaklı Piliç Baby ,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Kaleiçi Antalya,174.95,"174,95 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Kaleiçi Antalya,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,ANTALYA
+Tavuk Eti,İzmir Piliç Poşetli Bütün Piliç,İzmir,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",migros,Mjet Cumhuriyet Efeler Aydın,89.95,"89,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Güzelhisar  Aydın,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,AYDIN
+Tavuk Eti,Gedik Piliç Dondurulmuş piliç Bonfile Parçaları 500 gr,Gedik,"Su Ve Et Ürünleri̇, Piliç Ürünleri, Donuk Dondurma, Dondurulmuş Gıda",migros,5m Aydın Kipa Avm,139.95,"279,90 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Güzelhisar  Aydın,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Güzelhisar  Aydın,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,AYDIN
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Güzelhisar  Aydın,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Güzelhisar  Aydın,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Güzelhisar  Aydın,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Güzelhisar  Aydın,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,5m Aydın Kipa Avm,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Gedik Piliç Fileto,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Istiklal Aydın M Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,5m Aydın Kipa Avm,119.9,"119,90 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Güzelhisar  Aydın,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Güzelhisar  Aydın,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Güzelhisar  Aydın,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,AYDIN
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Aydın Mımar Sınan Süper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Istiklal Aydın M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Güzelhisar  Aydın,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Cumhuriyet Efeler Aydın,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Güzelhisar  Aydın,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Güzelhisar  Aydın,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Bolez Piliç Yaprak Kanat,Bolez,"Kanat, Piliç, Beyaz Et",migros,5m Aydın Kipa Avm,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,Istiklal Aydın M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Gedik Tabaklı Piliç Kanat ,Gedik,"Kanat, Piliç, Beyaz Et",migros,Istiklal Aydın M Migros,249.95,"249,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Gedik Tabaklı Piliç Pirzola ,Gedik,"But, Piliç, Beyaz Et, Pirzola",migros,Istiklal Aydın M Migros,189.95,"189,95 ₺/kg",19.05.2025 10:19,0,AYDIN
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anafartalar  Balıkesir,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,BALIKESİR
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Anafartalar  Balıkesir,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Anafartalar  Balıkesir,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,BALIKESİR
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Anafartalar  Balıkesir,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Anafartalar  Balıkesir,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Anafartalar  Balıkesir,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Anafartalar  Balıkesir,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Badi Bütün Piliç,Badi,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Balıkesir Anafartalar,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Gedik Piliç Fileto,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Balıkesir Çarşı M Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Balıkesir Eskiterminal M,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anafartalar  Balıkesir,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anafartalar  Balıkesir,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anafartalar  Balıkesir,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,BALIKESİR
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anafartalar  Balıkesir,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Anafartalar  Balıkesir,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Anafartalar  Balıkesir,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Imren Piliç Kalçalı But,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",migros,Salıpazarı Balıkesir M Migros,74.95,"74,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,Salıpazarı Balıkesir M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Gedik Tabaklı Piliç Kanat ,Gedik,"Kanat, Piliç, Beyaz Et",migros,Balıkesir Eskiterminal M,249.95,"249,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Gedik Tabaklı Piliç Pirzola ,Gedik,"But, Piliç, Beyaz Et, Pirzola",migros,Balıkesir Eskiterminal M,189.95,"189,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Badi Piliç Kalçalı But,Badi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Balıkesir Anafartalar,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Gedik Tabaklı Piliç Baby ,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Salıpazarı Balıkesir M Migros,174.95,"174,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Balıkesir Eskiterminal M,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Balıkesir Eskiterminal M,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,BALIKESİR
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,BURSA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Ulucami  Osmangazi  Bursa,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Ulucami  Osmangazi  Bursa,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,BURSA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Ulucami  Osmangazi  Bursa,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Mjet Kükürtlü Bursa,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Badi Bütün Piliç,Badi,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Bursa Osmangazi Mağaz,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Bursa Darmstad,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,BURSA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Bursa Heykel Süper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mjet Şehreküstü Bursa,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Şehreküstü Bursa,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Ulucami  Osmangazi  Bursa,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Beypiliç Poşetli Bütün Piliç,Beypiliç,"Poşetli, Piliç, Bütün, Beyaz Et",migros,Zafer Plaza Bursa Mm Migros,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Badi Piliç Kalçalı But,Badi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Bursa Osmangazi Mağaz,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Bursa Darmstad,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Bursa Heykel Süper,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Şehreküstü Bursa,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Ulucami  Osmangazi  Bursa,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,BURSA
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,DENİZLİ
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,15 Mayıs Mah  Denizli,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,15 Mayıs Mah  Denizli,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,DENİZLİ
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,15 Mayıs Mah  Denizli,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Lezita Bütün Piliç,Lezita,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Denizli Saltak Cadde,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Gedik Piliç Fileto,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,5m Horizon Garden Avm Denizli,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,5m Horizon Garden Avm Denizli,119.9,"119,90 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,DENİZLİ
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Denızlı Evora Süper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,5m Horizon Garden Avm Denizli,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,15 Mayıs Mah  Denizli,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,5m Horizon Garden Avm Denizli,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Denızlı Servergazı Süper,97.9,"97,90 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Gedik Tabaklı Piliç Kanat ,Gedik,"Kanat, Piliç, Beyaz Et",migros,5m Horizon Garden Avm Denizli,249.95,"249,95 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Gedik Tabaklı Piliç Pirzola ,Gedik,"But, Piliç, Beyaz Et, Pirzola",migros,Demokrasi Meydanı Denizli M,189.95,"189,95 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Gedik Tabaklı Piliç Baby ,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,5m Horizon Garden Avm Denizli,174.95,"174,95 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,5m Horizon Garden Avm Denizli,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,DENİZLİ
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,DİYARBAKIR
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Vilayet  Yenişehir  Diyarbakır,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,DİYARBAKIR
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Tadpi Piliç Pirzola,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Diyarbakır Balıkçılarbaşı,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Tadpi Piliç Bonfile,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Diyarbakır Balıkçılarbaşı,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Diyarbakır Mm Mıgros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,DİYARBAKIR
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Diyarbakır Mm Mıgros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Diyarbakır Mm Mıgros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Tadpi Piliç Baget,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Diyarbakır Balıkçılarbaşı,109.5,"109,50 ₺/kg",19.05.2025 10:20,0,DİYARBAKIR
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Vilayet  Yenişehir  Diyarbakır,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Tadpi Piliç Izgara Kanat,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Diyarbakır Balıkçılarbaşı,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Tadpi Piliç Kalçalı But,Tadpi ,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Diyarbakır Balıkçılarbaşı,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Nctıy Avm Diyarbakır M,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Diyarbakır Ofis,69.9,"69,90 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Banvit Piliç Kalçalı But,Banvit,"But, Piliç, Beyaz Et",migros,Istasyon Caddiyarbakır Mm,114.95,"114,95 ₺/kg",19.05.2025 10:19,0,DİYARBAKIR
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yakutiye  Erzurum,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,ERZURUM
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Yakutiye  Erzurum,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Yakutiye  Erzurum,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,ERZURUM
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Serracity Avm Erzurum M Migros,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,ERZURUM
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Yakutiye  Erzurum,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Yakutiye  Erzurum,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Yakutiye  Erzurum,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Yakutiye  Erzurum,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,İmren Piliç Kelebek,İmren,"Kümes Hayvanları-yumurta, Kelebek Pirzola, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Erzurum Pelit,165.0,"165,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,İmren Piliç Bonfile,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Göğüs, Beyaz Et, Bonfile",sok,Erzurum Pelit,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Imren Piliç Pirzola,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Erzurum Pelit,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,İmren Piliç Baget,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Erzurum Pelit,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Bolez Piliç Bonfile,Bolez,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Serracity Avm Erzurum M Migros,149.95,"149,95 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Serracity Avm Erzurum M Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yakutiye  Erzurum,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yakutiye  Erzurum,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yakutiye  Erzurum,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,ERZURUM
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mjet Numune Yakutiye Erzurum,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yakutiye  Erzurum,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Sigorta Yakutiye Erzurum M,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Yakutiye  Erzurum,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Yakutiye  Erzurum,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,İmren Piliç Izgara Kanat,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Erzurum Pelit,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Imren Piliç Kalçalı But,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",sok,Erzurum Cumhuriyet,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,ERZURUM
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,ESKİŞEHİR
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Hat Boyutepebaşıeskişehir,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Hat Boyutepebaşıeskişehir,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,ESKİŞEHİR
+Tavuk Eti,Gedik Piliç Bonfile,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Eskişehir Turgut Reis,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Gedik Piliç Baget,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Eskişehir Turgut Reis,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Gedik Bütün Piliç,Gedik,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Eskişehir Turgut Reis,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Hat Boyutepebaşıeskişehir,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Gedik Piliç Fileto,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Espark Eskişehir Mmm Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Sıhhiye Meydanı Eskişehir,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,ESKİŞEHİR
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Eskışehır Yedıler Süper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Espark Eskişehir Mmm Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,İzmir Piliç Pirzola,Izmir Piliç,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Eskişehir Seylap Caddesi,159.0,"159,00 ₺/kg",19.05.2025 10:20,0,ESKİŞEHİR
+Tavuk Eti,Gedik Piliç Izgara Kanat,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Eskişehir Turgut Reis,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Gedik Piliç Kalçalı But,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Eskişehir Turgut Reis,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Gedik Piliç But Pirzola,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Eskişehir Turgut Reis,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Hat Boyutepebaşıeskişehir,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,İzmir Piliç Kalçalı But,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Eskişehir Seylap Caddesi,79.9,"79,90 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Şehitler  Gaziantep,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,GAZİANTEP
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Şehitler  Gaziantep,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Şehitler  Gaziantep,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,GAZİANTEP
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Şehitler  Gaziantep,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Şehitler  Gaziantep,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Şehitler  Gaziantep,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Şehitler  Gaziantep,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Sanko Park Avm Gaziantep Mmm,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Şehitler  Gaziantep,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Şehitler  Gaziantep,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Şehitler  Gaziantep,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,GAZİANTEP
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Şehitler  Gaziantep,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Şehitler  Gaziantep,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Şehitler  Gaziantep,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Doyfarm Tabaklı Piliç Baget,Doyfarm,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Gaziantep Alleben,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Doyfarm Tabaklı Piliç Bonfile,Doyfarm,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Gaziantep Karşıyaka,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Gaziantep Forum Mmm Migros,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Sanko Park Avm Gaziantep Mmm,69.9,"69,90 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Bey Mahallesi Gaziantep,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Şehitler  Gaziantep,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Doyfarm Poşetli Bütün Piliç,Doyfarm,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Gaziantep Karşıyaka,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Beypiliç Poş. Bütün Piliç,Beypiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Gaziantep Şahinbey Gümüştekin,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,İmren Poşetli Bütün Piliç,İmren,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",migros,Mjet Bey Mahallesi Gaziantep,89.95,"89,95 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Bütün Göğüs Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Şehitler  Gaziantep,145.0,"145,00 ₺/kg",19.05.2025 10:19,0,GAZİANTEP
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,HATAY
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,100yıl  Kırıkhan  Hatay,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,100yıl  Kırıkhan  Hatay,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,HATAY
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,100yıl  Kırıkhan  Hatay,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Lezita Bütün Piliç,Lezita,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Kırıkhan Feyzullah Kıyılı,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,HATAY
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Beypiliç Poş. Bütün Piliç,Beypiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Hatay Kırıkhan Toki,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Bütün Göğüs Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,145.0,"145,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Pirzola Kelebek Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,165.0,"165,00 ₺/kg",19.05.2025 10:20,0,HATAY
+Tavuk Eti,Piliç Üst Kanat Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,209.0,"209,00 ₺/kg",19.05.2025 10:20,0,HATAY
+Tavuk Eti,Dondurulmuş Piliç Izgara Kanat,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,129.9,"129,90 ₺/kg",19.05.2025 10:20,0,HATAY
+Tavuk Eti,Piliç Bütün Poşet Tazem,Tazem,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,100yıl  Kırıkhan  Hatay,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Kanat Izgara Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Izgara Tava Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,249.0,"249,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Parmak Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,100yıl  Kırıkhan  Hatay,209.0,"209,00 ₺/kg",19.05.2025 10:19,0,HATAY
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sinanağafatih,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,İSTANBUL
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sinanağafatih,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Sinanağafatih,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,İSTANBUL
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sinanağafatih,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sinanağafatih,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sinanağafatih,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sinanağafatih,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Kumkapı Istanbul,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sinanağafatih,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sinanağafatih,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sinanağafatih,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,İSTANBUL
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Istanbul Fatıh Molla Güranı,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sinanağafatih,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sinanağafatih,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sinanağafatih,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Kumkapı Istanbul,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Istanbul Cıhangır Gurme,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Beyazıt Mithatpaşa,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Sinanağafatih,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Beypiliç Poş. Bütün Piliç,Beypiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Istanbul Beyoğlu Piyalepaşa,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Banvit Tabak Piliç Sarma,Banvit,"Kasap, Pılıç, Kanatlı, Taze Gıdalar",carrefour,Istanbul Cıhangır Gurme,182.0,"182,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Banvit Tabaklı Bütün Piliç,Banvit,"Tabaklı, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Istanbul Fatıh Molla Güranı,99.9,"99,90 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Bey Poşetli bütün Piliç,Beypiliç,"Kasap, Pılıç, Kanatlı, Taze Gıdalar",carrefour,Istanbul Fatıh Mını,88.5,"88,50 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,İmren Poşetli Bütün Piliç,İmren,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",migros,Mjet Kumkapı Istanbul,89.95,"89,95 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,Piliç Bütün Göğüs Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sinanağafatih,145.0,"145,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Tavuk Eti,İzmir Piliç Poşetli Bütün Piliç,İzmir,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",migros,Mjet Eşrefpaşa Izmir,89.95,"89,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dere  Konak,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,İZMİR
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Dere  Konak,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Dere  Konak,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,İZMİR
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Dere  Konak,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Dere  Konak,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Dere  Konak,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Dere  Konak,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,İzmir Piliç Baget,Izmir Piliç,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",migros,Mjet Eşrefpaşa Izmir,99.95,"99,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Gedik Piliç Fileto,Gedik,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Eşrefpaşa Izmir,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Konak Hükümet Konağı M Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dere  Konak,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dere  Konak,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dere  Konak,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,İZMİR
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Konak Hükümet Konağı M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dere  Konak,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Konak Hükümet Konağı M Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Dere  Konak,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Dere  Konak,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Gazi Bulvarı Konak Izmir,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Banvit Piliç Kalçalı But,Banvit,"But, Piliç, Beyaz Et",migros,Mjet Eşrefpaşa Izmir,114.95,"114,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Konak Borsa Izmir,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Dere  Konak,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,İzmir Piliç Izgara Kanat,Izmir Piliç,"Kanat, Piliç, Beyaz Et",migros,Mjet Eşrefpaşa Izmir,209.95,"209,95 ₺/kg",19.05.2025 10:19,0,İZMİR
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Örnek  Kars,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,KARS
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Örnek  Kars,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Örnek  Kars,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,KARS
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Ortakapı Kars Mm Migros,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,KARS
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Örnek  Kars,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Örnek  Kars,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Örnek  Kars,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Örnek  Kars,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,İmren Piliç Kelebek,İmren,"Kümes Hayvanları-yumurta, Kelebek Pirzola, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Kars Mihralibey,165.0,"165,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,İmren Piliç Bonfile,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Göğüs, Beyaz Et, Bonfile",sok,Kars Yenişehir,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Karacaören Mh Kars M Migros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Imren Piliç Pirzola,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Kars Mihralibey,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,İmren Piliç Baget,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Kars Mihralibey,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Ortakapı Kars Mm Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Örnek  Kars,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Örnek  Kars,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Örnek  Kars,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,KARS
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Ortakapı Kars Mm Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Örnek  Kars,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Örnek  Kars,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Örnek  Kars,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,İmren Piliç Izgara Kanat,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Kars Mihralibey,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Imren Piliç Kalçalı But,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",sok,Kars Mihralibey,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,İmren Piliç But Izgara,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, But Izgara Tava, But Izgara, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Kars Mihralibey,249.0,"249,00 ₺/kg",19.05.2025 10:19,0,KARS
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,KASTAMONU
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Salı Pazarı  Kastamonu,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Salı Pazarı  Kastamonu,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,KASTAMONU
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Kastamonu Mm Migros,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,KASTAMONU
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Salı Pazarı  Kastamonu,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Tadpi Piliç Pirzola,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Kastamonu Pazaryeri,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Bolez Piliç Kelebek,Bolez,"Piliç, Göğüs, Beyaz Et",migros,Salı Pazarı Kastamonu Mm,129.95,"129,95 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Tadpi Piliç Bonfile,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Kastamonu Pazaryeri,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Kastamonu Mm Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",tarim_kredi,Kastamonu Merkez Rauf Denktaş,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Banvit Bütün Piliç,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Kastamonu Merkez Rauf Denktaş,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Şenpiliç Bütün Piliç,Şenpiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Kastamonu Merkez Rauf Denktaş,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,KASTAMONU
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",tarim_kredi,Kastamonu Merkez Rauf Denktaş,99.0,"99,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Salı Pazarı Kastamonu Mm,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Kuzeykent Kastamonu M Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",tarim_kredi,Kastamonu Merkez Rauf Denktaş,209.9,"209,90 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Tadpi Piliç Baget,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Kastamonu Pazaryeri,109.5,"109,50 ₺/kg",19.05.2025 10:20,0,KASTAMONU
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Salı Pazarı  Kastamonu,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Tadpi Piliç Izgara Kanat,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Kastamonu Pazaryeri,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,KAYSERİ
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Gevher Nesibe  Kayseri,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Gevher Nesibe  Kayseri,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,KAYSERİ
+Tavuk Eti,Gedik Piliç Bonfile,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Kayseri Fuaryolu,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Gedik Piliç Baget,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Kayseri Yeni Mahalle,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Gedik Bütün Piliç,Gedik,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Kayseri Yeni Mahalle,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Gevher Nesibe  Kayseri,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,İzmir Piliç Baget,Izmir Piliç,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",sok,Kayseri Emek,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,İzmir Piliç Kanat,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Kayseri Emek,219.0,"219,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Barbaros Mah Kayseri M,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,KAYSERİ
+Tavuk Eti,İzmir Piliç Bonfile,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Kayseri Emek,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Barbaros Mah Kayseri M,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Gevher Nesibe  Kayseri,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,İzmir Piliç Pirzola,Izmir Piliç,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Kayseri Emek,159.0,"159,00 ₺/kg",19.05.2025 10:20,0,KAYSERİ
+Tavuk Eti,Gedik Piliç Izgara Kanat,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Kayseri Yeni Mahalle,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Gedik Piliç Kalçalı But,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Kayseri Yeni Mahalle,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Gedik Piliç But Pirzola,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Kayseri Yeni Mahalle,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,KAYSERİ
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,KOCAELİ
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Tüysüzler Izmit,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Tüysüzler Izmit,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,KOCAELİ
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Tüysüzler Izmit,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Tüysüzler Izmit,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Tüysüzler Izmit,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Tüysüzler Izmit,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Badi Bütün Piliç,Badi,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Bağçeşme Devran Cadde,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Kocaeli Üniversitesi,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,KOCAELİ
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mjet Bağçeşme Kocaeli,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Kocaeli Kabaoğlu,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Tüysüzler Izmit,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Tüysüzler Izmit,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Badi Piliç Kalçalı But,Badi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Bağçeşme Devran Cadde,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Kocaeli Kabaoğlu,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Kocaeli Üniversitesi,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Tüysüzler Izmit,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Beypiliç Poş. Bütün Piliç,Beypiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Kocaeli Derince Ertuğrul Gazi,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Bütün Göğüs Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,145.0,"145,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Tavuk Eti,Piliç Pirzola Kelebek Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Tüysüzler Izmit,165.0,"165,00 ₺/kg",19.05.2025 10:20,0,KOCAELİ
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anıt  Konya,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,KONYA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Anıt  Konya,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Anıt  Konya,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,KONYA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Anıt  Konya,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Anıt  Konya,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Anıt  Konya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Anıt  Konya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Badi Bütün Piliç,Badi,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Adapazarı Paye,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Istasyon Konya M Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anıt  Konya,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anıt  Konya,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anıt  Konya,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,KONYA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Istasyon Konya M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Anıt  Konya,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Anıt  Konya,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Anıt  Konya,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Beypiliç Poşetli Bütün Piliç,Beypiliç,"Poşetli, Piliç, Bütün, Beyaz Et",migros,Istasyon Konya M Migros,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Konya Kent Plaza Süper,98.9,"98,90 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Meram Konya Mm Migros,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Badi Piliç Kalçalı But,Badi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Adapazarı Paye,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Banvit Piliç Izgara Tava,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, But Izgara, Et Ve Et Ürünleri, Piliç, Beyaz Et",migros,Meram Konya Mm Migros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Istasyon Konya M Migros,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Banvit Piliç Kalçalı But,Banvit,"But, Piliç, Beyaz Et",migros,Meram Konya Mm Migros,114.95,"114,95 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Konya Kent Plaza Süper,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Istasyon Konya M Migros,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Anıt  Konya,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,KONYA
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,MALATYA
+Tavuk Eti,Gedik Piliç Dondurulmuş piliç Bonfile Parçaları 500 gr,Gedik,"Su Ve Et Ürünleri̇, Piliç Ürünleri, Donuk Dondurma, Dondurulmuş Gıda",migros,5m Malatya Park,139.95,"279,90 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Barguzu  Yeşilyurt  Malatya,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Barguzu  Yeşilyurt  Malatya,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,MALATYA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Barguzu  Yeşilyurt  Malatya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Tadpi Piliç Pirzola,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Malatya Emeksiz,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Turgut Özal Bulvarı Malatya M,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Tadpi Piliç Bonfile,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Malatya Emeksiz,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,5m Malatya Park,119.9,"119,90 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,MALATYA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Turgut Özal Bulvarı Malatya M,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Turgut Özal Bulvarı Malatya M,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Tadpi Piliç Baget,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Malatya Ilyas Mah,109.5,"109,50 ₺/kg",19.05.2025 10:20,0,MALATYA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Barguzu  Yeşilyurt  Malatya,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Tadpi Piliç Izgara Kanat,Tadpi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Malatya Emeksiz,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Tadpi Piliç Kalçalı But,Tadpi ,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Malatya Ilyas Mah,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Cengiz Topel Cad Malatya M,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,MALATYA
+Tavuk Eti,İzmir Piliç Poşetli Bütün Piliç,İzmir,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",sok,Manisa Arda,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,İzmir Piliç Poşetli Bütün Piliç,İzmir,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",migros,Mjet Sevgi Yolu Manisa,89.95,"89,95 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ardamanisa,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,MANİSA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Ardamanisa,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Ardamanisa,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,MANİSA
+Tavuk Eti,Gedik Piliç Bonfile,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Manisa Sevgiyolu,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Piliç Baget,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Manisa Sevgiyolu,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Piliç Kelebek,Gedik,"Kümes Hayvanları-yumurta, Kelebek Pirzola, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Manisa Sevgiyolu,165.0,"165,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Bütün Piliç,Gedik,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Manisa Sevgiyolu,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Ardamanisa,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Ardamanisa,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Ardamanisa,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Ardamanisa,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ardamanisa,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ardamanisa,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ardamanisa,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,MANİSA
+Tavuk Eti,İzmir Piliç Bonfile,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Manisa Sevgiyolu,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Ardamanisa,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Ardamanisa,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Piliç Izgara Kanat,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Manisa Sevgiyolu,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Piliç Kalçalı But,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Manisa Sevgiyolu,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Piliç But Pirzola,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Manisa Sevgiyolu,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Ardamanisa,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,İzmir Piliç Kalçalı But,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Manisa Öğretmenevi,79.9,"79,90 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,Mjet Manisa Seyfettin Bey Cad,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,MANİSA
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Divanlı  Kmaraş,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,KAHRAMANMARAŞ
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Divanlı  Kmaraş,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Divanlı  Kmaraş,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,KAHRAMANMARAŞ
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Divanlı  Kmaraş,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Divanlı  Kmaraş,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Divanlı  Kmaraş,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Divanlı  Kmaraş,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Piazza Avm Kahramanmaraş Mmm,119.9,"119,90 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Divanlı  Kmaraş,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Divanlı  Kmaraş,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Divanlı  Kmaraş,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,KAHRAMANMARAŞ
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Piazza Avm Kahramanmaraş Mmm,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Divanlı  Kmaraş,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Divanlı  Kmaraş,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Divanlı  Kmaraş,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Doyfarm Tabaklı Piliç Baget,Doyfarm,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Kmaraş Yeni Sarayaltı,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Doyfarm Tabaklı Piliç Bonfile,Doyfarm,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Kmaraş Yeni Sarayaltı,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Oniki Şubat Kahramanmaraş Mm,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Banvit Piliç Izgara Tava,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, But Izgara, Et Ve Et Ürünleri, Piliç, Beyaz Et",migros,Piazza Avm Kahramanmaraş Mmm,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Oniki Şubat Kahramanmaraş Mm,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Banvit Piliç Kalçalı But,Banvit,"But, Piliç, Beyaz Et",migros,Piazza Avm Kahramanmaraş Mmm,114.95,"114,95 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Piazza Avm Kahramanmaraş Mmm,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Divanlı  Kmaraş,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Doyfarm Poşetli Bütün Piliç,Doyfarm,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Kmaraş Yeni Sarayaltı,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,KAHRAMANMARAŞ
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,MARDİN
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Dibek  Artuklu  Mardin,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Dibek  Artuklu  Mardin,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,MARDİN
+Tavuk Eti,Gedik Piliç Bonfile,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Mardin Keyfi Seyran,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Gedik Piliç Baget,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Mardin Keyfi Seyran,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Gedik Bütün Piliç,Gedik,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Mardin Keyfi Seyran,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Dibek  Artuklu  Mardin,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,İzmir Piliç Kanat,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Mardin Ilkem,219.0,"219,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Mardin Mm Migros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mardian Mall Mardin Mm,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,MARDİN
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mardian Mall Mardin Mm,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,İzmir Piliç Bonfile,Izmir Piliç,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Mardin Ilkem,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Yalım Mh Artuklu Mardin M,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Dibek  Artuklu  Mardin,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,İzmir Piliç Pirzola,Izmir Piliç,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Mardin Ilkem,159.0,"159,00 ₺/kg",19.05.2025 10:20,0,MARDİN
+Tavuk Eti,Gedik Piliç Izgara Kanat,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları",sok,Mardin Keyfi Seyran,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Gedik Piliç Kalçalı But,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Mardin Ilkem,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Gedik Piliç But Pirzola,Gedik,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, But Pirzola",sok,Mardin Ilkem,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,MARDİN
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,SAKARYA
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Mithatpaşaserdivansakarya,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Mithatpaşaserdivansakarya,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,SAKARYA
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Mithatpaşaserdivansakarya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Altınova Sakarya Mmm Migros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Badi Bütün Piliç,Badi,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Maltepe Eski Merkez Cami,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Adapazarı Erenler Mm Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,SAKARYA
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Adapazarı Adacenter Hıper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Adapazarı Erenler Mm Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Mithatpaşaserdivansakarya,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,Altınova Sakarya Mmm Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Adapazarı Erenler Mm Migros,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Gedik Tabaklı Piliç Pirzola ,Gedik,"But, Piliç, Beyaz Et, Pirzola",migros,Altınova Sakarya Mmm Migros,189.95,"189,95 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Badi Piliç Kalçalı But,Badi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Maltepe Eski Merkez Cami,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Adapazarı Erenler Mm Migros,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Adapazarı Adacenter Hıper,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Serdivan Istiklal,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Tavuk Eti,İzmir Piliç Poşetli Bütün Piliç,İzmir,"Kümes Hayvanları-yumurta, Bütün Piliç, Poşetli, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Bütün, Beyaz Et",migros,Mjet Samsun Gazi,89.95,"89,95 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,SAMSUN
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Yüzüncüyıl  Ilkadım  Samsun,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,SAMSUN
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Mjet Samsun Gazi,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,SAMSUN
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,İmren Piliç Kelebek,İmren,"Kümes Hayvanları-yumurta, Kelebek Pirzola, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Samsun Kadıköy Mgz,165.0,"165,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,İmren Piliç Bonfile,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Göğüs, Beyaz Et, Bonfile",sok,Samsun Kadıköy Mgz,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Imren Piliç Pirzola,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Samsun Kadıköy Mgz,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,İmren Piliç Baget,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Samsun Kadıköy Mgz,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Bolez Piliç Bonfile,Bolez,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Samsun Lise Caddesi,149.95,"149,95 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Cumhuriyet Meydanı Samsun M,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,SAMSUN
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Samsun Gürbüz,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Bulvar Samsun M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Yüzüncüyıl  Ilkadım  Samsun,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,İmren Piliç Izgara Kanat,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Samsun Kadıköy Mgz,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Imren Piliç Kalçalı But,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",sok,Samsun Kadıköy Mgz,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,SAMSUN
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kepeneksivas,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,SİVAS
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Kepeneksivas,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Kepeneksivas,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,SİVAS
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Kepeneksivas,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Kepeneksivas,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Kepeneksivas,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Kepeneksivas,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,İmren Piliç Bonfile,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Göğüs, Beyaz Et, Bonfile",sok,Sivas Sait Paşa,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Sivas Mmm Migros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Imren Piliç Pirzola,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Sivas Mşehit Akyüz,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,İmren Piliç Baget,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Sivas Mşehit Akyüz,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Bağdat Cd Sivas M Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Beypiliç Roaster Piliç ,Beypiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Sivas Merkez Buruciye,99.5,"99,50 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kepeneksivas,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kepeneksivas,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kepeneksivas,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,SİVAS
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Bağdat Cd Sivas M Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Kepeneksivas,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Bağdat Cd Sivas M Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Kepeneksivas,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Kepeneksivas,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,İmren Piliç Izgara Kanat,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Sivas Mşehit Akyüz,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Imren Piliç Kalçalı But,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Piliç, Taze Gıda Kümes Hayvanları, Beyaz Et",sok,Sivas Mşehit Akyüz,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,İmren Piliç But Izgara,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, But Izgara Tava, But Izgara, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Sivas Vali Varinli,249.0,"249,00 ₺/kg",19.05.2025 10:19,0,SİVAS
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,TEKİRDAĞ
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sigortasüleymanpaşatekirdağ,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Sigortasüleymanpaşatekirdağ,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,TEKİRDAĞ
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sigortasüleymanpaşatekirdağ,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Çiftlikönü S Paşa Tekirdağ M,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,TEKİRDAĞ
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Tekırdağ Eroğlu Hıper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Gedik Tabaklı Piliç Baget ,Gedik,"But, Baget, Piliç, Beyaz Et",migros,Çiftlikönü S Paşa Tekirdağ M,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Çiftlikönü S Paşa Tekirdağ M,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Atatürk Mh Tekirdağ,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Banvit Piliç Kalçalı But,Banvit,"But, Piliç, Beyaz Et",migros,Mjet Atatürk Mh Tekirdağ,114.95,"114,95 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Tekırdağ Eroğlu Hıper,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Çiftlikönü S Paşa Tekirdağ M,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Sigortasüleymanpaşatekirdağ,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Bakpiliç Poş. Bütün Piliç,Bakpiliç,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et",tarim_kredi,Tekirdağ Süleymanpaşa Gündoğdu,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Bütün Göğüs Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,145.0,"145,00 ₺/kg",19.05.2025 10:19,0,TEKİRDAĞ
+Tavuk Eti,Piliç Pirzola Kelebek Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sigortasüleymanpaşatekirdağ,165.0,"165,00 ₺/kg",19.05.2025 10:20,0,TEKİRDAĞ
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Meydan  Trabzon,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,TRABZON
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Meydan  Trabzon,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Meydan  Trabzon,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,TRABZON
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Merkez Boztepe Trabzon M,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,TRABZON
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Meydan  Trabzon,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Meydan  Trabzon,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Meydan  Trabzon,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Meydan  Trabzon,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,İmren Piliç Kelebek,İmren,"Kümes Hayvanları-yumurta, Kelebek Pirzola, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Trabzon Çukurçayır,165.0,"165,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,İmren Piliç Bonfile,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Piliç, Göğüs, Beyaz Et, Bonfile",sok,Trabzon Cuma,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Imren Piliç Pirzola,İmren,"But, Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Piliç, Taze Gıda Kümes Hayvanları, But Pirzola, Beyaz Et, Pirzola",sok,Trabzon Çukurçayır,175.0,"175,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,İmren Piliç Baget,İmren,"Kümes Hayvanları-yumurta, But, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Trabzon Çukurçayır,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Bolez Piliç Bonfile,Bolez,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Merkez Boztepe Trabzon M,149.95,"149,95 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Merkez Boztepe Trabzon M,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Meydan  Trabzon,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Meydan  Trabzon,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Meydan  Trabzon,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,TRABZON
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Trabzon Vardarlar Süper,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mjet Kaymaklı Trabzon,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Meydan  Trabzon,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Kaymaklı Trabzon,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Meydan  Trabzon,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Bolez Piliç Tab.but Izgara,Bolez,"But, But Izgara, Piliç, Beyaz Et",migros,Merkez Boztepe Trabzon M,199.95,"199,95 ₺/kg",19.05.2025 10:20,0,TRABZON
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Meydan  Trabzon,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,İmren Piliç Izgara Kanat,İmren,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kanat, Taze Gıda Kümes Hayvanları, Piliç, Beyaz Et",sok,Trabzon Çukurçayır,239.0,"239,00 ₺/kg",19.05.2025 10:19,0,TRABZON
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sıhke  Van,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,VAN
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sıhke  Van,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Sıhke  Van,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,VAN
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Van Iki Nisan Mm Migros,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,VAN
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sıhke  Van,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sıhke  Van,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sıhke  Van,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sıhke  Van,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Van Iki Nisan Mm Migros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Bolez Piliç Bonfile,Bolez,"Piliç, Göğüs, Beyaz Et, Bonfile",migros,Van Iki Nisan Mm Migros,149.95,"149,95 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Van Iki Nisan Mm Migros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sıhke  Van,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sıhke  Van,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sıhke  Van,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,VAN
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Van Iki Nisan Mm Migros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sıhke  Van,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Van Iki Nisan Mm Migros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sıhke  Van,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Bolez Piliç Tab.but Izgara,Bolez,"But, But Izgara, Piliç, Beyaz Et",migros,Kurtuluş Van Mm Migros,199.95,"199,95 ₺/kg",19.05.2025 10:20,0,VAN
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sıhke  Van,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Doyfarm Tabaklı Piliç Baget,Doyfarm,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Baget, Taze Gıda Kümes Hayvanları",sok,Van Ilk Adım,109.5,"109,50 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Doyfarm Tabaklı Piliç Bonfile,Doyfarm,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları, Bonfile",sok,Van Cumhuriyet,185.0,"185,00 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Kurtuluş Van Mm Migros,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Van Iki Nisan Mm Migros,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,VAN
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,467evlerzonguldak,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,ZONGULDAK
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,467evlerzonguldak,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,467evlerzonguldak,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,ZONGULDAK
+Tavuk Eti,Bolez Piliç Baget,Bolez,"But, Baget, Piliç, Beyaz Et",migros,Zonguldak Migros Mm,89.95,"89,95 ₺/kg",19.05.2025 10:20,0,ZONGULDAK
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,467evlerzonguldak,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,467evlerzonguldak,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,467evlerzonguldak,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,467evlerzonguldak,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Badi Bütün Piliç,Badi,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Rüzgarlımeşe Anıl Sitesi,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Mjet Zonguldak Üniversite,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,467evlerzonguldak,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,467evlerzonguldak,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,467evlerzonguldak,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,ZONGULDAK
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",carrefour,Zonguldak Demırpark Avm,85.9,"85,90 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Mjet Zonguldak Üniversite,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,467evlerzonguldak,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Mjet Zonguldak Üniversite,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,467evlerzonguldak,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,467evlerzonguldak,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Badi Piliç Kalçalı But,Badi,"Kümes Hayvanları-yumurta, Taze Pi̇li̇ç Ürünleri̇, Kalçalı But, Taze Gıda Kümes Hayvanları",sok,Rüzgarlımeşe Anıl Sitesi,74.0,"74,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Zonguldak Üniversite,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Piliç Kalçalı But,Banvit,"But, Piliç, Beyaz Et",migros,Mjet Hastane Zonguldak,114.95,"114,95 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Zonguldak Demırpark Avm,92.5,"92,50 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Mjet Zonguldak Üniversite,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,467evlerzonguldak,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Banvit Tabak Piliç Sarma,Banvit,"Kasap, Pılıç, Kanatlı, Taze Gıdalar",carrefour,Zonguldak Demırpark Avm,182.0,"182,00 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
+Tavuk Eti,Piliç Baget Lale Tazem Piliç,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sebilaksaray,219.0,"219,00 ₺/kg",19.05.2025 10:20,0,AKSARAY
+Tavuk Eti,Dond.fırınlık Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sebilaksaray,74.9,"74.900,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Piliç Fırınlık,Markasız,"0101-kanatlı Et, 010101-poşetli Tavuk, 01-etli Mamuller",bim,Sebilaksaray,99.5,"99,50 ₺/kg",19.05.2025 10:20,0,AKSARAY
+Tavuk Eti,Ondurulmuş Piliç Sarma,Markasız,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sebilaksaray,99.0,"99.000,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Dondurulmuş Piliç Bonfile,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sebilaksaray,149.9,"149.900,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Donuk Bütün Piliç,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170104-donuk Poşetli Tavuk",bim,Sebilaksaray,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Dondurulmuş Piliç Baget,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sebilaksaray,69.9,"69.900,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Lezita Piliç Kelebek,Lezita,"Kümes Hayvanları-yumurta, Kelebek Pirzola, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Aksaray Fatih,165.0,"165,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Lezita Bütün Piliç,Lezita,"Kümes Hayvanları-yumurta, Bütün Piliç, Taze Pi̇li̇ç Ürünleri̇, Taze Gıda Kümes Hayvanları",sok,Aksaray Fatih,77.5,"77,50 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Banvit Piliç Kanat,Banvit,"Kanat, Piliç, Beyaz Et",migros,Aksaray Mm Mıgros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Banvit Piliç Pirzola,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Beyaz Et, Pirzola",migros,Aksaray Mm Mıgros,149.9,"149,90 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Piliç Baget Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sebilaksaray,89.0,"89,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Piliç Bonfile Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sebilaksaray,225.0,"225,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Piliç Pirzola Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sebilaksaray,175.0,"175,00 ₺/kg",19.05.2025 10:20,0,AKSARAY
+Tavuk Eti,Banvit Piliç Baget,Banvit,"But, Kasap, Pılıç, Et-et Ürünleri-dondurulmuş Ürünler, Kanatlı, Et Ve Et Ürünleri, Baget, Taze Gıdalar, Piliç, Beyaz Et",migros,Aksaray Mm Mıgros,119.95,"119,95 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Piliç Çorbalık Tazem,Tazem,"0101-kanatlı Et, 01-etli Mamuller, 010102-tabaklı Tavuk",bim,Sebilaksaray,62.5,"62,50 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Banvit Piliç Bonfile,Banvit,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Piliç, Göğüs, Beyaz Et, Bonfile",migros,Aksaray Mm Mıgros,178.95,"178,95 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Dondurulmuş Piliç Kelebek,Kelebek,"0101-kanatlı Et, 01-etli Mamuller, 010105-donuk Tabaklı Tavuk",bim,Sebilaksaray,79.0,"79,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Dondurulmuş Piliç Kalçalı But,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170105-donuk Tabaklı Tavuk",bim,Sebilaksaray,54.9,"54.900,00 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",carrefour,Aksaray Merkez,98.9,"98,90 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Erpiliç Poşetli Bütün Piliç,Erpiliç,"Kasap, Pılıç, Poşetli, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Aksaray Mm Mıgros,104.95,"104,95 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Banvit Piliç Izgara Tava,Banvit,"But, Et-et Ürünleri-dondurulmuş Ürünler, But Izgara, Et Ve Et Ürünleri, Piliç, Beyaz Et",migros,Aksaray Mm Mıgros,299.95,"299,95 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Gedik Poşetli Bütün Piliç,Gedik,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Park Site Aksaray Mm Migros,77.9,"77,90 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Banvit Poşetli Bütün Piliç,Banvit,"Poşetli, Kasap, Pılıç, Kanatlı, Taze Gıdalar, Piliç, Bütün, Beyaz Et",migros,Park Site Aksaray Mm Migros,94.95,"94,95 ₺/kg",19.05.2025 10:19,0,AKSARAY
+Tavuk Eti,Piliç Kroket 700 Gr,Markasız,"1701-etli̇ Mamuller, 170153-donuk Kaplam.kanatlı, 17-grup Spot",bim,Sebilaksaray,52.5,"75,00 ₺/kg",19.05.2025 10:19,0,AKSARAY

@@ -1,1 +1,14 @@
-,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km
+,name,brand,categories,marketName,depotName,price,unitPrice,updateDate,marketDistance,Şehir
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,5m Aydın Kipa Avm,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,AYDIN
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Zafer Plaza Bursa Mm Migros,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,BURSA
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,5m Horizon Garden Avm Denizli,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,DENİZLİ
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Sanko Park Avm Gaziantep Mmm,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,GAZİANTEP
+Nar,Nar,Markasız,"Meyveler, Nar Tanesi, Taze Gıdalar, Egzoti̇k Meyveler, Meyve Ve Sebze, Meyve, Üzümsü Meyve",sok,Cemberlıtas,119.9,"119,90 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Adliye Kayseri M Migros,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,KAYSERİ
+Nar,Nar,Markasız,"Meyveler, Nar Tanesi, Taze Gıdalar, Egzoti̇k Meyveler, Meyve Ve Sebze, Meyve, Üzümsü Meyve",sok,Adapazarı Paye,99.9,"99,90 ₺/kg",19.05.2025 10:19,0,KONYA
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,5m Malatya Park,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,MALATYA
+Nar,Tarım Kredi Dondurulmuş Tane Nar 400 Gr,Tarım Kredi,"Donuk Meyve, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Dondurulmuş",tarim_kredi,Malatya Cirikpınar,29.9,"74,75 ₺/kg",19.05.2025 10:19,0,MALATYA
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Altınova Sakarya Mmm Migros,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,SAKARYA
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Sivas Mmm Migros,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,SİVAS
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Zonguldak Migros Mm,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,ZONGULDAK
+Nar,Lavi Nar 400 gr,Lavi,"Sebze Ve Meyve, Donuk Dondurma, Meyve, Dondurulmuş Gıda",migros,Aksaray Mm Mıgros,89.95,"224,87 ₺/kg",19.05.2025 10:20,0,AKSARAY

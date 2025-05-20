@@ -1,16 +1,16 @@
-,name,brand,categories,marketName,depotName,price,updateDate,mesafe_km
-Kuzu Eti,Donuk Dana - Kuzu Kıyma 500 Gr Bonfilet,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170146-donuk Kıyma",bim,Bağlarbaşıgaziosmanpaşa,169.0,2025-05-19 10:19,0
-Kuzu Eti,Kuzu-dana Kıyma Yağlı 500 gr,Haket,"Kuzu Eti Ürünleri, Tl Yükleme, Kuzu Eti",hakmar,Selamlıüsküdar,299.0,2025-05-19 10:19,0
-Kuzu Eti,Eral Kuzu Kokoreç Baharatlı ( kuşbaşı ) 200 gr,Eral,"Et Sakatat, Pişirmeye Hazır Kırmızı Et Ürünleri, Pişirmeye Hazır Et Ürünler, Sakatat",migros,Avasköy Bayrampaşa M Migros,289.95,2025-05-19 10:19,0
-Kuzu Eti,Kuzu Kuşbaşı,Tarım Kredi,"Kuzu Eti Ürünleri, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Bisküvi,şekerleme,mamalar Ve Sağlık Ürün, Kırmızı Et, Kuzu Eti",hakmar,Selimpaşa  Üsküdar,995.0,2025-05-19 10:19,0
-Kuzu Eti,Dana & Kuzu İnegöl Köfte 400 Gr Emin,Emin,"011401-köfteler, 0114-kırmızı Et, 01-etli Mamuller",bim,Bağlarbaşıgaziosmanpaşa,189.0,2025-05-19 10:20,0
-Kuzu Eti,Dana & Kuzu Izgara Köfte 400 Gr Emin,Emin,"011401-köfteler, 0114-kırmızı Et, 01-etli Mamuller",bim,Bağlarbaşıgaziosmanpaşa,189.0,2025-05-19 10:20,0
-Kuzu Eti,Köfte Dana Kuzu Satır 400 Gr Emin,Emin,"011401-köfteler, 0114-kırmızı Et, 01-etli Mamuller",bim,Bağlarbaşıgaziosmanpaşa,189.0,2025-05-19 10:20,0
-Kuzu Eti,Köfte Dana Kuru 400 gr Emin,Emin,"011401-köfteler, 0114-kırmızı Et, 01-etli Mamuller",bim,Bağlarbaşıgaziosmanpaşa,189.0,2025-05-19 10:19,0
-Kuzu Eti,Dana - kuzu Satır Köfte Map Tabak 400 Gr,Tarım Kredi,"Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Kırmızı Et, Köfte",tarim_kredi,Istanbul Bayrampaşa,225.0,2025-05-19 10:19,0
-Kuzu Eti,İnci Dana Kuzu Kaşarlı Köfte 500 gr,İnci,"Su Ve Et Ürünleri̇, Et Ürünleri, Dondurma-donuk Ürünler, Dondurulmuş Gıda",sok,Gop Kızılay,250.0,2025-05-19 10:19,0
-Kuzu Eti,İnci Dana Kuzu Kasap Köfte 500 gr,İnci,"Su Ve Et Ürünleri̇, Et Ürünleri, Dondurma-donuk Ürünler, Dondurulmuş Gıda",sok,Gop Kızılay,250.0,2025-05-19 10:19,0
-Kuzu Eti,Eral Kuzu Kokoreç Baharatlı ( kuşbaşı ) 200 gr,Eral,"Et Sakatat, Pişirmeye Hazır Kırmızı Et Ürünleri, Pişirmeye Hazır Et Ürünler, Sakatat",migros,Avasköy Bayrampaşa M Migros,289.95,2025-05-19 10:19,0
-Kuzu Eti,Kuzu Kuşbaşı,Tarım Kredi,"Kuzu Eti Ürünleri, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Bisküvi,şekerleme,mamalar Ve Sağlık Ürün, Kırmızı Et, Kuzu Eti",hakmar,Selimpaşa  Üsküdar,995.0,2025-05-19 10:19,0
-Kuzu Eti,Donuk Dana - Kuzu Kıyma 500 Gr Bonfilet,Markasız,"1701-etli̇ Mamuller, 17-grup Spot, 170146-donuk Kıyma",bim,Bağlarbaşıgaziosmanpaşa,169.0,2025-05-19 10:19,0
-Kuzu Eti,Kuzu-dana Kıyma Yağlı 500 gr,Haket,"Kuzu Eti Ürünleri, Tl Yükleme, Kuzu Eti",hakmar,Selamlıüsküdar,299.0,2025-05-19 10:19,0
+,name,brand,categories,marketName,depotName,price,unitPrice,updateDate,marketDistance,Şehir
+Kuzu Eti,Uzman Kasap Kuzu Sac Kavurmalık 400 gr,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,5m Aydın Kipa Avm,225.95,"564,88 ₺/kg",19.05.2025 10:19,0,AYDIN
+Kuzu Eti,Kuzu Gerdan ,Tarım Kredi,"Meyve Ve Sebzeler, Kuzu Eti Ürünleri, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Kırmızı Et, Kuzu Eti",tarim_kredi,Eskişehir Ikieylül Market,495.9,"495,90 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Kuzu Eti,Uzman Kasap Kuzu Sac Kavurmalık 400 gr,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,Mjet Sakarya Cd Eskişehir,225.95,"564,88 ₺/kg",19.05.2025 10:19,0,ESKİŞEHİR
+Kuzu Eti,Kuzu Kuşbaşı,Tarım Kredi,"Kuzu Eti Ürünleri, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Bisküvi,şekerleme,mamalar Ve Sağlık Ürün, Kırmızı Et, Kuzu Eti",hakmar,Valide  Üsküdar,995.0,"995,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Kuzu Eti,Kuzu Sac Kavurma ,Esk,"Kuzu Eti Ürünleri, Kuzu Eti, Spot Ürünler",hakmar,Selamlıüsküdar,745.0,"745,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Kuzu Eti,Kuzu-dana Kıyma Yağlı 500 gr,Haket,"Kuzu Eti Ürünleri, Tl Yükleme, Kuzu Eti",hakmar,Valide  Üsküdar,299.0,"598,00 ₺/kg",19.05.2025 10:19,0,İSTANBUL
+Kuzu Eti,Uzman Kasap Kuzu Pirzola 300 gr,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,Şehitler Kars M Migros,529.95,"1.766,50 ₺/kg",19.05.2025 10:19,0,KARS
+Kuzu Eti,Uzman Kasap Kuzu Sac Kavurmalık 400 gr,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,K Demircioğlu Cadkastamonu M,225.95,"564,88 ₺/kg",19.05.2025 10:19,0,KASTAMONU
+Kuzu Eti,Kuzu Kuşbaşı,Tarım Kredi,"Kuzu Eti Ürünleri, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Bisküvi,şekerleme,mamalar Ve Sağlık Ürün, Kırmızı Et, Kuzu Eti",hakmar,Seyyid  Izmit,995.0,"995,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Kuzu Eti,Kuzu-dana Kıyma Yağlı 500 gr,Haket,"Kuzu Eti Ürünleri, Tl Yükleme, Kuzu Eti",hakmar,Gültepe  Izmit,299.0,"598,00 ₺/kg",19.05.2025 10:19,0,KOCAELİ
+Kuzu Eti,Kuzu Kuşbaşı,Tarım Kredi,"Kuzu Eti Ürünleri, Et-et Ürünleri-dondurulmuş Ürünler, Et Ve Et Ürünleri, Bisküvi,şekerleme,mamalar Ve Sağlık Ürün, Kırmızı Et, Kuzu Eti",hakmar,Adakuleadapazarı,995.0,"995,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Kuzu Eti,Kuzu-dana Kıyma Yağlı 500 gr,Haket,"Kuzu Eti Ürünleri, Tl Yükleme, Kuzu Eti",hakmar,Adnan Menderes  Adapazarı,299.0,"598,00 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Kuzu Eti,Uzman Kasap Kuzu Sac Kavurmalık 400 gr,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,Altınova Sakarya Mmm Migros,225.95,"564,88 ₺/kg",19.05.2025 10:19,0,SAKARYA
+Kuzu Eti,Uzman Kasap Kuzu Kaburga,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,Bağdat Cd Sivas M Migros,679.95,"679,95 ₺/kg",19.05.2025 10:19,0,SİVAS
+Kuzu Eti,Uzman Kasap Kuzu Pirzola 300 gr,Uzman Kasap,"Uzman Kasap Taze Paketli̇, Kırmızı Et Self Servis, Uzman Kasap Kuzu Paket, Uzman Kasap Taze Etler",migros,Zonguldak Migros Mm,529.95,"1.766,50 ₺/kg",19.05.2025 10:19,0,ZONGULDAK
