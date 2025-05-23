@@ -1,0 +1,508 @@
+,name,brand,categories,marketName,depotName,price,unitPrice,updateDate,marketDistance,Şehir
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Yeni Vilayet M Migros,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Çifte Minareseyhanadana,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Çifte Minareseyhanadana,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adana Türkmenbaşı Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Çifte Minareseyhanadana,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Adana Seyhan Kurtuluş,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Reşatbey Adana,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adana Türkmenbaşı Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Çifte Minareseyhanadana,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Çifte Minareseyhanadana,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Adana Pınarkent Süper,89.95,"89,95 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Yeni Vilayet M Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Adana Seyhan Ibo Osman,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Yeni Vilayet M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adana Türkmenbaşı Süper,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Adana Seyhan Ma Ersoy,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,ADANA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Ziyapaşa Adana,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,ADANA
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Ankara Sezenler,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Konurçankaya,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Konurçankaya,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Ankara Çankaya Esat Cad,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Reis Nohut 500 gr,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Ankara Çankaya Esat Cad,61.6,"123,20 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Konurçankaya,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Çankaya Merkez,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Ankara Çankaya Esat Cad,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Konurçankaya,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Ankara Tunalı Hılmı Cad Süper,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Konurçankaya,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Ankara Çankaya Esat Cad,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Ankara Çankaya Şılı Meydanı Mı,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Ziya Gökalp Ankara M Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Ankara Necatibey Market,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Ankara Kolej M Mıgros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Ankara Çankaya Şılı Meydanı Mı,58.45,"58,45 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Ankara Necatibey Market,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,ANKARA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Ankara Sezenler,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,ANKARA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Kızılsaray  Antalya,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Kızılsaray  Antalya,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Antalya Konyaaltı Caddesı Mını,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,ANTALYA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Kızılsaray  Antalya,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Muratpaşa Yenikapı,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Antalya Narencıye Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Kızılsaray  Antalya,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Kızılsaray  Antalya,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,ANTALYA
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Antalya Narencıye Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,ANTALYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Ismetpaşa Caddesi Muratpaşa Antalya,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,ANTALYA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Antalya Muratpaşa Yenigün,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Recep Peker Antalya M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Antalya Konyaaltı Caddesı Mını,58.45,"58,45 ₺/kg",23.05.2025 10:19,0,ANTALYA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Antalya Muratpaşa Yenigün,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,ANTALYA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Recep Peker Antalya M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,ANTALYA
+Nohut,Doyum Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,5m Aydın Kipa Avm,99.95,"99,95 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Cumhuriyet Efeler Aydın,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Güzelhisar  Aydın,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Güzelhisar  Aydın,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Aydın Mımar Sınan Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Güzelhisar  Aydın,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,5m Aydın Kipa Avm,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Aydın Mımar Sınan Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Güzelhisar  Aydın,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Güzelhisar  Aydın,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Aydın Mımar Sınan Süper,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",migros,5m Aydın Kipa Avm,195.95,"391,90 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,5m Aydın Kipa Avm,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,AYDIN
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Istiklal Aydın M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Istiklal Aydın M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,AYDIN
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Balıkesir Eskiterminal M,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Anafartalar  Balıkesir,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Anafartalar  Balıkesir,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Balıkesır 2 Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Anafartalar  Balıkesir,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Balıkesir Anafartalar,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Anafartalar  Balıkesir,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Balıkesır 2 Süper,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Anafartalar  Balıkesir,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Balıkesır 2 Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Oruçgazi Karesi Balıkesir,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Balıkesir Altıeylül Soma,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,M life Bio Organik Nohut 1 kg,M Life,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Balıkesir Yeniyol,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Balıkesir Eskiterminal M,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Balıkesır 2 Süper,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Balıkesir Altıeylül Soma,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,BALIKESİR
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Nef Altıeylül Balıkesir,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,BALIKESİR
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Bursa Darmstad,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Ulucami  Osmangazi  Bursa,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Ulucami  Osmangazi  Bursa,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Bursa Heykel Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Ulucami  Osmangazi  Bursa,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Bursa Osmangazi Mağaz,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Zafer Plaza Bursa Mm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Bursa Heykel Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Ulucami  Osmangazi  Bursa,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Hasata Beyaz Nohut 1 kg,Hasata,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Bursa Maya Hıper,139.9,"139,90 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Bursa Heykel Süper,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Ulucami  Osmangazi  Bursa,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Bursa Heykel Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Bursa Maya Hıper,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Zafer Plaza Bursa Mm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",carrefour,Bursa Maya Hıper,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Bursa Millet Market,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Soğanlı Mah Bursa M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Bursa Heykel Süper,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Bursa Millet Market,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,BURSA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Bursa Darmstad,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,BURSA
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,5m Horizon Garden Avm Denizli,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,15 Mayıs Mah  Denizli,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,15 Mayıs Mah  Denizli,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Denızlı Ünıversıte Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,15 Mayıs Mah  Denizli,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Denizli Saltak Cadde,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Demokrasi Meydanı Denizli M,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Denızlı Ünıversıte Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,15 Mayıs Mah  Denizli,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Hasata Beyaz Nohut 1 kg,Hasata,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Denızlı Teras Park Hıper,139.9,"139,90 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Denızlı Servergazı Süper,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,15 Mayıs Mah  Denizli,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Denızlı Ünıversıte Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Denızlı Ünıversıte Süper,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",migros,5m Horizon Garden Avm Denizli,195.95,"391,90 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,15 Mayıs Mah Denizli,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,5m Horizon Garden Avm Denizli,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",carrefour,Denızlı Teras Park Hıper,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,M life Bio Organik Nohut 1 kg,M Life,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,5m Horizon Garden Avm Denizli,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,5m Horizon Garden Avm Denizli,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Denızlı Teras Park Hıper,109.0,"109,00 ₺/kg",23.05.2025 10:19,0,DENİZLİ
+Nohut,Nohut Koçbaşı 8.5 Mr. Muscle kg ( depo ),Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Denızlı Evora Süper,59.9,"59,90 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Demokrasi Meydanı Denizli M,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,DENİZLİ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Vilayet  Yenişehir  Diyarbakır,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Diyarbakır Balıkçılarbaşı,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Istasyon Caddiyarbakır Mm,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,DİYARBAKIR
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Vilayet  Yenişehir  Diyarbakır,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Vilayet  Yenişehir  Diyarbakır,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,DİYARBAKIR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Yenişehir Yenişehir Diyarbakır,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,DİYARBAKIR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Istasyon Caddiyarbakır Mm,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,DİYARBAKIR
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Diyarbakır Bağlar Mehmet Uzun,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Diyarbakır Mm Mıgros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Diyarbakır Bağlar Mehmet Uzun,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,DİYARBAKIR
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Diyarbakır Ofis,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,DİYARBAKIR
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Yakutiye  Erzurum,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Yakutiye  Erzurum,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Yakutiye  Erzurum,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Erzurum Pelit,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Sigorta Yakutiye Erzurum M,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Yakutiye  Erzurum,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Yakutiye  Erzurum,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,ERZURUM
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Er Konut  Erzurum Yakutiye Erzurum,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,ERZURUM
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Serracity Avm Erzurum M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,ERZURUM
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Serracity Avm Erzurum M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,ERZURUM
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Cengiz Topel Eskişehir M,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Hat Boyutepebaşıeskişehir,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Hat Boyutepebaşıeskişehir,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Eskışehır Yedıler Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Reis Nohut 500 gr,Reis,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Eskışehır Tepebaşı Güngören Bo,61.6,"123,20 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Hat Boyutepebaşıeskişehir,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Eskişehir Sıhhiye,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Espark Eskişehir Mmm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Eskışehır Neo Hıper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Hat Boyutepebaşıeskişehir,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Hat Boyutepebaşıeskişehir,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Eskışehır Yedıler Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Eskışehır Neo Hıper,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Sakarya Tepebaşı Eskişehir,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Espark Eskişehir Mmm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",carrefour,Eskışehır Neo Hıper,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Eskişehir Tepebaşı Market,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Cengiz Topel Eskişehir M,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Eskışehır Neo Hıper,109.0,"109,00 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Eskişehir Tepebaşı Market,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,ESKİŞEHİR
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Sıhhiye Meydanı Eskişehir,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,ESKİŞEHİR
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Sanko Park Avm Gaziantep Mmm,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,GAZİANTEP
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Şehitler  Gaziantep,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Şehitler  Gaziantep,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Arsbak Nohut 1 kg,Arsbak,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Sanko Park Avm Gaziantep Mmm,79.95,"79,95 ₺/kg",23.05.2025 10:19,0,GAZİANTEP
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Şehitler  Gaziantep,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Gaziantep Alleben,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Sanko Park Avm Gaziantep Mmm,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,GAZİANTEP
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Şehitler  Gaziantep,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Şehitler  Gaziantep,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,GAZİANTEP
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Sanko Park Avm Gaziantep Mmm,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,GAZİANTEP
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Gaziantep Şehitkamil Şirinevler,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Sanko Park Avm Gaziantep Mmm,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Gaziantep Şehitkamil Şirinevler,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,GAZİANTEP
+Nohut,Tarım Kredi Nohut 8.5 Mm 25 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Gaziantep Gross Market,1550.0,"62,00 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Bey Mahallesi Gaziantep,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,GAZİANTEP
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,HATAY
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,HATAY
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,100yıl  Kırıkhan  Hatay,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,HATAY
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Kırıkhan Feyzullah Kıyılı,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,HATAY
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,100yıl  Kırıkhan  Hatay,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,HATAY
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,100yıl  Kırıkhan  Hatay,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,HATAY
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Halil Efe Soytürk Kırıkhan Hatay,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,HATAY
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Hatay Kırıkhan Toki,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,HATAY
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Hatay Kırıkhan Toki,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,HATAY
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Cağaloğlu Istanbul,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sinanağafatih,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sinanağafatih,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Istanbul Fatıh Mını,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Nohut 1 kg Rençber,Rençber,"Konserveler Ve Çorbalar, Koçbaşı N, Koçbaşı Nohut",hakmar,Valide  Üsküdar,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sinanağafatih,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Mercan Mheminönü,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Ots Organik Nohut 750 gr,OTS,"Organik Bakliyat, Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat, Organi̇k Ve Özel Beslenme, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",carrefour,Istanbul Cıhangır Gurme,300.5,"400,67 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Istanbul Fatıh Mını,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Nohut Beyaz 1 kg Rençber,Rençber,"Un Ve Bakliyatlar, Beyaz Nohut, Beyaz Noh",hakmar,Valide  Üsküdar,89.75,"89,75 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sinanağafatih,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Hasata Beyaz Nohut 1 kg,Hasata,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Istanbul Cıhangır Gurme,192.5,"192,50 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sinanağafatih,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Istanbul Cıhangır Gurme,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Istanbul Fatıh Mını,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",carrefour,Istanbul Cıhangır Gurme,129.9,"129,90 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Istanbul Beyoğlu Piyalepaşa,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Istanbul Karaköy Mını,58.45,"58,45 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Istanbul Beyoğlu Piyalepaşa,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,İSTANBUL
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Kumkapı Istanbul,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,İSTANBUL
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Konak Hükümet Konağı M Migros,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Dere  Konak,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Dere  Konak,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Izmır Park Avm Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Dere  Konak,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Izmir Çankaya Gümrük,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Izmır Hatay Susuzdede Mını,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Dere  Konak,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Dere  Konak,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Izmır Park Avm Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Agora Konak Izmir,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,M life Bio Organik Nohut 1 kg,M Life,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Çankaya Izmir,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Konak Hükümet Konağı M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Izmır Hatay Susuzdede Mını,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,İZMİR
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Konak Hükümet Konağı M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,İZMİR
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Örnek  Kars,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Örnek  Kars,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Örnek  Kars,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Kars Mihralibey,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Ortakapı Kars Mm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,KARS
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Ortakapı Kars Mm Migros,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Örnek  Kars,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Örnek  Kars,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,KARS
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Paşayolu Sk Merkez Kars,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,KARS
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Ortakapı Kars Mm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,KARS
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kars Merkez Cumhuriyet,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Ortakapı Kars Mm Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kars Merkez Cumhuriyet,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,KARS
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Ortakapı Kars Mm Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,KARS
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Kastamonu Mm Migros,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Salı Pazarı  Kastamonu,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Salı Pazarı  Kastamonu,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Kastamonu Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Salı Pazarı  Kastamonu,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Kastamonu Pazaryeri,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Kastamonu Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Salı Pazarı  Kastamonu,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Salı Pazarı  Kastamonu,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Kastamonu Süper,89.95,"89,95 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Inönü Merkez Kastamonu,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Kastamonu Mm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kastamonu Merkez Rauf Denktaş,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Kastamonu Mm Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kastamonu Merkez Rauf Denktaş,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,KASTAMONU
+Nohut,Nohut Koçbaşı 8.5 Mr. Muscle kg ( depo ),Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Kastamonu Süper,59.9,"59,90 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Kastamall Avm Mm Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,KASTAMONU
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Gevher Nesibe  Kayseri,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Gevher Nesibe  Kayseri,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Migros Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Barbaros Mah Kayseri M,256.95,"51,39 ₺/kg",23.05.2025 10:19,0,KAYSERİ
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Gevher Nesibe  Kayseri,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Kayseri Yeni Mahalle,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Ahmet Paşa Caddesi Kayseri M,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,KAYSERİ
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Hunat  Mh Kayseri M Migros,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Gevher Nesibe  Kayseri,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Gevher Nesibe  Kayseri,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,KAYSERİ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Nil Cad Kocasinan Kayseri,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,KAYSERİ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Adliye Kayseri M Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,KAYSERİ
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Yakut Mh Kayseri M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,KAYSERİ
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Yakut Mh Kayseri M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,KAYSERİ
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Kocaeli Üniversitesi,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,KOCAELİ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Tüysüzler Izmit,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Tüysüzler Izmit,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Nohut 1 kg Rençber,Rençber,"Konserveler Ve Çorbalar, Koçbaşı N, Koçbaşı Nohut",hakmar,Seyyid  Izmit,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Tüysüzler Izmit,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Bağçeşme Devran Cadde,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Nohut Beyaz 1 kg Rençber,Rençber,"Un Ve Bakliyatlar, Beyaz Nohut, Beyaz Noh",hakmar,Seyyid  Izmit,89.75,"89,75 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Tüysüzler Izmit,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Tüysüzler Izmit,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,KOCAELİ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Arızlı Izmit Kocaeli,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,KOCAELİ
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kocaeli Yeşilova,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kocaeli Yeşilova,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,KOCAELİ
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Kocaeli Üniversitesi,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,KOCAELİ
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Yenişehir Konya M Migros,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Anıt  Konya,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Anıt  Konya,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Konya Kent Plaza Süper,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Migros Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Yenişehir Konya M Migros,256.95,"51,39 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Anıt  Konya,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Konya Alaaddin Bulvarı,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Meram Konya Mm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Konya Kent Plaza Süper,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Anıt  Konya,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Anıt  Konya,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Konya Kent Plaza Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Balık Hali Meram Konya,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Istasyon Konya M Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Konya Meram Abdürreşit,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,M life Bio Organik Nohut 1 kg,M Life,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Yeni Meram Cd Konya M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Istasyon Konya M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Konya Kent Plaza Süper,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Konya Meram Abdürreşit,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,KONYA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Istasyon Konya M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,KONYA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Barguzu  Yeşilyurt  Malatya,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Malatya Emeksiz,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Ekin Koçbaşı Nohut 1 kg,Ekin,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,5m Malatya Park,87.95,"87,95 ₺/kg",23.05.2025 10:19,0,MALATYA
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,5m Malatya Park,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Barguzu  Yeşilyurt  Malatya,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Barguzu  Yeşilyurt  Malatya,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,MALATYA
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",migros,5m Malatya Park,195.95,"391,90 ₺/kg",23.05.2025 10:19,0,MALATYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Melekbaba Yeşilyurt Malatya,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,MALATYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Turgut Özal Bulvarı Malatya M,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,MALATYA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Malatya Yeşilyurt,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Turgut Özal Bulvarı Malatya M,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Malatya Yeşilyurt,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,MALATYA
+Nohut,Tarım Kredi Nohut 9 Mm 2.5 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Malatya Cirikpınar,159.5,"63,80 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Turgut Özal Bulvarı Malatya M,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,MALATYA
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Manisa Anafartalar,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,MANİSA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Ardamanisa,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Ardamanisa,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Manısa Yunus Emre Prıme Mall,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,MANİSA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Ardamanisa,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Manisa Sevgiyolu,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Manısa Yunus Emre Prıme Mall,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Ardamanisa,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Manısa Yunus Emre Prıme Mall,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Ardamanisa,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,MANİSA
+Nohut,M life Bio Organik Nohut 1 kg,M Life,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Manisa Anafartalar,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,MANİSA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Manisa Mağazası,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Nohut Koçbaşı 8.5 Mr. Muscle kg ( depo ),Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Manısa Yunus Emre Prıme Mall,59.9,"59,90 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Manisa Anafartalar,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,MANİSA
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Oniki Şubat Kahramanmaraş Mm,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,KAHRAMANMARAŞ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Divanlı  Kmaraş,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Divanlı  Kmaraş,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Divanlı  Kmaraş,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Kmaraş Yeni Sarayaltı,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Divanlı  Kmaraş,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Divanlı  Kmaraş,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,KAHRAMANMARAŞ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Pınarbaşı Dulkadiroğlu Kahramanmaraş,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,KAHRAMANMARAŞ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Oniki Şubat Kahramanmaraş Mm,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,KAHRAMANMARAŞ
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Oniki Şubat Kahramanmaraş Mm,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Kahramanmaraş Onikişubat Ismet Karaokur,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,KAHRAMANMARAŞ
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Oniki Şubat Kahramanmaraş Mm,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,KAHRAMANMARAŞ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Dibek  Artuklu  Mardin,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Dibek  Artuklu  Mardin,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Dibek  Artuklu  Mardin,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Mardin Keyfi Seyran,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mardin Mm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,MARDİN
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Dibek  Artuklu  Mardin,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Dibek  Artuklu  Mardin,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,MARDİN
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Mardin Merkez Mardin,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,MARDİN
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,13 Mart Mardin M Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,MARDİN
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Mardin Artuklu 13 Mart,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Mardian Mall Mardin Mm,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Mardin Artuklu 13 Mart,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,MARDİN
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mardian Mall Mardin Mm,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,MARDİN
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Adapazarı Erenler Mm Migros,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Mithatpaşaserdivansakarya,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Mithatpaşaserdivansakarya,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adapazarı Serdıvan Cadde 54 Sü,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Nohut 1 kg Rençber,Rençber,"Konserveler Ve Çorbalar, Koçbaşı N, Koçbaşı Nohut",hakmar,Adakuleadapazarı,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Mithatpaşaserdivansakarya,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Serdivan Altınova,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Adapazarı Erenler Mm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adapazarı Serdıvan Cadde 54 Sü,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Nohut Beyaz 1 kg Rençber,Rençber,"Un Ve Bakliyatlar, Beyaz Nohut, Beyaz Noh",hakmar,Adakuleadapazarı,89.75,"89,75 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Mithatpaşaserdivansakarya,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Hasata Beyaz Nohut 1 kg,Hasata,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adapazarı Adacenter Hıper,139.9,"139,90 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Adapazarı Serdıvan Cadde 54 Sü,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Mithatpaşaserdivansakarya,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Adapazarı Serdıvan Cadde 54 Sü,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Adapazarı Serdıvan Cadde 54 Sü,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Orman Park Adapazarı Sakarya,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Adapazarı Erenler Mm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",carrefour,Adapazarı Adacenter Hıper,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Sakarya Hızırtepe,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Adapazarı Erenler Mm Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Adapazarı Adacenter Hıper,109.0,"109,00 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Sakarya Hızırtepe,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,SAKARYA
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Adapazarı Erenler Mm Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,SAKARYA
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Samsun Gazi,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Yüzüncüyıl  Ilkadım  Samsun,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Yüzüncüyıl  Ilkadım  Samsun,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Samsun Atakent Bulvarı Süper,51.75,"51,75 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Yüzüncüyıl  Ilkadım  Samsun,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Samsun Hançerli,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Demirhan Koçbaşı Nohut 1 kg,Demirhan,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Cumhuriyet Meydanı Samsun M,84.95,"84,95 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Samsun Adalet Süper,84.5,"84,50 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Yüzüncüyıl  Ilkadım  Samsun,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Samsun Atakum Süper,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Yüzüncüyıl  Ilkadım  Samsun,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Samsun Gürbüz,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Samsun Ilkadım Selahiye,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Cumhuriyet Meydanı Samsun M,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Samsun Atakum Süper,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Samsun Ilkadım Selahiye,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,SAMSUN
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Cumhuriyet Meydanı Samsun M,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,SAMSUN
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Kepeneksivas,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Kepeneksivas,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Kepeneksivas,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Sivas Mşehit Akyüz,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Doyum Organik Nohut 1 kg,Doyum,"Bakliyat Bulgur Pirinç Şeker, Bakliyat, Sağlıklı Yaşam Ürünleri, Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Sivas Park Mm Migros,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,SİVAS
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Aşık Veysel Blv Sivas M Migros,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Kepeneksivas,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Kepeneksivas,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,SİVAS
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Hikmet Işık Merkez Sivas,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,SİVAS
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Sivas Mmm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,SİVAS
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Sivas Merkez Aşık Veysel,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Bağdat Cd Sivas M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Sivas Merkez Aşık Veysel,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,SİVAS
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Bağdat Cd Sivas M Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,SİVAS
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Çiftlikönü S Paşa Tekirdağ M,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sigortasüleymanpaşatekirdağ,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sigortasüleymanpaşatekirdağ,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Tekırdağ Değırmenaltı Mını,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sigortasüleymanpaşatekirdağ,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Tekirdağ 3 Mağazası,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sigortasüleymanpaşatekirdağ,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Hasata Beyaz Nohut 1 kg,Hasata,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Tekırdağ Eroğlu Hıper,139.9,"139,90 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sigortasüleymanpaşatekirdağ,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Tekırdağ Değırmenaltı Mını,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Reis Royal Beyaz Nohut 500 gr,Reis,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakli̇yat, Çorba Ve Bakli̇yatlar, Nohut, Kuru Baklıyatlar",carrefour,Tekırdağ Eroğlu Hıper,89.2,"178,40 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Ortacami Süleymanpaşa Tekirdağ,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",carrefour,Tekırdağ Eroğlu Hıper,124.95,"124,95 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Tekirdağ Süleymanpaşa Gündoğdu,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,M life Bio Organik Nohut 1 kg,M Life,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Atatürk Mh Tekirdağ,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Çiftlikönü S Paşa Tekirdağ M,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Tekırdağ Eroğlu Hıper,109.0,"109,00 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Tekirdağ Süleymanpaşa Gündoğdu,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,TEKİRDAĞ
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Çiftlikönü S Paşa Tekirdağ M,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,TEKİRDAĞ
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Meydan  Trabzon,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Meydan  Trabzon,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Trabzon Vardarlar Süper,51.75,"51,75 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Meydan  Trabzon,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Trabzon Çukurçayır,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Trabzon Vardarlar Süper,84.5,"84,50 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Meydan  Trabzon,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Trabzon Vardarlar Süper,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Meydan  Trabzon,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Trabzon Vardarlar Süper,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Boztepe Mah Ortahisar Trabzon,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Çukurçayır Trabzon M Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Trabzon Ortahisar Bahçecik,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Çukurçayır Trabzon M Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Trabzon Vardarlar Süper,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Trabzon Ortahisar Bahçecik,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,TRABZON
+Nohut,Nohut Koçbaşı 8.5 Mr. Muscle kg ( depo ),Markasız,"Çarsı, Baklıyat, Taze Gıdalar, Meyve Ve Sebze",carrefour,Trabzon,59.9,"59,90 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Yavuz Selim Blv Trabzon,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,TRABZON
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sıhke  Van,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sıhke  Van,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Migros Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Kurtuluş Van Mm Migros,256.95,"51,39 ₺/kg",23.05.2025 10:19,0,VAN
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sıhke  Van,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Van Ilk Adım,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Kurtuluş Van Mm Migros,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sıhke  Van,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sıhke  Van,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,VAN
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Bulvar Van,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,VAN
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Van Iki Nisan Mm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,VAN
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Van Ipekyolu 2 Nisan,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Van Iki Nisan Mm Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Van Ipekyolu 2 Nisan,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,VAN
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Van Iki Nisan Mm Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,VAN
+Nohut,Migros Nohut 1 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Mjet Zonguldak Üniversite,54.95,"54,95 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,467evlerzonguldak,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,467evlerzonguldak,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Zonguldak Demırpark Avm,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,467evlerzonguldak,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Rüzgarlımeşe Anıl Sitesi,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Carrefour Beyaz Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Zonguldak Demırpark Avm,87.5,"87,50 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,467evlerzonguldak,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Sade Organik Nohut 1 kg,Sade,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Zonguldak Demırpark Avm,129.2,"129,20 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,467evlerzonguldak,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Zonguldak Demırpark Avm,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Sera Merkez Zonguldak,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Zonguldak Migros Mm,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Zonguldak Kozlu Güney,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Zonguldak Migros Mm,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Duru Koçbaşı Nohut 8 M 1 kg,Duru,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Zonguldak Demırpark Avm,110.0,"110,00 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Zonguldak Kozlu Güney,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,ZONGULDAK
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Mjet Hastane Zonguldak,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,ZONGULDAK
+Nohut,Nohut 2.5 kg Saban,Saban,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sebilaksaray,125.0,"50,00 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Nohut 1000 gr Bizebi,Bizebi,"1704-bakli̇yat Ve Unlu Mamuller, 170412-nohut, 17-grup Spot",bim,Sebilaksaray,29.75,"29.750,00 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Carrefour Nohut 1 kg,Carrefour,"Kuru Gıdalar, Gıda, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar",carrefour,Aksaray Merkez,54.5,"54,50 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,Migros Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Aksaray Taşpazarı Mm Migros,256.95,"51,39 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,Nohut 1000 Gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sebilaksaray,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Anadolu Mutfağı Nohut 1000 gr,Anadolu Mutfağı,"Bakliyat-bulgur-pirinç, Kuru Fasülye, Bakli̇yat",sok,Aksaray Fatih,54.5,"54,50 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Migros Koçbaşı Nohut 5 kg,Migros,"Pl Bakliyat Bulgur Pirinç, Pl Bakliyat Bulgur Pirinç Şeker, Pl Bakli̇yat, Pl Nohut",migros,Park Site Aksaray Mm Migros,256.95,"51,39 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Nohut Beyaz 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sebilaksaray,79.5,"79,50 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Yerli Nohut 9mm 1000 gr Saban,Saban,"040205-nohut, 04-bakliyat Ve Unlu Mamuller, 0402-bakli̇yat",bim,Sebilaksaray,65.0,"65.000,00 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,Carrefour Bio Organik nohut 1 kg,Carrefour,"Organik Bakliyat, Kuru Gıdalar, Gıda, Organi̇k Ve Özel Beslenme",carrefour,Aksaray Merkez,105.95,"105,95 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",a101,Kurtuluş Merkez Aksaray,69.5,"69,50 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,Hasata Kırşehir Koçbaşı Nohut 1 kg,Hasata,"Bakliyat Bulgur Pirinç Şeker, Kuru Gıdalar, Gıda, Bakliyat Bulgur Pirinç, Bakliyat, Bakli̇yat, Nohut, Çorba Ve Bakli̇yatlar, Kuru Baklıyatlar, Bakli̇yat Ve Kuru Gıdalar",migros,Park Site Aksaray Mm Migros,119.95,"119,95 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,Tarım Kredi Anadolu Nohut 1 Kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Aksaray Merkez Fatih,49.9,"49,90 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Yayla Koçbaşı Nohut ( iri Boy ) 1 kg,Yayla,"Bakliyat Bulgur Pirinç Şeker, Bakliyat Bulgur Pirinç, Bakli̇yat, Nohut",migros,Park Site Aksaray Mm Migros,89.95,"89,95 ₺/kg",23.05.2025 10:20,0,AKSARAY
+Nohut,Tarım Kredi Nohut 9 Mm 1 kg,Tarım Kredi,"Gıda, Temel Gıda Ürünleri, Bakli̇yat, Nohut",tarim_kredi,Aksaray Merkez Fatih,65.5,"65,50 ₺/kg",23.05.2025 10:19,0,AKSARAY
+Nohut,M life Bio Organik Nohut 1 kg (pl1),Mlıfe,"Pl Bakliyat, Pl Bakliyat Bulgur Pirinç Şeker, Pl Sağlıklı Yaşam Ürünleri, Pl Ekoloji̇k Bi̇yoloji̇k Ürün",migros,Park Site Aksaray Mm Migros,105.95,"105,95 ₺/kg",23.05.2025 10:20,0,AKSARAY
