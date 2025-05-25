@@ -6,11 +6,12 @@ st.set_page_config(layout="wide")
 
 # Verileri oku
 df = pd.read_csv("marketli.csv", index_col=0)
+df=df[(df["Şehir"]=="Türkiye") | (df["Şehir"]=="İSTANBUL")]
 df1 = pd.read_csv("C:/Users/Bora/Documents/GitHub/web-tufe/deneme3.csv", index_col=0)
 df1=df1.rename(columns={"Ürün Adı":"Ürün"})
 # En az 3 geçerli fiyatı olan ürünleri filtrele
-df = df[df.iloc[:, -16:].notna().sum(axis=1) >= 3]
-df1 = df1[df1.iloc[:, -8:].notna().sum(axis=1) > 1]
+df = df[df.iloc[:, -17:].notna().sum(axis=1) >= 4]
+df1 = df1[df1.iloc[:, -14:].notna().sum(axis=1) > 1]
 
 st.title("🛍️ Ürün Fiyat Takibi")
 
@@ -39,6 +40,11 @@ sonuclar = []
 if isinstance(df_kat, pd.Series):
     if veri_tipi=="Gıda Dışı":
         del df_kat["ID"]
+    else:
+        del df_kat["Şehir"]
+        
+    
+
     fiyatlar = df_kat.drop(labels=["Ürün", "Market", "Ürün Adı"], errors='ignore')
 
     ilk_tarih = fiyatlar.first_valid_index()
@@ -65,6 +71,8 @@ if isinstance(df_kat, pd.Series):
 else:
     if veri_tipi=="Gıda Dışı":
         del df_kat["ID"]
+    else:
+        del df_kat["Şehir"]
     fiyatlar = df_kat.drop(columns=["Ürün", "Market", "Ürün Adı"], errors='ignore')
     for i, (idx, satir) in enumerate(fiyatlar.iterrows()):
         urun = urun_adlari[i]
