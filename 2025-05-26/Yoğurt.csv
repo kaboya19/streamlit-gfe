@@ -1,0 +1,806 @@
+,name,brand,categories,marketName,depotName,price,unitPrice,updateDate,marketDistance,Şehir
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Çifte Minareseyhanadana,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,ADANA
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Yeni Vilayet M Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Yeni Vilayet M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Çifte Minareseyhanadana,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,ADANA
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Ziyapaşa Adana,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Adana Seyhan Kurtuluş,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Yenı Baraj Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Yenı Baraj Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Adana Seyhan Sular,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Yenı Baraj Süper,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Adana Seyhan Aski,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Seyhan Çınarlı,58.5,"78,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Türkmenbaşı Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Yeni Vilayet M Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Türkmenbaşı Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Türkmenbaşı Süper,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Türkmenbaşı Süper,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Seyhan Çınarlı,121.2,"134,67 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Yeni Vilayet M Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Adana Seyhan Sular,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Yenı Baraj Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Yeni Vilayet M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Seyhan Çınarlı,95.25,"95,25 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Adana Seyhan Sular,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,İçim Süzme Yoğurt 650 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adana Yenı Baraj Süper,99.95,"153,77 ₺/kg",26.05.2025 10:20,0,ADANA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Konurçankaya,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,ANKARA
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Ziya Gökalp Ankara M Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Ankara Kolej M Mıgros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Kebir Yoğurt 2000 gr,Kebir,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Tunalı Hılmı Cad Süper,115.1,"57,55 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Konurçankaya,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,ANKARA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Çankaya Merkez,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Cebecı Mını,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Çankaya Esat Cad,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Çankaya Merkez,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Çankaya Esat Cad,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Cebecı Mını,58.5,"78,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Cebecı Mını,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,İçim Süzme Yoğurt 900 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Hoşdere Süper Süper,134.95,"149,94 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Ankara Kolej M Mıgros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Çankaya Esat Cad,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Cebecı Mını,69.95,"139,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Ankara Sezenler,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Çankaya Esat Cad,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Çankaya Esat Cad,143.25,"159,17 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Eker Efsane Yoğurt 1250 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Hoşdere Süper Süper,93.95,"72,27 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Çankaya Merkez,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Cebecı Mını,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Ziya Gökalp Ankara M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Çankaya Esat Cad,58.95,"78,60 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Pınar Homojenize Yoğurt 150 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Ankara Hoşdere Süper Süper,22.25,"148,33 ₺/kg",26.05.2025 10:20,0,ANKARA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Kızılsaray  Antalya,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Yörükoğlu Yoğurt 1200 gr,Yörükoğlu,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Meydan Kavağı Süper,92.75,"77,29 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Recep Peker Antalya M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Kızılsaray  Antalya,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,ANTALYA
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Kaleiçi Antalya,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Muratpaşa Yenikapı,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Yörükoğlu Süzme Yoğurt 750 gr,Yörükoğlu,"Yoğurt, Süt Ve Sütlü Mamüller, Gıda, Self Servıs, Günlük, Süzme Yogurt",a101,Ismetpaşa Caddesi Muratpaşa Antalya,117.5,"156,67 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Yörükoğlu Süzme Yoğurt 750 gr,Yörükoğlu,"Yoğurt, Süt Ve Sütlü Mamüller, Gıda, Self Servıs, Günlük, Süzme Yogurt",carrefour,Antalya Konyaaltı Caddesı Mını,135.25,"180,33 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Narencıye Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Muratpaşa Yenikapı,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Antalya Subaşı,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Narencıye Süper,58.5,"78,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Kaleiçi Antalya,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Narencıye Süper,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Kaleiçi Antalya,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Etıler Süper,109.95,"122,17 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Muratpaşa Yenikapı,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Doğu Garajı Tic Merkezi Ant M,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Konyaaltı Caddesı Mını,58.95,"78,60 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Antalya Narencıye Süper,95.25,"95,25 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Güzelhisar  Aydın,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,AYDIN
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Aydın Kipa Avm,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Tire Yoğurt 1500 gr,Tire Süt Kooperatifi,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,151.5,"101,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sakıpağa Yoğurt 200 gr,Sakıpağa,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Aydın Kipa Avm,19.3,"96,50 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Istiklal Aydın M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Güzelhisar  Aydın,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,AYDIN
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,5m Aydın Kipa Avm,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Arslan Kaymaklı Yoğurt 900 gr,Arslan,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,5m Aydın Kipa Avm,99.0,"110,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Tire Kaymaklı Yoğurt 500 gr,Tire Süt Kooperatifi,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,55.5,"111,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Aydın Kipa Avm,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Istiklal Aydın M Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Istiklal Aydın M Migros,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,143.25,"159,17 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Aydın Kipa Avm,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Aydın Soğukkuyu,52.5,"52,50 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Istiklal Aydın M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Eker Kaymaklı Yoğurt 500 gr,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,5m Aydın Kipa Avm,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Yörüksüt Bıdon Yoğurt 2000 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aydın Mımar Sınan Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Istiklal Aydın M Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",migros,5m Aydın Kipa Avm,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,AYDIN
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Anafartalar  Balıkesir,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Salıpazarı Balıkesir M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Anafartalar  Balıkesir,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,BALIKESİR
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Balıkesir Eskiterminal M,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Balıkesir Anafartalar,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Balıkesir Anafartalar,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Balıkesir Eskiterminal M,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Nef Altıeylül Balıkesir,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,143.25,"159,17 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Balıkesir Anafartalar,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Balıkesir Eskiterminal M,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,47.95,"63,93 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Balıkesir Anafartalar,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Yörüksüt Bıdon Yoğurt 2000 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Balıkesir Eskiterminal M,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",sok,Balıkesir Anafartalar,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Yörüksüt Doğal Yoğurt 750 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,54.5,"72,67 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Yörüksüt Süzme Yoğurt 900 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,119.95,"133,28 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Yörüksüt Doğal Yoğurt 500 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Balıkesır 2 Süper,36.5,"73,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Balıkesir Eskiterminal M,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Balıkesir Altıeylül Soma,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Ulucami  Osmangazi  Bursa,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,BURSA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Soğanlı Mah Bursa M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Ulucami  Osmangazi  Bursa,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,BURSA
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Şehreküstü Bursa,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Bursa Osmangazi Mağaz,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Heykel Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Çilekli Yoğurt 65 gr,Eker,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,17.95,"276,15 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Heykel Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Bursa Osmangazi Mağaz,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Nılüfer Kanunı Cad Süpe,21.25,"317,16 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sek Süzme Yoğurt 400 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,59.95,"149,88 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,57.95,"77,27 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Heykel Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Zafer Plaza Bursa Mm Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Bursa Darmstad,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,31.95,"63,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,86.5,"173,00 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Bursa Darmstad,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,32.95,"94,14 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Nılüfer Kanunı Cad Süpe,121.2,"134,67 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Soğanlı Mah Bursa M Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Eker Efsane Yoğurt 1250 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Maya Hıper,78.95,"60,73 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Bursa Osmangazi Mağaz,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Bursa Heykel Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Zafer Plaza Bursa Mm Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,BURSA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,15 Mayıs Mah  Denizli,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Horizon Garden Avm Denizli,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sakıpağa Yoğurt 200 gr,Sakıpağa,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Demokrasi Meydanı Denizli M,19.3,"96,50 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Horizon Garden Avm Denizli,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,15 Mayıs Mah  Denizli,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,DENİZLİ
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,5m Horizon Garden Avm Denizli,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Denizli Saltak Cadde,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Evora Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Çilekli Yoğurt 65 gr,Eker,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Teras Park Hıper,17.95,"276,15 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Evora Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Denizli Saltak Cadde,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Ünıversıte Süper,18.94,"282,69 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Denizli 15 Mayıs Ds,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Teras Park Hıper,57.95,"77,27 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Ünıversıte Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Horizon Garden Avm Denizli,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,5m Horizon Garden Avm Denizli,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Teras Park Hıper,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Ünıversıte Süper,69.95,"139,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Horizon Garden Avm Denizli,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Teras Park Hıper,32.95,"94,14 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Sümer Tam Yağlı Yoğurt kg,Sümer,"Yoğurt, Peynir Günlük Servis Ve Katı Yağ, Süzme Ve Diğer Yoğurtlar, Yoğurt Servis",migros,5m Horizon Garden Avm Denizli,95.9,"95,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Teras Park Hıper,141.95,"157,72 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Demokrasi Meydanı Denizli M,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Eker Efsane Yoğurt 1250 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Denızlı Teras Park Hıper,93.95,"72,27 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Istasyon Caddiyarbakır Mm,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Istasyon Caddiyarbakır Mm,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Vilayet  Yenişehir  Diyarbakır,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,DİYARBAKIR
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Nctıy Avm Diyarbakır M,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Diyarbakır Balıkçılarbaşı,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Diyarbakır Balıkçılarbaşı,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Diyarbakır Stad,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Istasyon Caddiyarbakır Mm,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Diyarbakır Mm Mıgros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Diyarbakır Balıkçılarbaşı,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Diyarbakır Bağlar Mehmet Uzun,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Diyarbakır Mm Mıgros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Diyarbakır Balıkçılarbaşı,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Nctıy Avm Diyarbakır M,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Diyarbakır Bağlar Mehmet Uzun,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Süzme Yoğurt 375 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Diyarbakır Bağlar Mehmet Uzun,52.5,"140,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Diyarbakır Bağlar Mehmet Uzun,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Vilayet  Yenişehir  Diyarbakır,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,DİYARBAKIR
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Vilayet  Yenişehir  Diyarbakır,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Vilayet  Yenişehir  Diyarbakır,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,DİYARBAKIR
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,DİYARBAKIR
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Yakutiye  Erzurum,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Serracity Avm Erzurum M Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Yakutiye  Erzurum,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,ERZURUM
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Erzurum Pelit,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Erzurum Pelit,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Serracity Avm Erzurum M Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Erzurum Pelit,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Serracity Avm Erzurum M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Erzurum Pelit,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Serracity Avm Erzurum M Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Sütaş Süzme Yoğurt 375 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,52.5,"140,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Serracity Avm Erzurum M Migros,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Yakutiye  Erzurum,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,ERZURUM
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Yakutiye  Erzurum,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Yakutiye  Erzurum,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,ERZURUM
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Yakutiye  Erzurum,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,ERZURUM
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Yakutiye  Erzurum,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Yakutiye  Erzurum,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Yakutiye  Erzurum,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Yakutiye  Erzurum,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,"%0,6 Yağlı Yoğurt 3000 Gr Sek",Sek,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Yakutiye  Erzurum,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Mis Meyveli Yoğurt Çilek 500 Gr,Mis,"Yoğurt, Meyveli Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Meyveli̇ Yoğurt",sok,Erzurum Pelit,42.5,"85,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Kırmızı Meyveli Yoğurt 125 gr Danıssımo,Danissimo,"170225-meyveli Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Yakutiye  Erzurum,24.5,"24.500,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,İçim Yarım Yağlı Yoğurt 3000 Gr,Ülker,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",tarim_kredi,Erzurum Yakutiye Yoncalık,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Hat Boyutepebaşıeskişehir,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Espark Eskişehir Mmm Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Cengiz Topel Eskişehir M,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Hat Boyutepebaşıeskişehir,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,ESKİŞEHİR
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Cengiz Topel Eskişehir M,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Eskişehir Sıhhiye,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Yedıler Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Muttalıp Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sek Çiftlik Yoğurt 750 gr,Sek,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Espark Eskişehir Mmm Migros,115.0,"153,33 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Eskişehir Sıhhiye,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Neo Hıper,25.0,"373,13 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sek Süzme Yoğurt 400 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Neo Hıper,59.95,"149,88 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Eskişehir Sıhhiye,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Muttalıp Süper,47.95,"63,93 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Borsa Caddesı Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,İçim Süzme Yoğurt 900 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Neo Hıper,134.95,"149,94 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Espark Eskişehir Mmm Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Sıhhiye Meydanı Eskişehir,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Muttalıp Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Muttalıp Süper,69.95,"139,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Sıhhiye Meydanı Eskişehir,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Neo Hıper,32.95,"94,14 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Muttalıp Süper,121.2,"134,67 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Espark Eskişehir Mmm Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Eker Efsane Yoğurt 1250 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Eskışehır Neo Hıper,78.95,"60,73 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Şehitler  Gaziantep,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Gaziantep Forum Mmm Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Sanko Park Avm Gaziantep Mmm,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Şehitler  Gaziantep,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,GAZİANTEP
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Bey Mahallesi Gaziantep,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Gaziantep Alleben,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Gaziantep Alleben,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Gaziantep Değirmiçem,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Sanko Park Avm Gaziantep Mmm,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Sanko Park Avm Gaziantep Mmm,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Sanko Park Avm Gaziantep Mmm,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Gaziantep Alleben,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Sanko Park Avm Gaziantep Mmm,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Gaziantep Karşıyaka,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Sanko Park Avm Gaziantep Mmm,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",migros,Gaziantep Forum Mmm Migros,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Gaziantep Gross Market,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Sanko Park Avm Gaziantep Mmm,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Gaziantep Şehitkamil Şirinevler,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Şehitler  Gaziantep,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,GAZİANTEP
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Şehitler  Gaziantep,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Şehitler  Gaziantep,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,GAZİANTEP
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Şehitler  Gaziantep,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,GAZİANTEP
+Yoğurt,Sek Ekşi Maya Yoğurt 750 gr,Sek,"Yoğurt, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli",migros,Gaziantep Forum Mmm Migros,69.95,"93,27 ₺/kg",26.05.2025 10:21,0,GAZİANTEP
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Şehitler  Gaziantep,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Şehitler  Gaziantep,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Şehitler  Gaziantep,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,HATAY
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,HATAY
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Hatay Kırıkhan Toki,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Hatay Kırıkhan Toki,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,HATAY
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,HATAY
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,HATAY
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,"%0,6 Yağlı Yoğurt 3000 Gr Sek",Sek,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Mis %1.8 Yağlı Yoğurt 2 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Sade Bidon Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,84.0,"42,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Mis Meyveli Yoğurt Çilek 500 Gr,Mis,"Yoğurt, Meyveli Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Meyveli̇ Yoğurt",sok,Kırıkhan Feyzullah Kıyılı,42.5,"85,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Kırmızı Meyveli Yoğurt 125 gr Danıssımo,Danissimo,"170225-meyveli Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,24.5,"24.500,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Tarım Kredi Tava Yoğurt 1000 Gr,Tarım Kredi,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Hatay Kırıkhan Toki,56.0,"56,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Yoğurt Yarım Yağlı 1500 Gr Dost,Dost,"020202-yarım Yağlı Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,49.0,"32,67 ₺/kg",26.05.2025 10:21,0,HATAY
+Yoğurt,Yoğurt Yarım Yağlı 2500 gr Dost,Dost,"020202-yarım Yağlı Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,89.5,"35,80 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Yoğurt Tava Kaymaklı 1500 Gr Dost,Dost,"020204-kaymaklı Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,100yıl  Kırıkhan  Hatay,84.5,"56,33 ₺/kg",26.05.2025 10:20,0,HATAY
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Sinanağafatih,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sinanağafatih,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,İSTANBUL
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Cağaloğlu Istanbul,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Mercan Mheminönü,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Eker Çilekli Yoğurt 65 gr,Eker,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,21.75,"334,62 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Fatıh Mını,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Mercan Mheminönü,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Karaköy Mını,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sek Süzme Yoğurt 400 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,62.25,"155,62 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sek Çiftlik Yoğurt 450 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,43.5,"96,67 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Cemberlıtas,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,60.25,"80,33 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Fatıh Mını,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,İçim Süzme Yoğurt 900 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,134.95,"149,94 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Kumkapı Istanbul,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Fatıh Mını,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Karaköy Mını,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Cağaloğlu Istanbul,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Fatıh Mını,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Karaköy Mını,109.95,"122,17 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Eker Efsane Yoğurt 1250 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Cıhangır Gurme,78.95,"60,73 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Mercan Mheminönü,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Fatıh Mını,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Istanbul Fatıh Mını,58.95,"78,60 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Dere  Konak,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sakıpağa Yoğurt 200 gr,Sakıpağa,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Eşrefpaşa Izmir,19.3,"96,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Dere  Konak,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,İZMİR
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Konak Hükümet Konağı M Migros,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Izmir Çankaya Gümrük,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Izmir Çankaya Gümrük,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Izmir Çankaya Gazi Bulvar,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Tire Kaymaklı Yoğurt 500 gr,Tire Süt Kooperatifi,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Karşıyaka Yalı Cad Mını,55.5,"111,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Konak Hükümet Konağı M Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Hatay Susuzdede Mını,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Gazi Bulvarı Konak Izmir,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sakıpağa Homojenize Yoğurt 750 gr,sakıpağa,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,58.5,"78,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,109.95,"122,17 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Izmir Çankaya Gümrük,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Konak Hükümet Konağı M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,58.95,"78,60 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Izmir Çankaya Gümrük,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,İçim Süzme Yoğurt 650 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Izmır Park Avm Süper,99.95,"153,77 ₺/kg",26.05.2025 10:20,0,İZMİR
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Örnek  Kars,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,KARS
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Karacaören Mh Kars M Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Örnek  Kars,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,KARS
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Kars Mihralibey,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Kars Mihralibey,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Kars Mihralibey,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Karacaören Mh Kars M Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Şehitler Kars M Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Ortakapı Kars Mm Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Kars Mihralibey,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Kars Merkez Cumhuriyet,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Ortakapı Kars Mm Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Kars Mihralibey,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Ortakapı Kars Mm Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Kars Merkez Cumhuriyet,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Ortakapı Kars Mm Migros,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Örnek  Kars,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,KARS
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Örnek  Kars,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Örnek  Kars,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,KARS
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Örnek  Kars,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,KARS
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Örnek  Kars,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Örnek  Kars,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Örnek  Kars,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Örnek  Kars,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,"%0,6 Yağlı Yoğurt 3000 Gr Sek",Sek,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Örnek  Kars,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Mis Meyveli Yoğurt Çilek 500 Gr,Mis,"Yoğurt, Meyveli Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Meyveli̇ Yoğurt",sok,Kars Şehitler Mgz,42.5,"85,00 ₺/kg",26.05.2025 10:20,0,KARS
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Salı Pazarı  Kastamonu,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Kastamonu Mm Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Salı Pazarı Kastamonu Mm,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Salı Pazarı  Kastamonu,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,KASTAMONU
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Kastamonu Mm Migros,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Kastamonu Pazaryeri,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Kastamonu Pazaryeri,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Arslan Kaymaklı Yoğurt 900 gr,Arslan,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Kastamall Avm Mm Migros,99.0,"110,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Kastamonu Mehmet Akif Ers,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Kastamonu Mm Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Arslan Süzme Yoğurt 400 gr,Arslan,"Yoğurt, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli",migros,Kastamall Avm Mm Migros,85.0,"212,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Kastamonu Mm Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,K Demircioğlu Cadkastamonu M,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Kastamonu Mm Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Kastamonu Merkez,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Kastamonu Mm Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Kastamonu Süper,47.95,"63,93 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Eker Kaymaklı Yoğurt 500 gr,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Salı Pazarı Kastamonu Mm,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Kastamonu Pazaryeri,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Gevher Nesibe  Kayseri,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Hunat  Mh Kayseri M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Gevher Nesibe  Kayseri,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Barbaros Mah Kayseri M,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Kayseri Yeni Mahalle,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Kayseri Yeni Mahalle,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Kayseri Emek,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Barbaros Mah Kayseri M,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Barbaros Mah Kayseri M,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Kayseri Yeni Mahalle,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Kayseri Yeni Mahalle,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Hunat  Mh Kayseri M Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",sok,Kayseri Yeni Mahalle,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Süzme Yoğurt 375 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,52.5,"140,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Yakut Mh Kayseri M Migros,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Kayseri Kocasinan Ahmet Paşa,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Gevher Nesibe  Kayseri,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Gevher Nesibe  Kayseri,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Gevher Nesibe  Kayseri,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Gevher Nesibe  Kayseri,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Yoğurt,Sek Ekşi Maya Yoğurt 750 gr,Sek,"Yoğurt, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli",migros,Hunat  Mh Kayseri M Migros,69.95,"93,27 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Gevher Nesibe  Kayseri,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Gevher Nesibe  Kayseri,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Gevher Nesibe  Kayseri,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Gevher Nesibe  Kayseri,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Tüysüzler Izmit,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Tüysüzler Izmit,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,KOCAELİ
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Kocaeli Üniversitesi,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Izmit Kuruçeşme Radar,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Bağçeşme Devran Cadde,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Izmit Tüysüzler Mahalle,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Kocaeli Üniversitesi,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Kocaeli Üniversitesi,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Bağçeşme Devran Cadde,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Bağçeşme Devran Cadde,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Kocaeli Yeşilova,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",hakmar,Seyyid  Izmit,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Mjet Tunç Park Kocaeli,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Kocaeli Yeşilova,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Tüysüzler Izmit,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,KOCAELİ
+Yoğurt,Yoğurt Meyveli 3x30g Hüptrik Sütaş,Sütaş,"Süt Ve Süt Ürünleri, Meyveli Yoğurtlar, Meyveli Y",hakmar,Seyyid  Izmit,12.0,"133,33 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Tüysüzler Izmit,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Tüysüzler Izmit,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,KOCAELİ
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Tüysüzler Izmit,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,KOCAELİ
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Tüysüzler Izmit,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Tüysüzler Izmit,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Tüysüzler Izmit,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Tüysüzler Izmit,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,"%0,6 Yağlı Yoğurt 3000 Gr Sek",Sek,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Tüysüzler Izmit,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Mis %1.8 Yağlı Yoğurt 2 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Sade Bidon Yoğurt",sok,Bağçeşme Devran Cadde,84.0,"42,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Mis Meyveli Yoğurt Çilek 500 Gr,Mis,"Yoğurt, Meyveli Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Meyveli̇ Yoğurt",sok,Bağçeşme Devran Cadde,42.5,"85,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Kırmızı Meyveli Yoğurt 125 gr Danıssımo,Danissimo,"170225-meyveli Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Tüysüzler Izmit,24.5,"24.500,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Anıt  Konya,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,KONYA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Yenişehir Konya M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Anıt  Konya,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,KONYA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Konya Alaaddin Bulvarı,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Konya Alaaddin Bulvarı,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Adapazarı Paye,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Meram Konya Mm Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,143.25,"159,17 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Ayca Süzme Yoğurt 850 gr,Ayca,"Yoğurt, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli",migros,Istasyon Konya M Migros,95.0,"111,76 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Konya Alaaddin Bulvarı,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Meram Konya Mm Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,58.95,"78,60 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,95.25,"95,25 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Konya Alaaddin Bulvarı,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,İçim Süzme Yoğurt 650 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Konya Kent Plaza Süper,91.95,"141,46 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Istasyon Konya M Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",sok,Konya Alaaddin Bulvarı,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Konya Meram Abdürreşit,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,MALATYA
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Malatya Park,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Cengiz Topel Cad Malatya M,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Barguzu  Yeşilyurt  Malatya,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,MALATYA
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Turgut Temelli Cd Malatya,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Malatya Emeksiz,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sek Çiftlik Yoğurt 750 gr,Sek,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Malatya Park,115.0,"153,33 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Malatya Emeksiz,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Malatya Ilyas Mah,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Malatya Park,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Turgut Özal Bulvarı Malatya M,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,5m Malatya Park,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Malatya Emeksiz,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Malatya Yeşilyurt,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Ismet Paşa Cad Malatya  M,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Malatya Emeksiz,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Cengiz Topel Cad Malatya M,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",migros,5m Malatya Park,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Malatya Battalgazi Taştepe,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Süzme Yoğurt 375 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Malatya Sancaktar,52.5,"140,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Cengiz Topel Cad Malatya M,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Malatya Sancaktar,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Barguzu  Yeşilyurt  Malatya,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,MALATYA
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Barguzu  Yeşilyurt  Malatya,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Barguzu  Yeşilyurt  Malatya,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,MALATYA
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,MALATYA
+Yoğurt,Sek Ekşi Maya Yoğurt 750 gr,Sek,"Yoğurt, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli",migros,5m Malatya Park,69.95,"93,27 ₺/kg",26.05.2025 10:21,0,MALATYA
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,MALATYA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Ardamanisa,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sakıpağa Yoğurt 200 gr,Sakıpağa,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Manisa Anafartalar,19.3,"96,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Ardamanisa,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,MANİSA
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Mjet Manisa Anafartalar,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Manisa Sevgiyolu,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Manisa Sevgiyolu,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Manisa Peker Mah,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,58.5,"78,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Manisa Anafartalar,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Manisa Anafartalar,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,143.25,"159,17 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Manisa Sevgiyolu,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Manisa Mağazası,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,95.25,"95,25 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Manisa Sevgiyolu,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Yörüksüt Bıdon Yoğurt 2000 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",sok,Manisa Sevgiyolu,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Yörüksüt Doğal Yoğurt 750 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,54.5,"72,67 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Yörüksüt Süzme Yoğurt 900 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,119.95,"133,28 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Yörüksüt Çömlek Yoğurt 700 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,109.95,"157,07 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Yörüksüt Doğal Yoğurt 500 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Manısa Yunus Emre Prıme Mall,36.5,"73,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Divanlı  Kmaraş,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Oniki Şubat Kahramanmaraş Mm,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Atürkeş Bulkmaraş M Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Divanlı  Kmaraş,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,KAHRAMANMARAŞ
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Oniki Şubat Kahramanmaraş Mm,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Kmaraş Yeni Sarayaltı,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Kmaraş Yeni Sarayaltı,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Kmaraş Yeni Sarayaltı,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Piazza Avm Kahramanmaraş Mmm,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Piazza Avm Kahramanmaraş Mmm,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Piazza Avm Kahramanmaraş Mmm,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Kmaraş Yeni Sarayaltı,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Oniki Şubat Kahramanmaraş Mm,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Eker Kaymaklı Yoğurt 500 gr,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Piazza Avm Kahramanmaraş Mmm,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Kmaraş Yeni Sarayaltı,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Piazza Avm Kahramanmaraş Mmm,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Kahramanmaraş Onikişubat Kadirpaşa,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Oniki Şubat Kahramanmaraş Mm,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Kahramanmaraş Mimar Sinan,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Divanlı  Kmaraş,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,KAHRAMANMARAŞ
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Divanlı  Kmaraş,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Divanlı  Kmaraş,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,KAHRAMANMARAŞ
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Divanlı  Kmaraş,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,KAHRAMANMARAŞ
+Yoğurt,Sek Ekşi Maya Yoğurt 750 gr,Sek,"Yoğurt, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli",migros,Piazza Avm Kahramanmaraş Mmm,69.95,"93,27 ₺/kg",26.05.2025 10:21,0,KAHRAMANMARAŞ
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Divanlı  Kmaraş,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Divanlı  Kmaraş,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Dibek  Artuklu  Mardin,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,MARDİN
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mardian Mall Mardin Mm,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Yalım Mh Artuklu Mardin M,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Dibek  Artuklu  Mardin,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,MARDİN
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Mardin Keyfi Seyran,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Mardin Keyfi Seyran,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Mardin Yenişehir,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mardin Mm Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mardian Mall Mardin Mm,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Yalım Mh Artuklu Mardin M,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Mardin Keyfi Seyran,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Mardin Artuklu 13 Mart,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mardian Mall Mardin Mm,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Mardin Keyfi Seyran,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,13 Mart Mardin M Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",migros,Mardin Mm Migros,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Mardin Artuklu 13 Mart,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Süzme Yoğurt 375 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Mardin Artuklu,52.5,"140,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Yalım Mh Artuklu Mardin M,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Mardin Artuklu 13 Mart,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Dibek  Artuklu  Mardin,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,MARDİN
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Dibek  Artuklu  Mardin,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Dibek  Artuklu  Mardin,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,MARDİN
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Dibek  Artuklu  Mardin,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,MARDİN
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Dibek  Artuklu  Mardin,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Dibek  Artuklu  Mardin,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Dibek  Artuklu  Mardin,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Dibek  Artuklu  Mardin,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,MARDİN
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Mithatpaşaserdivansakarya,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Altınova Sakarya Mmm Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Adapazarı Erenler Mm Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Mithatpaşaserdivansakarya,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,SAKARYA
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Adapazarı Erenler Mm Migros,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Serdivan Altınova,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Serdıvan Cadde 54 Sü,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Çilekli Yoğurt 65 gr,Eker,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,20.95,"322,31 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Serdıvan Cadde 54 Sü,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Serdivan Altınova,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,25.0,"373,13 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Sek Süzme Yoğurt 400 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,59.95,"149,88 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,57.95,"77,27 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Serdıvan Cadde 54 Sü,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Adapazarı Erenler Mm Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Adapazarı Erenler Mm Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,86.5,"173,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Adapazarı Erenler Mm Migros,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,32.95,"94,14 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,141.95,"157,72 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Altınova Sakarya Mmm Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Eker Efsane Yoğurt 1250 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Adacenter Hıper,78.95,"60,73 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Serdivan Altınova,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Adapazarı Serdıvan Cadde 54 Sü,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Yüzüncüyıl  Ilkadım  Samsun,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Kebir Yoğurt 2000 gr,Kebir,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Atakent Bulvarı Süper,115.1,"57,55 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Yüzüncüyıl  Ilkadım  Samsun,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,SAMSUN
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Samsun Hançerli,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Samsun Hançerli,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,21.25,"317,16 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Samsun Gazi,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Bulvar Samsun M Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Cumhuriyet Meydanı Samsun M,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Atakent Bulvarı Süper,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Atakum Süper,26.95,"77,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Tonya Kooperatifi Yoğurt 1750 gr,Koop,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Cumhuriyet Meydanı Samsun M,115.9,"64,39 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,121.2,"134,67 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Samsun Hançerli,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Atakum Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Samsun Ilkadım Dikmen,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Bulvar Samsun M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Atakum Süper,47.95,"63,93 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Atakum Süper,95.25,"95,25 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Samsun Hançerli,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,İçim Süzme Yoğurt 650 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,99.95,"153,77 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Yörüksüt Bıdon Yoğurt 2000 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Samsun Gürbüz,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Kepeneksivas,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,SİVAS
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Aşık Veysel Blv Sivas M Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Sivas Mmm Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Kepeneksivas,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,SİVAS
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Sivas Mşehit Akyüz,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Sivas Mşehit Akyüz,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Kaymaksız Yoğurt 200 Gr,Sütaş,"Yoğurt, Sade Bardak Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt",sok,Sivas Mşehit Akyüz,16.95,"84,75 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Aşık Veysel Blv Sivas M Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Sivas Mmm Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Sivas Mmm Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Sivas Mşehit Akyüz,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Sivas Merkez Aşık Veysel,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Bağdat Cd Sivas M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Eker Kaymaklı Yoğurt 500 gr,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Sivas Mmm Migros,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Sivas Mşehit Akyüz,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Sivas Mmm Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",migros,Sivas Mmm Migros,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Sivas Merkez Aşık Veysel,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Bağdat Cd Sivas M Migros,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Sivas Merkez Aşık Veysel,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Kepeneksivas,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,SİVAS
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Kepeneksivas,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Kepeneksivas,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,SİVAS
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Kepeneksivas,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,SİVAS
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Kepeneksivas,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Kepeneksivas,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Kepeneksivas,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Kepeneksivas,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Sigortasüleymanpaşatekirdağ,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Çiftlikönü S Paşa Tekirdağ M,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sigortasüleymanpaşatekirdağ,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,TEKİRDAĞ
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Tekirdağ 3 Mağazası,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Değırmenaltı Mını,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Eker Çilekli Yoğurt 65 gr,Eker,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,17.95,"276,15 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Tekirdağ 3 Mağazası,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,25.0,"373,13 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,47.95,"63,93 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Değırmenaltı Mını,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,İçim Süzme Yoğurt 900 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,134.95,"149,94 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Çiftlikönü S Paşa Tekirdağ M,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,86.5,"173,00 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Çiftlikönü S Paşa Tekirdağ M,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Değırmenaltı Mını,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Değırmenaltı Mını,121.2,"134,67 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Çiftlikönü S Paşa Tekirdağ M,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Tekirdağ 3 Mağazası,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Değırmenaltı Mını,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Çiftlikönü S Paşa Tekirdağ M,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Değırmenaltı Mını,47.95,"63,93 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Pınar Homojenize Yoğurt 150 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Loft 282 Süper,22.25,"148,33 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Tekırdağ Eroğlu Hıper,94.5,"94,50 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Meydan  Trabzon,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,TRABZON
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Merkez Boztepe Trabzon M,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Kebir Yoğurt 2000 gr,Kebir,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon,115.1,"57,55 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Meydan  Trabzon,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,TRABZON
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Trabzon Çukurçayır,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Trabzon Taksim,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,48.5,"64,67 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Merkez Boztepe Trabzon M,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,69.95,"139,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Eker Efsane Yoğurt 350 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,33.25,"95,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Tonya Kooperatifi Yoğurt 1750 gr,Koop,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Yavuz Selim Blv Trabzon,115.9,"64,39 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,121.2,"134,67 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Trabzon Çukurçayır,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,İçim Doğal Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,49.95,"66,60 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Trabzon Ortahisar Bahçecik,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Merkez Boztepe Trabzon M,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,49.5,"66,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,95.25,"95,25 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Trabzon Çukurçayır,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Yörüksüt Bıdon Yoğurt 2000 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Trabzon Vardarlar Süper,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Çukurçayır Trabzon M Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Sıhke  Van,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,VAN
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Kurtuluş Van Mm Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Van Iki Nisan Mm Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sıhke  Van,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,VAN
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Van Ilk Adım,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Van Ilk Adım,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Kurtuluş Van Mm Migros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Van Ilk Adım,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",tarim_kredi,Van Ipekyolu 2 Nisan,78.5,"78,50 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Suvaroğlu Van M Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Van Ilk Adım,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Kurtuluş Van Mm Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Van Ipekyolu 2 Nisan,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Sütaş Süzme Yoğurt 375 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri",tarim_kredi,Van Ipekyolu 2 Nisan,52.5,"140,00 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Van Iki Nisan Mm Migros,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Van Ipekyolu Terzioğlu,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sıhke  Van,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,VAN
+Yoğurt,Yoğurt Homojenize 3000 Gr Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sıhke  Van,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Yoğurt Homojenize 500 Gr dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sıhke  Van,24.75,"49,50 ₺/kg",26.05.2025 10:21,0,VAN
+Yoğurt,%3 Yağlı Yoğurt 3000 gr Torku,Torku,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Sıhke  Van,119.0,"39,67 ₺/kg",26.05.2025 10:21,0,VAN
+Yoğurt,%3 Yağlı Yoğurt 3000 Gr Sek,Sek,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Sıhke  Van,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,3 kg Az Yağlı Yoğurt Yörükoğlu,Yörükoğlu,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Sıhke  Van,87.5,"29,17 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Az Yağlı Yoğurt 3 kg İçim,İçim,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Sıhke  Van,95.0,"31,67 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,3 kg Tam Yağlı Yoğurt İçim,İçim,"1702-sütlü Mamuller, 170206-yağlı Tam Yğl Yoğurt, 17-grup Spot",bim,Sıhke  Van,119.0,"39,67 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,"%0,6 Yağlı Yoğurt 3000 Gr Sek",Sek,"170208-az Yağlı Yoğurt, 1702-sütlü Mamuller, 17-grup Spot",bim,Sıhke  Van,99.5,"33,17 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Mis Meyveli Yoğurt Çilek 500 Gr,Mis,"Yoğurt, Meyveli Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Meyveli̇ Yoğurt",sok,Van Kurtoğlu,42.5,"85,00 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Pınar Denge Laktozsuz Yoğurt 750 gr,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Özel Yoğurtlar, Sağlık Yoğurtları",migros,Maraş Cad Van M Migros,64.95,"86,60 ₺/kg",26.05.2025 10:20,0,VAN
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,467evlerzonguldak,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Zonguldak Migros Mm,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Zonguldak Migros Mm,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,467evlerzonguldak,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,ZONGULDAK
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Zonguldak Migros Mm,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Rüzgarlımeşe Anıl Sitesi,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,İçim Doğal Yoğurt 1000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,59.95,"59,95 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Rüzgarlımeşe Anıl Sitesi,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Sek Yoğurt 750 gr Laktozsuz,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,58.5,"78,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Zonguldak Migros Mm,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Mjet Zonguldak Üniversite,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Sek Light Yoğurt 500 gr,Sek,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,37.9,"75,80 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Eker Süzme Yoğurt 500 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,87.25,"174,50 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Mjet Zonguldak Üniversite,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,109.95,"122,17 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Zonguldak Migros Mm,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Rüzgarlımeşe Anıl Sitesi,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Zonguldak Migros Mm,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,İçim Laktozsuz Yoğurt 750 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,58.95,"78,60 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Eker Kaymaklı Yoğurt 500 gr,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Zonguldak Migros Mm,37.5,"75,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Pınar Yoğurt Organik 1000 gr,Pınar,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Zonguldak Demırpark Avm,79.95,"79,95 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Rüzgarlımeşe Anıl Sitesi,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Yoğurt,Preo-yoğurt Probiyotik Yoğurt Mayası,Preo,"170211-probiyotik Yoğurtlar, 1702-sütlü Mamuller, 17-grup Spot",bim,Sebilaksaray,24.5,"4,90 ₺/adet",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Torku Yoğurt 1.5 kg,Torku,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Aksaray Taşpazarı Mm Migros,99.95,"66,63 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Pınar Yoğurt 2 kg,Pınar,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Park Site Aksaray Mm Migros,140.0,"70,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Yoğurt Homojenize 1500g Binvezir,Binvezir,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sebilaksaray,52.5,"35,00 ₺/kg",26.05.2025 10:21,0,AKSARAY
+Yoğurt,Migros Süzme Yoğurt 900 gr,Migros,"Pl Süzme Ve Diğer Yoğurtlar, Pl Süt Yoğurt Ve Günlük Paketli, Pl Yoğurt",migros,Aksaray Mm Mıgros,94.5,"105,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Mis Light Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Lıght Yoğurt",sok,Aksaray Fatih,35.9,"47,87 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,İçim Doğal Yoğurt 2000 gr,İçim,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Mis Süzme Yoğurt 900 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Süzme Yoğurt",sok,Aksaray Fatih,84.5,"93,89 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Hüpper Yoğurt Çilekli 67 gr,Danıno,"Meyveli Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,25.25,"376,87 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Eker Yoğurt Efsane 750 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,62.95,"83,93 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 600 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Park Site Aksaray Mm Migros,39.0,"65,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Kaymaklım Yoğurt 500 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Büyükbölcek Aksaray M Migros,54.95,"109,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Light Yoğurt 650 gr,Sütaş,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Aksaray Mm Mıgros,42.5,"65,38 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Eker Süzme Yoğurt 900 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,143.25,"159,17 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Eker Bidon Yoğurt 2 kg,Eker,"Yoğurt, Süt Yoğurt Ve Günlük Paketli, Sade Yoğurt",migros,Aksaray Mm Mıgros,115.95,"57,97 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Mis Kaymaklı Yoğurt 1 kg,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Kaymaklı Yoğurt",sok,Aksaray Fatih,57.95,"57,95 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Tava Yoğurt 1 kg,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süt Yoğurt Ve Günlük Paketli, Kaymaklı Yoğurt",migros,Park Site Aksaray Mm Migros,86.5,"86,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Mis Laktozsuz Yoğurt 750 Gr,Mis,"Yoğurt, Süt-yoğurt-günlük Paketli-katı Yağ, Sade Yoğurt, Laktozsuz Yoğurt",sok,Aksaray Fatih,39.5,"52,67 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Yörüksüt Bıdon Yoğurt 2000 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,99.95,"49,97 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Vivo Yoğurt Mayası 4x1 gr,Vivo,"Yoğurt, Yoğurt Mayası, Süt Yoğurt Ve Günlük Paketli",migros,Park Site Aksaray Mm Migros,59.0,"14.750,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",migros,Park Site Aksaray Mm Migros,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",sok,Aksaray Bahçeli,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Kaymaksız Yoğurt 1000 Gr,Sütaş,"Yoğurt, Sade Kase Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt-yoğurt-günlük Paketli-katı Yağ, Süt Ve Süt Ürünleri, Homojen Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Homojen Y, Sade Yoğurt",tarim_kredi,Aksaray Market,57.5,"57,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Eker Kaymaksız Yoğurt 2000 gr,Eker,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,94.46,"47,23 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Yörüksüt Doğal Yoğurt 500 gr,Yörüksüt,"Yoğurt, Gıda, Self Servıs, Günlük",carrefour,Aksaray Merkez,36.5,"73,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",migros,Aksaray Mm Mıgros,89.95,"119,93 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Sütaş Süzme Yoğurt 750 Gr,Sütaş,"Yoğurt, Gıda, Yoğurt-ayran-kefi̇r, Süt Ve Süt Ürünleri, Süzme Ve Diğer Yoğurtlar, Süt Yoğurt Ve Günlük Paketli, Süzme Yoğurt",tarim_kredi,Aksaray Merkez Fatih,99.5,"132,67 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Yoğurt,Yoğurt Homojenize 1.5 kg Dost,Dost,"020201-yağlı Tam Yğl Yoğurt, 02-sütlü Mamuller, 0202-sade Yoğurtlar",bim,Sebilaksaray,66.0,"44,00 ₺/kg",26.05.2025 10:21,0,AKSARAY

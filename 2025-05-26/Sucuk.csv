@@ -1,0 +1,781 @@
+,name,brand,categories,marketName,depotName,price,unitPrice,updateDate,marketDistance,Şehir
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Erşan Dana Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Cemalpaşa M Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Yeni Vilayet M Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Yeni Vilayet M Migros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Yeni Vilayet M Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Yeni Vilayet M Migros,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,ADANA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Çifte Minareseyhanadana,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Yeni Vilayet M Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Yeni Vilayet M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Polonez Kangal Sucuk 240 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Türkmenbaşı Süper,329.9,"1.374,58 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Türkmenbaşı Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Seyhan Çınarlı,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Yeni Vilayet M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Türkmenbaşı Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Türkmenbaşı Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Türkmenbaşı Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,ADANA
+Sucuk,Apikoğlu Dana Sucuk 100 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adana Yenı Baraj Süper,229.9,"2.299,00 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adana Türkmenbaşı Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Altındana Dana Barbekü Sucuk 300 gr,Altındana,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Yeni Vilayet M Migros,239.0,"796,67 ₺/kg",26.05.2025 10:21,0,ADANA
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Adana Seyhan Sular,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,ADANA
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Cebecı Mını,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,1259.9,"1.259,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ankara Kolej M Mıgros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ankara Kolej M Mıgros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Cumhuriyet Parmak Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ankara Kolej M Mıgros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Konurçankaya,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Ankara Kolej M Mıgros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Ankara Çankaya Esat Cad,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Ankara Çankaya Esat Cad,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Ankara Hoşdere Süper Süper,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Ankara Kolej M Mıgros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Ankara Cebecı Mını,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Ankara Çankaya Esat Cad,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Apikoğlu Klasik Fermente Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,2249.9,"2.249,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Ankara Çankaya Esat Cad,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,ANKARA
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Ankara Hoşdere Süper Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Çankaya Merkez,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Çankaya Merkez,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Konurçankaya,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,ANKARA
+Sucuk,Azizoğlu Kangal Sucuk,azizoglu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Konyaaltı Caddesı Mını,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Kızılsaray  Antalya,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Kaleiçi Antalya,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Konyaaltı Caddesı Mını,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Narencıye Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Konyaaltı Caddesı Mını,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Recep Peker Antalya M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Konyaaltı Caddesı Mını,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Narencıye Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Konyaaltı Caddesı Mını,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,ANTALYA
+Sucuk,Apikoğlu Dana Sucuk 100 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Antalya Konyaaltı Caddesı Mını,229.9,"2.299,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Antalya Narencıye Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kızılsaray  Antalya,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kızılsaray  Antalya,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Muratpaşa Yenikapı,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Recep Peker Antalya M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Doğu Garajı Tic Merkezi Ant M,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kızılsaray  Antalya,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kızılsaray  Antalya,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,ANTALYA
+Sucuk,Başyazıcı Kangal Sucuk kg,Başyazıcı,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1110.0,"1.110,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Erşan Dana Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Namet Parmak Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,İkbal Kangal Sucuk kg,İkbal,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1395.0,"1.395,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Cumhuriyet Parmak Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aydın Mımar Sınan Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aydın Mımar Sınan Süper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,AYDIN
+Sucuk,Polonez Dana & kuzu Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1499.0,"1.499,00 ₺/kg",26.05.2025 10:21,0,AYDIN
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Güzelhisar  Aydın,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,5m Aydın Kipa Avm,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aydın Mımar Sınan Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Namet Kangal Sucuk Acılı kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Aydın Kipa Avm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aydın Mımar Sınan Süper,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Istiklal Aydın M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aydın Mımar Sınan Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aydın Mımar Sınan Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,AYDIN
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aydın Mımar Sınan Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,AYDIN
+Sucuk,Altındana Dana Barbekü Sucuk 300 gr,Altındana,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,5m Aydın Kipa Avm,239.0,"796,67 ₺/kg",26.05.2025 10:21,0,AYDIN
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Balıkesır 2 Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Anafartalar  Balıkesir,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Balıkesır 2 Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Balıkesır 2 Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Salıpazarı Balıkesir M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Balıkesır 2 Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Balıkesır 2 Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Balıkesır 2 Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,BALIKESİR
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Anafartalar  Balıkesir,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Anafartalar  Balıkesir,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Erpiliç Piliç Baton Sucuk 300 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Balıkesir Anafartalar,49.5,"165,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Erpiliç Dilimli Piliç Sucuk 500 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Balıkesir Anafartalar,84.5,"169,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Balıkesir Anafartalar,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Erpiliç Piliç Kangal Sucuk 250 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Balıkesir Anafartalar,42.5,"170,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Anafartalar  Balıkesir,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Anafartalar  Balıkesir,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Nef Altıeylül Balıkesir,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Salıpazarı Balıkesir M Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Özlem Dana Kangal Sucuk 220 gr,Özlem,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,239.0,"1.086,36 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Balıkesir Eskiterminal M,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,BALIKESİR
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Apikoğlu Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Heykel Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Apikoğlu Parmak Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Heykel Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Heykel Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Namet Parmak Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Coşkun Çatal Sucuk,Coşkun,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,1079.9,"1.079,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Heykel Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Heykel Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,BURSA
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Bursa Maya Hıper,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Ulucami  Osmangazi  Bursa,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Bursa Darmstad,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Polonez Kangal Sucuk 240 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Kent Meydanı Süper,329.9,"1.374,58 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Namet Kangal Sucuk 240 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Maya Hıper,406.9,"1.695,42 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Apikoğlu Tavalık Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Maya Hıper,399.9,"1.999,50 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Maya Hıper,271.9,"1.359,50 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Heykel Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Heykel Süper,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mjet Bursa Darmstad,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Heykel Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Bursa Maya Hıper,380.0,"1.520,00 ₺/kg",26.05.2025 10:20,0,BURSA
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Apikoğlu Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Baton Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Evora Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Apikoğlu Parmak Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Evora Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Evora Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Evora Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Parmak Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Erşan Dana Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Horizon Garden Avm Denizli,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Parmak Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Demokrasi Meydanı Denizli M,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Horizon Garden Avm Denizli,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Demokrasi Meydanı Denizli M,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Demokrasi Meydanı Denizli M,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Demokrasi Meydanı Denizli M,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Evora Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,DENİZLİ
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Denızlı Teras Park Hıper,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Apikoğlu Sucuk 280 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Denızlı Acıpayam Blv Süper,540.5,"1.930,36 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,15 Mayıs Mah  Denizli,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Horizon Garden Avm Denizli,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,5m Horizon Garden Avm Denizli,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Namet Kangal Sucuk 240 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Denızlı Teras Park Hıper,406.9,"1.695,42 ₺/kg",26.05.2025 10:20,0,DENİZLİ
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Istasyon Caddiyarbakır Mm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Nctıy Avm Diyarbakır M,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Diyarbakır Mm Mıgros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mjet Diyarbakır Ofis,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Diyarbakır Mm Mıgros,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,DİYARBAKIR
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Vilayet  Yenişehir  Diyarbakır,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Diyarbakır Mm Mıgros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Diyarbakır Ofis,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Diyarbakır Mm Mıgros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Namet Kangal Sucuk Acılı kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Istasyon Caddiyarbakır Mm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Diyarbakır Mm Mıgros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Diyarbakır Balıkçılarbaşı,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Diyarbakır Mm Mıgros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Diyarbakır Mm Mıgros,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Vilayet  Yenişehir  Diyarbakır,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Diyarbakır Ofis,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Yenikapı Sur Diyarbakır,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Müslümoğlu Dana Baton Sucuk 380 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Diyarbakır Balıkçılarbaşı,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Istasyon Caddiyarbakır Mm,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Diyarbakır Ofis,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Istasyon Caddiyarbakır Mm,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Diyarbakır Mm Mıgros,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,DİYARBAKIR
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Yakutiye  Erzurum,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Serracity Avm Erzurum M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mjet Erzurum Paşalar,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yakutiye  Erzurum,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yakutiye  Erzurum,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Erpiliç Piliç Baton Sucuk 300 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Erzurum Pelit,49.5,"165,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Erpiliç Dilimli Piliç Sucuk 500 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Erzurum Pelit,84.5,"169,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Erzurum Pelit,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Erpiliç Piliç Kangal Sucuk 250 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Erzurum Pelit,42.5,"170,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yakutiye  Erzurum,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yakutiye  Erzurum,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Erzurum Paşalar,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Serracity Avm Erzurum M Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Serracity Avm Erzurum M Migros,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Serracity Avm Erzurum M Migros,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,Yakutiye  Erzurum,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Müslümoğlu Dana Kasap Sucuk 400 gr,Müslümoğlu,"Dana, Paket Sucuk, Et Şarküteri, Et şarküteri, Et Şarküteri Paket",migros,Serracity Avm Erzurum M Migros,219.0,"547,50 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Özlem Dana Dilimli Tavalık Sucuk 80 gr,Özlem,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kazım Karabekir Erzurum M,79.9,"998,75 ₺/kg",26.05.2025 10:21,0,ERZURUM
+Sucuk,Sucuk Dana Kangal I.i.g. 500 gr Beşler,Beşler,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yakutiye  Erzurum,195.0,"390,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Tarım Kredi Dana Gurme Sucuk 110 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,99.9,"908,18 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Özlem Tadımda Dana Kangal Sucuk 500 Gr,Özlem,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yakutiye  Erzurum,189.0,"378,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Erzurum Yakutiye Şükrüpaşa,99.9,"768,46 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Sultan Baton Sucuk Isıl İşlem 380 gr,Sultan,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Erzurum Pelit,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Sultan Kangal Sucuk Isıl İşlem 250 gr,Sultan,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Erzurum Pelit,135.0,"540,00 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Sultan Çatal Sucuk Isıl İşlem 450 gr,Sultan,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Erzurum Pelit,265.0,"588,89 ₺/kg",26.05.2025 10:20,0,ERZURUM
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Apikoğlu Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Namet Baton Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Yedıler Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Apikoğlu Parmak Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Muttalıp Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Muttalıp Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Muttalıp Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Namet Parmak Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Erşan Dana Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Espark Eskişehir Mmm Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Espark Eskişehir Mmm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Espark Eskişehir Mmm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Espark Eskişehir Mmm Migros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Cengiz Topel Eskişehir M,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Cumhuriyet Parmak Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Espark Eskişehir Mmm Migros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,ESKİŞEHİR
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Eskışehır Neo Hıper,1699.9,"1.699,90 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Hat Boyutepebaşıeskişehir,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Sıhhiye Meydanı Eskişehir,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Namet Kangal Sucuk 240 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Eskışehır Neo Hıper,406.9,"1.695,42 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Espark Eskişehir Mmm Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Apikoğlu Tavalık Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Eskışehır Neo Hıper,399.9,"1.999,50 ₺/kg",26.05.2025 10:20,0,ESKİŞEHİR
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sanko Park Avm Gaziantep Mmm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sanko Park Avm Gaziantep Mmm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Gaziantep Forum Mmm Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Gaziantep Forum Mmm Migros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sanko Park Avm Gaziantep Mmm,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sanko Park Avm Gaziantep Mmm,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,GAZİANTEP
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Şehitler  Gaziantep,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Bey Mahallesi Gaziantep,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sanko Park Avm Gaziantep Mmm,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Namet Kangal Sucuk Acılı kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sanko Park Avm Gaziantep Mmm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Sanko Park Avm Gaziantep Mmm,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Şehitler  Gaziantep,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Şehitler  Gaziantep,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Gaziantep Alleben,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sanko Park Avm Gaziantep Mmm,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sanko Park Avm Gaziantep Mmm,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Şehitler  Gaziantep,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Şehitler  Gaziantep,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sanko Park Avm Gaziantep Mmm,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Gaziantep Forum Mmm Migros,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Müslümoğlu Dana Baton Sucuk 380 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Gaziantep Alleben,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sanko Park Avm Gaziantep Mmm,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Gaziantep Forum Mmm Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Özlem Dana Kangal Sucuk 220 gr,Özlem,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Incilipınar Gaziantep M Migros,239.0,"1.086,36 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Sanko Park Avm Gaziantep Mmm,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,GAZİANTEP
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,100yıl  Kırıkhan  Hatay,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",sok,Kurtlusoğuksu Mah,349.0,"872,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,100yıl  Kırıkhan  Hatay,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Müslümoğlu Dana Kasap Sucuk 400 gr,Müslümoğlu,"Dana, Paket Sucuk, Et Şarküteri, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Karadurmuşlu,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Sucuk Dana Kangal I.i.g. 500 gr Beşler,Beşler,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,195.0,"390,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Tarım Kredi Dana Gurme Sucuk 110 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Hatay Kırıkhan Toki,99.9,"908,18 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Özlem Tadımda Dana Kangal Sucuk 500 Gr,Özlem,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,189.0,"378,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Hatay Kırıkhan Toki,99.9,"768,46 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Tarım Kredi Dana Kasap Sucuk 400 Gr,Tarım Kredi,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Hatay Kırıkhan Toki,249.0,"622,50 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Namet 7/24 Bir Tavalık Sucuk 80 Gr,Namet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,56.0,"700,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Lezzetlim Dana Baton Sucuk Isıl İşlem 380 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Mimar Sinan Toki,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Lezzetlim Dana Çatal Sucuk Isıl İşlem 450 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,265.0,"588,89 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Lezzetlim Dana Dilimli Isıl İşlem Kangal Sucuk 250,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,145.0,"725,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Isıl Işlem Görmüş Dana Kangal Sucuk 500 gr,Emin,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,100yıl  Kırıkhan  Hatay,199.0,"398,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Maret Enfes Dilimli Sucuk Isıl İşlem 250 gr,Maret,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Karadurmuşlu,145.0,"580,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Müslümoğlu Dana Kangal Sucuk Isıl İşlem 250 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kırıkhan Feyzullah Kıyılı,135.0,"540,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Tarım Kredi Küvet Fermente Dana Kangal Sucuk kg,Tarım Kredi,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Hatay Kırıkhan Toki,589.0,"589,00 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Müslümoğlu Dana Isıl İşlem Çatal Sucuk 450 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kurtlusoğuksu Mah,265.0,"588,89 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Tarım Kredi Fermente Dana Kangal Sucuk 180 Gr,Tarım Kredi,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Hatay Kırıkhan Toki,119.9,"666,11 ₺/kg",26.05.2025 10:20,0,HATAY
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Parmak Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Fümeci Baton Sucuk,Fümeci,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,2099.9,"2.099,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Coşkun Çatal Sucuk,Coşkun,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1079.9,"1.079,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Baton Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1899.9,"1.899,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Sucuk 280 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Taksım Asmalı Mescıt,540.5,"1.930,36 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Sinanağafatih,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Cağaloğlu Istanbul,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Polonez Kangal Sucuk 240 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Cıhangır Gurme,329.9,"1.374,58 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Namet Kangal Sucuk 240 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Cıhangır Gurme,423.25,"1.763,54 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Tavalık Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Taksım Asmalı Mescıt,403.9,"2.019,50 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Fatıh Mını,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Taksım Asmalı Mescıt,249.9,"1.249,50 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Fatıh Molla Güranı,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mjet Cağaloğlu Istanbul,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Fatıh Mını,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Karaköy Mını,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Apikoğlu Klasik Fermente Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,2249.9,"2.249,90 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Istanbul Fatıh Mını,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,İSTANBUL
+Sucuk,Fümeci Fermente Kangal Sucuk ( Katkısız ),Fümeci,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Istanbul Cıhangır Gurme,1463.92,"1.463,92 ₺/kg",26.05.2025 10:20,0,İSTANBUL
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Izmır Park Avm Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Izmır Park Avm Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Izmır Park Avm Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Izmır Park Avm Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Dere  Konak,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mjet Gazi Bulvarı Konak Izmir,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Izmır Park Avm Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,İZMİR
+Sucuk,Apikoğlu Dana Sucuk 100 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,229.9,"2.299,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Izmır Park Avm Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dere  Konak,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dere  Konak,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Izmir Çankaya Gümrük,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dere  Konak,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dere  Konak,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Gazi Bulvarı Konak Izmir,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Gazi Bulvarı Konak Izmir,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Gazi Bulvarı Konak Izmir,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Konak Hükümet Konağı M Migros,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Pınar Mangal Keyfi Sucuk 300 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Izmır Park Avm Süper,181.0,"603,33 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,Dere  Konak,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,İZMİR
+Sucuk,Namet Parmak Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ortakapı Kars Mm Migros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ortakapı Kars Mm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ortakapı Kars Mm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Örnek  Kars,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Ortakapı Kars Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Ortakapı Kars Mm Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Örnek  Kars,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Örnek  Kars,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Erpiliç Piliç Baton Sucuk 300 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Kars Mihralibey,49.5,"165,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Erpiliç Dilimli Piliç Sucuk 500 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Kars Mihralibey,84.5,"169,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kars Mihralibey,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Erpiliç Piliç Kangal Sucuk 250 Gr,Erpiliç,"Paket Sucuk, Et şarküteri, Piliç, Et Şarküteri Paket",sok,Kars Mihralibey,42.5,"170,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Ortakapı Kars Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Örnek  Kars,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Örnek  Kars,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Kale Kars M Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Kale Kars M Migros,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,Örnek  Kars,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Müslümoğlu Dana Kasap Sucuk 400 gr,Müslümoğlu,"Dana, Paket Sucuk, Et Şarküteri, Et şarküteri, Et Şarküteri Paket",migros,Karacaören Mh Kars M Migros,219.0,"547,50 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Özlem Dana Dilimli Tavalık Sucuk 80 gr,Özlem,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Karacaören Mh Kars M Migros,79.9,"998,75 ₺/kg",26.05.2025 10:21,0,KARS
+Sucuk,Sucuk Dana Kangal I.i.g. 500 gr Beşler,Beşler,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Örnek  Kars,195.0,"390,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Tarım Kredi Dana Gurme Sucuk 110 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Kars Merkez Cumhuriyet,99.9,"908,18 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Özlem Tadımda Dana Kangal Sucuk 500 Gr,Özlem,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Örnek  Kars,189.0,"378,00 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Tarım Kredi Ekmek Arası Sucuk 130 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Kars Merkez Cumhuriyet,99.9,"768,46 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Sultan Baton Sucuk Isıl İşlem 380 gr,Sultan,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kars Mihralibey,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,KARS
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Başyazıcı Kangal Sucuk kg,Başyazıcı,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Salı Pazarı Kastamonu Mm,1110.0,"1.110,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kastamonu Mm Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kastamonu Mm Migros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,KASTAMONU
+Sucuk,Polonez Dana & kuzu Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kastamall Avm Mm Migros,1499.0,"1.499,00 ₺/kg",26.05.2025 10:21,0,KASTAMONU
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Salı Pazarı  Kastamonu,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kastamall Avm Mm Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Kastamonu Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kastamall Avm Mm Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Kastamonu Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Kastamonu Mm Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Kastamonu Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Kastamonu Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Kastamonu Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,KASTAMONU
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Kastamonu Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Salı Pazarı  Kastamonu,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Salı Pazarı  Kastamonu,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kastamonu Pazaryeri,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Aytaç Evlik Dana Sucuk 400 gr,Aytaç,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kastamonu Pazaryeri,285.0,"712,50 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Kastamonu Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KASTAMONU
+Sucuk,Başyazıcı Kangal Sucuk kg,Başyazıcı,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Adliye Kayseri M Migros,1110.0,"1.110,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Adliye Kayseri M Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Hunat  Mh Kayseri M Migros,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Gevher Nesibe  Kayseri,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Adliye Kayseri M Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Yakut Mh Kayseri M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Hunat  Mh Kayseri M Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Hunat  Mh Kayseri M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kayseri Yeni Mahalle,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kayseri Yeni Mahalle,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Gevher Nesibe  Kayseri,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Gevher Nesibe  Kayseri,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kayseri Yeni Mahalle,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Hunat  Mh Kayseri M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Barbaros Mah Kayseri M,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Gevher Nesibe  Kayseri,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Gevher Nesibe  Kayseri,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Barbaros Mah Kayseri M,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Hunat  Mh Kayseri M Migros,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Yakut Mh Kayseri M Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Barbaros Mah Kayseri M,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Yakut Mh Kayseri M Migros,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,Gevher Nesibe  Kayseri,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Müslümoğlu Dana Kasap Sucuk 400 gr,Müslümoğlu,"Dana, Paket Sucuk, Et Şarküteri, Et şarküteri, Et Şarküteri Paket",migros,Yakut Mh Kayseri M Migros,219.0,"547,50 ₺/kg",26.05.2025 10:20,0,KAYSERİ
+Sucuk,Özlem Dana Dilimli Tavalık Sucuk 80 gr,Özlem,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Barbaros Mah Kayseri M,79.9,"998,75 ₺/kg",26.05.2025 10:21,0,KAYSERİ
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Tüysüzler Izmit,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Kocaeli Üniversitesi,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mjet Kocaeli Kabaoğlu,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Tüysüzler Izmit,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Tüysüzler Izmit,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Piliç 400 gr Hünkar Beşler,Beşler,"Tavuk Suc, Tavuk Sucuklar, Işlenmiş Etler",hakmar,Seyyid  Izmit,85.0,"212,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Bağçeşme Devran Cadde,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Piliç Baton 300 gr Banvit,Banvit,"Tavuk Suc, Tavuk Sucuklar, Işlenmiş Etler",hakmar,Seyyid  Izmit,49.5,"165,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Tüysüzler Izmit,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Tüysüzler Izmit,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Kocaeli Kabaoğlu,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Bağçeşme Kocaeli,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Bağçeşme Kocaeli,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Kocaeli Üniversitesi,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Kocaeli Üniversitesi,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,Tüysüzler Izmit,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",sok,Bağçeşme Devran Cadde,285.0,"712,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Müslümoğlu Dana Kasap Sucuk 400 gr,Müslümoğlu,"Dana, Paket Sucuk, Et Şarküteri, Et şarküteri, Et Şarküteri Paket",migros,Mjet Kocaeli Üniversitesi,219.0,"547,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Dana Baton 300 gr Namet,Namet,"Dana Sucuklar, Işlenmiş Etler, Dana Sucu",hakmar,Seyyid  Izmit,155.0,"516,67 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Dana Dilimli 250 gr Danet,Danet,"Dana Sucuklar, Işlenmiş Etler, Dana Sucu",hakmar,Seyyid  Izmit,139.0,"556,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Dana Kangal 250 gr Namet,Namet,"Dana Sucuklar, Işlenmiş Etler, Dana Sucu",hakmar,Seyyid  Izmit,135.0,"540,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Dana Dilimli 250 gr Namet,Namet,"Dana Sucuklar, Işlenmiş Etler, Dana Sucu",hakmar,Seyyid  Izmit,145.0,"580,00 ₺/kg",26.05.2025 10:21,0,KOCAELİ
+Sucuk,Sucuk Dana Kasap 400 gr Çapanoğlu,Çapanoğlu,"Dana Sucuklar, Işlenmiş Etler, Dana Sucu",hakmar,Seyyid  Izmit,259.0,"647,50 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sucuk Dana Parmak 500 gr Çapanoğlu,Çağanoğlu,"Dana Sucuklar, Işlenmiş Etler, Dana Sucu",hakmar,Seyyid  Izmit,285.0,"570,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Özlem Dana Dilimli Tavalık Sucuk 80 gr,Özlem,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mjet Bağçeşme Kocaeli,79.9,"998,75 ₺/kg",26.05.2025 10:21,0,KOCAELİ
+Sucuk,Sucuk Dana Kangal I.i.g. 500 gr Beşler,Beşler,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Tüysüzler Izmit,195.0,"390,00 ₺/kg",26.05.2025 10:20,0,KOCAELİ
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Meram Konya Mm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Istasyon Konya M Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,KONYA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Anıt  Konya,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",sok,Adapazarı Paye,349.0,"872,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Meram Konya Mm Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Istasyon Konya M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Istasyon Konya M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Erşan Fermente Kangal Sucuk Acılı,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,695.0,"695,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Apikoğlu Klasik Fermente Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,2249.9,"2.249,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,KONYA
+Sucuk,Apikoğlu Dana Sucuk 100 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Konya Kent Plaza Süper,229.9,"2.299,00 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Konya Kent Plaza Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,KONYA
+Sucuk,Başyazıcı Kangal Sucuk kg,Başyazıcı,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Malatya Park,1110.0,"1.110,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ismet Paşa Cad Malatya  M,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Ismet Paşa Cad Malatya  M,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,İkbal Kangal Sucuk kg,İkbal,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Malatya Park,1395.0,"1.395,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Malatya Park,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,5m Malatya Park,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Turgut Özal Bulvarı Malatya M,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Cengiz Topel Cad Malatya M,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,MALATYA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Barguzu  Yeşilyurt  Malatya,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Turgut Özal Bulvarı Malatya M,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Cengiz Topel Cad Malatya M,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Cengiz Topel Cad Malatya M,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Özlem Dana Sucuk Burger 130 gr,Özlem,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,5m Malatya Park,99.0,"761,54 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Malatya Emeksiz,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Aytaç Evlik Dana Sucuk 400 gr,Aytaç,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Malatya Emeksiz,285.0,"712,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Turgut Özal Bulvarı Malatya M,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Turgut Özal Bulvarı Malatya M,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Barguzu  Yeşilyurt  Malatya,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Turgut Özal Bulvarı Malatya M,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Turgut Özal Bulvarı Malatya M,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Müslümoğlu Dana Baton Sucuk 380 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Malatya Emeksiz,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Turgut Özal Bulvarı Malatya M,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,MALATYA
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Manısa Yunus Emre Prıme Mall,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Ardamanisa,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",sok,Manisa Sevgiyolu,349.0,"872,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Manisa Mağazası,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Manisa Mağazası,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,MANİSA
+Sucuk,Apikoğlu Dana Sucuk 100 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Manısa Yunus Emre Prıme Mall,229.9,"2.299,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Maret Geleneksel Kangal Sucuk kg,Maret,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Manısa Yunus Emre Prıme Mall,979.9,"979,90 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Manısa Yunus Emre Prıme Mall,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Ardamanisa,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Ardamanisa,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Manisa Sevgiyolu,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Manisa Mağazası,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Ardamanisa,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Ardamanisa,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Manisa Mağazası,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Manisa Anafartalar,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Sevgi Yolu Manisa,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Manisa Anafartalar,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Manisa Mağazası,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Manisa Anafartalar,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,MANİSA
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Piazza Avm Kahramanmaraş Mmm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Piazza Avm Kahramanmaraş Mmm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mjet Selçuklu Mh Kmaraş,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Piazza Avm Kahramanmaraş Mmm,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,KAHRAMANMARAŞ
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Divanlı  Kmaraş,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Oniki Şubat Kahramanmaraş Mm,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Oniki Şubat Kahramanmaraş Mm,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Piazza Avm Kahramanmaraş Mmm,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Oniki Şubat Kahramanmaraş Mm,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Divanlı  Kmaraş,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Divanlı  Kmaraş,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kmaraş Yeni Sarayaltı,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Piazza Avm Kahramanmaraş Mmm,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Oniki Şubat Kahramanmaraş Mm,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Divanlı  Kmaraş,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Divanlı  Kmaraş,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Oniki Şubat Kahramanmaraş Mm,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Selçuklu Mh Kmaraş,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Müslümoğlu Dana Baton Sucuk 380 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Kmaraş Yeni Sarayaltı,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Özlem Saraylı Dana Kangal Sucuk kg,Özlem,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Piazza Avm Kahramanmaraş Mmm,1020.0,"1.020,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Piazza Avm Kahramanmaraş Mmm,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Özlem Dana Kangal Sucuk 220 gr,Özlem,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Piazza Avm Kahramanmaraş Mmm,239.0,"1.086,36 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Piazza Avm Kahramanmaraş Mmm,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,İkbal Geleneksel Dana Sucuk 160 gr,İkbal,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Piazza Avm Kahramanmaraş Mmm,190.0,"1.187,50 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Oniki Şubat Kahramanmaraş Mm,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,KAHRAMANMARAŞ
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardian Mall Mardin Mm,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardian Mall Mardin Mm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardian Mall Mardin Mm,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardian Mall Mardin Mm,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,MARDİN
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Dibek  Artuklu  Mardin,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardian Mall Mardin Mm,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Namet Kangal Sucuk Acılı kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardian Mall Mardin Mm,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mardian Mall Mardin Mm,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Altındana Dana Barbekü Sucuk 300 gr,Altındana,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardin Mm Migros,239.0,"796,67 ₺/kg",26.05.2025 10:21,0,MARDİN
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dibek  Artuklu  Mardin,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dibek  Artuklu  Mardin,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Özlem Dana Sucuk Burger 130 gr,Özlem,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,99.0,"761,54 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Mardin Keyfi Seyran,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dibek  Artuklu  Mardin,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Dibek  Artuklu  Mardin,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Müslümoğlu Dana Baton Sucuk 380 gr,Müslümoğlu,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Mardin Keyfi Seyran,195.0,"513,16 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mardian Mall Mardin Mm,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Torku Isıl İşlem Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mardin Mm Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,MARDİN
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Apikoğlu Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Serdıvan Cadde 54 Sü,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Apikoğlu Parmak Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Serdıvan Cadde 54 Sü,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Serdıvan Cadde 54 Sü,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Parmak Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Başyazıcı Kangal Sucuk kg,Başyazıcı,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Altınova Sakarya Mmm Migros,1110.0,"1.110,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Parmak Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Altınova Sakarya Mmm Migros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Adapazarı Erenler Mm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Altınova Sakarya Mmm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Altınova Sakarya Mmm Migros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Adapazarı Erenler Mm Migros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Apikoğlu Kangal Sucuk kg,Apikoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Altınova Sakarya Mmm Migros,1599.0,"1.599,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Apikoğlu Parmak Sucuk kg,Apikoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Altınova Sakarya Mmm Migros,1599.0,"1.599,00 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Adacenter Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Adapazarı Serdıvan Cadde 54 Sü,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Mithatpaşaserdivansakarya,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Adapazarı Erenler Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Kangal Sucuk 240 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adapazarı Adacenter Hıper,406.9,"1.695,42 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adapazarı Adacenter Hıper,271.9,"1.359,50 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Adapazarı Serdıvan Cadde 54 Sü,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,SAKARYA
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Atakum Süper,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Yüzüncüyıl  Ilkadım  Samsun,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Cumhuriyet Meydanı Samsun M,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Atakent Bulvarı Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Gürbüz,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Gürbüz,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Cumhuriyet Meydanı Samsun M,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Gürbüz,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Gürbüz,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Erşan Fermente Kangal Sucuk Acılı,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Atakum Süper,695.0,"695,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Apikoğlu Klasik Fermente Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Atakum Süper,2249.9,"2.249,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Gürbüz,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,SAMSUN
+Sucuk,Apikoğlu Dana Sucuk 100 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Samsun Atakum Süper,229.9,"2.299,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Samsun Gürbüz,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Samsun Kadıköy Mgz,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Samsun Kadıköy Mgz,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yüzüncüyıl  Ilkadım  Samsun,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Yüzüncüyıl  Ilkadım  Samsun,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,SAMSUN
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aşık Veysel Blv Sivas M Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Şahin Kangal Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Park Mm Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Namet Kangal Sucuk kg,Namet,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aşık Veysel Blv Sivas M Migros,1179.0,"1.179,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Mmm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Mmm Migros,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Polonez Dana & kuzu Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Mmm Migros,1499.0,"1.499,00 ₺/kg",26.05.2025 10:21,0,SİVAS
+Sucuk,Müslümoğlu Dana Kangal Sucuk kg,Müslümoğlu,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Mmm Migros,699.0,"699,00 ₺/kg",26.05.2025 10:21,0,SİVAS
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Kepeneksivas,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",sok,Sivas Mşehit Akyüz,349.0,"872,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Mmm Migros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Bağdat Cd Sivas M Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Sivas Mmm Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Bağdat Cd Sivas M Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Sivas Mşehit Akyüz,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Sivas Mşehit Akyüz,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kepeneksivas,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kepeneksivas,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Sivas Mşehit Akyüz,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Aytaç Evlik Dana Sucuk 400 gr,Aytaç,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Sivas Vali Varinli,285.0,"712,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sivas Mmm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Bağdat Cd Sivas M Migros,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kepeneksivas,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Kepeneksivas,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sivas Mmm Migros,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Bağdat Cd Sivas M Migros,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Sivas Mmm Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,SİVAS
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Apikoğlu Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Namet Baton Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Apikoğlu Parmak Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1599.9,"1.599,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Loft 282 Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Namet Parmak Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Coşkun Çatal Sucuk,Coşkun,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1079.9,"1.079,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,TEKİRDAĞ
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Tekırdağ Eroğlu Hıper,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Sigortasüleymanpaşatekirdağ,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Beşler Çatal Sucuk 450 gr,Beşler,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Tekirdağ 3 Mağazası,265.0,"588,89 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Çiftlikönü S Paşa Tekirdağ M,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Namet Kangal Sucuk 240 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Tekırdağ Eroğlu Hıper,406.9,"1.695,42 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Apikoğlu Tavalık Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Tekırdağ Eroğlu Hıper,399.9,"1.999,50 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Tekırdağ Değırmenaltı Mını,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Tekırdağ Değırmenaltı Mını,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Tekırdağ Loft 282 Süper,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Çiftlikönü S Paşa Tekirdağ M,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Tekırdağ Değırmenaltı Mını,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,TEKİRDAĞ
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,TRABZON
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Meydan  Trabzon,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Beşler Çatal Sucuk 450 gr,Beşler,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Trabzon Taksim,265.0,"588,89 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Yavuz Selim Blv Trabzon,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Trabzon Vardarlar Süper,274.5,"1.372,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Trabzon Vardarlar Süper,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Trabzon Vardarlar Süper,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Merkez Boztepe Trabzon M,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Trabzon,229.9,"1.021,78 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Trabzon Vardarlar Süper,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Erşan Fermente Kangal Sucuk Acılı,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,695.0,"695,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Apikoğlu Klasik Fermente Kangal Sucuk,Apikoğlu,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,2249.9,"2.249,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Trabzon Vardarlar Süper,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,TRABZON
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Trabzon Vardarlar Süper,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Trabzon Çukurçayır,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Trabzon Çukurçayır,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Meydan  Trabzon,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Meydan  Trabzon,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,TRABZON
+Sucuk,Polonez Acılı Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Van Iki Nisan Mm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Sıhke  Van,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Kurtuluş Van Mm Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Van Iki Nisan Mm Migros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sıhke  Van,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sıhke  Van,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Özlem Dana Sucuk Burger 130 gr,Özlem,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,99.0,"761,54 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Cumhuriyet Dana Parmak Sucuk 300 gr,Cumhuriyet,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Van Ilk Adım,299.5,"998,33 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Torku Vakumlu Acılı Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Pınar İllaki Dana Sucuk 240 gr,Pınar,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Kurtuluş Van Mm Migros,325.0,"1.354,17 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Dana Balkan Sucuk 100 Gr Maret,Maret,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sıhke  Van,59.5,"59.500,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Namet Dana Kangal Sucuk 500 Gr,Namet ,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sıhke  Van,199.5,"399,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Erşan Dana Kasap Sucuk 300 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Gümüşyaka Van M Migros,245.0,"816,67 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Başyazıcı İnan Dana Sucuk 400 gr,Başyazıcı,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,289.0,"722,50 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Namet Dana Kasap Sucuk 250 gr,Namet,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,179.0,"716,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Erşan Vakumlu Kangal Sucuk 250 gr,Erşan,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Kurtuluş Van Mm Migros,250.0,"1.000,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Pınar Hindi Doyum Sucuk 225 gr,Pınar,"Et Şarküteri, Paket Sucuk, Hindi, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,110.0,"488,89 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Polonez Fermente Kangal Sucuk 200 gr,Polonez,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,225.0,"1.125,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Torku Isıl İşlem Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Van Iki Nisan Mm Migros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Sultan Dana Evlik Sucuk 400 gr,Sultan,"Dana, Paket Sucuk, 0103-sucuk, 01-etli Mamuller, 010301-sucuk Dana, Et şarküteri, Et Şarküteri Paket",bim,Sıhke  Van,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Müslümoğlu Dana Kasap Sucuk 400 gr,Müslümoğlu,"Dana, Paket Sucuk, Et Şarküteri, Et şarküteri, Et Şarküteri Paket",migros,Van Iki Nisan Mm Migros,219.0,"547,50 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Özlem Dana Dilimli Tavalık Sucuk 80 gr,Özlem,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Van Iki Nisan Mm Migros,79.9,"998,75 ₺/kg",26.05.2025 10:21,0,VAN
+Sucuk,Sucuk Dana Kangal I.i.g. 500 gr Beşler,Beşler,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sıhke  Van,195.0,"390,00 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Tarım Kredi Dana Gurme Sucuk 110 Gr,Tk,"Et-et Ürünleri-dondurulmuş Ürünler, İşlenmi̇ş Et Ürünleri̇, Et Ve Et Ürünleri, Sucuk",tarim_kredi,Van Ipekyolu 2 Nisan,99.9,"908,18 ₺/kg",26.05.2025 10:20,0,VAN
+Sucuk,Polonez Kasap Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,1299.9,"1.299,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Namet Parmak Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Polonez Kangal Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Zonguldak Migros Mm,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Şahin Parmak Sucuk kg,Şahin,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Mjet Zonguldak Üniversite,1250.0,"1.250,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Başyazıcı Fermente Evlik Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Başyazıcı Fermente Kangal Sucuk,Başyazıcı,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Namet Acılı Kakaolu Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Erşan Fermente Kangal Sucuk,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,695.0,"695,00 ₺/kg",26.05.2025 10:21,0,ZONGULDAK
+Sucuk,Polonez Dana Baton Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,1999.9,"1.999,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,467evlerzonguldak,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Mjet Zonguldak Üniversite,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Apikoğlu Parmak Sucuk 200 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Zonguldak Demırpark Avm,269.9,"1.349,50 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Apikoğlu Kangal Sucuk 210 gr,Apikoğlu,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Zonguldak Demırpark Avm,269.9,"1.285,24 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Mjet Zonguldak Üniversite,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Zonguldak Demırpark Avm,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Zonguldak Demırpark Avm,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Erşan Fermente Kangal Sucuk Acılı,Erşan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,695.0,"695,00 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Zonguldak Demırpark Avm,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,ZONGULDAK
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Zonguldak Demırpark Avm,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Rüzgarlımeşe Anıl Sitesi,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,ZONGULDAK
+Sucuk,Sultan Kangal Sucuk,Sultan,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aksaray Merkez,699.9,"699,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Namet Kangal Sucuk,Namet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aksaray Merkez,999.9,"999,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Cumhuriyet Parmak Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aksaray Merkez,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Cumhuriyet Kangal Sucuk,Cumhuriyet,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aksaray Merkez,1399.9,"1.399,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Erşan Dana Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aksaray Mm Mıgros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Cumhuriyet Kangal Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aksaray Mm Mıgros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Polonez Parmak Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Park Site Aksaray Mm Migros,1295.0,"1.295,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Cumhuriyet Parmak Sucuk kg,Cumhuriyet Sucukları,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aksaray Mm Mıgros,1390.0,"1.390,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Polonez Dana & kuzu Sucuk kg,Polonez,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Park Site Aksaray Mm Migros,1499.0,"1.499,00 ₺/kg",26.05.2025 10:21,0,AKSARAY
+Sucuk,Aytaç Dana Sucuk 400 gr,Aytaç,"Dana, 1701-etli̇ Mamuller, Paket Sucuk, 170119-sucuk Dana, 17-grup Spot, Et şarküteri, Et Şarküteri Paket",bim,Sebilaksaray,239.0,"597,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Erşan Dana Acılı Sucuk kg,Erşan,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aksaray Mm Mıgros,699.0,"699,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Torku Vakumlu Sucuk 225 gr,Torku,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Park Site Aksaray Mm Migros,325.0,"1.444,44 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Torku Acılı Kangal Sucuk kg,Torku,"Dana, Et Şarküteri, Servi̇s Sucuk, Et Şarküteri Servis",migros,Aksaray Mm Mıgros,850.0,"850,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Namet Kangal Sucuk 200 gr,Namet,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aksaray Merkez,238.25,"1.191,25 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Migros Dana Sucuk 250 gr,Migros,"Pl Paket Sucuk, Pl Dana, Pl Et Şarküteri Paket, Pl Et Şarküteri",migros,Aksaray Mm Mıgros,175.5,"702,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Pınar Klasik Sucuk 225 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aksaray Merkez,287.25,"1.276,67 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Pınar Gurme Sucuk 250 gr,Pınar,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aksaray Merkez,383.75,"1.535,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Polonez Dana Fermente Parmak Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aksaray Merkez,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Polonez Kangal Sucuk 180 gr,Polonez,"Gıda, Self Servıs, Paketli̇ Et Ürünleri̇, Sucuk",carrefour,Aksaray Merkez,179.9,"999,44 ₺/kg",26.05.2025 10:21,0,AKSARAY
+Sucuk,Polonez Dana Fermente Kangal Sucuk,Polonez,"Sarküterı, Taze Gıdalar, Et Ürünlerı, Sucuklar Kg",carrefour,Aksaray Merkez,1499.9,"1.499,90 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Altındana Dana Barbekü Sucuk 300 gr,Altındana,"Dana, Et Şarküteri, Paket Sucuk, Et Şarküteri Paket",migros,Aksaray Mm Mıgros,239.0,"796,67 ₺/kg",26.05.2025 10:21,0,AKSARAY
+Sucuk,Lezzetlim Dana Kasap Sucuk 400 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Aksaray Bahçeli,265.0,"662,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Lezzetlim Dana Evlik Sucuk 300 Gr,Lezzetlim ,"Dana, Paket Sucuk, Et şarküteri, Et Şarküteri Paket",sok,Aksaray Fatih,213.5,"711,67 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Sultan Dana Kangal Sucuk 400 Gr,Sultan,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sebilaksaray,205.0,"512,50 ₺/kg",26.05.2025 10:20,0,AKSARAY
+Sucuk,Sucuk Dana Kangal 500 gr Torku,Torku,"1701-etli̇ Mamuller, 170119-sucuk Dana, 17-grup Spot",bim,Sebilaksaray,209.0,"418,00 ₺/kg",26.05.2025 10:20,0,AKSARAY
