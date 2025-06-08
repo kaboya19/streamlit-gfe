@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 # Generate dates
-tarihler = pd.date_range(start="2024-01-01", end="2025-03-08", freq="D")
+tarihler = pd.date_range(start="2024-12-01", end="2025-03-08", freq="D")
 tarihler = tarihler.strftime("%d.%m.%Y").values
 
 async def fetch_data_for_date(tarih, browser):
